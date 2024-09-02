@@ -25,11 +25,6 @@ author:
     email: lars@eggert.org
     uri: https://eggert.org/
 -
-    name: Alissa Cooper
-    org: Knight-Georgetown Institute (KGI)
-    abbrev: KGI
-    email: alissa.cooper@georgetown.edu
--
     name: Jari Arkko
     org: Ericsson
     city: Kauniainen
@@ -385,6 +380,7 @@ This document has no IANA actions.
 
 These individuals suggested improvements to this document:
 
+- Alissa Cooper
 - Chris Box
 - Eric Rescorla
 - Jay Daley
