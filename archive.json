@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-09-01T00:24:16.177145+00:00",
+  "timestamp": "2024-09-03T00:19:41.143367+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -2910,6 +2910,34 @@
           "updatedAt": "2024-07-10T20:37:29Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 62,
+      "id": "PR_kwDOJrr8CM56JhWA",
+      "title": "Alissa asked to step down as a co-author",
+      "url": "https://github.com/larseggert/moderation/pull/62",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-09-02T11:18:50Z",
+      "updatedAt": "2024-09-02T11:19:15Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "54f1d26fea1fc343b129bcf61674028c2e74d6ff",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "cooper-out",
+      "headRefOid": "5ab7f8e070fdb39415ec4badb5082562595ba568",
+      "closedAt": "2024-09-02T11:19:14Z",
+      "mergedAt": "2024-09-02T11:19:14Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24"
+      },
+      "comments": [],
       "reviews": []
     }
   ]
