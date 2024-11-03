@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-31T00:21:50.469597+00:00",
+  "timestamp": "2024-11-03T00:23:44.813846+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -926,6 +926,22 @@
           "updatedAt": "2024-06-27T20:20:58Z"
         }
       ]
+    },
+    {
+      "number": 63,
+      "id": "I_kwDOJrr8CM6cyRo5",
+      "title": "Point to and summarize relevant material from `draft-perkins-irtf-code-of-conduct`",
+      "url": "https://github.com/larseggert/moderation/issues/63",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-11-02T12:14:09Z",
+      "updatedAt": "2024-11-02T12:14:09Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
