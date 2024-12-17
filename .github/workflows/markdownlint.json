@@ -1,11 +1,4 @@
 {
-  "default": true,
-  "MD024": {"siblings_only": true},
-  "MD025": false,
-  "MD029": {"style": "one_or_ordered" },
-  "MD031": false,
-  "MD033": false,
   "MD034": false,
-  "MD040": false,
   "MD041": false
 }
