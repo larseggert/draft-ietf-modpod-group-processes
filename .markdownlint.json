@@ -1,0 +1,3 @@
+{
+        "extends": ".github/workflows/markdownlint.json"
+}
