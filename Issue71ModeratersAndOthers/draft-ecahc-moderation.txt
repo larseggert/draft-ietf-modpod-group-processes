@@ -84,12 +84,11 @@ Table of Contents
                communications excluded
        4.2.2.  IETF Working Groups
      4.3.  Transparency
-     4.4.  Membership
-     4.5.  Training
-     4.6.  Appeals
-     4.7.  Team Diversity
-     4.8.  Relation to the Ombudsteam
-     4.9.  Relation to the IETF LLC
+     4.4.  Training
+     4.5.  Appeals
+     4.6.  Team Diversity
+     4.7.  Relation to the Ombudsteam
+     4.8.  Relation to the IETF LLC
    5.  Changes to Existing RFCs
    6.  Security Considerations
    7.  IANA Considerations
@@ -210,10 +209,23 @@ Table of Contents
 4.1.  Composition
 
    The moderator team will initially consist of no less than five
-   individuals who are appointed by the IESG.  In selecting members, the
-   IESG will take into account geographic coverage, expected and
-   unexpected absenses, and diverse points of view.  The moderation team
-   may expand or contract based on operational experience.
+   individuals.  The IETF Chair appoints and replaces members of the
+   moderator team.  In selecting members, the IETF Chair will take into
+   account geographic coverage, expected and unexpected absenses, and
+   diverse points of view.  The moderation team may expand or contract
+   based on operational experience.  Apart from appointing and replacing
+   moderators, the IETF Chair SHALL refrain from the day-to-day
+   operation and management of the moderator team.  The moderator team
+   MAY decide to consult with the IETF Chair when needed.
+
+   Because the IESG and IAB are in the appeals chain for moderator team
+   decisions (see Section 4.5), the IETF Chair MUST NOT appoint a
+   moderator who is serving on the IESG or IAB.  Individuals serving on
+   other bodies to which the NomCom appoints members, such as the IETF
+   Trust or the LLC Board, as well as LLC staff and contractors SHALL
+   also be excluded from serving on the moderator team.  If a moderator
+   is assuming any such role, they SHALL step down from the moderator
+   team soon after.
 
 4.2.  Scope
 
@@ -304,30 +316,13 @@ Table of Contents
    oriented discussion on other IETF lists, such meta-discussions SHOULD
    be actively redirected to the moderation discussion list.
 
-4.4.  Membership
-
-   The IETF Chair appoints and replaces members of the moderator team.
-   Apart from appointing and replacing moderators, the IETF Chair SHALL
-   refrain from the day-to-day operation and management of the moderator
-   team.  The moderator team MAY decide to consult with the IETF Chair
-   when needed.
-
-   Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.6), the IETF Chair MUST NOT appoint a
-   moderator who is serving on the IESG or IAB.  Individuals serving on
-   other bodies to which the NomCom appoints members, such as the IETF
-   Trust or the LLC Board, as well as LLC staff and contractors SHALL
-   also be excluded from serving on the moderator team.  If a moderator
-   is assuming any such role, they SHALL step down from the moderator
-   team soon after.
-
-4.5.  Training
+4.4.  Training
 
    The IETF is committed to providing and/or funding training for
    appointed moderators as necessary.  The IETF Chair will negotiate any
    required funding or resources with IETF Administration LLC [RFC8711].
 
-4.6.  Appeals
+4.5.  Appeals
 
    Because the moderator team serves at the discretion of the IETF
    Chair, any moderation decision can be appealed to the IETF Chair by
@@ -337,7 +332,7 @@ Table of Contents
    in [RFC2026], as with any other Area Director decision.  In this
    case, the appeals chain starts with an appeal to the entire IESG.
 
-4.7.  Team Diversity
+4.6.  Team Diversity
 
    Due to the global nature of the IETF, the membership of this team
    SHOULD reflect a diversity of time zones and other participant
@@ -349,7 +344,7 @@ Table of Contents
    problematic behavior can identify a moderator they feel comfortable
    contacting.
 
-4.8.  Relation to the Ombudsteam
+4.7.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -363,7 +358,7 @@ Table of Contents
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
 
-4.9.  Relation to the IETF LLC
+4.8.  Relation to the IETF LLC
 
    The Board of Directors of the IETF Administration LLC (IETF LLC) has
    fiduciary duty for the overall organization, which includes the duty
@@ -394,7 +389,7 @@ Table of Contents
 
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
-   process, per Section 4.6.
+   process, per Section 4.5.
 
    The actions of the moderation team are intended to limit the
    likelihood of disruptive behavior by a few IETF participants from
