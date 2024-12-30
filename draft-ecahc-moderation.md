@@ -270,11 +270,13 @@ create throw-away personas for such denial-of-service behavior.)
   processes and actions. Should this document define some boundaries
   for what the moderator team can do?
 
-The moderator team SHOULD create and maintain a public mailing list
-for the community to discuss both the general moderation criteria and
-individual moderation decisions. To not distract from the
-topic-oriented discussion on other IETF lists, such meta-discussions
-SHOULD be actively redirected to the moderation discussion list.
+The moderator team is responsible to the IESG.  The IESG MAY create or
+designate a forum to facilitate discussion about moderation, and refer
+interested parties to that forum.  All actions taken by the moderation
+team SHALL be reported to the IESG.  All bans longer than fourteen
+(14) days SHALL be reported to the forum in which the person was
+banned, or in the case of a broad ban, to the community in a manner
+decided by the IESG.
 
 ## Membership
 
