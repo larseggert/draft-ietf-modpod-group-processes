@@ -254,7 +254,7 @@ actions that could be taken include:
 * Temporary or permanent bans in one or more fora.
 
 The expectation is that the minimal action necessary to maintain the
-commety of a forum will be attempted.
+comity of a forum will be attempted.
 
 The moderator team SHOULD create and maintain a public mailing list
 for the community to discuss both the general moderation criteria and
