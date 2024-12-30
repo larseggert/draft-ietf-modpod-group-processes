@@ -236,28 +236,25 @@ moderator team in ways that are, ideally, integrated into the various
 participation channels the IETF offers. The moderator team SHALL keep
 the identities of participants requesting moderation confidential.
 
-## Transparency
+## Operations of the Moderator Team and Transparency
 
-The moderator team SHALL operate according to a consistent
-set of criteria, processes, and actions. The moderator team SHALL
-independently define and execute their role. They SHALL maintain a
-public set of moderation criteria, processes, actions, and other
-material that allows the community to understand and comment on the
-role of the team. The moderator team SHOULD consider adopting
-moderation criteria, processes, and actions that other technical
-communities have found suitable. The moderator team's criteria and
-processes SHALL be developed with community input, but they are not
-expected to be documented in the RFC series.
+Within the bounds of the policies set within this memo and with the
+approval of the IESG, the moderator team SHALL define any additional
+processes and moderation criteria necessary to execute their role.
+Those processes and criteria SHALL be developed with community input
+and made public, but need not be documented in the RFC series.
 
-Some of these processes may rely on automated mechanisms, such as
-rate-limiting emails to lists or messages to chat channels.
-(The IETF's deliberately low bar to participation makes it easy to
-create throw-away personas for such denial-of-service behavior.)
+The intent of this memo is to provide the widest possible freedom of
+action to the moderator team with a few constraints.  Examples of
+actions that could be taken include:
 
-{:aside}
-> TODO: This gives the moderator team broad freedom to define
-  processes and actions. Should this document define some boundaries
-  for what the moderator team can do?
+* Automated rate limiting mechanisms;
+* Review and approval of submissions/messages;
+* A Good Talking (or Emailing) To; or
+* Temporary or permanent bans in one or more fora.
+
+The expectation is that the minimal action necessary to maintain the
+commety of a forum will be attempted.
 
 The moderator team SHOULD create and maintain a public mailing list
 for the community to discuss both the general moderation criteria and
