@@ -194,10 +194,23 @@ in {{motiv}}.
 ## Composition
 
 The moderator team will initially consist of no less than five
-individuals who are appointed by the IESG.  In selecting members, the
-IESG will take into account geographic coverage, expected and
-unexpected absenses, and diverse points of view.  The moderation team
-may expand or contract based on operational experience.
+individuals.  The IETF Chair appoints and replaces members of the
+moderator team.  In selecting members, the IETF Chair will take into
+account geographic coverage, expected and unexpected absenses, and
+diverse points of view.  The moderation team may expand or contract
+based on operational experience.  Apart from appointing and replacing
+moderators, the IETF Chair SHALL refrain from the day-to-day operation
+and management of the moderator team. The moderator team MAY decide to
+consult with the IETF Chair when needed.
+
+Because the IESG and IAB are in the appeals chain for moderator team
+decisions (see {{appeals}}), the IETF Chair MUST NOT appoint a
+moderator who is serving on the IESG or IAB. Individuals serving on
+other bodies to which the NomCom appoints members, such as the IETF
+Trust or the LLC Board, as well as LLC staff and contractors SHALL
+also be excluded from serving on the moderator team. If a moderator
+is assuming any such role, they SHALL step down from the moderator team
+soon after.
 
 ## Scope
 
@@ -285,23 +298,6 @@ for the community to discuss both the general moderation criteria and
 individual moderation decisions. To not distract from the
 topic-oriented discussion on other IETF lists, such meta-discussions
 SHOULD be actively redirected to the moderation discussion list.
-
-## Membership
-
-The IETF Chair appoints and replaces members of the moderator team.
-Apart from appointing and replacing moderators, the IETF Chair SHALL
-refrain from the day-to-day operation and management of the moderator
-team. The moderator team MAY decide to consult with the IETF Chair
-when needed.
-
-Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IETF Chair MUST NOT appoint a
-moderator who is serving on the IESG or IAB. Individuals serving on
-other bodies to which the NomCom appoints members, such as the IETF
-Trust or the LLC Board, as well as LLC staff and contractors SHALL
-also be excluded from serving on the moderator team. If a moderator
-is assuming any such role, they SHALL step down from the moderator team
-soon after.
 
 ## Training
 
