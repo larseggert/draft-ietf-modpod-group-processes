@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-12-29T00:24:10.481131+00:00",
+  "timestamp": "2024-12-31T00:21:33.490537+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -936,6 +936,118 @@
       "updatedAt": "2024-12-17T11:32:50Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 67,
+      "id": "I_kwDOJrr8CM6kpNhM",
+      "title": "Create a new subsection in Introduction to cover goals",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/67",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Be explicit about what the goals of the work are.  Are they?\r\n\r\n- Inclusive environment through enforcement of IETF code of conduct\r\n- More responsive approach\r\n- Don't create community food fight?\r\n- Minimal intervention to enforce IETF code of conduct\r\n- Hold precious community resources\r\n- Maintain dignity of all individuals\r\n- Transparency\r\n- Fairness\r\n",
+      "createdAt": "2024-12-29T14:07:30Z",
+      "updatedAt": "2024-12-29T14:07:42Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 68,
+      "id": "I_kwDOJrr8CM6kpNtp",
+      "title": "What should be defined now and what by the moderation team?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/68",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Currently the draft leaves a lot of process for the moderation team to define.  On the one hand, we do not want to tie the hands of moderators, and on the other hand, our RFCs are normally the way we define process.",
+      "createdAt": "2024-12-29T14:09:34Z",
+      "updatedAt": "2024-12-29T14:09:34Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 69,
+      "id": "I_kwDOJrr8CM6kpN7T",
+      "title": "What level of transparency",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/69",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The draft currently states that the moderation team should maintain a public mailing list to discuss not only general moderation topics and policy, but individual moderation decisions.  That may simply move the food fight from one list to another.  But some level of transparency to the community is necessary.  Where is the line?",
+      "createdAt": "2024-12-29T14:11:54Z",
+      "updatedAt": "2024-12-29T19:52:52Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "We have evidence that discussing moderation decisions on an open list is conducive to toxic loops and harmful to individual dignity. As long as we have appeal paths, I think we should tip the balance towards confidentiality.\r\n\r\nOn the other hand, I think that the final decision that X has been banned from posting needs to be public.",
+          "createdAt": "2024-12-29T19:52:51Z",
+          "updatedAt": "2024-12-29T19:52:51Z"
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "id": "I_kwDOJrr8CM6kpOKK",
+      "title": "Reinstatement requests",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/70",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The draft is silent on review of previous decisions.  Currently BCP 83 permits such review after a period of time.  It is possible that this should be left to the moderation team to define as a process, but it may also be possible to simply specify a time frame in this draft.",
+      "createdAt": "2024-12-29T14:14:31Z",
+      "updatedAt": "2024-12-29T14:20:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 71,
+      "id": "I_kwDOJrr8CM6kpOZ7",
+      "title": "relationship between moderators and WG chairs / others",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/71",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Because we are tasked with covering **all** communication channels, the relationship between moderators and the WG chairs and others must be defined in some way.",
+      "createdAt": "2024-12-29T14:17:08Z",
+      "updatedAt": "2024-12-29T14:17:08Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 72,
+      "id": "I_kwDOJrr8CM6kpO1a",
+      "title": "Review of previous moderator decisions",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/72",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Brian Carpenter has raised the point about what to do about previous moderation decisions.",
+      "createdAt": "2024-12-29T14:21:55Z",
+      "updatedAt": "2024-12-29T19:44:34Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "There might be 3 options:\r\n- confirm all existing suspensions of posting rights\r\n- remove all existing suspensions of posting rights\r\n- review all existing suspensions of posting rights within X months\r\nMy underlying concern is that we must not leave any ambiguity; the secretariat needs precise instructions.",
+          "createdAt": "2024-12-29T19:44:32Z",
+          "updatedAt": "2024-12-29T19:44:32Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -3085,6 +3197,160 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 73,
+      "id": "PR_kwDOJrr8CM6GamPj",
+      "title": "On transparency.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/73",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #69.",
+      "createdAt": "2024-12-30T08:45:12Z",
+      "updatedAt": "2024-12-30T08:48:34Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "main",
+      "headRefOid": "37e3c8de7a1ae1e62364c4853d8d691faee2e88a",
+      "closedAt": "2024-12-30T08:48:34Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 74,
+      "id": "PR_kwDOJrr8CM6GaoSb",
+      "title": "On transparency.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/74",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Incorporates mailing list proposal.\r\n\r\nCloses #69.",
+      "createdAt": "2024-12-30T08:51:18Z",
+      "updatedAt": "2024-12-30T08:51:19Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "Issue69Transparency",
+      "headRefOid": "646b0f4f462c32f00175ce27e7f46fe6adf3c5a6",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 75,
+      "id": "PR_kwDOJrr8CM6GawCQ",
+      "title": "Initial attempt to balance what the moderator defines and what",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "gets defined in this memo.\r\n\r\nCloses #68.",
+      "createdAt": "2024-12-30T09:14:07Z",
+      "updatedAt": "2024-12-30T18:34:08Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "Issue68howmuchnow",
+      "headRefOid": "399e34f915f944e8641061ba3d8fd59ea8993d07",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6WjKjD",
+          "commit": {
+            "abbreviatedOid": "149a2d5"
+          },
+          "author": "lisad",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-12-30T16:59:28Z",
+          "updatedAt": "2024-12-30T16:59:33Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "Possibly s/commety/comity?  great word anyhow ",
+              "createdAt": "2024-12-30T16:59:28Z",
+              "updatedAt": "2024-12-30T16:59:33Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "id": "PR_kwDOJrr8CM6GcR6f",
+      "title": "Scope and relationship between WG chairs and moderators",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
+      "createdAt": "2024-12-30T15:20:03Z",
+      "updatedAt": "2024-12-30T20:52:09Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "Issue71ModeratersAndOthers",
+      "headRefOid": "c6df6a919105ab48528f59c4cd1d85307507cbe8",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "```\r\nthe IETF Chair MUST NOT appoint a\r\nmoderator who is serving on the IESG or IAB. Individuals serving on\r\nother bodies to which the NomCom appoints members, such as the IETF\r\nTrust or the LLC Board, as well as LLC staff and contractors SHALL\r\nalso be excluded\r\n```\r\n\r\nNomCom members themselves should also be excluded",
+          "createdAt": "2024-12-30T19:34:34Z",
+          "updatedAt": "2024-12-30T19:35:16Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Why?  They're not in the appeals chain?",
+          "createdAt": "2024-12-30T20:12:26Z",
+          "updatedAt": "2024-12-30T20:12:26Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@elear, true, but I could devise scenarios where there might be an issue - moderator has private knowledge of a candidate that they are not allowed to tell the NomCom about.",
+          "createdAt": "2024-12-30T20:38:14Z",
+          "updatedAt": "2024-12-30T20:38:14Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "My concern is that we already have a very limited pool of willing nomcom volunteers.",
+          "createdAt": "2024-12-30T20:52:08Z",
+          "updatedAt": "2024-12-30T20:52:08Z"
+        }
+      ],
       "reviews": []
     }
   ]
