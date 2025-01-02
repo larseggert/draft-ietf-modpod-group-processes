@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-12-31T00:21:33.490537+00:00",
+  "timestamp": "2025-01-02T00:21:38.526141+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1046,6 +1046,93 @@
           "body": "There might be 3 options:\r\n- confirm all existing suspensions of posting rights\r\n- remove all existing suspensions of posting rights\r\n- review all existing suspensions of posting rights within X months\r\nMy underlying concern is that we must not leave any ambiguity; the secretariat needs precise instructions.",
           "createdAt": "2024-12-29T19:44:32Z",
           "updatedAt": "2024-12-29T19:44:32Z"
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "id": "I_kwDOJrr8CM6kyAC3",
+      "title": "You can always write somewhere else",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/77",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "My draft says:\r\n\r\n```Anyone can start a blog, or CC an email to a non-IETF list. There are many venues not subject to IETF moderation.```\r\n\r\nI'm not attached to the exact phrasing here, but I do think the general idea should go in.",
+      "createdAt": "2024-12-31T17:40:49Z",
+      "updatedAt": "2024-12-31T20:10:21Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Agreed, and\r\n\r\n```\r\nSuch venues may have standards of behavior that differ greatly from those of the IETF.\r\n```",
+          "createdAt": "2024-12-31T19:09:58Z",
+          "updatedAt": "2024-12-31T19:09:58Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "NONE",
+          "body": "The CC list point is important, and part of email, so I think we should keep that part. I wrote this one to make the point:\r\n\r\nhttps://lists.w3.org/Archives/Public/www-archive/2024Dec/0005.html\r\n\r\nIf there were some despotic moderator, the message would still show up in private mail and that web archive, exposing their overzealous moderation. I'm sure there are many other ways to do that. It shows that concerns about overreach are a bit overstated, imho.",
+          "createdAt": "2024-12-31T19:50:39Z",
+          "updatedAt": "2024-12-31T20:10:21Z"
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "id": "I_kwDOJrr8CM6kyCMU",
+      "title": "Disruptive behavior: arguing counter to the charter of a WG",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/78",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
+      "createdAt": "2024-12-31T17:56:53Z",
+      "updatedAt": "2024-12-31T17:57:38Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 79,
+      "id": "I_kwDOJrr8CM6kyFmT",
+      "title": "Moderation must be transparent at least to the person being moderated",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/79",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "This is copy/paste from the list, just so it doesn't get lost in the mix.\r\n\r\nThe person being moderated must be informed. It's unfortunate that we have\r\nto say this, but we've had problems with that in the past. Think of actions\r\nsuch as a chair removing someone from a list without informing them, etc.\r\nI've never seen anything like that, but I have heard stories of such\r\nchicanery, and I think that's why some people that have been in the IETF\r\nfor a long time lean toward too much immediate transparency.\r\n\r\nAfter all, if these actions are subject to appeal, the person has to know\r\nabout them.",
+      "createdAt": "2024-12-31T18:19:09Z",
+      "updatedAt": "2024-12-31T18:19:43Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 81,
+      "id": "I_kwDOJrr8CM6kyT_r",
+      "title": "Hypocrisy",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/81",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "My draft has this section. I don't really like most of the text. I just hammered it out in about two minutes. But I do think one sentence is good: \"The IETF will treat people with kindness and grace, but not endless patience.\"\r\n\r\nI'd like to save that one.\r\n\r\n\r\n\r\n> Hypocrisy\r\n> \r\n> The hazard in writing any document of this sort is that it seems to presume the authors and supporters are perfect. They are not.\r\n> \r\n> Everyone makes mistakes. The IETF will treat people with kindness and grace, but not endless patience.\r\n> \r\n> This document describes a two-way street. Moderators must also maintain excellence.",
+      "createdAt": "2024-12-31T20:15:02Z",
+      "updatedAt": "2025-01-01T01:07:42Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "NONE",
+          "body": "This one might be good right at the top. If you get pointed at a document with that abstract, that should probably get the point across right away. No need to read all of the detailed rules (which do have to exist).\r\n\r\n> The IETF will treat people with kindness and grace, but not endless patience.\r\n>\r\n> This document describes the creation of a moderator team for all of the IETF's various contribution channels. Without removing existing responsibilities for working group management, this team enables a uniform approach to moderation of disruptive participation across all mailing lists and other methods of IETF collaboration.",
+          "createdAt": "2024-12-31T20:57:30Z",
+          "updatedAt": "2025-01-01T01:07:42Z"
         }
       ]
     }
@@ -3310,7 +3397,7 @@
       "labels": [],
       "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
       "createdAt": "2024-12-30T15:20:03Z",
-      "updatedAt": "2024-12-30T20:52:09Z",
+      "updatedAt": "2024-12-31T02:41:15Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -3349,8 +3436,67 @@
           "body": "My concern is that we already have a very limited pool of willing nomcom volunteers.",
           "createdAt": "2024-12-30T20:52:08Z",
           "updatedAt": "2024-12-30T20:52:08Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@elear, in that case we'd surely have to make a rule that a person who is simultaneously a NomCom member and a moderator must recuse themselves in NomCom from any discussion and voting for a person who is the subject of an ongoing moderation case.\r\n\r\nI don't see anything in BCP 10 that covers this sort of conflict of interest.",
+          "createdAt": "2024-12-31T02:41:14Z",
+          "updatedAt": "2024-12-31T02:41:14Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 80,
+      "id": "PR_kwDOJrr8CM6Ggdt8",
+      "title": "Spelling fix.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-12-31T18:45:55Z",
+      "updatedAt": "2024-12-31T18:45:56Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "spelling_incident",
+      "headRefOid": "12927d7f92308a5c2f25c15a47210418c024ce81",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 82,
+      "id": "PR_kwDOJrr8CM6Gihv7",
+      "title": "Introductory sentence.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/82",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #81. It is intended to disarm the reader right away. If you get right into procedural points at the start, people will just argue. Besides, the sentiment seems inarguable.",
+      "createdAt": "2025-01-01T20:13:18Z",
+      "updatedAt": "2025-01-01T20:15:37Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "kindness_and_grace",
+      "headRefOid": "dea245a81baf9941730b3e7aa53e2c0cb7b466dd",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
