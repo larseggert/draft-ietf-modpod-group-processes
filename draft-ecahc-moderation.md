@@ -197,7 +197,7 @@ The moderator team will initially consist of no less than five
 individuals.  The IETF Chair appoints and replaces members of the
 moderator team.  In selecting members, the IETF Chair will take into
 account geographic coverage, expected and unexpected absenses, and
-diverse points of view.  The moderation team may expand or contract
+team diversity.  The moderation team may expand or contract
 based on operational experience.  Apart from appointing and replacing
 moderators, the IETF Chair SHALL refrain from the day-to-day operation
 and management of the moderator team. The moderator team MAY decide to
