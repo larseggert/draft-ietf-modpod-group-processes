@@ -252,16 +252,19 @@ potential patterns of behavior. Group participants MAY and chairs
 SHOULD alert the moderators to problematic behavior. When moderators
 observe or are alerted to problematic behavior on such channels, they
 SHOULD consult with the group's management to jointly determine an
-appropriate moderation response. The moderation team MAY take actions
-against someone in a working group forum, but they MUST inform
-management of relevant groups, including WG chairs and area directors,
-when they do so.  Working group chairs MAY suspend such actions in
-their respective groups, if they believe the interests of the working
-group are hindered by such actions.  Neither set of decisions should
-be taken lightly: the moderation team should respect the views of the
-group management in such cases, and the group management should
-respect the moderation team's task of upholding an overall IETF-wide
-uniformity for moderation.
+appropriate moderation response.
+
+The moderation team MAY take actions against someone in a working
+group setting, but they MUST inform management of relevant groups,
+including WG chairs and area directors, when they do so.  Working
+group chairs MAY overrule those actions in their respective groups, if
+they believe doing so would be in their groups' interests, at which
+time they MUST inform both the moderators and area directors.
+
+Neither set of decisions should be taken lightly: the moderation team
+should respect the views of the group management in such cases, and
+the group management should respect the moderation team's task of
+upholding an overall IETF-wide uniformity for moderation.
 
 The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
@@ -315,6 +318,11 @@ brought to their attention. If this does not lead to a resolution, a
 decision by the IETF Chair can be appealed as described in
 {{!RFC2026}}, as with any other Area Director decision. In this case,
 the appeals chain starts with an appeal to the entire IESG.
+
+Moderators are not permitted to appeal working group chair decisions.
+However, an area director SHOULD carefully consider whether a chair
+is helping or hurting the cause of a group if the chair overrides
+moderator decisions.
 
 ## Team Diversity
 
