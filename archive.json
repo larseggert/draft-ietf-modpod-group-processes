@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-05T00:24:02.524505+00:00",
+  "timestamp": "2025-01-07T00:22:11.261891+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2803,7 +2803,7 @@
       "labels": [],
       "body": "Fixes #50",
       "createdAt": "2024-07-01T07:11:42Z",
-      "updatedAt": "2024-12-17T11:31:13Z",
+      "updatedAt": "2025-01-06T07:45:27Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8d65ef625e4432d430a04a8433cc53a2bc62331b",
@@ -2835,6 +2835,13 @@
           "body": "I probably disagree... so pls label it as open for now?",
           "createdAt": "2024-07-02T20:59:56Z",
           "updatedAt": "2024-07-02T20:59:56Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@becarpenter please bring discussion to the list.",
+          "createdAt": "2025-01-06T07:45:26Z",
+          "updatedAt": "2025-01-06T07:45:26Z"
         }
       ],
       "reviews": []
@@ -3426,7 +3433,7 @@
       "labels": [],
       "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
       "createdAt": "2024-12-30T15:20:03Z",
-      "updatedAt": "2024-12-31T02:41:15Z",
+      "updatedAt": "2025-01-06T21:21:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -3472,9 +3479,37 @@
           "body": "@elear, in that case we'd surely have to make a rule that a person who is simultaneously a NomCom member and a moderator must recuse themselves in NomCom from any discussion and voting for a person who is the subject of an ongoing moderation case.\r\n\r\nI don't see anything in BCP 10 that covers this sort of conflict of interest.",
           "createdAt": "2024-12-31T02:41:14Z",
           "updatedAt": "2024-12-31T02:41:14Z"
+        },
+        {
+          "author": "lisad",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@becarpenter if there's any substance to discussions about PRs, e.g. the substantive question about NomCom & mod team membership etc, please take it to the list - we're just going to need to be conservative about resolving open issues on the list. \r\n\r\nI'm also advising the editors that they can merge PRs like this without individually resolving each comment on PRs, especially when the discussion could easily be a new issue and a new PR like this conversation.  Merging this PR does not imply anything about consensus or lack of consensus on your suggestion.    There will be further PRs and further versions.  thanks!!",
+          "createdAt": "2025-01-06T21:21:39Z",
+          "updatedAt": "2025-01-06T21:21:39Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6W-VDq",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "Overall I think this is a great change. Some details inline",
+          "createdAt": "2025-01-06T20:29:41Z",
+          "updatedAt": "2025-01-06T20:33:30Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "I'm not 100% clear what \"suspend such actions\" means here. I'm assuming this means that the chairs can suspend the actions that were previously taken by the moderators? In that case, I'd suggest something like \"Working group chairs MAY overrule actions from the moderators in their respective groups, if they believe...\"\r\n\r\nI would even add that if the chairs do overrule the moderators, they need to publicly explain why on the list.\r\n\r\nAlso, should we clarify the appeals chain? If a WG chair overrules a moderator, and the moderator strongly disagrees, what is the recourse?\r\n* the moderator cannot directly appeal but a WG participant can appeal this as any regular chair decision (appeal to the responsible AD, then IESG, then IAB)\r\n* the moderator can appeal this using the moderation appeals chain (IESG then IAB)",
+              "createdAt": "2025-01-06T20:29:41Z",
+              "updatedAt": "2025-01-06T20:33:30Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 80,
