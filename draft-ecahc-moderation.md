@@ -278,9 +278,18 @@ SHOULD be actively redirected to the moderation discussion list.
 
 ## Membership
 
-The IETF Chair appoints and replaces members of the moderator team.
-Apart from appointing and replacing moderators, the IETF Chair SHALL
-refrain from the day-to-day operation and management of the moderator
+The IETF Chair appoints the initial members of the moderator team.
+Afterwards, the moderator team itself identifies and nominates new
+moderators to the IETF Chair, who reviews the selection and confirms
+new moderators.
+
+When a moderator intends to step down from the moderator team, or when
+the moderator team decides one of their members should be removed, they
+contact the IETF Chair, who reviews and confirms the decision.
+
+Apart from appointing the initial moderator team and reviewing and confirming
+subsequent additions and removals of moderators, the IETF Chair SHALL
+refrain from getting involved in the day-to-day operation and management of the moderator
 team. The moderator team MAY decide to consult with the IETF Chair
 when needed.
 
