@@ -248,10 +248,10 @@ The intent of this memo is to provide the widest possible freedom of
 action to the moderator team with a few constraints.  Examples of
 actions that could be taken include:
 
-* Automated rate limiting mechanisms;
-* Review and approval of submissions/messages;
-* A private or public admonishment;
-* Temporary or permanent bans in one or more fora.
+- Automated rate limiting mechanisms;
+- Review and approval of submissions/messages;
+- A private or public admonishment;
+- Temporary or permanent bans in one or more fora.
 
 We stress that these are only examples, and not in any way
 prescriptive.
