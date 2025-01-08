@@ -79,6 +79,7 @@ Table of Contents
    3.  Motivation
    4.  IETF Moderator Team
      4.1.  Composition
+       4.1.1.  Team Diversity
      4.2.  Scope
        4.2.1.  Non-IETF communication channels and private
                communications excluded
@@ -86,9 +87,8 @@ Table of Contents
      4.3.  Transparency
      4.4.  Training
      4.5.  Appeals
-     4.6.  Team Diversity
-     4.7.  Relation to the Ombudsteam
-     4.8.  Relation to the IETF LLC
+     4.6.  Relation to the Ombudsteam
+     4.7.  Relation to the IETF LLC
    5.  Changes to Existing RFCs
    6.  Security Considerations
    7.  IANA Considerations
@@ -227,6 +227,18 @@ Table of Contents
    is assuming any such role, they SHALL step down from the moderator
    team soon after.
 
+4.1.1.  Team Diversity
+
+   Due to the global nature of the IETF, the membership of this team
+   SHOULD reflect a diversity of time zones and other participant
+   characteristics that lets it operate effectively around the clock and
+   throughout the year.  Ideally, the moderator team should be able to
+   respond to issues within a few hours.
+
+   Team diversity is also important to ensure any participant observing
+   problematic behavior can identify a moderator they feel comfortable
+   contacting.
+
 4.2.  Scope
 
    The IETF moderator team SHALL moderate all the IETF's various current
@@ -335,24 +347,7 @@ Table of Contents
    in [RFC2026], as with any other Area Director decision.  In this
    case, the appeals chain starts with an appeal to the entire IESG.
 
-   Moderators are not permitted to appeal working group chair decisions.
-   However, an area director SHOULD carefully consider whether a chair
-   is helping or hurting the cause of a group if the chair overrides
-   moderator decisions.
-
-4.6.  Team Diversity
-
-   Due to the global nature of the IETF, the membership of this team
-   SHOULD reflect a diversity of time zones and other participant
-   characteristics that lets it operate effectively around the clock and
-   throughout the year.  Ideally, the moderator team should be able to
-   respond to issues within a few hours.
-
-   Team diversity is also important to ensure any participant observing
-   problematic behavior can identify a moderator they feel comfortable
-   contacting.
-
-4.7.  Relation to the Ombudsteam
+4.6.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -366,7 +361,7 @@ Table of Contents
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
 
-4.8.  Relation to the IETF LLC
+4.7.  Relation to the IETF LLC
 
    The Board of Directors of the IETF Administration LLC (IETF LLC) has
    fiduciary duty for the overall organization, which includes the duty
