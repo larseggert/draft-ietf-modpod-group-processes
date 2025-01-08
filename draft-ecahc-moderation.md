@@ -75,6 +75,8 @@ informative:
 
 --- abstract
 
+The IETF will treat people with kindness and grace, but not endless patience.
+
 This document describes the creation of a moderator team for all of the
 IETF's various contribution channels. Without removing existing responsibilities
 for working group management, this team enables a uniform approach to moderation
