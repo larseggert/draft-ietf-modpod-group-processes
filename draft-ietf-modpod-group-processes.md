@@ -250,8 +250,11 @@ actions that could be taken include:
 
 * Automated rate limiting mechanisms;
 * Review and approval of submissions/messages;
-* A Good Talking (or Emailing) To; or
+* A private or public admonishment;
 * Temporary or permanent bans in one or more fora.
+
+We stress that these are only examples, and not in any way
+prescriptive.
 
 The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
