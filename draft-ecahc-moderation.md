@@ -212,6 +212,18 @@ also be excluded from serving on the moderator team. If a moderator
 is assuming any such role, they SHALL step down from the moderator team
 soon after.
 
+### Team Diversity
+
+Due to the global nature of the IETF, the membership of this team
+SHOULD reflect a diversity of time zones and other participant
+characteristics that lets it operate effectively around the clock and
+throughout the year. Ideally, the moderator team should be able to
+respond to issues within a few hours.
+
+Team diversity is also important to ensure any participant observing
+problematic behavior can identify a moderator they feel comfortable
+contacting.
+
 ## Scope
 
 The IETF moderator team SHALL moderate all the IETF's various current
@@ -319,22 +331,6 @@ decision by the IETF Chair can be appealed as described in
 {{!RFC2026}}, as with any other Area Director decision. In this case,
 the appeals chain starts with an appeal to the entire IESG.
 
-Moderators are not permitted to appeal working group chair decisions.
-However, an area director SHOULD carefully consider whether a chair
-is helping or hurting the cause of a group if the chair overrides
-moderator decisions.
-
-## Team Diversity
-
-Due to the global nature of the IETF, the membership of this team
-SHOULD reflect a diversity of time zones and other participant
-characteristics that lets it operate effectively around the clock and
-throughout the year. Ideally, the moderator team should be able to
-respond to issues within a few hours.
-
-Team diversity is also important to ensure any participant observing
-problematic behavior can identify a moderator they feel comfortable
-contacting.
 
 ## Relation to the Ombudsteam
 
