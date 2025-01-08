@@ -193,7 +193,7 @@ in {{motiv}}.
 
 ## Composition
 
-The moderator team will initially consist of no less than five
+The moderator team consists of no less than five
 individuals.  The IETF Chair appoints and replaces members of the
 moderator team.  In selecting members, the IETF Chair will take into
 account geographic coverage, expected and unexpected absenses, and
