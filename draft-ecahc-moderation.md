@@ -347,7 +347,7 @@ illegal, vulgar, or manifestly harassing behavior of IETF participants.
 
 This protection MAY include the need for the LLC to take emergency moderation
 actions. These emergency actions are expected to be extremely rare, of temporary
-nature, and the indicdents that required them SHOULD be immediately raised with
+nature, and the incidents that required them SHOULD be immediately raised with
 the moderator team to let them determine any follow-up or more permanent
 moderation action. These incidents and the taken emergency action SHOULD also be
 communitated to the IETF community.
@@ -390,5 +390,6 @@ These individuals suggested improvements to this document:
 - Michael Richardson
 - Rich Salz
 - Joel Halpern
+- Robert Sayre
 
 --- back
