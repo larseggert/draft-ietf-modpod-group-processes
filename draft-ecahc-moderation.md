@@ -331,7 +331,6 @@ decision by the IETF Chair can be appealed as described in
 {{!RFC2026}}, as with any other Area Director decision. In this case,
 the appeals chain starts with an appeal to the entire IESG.
 
-
 ## Relation to the Ombudsteam
 
 The moderator team SHALL complement the efforts of the IETF
