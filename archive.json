@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-07T00:22:11.261891+00:00",
+  "timestamp": "2025-01-09T00:21:55.605678+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -946,12 +946,22 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "Be explicit about what the goals of the work are.  Are they?\r\n\r\n- Inclusive environment through enforcement of IETF code of conduct\r\n- More responsive approach\r\n- Don't create community food fight?\r\n- Minimal intervention to enforce IETF code of conduct\r\n- Hold precious community resources\r\n- Maintain dignity of all individuals\r\n- Transparency\r\n- Fairness\r\n",
       "createdAt": "2024-12-29T14:07:30Z",
-      "updatedAt": "2024-12-29T14:07:42Z",
+      "updatedAt": "2025-01-07T07:32:08Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think we'd need consensus on these first before we can talk about adding a subsection for them. (I would argue that some are more important than others, and some might not make the cut for me personally.)",
+          "createdAt": "2025-01-07T07:32:00Z",
+          "updatedAt": "2025-01-07T07:32:00Z"
+        }
+      ]
     },
     {
       "number": 68,
@@ -962,12 +972,22 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "Currently the draft leaves a lot of process for the moderation team to define.  On the one hand, we do not want to tie the hands of moderators, and on the other hand, our RFCs are normally the way we define process.",
       "createdAt": "2024-12-29T14:09:34Z",
-      "updatedAt": "2024-12-29T14:09:34Z",
+      "updatedAt": "2025-01-07T07:33:52Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think I heard some support for putting in fenceposts in the draft, but letting the moderators then define processes and procedures within those fenceposts. To me, the fenceposts have overlap with the goals you started listing in #67.",
+          "createdAt": "2025-01-07T07:33:41Z",
+          "updatedAt": "2025-01-07T07:33:41Z"
+        }
+      ]
     },
     {
       "number": 69,
@@ -1005,9 +1025,45 @@
       "labels": [],
       "body": "The draft is silent on review of previous decisions.  Currently BCP 83 permits such review after a period of time.  It is possible that this should be left to the moderation team to define as a process, but it may also be possible to simply specify a time frame in this draft.",
       "createdAt": "2024-12-29T14:14:31Z",
-      "updatedAt": "2024-12-29T14:20:56Z",
+      "updatedAt": "2025-01-08T19:27:56Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "#72 duplicates this issue and has gotten comments; closing this in favor of that.",
+          "createdAt": "2025-01-07T07:43:01Z",
+          "updatedAt": "2025-01-07T07:43:01Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This is distinct from #72 as follows:\r\n\r\n- This issue: someone wants to plea for reinstatement after having been banned for a Long Time under by moderators under **this** scheme.\r\n- #72: what to do about those who were banned under the previous BCP83 scheme.",
+          "createdAt": "2025-01-08T12:06:54Z",
+          "updatedAt": "2025-01-08T12:06:54Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "It's not clear at all whether the to-be-defined fenceposts will let someone make that plea.",
+          "createdAt": "2025-01-08T12:39:24Z",
+          "updatedAt": "2025-01-08T12:39:24Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fair enough, but it's a discussion point",
+          "createdAt": "2025-01-08T12:41:09Z",
+          "updatedAt": "2025-01-08T12:41:09Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Since the IETF is not a dictatorship, I think we have to have some general principle about this (a fence post if you like). Something like: there MUST be a discretionary mechanism for repealing a suspension after a specified time has passed. ",
+          "createdAt": "2025-01-08T19:27:54Z",
+          "updatedAt": "2025-01-08T19:27:54Z"
+        }
+      ]
     },
     {
       "number": 71,
@@ -1028,7 +1084,7 @@
     {
       "number": 72,
       "id": "I_kwDOJrr8CM6kpO1a",
-      "title": "Review of previous moderator decisions",
+      "title": "Review of previous bcp83 actions",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/72",
       "state": "OPEN",
       "author": "elear",
@@ -1037,7 +1093,7 @@
       "labels": [],
       "body": "Brian Carpenter has raised the point about what to do about previous moderation decisions.",
       "createdAt": "2024-12-29T14:21:55Z",
-      "updatedAt": "2025-01-02T19:10:10Z",
+      "updatedAt": "2025-01-08T12:12:05Z",
       "closedAt": null,
       "comments": [
         {
@@ -1060,6 +1116,34 @@
           "body": "My underlying concern is that there's an issue of natural justice here - when we introduce a new regime, we cannot leave the people sanctioned under the previous regime in limbo. We MUST state what happens to existing suspensions. ",
           "createdAt": "2025-01-02T19:10:09Z",
           "updatedAt": "2025-01-02T19:10:09Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "A review of decisions under BCP83 is up to the IESG, and I don't think this draft needs to say anything about them.\r\n\r\nWhether there will be a (periodic) review for actions taken after this draft takes effect as a BCP depends on what the fenceposts or the team-defined processes say, IMO.",
+          "createdAt": "2025-01-07T07:43:12Z",
+          "updatedAt": "2025-01-07T07:43:12Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "If this document obsoletes RFC 3683, which I certainly hope it does, we have no choice but to specify what happens to existing suspensions; the same goes for any other documents that we obsolete. Perhaps the conclusion would be that the IESG decides, but it's really not acceptable to leave this undefined. \r\n",
+          "createdAt": "2025-01-07T20:05:58Z",
+          "updatedAt": "2025-01-07T20:05:58Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "It's not undefined; they are for the IESG to reconsider. I'd like to avoid grandparenting these old PR actions into the new process.",
+          "createdAt": "2025-01-08T11:14:55Z",
+          "updatedAt": "2025-01-08T11:14:55Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert I think we can just reiterate your point in the draft, but this should be taken back to the list.",
+          "createdAt": "2025-01-08T12:11:53Z",
+          "updatedAt": "2025-01-08T12:12:05Z"
         }
       ]
     },
@@ -1070,12 +1154,12 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/77",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "My draft says:\r\n\r\n```Anyone can start a blog, or CC an email to a non-IETF list. There are many venues not subject to IETF moderation.```\r\n\r\nI'm not attached to the exact phrasing here, but I do think the general idea should go in.",
       "createdAt": "2024-12-31T17:40:49Z",
-      "updatedAt": "2024-12-31T20:10:21Z",
+      "updatedAt": "2025-01-07T17:33:51Z",
       "closedAt": null,
       "comments": [
         {
@@ -1087,10 +1171,24 @@
         },
         {
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "The CC list point is important, and part of email, so I think we should keep that part. I wrote this one to make the point:\r\n\r\nhttps://lists.w3.org/Archives/Public/www-archive/2024Dec/0005.html\r\n\r\nIf there were some despotic moderator, the message would still show up in private mail and that web archive, exposing their overzealous moderation. I'm sure there are many other ways to do that. It shows that concerns about overreach are a bit overstated, imho.",
           "createdAt": "2024-12-31T19:50:39Z",
           "updatedAt": "2024-12-31T20:10:21Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I may be dense, but why do we need to say anything about non-IETF communication/publication channels in this draft?",
+          "createdAt": "2025-01-07T07:41:46Z",
+          "updatedAt": "2025-01-07T07:41:46Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Ah. This text intends to point out that you are not being \"silenced\" if your contribution to an IETF list is held up by moderation. Basically, an IETF list, especially one with wide distribution, is not your blog. My draft has an extra sentence on this point, but I'm not attached to the wording:\r\n\r\n> Anyone can start a blog, or CC an email to a non-IETF list.  There are many venues not subject to IETF moderation.\r\n> \r\n> It may be that the IETF audience's attention is being abused through IETF infrastructure, so that's why this action exists.",
+          "createdAt": "2025-01-07T14:50:34Z",
+          "updatedAt": "2025-01-07T17:33:51Z"
         }
       ]
     },
@@ -1101,17 +1199,17 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/78",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
       "createdAt": "2024-12-31T17:56:53Z",
-      "updatedAt": "2025-01-02T19:15:12Z",
+      "updatedAt": "2025-01-07T20:12:45Z",
       "closedAt": null,
       "comments": [
         {
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Maybe the more general point here is that it's possible to be disruptive while remaining polite.",
           "createdAt": "2025-01-02T17:49:45Z",
           "updatedAt": "2025-01-02T17:49:45Z"
@@ -1122,6 +1220,41 @@
           "body": "Dear Rob,\r\nYou are quite correct. It is very possible to prolong a discussion indefinitely in a very courteous manner, by repeatedly asking for more clarifications, for example. Perhaps you would care to expand your point?\r\nYours sincerely,\r\n   Brian",
           "createdAt": "2025-01-02T19:15:11Z",
           "updatedAt": "2025-01-02T19:15:11Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I'd really like to avoid listing all the ways in which someone can be obnoxious/disruptive/anti-social/etc. in this draft.",
+          "createdAt": "2025-01-07T07:44:10Z",
+          "updatedAt": "2025-01-07T07:44:10Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Well, BCP 83 covers it this way:\r\n\r\n> Although not exhaustive, examples of abusive or otherwise inappropriate postings to IETF mailing lists include:\r\n\r\nI think this kind of thing should be in that short list, but I am not sure how to phrase it (yet).",
+          "createdAt": "2025-01-07T15:06:37Z",
+          "updatedAt": "2025-01-07T15:06:37Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "That list in BCP83 is actually why I think we should **not** do a similar list here - it has repeatedly been a source of arguments when people say their post wasn't exactly of  a type listed there, and BCP83 should therefore not be invoked. And when it was pointed out that the list was examples, the response was \"who are you to make the call on my thing\"...",
+          "createdAt": "2025-01-07T15:11:30Z",
+          "updatedAt": "2025-01-07T15:11:58Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Avoiding that problem is the aim of most of my PRs and Issues, as described here:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/CsIGLns50aHAVgVrbGYt5UXJwCI/\r\n\r\n> I do want to eliminate the sense of aggrievedness at any quick moderation action, and eliminate the public shame when someone is briefly not at their best.",
+          "createdAt": "2025-01-07T15:18:22Z",
+          "updatedAt": "2025-01-07T17:23:10Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This gets to the point I made on the list: _all moderation decisions are subjective judgment calls_. I think we need to acknowledge that - I'm not completely against listing examples, but Lars is correct that any such list will be debated (for reasons related to why lists of discriminatory words are debated - honest people disagree).",
+          "createdAt": "2025-01-07T20:12:43Z",
+          "updatedAt": "2025-01-07T20:12:43Z"
         }
       ]
     },
@@ -1132,14 +1265,29 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/79",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "This is copy/paste from the list, just so it doesn't get lost in the mix.\r\n\r\nThe person being moderated must be informed. It's unfortunate that we have\r\nto say this, but we've had problems with that in the past. Think of actions\r\nsuch as a chair removing someone from a list without informing them, etc.\r\nI've never seen anything like that, but I have heard stories of such\r\nchicanery, and I think that's why some people that have been in the IETF\r\nfor a long time lean toward too much immediate transparency.\r\n\r\nAfter all, if these actions are subject to appeal, the person has to know\r\nabout them.",
       "createdAt": "2024-12-31T18:19:09Z",
-      "updatedAt": "2024-12-31T18:19:43Z",
+      "updatedAt": "2025-01-07T21:27:26Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I agree with this. Want to propose a PR?",
+          "createdAt": "2025-01-07T07:40:54Z",
+          "updatedAt": "2025-01-07T07:40:54Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'll do so. I think it would be best to clear up the in-flight PRs first, though.",
+          "createdAt": "2025-01-07T21:27:25Z",
+          "updatedAt": "2025-01-07T21:27:25Z"
+        }
+      ]
     },
     {
       "number": 81,
@@ -1148,7 +1296,7 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/81",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "My draft has this section. I don't really like most of the text. I just hammered it out in about two minutes. But I do think one sentence is good: \"The IETF will treat people with kindness and grace, but not endless patience.\"\r\n\r\nI'd like to save that one.\r\n\r\n\r\n\r\n> Hypocrisy\r\n> \r\n> The hazard in writing any document of this sort is that it seems to presume the authors and supporters are perfect. They are not.\r\n> \r\n> Everyone makes mistakes. The IETF will treat people with kindness and grace, but not endless patience.\r\n> \r\n> This document describes a two-way street. Moderators must also maintain excellence.",
@@ -1158,10 +1306,124 @@
       "comments": [
         {
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "This one might be good right at the top. If you get pointed at a document with that abstract, that should probably get the point across right away. No need to read all of the detailed rules (which do have to exist).\r\n\r\n> The IETF will treat people with kindness and grace, but not endless patience.\r\n>\r\n> This document describes the creation of a moderator team for all of the IETF's various contribution channels. Without removing existing responsibilities for working group management, this team enables a uniform approach to moderation of disruptive participation across all mailing lists and other methods of IETF collaboration.",
           "createdAt": "2024-12-31T20:57:30Z",
           "updatedAt": "2025-01-01T01:07:42Z"
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "id": "I_kwDOJrr8CM6lY1MW",
+      "title": "Minimum size of the moderator team?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/83",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The current text talks about five, but my suggestion is that operational experience dictate the team size, not an RFC.",
+      "createdAt": "2025-01-08T09:04:09Z",
+      "updatedAt": "2025-01-08T11:18:27Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Agree with operational experience. The current doc only (intends to) specify a lower bar on number of members.",
+          "createdAt": "2025-01-08T11:18:26Z",
+          "updatedAt": "2025-01-08T11:18:26Z"
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "id": "I_kwDOJrr8CM6lY4jC",
+      "title": "Should we use 2119 langauge in the draft?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/84",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Rob Wilton thinks \"no\".",
+      "createdAt": "2025-01-08T09:10:16Z",
+      "updatedAt": "2025-01-08T19:41:54Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I don't feel strongly either way. (Yeah, it's not really making sense to do so, but there is ample precedent for process BCPs to do so, and maybe doing so avoids future arguments where someone being moderated objects due to the lack of uppercase wording...)",
+          "createdAt": "2025-01-08T11:20:04Z",
+          "updatedAt": "2025-01-08T11:20:15Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Maybe leave this one:\r\n\r\n> The IETF moderator team consists of a number of individuals that SHALL moderate all the IETF's various current and future participation channels\r\n\r\nand then refer to this RFC to cover the rest of it:\r\n\r\nhttps://datatracker.ietf.org/doc/html/rfc8174\r\n\r\n> These words can be used as defined here, but using them is not required.  Specifically, normative text does not require the use of these key words.",
+          "createdAt": "2025-01-08T17:42:24Z",
+          "updatedAt": "2025-01-08T17:43:19Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "1) I see no reason to avoid RFC 2119 in a process BCP, for the things that we decide really matter.\r\n2) RFC 8174 doesn't change that, it simply makes it clearer.\r\n3) The example quoted is contentious. But that is a point to debate on list when we have a coherent draft posted.",
+          "createdAt": "2025-01-08T19:08:09Z",
+          "updatedAt": "2025-01-08T19:08:09Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> The example quoted is contentious. But that is a point to debate on list when we have a coherent draft posted.\r\n\r\nDo you mean the quote I pulled from RFC 8174? It might be contentious, but it is right there in a BCP. Sometimes, you have to live with things you don't like. Rough consensus and running code and all that :)\r\n\r\nIf you mean the sentence I used from the draft, that was intentional. Leave no room for argument. Using the 2119 words sparingly gives them more force.",
+          "createdAt": "2025-01-08T19:11:02Z",
+          "updatedAt": "2025-01-08T19:32:27Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Sorry, I meant that \"that SHALL moderate\" is contentious. ",
+          "createdAt": "2025-01-08T19:41:53Z",
+          "updatedAt": "2025-01-08T19:41:53Z"
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "id": "I_kwDOJrr8CM6leBVJ",
+      "title": "Requirements on WG Chairs",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/85",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Since we're aiming for consistency, some of the requirements we make of the moderation team might have to apply to WG Chairs as well. Having never been a chair, I am not sure what's reasonable here. This issue came up in #74. It's probably OK to close some in-flight PRs and then have a look at this one.",
+      "createdAt": "2025-01-08T19:01:10Z",
+      "updatedAt": "2025-01-08T21:20:11Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Most of that can probably be deferred to whatever guidelines the team provides for chairs. ",
+          "createdAt": "2025-01-08T19:39:47Z",
+          "updatedAt": "2025-01-08T19:39:47Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I like @becarpenter's idea, and in particular we should be careful to not insist on perfect consistency.  The world is too messy for that.",
+          "createdAt": "2025-01-08T19:49:55Z",
+          "updatedAt": "2025-01-08T19:49:55Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I also agree with @becarpenter in a sense. It's true that \"most of that\" can be deferred, but I think there might be some minimum requirements that would be useful to write. Difficult to debate until the document settles down a bit. If there were a concrete action to take, this would be a PR.",
+          "createdAt": "2025-01-08T19:55:27Z",
+          "updatedAt": "2025-01-08T21:20:11Z"
         }
       ]
     }
@@ -2072,7 +2334,7 @@
             "abbreviatedOid": "22371e7"
           },
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2023-09-08T18:11:41Z",
@@ -2092,7 +2354,7 @@
             "abbreviatedOid": "22371e7"
           },
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2023-09-08T18:25:46Z",
@@ -3360,19 +3622,116 @@
       "labels": [],
       "body": "Incorporates mailing list proposal.\r\n\r\nCloses #69.",
       "createdAt": "2024-12-30T08:51:18Z",
-      "updatedAt": "2024-12-30T08:51:19Z",
+      "updatedAt": "2025-01-08T19:35:35Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue69Transparency",
-      "headRefOid": "646b0f4f462c32f00175ce27e7f46fe6adf3c5a6",
+      "headRefOid": "3abcecabf1de44fc0951d47ddd27a844e748d297",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closes #79.\r\n",
+          "createdAt": "2025-01-08T18:01:24Z",
+          "updatedAt": "2025-01-08T18:01:24Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Mmm, I think it has to say something like this to close #79, but even this doesn't really cover it, since the WG chairs should also have to report their actions to the person being moderated.\r\n\r\n> All actions taken by the moderation team SHALL be reported to the person being moderated and the IETF Chair.",
+          "createdAt": "2025-01-08T18:13:39Z",
+          "updatedAt": "2025-01-08T18:22:02Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The text that is there says:\r\n> SHALL be reported to the forum in which the person was banned, as well as to that person\r\n\r\nI may have made that a bit too compact.",
+          "createdAt": "2025-01-08T18:39:54Z",
+          "updatedAt": "2025-01-08T18:39:54Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I caught that part, but it's only after 14 days. As #79 points out, all of these actions are supposed to be appealable, so the person must know about them.",
+          "createdAt": "2025-01-08T18:41:00Z",
+          "updatedAt": "2025-01-08T18:43:20Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think we can say this closes #79 with that edit, but there still might be something to say about what WG Chairs have to inform participants of. I think getting a first draft out would be better than going after that point, though.",
+          "createdAt": "2025-01-08T18:50:33Z",
+          "updatedAt": "2025-01-08T18:50:33Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6XNZ5X",
+          "commit": {
+            "abbreviatedOid": "81483ac"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T11:17:23Z",
+          "updatedAt": "2025-01-08T11:17:38Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "Is it the IESG, or is it the IETF Chair? My original doc homed it with the Chair, since that's where the current \"special-case\" moderation is homed. We can change it to the IESG, but it will require other changes in the doc.",
+              "createdAt": "2025-01-08T11:17:23Z",
+              "updatedAt": "2025-01-08T11:17:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XRBlI",
+          "commit": {
+            "abbreviatedOid": "81483ac"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T17:55:29Z",
+          "updatedAt": "2025-01-08T17:55:29Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "I'm good with the IETF chair.  Will change accordingly.",
+              "createdAt": "2025-01-08T17:55:29Z",
+              "updatedAt": "2025-01-08T17:55:29Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XR5Ji",
+          "commit": {
+            "abbreviatedOid": "81483ac"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T19:35:35Z",
+          "updatedAt": "2025-01-08T19:35:35Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "Not disagreeing, but maybe we need to be clear whether this is confidential, and if so whether the IETF Chair can expose it to the whole IESG.",
+              "createdAt": "2025-01-08T19:35:35Z",
+              "updatedAt": "2025-01-08T19:35:36Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 75,
@@ -3386,13 +3745,13 @@
       "labels": [],
       "body": "gets defined in this memo.\r\n\r\nCloses #68.",
       "createdAt": "2024-12-30T09:14:07Z",
-      "updatedAt": "2024-12-30T18:34:08Z",
+      "updatedAt": "2025-01-08T16:38:17Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue68howmuchnow",
-      "headRefOid": "399e34f915f944e8641061ba3d8fd59ea8993d07",
+      "headRefOid": "46b570b4812d65abcfa6de5677203ddb252ae001",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -3418,6 +3777,125 @@
               "updatedAt": "2024-12-30T16:59:33Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XAzJ_",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T07:37:44Z",
+          "updatedAt": "2025-01-07T07:38:47Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "This introduces the IESG into the moderation loop, which some have objected against.",
+              "createdAt": "2025-01-07T07:37:45Z",
+              "updatedAt": "2025-01-07T07:38:47Z"
+            },
+            {
+              "originalPosition": 39,
+              "body": "I don't understand what this is supposed to say.",
+              "createdAt": "2025-01-07T07:38:35Z",
+              "updatedAt": "2025-01-07T07:38:47Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XGprf",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T18:29:33Z",
+          "updatedAt": "2025-01-07T18:29:33Z",
+          "comments": [
+            {
+              "originalPosition": 39,
+              "body": "That last one means something like \"scolding\", and it depends on the capitalization. I raised this point to Eliot a few days ago, and he agreed that it might be too much of an idiom. \r\n\r\nI also said I didn't like \"comity\". It is exactly the right word, but I thought it was a bit obscure and difficult to translate. That one I can live with, but I still think we should go for more plainspoken English in this document, since we need everyone to understand it. Should we say \"fora\", or just grit our teeth and write \"forums\"? Should the reader need to understand Latin pluralization in the midst of English? That kind of thing. Maybe just opt out and say \"venues\".",
+              "createdAt": "2025-01-07T18:29:33Z",
+              "updatedAt": "2025-01-08T03:31:27Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMTGM",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:11:31Z",
+          "updatedAt": "2025-01-08T09:11:31Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "I don't think anyone but you and Keith have objected to the IESG having oversight.",
+              "createdAt": "2025-01-08T09:11:31Z",
+              "updatedAt": "2025-01-08T09:11:31Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMWfj",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:16:39Z",
+          "updatedAt": "2025-01-08T09:16:40Z",
+          "comments": [
+            {
+              "originalPosition": 39,
+              "body": "Resolved by b258396",
+              "createdAt": "2025-01-08T09:16:39Z",
+              "updatedAt": "2025-01-08T09:16:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMYeZ",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:20:17Z",
+          "updatedAt": "2025-01-08T09:20:17Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "Excuse me: Dan as well.",
+              "createdAt": "2025-01-08T09:20:17Z",
+              "updatedAt": "2025-01-08T09:20:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XQXLi",
+          "commit": {
+            "abbreviatedOid": "46b570b"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "LGTM",
+          "createdAt": "2025-01-08T16:38:17Z",
+          "updatedAt": "2025-01-08T16:38:17Z",
+          "comments": []
         }
       ]
     },
@@ -3433,13 +3911,13 @@
       "labels": [],
       "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
       "createdAt": "2024-12-30T15:20:03Z",
-      "updatedAt": "2025-01-06T21:21:41Z",
+      "updatedAt": "2025-01-08T09:07:16Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
+      "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue71ModeratersAndOthers",
-      "headRefOid": "c6df6a919105ab48528f59c4cd1d85307507cbe8",
+      "headRefOid": "595112b5980ecb38c8521278b7e1c2358630554d",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -3508,6 +3986,520 @@
               "updatedAt": "2025-01-06T20:33:30Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XArp8",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T07:16:32Z",
+          "updatedAt": "2025-01-07T07:16:32Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "@DavidSchinazi I'll push another update in the next days to address the above.",
+              "createdAt": "2025-01-07T07:16:32Z",
+              "updatedAt": "2025-01-07T07:16:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XBDsF",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T08:14:05Z",
+          "updatedAt": "2025-01-07T08:14:05Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "@DavidSchinazi we should be careful not to stoke a debate on the working group lists.  that debate **can** happen, if necessary, but it should not be on the WG list (IMHO).",
+              "createdAt": "2025-01-07T08:14:05Z",
+              "updatedAt": "2025-01-07T08:14:05Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XA2GZ",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T07:45:13Z",
+          "updatedAt": "2025-01-07T08:18:17Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\r\nteam diversity.  The moderation team may expand or contract\r\n```\r\nBecause team diversity is important, so that when the team has consensus for a decision, they can be reasonably sure it's warranted. You do **not** want a team that has \"no moderation ever\" points of view on it, as \"diverse\" as that may be.",
+              "createdAt": "2025-01-07T07:45:13Z",
+              "updatedAt": "2025-01-07T08:18:17Z"
+            },
+            {
+              "originalPosition": 7,
+              "body": "```suggestion\r\nThe moderator team will consist of no less than five\r\n```\r\nBecause I see no point in there ever being less than five in normal operation.",
+              "createdAt": "2025-01-07T07:48:15Z",
+              "updatedAt": "2025-01-07T08:18:17Z"
+            },
+            {
+              "originalPosition": 8,
+              "body": "Why did you move this and the following paragraph out of the \"Membership\" subsection? Gratuitous edits like that make it hard to spot actual changes in a PR.",
+              "createdAt": "2025-01-07T07:50:02Z",
+              "updatedAt": "2025-01-07T08:18:17Z"
+            },
+            {
+              "originalPosition": 77,
+              "body": "Typo fixing is good, but the re-wrapping obscures actual wording changes. Please minimize.",
+              "createdAt": "2025-01-07T07:51:23Z",
+              "updatedAt": "2025-01-07T08:18:17Z"
+            },
+            {
+              "originalPosition": 87,
+              "body": "I do **not** think chairs should be able to overrule unilaterally. *If* we end up in this situation, maybe the IESG or at least the responsible AD needs to get involved. (And yes, that means the IESG is involved, which some don't like. If we want to keep the IESG out of it, chairs need to stay out of it, since they report to the ADs.)",
+              "createdAt": "2025-01-07T07:53:34Z",
+              "updatedAt": "2025-01-07T08:18:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XBKRv",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T08:27:11Z",
+          "updatedAt": "2025-01-07T08:27:11Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Hey Lars, I'm the one who wants to be prescriptive ;-). But in this case, I don't see the point in hardcoding a #.",
+              "createdAt": "2025-01-07T08:27:11Z",
+              "updatedAt": "2025-01-07T08:27:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XBMAt",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T08:30:47Z",
+          "updatedAt": "2025-01-07T08:30:47Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "@larseggert I added some text around this, but the point is that chairs know or should know their groups far better than moderators.  That being said, ADs need to be kept in the loop when this happens, and if it becomes a real cause for concern, the AD should change out the chair.",
+              "createdAt": "2025-01-07T08:30:47Z",
+              "updatedAt": "2025-01-07T08:30:47Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XBMdC",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T08:31:39Z",
+          "updatedAt": "2025-01-07T08:31:39Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "You had mixed composition and scope.  I am attempting to separate.  More to come on this.",
+              "createdAt": "2025-01-07T08:31:39Z",
+              "updatedAt": "2025-01-07T08:31:39Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XBg__",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T09:06:01Z",
+          "updatedAt": "2025-01-07T09:06:01Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "The point of the moderation team is to establish an IETF-wide baseline for moderation. \"The chairs know their group better\" sounds to me a lot like \"some groups are special\", i.e., there should somehow be a higher bar for moderation of problematic behavior. I don't think we want that.\r\n\r\nCan you give an example of a case where chair discretion should trump a moderator team decision?",
+              "createdAt": "2025-01-07T09:06:01Z",
+              "updatedAt": "2025-01-07T09:06:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XB03x",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T09:37:41Z",
+          "updatedAt": "2025-01-07T09:37:41Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "yes but please permit me to do so out of band, since it names names.",
+              "createdAt": "2025-01-07T09:37:41Z",
+              "updatedAt": "2025-01-07T09:37:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XGRnj",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "rgwilton",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T17:35:02Z",
+          "updatedAt": "2025-01-07T17:41:54Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "An insignificant nit, but I think that we should avoid RFC 2119 language since this isn't a protocol, and hence use the same words in lowercase.",
+              "createdAt": "2025-01-07T17:35:02Z",
+              "updatedAt": "2025-01-07T17:41:54Z"
+            },
+            {
+              "originalPosition": 18,
+              "body": "MUST NOT => cannot",
+              "createdAt": "2025-01-07T17:36:17Z",
+              "updatedAt": "2025-01-07T17:41:54Z"
+            },
+            {
+              "originalPosition": 21,
+              "body": "I'm not sure about excluding the LLC staff/contractors.  Having some folks on their who part of their job role is to help with the moderation may be beneficial, although I can understand why you want to try and keep them separate.",
+              "createdAt": "2025-01-07T17:37:25Z",
+              "updatedAt": "2025-01-07T17:41:54Z"
+            },
+            {
+              "originalPosition": 40,
+              "body": "SHALL => may",
+              "createdAt": "2025-01-07T17:38:03Z",
+              "updatedAt": "2025-01-07T17:41:54Z"
+            },
+            {
+              "originalPosition": 89,
+              "body": "I don't think that a WG chair should be able to override an IETF wide moderation decision.  E.g., if the moderation teams decides to ban someone from posting to any IETF list for 5 days, then I don't think that a WG chair should be able to say \"except they can post to mine\".  However, I also think that this is likely to be a non-issue as in, I doubt that a WG chair would choose to do this anyway.  But stating the ultimate authority is probably still useful.",
+              "createdAt": "2025-01-07T17:40:37Z",
+              "updatedAt": "2025-01-07T17:41:54Z"
+            },
+            {
+              "originalPosition": 128,
+              "body": "Not sure on this.  I think that anyone should be able to appeal any decision and it should just take the normal escalation path.",
+              "createdAt": "2025-01-07T17:41:45Z",
+              "updatedAt": "2025-01-07T17:41:54Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XGquo",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T18:32:10Z",
+          "updatedAt": "2025-01-07T18:32:10Z",
+          "comments": [
+            {
+              "originalPosition": 128,
+              "body": "Ted Lemon and I also got into this issue on the list. This is brief:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/KCGz70SboXFXo3xc55E4QD2vbRE/",
+              "createdAt": "2025-01-07T18:32:10Z",
+              "updatedAt": "2025-01-07T18:32:10Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XHGQH",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T19:38:21Z",
+          "updatedAt": "2025-01-07T19:38:21Z",
+          "comments": [
+            {
+              "originalPosition": 21,
+              "body": "I think it's correct to exclude staff, because some (many?) moderation decisions may directly impact the standards process, and that is a strict NO for staff. However, as I've said before and will say again if necessary, staff must be able to perform emergency moderation when a posting is manifestly obscene, illegal or part of a detected DOS attack. ",
+              "createdAt": "2025-01-07T19:38:21Z",
+              "updatedAt": "2025-01-07T19:38:21Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XHPlZ",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T19:59:55Z",
+          "updatedAt": "2025-01-07T19:59:55Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "To clarify my position: I was mainly pointing out that the text as written was slightly unclear. At this point in time, I don't yet have a fully formed opinion on whether chairs should be able to overrule moderators or not. But we'll definitely need to pick an answer to that binary question before we publish this. Would love to hear the example out of band too if you think that's appropriate.",
+              "createdAt": "2025-01-07T19:59:55Z",
+              "updatedAt": "2025-01-07T19:59:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XHgLB",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-07T20:41:30Z",
+          "updatedAt": "2025-01-07T20:41:30Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I'd say _soft_code a number, by qualifying it with 'normally'. Otherwise, if we hard code a minimum, and one resigns, we're in trouble.",
+              "createdAt": "2025-01-07T20:41:30Z",
+              "updatedAt": "2025-01-07T20:41:30Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XL1KS",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T08:37:34Z",
+          "updatedAt": "2025-01-08T08:37:34Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "Let's be clear: there will be normative procedural statements here.",
+              "createdAt": "2025-01-08T08:37:34Z",
+              "updatedAt": "2025-01-08T08:37:34Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XL2g_",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T08:38:57Z",
+          "updatedAt": "2025-01-08T08:38:57Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "We will take this up in another PR",
+              "createdAt": "2025-01-08T08:38:57Z",
+              "updatedAt": "2025-01-08T08:38:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XL23a",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T08:39:15Z",
+          "updatedAt": "2025-01-08T08:39:16Z",
+          "comments": [
+            {
+              "originalPosition": 40,
+              "body": "Not in this PR",
+              "createdAt": "2025-01-08T08:39:15Z",
+              "updatedAt": "2025-01-08T08:39:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XL3sm",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T08:40:17Z",
+          "updatedAt": "2025-01-08T08:40:18Z",
+          "comments": [
+            {
+              "originalPosition": 77,
+              "body": "I take your point.",
+              "createdAt": "2025-01-08T08:40:17Z",
+              "updatedAt": "2025-01-08T08:40:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XL8r1",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T08:44:55Z",
+          "updatedAt": "2025-01-08T08:44:55Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "I've now moved diversity into the team composition section",
+              "createdAt": "2025-01-08T08:44:55Z",
+              "updatedAt": "2025-01-08T08:44:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMDQI",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T08:50:39Z",
+          "updatedAt": "2025-01-08T08:50:39Z",
+          "comments": [
+            {
+              "originalPosition": 128,
+              "body": "Text removed",
+              "createdAt": "2025-01-08T08:50:39Z",
+              "updatedAt": "2025-01-08T08:50:39Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMODv",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:02:37Z",
+          "updatedAt": "2025-01-08T09:02:37Z",
+          "comments": [
+            {
+              "originalPosition": 21,
+              "body": "@rgwilton as you know I initially thought Jay should do this job, but it's now raising some legal concerns if we break down the barrier.",
+              "createdAt": "2025-01-08T09:02:37Z",
+              "updatedAt": "2025-01-08T09:02:37Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMOfg",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:03:25Z",
+          "updatedAt": "2025-01-08T09:03:25Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I will revert this change and open a separate issue, so that it can be discussed on the list.",
+              "createdAt": "2025-01-08T09:03:25Z",
+              "updatedAt": "2025-01-08T09:03:26Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMQPL",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:06:10Z",
+          "updatedAt": "2025-01-08T09:06:10Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Resolved by 595112b.",
+              "createdAt": "2025-01-08T09:06:10Z",
+              "updatedAt": "2025-01-08T09:06:10Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XMQyw",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-08T09:07:16Z",
+          "updatedAt": "2025-01-08T09:07:16Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "This needs more commentary on list.",
+              "createdAt": "2025-01-08T09:07:16Z",
+              "updatedAt": "2025-01-08T09:07:16Z"
+            }
+          ]
         }
       ]
     },
@@ -3516,26 +4508,103 @@
       "id": "PR_kwDOJrr8CM6Ggdt8",
       "title": "Spelling fix.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-12-31T18:45:55Z",
-      "updatedAt": "2024-12-31T18:45:56Z",
+      "updatedAt": "2025-01-08T07:59:29Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "spelling_incident",
-      "headRefOid": "12927d7f92308a5c2f25c15a47210418c024ce81",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "headRefOid": "61f2a95172785fe31d6daa376a8c96d2e7616816",
+      "closedAt": "2025-01-08T07:59:29Z",
+      "mergedAt": "2025-01-08T07:59:29Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@sayrer thanks; please also add yourself to the \"contributors\" list as part of this PR?",
+          "createdAt": "2025-01-07T07:40:12Z",
+          "updatedAt": "2025-01-07T07:40:12Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Sorry for the noise, never had a repo actually require a \"Verified\" commit, unless it was stuff that the IT/Security guys were handling. Maybe just do a squash commit.",
+          "createdAt": "2025-01-07T21:24:02Z",
+          "updatedAt": "2025-01-07T21:55:18Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Probably a misconfig on the repo. Let me fix.",
+          "createdAt": "2025-01-08T07:58:15Z",
+          "updatedAt": "2025-01-08T07:58:15Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6XAzpG",
+          "commit": {
+            "abbreviatedOid": "12927d7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "",
+          "createdAt": "2025-01-07T07:39:09Z",
+          "updatedAt": "2025-01-07T17:03:30Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XGL-r",
+          "commit": {
+            "abbreviatedOid": "949f57a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "",
+          "createdAt": "2025-01-07T17:22:42Z",
+          "updatedAt": "2025-01-07T20:40:46Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XKYtr",
+          "commit": {
+            "abbreviatedOid": "61f2a95"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-08T06:02:49Z",
+          "updatedAt": "2025-01-08T06:02:49Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XLP1t",
+          "commit": {
+            "abbreviatedOid": "61f2a95"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-08T07:59:13Z",
+          "updatedAt": "2025-01-08T07:59:13Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 82,
@@ -3544,7 +4613,7 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/82",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Closes #81. It is intended to disarm the reader right away. If you get right into procedural points at the start, people will just argue. Besides, the sentiment seems inarguable.",
@@ -3570,7 +4639,7 @@
         },
         {
           "author": "sayrer",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Not going to argue about the placement, but I think that is a pretty strong abstract. You don't need context there. :)\r\n\r\nI always try to suggest text, since one thing people often say is \"why not open a PR?\" when someone is just arguing. But that doesn't mean I am being insistent.\r\n\r\nEdit: I might also add that the README says \"Contributions can be made by creating pull requests.\" (subject to the usual Note Well material). Here, you have a well-written opener. I think anyone would perk up at that opening sentence vs \"This document describes the creation of a moderation team...\". I think you are missing that the first task is to get people to read the document in the first place.  Now, do you want to let Rob write that? Different question, but I'm OK with it if you write a better first sentence . \r\n\r\nThe trick here is this: you write one sentence about good things like empathy, honesty, and kindness. Then you flip to the \"This document describes...\" stuff with no verbal transition. It makes the procedural text much more powerful. If you look at my PR here, just imagine a \"\ud83d\udc40\" in the break after the first sentence. I don't care if you use my exact words.",
           "createdAt": "2025-01-02T16:41:19Z",
           "updatedAt": "2025-01-03T04:03:13Z"
