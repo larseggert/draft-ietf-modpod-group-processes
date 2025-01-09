@@ -5,12 +5,12 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                          J. Arkko
-Expires: 12 July 2025                                           Ericsson
+Expires: 13 July 2025                                           Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                          8 January 2025
+                                                          9 January 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 July 2025.
+   This Internet-Draft will expire on 13 July 2025.
 
 Copyright Notice
 
@@ -282,7 +282,7 @@ Table of Contents
    *  Temporary or permanent bans in one or more fora.
 
    We stress that these are only examples, and not in any way
-   prescriptive.
+   prescriptive.  The moderator team is free to decide on these actions.
 
    The expectation is that the minimal action necessary to maintain the
    comity of a forum will be attempted.
