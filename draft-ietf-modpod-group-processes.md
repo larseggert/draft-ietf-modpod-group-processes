@@ -254,7 +254,7 @@ actions that could be taken include:
 - Temporary or permanent bans in one or more fora.
 
 We stress that these are only examples, and not in any way
-prescriptive.
+prescriptive. The moderator team is free to decide on these actions.
 
 The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
