@@ -267,15 +267,15 @@ SHOULD be actively redirected to the moderation discussion list.
 
 ## Membership
 
-The IETF Chair appoints and replaces members of the moderator team.
-Apart from appointing and replacing moderators, the IETF Chair SHALL
+The IESG appoints and replaces members of the moderator team.
+Apart from appointing and replacing moderators, the IESG SHALL
 refrain from the day-to-day operation and management of the moderator
-team. The moderator team MAY decide to consult with the IETF Chair
+team. The moderator team MAY decide to consult with the IESG
 when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IETF Chair MUST NOT appoint a
-moderator who is serving on the IESG or IAB. Individuals serving on
+decisions (see {{appeals}}), the 
+moderators MUST NOT be serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors SHALL
 also be excluded from serving on the moderator team. If a moderator
@@ -285,19 +285,18 @@ soon after.
 ## Training
 
 The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IETF Chair will negotiate any
+appointed moderators as necessary. The IESG will negotiate any
 required funding or resources with IETF Administration LLC
 {{?RFC8711}}.
 
 ## Appeals {#appeals}
 
-Because the moderator team serves at the discretion of the IETF Chair,
-any moderation decision can be appealed to the IETF Chair by anyone,
-per {{!RFC2026}}. Disagreements with a decision by the IETF Chair can
+Because the moderator team serves at the discretion of the IESG,
+any moderation decision can be appealed to the IESG by anyone,
+per {{!RFC2026}}. Disagreements with a decision by the moderator team can
 brought to their attention. If this does not lead to a resolution, a
-decision by the IETF Chair can be appealed as described in
-{{!RFC2026}}, as with any other Area Director decision. In this case,
-the appeals chain starts with an appeal to the entire IESG.
+decision by the IESG can be appealed to the IAB as described in
+{{!RFC2026}}.
 
 ## Team Diversity
 
