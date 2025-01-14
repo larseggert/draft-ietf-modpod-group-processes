@@ -2,7 +2,7 @@
 title: "IETF Community Moderation"
 category: bcp
 
-docname: draft-ecahc-moderation-latest
+docname: draft-ietf-modpod-group-processes-latest
 submissiontype: IETF
 number:
 date:
@@ -11,41 +11,30 @@ v: 3
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/moderation
-    latest: https://larseggert.github.io/moderation/draft-ecahc-moderation.html
+    latest: https://larseggert.github.io/moderation/draft-ietf-modpod-group-processes.html
 
 author:
 
 -
     name: Lars Eggert
+    role: editor
     org: Mozilla
     street: Stenbergintie 12 B
     city: Kauniainen
     code: "02700"
     country: FI
-    email: lars@eggert.org
-    uri: https://eggert.org/
+    email: <lars@eggert.org>
+    uri: <https://eggert.org/>
 -
-    name: Jari Arkko
-    org: Ericsson
-    city: Kauniainen
-    code: "02700"
-    country: FI
-    email: jari.arkko@ericsson.com
--
-    name: Russ Housley
-    org: Vigil Security
-    email: housley@vigilsec.com
--
-    name: Brian E. Carpenter
-    ins: B. Carpenter
-    org: The University of Auckland
-    abbrev: Univ. of Auckland
-    extaddr: School of Computer Science
-    street: PB 92019
-    city: Auckland
-    code: 1142
-    country: NZ
-    email: brian.e.carpenter@gmail.com
+    name: Eliot Lear
+    role: editor
+    org: Cisco Systems
+    street: Richtistrasse 7
+    code: "8304"
+    city: Wallisellen
+    country: Switzerland
+    phone: "+41 44 878 9200"
+    email: <lear@lear.ch>
 
 normative:
 
@@ -55,23 +44,23 @@ informative:
     date: 2013-11-03
     author:
         - org: IESG
-    target: https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/
+    target: <https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/>
   OT:
     title: Ombudsteam
     date: false
-    target: https://www.ietf.org/contact/ombudsteam/
+    target: <https://www.ietf.org/contact/ombudsteam/>
   MODML:
     title: IESG Guidance on the Moderation of IETF Working Group Mailing Lists
     date: 2000-08-29
     author:
         - org: IESG
-    target: https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/
+    target: <https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/>
   DP:
     title: IESG Statement on Disruptive Posting
     date: 2006-02-16
     author:
         - org: IESG
-    target: https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/
+    target: <https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/>
 
 --- abstract
 
@@ -380,7 +369,17 @@ This document has no IANA actions.
 
 # Acknowledgments
 
-These individuals suggested improvements to this document:
+This document is based on two individual Internet-Drafts,
+[draft-ecahc-moderation](<https://datatracker.ietf.org/doc/draft-ecahc-moderation/>)
+authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ Housley and Brian E.
+Carpenter, and
+[draft-lear-bcp83-replacement](<https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/>)
+authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine. Many of
+the ideas in this document originated in those I-Ds.
+[https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
+authored by Rob Sayre, also originated ideas reflected in this WG document.
+
+These individuals suggested additional improvements to this document:
 
 - Alissa Cooper
 - Chris Box
@@ -393,3 +392,14 @@ These individuals suggested improvements to this document:
 - Robert Sayre
 
 --- back
+
+# Changes
+
+{:aside}
+> RFC Editor: Please remove this appendix before publication.
+
+## draft-ietf-modpod-group-processes-00
+
+- Content taken from
+  [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
+  Updated editors. Acknowledge authors of original pre-WG I-Ds. [PR](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
