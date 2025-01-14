@@ -2,19 +2,15 @@
 
 
 
-Network Working Group                                          L. Eggert
+Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                          J. Arkko
-Expires: 12 July 2025                                           Ericsson
-                                                              R. Housley
-                                                          Vigil Security
-                                                            B. Carpenter
-                                                       Univ. of Auckland
-                                                          8 January 2025
+Intended status: Best Current Practice                      E. Lear, Ed.
+Expires: 18 July 2025                                      Cisco Systems
+                                                         14 January 2025
 
 
                        IETF Community Moderation
-                     draft-ecahc-moderation-latest
+                draft-ietf-modpod-group-processes-latest
 
 Abstract
 
@@ -29,9 +25,9 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://larseggert.github.io/moderation/draft-ecahc-moderation.html.
-   Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-ecahc-moderation/.
+   https://larseggert.github.io/moderation/draft-ietf-modpod-group-
+   processes.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-ietf-modpod-group-processes/.
 
    Discussion of this document takes place on the mod-discuss Working
    Group mailing list (mailto:mod-discuss@ietf.org), which is archived
@@ -56,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 July 2025.
+   This Internet-Draft will expire on 18 July 2025.
 
 Copyright Notice
 
@@ -93,6 +89,8 @@ Table of Contents
    9.  References
      9.1.  Normative References
      9.2.  Informative References
+   Appendix A.  Changes
+     A.1.  draft-ietf-modpod-group-processes-00
    Authors' Addresses
 
 1.  Introduction
@@ -391,7 +389,19 @@ Table of Contents
 
 8.  Acknowledgments
 
-   These individuals suggested improvements to this document:
+   This document is based on two individual Internet-Drafts, draft-
+   ecahc-moderation (https://datatracker.ietf.org/doc/draft-ecahc-
+   moderation/) authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ
+   Housley and Brian E.  Carpenter, and draft-lear-bcp83-replacement
+   (https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/)
+   authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R.
+   Levine.  Many of the ideas in this document originated in those I-Ds.
+   https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/
+   (https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/),
+   authored by Rob Sayre, also originated ideas reflected in this WG
+   document.
+
+   These individuals suggested additional improvements to this document:
 
    *  Alissa Cooper
 
@@ -426,19 +436,20 @@ Table of Contents
 9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
-              <https://www.ietf.org/about/groups/iesg/statements/anti-
-              harassment-policy/>.
+              <<https://www.ietf.org/about/groups/iesg/statements/anti-
+              harassment-policy/>>.
 
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
-              2006, <https://www.ietf.org/about/groups/iesg/statements/
-              disruptive-posting/>.
+              2006, <<https://www.ietf.org/about/groups/iesg/statements/
+              disruptive-posting/>>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
-              <https://www.ietf.org/about/groups/iesg/statements/
-              mailing-lists-moderation/>.
+              <<https://www.ietf.org/about/groups/iesg/statements/
+              mailing-lists-moderation/>>.
 
-   [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
+   [OT]       "Ombudsteam",
+              <<https://www.ietf.org/contact/ombudsteam/>>.
 
    [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
               Text on Security Considerations", BCP 72, RFC 3552,
@@ -467,33 +478,33 @@ Table of Contents
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
 
+Appendix A.  Changes
+
+      |  RFC Editor: Please remove this appendix before publication.
+
+A.1.  draft-ietf-modpod-group-processes-00
+
+   *  Content taken from draft-ecahc-moderation-01
+      (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
+      Updated editors.  Acknowledge authors of original pre-WG I-Ds.  PR
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/65)
+
 Authors' Addresses
 
-   Lars Eggert
+   Lars Eggert (editor)
    Mozilla
    Stenbergintie 12 B
    FI-02700 Kauniainen
    Finland
-   Email: lars@eggert.org
-   URI:   https://eggert.org/
+   Email: <lars@eggert.org>
+   URI:   <https://eggert.org/>
 
 
-   Jari Arkko
-   Ericsson
-   FI-02700 Kauniainen
-   Finland
-   Email: jari.arkko@ericsson.com
-
-
-   Russ Housley
-   Vigil Security
-   Email: housley@vigilsec.com
-
-
-   Brian E. Carpenter
-   The University of Auckland
-   School of Computer Science
-   PB 92019
-   Auckland 1142
-   New Zealand
-   Email: brian.e.carpenter@gmail.com
+   Eliot Lear (editor)
+   Cisco Systems
+   Richtistrasse 7
+   CH-8304 Wallisellen
+   Switzerland
+   Phone: +41 44 878 9200
+   Email: <lear@lear.ch>
