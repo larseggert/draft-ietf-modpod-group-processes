@@ -238,28 +238,28 @@ moderator team in ways that are, ideally, integrated into the various
 participation channels the IETF offers. The moderator team SHALL keep
 the identities of participants requesting moderation confidential.
 
-## Transparency
+## Operations of the Moderator Team and Transparency
 
-The moderator team SHALL operate according to a consistent
-set of criteria, processes, and actions. The moderator team SHALL
-independently define and execute their role. They SHALL maintain a
-public set of moderation criteria, processes, actions, and other
-material that allows the community to understand and comment on the
-role of the team. The moderator team SHOULD consider adopting
-moderation criteria, processes, and actions that other technical
-communities have found suitable. The moderator team's criteria and
-processes SHALL be developed with community input, but they are not
-expected to be documented in the RFC series.
+Within the bounds of the policies set within this memo and with the
+approval of the IESG, the moderator team SHALL define any additional
+processes and moderation criteria necessary to execute their role.
+Those processes and criteria SHALL be developed with community input
+and made public, but need not be documented in the RFC series.
 
-Some of these processes may rely on automated mechanisms, such as
-rate-limiting emails to lists or messages to chat channels.
-(The IETF's deliberately low bar to participation makes it easy to
-create throw-away personas for such denial-of-service behavior.)
+The intent of this memo is to provide the widest possible freedom of
+action to the moderator team with a few constraints.  Examples of
+actions that could be taken include:
 
-{:aside}
-> TODO: This gives the moderator team broad freedom to define
-  processes and actions. Should this document define some boundaries
-  for what the moderator team can do?
+- Automated rate limiting mechanisms;
+- Review and approval of submissions/messages;
+- A private or public admonishment;
+- Temporary or permanent bans in one or more fora.
+
+We stress that these are only examples, and not in any way
+prescriptive. The moderator team is free to decide on these actions.
+
+The expectation is that the minimal action necessary to maintain the
+comity of a forum will be attempted.
 
 The moderator team SHOULD create and maintain a public mailing list
 for the community to discuss both the general moderation criteria and
@@ -269,15 +269,15 @@ SHOULD be actively redirected to the moderation discussion list.
 
 ## Membership
 
-The IETF Chair appoints and replaces members of the moderator team.
-Apart from appointing and replacing moderators, the IETF Chair SHALL
+The IESG appoints and replaces members of the moderator team.
+Apart from appointing and replacing moderators, the IESG SHALL
 refrain from the day-to-day operation and management of the moderator
-team. The moderator team MAY decide to consult with the IETF Chair
+team. The moderator team MAY decide to consult with the IESG
 when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IETF Chair MUST NOT appoint a
-moderator who is serving on the IESG or IAB. Individuals serving on
+decisions (see {{appeals}}), the
+moderators MUST NOT be serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors SHALL
 also be excluded from serving on the moderator team. If a moderator
@@ -287,19 +287,18 @@ soon after.
 ## Training
 
 The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IETF Chair will negotiate any
+appointed moderators as necessary. The IESG will negotiate any
 required funding or resources with IETF Administration LLC
 {{?RFC8711}}.
 
 ## Appeals {#appeals}
 
-Because the moderator team serves at the discretion of the IETF Chair,
-any moderation decision can be appealed to the IETF Chair by anyone,
-per {{!RFC2026}}. Disagreements with a decision by the IETF Chair can
+Because the moderator team serves at the discretion of the IESG,
+any moderation decision can be appealed to the IESG by anyone,
+per {{!RFC2026}}. Disagreements with a decision by the moderator team can
 brought to their attention. If this does not lead to a resolution, a
-decision by the IETF Chair can be appealed as described in
-{{!RFC2026}}, as with any other Area Director decision. In this case,
-the appeals chain starts with an appeal to the entire IESG.
+decision by the IESG can be appealed to the IAB as described in
+{{!RFC2026}}.
 
 ## Team Diversity
 
@@ -398,8 +397,13 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
-## draft-ietf-modpod-group-processes-00
+## Since draft-ecahc-moderation-01
+
+- [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
+- [Initial attempt to balance what the moderator defines and what](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75)
+
+## Since draft-ietf-modpod-group-processes-00
 
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
-  Updated editors. Acknowledge authors of original pre-WG I-Ds. [PR](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
+  [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
