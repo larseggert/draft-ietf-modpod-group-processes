@@ -400,4 +400,4 @@ These individuals suggested additional improvements to this document:
 
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
-  Updated editors. Acknowledge authors of original pre-WG I-Ds.
+  Updated editors. Acknowledge authors of original pre-WG I-Ds. [PR](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
