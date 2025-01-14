@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 20 June 2025                                      Cisco Systems
-                                                        17 December 2024
+Expires: 18 July 2025                                      Cisco Systems
+                                                         14 January 2025
 
 
                        IETF Community Moderation
@@ -52,11 +52,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 June 2025.
+   This Internet-Draft will expire on 18 July 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -356,7 +356,7 @@ Table of Contents
 
    This protection MAY include the need for the LLC to take emergency
    moderation actions.  These emergency actions are expected to be
-   extremely rare, of temporary nature, and the indicdents that required
+   extremely rare, of temporary nature, and the incidents that required
    them SHOULD be immediately raised with the moderator team to let them
    determine any follow-up or more permanent moderation action.  These
    incidents and the taken emergency action SHOULD also be communitated
@@ -418,6 +418,8 @@ Table of Contents
    *  Rich Salz
 
    *  Joel Halpern
+
+   *  Robert Sayre
 
 9.  References
 
