@@ -93,6 +93,8 @@ Table of Contents
    9.  References
      9.1.  Normative References
      9.2.  Informative References
+   Appendix A.  Changes
+     A.1.  Since draft-ecahc-moderation-01
    Authors' Addresses
 
 1.  Introduction
@@ -467,6 +469,19 @@ Table of Contents
    [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
+
+Appendix A.  Changes
+
+      |  RFC Editor: Please remove this appendix before publication.
+
+A.1.  Since draft-ecahc-moderation-01
+
+   *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
+      group-processes/pull/80)
+
+   *  Initial attempt to balance what the moderator defines and what
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/75)
 
 Authors' Addresses
 
