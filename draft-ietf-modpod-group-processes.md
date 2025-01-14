@@ -274,7 +274,7 @@ team. The moderator team MAY decide to consult with the IESG
 when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the 
+decisions (see {{appeals}}), the
 moderators MUST NOT be serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors SHALL
