@@ -23,7 +23,7 @@ author:
     city: Kauniainen
     code: "02700"
     country: FI
-    email: <lars@eggert.org>
+    email: lars@eggert.org
     uri: <https://eggert.org/>
 -
     name: Eliot Lear
@@ -34,7 +34,7 @@ author:
     city: Wallisellen
     country: Switzerland
     phone: "+41 44 878 9200"
-    email: <lear@lear.ch>
+    email: lear@lear.ch
 
 normative:
 
