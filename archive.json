@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-12T00:24:55.071081+00:00",
+  "timestamp": "2025-01-14T00:22:22.260666+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3987,13 +3987,13 @@
       "labels": [],
       "body": "gets defined in this memo.\r\n\r\nCloses #68.",
       "createdAt": "2024-12-30T09:14:07Z",
-      "updatedAt": "2025-01-11T21:22:12Z",
+      "updatedAt": "2025-01-13T19:04:06Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue68howmuchnow",
-      "headRefOid": "840e260d0a16ba98447f37cc6b287f006f000383",
+      "headRefOid": "0cd517226c2fae7bfa6fa4d4026245596b1d099e",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -4298,6 +4298,126 @@
               "body": "@becarpenter I don't mind so long as it is clear that the moderators are themselves overseen.  This is a major difference between the two drafts that we started with, so I will bring it to the list",
               "createdAt": "2025-01-11T11:11:45Z",
               "updatedAt": "2025-01-11T11:11:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Xvg3V",
+          "commit": {
+            "abbreviatedOid": "840e260"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-13T06:37:25Z",
+          "updatedAt": "2025-01-13T06:37:25Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "OK. Before I merge this, should we as part of this PR change references to the IETF Chair to the IESG in the remainder of the doc?",
+              "createdAt": "2025-01-13T06:37:25Z",
+              "updatedAt": "2025-01-13T06:37:25Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XwDvc",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-13T08:14:10Z",
+          "updatedAt": "2025-01-13T08:14:10Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "On this one, Lars I'm easy (enjoy that one while it lasts ;-).  Whatever you prefer.",
+              "createdAt": "2025-01-13T08:14:10Z",
+              "updatedAt": "2025-01-13T08:14:10Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6XymNU",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-13T13:33:55Z",
+          "updatedAt": "2025-01-13T13:33:56Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "I think it would be more consistent to do so, and make the IESG appoint moderators (and hence directly deal with appeals). I think those are the only two places that currently mention the IETF Chair.",
+              "createdAt": "2025-01-13T13:33:55Z",
+              "updatedAt": "2025-01-13T13:34:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Xyre6",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-13T13:43:03Z",
+          "updatedAt": "2025-01-13T13:43:03Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "Ok.  Do you want to just edit the PR and then push it?",
+              "createdAt": "2025-01-13T13:43:03Z",
+              "updatedAt": "2025-01-13T13:43:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Xy3eH",
+          "commit": {
+            "abbreviatedOid": "0cd5172"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-13T13:59:30Z",
+          "updatedAt": "2025-01-13T13:59:30Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "Done. Please take a look before I merge.",
+              "createdAt": "2025-01-13T13:59:30Z",
+              "updatedAt": "2025-01-13T13:59:30Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6X2RSN",
+          "commit": {
+            "abbreviatedOid": "399e34f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-13T19:04:06Z",
+          "updatedAt": "2025-01-13T19:04:06Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "LGTM",
+              "createdAt": "2025-01-13T19:04:06Z",
+              "updatedAt": "2025-01-13T19:04:06Z"
             }
           ]
         }
