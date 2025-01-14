@@ -90,8 +90,8 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ecahc-moderation-01
-     A.2.  Since draft-ietf-modpod-group-processes-00
+     A.1.  Since draft-ietf-modpod-group-processes-00
+     A.2.  Since draft-ecahc-moderation-01
    Authors' Addresses
 
 1.  Introduction
@@ -413,13 +413,13 @@ Table of Contents
 
    *  Jay Daley
 
+   *  Joel Halpern
+
    *  Melinda Shore
 
    *  Michael Richardson
 
    *  Rich Salz
-
-   *  Joel Halpern
 
    *  Robert Sayre
 
@@ -484,7 +484,7 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ecahc-moderation-01
+A.1.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -493,7 +493,7 @@ A.1.  Since draft-ecahc-moderation-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/75)
 
-A.2.  Since draft-ietf-modpod-group-processes-00
+A.2.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
