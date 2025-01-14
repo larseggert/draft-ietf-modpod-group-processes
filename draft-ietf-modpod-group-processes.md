@@ -395,8 +395,13 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
-## draft-ietf-modpod-group-processes-00
+## Since draft-ecahc-moderation-01
+
+- [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
+- [Initial attempt to balance what the moderator defines and what](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75)
+
+## Since draft-ietf-modpod-group-processes-00
 
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
-  Updated editors. Acknowledge authors of original pre-WG I-Ds. [PR](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
+  [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
