@@ -23,7 +23,7 @@ author:
     city: Kauniainen
     code: "02700"
     country: FI
-    email: <lars@eggert.org>
+    email: lars@eggert.org
     uri: <https://eggert.org/>
 -
     name: Eliot Lear
@@ -34,7 +34,7 @@ author:
     city: Wallisellen
     country: Switzerland
     phone: "+41 44 878 9200"
-    email: <lear@lear.ch>
+    email: lear@lear.ch
 
 normative:
 
@@ -382,10 +382,10 @@ These individuals suggested additional improvements to this document:
 - Chris Box
 - Eric Rescorla
 - Jay Daley
+- Joel Halpern
 - Melinda Shore
 - Michael Richardson
 - Rich Salz
-- Joel Halpern
 - Robert Sayre
 
 --- back
@@ -395,12 +395,12 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
-## Since draft-ecahc-moderation-01
+## Since draft-ietf-modpod-group-processes-00
 
 - [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
 - [Initial attempt to balance what the moderator defines and what](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75)
 
-## Since draft-ietf-modpod-group-processes-00
+## Since draft-ecahc-moderation-01
 
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
