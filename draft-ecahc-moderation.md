@@ -226,11 +226,18 @@ contacting.
 
 ## Scope
 
-The IETF moderator team SHALL moderate all the IETF's various current
-and future participation channels. At present, these include mailing
-lists, chat channels, and discussions in other systems that the IETF
-or WGs have chosen to employ, such as GitHub repositories, Wikis, or
-issue trackers.
+The IETF moderator team is responsible for establishing processes to
+address moderation needs across all IETF fora, both present and
+future, including, but not limited to, mailing lists, chat channels,
+and discussions in other systems that the IETF or WGs have chosen to
+employ, such as GitHub repositories, Wikis, or issue trackers.
+
+The moderation team is authorized to moderate all non-working group
+fora, including, the IETF discussion and the last-call mailing lists
+and all non-WG mailing lists, as well as area mailing lists.  This
+also includes non-WG IETF-sponsored chat mechanisms.
+
+Interactions with WGs are discussed below.
 
 It is not expected that the moderator team will be monitoring every
 IETF channel, but rather that participants MAY and chairs SHOULD flag
@@ -261,29 +268,27 @@ the relevant group's management, such as WG chairs. However,
 moderators are available for consultation and assistance should issues
 arise, and they MAY proactively confer with the group management over
 potential patterns of behavior. Group participants MAY and chairs
-SHOULD alert the moderators to problematic behavior. When moderators
+MUST alert the moderators to problematic behavior that rises to the
+level that some action is needed. Similarly, when moderators
 observe or are alerted to problematic behavior on such channels, they
-SHOULD consult with the group's management to jointly determine an
-appropriate moderation response.
+MUST consult with the group's management to jointly determine an
+appropriate response.
 
-The moderation team MAY take actions against someone in a working
-group setting, but they MUST inform management of relevant groups,
-including WG chairs and area directors, when they do so.  Working
-group chairs MAY overrule those actions in their respective groups, if
-they believe doing so would be in their groups' interests, at which
-time they MUST inform both the moderators and area directors.
+Only when necessary, the moderation team MAY take actions against
+someone in a working group setting, but they MUST inform management of
+relevant groups, including WG chairs and area directors, when they do
+so.
 
-Neither set of decisions should be taken lightly: the moderation team
-should respect the views of the group management in such cases, and
-the group management should respect the moderation team's task of
-upholding an overall IETF-wide uniformity for moderation.
+If working group management and moderators have a disagreement about
+how to proceed in any given circumstance, the matter should be taken
+up with the responsible area director(s) for resolution, and, when more
+than one area is involved, with the IESG.
 
-The moderator team MAY initiate moderation actions by itself;
-individual participants SHOULD also alert the team to disruptive
-behavior they observe. Participants should be able to contact the
-moderator team in ways that are, ideally, integrated into the various
-participation channels the IETF offers. The moderator team SHALL keep
-the identities of participants requesting moderation confidential.
+It is anticipated that such disagreements will be exceedingly rare.
+the moderation team should respect the views of the group management
+in such cases, and the group management should respect the moderation
+team's task of upholding an overall IETF-wide uniformity for
+moderation.
 
 ## Transparency
 
