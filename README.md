@@ -1,17 +1,17 @@
 # IETF Community Moderation
 
-This is the working area for the individual Internet-Draft, "IETF Community Moderation".
+This is the working area for the IETF [MODPOD Working Group](https://datatracker.ietf.org/wg/modpod/documents/) Internet-Draft, "IETF Community Moderation".
 
-* [Editor's Copy](https://larseggert.github.io/moderation/#go.draft-ecahc-moderation.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ecahc-moderation)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ecahc-moderation)
-* [Compare Editor's Copy to Individual Draft](https://larseggert.github.io/moderation/#go.draft-ecahc-moderation.diff)
+* [Editor's Copy](https://larseggert.github.io/draft-ietf-modpod-group-processes/#go.draft-ietf-modpod-group-processes.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-modpod-group-processes)
+* [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-modpod-group-processes)
+* [Compare Editor's Copy to Working Group Draft](https://larseggert.github.io/draft-ietf-modpod-group-processes/#go.draft-ietf-modpod-group-processes.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/larseggert/moderation/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/larseggert/draft-ietf-modpod-group-processes/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.

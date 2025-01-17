@@ -2,7 +2,7 @@
 title: "IETF Community Moderation"
 category: bcp
 
-docname: draft-ecahc-moderation-latest
+docname: draft-ietf-modpod-group-processes-latest
 submissiontype: IETF
 number:
 date:
@@ -11,41 +11,30 @@ v: 3
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/moderation
-    latest: https://larseggert.github.io/moderation/draft-ecahc-moderation.html
+    latest: https://larseggert.github.io/moderation/draft-ietf-modpod-group-processes.html
 
 author:
 
 -
     name: Lars Eggert
+    role: editor
     org: Mozilla
     street: Stenbergintie 12 B
     city: Kauniainen
     code: "02700"
     country: FI
     email: lars@eggert.org
-    uri: https://eggert.org/
+    uri: <https://eggert.org/>
 -
-    name: Jari Arkko
-    org: Ericsson
-    city: Kauniainen
-    code: "02700"
-    country: FI
-    email: jari.arkko@ericsson.com
--
-    name: Russ Housley
-    org: Vigil Security
-    email: housley@vigilsec.com
--
-    name: Brian E. Carpenter
-    ins: B. Carpenter
-    org: The University of Auckland
-    abbrev: Univ. of Auckland
-    extaddr: School of Computer Science
-    street: PB 92019
-    city: Auckland
-    code: 1142
-    country: NZ
-    email: brian.e.carpenter@gmail.com
+    name: Eliot Lear
+    role: editor
+    org: Cisco Systems
+    street: Richtistrasse 7
+    code: "8304"
+    city: Wallisellen
+    country: Switzerland
+    phone: "+41 44 878 9200"
+    email: lear@lear.ch
 
 normative:
 
@@ -55,23 +44,23 @@ informative:
     date: 2013-11-03
     author:
         - org: IESG
-    target: https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/
+    target: <https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/>
   OT:
     title: Ombudsteam
     date: false
-    target: https://www.ietf.org/contact/ombudsteam/
+    target: <https://www.ietf.org/contact/ombudsteam/>
   MODML:
     title: IESG Guidance on the Moderation of IETF Working Group Mailing Lists
     date: 2000-08-29
     author:
         - org: IESG
-    target: https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/
+    target: <https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/>
   DP:
     title: IESG Statement on Disruptive Posting
     date: 2006-02-16
     author:
         - org: IESG
-    target: https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/
+    target: <https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/>
 
 --- abstract
 
@@ -290,28 +279,28 @@ in such cases, and the group management should respect the moderation
 team's task of upholding an overall IETF-wide uniformity for
 moderation.
 
-## Transparency
+## Operations of the Moderator Team and Transparency
 
-The moderator team SHALL operate according to a consistent
-set of criteria, processes, and actions. The moderator team SHALL
-independently define and execute their role. They SHALL maintain a
-public set of moderation criteria, processes, actions, and other
-material that allows the community to understand and comment on the
-role of the team. The moderator team SHOULD consider adopting
-moderation criteria, processes, and actions that other technical
-communities have found suitable. The moderator team's criteria and
-processes SHALL be developed with community input, but they are not
-expected to be documented in the RFC series.
+Within the bounds of the policies set within this memo and with the
+approval of the IESG, the moderator team SHALL define any additional
+processes and moderation criteria necessary to execute their role.
+Those processes and criteria SHALL be developed with community input
+and made public, but need not be documented in the RFC series.
 
-Some of these processes may rely on automated mechanisms, such as
-rate-limiting emails to lists or messages to chat channels.
-(The IETF's deliberately low bar to participation makes it easy to
-create throw-away personas for such denial-of-service behavior.)
+The intent of this memo is to provide the widest possible freedom of
+action to the moderator team with a few constraints.  Examples of
+actions that could be taken include:
 
-{:aside}
-> TODO: This gives the moderator team broad freedom to define
-  processes and actions. Should this document define some boundaries
-  for what the moderator team can do?
+- Automated rate limiting mechanisms;
+- Review and approval of submissions/messages;
+- A private or public admonishment;
+- Temporary or permanent bans in one or more fora.
+
+We stress that these are only examples, and not in any way
+prescriptive. The moderator team is free to decide on these actions.
+
+The expectation is that the minimal action necessary to maintain the
+comity of a forum will be attempted.
 
 The moderator team SHOULD create and maintain a public mailing list
 for the community to discuss both the general moderation criteria and
@@ -322,19 +311,18 @@ SHOULD be actively redirected to the moderation discussion list.
 ## Training
 
 The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IETF Chair will negotiate any
+appointed moderators as necessary. The IESG will negotiate any
 required funding or resources with IETF Administration LLC
 {{?RFC8711}}.
 
 ## Appeals {#appeals}
 
-Because the moderator team serves at the discretion of the IETF Chair,
-any moderation decision can be appealed to the IETF Chair by anyone,
-per {{!RFC2026}}. Disagreements with a decision by the IETF Chair can
+Because the moderator team serves at the discretion of the IESG,
+any moderation decision can be appealed to the IESG by anyone,
+per {{!RFC2026}}. Disagreements with a decision by the moderator team can
 brought to their attention. If this does not lead to a resolution, a
-decision by the IETF Chair can be appealed as described in
-{{!RFC2026}}, as with any other Area Director decision. In this case,
-the appeals chain starts with an appeal to the entire IESG.
+decision by the IESG can be appealed to the IAB as described in
+{{!RFC2026}}.
 
 ## Relation to the Ombudsteam
 
@@ -392,16 +380,42 @@ This document has no IANA actions.
 
 # Acknowledgments
 
-These individuals suggested improvements to this document:
+This document is based on two individual Internet-Drafts,
+[draft-ecahc-moderation](<https://datatracker.ietf.org/doc/draft-ecahc-moderation/>)
+authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ Housley and Brian E.
+Carpenter, and
+[draft-lear-bcp83-replacement](<https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/>)
+authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine. Many of
+the ideas in this document originated in those I-Ds.
+[https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
+authored by Rob Sayre, also originated ideas reflected in this WG document.
+
+These individuals suggested additional improvements to this document:
 
 - Alissa Cooper
 - Chris Box
 - Eric Rescorla
 - Jay Daley
+- Joel Halpern
 - Melinda Shore
 - Michael Richardson
 - Rich Salz
-- Joel Halpern
 - Robert Sayre
 
 --- back
+
+# Changes
+
+{:aside}
+> RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-00
+
+- [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
+- [Initial attempt to balance what the moderator defines and what](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75)
+
+## Since draft-ecahc-moderation-01
+
+- Content taken from
+  [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
+  [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
