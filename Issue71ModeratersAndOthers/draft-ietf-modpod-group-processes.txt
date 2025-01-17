@@ -2,19 +2,15 @@
 
 
 
-Network Working Group                                          L. Eggert
+Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                          J. Arkko
-Expires: 21 July 2025                                           Ericsson
-                                                              R. Housley
-                                                          Vigil Security
-                                                            B. Carpenter
-                                                       Univ. of Auckland
+Intended status: Best Current Practice                      E. Lear, Ed.
+Expires: 21 July 2025                                      Cisco Systems
                                                          17 January 2025
 
 
                        IETF Community Moderation
-                     draft-ecahc-moderation-latest
+                draft-ietf-modpod-group-processes-latest
 
 Abstract
 
@@ -29,9 +25,9 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://larseggert.github.io/moderation/draft-ecahc-moderation.html.
-   Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-ecahc-moderation/.
+   https://larseggert.github.io/moderation/draft-ietf-modpod-group-
+   processes.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-ietf-modpod-group-processes/.
 
    Discussion of this document takes place on the mod-discuss Working
    Group mailing list (mailto:mod-discuss@ietf.org), which is archived
@@ -84,7 +80,7 @@ Table of Contents
        4.2.1.  Non-IETF communication channels and private
                communications excluded
        4.2.2.  IETF Working Groups
-     4.3.  Transparency
+     4.3.  Operations of the Moderator Team and Transparency
      4.4.  Training
      4.5.  Appeals
      4.6.  Relation to the Ombudsteam
@@ -96,6 +92,9 @@ Table of Contents
    9.  References
      9.1.  Normative References
      9.2.  Informative References
+   Appendix A.  Changes
+     A.1.  Since draft-ietf-modpod-group-processes-00
+     A.2.  Since draft-ecahc-moderation-01
    Authors' Addresses
 
 1.  Introduction
@@ -307,27 +306,31 @@ Table of Contents
    team's task of upholding an overall IETF-wide uniformity for
    moderation.
 
-4.3.  Transparency
+4.3.  Operations of the Moderator Team and Transparency
 
-   The moderator team SHALL operate according to a consistent set of
-   criteria, processes, and actions.  The moderator team SHALL
-   independently define and execute their role.  They SHALL maintain a
-   public set of moderation criteria, processes, actions, and other
-   material that allows the community to understand and comment on the
-   role of the team.  The moderator team SHOULD consider adopting
-   moderation criteria, processes, and actions that other technical
-   communities have found suitable.  The moderator team's criteria and
-   processes SHALL be developed with community input, but they are not
-   expected to be documented in the RFC series.
+   Within the bounds of the policies set within this memo and with the
+   approval of the IESG, the moderator team SHALL define any additional
+   processes and moderation criteria necessary to execute their role.
+   Those processes and criteria SHALL be developed with community input
+   and made public, but need not be documented in the RFC series.
 
-   Some of these processes may rely on automated mechanisms, such as
-   rate-limiting emails to lists or messages to chat channels.  (The
-   IETF's deliberately low bar to participation makes it easy to create
-   throw-away personas for such denial-of-service behavior.)
+   The intent of this memo is to provide the widest possible freedom of
+   action to the moderator team with a few constraints.  Examples of
+   actions that could be taken include:
 
-      |  TODO: This gives the moderator team broad freedom to define
-      |  processes and actions.  Should this document define some
-      |  boundaries for what the moderator team can do?
+   *  Automated rate limiting mechanisms;
+
+   *  Review and approval of submissions/messages;
+
+   *  A private or public admonishment;
+
+   *  Temporary or permanent bans in one or more fora.
+
+   We stress that these are only examples, and not in any way
+   prescriptive.  The moderator team is free to decide on these actions.
+
+   The expectation is that the minimal action necessary to maintain the
+   comity of a forum will be attempted.
 
    The moderator team SHOULD create and maintain a public mailing list
    for the community to discuss both the general moderation criteria and
@@ -338,18 +341,17 @@ Table of Contents
 4.4.  Training
 
    The IETF is committed to providing and/or funding training for
-   appointed moderators as necessary.  The IETF Chair will negotiate any
+   appointed moderators as necessary.  The IESG will negotiate any
    required funding or resources with IETF Administration LLC [RFC8711].
 
 4.5.  Appeals
 
-   Because the moderator team serves at the discretion of the IETF
-   Chair, any moderation decision can be appealed to the IETF Chair by
-   anyone, per [RFC2026].  Disagreements with a decision by the IETF
-   Chair can brought to their attention.  If this does not lead to a
-   resolution, a decision by the IETF Chair can be appealed as described
-   in [RFC2026], as with any other Area Director decision.  In this
-   case, the appeals chain starts with an appeal to the entire IESG.
+   Because the moderator team serves at the discretion of the IESG, any
+   moderation decision can be appealed to the IESG by anyone, per
+   [RFC2026].  Disagreements with a decision by the moderator team can
+   brought to their attention.  If this does not lead to a resolution, a
+   decision by the IESG can be appealed to the IAB as described in
+   [RFC2026].
 
 4.6.  Relation to the Ombudsteam
 
@@ -408,7 +410,19 @@ Table of Contents
 
 8.  Acknowledgments
 
-   These individuals suggested improvements to this document:
+   This document is based on two individual Internet-Drafts, draft-
+   ecahc-moderation (https://datatracker.ietf.org/doc/draft-ecahc-
+   moderation/) authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ
+   Housley and Brian E.  Carpenter, and draft-lear-bcp83-replacement
+   (https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/)
+   authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R.
+   Levine.  Many of the ideas in this document originated in those I-Ds.
+   https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/
+   (https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/),
+   authored by Rob Sayre, also originated ideas reflected in this WG
+   document.
+
+   These individuals suggested additional improvements to this document:
 
    *  Alissa Cooper
 
@@ -418,13 +432,13 @@ Table of Contents
 
    *  Jay Daley
 
+   *  Joel Halpern
+
    *  Melinda Shore
 
    *  Michael Richardson
 
    *  Rich Salz
-
-   *  Joel Halpern
 
    *  Robert Sayre
 
@@ -443,19 +457,20 @@ Table of Contents
 9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
-              <https://www.ietf.org/about/groups/iesg/statements/anti-
-              harassment-policy/>.
+              <<https://www.ietf.org/about/groups/iesg/statements/anti-
+              harassment-policy/>>.
 
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
-              2006, <https://www.ietf.org/about/groups/iesg/statements/
-              disruptive-posting/>.
+              2006, <<https://www.ietf.org/about/groups/iesg/statements/
+              disruptive-posting/>>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
-              <https://www.ietf.org/about/groups/iesg/statements/
-              mailing-lists-moderation/>.
+              <<https://www.ietf.org/about/groups/iesg/statements/
+              mailing-lists-moderation/>>.
 
-   [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
+   [OT]       "Ombudsteam",
+              <<https://www.ietf.org/contact/ombudsteam/>>.
 
    [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
               Text on Security Considerations", BCP 72, RFC 3552,
@@ -484,33 +499,42 @@ Table of Contents
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
 
+Appendix A.  Changes
+
+      |  RFC Editor: Please remove this appendix before publication.
+
+A.1.  Since draft-ietf-modpod-group-processes-00
+
+   *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
+      group-processes/pull/80)
+
+   *  Initial attempt to balance what the moderator defines and what
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/75)
+
+A.2.  Since draft-ecahc-moderation-01
+
+   *  Content taken from draft-ecahc-moderation-01
+      (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
+      Updated editors.  Acknowledge authors of original pre-WG I-Ds.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/65)
+
 Authors' Addresses
 
-   Lars Eggert
+   Lars Eggert (editor)
    Mozilla
    Stenbergintie 12 B
    FI-02700 Kauniainen
    Finland
    Email: lars@eggert.org
-   URI:   https://eggert.org/
+   URI:   <https://eggert.org/>
 
 
-   Jari Arkko
-   Ericsson
-   FI-02700 Kauniainen
-   Finland
-   Email: jari.arkko@ericsson.com
-
-
-   Russ Housley
-   Vigil Security
-   Email: housley@vigilsec.com
-
-
-   Brian E. Carpenter
-   The University of Auckland
-   School of Computer Science
-   PB 92019
-   Auckland 1142
-   New Zealand
-   Email: brian.e.carpenter@gmail.com
+   Eliot Lear (editor)
+   Cisco Systems
+   Richtistrasse 7
+   CH-8304 Wallisellen
+   Switzerland
+   Phone: +41 44 878 9200
+   Email: lear@lear.ch
