@@ -183,17 +183,17 @@ in {{motiv}}.
 ## Composition
 
 The moderator team consists of no less than five
-individuals.  The IETF Chair appoints and replaces members of the
-moderator team.  In selecting members, the IETF Chair will take into
+individuals.  The IESG appoints and replaces members of the
+moderator team.  In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absenses, and
 team diversity.  The moderation team may expand or contract
 based on operational experience.  Apart from appointing and replacing
-moderators, the IETF Chair SHALL refrain from the day-to-day operation
+moderators, the IESG SHALL refrain from the day-to-day operation
 and management of the moderator team. The moderator team MAY decide to
-consult with the IETF Chair when needed.
+consult with the IESG when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IETF Chair MUST NOT appoint a
+decisions (see {{appeals}}), the IESG MUST NOT appoint a
 moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors SHALL
