@@ -269,9 +269,10 @@ relevant groups, including WG chairs and area directors, when they do
 so.
 
 If working group management and moderators have a disagreement about
-how to proceed in any given circumstance, the matter should be taken
-up with the responsible area director(s) for resolution, and, when more
-than one area is involved, with the IESG.
+how to proceed in any given circumstance, before any further action is
+taken, the matter should be taken up with the responsible area
+director(s) for resolution, and, when more than one area is involved,
+with the IESG.
 
 It is anticipated that such disagreements will be exceedingly rare.
 the moderation team should respect the views of the group management
