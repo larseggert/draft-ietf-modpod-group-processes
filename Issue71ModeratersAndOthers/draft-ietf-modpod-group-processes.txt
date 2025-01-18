@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 21 July 2025                                      Cisco Systems
-                                                         17 January 2025
+Expires: 22 July 2025                                      Cisco Systems
+                                                         18 January 2025
 
 
                        IETF Community Moderation
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 July 2025.
+   This Internet-Draft will expire on 22 July 2025.
 
 Copyright Notice
 
@@ -208,23 +208,23 @@ Table of Contents
 4.1.  Composition
 
    The moderator team consists of no less than five individuals.  The
-   IETF Chair appoints and replaces members of the moderator team.  In
-   selecting members, the IETF Chair will take into account geographic
+   IESG appoints and replaces members of the moderator team.  In
+   selecting members, the IESG will take into account geographic
    coverage, expected and unexpected absenses, and team diversity.  The
    moderation team may expand or contract based on operational
-   experience.  Apart from appointing and replacing moderators, the IETF
-   Chair SHALL refrain from the day-to-day operation and management of
-   the moderator team.  The moderator team MAY decide to consult with
-   the IETF Chair when needed.
+   experience.  Apart from appointing and replacing moderators, the IESG
+   SHALL refrain from the day-to-day operation and management of the
+   moderator team.  The moderator team MAY decide to consult with the
+   IESG when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.5), the IETF Chair MUST NOT appoint a
-   moderator who is serving on the IESG or IAB.  Individuals serving on
-   other bodies to which the NomCom appoints members, such as the IETF
-   Trust or the LLC Board, as well as LLC staff and contractors SHALL
-   also be excluded from serving on the moderator team.  If a moderator
-   is assuming any such role, they SHALL step down from the moderator
-   team soon after.
+   decisions (see Section 4.5), the IESG MUST NOT appoint a moderator
+   who is serving on the IESG or IAB.  Individuals serving on other
+   bodies to which the NomCom appoints members, such as the IETF Trust
+   or the LLC Board, as well as LLC staff and contractors SHALL also be
+   excluded from serving on the moderator team.  If a moderator is
+   assuming any such role, they SHALL step down from the moderator team
+   soon after.
 
 4.1.1.  Team Diversity
 
