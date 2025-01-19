@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-16T00:21:27.992119+00:00",
+  "timestamp": "2025-01-19T00:23:17.154841+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -4441,13 +4441,13 @@
       "labels": [],
       "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
       "createdAt": "2024-12-30T15:20:03Z",
-      "updatedAt": "2025-01-08T09:07:16Z",
+      "updatedAt": "2025-01-18T22:08:32Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
+      "baseRefOid": "b7ed5a494be2c8c255eb69c0e4e19c9b7ebb3af2",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue71ModeratersAndOthers",
-      "headRefOid": "595112b5980ecb38c8521278b7e1c2358630554d",
+      "headRefOid": "cce1c2954be886f45ac9a6ee13efb9b4644a57f3",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -4494,6 +4494,13 @@
           "body": "@becarpenter if there's any substance to discussions about PRs, e.g. the substantive question about NomCom & mod team membership etc, please take it to the list - we're just going to need to be conservative about resolving open issues on the list. \r\n\r\nI'm also advising the editors that they can merge PRs like this without individually resolving each comment on PRs, especially when the discussion could easily be a new issue and a new PR like this conversation.  Merging this PR does not imply anything about consensus or lack of consensus on your suggestion.    There will be further PRs and further versions.  thanks!!",
           "createdAt": "2025-01-06T21:21:39Z",
           "updatedAt": "2025-01-06T21:21:39Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "The current version of this PR reverts stuff that we changed in #75 (such as `IETF Chair` -> `IESG`). @elear please fix?",
+          "createdAt": "2025-01-17T14:09:38Z",
+          "updatedAt": "2025-01-17T14:09:38Z"
         }
       ],
       "reviews": [
@@ -5028,6 +5035,206 @@
               "body": "This needs more commentary on list.",
               "createdAt": "2025-01-08T09:07:16Z",
               "updatedAt": "2025-01-08T09:07:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YhtPV",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-17T13:08:47Z",
+          "updatedAt": "2025-01-17T13:08:48Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "See last commit to address mailing list discussion.  @larseggert I may have biffed the rebase; could you eye it over?",
+              "createdAt": "2025-01-17T13:08:47Z",
+              "updatedAt": "2025-01-17T13:08:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YhuhM",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-17T13:11:09Z",
+          "updatedAt": "2025-01-17T13:11:09Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "nevermind.  Working on it.\r\n",
+              "createdAt": "2025-01-17T13:11:09Z",
+              "updatedAt": "2025-01-17T13:11:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Yhw4g",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-17T13:15:07Z",
+          "updatedAt": "2025-01-17T13:15:07Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "Ok, please review.",
+              "createdAt": "2025-01-17T13:15:07Z",
+              "updatedAt": "2025-01-17T13:15:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YiNQf",
+          "commit": {
+            "abbreviatedOid": "c6df6a9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-17T14:05:25Z",
+          "updatedAt": "2025-01-17T14:05:25Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "@DavidSchinazi please have another look, if you have time.",
+              "createdAt": "2025-01-17T14:05:25Z",
+              "updatedAt": "2025-01-17T14:05:25Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YiOE7",
+          "commit": {
+            "abbreviatedOid": "d5a8bf8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-17T14:06:14Z",
+          "updatedAt": "2025-01-17T14:06:14Z",
+          "comments": [
+            {
+              "originalPosition": 21,
+              "body": "@rgwilton I'd like not to try to solve this in this PR.  If you feel strongly, could you open an issue?",
+              "createdAt": "2025-01-17T14:06:14Z",
+              "updatedAt": "2025-01-17T14:06:14Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YlvcQ",
+          "commit": {
+            "abbreviatedOid": "5a240a2"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-17T21:42:28Z",
+          "updatedAt": "2025-01-17T21:42:28Z",
+          "comments": [
+            {
+              "originalPosition": 118,
+              "body": "Overall I agree with the general mindset and decision-making here. However, when it gets down to implementation, I think the details leave an unspecified window that is open to interpretation.\r\n\r\nLet's take a hypothetical scenario:\r\n* Alice is a long-time contributor of the FOO WG\r\n* Alice sends an email to the FOO WG mailing list that the moderators find to be inappropriate\r\n* A moderator replies that this was inappropriate and asks Alice to do better\r\n* Alice digs their heels in, and repeats the offensive behavior\r\n* [time T0] The moderator reaches out privately to the chairs saying that they want to block Alice's email to the FOO WG list for 2 weeks\r\n* The FOO WG chair says that the moderator is overreacting and shouldn't take such a drastic measure because Alice is an important contributor and the topic at hand is a WGLC that will expire before those 2 weeks\r\n* The moderator and FOO WG chair talk but are unable to come to agreement\r\n* This gets escalated to the responsible AD for FOO, who decides to side with the moderator\r\n* [time T1] the moderator goes into the admin interface and puts Alice in moderation\r\n\r\nIn this example, the time delay between T0 and T1 could be multiple days. That's too much time as it could allow the list discussion to spiral out of control. So \"something\" needs to happen between T0 and T1, even if \"something\" is \"let Alice keep posting\" - in this context, inaction is still an action. So my question is: can we clarify what happens between T0 and T1 in this scenario? Options include:\r\n* Alice's posting rights are maintained\r\n* Alice's emails are moderated by the moderator\r\n* Alice's emails are moderated by the WG chair\r\n* Alice's emails are blocked\r\n* Both the moderator and chair have access to the admin interface so they play admin tennis constantly undoing the other's action to get the list in the state they want it to be in\r\n* We take the entire Internet offline and all go touch grass\r\n\r\nAnother way to phrase this whole thing could be to say that the moderator is allowed to put the block in place, but must immediately notify the chairs. If the chairs disagree, they can follow the usual appeals process, but aren't allowed to undo the moderator's action themselves until either they come to an agreement with the moderator, or the appeal is adjudicated.\r\n\r\n",
+              "createdAt": "2025-01-17T21:42:28Z",
+              "updatedAt": "2025-01-17T21:42:29Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YnZFf",
+          "commit": {
+            "abbreviatedOid": "5a240a2"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-18T15:49:09Z",
+          "updatedAt": "2025-01-18T15:49:10Z",
+          "comments": [
+            {
+              "originalPosition": 118,
+              "body": "@larseggert the only thing that seems to have been blown is ietf chair to iesg.  do you see others?\r\n",
+              "createdAt": "2025-01-18T15:49:09Z",
+              "updatedAt": "2025-01-18T15:49:10Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YnZM9",
+          "commit": {
+            "abbreviatedOid": "5a240a2"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-18T15:51:57Z",
+          "updatedAt": "2025-01-18T15:51:57Z",
+          "comments": [
+            {
+              "originalPosition": 118,
+              "body": "@DavidSchinazi Ok, I think I've closed that loophole with the latest commit.  Let me know if you think I'm wrong.",
+              "createdAt": "2025-01-18T15:51:57Z",
+              "updatedAt": "2025-01-18T15:51:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YnbUE",
+          "commit": {
+            "abbreviatedOid": "5a240a2"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-18T16:33:36Z",
+          "updatedAt": "2025-01-18T16:33:36Z",
+          "comments": [
+            {
+              "originalPosition": 118,
+              "body": "And @DavidSchinazi, if I'm still missing, we can reword along you're lines.",
+              "createdAt": "2025-01-18T16:33:36Z",
+              "updatedAt": "2025-01-18T16:33:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YoFWw",
+          "commit": {
+            "abbreviatedOid": "cce1c29"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-18T22:08:16Z",
+          "updatedAt": "2025-01-18T22:08:32Z",
+          "comments": [
+            {
+              "originalPosition": 118,
+              "body": "This latest text works for me, thanks",
+              "createdAt": "2025-01-18T22:08:16Z",
+              "updatedAt": "2025-01-18T22:08:32Z"
             }
           ]
         }
