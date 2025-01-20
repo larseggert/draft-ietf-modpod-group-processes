@@ -182,21 +182,53 @@ IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
 in {{motiv}}.
 
+## Composition
+
+The moderator team consists of no less than five
+individuals.  The IESG appoints and replaces members of the
+moderator team.  In selecting members, the IESG will take into
+account geographic coverage, expected and unexpected absenses, and
+team diversity.  The moderation team may expand or contract
+based on operational experience.  Apart from appointing and replacing
+moderators, the IESG SHALL refrain from the day-to-day operation
+and management of the moderator team. The moderator team MAY decide to
+consult with the IESG when needed.
+
+Because the IESG and IAB are in the appeals chain for moderator team
+decisions (see {{appeals}}), the IESG MUST NOT appoint a
+moderator who is serving on the IESG or IAB. Individuals serving on
+other bodies to which the NomCom appoints members, such as the IETF
+Trust or the LLC Board, as well as LLC staff and contractors SHALL
+also be excluded from serving on the moderator team. If a moderator
+is assuming any such role, they SHALL step down from the moderator team
+soon after.
+
+### Team Diversity
+
+Due to the global nature of the IETF, the membership of this team
+SHOULD reflect a diversity of time zones and other participant
+characteristics that lets it operate effectively around the clock and
+throughout the year. Ideally, the moderator team should be able to
+respond to issues within a few hours.
+
+Team diversity is also important to ensure any participant observing
+problematic behavior can identify a moderator they feel comfortable
+contacting.
+
 ## Scope
 
-The IETF moderator team consists of a number of individuals
-that SHALL moderate all the IETF's various
-current and future participation channels. At present, these include
-mailing lists, chat channels, and discussions in other systems that
-the IETF or WGs have chosen to employ, such as GitHub repositories,
-Wikis, or issue trackers.
+The IETF moderator team is responsible for establishing processes to
+address moderation needs across all IETF fora, both present and
+future, including, but not limited to, mailing lists, chat channels,
+and discussions in other systems that the IETF or WGs have chosen to
+employ, such as GitHub repositories, Wikis, or issue trackers.
 
-The moderator team consists of no less than five individuals,
-to establish some minimum basis for consensus-based team decisions
-and geographic spread, but realistically needs to have several more
-members to spread the moderation load and provide redundancy
-in the cases of absences, etc. It is up to the moderator team to determine
-a useful team size.
+The moderation team is authorized to moderate all non-working group
+fora, including, the IETF discussion and the last-call mailing lists
+and all non-WG mailing lists, as well as area mailing lists.  This
+also includes non-WG IETF-sponsored chat mechanisms.
+
+Interactions with WGs are discussed below.
 
 It is not expected that the moderator team will be monitoring every
 IETF channel, but rather that participants MAY and chairs SHOULD flag
@@ -209,6 +241,8 @@ their own judgment and community suggestions. (Note that some participation
 channels, such as the examples given in the previous sentence, have no
 chairs or other community leadership, so the moderation team MUST handle those.)
 
+### Non-IETF communication channels and private communications excluded
+
 It is important to note that the moderation team only
 moderates *public* IETF participation channels. Their mandate does
 not extend to problematic behavior in private channels, such as
@@ -216,27 +250,37 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-The management and moderation of participation channels associated
-with various IETF groups, inculding their mailing lists, chat
-channels and in-person, remote, or interim meetings remains primarily a
-task of the relevant group's management, such as WG chairs. However,
-moderators are available for consultation and
-assistance should issues arise, and they MAY proactively confer with the group
-management over potential patterns of behavior. Group participants MAY
-and chairs SHOULD alert the moderators to problematic behavior. When moderators
-observe or are alerted to problematic behavior on such channels, they
-SHOULD consult with the group's management to jointly determine an
-appropriate moderation response. The moderation team should respect
-the views of the group management in such cases, and the group
-management should respect the moderation team's task of upholding an
-overall IETF-wide uniformity for moderation.
+### IETF Working Groups
 
-The moderator team MAY initiate moderation actions by itself;
-individual participants SHOULD also alert the team to disruptive
-behavior they observe. Participants should be able to contact the
-moderator team in ways that are, ideally, integrated into the various
-participation channels the IETF offers. The moderator team SHALL keep
-the identities of participants requesting moderation confidential.
+The management and moderation of participation channels associated
+with various IETF groups, including their mailing lists, chat channels
+and in-person, remote, or interim meetings remains primarily a task of
+the relevant group's management, such as WG chairs. However,
+moderators are available for consultation and assistance should issues
+arise, and they MAY proactively confer with the group management over
+potential patterns of behavior. Group participants MAY and chairs
+MUST alert the moderators to problematic behavior that rises to the
+level that some action is needed. Similarly, when moderators
+observe or are alerted to problematic behavior on such channels, they
+MUST consult with the group's management to jointly determine an
+appropriate response.
+
+Only when necessary, the moderation team MAY take actions against
+someone in a working group setting, but they MUST inform management of
+relevant groups, including WG chairs and area directors, when they do
+so.
+
+If working group management and moderators have a disagreement about
+how to proceed in any given circumstance, before any further action is
+taken, the matter should be taken up with the responsible area
+director(s) for resolution, and, when more than one area is involved,
+with the IESG.
+
+It is anticipated that such disagreements will be exceedingly rare.
+the moderation team should respect the views of the group management
+in such cases, and the group management should respect the moderation
+team's task of upholding an overall IETF-wide uniformity for
+moderation.
 
 ## Operations of the Moderator Team and Transparency
 
@@ -267,23 +311,6 @@ individual moderation decisions. To not distract from the
 topic-oriented discussion on other IETF lists, such meta-discussions
 SHOULD be actively redirected to the moderation discussion list.
 
-## Membership
-
-The IESG appoints and replaces members of the moderator team.
-Apart from appointing and replacing moderators, the IESG SHALL
-refrain from the day-to-day operation and management of the moderator
-team. The moderator team MAY decide to consult with the IESG
-when needed.
-
-Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the
-moderators MUST NOT be serving on the IESG or IAB. Individuals serving on
-other bodies to which the NomCom appoints members, such as the IETF
-Trust or the LLC Board, as well as LLC staff and contractors SHALL
-also be excluded from serving on the moderator team. If a moderator
-is assuming any such role, they SHALL step down from the moderator team
-soon after.
-
 ## Training
 
 The IETF is committed to providing and/or funding training for
@@ -299,18 +326,6 @@ per {{!RFC2026}}. Disagreements with a decision by the moderator team can
 brought to their attention. If this does not lead to a resolution, a
 decision by the IESG can be appealed to the IAB as described in
 {{!RFC2026}}.
-
-## Team Diversity
-
-Due to the global nature of the IETF, the membership of this team
-SHOULD reflect a diversity of time zones and other participant
-characteristics that lets it operate effectively around the clock and
-throughout the year. Ideally, the moderator team should be able to
-respond to issues within a few hours.
-
-Team diversity is also important to ensure any participant observing
-problematic behavior can identify a moderator they feel comfortable
-contacting.
 
 ## Relation to the Ombudsteam
 
@@ -401,6 +416,7 @@ These individuals suggested additional improvements to this document:
 
 - [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
 - [Initial attempt to balance what the moderator defines and what](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75)
+- [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 
 ## Since draft-ecahc-moderation-01
 
