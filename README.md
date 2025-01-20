@@ -1,6 +1,6 @@
 # IETF Community Moderation
 
-This is the working area for the IETF [MODPOD Working Group](https://datatracker.ietf.org/wg/modpod/documents/) Internet-Draft, "IETF Community Moderation".
+This is the working area for the IETF [MODPOD Working Group](https://datatracker.ietf.org/group/modpod/documents/) Internet-Draft, "IETF Community Moderation".
 
 * [Editor's Copy](https://larseggert.github.io/draft-ietf-modpod-group-processes/#go.draft-ietf-modpod-group-processes.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-modpod-group-processes)
