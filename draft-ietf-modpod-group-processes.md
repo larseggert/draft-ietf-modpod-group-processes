@@ -11,7 +11,7 @@ v: 3
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/moderation
-    latest: https://larseggert.github.io/moderation/draft-ietf-modpod-group-processes.html
+    latest: https://github.com/larseggert/draft-ietf-modpod-group-processes
 
 author:
 
