@@ -77,7 +77,7 @@ Table of Contents
      4.1.  Composition
        4.1.1.  Team Diversity
      4.2.  Scope
-       4.2.1.  Non-IETF Communication Channels and Private
+       4.2.1.  Non-IETF Communication Channels And Private
                Communications Excluded
        4.2.2.  IETF Working Groups
      4.3.  Operations of the Moderator Team and Transparency
@@ -211,7 +211,7 @@ Table of Contents
    IESG appoints and replaces members of the moderator team.  In
    selecting members, the IESG will take into account geographic
    coverage, expected and unexpected absenses, and team diversity.  The
-   moderation team may expand or contract based on operational
+   moderator team may expand or contract based on operational
    experience.  Apart from appointing and replacing moderators, the IESG
    SHALL refrain from the day-to-day operation and management of the
    moderator team.  The moderator team MAY decide to consult with the
@@ -246,7 +246,7 @@ Table of Contents
    and discussions in other systems that the IETF or WGs have chosen to
    employ, such as GitHub repositories, Wikis, or issue trackers.
 
-   The moderation team is authorized to moderate all non-working group
+   The moderator team is authorized to moderate all non-working group
    fora, including, the IETF discussion and the last-call mailing lists
    and all non-WG mailing lists, as well as area mailing lists.  This
    also includes non-WG IETF-sponsored chat mechanisms.
@@ -265,7 +265,7 @@ Table of Contents
    sentence, have no chairs or other community leadership, so the
    moderator team MUST handle those.)
 
-4.2.1.  Non-IETF Communication Channels and Private Communications
+4.2.1.  Non-IETF Communication Channels And Private Communications
         Excluded
 
    It is important to note that the moderator team only moderates
@@ -284,31 +284,11 @@ Table of Contents
    However, moderators are available for consultation and assistance
    should issues arise, and they MAY proactively confer with the group
    management over potential patterns of behavior.  Group participants
-   MAY and chairs SHOULD alert the moderators to problematic behavior.
-   When moderators observe or are alerted to problematic behavior on
-   such channels, they SHOULD consult with the group's management to
-   jointly determine an appropriate moderation response.  The moderator
-   team should respect the views of the group management in such cases,
-   and the group management should respect the moderator team's task of
-   upholding an overall IETF-wide uniformity for moderation.
-
-   The moderator team MAY initiate moderation actions by itself;
-   individual participants SHOULD also alert the team to disruptive
-   behavior they observe.  Participants should be able to contact the
-   moderator team in ways that are, ideally, integrated into the various
-   participation channels the IETF offers.  The moderator team SHALL
-   keep the identities of participants requesting moderation
-   confidential. ======= with various IETF groups, including their
-   mailing lists, chat channels and in-person, remote, or interim
-   meetings remains primarily a task of the relevant group's management,
-   such as WG chairs.  However, moderators are available for
-   consultation and assistance should issues arise, and they MAY
-   proactively confer with the group management over potential patterns
-   of behavior.  Group participants MAY and chairs MUST alert the
-   moderators to problematic behavior that rises to the level that some
-   action is needed.  Similarly, when moderators observe or are alerted
-   to problematic behavior on such channels, they MUST consult with the
-   group's management to jointly determine an appropriate response.
+   MAY and chairs MUST alert the moderators to problematic behavior that
+   rises to the level that some action is needed.  Similarly, when
+   moderators observe or are alerted to problematic behavior on such
+   channels, they MUST consult with the group's management to jointly
+   determine an appropriate response.
 
    Only when necessary, the moderator team MAY take actions against
    someone in a working group setting, but they MUST inform management
@@ -356,7 +336,7 @@ Table of Contents
    The moderator team is responsible to the IESG.  The IESG MAY create
    or designate a forum to facilitate discussion about moderation, and
    refer interested parties to that forum.  All actions taken by the
-   moderation team SHALL be reported to the IESG.  All bans longer than
+   moderator team SHALL be reported to the IESG.  All bans longer than
    fourteen (14) days SHALL be reported to the forum in which the person
    was banned, as well as to that person, and in the case of a broad
    ban, to the community in a manner decided by the IESG.
@@ -534,10 +514,6 @@ A.1.  Since draft-ietf-modpod-group-processes-00
    *  Initial attempt to balance what the moderator defines and what
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/75)
-
-   *  Reword for consistency and fix misspellings.
-      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
-      pull/88)
 
    *  Scope and relationship between WG chairs and moderators
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
