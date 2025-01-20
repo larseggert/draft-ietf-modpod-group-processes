@@ -345,15 +345,32 @@ NOT be shared between the teams.
 
 The Board of Directors of the IETF Administration LLC (IETF LLC) has
 fiduciary duty for the overall organization, which includes the duty
-to protect the organization from legal risk that may arise from
-illegal, vulgar, or manifestly harassing behavior of IETF participants.
+to protect the organization from serious legal risk that may arise 
+from the behavior of IETF participants.
 
-This protection MAY include the need for the LLC to take emergency moderation
-actions. These emergency actions are expected to be extremely rare, of temporary
-nature, and the incidents that required them SHOULD be immediately raised with
-the moderator team to let them determine any follow-up or more permanent
-moderation action. These incidents and the taken emergency action SHOULD also be
-communicated to the IETF community.
+This protection MAY include the need for the IETF LLC to take 
+emergency moderation actions. These emergency actions are expected to 
+be taken only when the IETF LLC has received legal advice that such 
+action is necessary, and therefore extremely rare in frequency. Some
+examples of where this might be necessary are:
+
+- Someone making credible threat of harm to other IETF participants.
+- Someone using IETF mailing lists and/or websites to share content
+  where publishing that content on IETF lists and/or websites brings
+  serious legal risk. 
+- Someone making credible threats of legal action where any form of
+  interaction with them on IETF mailing lists may have serious legal 
+  consequences for the IETF.
+
+If any such action is taken, the IETF LLC MUST inform the IESG as 
+soon as possible and SHOULD provide full details of the subject of 
+the action, nature of the action, reason for the action and expected 
+duration, except where it receives legal advice to the contrary. The 
+IETF LLC SHOULD also inform the moderator team and IETF community, 
+except where it receives legal advice to the contrary. 
+
+Any such action taken by the IETF under this section of this policy, 
+is not subject to the rest of the policy in this document
 
 # Changes to Existing RFCs
 
