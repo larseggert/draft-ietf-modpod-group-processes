@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 18 July 2025                                      Cisco Systems
-                                                         14 January 2025
+Expires: 24 July 2025                                      Cisco Systems
+                                                         20 January 2025
 
 
                        IETF Community Moderation
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 July 2025.
+   This Internet-Draft will expire on 24 July 2025.
 
 Copyright Notice
 
