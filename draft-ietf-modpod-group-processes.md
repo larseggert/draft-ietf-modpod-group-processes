@@ -389,9 +389,9 @@ authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ Housley and Brian E.
 Carpenter, and
 [draft-lear-bcp83-replacement](<https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/>)
 authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine. Many of
-the ideas in this document originated in those I-Ds.
-[https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
-authored by Rob Sayre, also originated ideas reflected in this WG document.
+the ideas in this document originated in those I-Ds. Robert Sayre authored
+[draft-sayre-modpod-excellent](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
+which also originated ideas reflected in this WG document.
 
 These individuals suggested additional improvements to this document:
 
@@ -418,6 +418,7 @@ These individuals suggested additional improvements to this document:
 - [Initial attempt to balance what the moderator defines and what](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/75)
 - [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 - [Fix wording, spelling and capitalization.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88)
+- [Editorial changes to acknowledgments.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87)
 
 ## Since draft-ecahc-moderation-01
 
