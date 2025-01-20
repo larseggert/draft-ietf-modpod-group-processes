@@ -262,11 +262,10 @@ comity of a forum will be attempted.
 The moderator team is responsible to the IETF Chair.  The IETF Chair
 MAY create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All actions
-taken by the moderation team SHALL be reported to the IETF Chair,
-as well as to the person who is the target of the action.  All
+taken by the moderation team SHALL be reported to the IETF Chair.  All
 bans longer than fourteen (14) days SHALL be reported to the forum in
-which the person was banned, and in the case of a broad ban, to the
-community in a manner decided by the IESG.
+which the person was banned, as well as to that person, and in the
+case of a broad ban, to the community in a manner decided by the IESG.
 
 ## Membership
 
