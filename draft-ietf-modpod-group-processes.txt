@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 24 July 2025                                      Cisco Systems
-                                                         20 January 2025
+Expires: 25 July 2025                                      Cisco Systems
+                                                         21 January 2025
 
 
                        IETF Community Moderation
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 July 2025.
+   This Internet-Draft will expire on 25 July 2025.
 
 Copyright Notice
 
@@ -334,10 +334,11 @@ Table of Contents
    The moderator team is responsible to the IESG.  The IESG MAY create
    or designate a forum to facilitate discussion about moderation, and
    refer interested parties to that forum.  All actions taken by the
-   moderator team SHALL be reported to the IESG.  All bans longer than
+   moderator team SHALL be reported to the IESG, as well as to those
+   against whom those actions are directed.  All bans longer than
    fourteen (14) days SHALL be reported to the forum in which the person
-   was banned, as well as to that person, and in the case of a broad
-   ban, to the community in a manner decided by the IESG.
+   was banned, and in the case of a broad ban, to the community in a
+   manner decided by the IESG.
 
 4.4.  Training
 
