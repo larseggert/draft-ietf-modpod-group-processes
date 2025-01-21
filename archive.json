@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-19T00:23:17.154841+00:00",
+  "timestamp": "2025-01-21T00:21:01.302817+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -27,6 +27,21 @@
       "name": "needs-pr",
       "description": "Needs a PR based on the discussion result",
       "color": "EB008C"
+    },
+    {
+      "name": "finalize-pr",
+      "description": "The PR needs work before it can land.",
+      "color": "1031C3"
+    },
+    {
+      "name": "needs-review",
+      "description": "The PR needs review approvals before it can land.",
+      "color": "8B0D4C"
+    },
+    {
+      "name": "completed",
+      "description": "Issue or PR are complete.",
+      "color": "2D1012"
     }
   ],
   "issues": [
@@ -797,17 +812,17 @@
       "id": "I_kwDOJrr8CM6NfEyA",
       "title": "Who chooses the moderators?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/50",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "becarpenter",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "completed"
       ],
       "body": "There have been several email comments objecting to \"The IETF Chair appoints members of the moderator team.\" The concern is that this might end up with the Chair being conflicted when a moderation \"case\" involves the Chair (or maybe the IESG).\r\nShould the moderator team be appointed by a community process? If so, how, since NomCom is already overloaded?",
       "createdAt": "2024-06-25T21:56:42Z",
-      "updatedAt": "2024-12-17T11:32:50Z",
-      "closedAt": null,
+      "updatedAt": "2025-01-20T12:10:13Z",
+      "closedAt": "2025-01-20T11:47:20Z",
       "comments": [
         {
           "author": "coopdanger",
@@ -933,7 +948,7 @@
       ],
       "body": "",
       "createdAt": "2024-11-02T12:14:09Z",
-      "updatedAt": "2024-12-17T11:32:50Z",
+      "updatedAt": "2025-01-20T07:02:14Z",
       "closedAt": null,
       "comments": []
     },
@@ -973,11 +988,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "completed"
       ],
       "body": "Currently the draft leaves a lot of process for the moderation team to define.  On the one hand, we do not want to tie the hands of moderators, and on the other hand, our RFCs are normally the way we define process.",
       "createdAt": "2024-12-29T14:09:34Z",
-      "updatedAt": "2025-01-14T07:24:15Z",
+      "updatedAt": "2025-01-20T12:10:28Z",
       "closedAt": "2025-01-14T07:24:15Z",
       "comments": [
         {
@@ -1001,15 +1016,17 @@
       "id": "I_kwDOJrr8CM6kpN7T",
       "title": "What level of transparency",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/69",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "The draft currently states that the moderation team should maintain a public mailing list to discuss not only general moderation topics and policy, but individual moderation decisions.  That may simply move the food fight from one list to another.  But some level of transparency to the community is necessary.  Where is the line?",
       "createdAt": "2024-12-29T14:11:54Z",
-      "updatedAt": "2024-12-29T19:52:52Z",
-      "closedAt": null,
+      "updatedAt": "2025-01-20T12:10:14Z",
+      "closedAt": "2025-01-20T12:08:27Z",
       "comments": [
         {
           "author": "becarpenter",
@@ -1029,10 +1046,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-pr"
+      ],
       "body": "The draft is silent on review of previous decisions.  Currently BCP 83 permits such review after a period of time.  It is possible that this should be left to the moderation team to define as a process, but it may also be possible to simply specify a time frame in this draft.",
       "createdAt": "2024-12-29T14:14:31Z",
-      "updatedAt": "2025-01-11T15:37:54Z",
+      "updatedAt": "2025-01-20T08:09:39Z",
       "closedAt": null,
       "comments": [
         {
@@ -1084,15 +1103,17 @@
       "id": "I_kwDOJrr8CM6kpOZ7",
       "title": "relationship between moderators and WG chairs / others",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/71",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Because we are tasked with covering **all** communication channels, the relationship between moderators and the WG chairs and others must be defined in some way.",
       "createdAt": "2024-12-29T14:17:08Z",
-      "updatedAt": "2024-12-29T14:17:08Z",
-      "closedAt": null,
+      "updatedAt": "2025-01-20T12:10:15Z",
+      "closedAt": "2025-01-20T11:47:20Z",
       "comments": []
     },
     {
@@ -1104,10 +1125,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "Brian Carpenter has raised the point about what to do about previous moderation decisions.",
       "createdAt": "2024-12-29T14:21:55Z",
-      "updatedAt": "2025-01-09T20:04:28Z",
+      "updatedAt": "2025-01-20T07:01:31Z",
       "closedAt": null,
       "comments": [
         {
@@ -1177,10 +1200,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "My draft says:\r\n\r\n```Anyone can start a blog, or CC an email to a non-IETF list. There are many venues not subject to IETF moderation.```\r\n\r\nI'm not attached to the exact phrasing here, but I do think the general idea should go in.",
       "createdAt": "2024-12-31T17:40:49Z",
-      "updatedAt": "2025-01-07T17:33:51Z",
+      "updatedAt": "2025-01-20T07:01:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -1222,10 +1247,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-pr"
+      ],
       "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
       "createdAt": "2024-12-31T17:56:53Z",
-      "updatedAt": "2025-01-07T20:12:45Z",
+      "updatedAt": "2025-01-20T08:08:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -1291,7 +1318,7 @@
       "labels": [],
       "body": "This is copy/paste from the list, just so it doesn't get lost in the mix.\r\n\r\nThe person being moderated must be informed. It's unfortunate that we have\r\nto say this, but we've had problems with that in the past. Think of actions\r\nsuch as a chair removing someone from a list without informing them, etc.\r\nI've never seen anything like that, but I have heard stories of such\r\nchicanery, and I think that's why some people that have been in the IETF\r\nfor a long time lean toward too much immediate transparency.\r\n\r\nAfter all, if these actions are subject to appeal, the person has to know\r\nabout them.",
       "createdAt": "2024-12-31T18:19:09Z",
-      "updatedAt": "2025-01-07T21:27:26Z",
+      "updatedAt": "2025-01-20T22:36:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -1307,6 +1334,13 @@
           "body": "I'll do so. I think it would be best to clear up the in-flight PRs first, though.",
           "createdAt": "2025-01-07T21:27:25Z",
           "updatedAt": "2025-01-07T21:27:25Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This needs repairing.  I rebased my way into Hell!",
+          "createdAt": "2025-01-20T22:04:34Z",
+          "updatedAt": "2025-01-20T22:04:34Z"
         }
       ]
     },
@@ -1319,10 +1353,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "My draft has this section. I don't really like most of the text. I just hammered it out in about two minutes. But I do think one sentence is good: \"The IETF will treat people with kindness and grace, but not endless patience.\"\r\n\r\nI'd like to save that one.\r\n\r\n\r\n\r\n> Hypocrisy\r\n> \r\n> The hazard in writing any document of this sort is that it seems to presume the authors and supporters are perfect. They are not.\r\n> \r\n> Everyone makes mistakes. The IETF will treat people with kindness and grace, but not endless patience.\r\n> \r\n> This document describes a two-way street. Moderators must also maintain excellence.",
       "createdAt": "2024-12-31T20:15:02Z",
-      "updatedAt": "2025-01-01T01:07:42Z",
+      "updatedAt": "2025-01-20T07:01:33Z",
       "closedAt": null,
       "comments": [
         {
@@ -1339,15 +1375,17 @@
       "id": "I_kwDOJrr8CM6lY1MW",
       "title": "Minimum size of the moderator team?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/83",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "The current text talks about five, but my suggestion is that operational experience dictate the team size, not an RFC.",
       "createdAt": "2025-01-08T09:04:09Z",
-      "updatedAt": "2025-01-09T13:04:03Z",
-      "closedAt": null,
+      "updatedAt": "2025-01-20T12:10:15Z",
+      "closedAt": "2025-01-20T11:47:21Z",
       "comments": [
         {
           "author": "larseggert",
@@ -1362,6 +1400,20 @@
           "body": "I always go back to what Russ Housley taught us: what bad thing will happen if we DON'T put something in a document?  If the answer is \"nothing\", then don't bother specifying.",
           "createdAt": "2025-01-09T13:04:03Z",
           "updatedAt": "2025-01-09T13:04:03Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think #76 fixes this (saying `>= 5`).",
+          "createdAt": "2025-01-20T07:00:26Z",
+          "updatedAt": "2025-01-20T07:00:26Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "IMHO, this is a \"small ticket item\".  I'm okay closing it, so long as nobody else cares.",
+          "createdAt": "2025-01-20T07:57:30Z",
+          "updatedAt": "2025-01-20T07:57:30Z"
         }
       ]
     },
@@ -1374,10 +1426,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-pr"
+      ],
       "body": "Rob Wilton thinks \"no\".",
       "createdAt": "2025-01-08T09:10:16Z",
-      "updatedAt": "2025-01-09T19:31:33Z",
+      "updatedAt": "2025-01-20T08:07:58Z",
       "closedAt": null,
       "comments": [
         {
@@ -1440,10 +1494,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-pr"
+      ],
       "body": "Since we're aiming for consistency, some of the requirements we make of the moderation team might have to apply to WG Chairs as well. Having never been a chair, I am not sure what's reasonable here. This issue came up in #74. It's probably OK to close some in-flight PRs and then have a look at this one.",
       "createdAt": "2025-01-08T19:01:10Z",
-      "updatedAt": "2025-01-09T06:35:26Z",
+      "updatedAt": "2025-01-20T08:07:37Z",
       "closedAt": null,
       "comments": [
         {
@@ -1473,6 +1529,53 @@
           "body": "I've been starting to think of the chair group as sort of a distributed extension to the moderator team. In that light, the doc could explain how the rules and processes that the moderator team will define (within the fencepost to-be-layed-out in the doc) involve chair (inter-)actions.",
           "createdAt": "2025-01-09T06:35:25Z",
           "updatedAt": "2025-01-09T06:35:25Z"
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "id": "I_kwDOJrr8CM6m4KsP",
+      "title": "Moderation during Last Calls",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/89",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nThe document should give some brief guidance about Last Call situations.\n\n**Describe the solution you'd like**\nI think the moderators and chairs should not be able to quietly ban people during Last Calls, if the posts are on-topic. \n\n**Describe alternatives you've considered**\nPrevent it altogether during Last Call, but I think they should be able to deal with spam and random stuff.\n",
+      "createdAt": "2025-01-20T16:14:03Z",
+      "updatedAt": "2025-01-20T20:33:41Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "First, for clarification, you mean during WG last call on the WG list, right? (Because we also have IETF last calls on the last-call list.)\n\nSecond, when you say \"on-topic\" I assume you mean the messages would be related to the document under last call.\n\nWhy do you envision the need for two sets of rules, one for during WG last calls and one for other times or for other discussions?\n\nI worry about process complexity.",
+          "createdAt": "2025-01-20T18:45:52Z",
+          "updatedAt": "2025-01-20T18:45:52Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "\"I worry about process complexity.\"\nYes, but I worry about a very persisent poster whose message is \"I've been telling you for two years that this proposal is highly insecure [or contains an unavoidable race condition, or whatever] and you've been ignoring the truth\".\nLast Call is exactly when this message needs to be heard. So I have some sympathy with Rob's point but I think it's horribly complex and still relies on a judgment call (on-topic or not?).",
+          "createdAt": "2025-01-20T19:57:12Z",
+          "updatedAt": "2025-01-20T19:57:12Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think it should be non-normative text that briefly describes the purpose a Last Call serves (whether in a WG or the whole IETF) and that the moderators should take this time limit into account.\n\nThe idea here is that there are often really annoying posters when a WG starts. That is frustrating because there's no time limit. During a Last Call, if on-topic, it's easy to think: \"OK, only another week or two of this person ranting.\"",
+          "createdAt": "2025-01-20T20:08:30Z",
+          "updatedAt": "2025-01-20T20:08:30Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "\"Moderation is not a tool for the suppression of unwelcome technical criticisms, especially during Last Calls, whose purpose is indeed to solicit such criticisms and avoid groupthink.\"",
+          "createdAt": "2025-01-20T20:33:40Z",
+          "updatedAt": "2025-01-20T20:33:40Z"
         }
       ]
     }
@@ -2162,10 +2265,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Fixes #25",
       "createdAt": "2023-09-08T11:47:13Z",
-      "updatedAt": "2024-06-19T14:45:44Z",
+      "updatedAt": "2025-01-20T12:09:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "35ecb9fef71a7bc056af206349296b1aa5a557ad",
@@ -2247,10 +2352,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Fixes #26",
       "createdAt": "2023-09-08T12:03:40Z",
-      "updatedAt": "2024-06-19T07:53:55Z",
+      "updatedAt": "2025-01-20T12:09:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "cdbee9bea9e284cce14b8f2e8efd118481a6a28c",
@@ -2351,10 +2458,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Fixes #28",
       "createdAt": "2023-09-08T12:31:57Z",
-      "updatedAt": "2024-06-19T05:44:05Z",
+      "updatedAt": "2025-01-20T12:09:32Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "6592c36c11cf87dc96cc927f63aa8bd440bf4809",
@@ -2600,10 +2709,12 @@
       "author": "dependabot",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 3 to 4.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/upload-artifact/releases\">actions/upload-artifact's releases</a>.</em></p>\n<blockquote>\n<h2>v4.0.0</h2>\n<h2>What's Changed</h2>\n<p>The release of upload-artifact@v4 and download-artifact@v4 are major changes to the backend architecture of Artifacts. They have numerous performance and behavioral improvements.</p>\n<p>\u2139\ufe0f However, this is a major update that includes breaking changes. Artifacts created with versions v3 and below are not compatible with the v4 actions. Uploads and downloads <em>must</em> use the same major actions versions. There are also key differences from previous versions that may require updates to your workflows.</p>\n<p>For more information, please see:</p>\n<ol>\n<li>The <a href=\"https://github.blog/changelog/2023-12-14-github-actions-artifacts-v4-is-now-generally-available/\">changelog</a> post.</li>\n<li>The <a href=\"https://github.com/actions/upload-artifact/blob/main/README.md\">README</a>.</li>\n<li>The <a href=\"https://github.com/actions/upload-artifact/blob/main/docs/MIGRATION.md\">migration documentation</a>.</li>\n<li>As well as the underlying npm package, <a href=\"https://github.com/actions/toolkit/tree/main/packages/artifact\"><code>@\u200bactions/artifact</code></a> documentation.</li>\n</ol>\n<h2>New Contributors</h2>\n<ul>\n<li><a href=\"https://github.com/vmjoseph\"><code>@\u200bvmjoseph</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/464\">actions/upload-artifact#464</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/upload-artifact/compare/v3...v4.0.0\">https://github.com/actions/upload-artifact/compare/v3...v4.0.0</a></p>\n<h2>v3.1.3</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>chore(github): remove trailing whitespaces by <a href=\"https://github.com/ljmf00\"><code>@\u200bljmf00</code></a> in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/313\">actions/upload-artifact#313</a></li>\n<li>Bump <code>@\u200bactions/artifact</code> version to v1.1.2 by <a href=\"https://github.com/bethanyj28\"><code>@\u200bbethanyj28</code></a> in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/436\">actions/upload-artifact#436</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/upload-artifact/compare/v3...v3.1.3\">https://github.com/actions/upload-artifact/compare/v3...v3.1.3</a></p>\n<h2>v3.1.2</h2>\n<ul>\n<li>Update all <code>@actions/*</code> NPM packages to their latest versions- <a href=\"https://redirect.github.com/actions/upload-artifact/issues/374\">#374</a></li>\n<li>Update all dev dependencies to their most recent versions - <a href=\"https://redirect.github.com/actions/upload-artifact/issues/375\">#375</a></li>\n</ul>\n<h2>v3.1.1</h2>\n<ul>\n<li>Update actions/core package to latest version to remove <code>set-output</code> deprecation warning <a href=\"https://redirect.github.com/actions/upload-artifact/issues/351\">#351</a></li>\n</ul>\n<h2>v3.1.0</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>Bump <code>@\u200bactions/artifact</code> to v1.1.0 (<a href=\"https://redirect.github.com/actions/upload-artifact/pull/327\">actions/upload-artifact#327</a>)\n<ul>\n<li>Adds checksum headers on artifact upload (<a href=\"https://redirect.github.com/actions/toolkit/pull/1095\">actions/toolkit#1095</a>) (<a href=\"https://redirect.github.com/actions/toolkit/pull/1063\">actions/toolkit#1063</a>)</li>\n</ul>\n</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/65462800fd760344b1a7b4382951275a0abb4808\"><code>6546280</code></a> updating package version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/c004fb4bf6b1e87680ce1b219a3ad0b8e5dfb7ec\"><code>c004fb4</code></a> Merge branch 'main' into eggyhead/use-artifact-v2.1.6</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/90aba496fcaa311fd7e784d55e568deabe0fa288\"><code>90aba49</code></a> updating toolkit artifact dependency to 2.1.6</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/b06cde36fc32a3ee94080e87258567f73f921537\"><code>b06cde3</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-artifact/issues/563\">#563</a> from actions/eggyhead/release-4.3.2</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/1746f4ab65b179e0ea60a494b83293b640dd5bba\"><code>1746f4a</code></a> Revert &quot;updating to release 4.3.2&quot;</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/31685d04a0d6557fe2be4174c3ea69ee4cbfa6bb\"><code>31685d0</code></a> updating to release 4.3.2</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/18bf333cd2249fbbbdb605fd9d9ed57efd7adf34\"><code>18bf333</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-artifact/issues/562\">#562</a> from actions/eggyhead/update-artifact-v215</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/dac413befa086181ab17cf3db942667aede55e0d\"><code>dac413b</code></a> update package lock version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/bb3b4a3cdbef901e2e185ca492d513e798fd1b9f\"><code>bb3b4a3</code></a> updating package version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/3e3da837d2a1e030e44fe2bb5c4b9f63c25f33e3\"><code>3e3da83</code></a> updating artifact and core dependencies</li>\n<li>Additional commits viewable in <a href=\"https://github.com/actions/upload-artifact/compare/v3...v4\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/upload-artifact&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
       "createdAt": "2024-06-17T21:16:37Z",
-      "updatedAt": "2024-06-20T06:22:57Z",
+      "updatedAt": "2025-01-20T12:09:33Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d1aeaa13aeda2021aedc467baa09cee3502bcf35",
@@ -2671,10 +2782,12 @@
       "author": "becarpenter",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Just interpret the magic words as plain English, because this is not an interoperability spec. Did not apply bold face.",
       "createdAt": "2024-06-18T20:52:28Z",
-      "updatedAt": "2024-07-01T06:51:52Z",
+      "updatedAt": "2025-01-20T12:09:33Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
@@ -2823,10 +2936,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-06-19T08:08:57Z",
-      "updatedAt": "2024-06-19T14:56:52Z",
+      "updatedAt": "2025-01-20T12:09:34Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e9f2fe056b6b84466ebfb05848124a2b7437ce1d",
@@ -2873,10 +2988,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-06-20T06:22:25Z",
-      "updatedAt": "2024-06-20T08:55:45Z",
+      "updatedAt": "2025-01-20T12:09:34Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d1aeaa13aeda2021aedc467baa09cee3502bcf35",
@@ -2901,10 +3018,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-06-20T09:04:56Z",
-      "updatedAt": "2024-06-21T06:22:29Z",
+      "updatedAt": "2025-01-20T12:09:35Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "323997fff7bc86da541d26975f1976f28108e887",
@@ -2943,10 +3062,12 @@
       "author": "becarpenter",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Addresses https://github.com/larseggert/moderation/issues/47",
       "createdAt": "2024-06-27T02:50:53Z",
-      "updatedAt": "2024-07-02T06:00:14Z",
+      "updatedAt": "2025-01-20T12:09:35Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "17a35f2354af38936d2f274212c330b9e5f0248f",
@@ -3039,10 +3160,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Fixes #45",
       "createdAt": "2024-07-01T06:58:14Z",
-      "updatedAt": "2024-07-03T06:39:31Z",
+      "updatedAt": "2025-01-20T12:09:36Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "6b899ce4179258bb5f2ec3c4ad7f8e5b62509466",
@@ -3075,10 +3198,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Fixes #46",
       "createdAt": "2024-07-01T07:01:43Z",
-      "updatedAt": "2024-07-03T06:35:15Z",
+      "updatedAt": "2025-01-20T12:09:36Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "2659d1db502907972ae35113d7a5f00d458c10be",
@@ -3107,21 +3232,21 @@
       "id": "PR_kwDOJrr8CM50Bwa3",
       "title": "Team self-selects, chair confirms",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/55",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Fixes #50",
       "createdAt": "2024-07-01T07:11:42Z",
-      "updatedAt": "2025-01-06T07:45:27Z",
+      "updatedAt": "2025-01-20T06:59:19Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8d65ef625e4432d430a04a8433cc53a2bc62331b",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "fix-50",
       "headRefOid": "9ebe5bc0c0a6527ae02f638354f341a56ed7e564",
-      "closedAt": null,
+      "closedAt": "2025-01-20T06:59:19Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -3153,6 +3278,13 @@
           "body": "@becarpenter please bring discussion to the list.",
           "createdAt": "2025-01-06T07:45:26Z",
           "updatedAt": "2025-01-06T07:45:26Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think this is OBE given we're going with #76.",
+          "createdAt": "2025-01-20T06:59:19Z",
+          "updatedAt": "2025-01-20T06:59:19Z"
         }
       ],
       "reviews": []
@@ -3166,10 +3298,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Came up in email discussion, WDYT?",
       "createdAt": "2024-07-01T07:14:31Z",
-      "updatedAt": "2024-07-02T06:03:57Z",
+      "updatedAt": "2025-01-20T12:09:37Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7335c635ef53e33c4ce5dadb83c0d11055742572",
@@ -3202,10 +3336,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Fixes #51",
       "createdAt": "2024-07-01T07:25:00Z",
-      "updatedAt": "2024-07-03T06:37:42Z",
+      "updatedAt": "2025-01-20T12:09:37Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "6e4b73f9fdc7b2f39fb9a274b3323cac783020bf",
@@ -3252,10 +3388,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-07-01T14:06:30Z",
-      "updatedAt": "2024-07-01T20:26:30Z",
+      "updatedAt": "2025-01-20T12:09:38Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
@@ -3295,10 +3433,12 @@
       "author": "russhousley",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Limit the likelihood of disruptive behaiviour by one IETF participant from discouraging participation by other IETF participants.",
       "createdAt": "2024-07-01T14:37:25Z",
-      "updatedAt": "2024-07-03T06:33:04Z",
+      "updatedAt": "2025-01-20T12:09:38Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "490430fe9d0c1572c2dce9341ce31d67a5e55948",
@@ -3397,10 +3537,12 @@
       "author": "martinthomson",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Sorry about that.",
       "createdAt": "2024-07-03T12:35:00Z",
-      "updatedAt": "2024-07-03T12:44:04Z",
+      "updatedAt": "2025-01-20T12:09:39Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "937f0e212a26029761fad924f8b4853c60baf2ab",
@@ -3439,10 +3581,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "https://mailarchive.ietf.org/arch/browse/mod-discuss/\r\n\r\nSince it was just created.",
       "createdAt": "2024-07-10T14:11:30Z",
-      "updatedAt": "2024-07-11T05:32:24Z",
+      "updatedAt": "2025-01-20T12:09:39Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8d65ef625e4432d430a04a8433cc53a2bc62331b",
@@ -3475,10 +3619,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-09-02T11:18:50Z",
-      "updatedAt": "2024-09-02T11:19:15Z",
+      "updatedAt": "2025-01-20T12:09:40Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "54f1d26fea1fc343b129bcf61674028c2e74d6ff",
@@ -3529,10 +3675,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-12-17T07:45:39Z",
-      "updatedAt": "2025-01-14T07:09:11Z",
+      "updatedAt": "2025-01-20T12:09:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
@@ -3618,10 +3766,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-12-17T11:41:26Z",
-      "updatedAt": "2025-01-14T07:11:56Z",
+      "updatedAt": "2025-01-20T12:09:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -3668,24 +3818,28 @@
       "id": "PR_kwDOJrr8CM6GaoSb",
       "title": "On transparency.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/74",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Incorporates mailing list proposal.\r\n\r\nCloses #69.",
       "createdAt": "2024-12-30T08:51:18Z",
-      "updatedAt": "2025-01-10T07:20:43Z",
+      "updatedAt": "2025-01-20T12:09:42Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "98115b5b4e4dbaf528e111c8cc881e87ec4b63c4",
+      "baseRefOid": "6a3ad5039e2e27046fbbe86a75751dc0d5093d6f",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue69Transparency",
-      "headRefOid": "3abcecabf1de44fc0951d47ddd27a844e748d297",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "ea52bb1ac7c2c933a9533b85e95471514d5a0822",
+      "closedAt": "2025-01-20T12:08:26Z",
+      "mergedAt": "2025-01-20T12:08:26Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "08b22cd3994812498063405f0424477b7dc08549"
+      },
       "comments": [
         {
           "author": "elear",
@@ -3728,6 +3882,27 @@
           "body": "Lars, please approve this PR.",
           "createdAt": "2025-01-10T07:20:42Z",
           "updatedAt": "2025-01-10T07:20:42Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert I'm suffering a moment of git incompetence.  Please bare with me.",
+          "createdAt": "2025-01-20T08:09:23Z",
+          "updatedAt": "2025-01-20T08:09:23Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear Almost there. Could you undo the change to `.github/CODEOWNERS` that adds an extra newline?",
+          "createdAt": "2025-01-20T11:45:45Z",
+          "updatedAt": "2025-01-20T11:45:45Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert Ok.  Pls review.",
+          "createdAt": "2025-01-20T12:07:13Z",
+          "updatedAt": "2025-01-20T12:07:13Z"
         }
       ],
       "reviews": [
@@ -3976,6 +4151,72 @@
               "updatedAt": "2025-01-10T07:19:27Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YrOM4",
+          "commit": {
+            "abbreviatedOid": "3abceca"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-20T06:56:39Z",
+          "updatedAt": "2025-01-20T06:56:39Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "OK. Please rebase and then let's put this on the IESG, too.",
+              "createdAt": "2025-01-20T06:56:39Z",
+              "updatedAt": "2025-01-20T06:56:39Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YrOdV",
+          "commit": {
+            "abbreviatedOid": "3abceca"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-20T06:57:24Z",
+          "updatedAt": "2025-01-20T06:57:24Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "OK, if everyone wants to be prescriptive, I'm in the rough.",
+              "createdAt": "2025-01-20T06:57:24Z",
+              "updatedAt": "2025-01-20T06:57:24Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YrOua",
+          "commit": {
+            "abbreviatedOid": "3abceca"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "@elear please rebase and let's make the IESG own the discussion forum. (Also please add a changelog item.)",
+          "createdAt": "2025-01-20T06:58:12Z",
+          "updatedAt": "2025-01-20T08:03:23Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YuHAX",
+          "commit": {
+            "abbreviatedOid": "ea52bb1"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-20T12:08:16Z",
+          "updatedAt": "2025-01-20T12:08:16Z",
+          "comments": []
         }
       ]
     },
@@ -3988,10 +4229,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "gets defined in this memo.\r\n\r\nCloses #68.",
       "createdAt": "2024-12-30T09:14:07Z",
-      "updatedAt": "2025-01-14T07:24:16Z",
+      "updatedAt": "2025-01-20T12:09:42Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a585ff25b9394fb884e584a74e9c431c5ddb6d13",
@@ -4434,24 +4677,28 @@
       "id": "PR_kwDOJrr8CM6GcR6f",
       "title": "Scope and relationship between WG chairs and moderators",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
       "createdAt": "2024-12-30T15:20:03Z",
-      "updatedAt": "2025-01-18T22:08:32Z",
+      "updatedAt": "2025-01-20T12:09:53Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "b7ed5a494be2c8c255eb69c0e4e19c9b7ebb3af2",
+      "baseRefOid": "7dfd3e57a858997a300e5fada6e672152736fb84",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "Issue71ModeratersAndOthers",
-      "headRefOid": "cce1c2954be886f45ac9a6ee13efb9b4644a57f3",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "4876d11832bdf41ca5e009c7ba16f7f8051e9bef",
+      "closedAt": "2025-01-20T11:47:19Z",
+      "mergedAt": "2025-01-20T11:47:19Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "6a3ad5039e2e27046fbbe86a75751dc0d5093d6f"
+      },
       "comments": [
         {
           "author": "becarpenter",
@@ -4501,6 +4748,20 @@
           "body": "The current version of this PR reverts stuff that we changed in #75 (such as `IETF Chair` -> `IESG`). @elear please fix?",
           "createdAt": "2025-01-17T14:09:38Z",
           "updatedAt": "2025-01-17T14:09:38Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> The FOO WG chair says that the moderator is overreacting and shouldn't take such a drastic measure because Alice is an important contributor and the topic at hand is a WGLC that will expire before those 2 weeks\r\n\r\nThat issue is in there in mine as well:\r\n\r\nhttps://sayrer.github.io/be_excellent/draft-sayre-modpod-excellent.html#name-rules\r\n\r\n> It is not to be used in \"Last Call\" situations, as those have a time limit as well.\r\n\r\nI don't object to the edit here, but maybe there is something to iron out wrt to Last Call situations. I chose the dumbest thing: the moderators can't do anything during those. But if I was running around posting about \"Rob's Bargain Leather Jackets\" during a Last Call, that probably should get a quick ban. I think the issue is that on-topic posts should not get a silent ban during a Last Call.",
+          "createdAt": "2025-01-19T21:34:04Z",
+          "updatedAt": "2025-01-19T21:36:24Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert ok.  If you are comfortable with what you see, please go ahead and merge.  Then I will rebase the other PR.  Then I think I'm going to pound my head against a wall for my git incompetence.  Note- I didn't address the chore in my commit.  I just did the work (I think).",
+          "createdAt": "2025-01-20T08:50:30Z",
+          "updatedAt": "2025-01-20T08:50:30Z"
         }
       ],
       "reviews": [
@@ -5237,6 +5498,45 @@
               "updatedAt": "2025-01-18T22:08:32Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YrHw8",
+          "commit": {
+            "abbreviatedOid": "cce1c29"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-20T06:36:15Z",
+          "updatedAt": "2025-01-20T06:36:15Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YrIGL",
+          "commit": {
+            "abbreviatedOid": "cce1c29"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "@elear last thing to do is to add a link to this PR to the changelog.",
+          "createdAt": "2025-01-20T06:37:22Z",
+          "updatedAt": "2025-01-20T08:48:25Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Yt7an",
+          "commit": {
+            "abbreviatedOid": "4876d11"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-20T11:46:55Z",
+          "updatedAt": "2025-01-20T11:46:55Z",
+          "comments": []
         }
       ]
     },
@@ -5249,10 +5549,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2024-12-31T18:45:55Z",
-      "updatedAt": "2025-01-08T07:59:29Z",
+      "updatedAt": "2025-01-20T12:09:43Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -5393,10 +5695,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2025-01-14T08:30:47Z",
-      "updatedAt": "2025-01-14T08:39:19Z",
+      "updatedAt": "2025-01-20T12:09:44Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7efeb52e9ad434a82a6e2d2194a564541508ac58",
@@ -5409,6 +5713,261 @@
       "mergeCommit": {
         "oid": "b7ed5a494be2c8c255eb69c0e4e19c9b7ebb3af2"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 87,
+      "id": "PR_kwDOJrr8CM6IR3ya",
+      "title": "Just reword a few things.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87",
+      "state": "MERGED",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "completed"
+      ],
+      "body": "Sorry to be a pain.\r\n\r\n- \"Robert\" has more variations than you might expect, and I don't mind any of them. But there should only be one in the same document.\r\n\r\n- It's weird to start a sentence with a URL.",
+      "createdAt": "2025-01-19T21:47:15Z",
+      "updatedAt": "2025-01-20T15:15:22Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "289b41549994568c5cd9afa726ec76043b9da758",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "self_centered",
+      "headRefOid": "33ddfe5926519cf74e330c120214d75ef21a02b7",
+      "closedAt": "2025-01-20T15:11:10Z",
+      "mergedAt": "2025-01-20T15:11:10Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6YrDDE",
+          "commit": {
+            "abbreviatedOid": "96e1bc2"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "~~Would you also add a link to this PR to the changelog, as part of this PR? (And fix the Markdown lint nits.)~~\r\n\r\nI just did this.",
+          "createdAt": "2025-01-20T06:22:59Z",
+          "updatedAt": "2025-01-20T15:11:24Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Yu_K2",
+          "commit": {
+            "abbreviatedOid": "96e1bc2"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "DISMISSED",
+          "body": "",
+          "createdAt": "2025-01-20T13:54:00Z",
+          "updatedAt": "2025-01-20T15:08:22Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YvrAL",
+          "commit": {
+            "abbreviatedOid": "33ddfe5"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-20T15:10:57Z",
+          "updatedAt": "2025-01-20T15:10:57Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "id": "PR_kwDOJrr8CM6ITjrK",
+      "title": "chore: rewording + spelling",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "completed"
+      ],
+      "body": "- `moderation team` -> `moderator team` for consistency\r\n- fix misspellings\r\n\r\nNo content changes.",
+      "createdAt": "2025-01-20T06:52:14Z",
+      "updatedAt": "2025-01-20T15:15:23Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "08b22cd3994812498063405f0424477b7dc08549",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "chore-wording-spelling",
+      "headRefOid": "7e88024f0bc8664b1069b6c765adf5477e1cd5d1",
+      "closedAt": "2025-01-20T15:05:28Z",
+      "mergedAt": "2025-01-20T15:05:28Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "289b41549994568c5cd9afa726ec76043b9da758"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I actually wonder if going from `moderator team` to `moderators` wouldn't be even better...",
+          "createdAt": "2025-01-20T12:25:55Z",
+          "updatedAt": "2025-01-20T12:25:55Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "\"moderators\" is definitely more succinct, so why not?",
+          "createdAt": "2025-01-20T13:09:48Z",
+          "updatedAt": "2025-01-20T13:09:48Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6YuI_S",
+          "commit": {
+            "abbreviatedOid": "b723a71"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "DISMISSED",
+          "body": "",
+          "createdAt": "2025-01-20T12:11:50Z",
+          "updatedAt": "2025-01-20T12:25:29Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YuqiN",
+          "commit": {
+            "abbreviatedOid": "49575c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "DISMISSED",
+          "body": "",
+          "createdAt": "2025-01-20T13:16:17Z",
+          "updatedAt": "2025-01-20T13:25:31Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "id": "PR_kwDOJrr8CM6IaSbj",
+      "title": "Fix GitHub link",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/90",
+      "state": "OPEN",
+      "author": "JayDaley",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-01-20T21:21:30Z",
+      "updatedAt": "2025-01-20T22:33:43Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
+      "headRepository": "JayDaley/draft-ietf-modpod-group-processes",
+      "headRefName": "jay-daley-fix-github-link",
+      "headRefOid": "dc8719df77a8c785186a30121c3c7a10f8af5ec5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6Yx2FC",
+          "commit": {
+            "abbreviatedOid": "dc8719d"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-20T22:33:43Z",
+          "updatedAt": "2025-01-20T22:33:43Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "id": "PR_kwDOJrr8CM6IagzM",
+      "title": "transparency: regression",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/91",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "report actions to those impacted.",
+      "createdAt": "2025-01-20T22:24:39Z",
+      "updatedAt": "2025-01-20T22:52:09Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "fix79",
+      "headRefOid": "e200eb42d9ae3345a962e6bfe593837b52d69bad",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6Yx4yp",
+          "commit": {
+            "abbreviatedOid": "e200eb4"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-20T22:52:09Z",
+          "updatedAt": "2025-01-20T22:52:09Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "typo: should be \"as well as to those\" (lose \"the\")",
+              "createdAt": "2025-01-20T22:52:09Z",
+              "updatedAt": "2025-01-20T22:52:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "id": "PR_kwDOJrr8CM6Iaj3f",
+      "title": "Update \"Relation to the IETF LLC\"",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92",
+      "state": "OPEN",
+      "author": "JayDaley",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Updated this section as follows:\r\n* Noted that this is for serious legal risk only.\r\n* Removed list of types of behaviour that may trigger this as unnecessarily narrowing the scope.\r\n* Noted expectation that the IETF LLC only acts when it has received legal advice that such action is *necessary*.\r\n* Provided examples of when such an action is needed\r\n* Added requirement for the IETF LLC to update the IESG as much as it is legally able to do.\r\n* Replaced any mention of this being a temporary action that the moderation team then decides on as, by definition, this is an action that the IETF LLC has to take to protect the organization according to its fiduciary duty and that cannot be overridden by the moderation team.\r\n\r\nI will also take this to the list.",
+      "createdAt": "2025-01-20T22:40:03Z",
+      "updatedAt": "2025-01-20T22:40:04Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
+      "headRepository": "JayDaley/draft-ietf-modpod-group-processes",
+      "headRefName": "jay-daley-llc-section",
+      "headRefOid": "dee957e69e75fd9b7003a083eb607dc650284693",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
