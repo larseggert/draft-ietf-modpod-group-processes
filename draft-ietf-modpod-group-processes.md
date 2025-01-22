@@ -362,15 +362,21 @@ examples of where this might be necessary are:
   interaction with them on IETF mailing lists may have serious legal 
   consequences for the IETF.
 
-If any such action is taken, the IETF LLC MUST inform the IESG as 
+If any such action is taken, the IETF LLC SHOULD inform the IESG as 
 soon as possible and SHOULD provide full details of the subject of 
 the action, nature of the action, reason for the action and expected 
 duration, except where it receives legal advice to the contrary. The 
 IETF LLC SHOULD also inform the moderator team and IETF community, 
 except where it receives legal advice to the contrary. 
 
-Any such action taken by the IETF under this section of this policy, 
-is not subject to the rest of the policy in this document
+As such an action would be taken by the IETF LLC in order to protect 
+the IETF according to its fiduciary duty, then it cannot be 
+overridden by a decision of the moderation team or the IESG. The 
+subject of any such action may request a review by the IETF LLC 
+board, as documented in section 4.7 of {{!RFC8711}}
+
+Any such action taken by the IETF LLC under this section of this 
+policy, is not subject to the rest of the policy in this document.
 
 # Changes to Existing RFCs
 
