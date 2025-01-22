@@ -10,8 +10,8 @@ consensus: true
 v: 3
 venue:
     mail: mod-discuss@ietf.org
-    github: larseggert/moderation
-    latest: https://larseggert.github.io/moderation/draft-ietf-modpod-group-processes.html
+    github: larseggert/draft-ietf-modpod-group-processes
+    latest: https://larseggert.github.io/draft-ietf-modpod-group-processes/draft-ietf-modpod-group-processes.html
 
 author:
 
