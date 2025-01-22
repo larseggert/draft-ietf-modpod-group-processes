@@ -345,37 +345,37 @@ NOT be shared between the teams.
 
 The Board of Directors of the IETF Administration LLC (IETF LLC) has
 fiduciary duty for the overall organization, which includes the duty
-to protect the organization from serious legal risk that may arise 
+to protect the organization from serious legal risk that may arise
 from the behavior of IETF participants.
 
-This protection MAY include the need for the IETF LLC to take 
-emergency moderation actions. These emergency actions are expected to 
-be taken only when the IETF LLC has received legal advice that such 
+This protection MAY include the need for the IETF LLC to take
+emergency moderation actions. These emergency actions are expected to
+be taken only when the IETF LLC has received legal advice that such
 action is necessary, and therefore extremely rare in frequency. Some
 examples of where this might be necessary are:
 
 - Someone making credible threat of harm to other IETF participants.
 - Someone using IETF mailing lists and/or websites to share content
   where publishing that content on IETF lists and/or websites brings
-  serious legal risk. 
+  serious legal risk.
 - Someone making credible threats of legal action where any form of
-  interaction with them on IETF mailing lists may have serious legal 
+  interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
 
-If any such action is taken, the IETF LLC SHOULD inform the IESG as 
-soon as possible and SHOULD provide full details of the subject of 
-the action, nature of the action, reason for the action and expected 
-duration, except where it receives legal advice to the contrary. The 
-IETF LLC SHOULD also inform the moderator team and IETF community, 
-except where it receives legal advice to the contrary. 
+If any such action is taken, the IETF LLC SHOULD inform the IESG as
+soon as possible and SHOULD provide full details of the subject of
+the action, nature of the action, reason for the action and expected
+duration, except where it receives legal advice to the contrary. The
+IETF LLC SHOULD also inform the moderator team and IETF community,
+except where it receives legal advice to the contrary.
 
-As such an action would be taken by the IETF LLC in order to protect 
-the IETF according to its fiduciary duty, then it cannot allow that 
-to be overridden by a decision of the moderation team or the IESG. 
-The subject of any such action may request a review by the IETF LLC 
+As such an action would be taken by the IETF LLC in order to protect
+the IETF according to its fiduciary duty, then it cannot allow that
+to be overridden by a decision of the moderation team or the IESG.
+The subject of any such action may request a review by the IETF LLC
 board, as documented in section 4.7 of {{!RFC8711}}
 
-Any such action taken by the IETF LLC under this section of this 
+Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of the policy in this document.
 
 # Changes to Existing RFCs
@@ -442,6 +442,7 @@ These individuals suggested additional improvements to this document:
 - [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 - [Fix wording, spelling and capitalization.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88)
 - [Editorial changes to acknowledgments.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87)
+- [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
 
 ## Since draft-ecahc-moderation-01
 
