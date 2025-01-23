@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-21T00:21:01.302817+00:00",
+  "timestamp": "2025-01-23T00:21:16.217003+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -121,7 +121,7 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/4",
       "state": "CLOSED",
       "author": "JayDaley",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "I suggest adding a section on the team being required to publish and maintain a public process document and to consult with the community on any changes to that",
@@ -137,7 +137,7 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/5",
       "state": "CLOSED",
       "author": "JayDaley",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "I suggest strengthening the separation of powers between this team and IESG/IAB membership from a SHOULD to a MUST and adding LLC Board and Trustees to the exclusion list.",
@@ -189,7 +189,7 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/6",
       "state": "CLOSED",
       "author": "JayDaley",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "The doc is silent on any potential interactions with NomCom and it may be sensible to address those.  For example, if someone stood for a role and the moderation team had received abusive private messages from that person in relation to a moderation action, then they should be allowed to tell NomCom about that.",
@@ -748,7 +748,7 @@
         },
         {
           "author": "JayDaley",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "If you have several time 3, i.e. 21, then do they all need to reach consensus on any decision?  ",
           "createdAt": "2024-06-20T10:22:41Z",
           "updatedAt": "2024-06-20T10:22:41Z"
@@ -1315,10 +1315,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-pr"
+      ],
       "body": "This is copy/paste from the list, just so it doesn't get lost in the mix.\r\n\r\nThe person being moderated must be informed. It's unfortunate that we have\r\nto say this, but we've had problems with that in the past. Think of actions\r\nsuch as a chair removing someone from a list without informing them, etc.\r\nI've never seen anything like that, but I have heard stories of such\r\nchicanery, and I think that's why some people that have been in the IETF\r\nfor a long time lean toward too much immediate transparency.\r\n\r\nAfter all, if these actions are subject to appeal, the person has to know\r\nabout them.",
       "createdAt": "2024-12-31T18:19:09Z",
-      "updatedAt": "2025-01-20T22:36:21Z",
+      "updatedAt": "2025-01-22T23:02:26Z",
       "closedAt": null,
       "comments": [
         {
@@ -1341,6 +1343,20 @@
           "body": "This needs repairing.  I rebased my way into Hell!",
           "createdAt": "2025-01-20T22:04:34Z",
           "updatedAt": "2025-01-20T22:04:34Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear which PR needs repairing? (Because this is an issue.)",
+          "createdAt": "2025-01-21T07:43:06Z",
+          "updatedAt": "2025-01-21T07:43:06Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think this one eventually got fixed in #91.",
+          "createdAt": "2025-01-22T23:02:26Z",
+          "updatedAt": "2025-01-22T23:02:26Z"
         }
       ]
     },
@@ -1542,11 +1558,11 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-pr"
       ],
       "body": "**Proposal**\nThe document should give some brief guidance about Last Call situations.\n\n**Describe the solution you'd like**\nI think the moderators and chairs should not be able to quietly ban people during Last Calls, if the posts are on-topic. \n\n**Describe alternatives you've considered**\nPrevent it altogether during Last Call, but I think they should be able to deal with spam and random stuff.\n",
       "createdAt": "2025-01-20T16:14:03Z",
-      "updatedAt": "2025-01-20T20:33:41Z",
+      "updatedAt": "2025-01-22T06:33:41Z",
       "closedAt": null,
       "comments": [
         {
@@ -1576,6 +1592,99 @@
           "body": "\"Moderation is not a tool for the suppression of unwelcome technical criticisms, especially during Last Calls, whose purpose is indeed to solicit such criticisms and avoid groupthink.\"",
           "createdAt": "2025-01-20T20:33:40Z",
           "updatedAt": "2025-01-20T20:33:40Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I'm OK with something like that being added. I just want to caution that we're \u2013 in my view \u2013 again approaching the \"making allowances for brilliant jerks\" line, which for me is a red one.",
+          "createdAt": "2025-01-21T07:41:25Z",
+          "updatedAt": "2025-01-21T07:41:51Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Without constraining the moderators too much, the action here would be to screen that person's messages. That way, they still get into Last Call traffic without being too jerky.",
+          "createdAt": "2025-01-21T23:46:40Z",
+          "updatedAt": "2025-01-21T23:46:40Z"
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "id": "I_kwDOJrr8CM6m_Yyg",
+      "title": "What is a `broad ban`?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/93",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "Current text says:\n> All bans longer than fourteen (14) days SHALL be reported to the forum in which the person was banned, and in the case of a broad ban, to the community in a manner decided by the IESG.\n\n**Proposal**\nDefine what a `broad ban` is. I _think_ it would be `broad ban, i.e., a ban for multiple participation channels`.\n\n**Describe alternatives you've considered**\nReword `ban` to `moderation action` or something else, but there was concern this would be too noisy.\n",
+      "createdAt": "2025-01-21T11:59:15Z",
+      "updatedAt": "2025-01-21T11:59:15Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 96,
+      "id": "I_kwDOJrr8CM6nMs94",
+      "title": "Content takedown",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/96",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nThe document considers posting rights pretty thoroughly, but does it cover content takedown? It doesn't make a lot of sense for a mailing list, but it might on GitHub or in chat.\n\nI don't have a prefered solution, but I wondered if it should be covered. This issue came up #92, where it seems the LLC might have to respond to a DMCA takedown request or similar.\n",
+      "createdAt": "2025-01-22T18:56:01Z",
+      "updatedAt": "2025-01-22T21:07:42Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I _think_ it's orthogonal. We won't delete disruptive content from mailing list archives, because they are part of the history of how we reached (or failed to reach) rough consensus. If the LLC has to delete something for legal reasons, that is completely distinct from moderation IMHO.",
+          "createdAt": "2025-01-22T19:22:48Z",
+          "updatedAt": "2025-01-22T19:22:48Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Well, it is a feature of GitHub.\n\nhttps://docs.github.com/en/communities/moderating-comments-and-conversations/managing-disruptive-comments",
+          "createdAt": "2025-01-22T19:27:13Z",
+          "updatedAt": "2025-01-22T19:31:39Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "```\nHidden comments are minimized but people with read access to the repository can expand them.\n```\nThat might be useful, yes, but the full historical record is still there if needed. I think we should forbid redaction and deletion except for legal reasons. (RFC8874 doesn't seem to discuss this but probably should.)",
+          "createdAt": "2025-01-22T20:03:52Z",
+          "updatedAt": "2025-01-22T20:03:52Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Hmm, it would be nice if the comments are also in Git (maybe they are?), so the moderators could delete them but preserve the history.",
+          "createdAt": "2025-01-22T20:23:25Z",
+          "updatedAt": "2025-01-22T20:23:25Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I agree that we want to preserve the record, but let me give an instance where we might need to delete content: someone creates a really clever bot that pollutes the Internet-drafts directory.  That sort of attack should be dealt with.  Similarly, if someone is using our mailing list archive for, say, botnet C&C, some action might be necessary.  Where does that leave us?",
+          "createdAt": "2025-01-22T20:44:17Z",
+          "updatedAt": "2025-01-22T20:44:17Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think that's housekeeping, not moderation, and should be done by staff.\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Thu, 23 Jan 2025, 09:23 RS, ***@***.***> wrote:\r\n\r\n> Hmm, it would be nice if the comments are also in Git (maybe they are?),\r\n> so the moderators could delete them but preserve the history.\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/96#issuecomment-2608191995>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKET5OJ5YHTK27EALFT6D2L745JAVCNFSM6AAAAABVVUH75WVHI2DSMVQWIX3LMV43OSLTON2WKQ3PNVWWK3TUHMZDMMBYGE4TCOJZGU>\r\n> .\r\n> You are receiving this because you commented.Message ID:\r\n> ***@***.***\r\n> com>\r\n>\r\n",
+          "createdAt": "2025-01-22T21:07:40Z",
+          "updatedAt": "2025-01-22T21:07:40Z"
         }
       ]
     }
@@ -1763,7 +1872,7 @@
             "abbreviatedOid": "494ffd4"
           },
           "author": "JayDaley",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "APPROVED",
           "body": "Works for me.  The community might want it a bit tighter but this is a good starting point",
           "createdAt": "2023-07-06T09:26:14Z",
@@ -1983,7 +2092,7 @@
             "abbreviatedOid": "4f61525"
           },
           "author": "JayDaley",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "This is an improvement.",
           "createdAt": "2023-07-06T09:27:41Z",
@@ -5654,10 +5763,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "Closes #81. It is intended to disarm the reader right away. If you get right into procedural points at the start, people will just argue. Besides, the sentiment seems inarguable.",
       "createdAt": "2025-01-01T20:13:18Z",
-      "updatedAt": "2025-01-03T04:03:13Z",
+      "updatedAt": "2025-01-21T08:20:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -5863,25 +5974,37 @@
       "id": "PR_kwDOJrr8CM6IaSbj",
       "title": "Fix GitHub link",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/90",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "JayDaley",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "",
       "createdAt": "2025-01-20T21:21:30Z",
-      "updatedAt": "2025-01-20T22:33:43Z",
+      "updatedAt": "2025-01-22T07:19:17Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
       "headRepository": "JayDaley/draft-ietf-modpod-group-processes",
       "headRefName": "jay-daley-fix-github-link",
-      "headRefOid": "dc8719df77a8c785186a30121c3c7a10f8af5ec5",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "headRefOid": "a313b546f61ae0bac5c3cddca021c78bcdeb7009",
+      "closedAt": "2025-01-22T07:18:50Z",
+      "mergedAt": "2025-01-22T07:18:50Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "0a10e64a826c2692e5fa08348f7bbdf1d01a2234"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Thanks for the PR. Purely editorial, does not need a changelog item added.",
+          "createdAt": "2025-01-22T07:19:11Z",
+          "updatedAt": "2025-01-22T07:19:11Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM6Yx2FC",
@@ -5890,10 +6013,63 @@
           },
           "author": "elear",
           "authorAssociation": "COLLABORATOR",
-          "state": "APPROVED",
+          "state": "DISMISSED",
           "body": "",
           "createdAt": "2025-01-20T22:33:43Z",
-          "updatedAt": "2025-01-20T22:33:43Z",
+          "updatedAt": "2025-01-22T06:50:06Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Yzwkl",
+          "commit": {
+            "abbreviatedOid": "dc8719d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T07:45:57Z",
+          "updatedAt": "2025-01-21T07:45:57Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n    https://larseggert.github.io/draft-ietf-modpod-group-processes/draft-ietf-modpod-group-processes.html\r\n```\r\nYou're correct that the old link is wrong, but I think your new link is also wrong, because it goes to the repo, not the editors' copy.",
+              "createdAt": "2025-01-21T07:45:57Z",
+              "updatedAt": "2025-01-21T07:45:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y2bwT",
+          "commit": {
+            "abbreviatedOid": "dc8719d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T12:03:59Z",
+          "updatedAt": "2025-01-21T12:04:00Z",
+          "comments": [
+            {
+              "originalPosition": 3,
+              "body": "```suggestion\r\n    github: larseggert/draft-ietf-modpod-group-processes\r\n```\r\nThis bit of metadata is also wrong.",
+              "createdAt": "2025-01-21T12:04:00Z",
+              "updatedAt": "2025-01-21T12:04:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y95by",
+          "commit": {
+            "abbreviatedOid": "a313b54"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-22T07:18:32Z",
+          "updatedAt": "2025-01-22T07:18:32Z",
           "comments": []
         }
       ]
@@ -5903,25 +6079,44 @@
       "id": "PR_kwDOJrr8CM6IagzM",
       "title": "transparency: regression",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/91",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "report actions to those impacted.",
       "createdAt": "2025-01-20T22:24:39Z",
-      "updatedAt": "2025-01-20T22:52:09Z",
+      "updatedAt": "2025-01-21T15:05:55Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "fix79",
-      "headRefOid": "e200eb42d9ae3345a962e6bfe593837b52d69bad",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "headRefOid": "5911fe41a39015559c8c702a77ed3bd76e967a01",
+      "closedAt": "2025-01-21T11:54:52Z",
+      "mergedAt": "2025-01-21T11:54:52Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "0cc5fdf241c95feb2d1d2bea48fe23cfd35d5c00"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "~~@elear could you please not rewrap lines you are not changing in your PRs? The GitHub differ isn't smart enough to highlight the actual changes in such cases, making it hard to spot them.~~ (I fixed this in the PR.)\r\n\r\nAlso, since the PR subject says \"regression\", is this a change that reverts some inadvertent earlier change? If yes, what commit is being (partially) reverted here?",
+          "createdAt": "2025-01-21T07:48:14Z",
+          "updatedAt": "2025-01-21T09:37:51Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We had added text  that got lost in a rebase along the lines that is in fix79.",
+          "createdAt": "2025-01-21T09:20:20Z",
+          "updatedAt": "2025-01-21T09:20:20Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM6Yx4yp",
@@ -5942,6 +6137,239 @@
               "updatedAt": "2025-01-20T22:52:09Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6YzFTb",
+          "commit": {
+            "abbreviatedOid": "e200eb4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T05:46:45Z",
+          "updatedAt": "2025-01-21T05:46:45Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "fixed.",
+              "createdAt": "2025-01-21T05:46:45Z",
+              "updatedAt": "2025-01-21T05:46:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y07RI",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T09:37:30Z",
+          "updatedAt": "2025-01-21T09:37:31Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Suggest to replace `ban` by `moderation action`, as its more general.\r\n\r\nWhat is the definition of a `broad ban`?",
+              "createdAt": "2025-01-21T09:37:30Z",
+              "updatedAt": "2025-01-21T09:37:31Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y0_x3",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T09:44:44Z",
+          "updatedAt": "2025-01-21T09:44:44Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Suppose the action is pre-approval to post rather than an outright ban (common use of the term).  Would you want the IESG involved in that case?",
+              "createdAt": "2025-01-21T09:44:44Z",
+              "updatedAt": "2025-01-21T09:44:44Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y1D-z",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T09:51:06Z",
+          "updatedAt": "2025-01-21T09:51:06Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Involved as in \"informed\", yes.\r\n\r\n(Because we're now heavily moving in the direction of continuous IESG oversight of the moderators. In which case the IESG needs continuous information. The original `ecahc` draft didn't have that, so didn't need this.)",
+              "createdAt": "2025-01-21T09:51:06Z",
+              "updatedAt": "2025-01-21T09:54:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y1HvU",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T09:57:05Z",
+          "updatedAt": "2025-01-21T09:57:05Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Ok, let's climb back up that slippery slope a bit, and say \"no\".  WG chair?  Yes.  IESG?  No.",
+              "createdAt": "2025-01-21T09:57:05Z",
+              "updatedAt": "2025-01-21T09:57:05Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y1LCg",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T10:01:40Z",
+          "updatedAt": "2025-01-21T10:01:40Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Heh :-) I have the exact opposite reaction. IESG yes, since the moderators are overseen by them, WG chairs no, since they aren't.",
+              "createdAt": "2025-01-21T10:01:40Z",
+              "updatedAt": "2025-01-21T10:01:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y1UvX",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T10:14:28Z",
+          "updatedAt": "2025-01-21T10:14:28Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Oversight doesn't mean knowing everything.  It means knowing what the overseer needs to know.  That might be an aggregate report.",
+              "createdAt": "2025-01-21T10:14:28Z",
+              "updatedAt": "2025-01-21T10:14:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y1jr6",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T10:32:18Z",
+          "updatedAt": "2025-01-21T10:32:18Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "When an appeal comes about a moderation action taken that the IESG hasn't been informed of (yet), we're running into issues.\r\n\r\n",
+              "createdAt": "2025-01-21T10:32:18Z",
+              "updatedAt": "2025-01-21T10:32:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y2J_Y",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T11:30:12Z",
+          "updatedAt": "2025-01-21T11:30:13Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "I would think the responsible AD would have gotten it first, and if that person hasn't done their homework, that's a problem on its own.  But I actually agree with the sentiment of your original draft- let the moderators do their job, without having to constantly email bomb the IESG.  If someone steps WAAAY over the line, then we set the $BigDeal bit, and that requires more visibility.",
+              "createdAt": "2025-01-21T11:30:12Z",
+              "updatedAt": "2025-01-21T11:30:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y2KzJ",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T11:31:51Z",
+          "updatedAt": "2025-01-21T11:31:51Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Coming back to your top level issue, i just realized that we have meandered off the topic of this PR, which is about informing the offender.",
+              "createdAt": "2025-01-21T11:31:51Z",
+              "updatedAt": "2025-01-21T11:31:51Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y2RAW",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-21T11:44:03Z",
+          "updatedAt": "2025-01-21T11:44:03Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "Fair point, esp, since we're also already saying `All taken by the moderator team SHALL be reported to the IESG`.\r\n\r\nI'll open another issue on the use of `ban`.",
+              "createdAt": "2025-01-21T11:44:03Z",
+              "updatedAt": "2025-01-21T11:44:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Y2Ra6",
+          "commit": {
+            "abbreviatedOid": "5911fe4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-21T11:44:53Z",
+          "updatedAt": "2025-01-21T11:44:53Z",
+          "comments": []
         }
       ]
     },
@@ -5952,24 +6380,207 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92",
       "state": "OPEN",
       "author": "JayDaley",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "finalize-pr"
+      ],
       "body": "Updated this section as follows:\r\n* Noted that this is for serious legal risk only.\r\n* Removed list of types of behaviour that may trigger this as unnecessarily narrowing the scope.\r\n* Noted expectation that the IETF LLC only acts when it has received legal advice that such action is *necessary*.\r\n* Provided examples of when such an action is needed\r\n* Added requirement for the IETF LLC to update the IESG as much as it is legally able to do.\r\n* Replaced any mention of this being a temporary action that the moderation team then decides on as, by definition, this is an action that the IETF LLC has to take to protect the organization according to its fiduciary duty and that cannot be overridden by the moderation team.\r\n\r\nI will also take this to the list.",
       "createdAt": "2025-01-20T22:40:03Z",
-      "updatedAt": "2025-01-20T22:40:04Z",
+      "updatedAt": "2025-01-22T20:40:23Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
       "headRepository": "JayDaley/draft-ietf-modpod-group-processes",
       "headRefName": "jay-daley-llc-section",
-      "headRefOid": "dee957e69e75fd9b7003a083eb607dc650284693",
+      "headRefOid": "94661f922b527a84dbd20770603328346596d71f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@JayDaley do you have any pending changes to this PR based on the mailing list discussion?",
+          "createdAt": "2025-01-22T07:17:59Z",
+          "updatedAt": "2025-01-22T07:17:59Z"
+        },
+        {
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> @JayDaley do you have any pending changes to this PR based on the mailing list discussion?\r\n\r\nOther than this discussion, possibly one more to address a comment by Ted Lemon",
+          "createdAt": "2025-01-22T18:26:28Z",
+          "updatedAt": "2025-01-22T18:26:28Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6Y09kx",
+          "commit": {
+            "abbreviatedOid": "dee957e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "LGTM, but let's wait in which direction the mailing list discussion goes.\r\n\r\n(Also, nits need fixing, and the PR needs to add itself to the changelog.)",
+          "createdAt": "2025-01-21T09:41:16Z",
+          "updatedAt": "2025-01-22T02:44:43Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ZANYs",
+          "commit": {
+            "abbreviatedOid": "94661f9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-22T11:41:14Z",
+          "updatedAt": "2025-01-22T11:41:15Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "I would still avoid even SHOULDs.  Why not something like this?\r\n\r\n```suggestion\r\nIf any such action is taken, the IETF LLC is requested to provide to the\r\nIETF community full details of the subject(s), nature, reason, and expected duration\r\nof the action in accordance with any legal advice it has received on the matter. \r\n```",
+              "createdAt": "2025-01-22T11:41:14Z",
+              "updatedAt": "2025-01-22T11:41:15Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ZEBVi",
+          "commit": {
+            "abbreviatedOid": "94661f9"
+          },
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-22T18:25:15Z",
+          "updatedAt": "2025-01-22T18:25:15Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "Given that this is such an important thing, I don't understand why you would make informing the community effectively optional in this way, rather than a requirement with exceptions?  How does that benefit either the community or the IETF LLC?",
+              "createdAt": "2025-01-22T18:25:15Z",
+              "updatedAt": "2025-01-22T18:25:15Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ZETXl",
+          "commit": {
+            "abbreviatedOid": "94661f9"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-22T19:00:26Z",
+          "updatedAt": "2025-01-22T19:00:26Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "I agree with Jay. Whether it's SHOULD or should, it's more than a _request_ for transparency.",
+              "createdAt": "2025-01-22T19:00:26Z",
+              "updatedAt": "2025-01-22T19:00:26Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ZFAKH",
+          "commit": {
+            "abbreviatedOid": "94661f9"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-22T20:40:23Z",
+          "updatedAt": "2025-01-22T20:40:23Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "I'm not going to stand on my head, but I would at least like the LLC Board to be comfortable with whatever language we're throwing at them.  Jay, can you ask?",
+              "createdAt": "2025-01-22T20:40:23Z",
+              "updatedAt": "2025-01-22T20:40:23Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "id": "PR_kwDOJrr8CM6Ie5r9",
+      "title": "chore: Add changelog item for #91",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/94",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "finalize-pr"
+      ],
+      "body": "This should have been part of #91.",
+      "createdAt": "2025-01-21T12:01:39Z",
+      "updatedAt": "2025-01-21T12:02:41Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "0cc5fdf241c95feb2d1d2bea48fe23cfd35d5c00",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "changlog-for-91",
+      "headRefOid": "e2c1e57aa355f4e0f1f45588508242bb2584ee91",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 95,
+      "id": "PR_kwDOJrr8CM6Igay7",
+      "title": "Remove an extraneous comma and a \"the\"",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/95",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "completed"
+      ],
+      "body": "title says it all",
+      "createdAt": "2025-01-21T14:57:10Z",
+      "updatedAt": "2025-01-21T15:06:20Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "0cc5fdf241c95feb2d1d2bea48fe23cfd35d5c00",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "minor-grammar",
+      "headRefOid": "a49096018f929bed9b8d1592c8da6e2962e9c5e7",
+      "closedAt": "2025-01-21T15:06:11Z",
+      "mergedAt": "2025-01-21T15:06:11Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "8c570f8b139f649b9014ce277b6d308b8bb55c2c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6Y4Wv4",
+          "commit": {
+            "abbreviatedOid": "a490960"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "LGTM.\r\n\r\nLet's agree that purely editorial PRs (such as this one) don't go into the changelog in the I-D. Would get too noisy otherwise.",
+          "createdAt": "2025-01-21T15:04:54Z",
+          "updatedAt": "2025-01-21T15:05:11Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
