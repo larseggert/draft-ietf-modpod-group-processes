@@ -356,6 +356,13 @@ the moderator team to let them determine any follow-up or more permanent
 moderation action. These incidents and the taken emergency action SHOULD also be
 communicated to the IETF community.
 
+## Relation to the IRTF
+
+The Internet Research Task Force (IRTF) is a peer organization separate from the
+IETF that is governed by its own set or rules and processes. {{Sections 3, 6 and
+7 of ?I-D.perkins-irtf-code-of-conduct}} discuss rules for participating in the
+IRTF and moderation of IRTF participation channels.
+
 # Changes to Existing RFCs
 
 Creation of the IETF moderator team requires some changes to existing
