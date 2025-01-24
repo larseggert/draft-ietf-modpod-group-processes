@@ -541,6 +541,9 @@ A.1.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
+   *  Point to relevant IRTF material. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/97)
+
 A.2.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
