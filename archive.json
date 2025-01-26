@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-23T00:21:16.217003+00:00",
+  "timestamp": "2025-01-26T00:21:24.756277+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -42,6 +42,11 @@
       "name": "completed",
       "description": "Issue or PR are complete.",
       "color": "2D1012"
+    },
+    {
+      "name": "editorial",
+      "description": "Purely editorial issue or PR.",
+      "color": "6A09CE"
     }
   ],
   "issues": [
@@ -1311,7 +1316,7 @@
       "id": "I_kwDOJrr8CM6kyFmT",
       "title": "Moderation must be transparent at least to the person being moderated",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/79",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -1320,8 +1325,8 @@
       ],
       "body": "This is copy/paste from the list, just so it doesn't get lost in the mix.\r\n\r\nThe person being moderated must be informed. It's unfortunate that we have\r\nto say this, but we've had problems with that in the past. Think of actions\r\nsuch as a chair removing someone from a list without informing them, etc.\r\nI've never seen anything like that, but I have heard stories of such\r\nchicanery, and I think that's why some people that have been in the IETF\r\nfor a long time lean toward too much immediate transparency.\r\n\r\nAfter all, if these actions are subject to appeal, the person has to know\r\nabout them.",
       "createdAt": "2024-12-31T18:19:09Z",
-      "updatedAt": "2025-01-22T23:02:26Z",
-      "closedAt": null,
+      "updatedAt": "2025-01-23T06:40:05Z",
+      "closedAt": "2025-01-23T06:40:05Z",
       "comments": [
         {
           "author": "larseggert",
@@ -1641,7 +1646,7 @@
       ],
       "body": "**Proposal**\nThe document considers posting rights pretty thoroughly, but does it cover content takedown? It doesn't make a lot of sense for a mailing list, but it might on GitHub or in chat.\n\nI don't have a prefered solution, but I wondered if it should be covered. This issue came up #92, where it seems the LLC might have to respond to a DMCA takedown request or similar.\n",
       "createdAt": "2025-01-22T18:56:01Z",
-      "updatedAt": "2025-01-22T21:07:42Z",
+      "updatedAt": "2025-01-23T22:47:09Z",
       "closedAt": null,
       "comments": [
         {
@@ -1685,6 +1690,20 @@
           "body": "I think that's housekeeping, not moderation, and should be done by staff.\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Thu, 23 Jan 2025, 09:23 RS, ***@***.***> wrote:\r\n\r\n> Hmm, it would be nice if the comments are also in Git (maybe they are?),\r\n> so the moderators could delete them but preserve the history.\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/96#issuecomment-2608191995>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKET5OJ5YHTK27EALFT6D2L745JAVCNFSM6AAAAABVVUH75WVHI2DSMVQWIX3LMV43OSLTON2WKQ3PNVWWK3TUHMZDMMBYGE4TCOJZGU>\r\n> .\r\n> You are receiving this because you commented.Message ID:\r\n> ***@***.***\r\n> com>\r\n>\r\n",
           "createdAt": "2025-01-22T21:07:40Z",
           "updatedAt": "2025-01-22T21:07:40Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I agree with @becarpenter; I think there is nothing here for this draft to do. (The LLC and staff are already prepared to deal with this, and have in past instances.)",
+          "createdAt": "2025-01-23T06:39:17Z",
+          "updatedAt": "2025-01-23T06:39:17Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Brian started a thread on the list:\n\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/9wUtgaVK1Ua1oWB1qxKQ6Ny96Q4/\n\nThe mood there is that moderators should not be able to use some of the GitHub features I linked above.",
+          "createdAt": "2025-01-23T17:44:21Z",
+          "updatedAt": "2025-01-23T22:47:09Z"
         }
       ]
     }
@@ -6515,27 +6534,35 @@
       "id": "PR_kwDOJrr8CM6Ie5r9",
       "title": "chore: Add changelog item for #91",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/94",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "finalize-pr"
+        "completed"
       ],
       "body": "This should have been part of #91.",
       "createdAt": "2025-01-21T12:01:39Z",
-      "updatedAt": "2025-01-21T12:02:41Z",
+      "updatedAt": "2025-01-24T06:16:56Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "0cc5fdf241c95feb2d1d2bea48fe23cfd35d5c00",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "changlog-for-91",
       "headRefOid": "e2c1e57aa355f4e0f1f45588508242bb2584ee91",
-      "closedAt": null,
+      "closedAt": "2025-01-24T06:16:48Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Since we said we won't include changelog items for editorial PRs, I'm closing this.",
+          "createdAt": "2025-01-24T06:16:48Z",
+          "updatedAt": "2025-01-24T06:16:48Z"
+        }
+      ],
       "reviews": []
     },
     {
@@ -6581,6 +6608,71 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 97,
+      "id": "PR_kwDOJrr8CM6I2pzM",
+      "title": "Point to `draft-perkins-irtf-code-of-conduct`",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "Fixes #63\r\n\r\nCC @csperkins",
+      "createdAt": "2025-01-24T06:29:47Z",
+      "updatedAt": "2025-01-24T14:27:56Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "0a10e64a826c2692e5fa08348f7bbdf1d01a2234",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "fix-63",
+      "headRefOid": "57def34ce125291c220245b904e8be63fe54323d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "csperkins",
+          "authorAssociation": "NONE",
+          "body": "Looks reasonable to me, although I wonder if it should also reference RFC 2014?",
+          "createdAt": "2025-01-24T14:27:54Z",
+          "updatedAt": "2025-01-24T14:27:54Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 98,
+      "id": "PR_kwDOJrr8CM6I2rR-",
+      "title": "Various grammar fixes",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/98",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-review",
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-01-24T06:34:51Z",
+      "updatedAt": "2025-01-24T06:37:20Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "0a10e64a826c2692e5fa08348f7bbdf1d01a2234",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "grammar-fixes",
+      "headRefOid": "75c1ad98ad52975a34c63c52f7a1a78a44f52eae",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
