@@ -77,7 +77,7 @@ collaboration.
 This document proposes the creation of a moderator team for all of the
 IETF's various contribution channels. This moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
-{{?RFC9245}}.  This memo is applicable to **all** IETF online fora.
+{{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.
 
 # Conventions and Definitions
 
