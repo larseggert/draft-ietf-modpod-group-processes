@@ -72,31 +72,32 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-   2.  Conventions and Definitions
-   3.  Motivation
-   4.  IETF Moderator Team
-     4.1.  Composition
-       4.1.1.  Team Diversity
-     4.2.  Scope
-       4.2.1.  Non-IETF Communication Channels And Private
+     1.1.  Background
+     1.2.  Conventions and Definitions
+   2.  IETF Moderator Team
+     2.1.  Composition
+       2.1.1.  Team Diversity
+     2.2.  Scope
+       2.2.1.  Non-IETF Communication Channels And Private
                Communications Excluded
-       4.2.2.  IETF Working Groups
-     4.3.  Operations of the Moderator Team and Transparency
-     4.4.  Training
-     4.5.  Appeals
-     4.6.  Relation to the Ombudsteam
-     4.7.  Relation to the IETF LLC
-     4.8.  Relation to the IRTF
-   5.  Changes to Existing RFCs
-   6.  Security Considerations
-   7.  IANA Considerations
-   8.  Acknowledgments
-   9.  References
-     9.1.  Normative References
-     9.2.  Informative References
+       2.2.2.  IETF Working Groups
+     2.3.  Operations of the Moderator Team and Transparency
+     2.4.  Training
+     2.5.  Appeals
+     2.6.  Relation to the Ombudsteam
+     2.7.  Relation to the IETF LLC
+     2.8.  Relation to the IRTF
+   3.  Changes to Existing RFCs
+   4.  Security Considerations
+   5.  IANA Considerations
+   6.  Acknowledgments
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Appendix A.  Changes
      A.1.  Since draft-ietf-modpod-group-processes-00
      A.2.  Since draft-ecahc-moderation-01
+   Appendix B.  Problems with the Previous Approach
    Authors' Addresses
 
 1.  Introduction
@@ -104,19 +105,10 @@ Table of Contents
    This document proposes the creation of a moderator team for all of
    the IETF's various contribution channels.  This moderator team is
    modeled after, and subsumes, the moderator team for the IETF
-   discussion list [RFC9245].
+   discussion list [RFC9245].  This memo is applicable to *all* IETF
+   participation channels.
 
-2.  Conventions and Definitions
-
-   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-   document are to be interpreted in their normal English sense; they
-   are shown in uppercase for emphasis and clarity.
-
-      |  TODO: Get feedback from the community whether this redefinition
-      |  of BCP14 terms in process documents is something they support.
-
-3.  Motivation
+1.1.  Background
 
    The IETF community has defined general guidelines of conduct for
    personal interaction in the IETF [RFC7154], and the IESG has defined
@@ -153,61 +145,33 @@ Table of Contents
    of a "posting rights" action (PR-action) proposed by the IESG, often
    in response to complaints from the community.
 
-   This fractured approach to moderation of disruptive participation
-   through chairs, list administrators, and moderator teams, combined
-   with the IESG-led process of PR-actions, has proven to be less than
-   ideal:
+   Experience and community input suggests that an evolution of the
+   existing processes is necessary (see Appendix B).  This memo
+   specifies a flexible moderation framework with an eye toward
+   consistency across all IETF communication fora, timeliness, fairness,
+   while also addressing transparency, appeals, and periodic review of
+   moderation actions.  In particular, moderators are given the broadest
+   possible freedom of action to address disruptive behavior.
 
-   *  The IETF community has not been able to agree on a common
-      definition of disruptive behavior.  Therefore, chairs and list
-      administrators apply individually different criteria when making
-      decisions, and participants have different expectations for when
-      PR-actions are warranted.
+1.2.  Conventions and Definitions
 
-   *  The moderation process that chairs and list administrators need to
-      follow [RFC3934] is slow and cumbersome, which makes it ill-suited
-      to situations that escalate quickly.  It also assumes that the
-      originator of disruptive behavior is a misguided participant who
-      can be reasoned with and who will change their ways.
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+   document are to be interpreted in their normal English sense; they
+   are shown in uppercase for emphasis and clarity.
 
-   *  Chairs and list administrators may only enact moderation actions
-      for their single list, which is ill-suited when a pattern of
-      disruptive behavior spans multiple lists.  Also, chairs and list
-      administrators may not be fully aware of disruptive behavior that
-      spans multiple lists, due to not being subscribed to some of the
-      affected.
+      |  TODO: Get feedback from the community whether this redefinition
+      |  of BCP14 terms in process documents is something they support.
 
-   *  PR-actions, which can address disruptive behavior across several
-      lists, are cumbersome and slow, and the community has not been
-      able to agree on a common definition of disruptive behavior.  This
-      has led to a situation where PR-actions are rarely used, and when
-      they are used, they are perceived as very heavy-handed.
-
-   *  For a given mailing list, participants may not feel comfortable
-      reporting disruptive behavior to a chair or list administrator,
-      for various reasons.  For mailing lists not associated with
-      working groups, list administrators are not even publicly
-      identified - they can only be contacted through an anonymous alias
-      address.  This exacerbates the problem, because participants may
-      not be comfortable reporting disruptive behavior to an anonymous
-      party.
-
-   *  The IETF offers participation not only through in-person meetings
-      and mailing lists, which are the two channels of participation for
-      which moderation processes are currently defined.  IETF business
-      also happens in chat channels, remote meeting participation
-      systems, virtual meetings, wikis, GitHub repositories, and more.
-      How disruptive behavior is moderated in these channels is
-      currently undefined.
-
-4.  IETF Moderator Team
+2.  IETF Moderator Team
 
    This document proposes a different, uniform approach to moderating
    the IETF's various participation channels: a moderator team for the
    IETF.  The creation of this team intends to address the issues
-   identified in Section 3.
+   identified in the previous model Appendix B and the principles
+   described in the introduction.
 
-4.1.  Composition
+2.1.  Composition
 
    The moderator team consists of no less than five individuals.  The
    IESG appoints and replaces moderators.  In selecting members, the
@@ -219,7 +183,7 @@ Table of Contents
    moderators MAY decide to consult with the IESG when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.5), the IESG MUST NOT appoint a moderator
+   decisions (see Section 2.5), the IESG MUST NOT appoint a moderator
    who is serving on the IESG or IAB.  Individuals serving on other
    bodies to which the NomCom appoints members, such as the IETF Trust
    or the LLC Board, as well as LLC staff and contractors SHALL also be
@@ -227,7 +191,7 @@ Table of Contents
    assuming any such role, they SHALL step down from the moderator team
    soon after.
 
-4.1.1.  Team Diversity
+2.1.1.  Team Diversity
 
    Due to the global nature of the IETF, the membership of this team
    SHOULD reflect a diversity of time zones and other participant
@@ -239,7 +203,7 @@ Table of Contents
    problematic behavior can identify a moderator they feel comfortable
    contacting.
 
-4.2.  Scope
+2.2.  Scope
 
    The IETF moderator team is responsible for establishing processes to
    address moderation needs across all IETF fora, both present and
@@ -266,7 +230,7 @@ Table of Contents
    no chairs or other community leadership, so the moderators MUST
    handle those.)
 
-4.2.1.  Non-IETF Communication Channels And Private Communications
+2.2.1.  Non-IETF Communication Channels And Private Communications
         Excluded
 
    It is important to note that the moderator team only moderates
@@ -276,7 +240,7 @@ Table of Contents
    outside of meetings.  In such cases, the Ombudsteam should be
    approached.
 
-4.2.2.  IETF Working Groups
+2.2.2.  IETF Working Groups
 
    The management and moderation of participation channels associated
    with various IETF groups, including their mailing lists, chat
@@ -307,7 +271,7 @@ Table of Contents
    such cases, and the group management should respect the moderators'
    task of upholding an overall IETF-wide uniformity for moderation.
 
-4.3.  Operations of the Moderator Team and Transparency
+2.3.  Operations of the Moderator Team and Transparency
 
    Within the bounds of the policies set within this memo and with the
    approval of the IESG, the moderator team SHALL define any additional
@@ -342,13 +306,13 @@ Table of Contents
    was banned, and in the case of a broad ban, to the community in a
    manner decided by the IESG.
 
-4.4.  Training
+2.4.  Training
 
    The IETF is committed to providing and/or funding training for
    appointed moderators as necessary.  The IESG will negotiate any
    required funding or resources with IETF Administration LLC [RFC8711].
 
-4.5.  Appeals
+2.5.  Appeals
 
    Because the moderator team serves at the discretion of the IESG, any
    moderation decision can be appealed to the IESG by anyone, per
@@ -357,7 +321,7 @@ Table of Contents
    decision by the IESG can be appealed to the IAB as described in
    [RFC2026].
 
-4.6.  Relation to the Ombudsteam
+2.6.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -371,7 +335,7 @@ Table of Contents
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
 
-4.7.  Relation to the IETF LLC
+2.7.  Relation to the IETF LLC
 
    The Board of Directors of the IETF Administration LLC (IETF LLC) has
    fiduciary duty for the overall organization, which includes the duty
@@ -387,7 +351,7 @@ Table of Contents
    incidents and the taken emergency action SHOULD also be communicated
    to the IETF community.
 
-4.8.  Relation to the IRTF
+2.8.  Relation to the IRTF
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
@@ -395,7 +359,7 @@ Table of Contents
    [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
    the IRTF and moderation of IRTF participation channels.
 
-5.  Changes to Existing RFCs
+3.  Changes to Existing RFCs
 
    Creation of the IETF moderator team requires some changes to existing
    RFCs and also requires the IESG to update a number of their
@@ -403,24 +367,24 @@ Table of Contents
 
       |  TODO: Add once we know this I-D will go forward in some form.
 
-6.  Security Considerations
+4.  Security Considerations
 
    The usual security considerations [RFC3552] do not apply to this
    document.
 
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
-   process, per Section 4.5.
+   process, per Section 2.5.
 
    The actions of the moderator team are intended to limit the
    likelihood of disruptive behavior by a few IETF participants from
    discouraging participation by other IETF participants.
 
-7.  IANA Considerations
+5.  IANA Considerations
 
    This document has no IANA actions.
 
-8.  Acknowledgments
+6.  Acknowledgments
 
    This document is based on two individual Internet-Drafts, draft-
    ecahc-moderation (https://datatracker.ietf.org/doc/draft-ecahc-
@@ -453,9 +417,9 @@ Table of Contents
 
    *  Robert Sayre
 
-9.  References
+7.  References
 
-9.1.  Normative References
+7.1.  Normative References
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -465,7 +429,7 @@ Table of Contents
               Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
               2016, <https://www.rfc-editor.org/rfc/rfc7776>.
 
-9.2.  Informative References
+7.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
               <<https://www.ietf.org/about/groups/iesg/statements/anti-
@@ -555,6 +519,55 @@ A.2.  Since draft-ecahc-moderation-01
       Updated editors.  Acknowledge authors of original pre-WG I-Ds.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/65)
+
+Appendix B.  Problems with the Previous Approach
+
+   The previous approach to moderation of disruptive participation
+   through chairs, list administrators, and moderator teams, combined
+   with the IESG-led process of PR-actions, has proven to be less than
+   ideal:
+
+   *  The IETF community has not been able to agree on a common
+      definition of disruptive behavior.  Therefore, chairs and list
+      administrators apply individually different criteria when making
+      decisions, and participants have different expectations for when
+      PR-actions are warranted.
+
+   *  The moderation process that chairs and list administrators need to
+      follow [RFC3934] is slow and cumbersome, which makes it ill-suited
+      to situations that escalate quickly.  It also assumes that the
+      originator of disruptive behavior is a misguided participant who
+      can be reasoned with and who will change their ways.
+
+   *  Chairs and list administrators may only enact moderation actions
+      for their single list, which is ill-suited when a pattern of
+      disruptive behavior spans multiple lists.  Also, chairs and list
+      administrators may not be fully aware of disruptive behavior that
+      spans multiple lists, due to not being subscribed to some of the
+      affected.
+
+   *  PR-actions, which can address disruptive behavior across several
+      lists, are cumbersome and slow, and the community has not been
+      able to agree on a common definition of disruptive behavior.  This
+      has led to a situation where PR-actions are rarely used, and when
+      they are used, they are perceived as very heavy-handed.
+
+   *  For a given mailing list, participants may not feel comfortable
+      reporting disruptive behavior to a chair or list administrator,
+      for various reasons.  For mailing lists not associated with
+      working groups, list administrators are not even publicly
+      identified - they can only be contacted through an anonymous alias
+      address.  This exacerbates the problem, because participants may
+      not be comfortable reporting disruptive behavior to an anonymous
+      party.
+
+   *  The IETF offers participation not only through in-person meetings
+      and mailing lists, which are the two channels of participation for
+      which moderation processes are currently defined.  IETF business
+      also happens in chat channels, remote meeting participation
+      systems, virtual meetings, wikis, GitHub repositories, and more.
+      How disruptive behavior is moderated in these channels is
+      currently undefined.
 
 Authors' Addresses
 
