@@ -117,20 +117,21 @@ community last-call of a "posting rights" action (PR-action) proposed
 by the IESG, often in response to complaints from the community.
 
 Experience and community input suggests that an evolution of the
-existing processes is necessary (see {{motive}}).  This memo specifies a
-flexible moderation
+existing processes is necessary (see {{motive}}).
+
+## General Philosophy
+
+This memo specifies a flexible moderation
 framework with an eye toward consistency across all IETF communication fora,
 timeliness, fairness, while also addressing transparency, appeals, and
 periodic review of moderation actions.  In particular, moderators are given the broadest
 possible freedom of action to address disruptive behavior.
 
-## General Philosophy
-
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered abuse,
 nor should someone be considered abusive solely because they are outside the rough
 consensus.  Disagreement and diverse points of view within any standards organization
-are to be expected, and even healthy.  With this in mind, moderators are
+are to be expected, and are even healthy.  With that in mind, moderators are
 expected to identify when someone has crossed a line, and what action is appropriate.
 
 ## Conventions and Definitions
