@@ -124,6 +124,15 @@ timeliness, fairness, while also addressing transparency, appeals, and
 periodic review of moderation actions.  In particular, moderators are given the broadest
 possible freedom of action to address disruptive behavior.
 
+## General Philosophy
+
+The IETF is an open standards organization.  Engaged, respectful
+discussion that is within the scope of a forum should not be considered abuse,
+nor should someone be considered abusive solely because they are outside the rough
+consensus.  Disagreement and diverse points of view within any standards organization
+is to be expected, and even healthy.  With this in mind, moderators are
+expected to identify when someone has crossed a line, and what action is appropriate.
+
 ## Conventions and Definitions
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
