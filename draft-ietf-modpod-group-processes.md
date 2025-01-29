@@ -132,8 +132,7 @@ existing processes is necessary (see {{motive}}).  This memo specifies a flexibl
 framework with an eye toward consistency across all IETF communication fora,
 timeliness, fairness, while also addressing transparency, appeals, and
 periodic review of moderation actions.  In particular, moderators are given the broadest
-possible freedom of action to address disruptive behavior in a manner that
-does not disrupt the IETF activities.
+possible freedom of action to address disruptive behavior.
 
 # IETF Moderator Team
 
