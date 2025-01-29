@@ -129,7 +129,7 @@ by the IESG, often in response to complaints from the community.
 
 Experience and community input suggests that an evolution of the
 existing processes is necessary (see {{motive}}).  This memo specifies a flexible moderation
-policy with an eye toward consistency across all IETF communication fora,
+framework with an eye toward consistency across all IETF communication fora,
 timeliness, fairness, while also addressing transparency, appeals, and
 periodic review of bans.  In particular, moderators are given the broadest
 possible freedom of action to address disruptive behavior in a manner that
