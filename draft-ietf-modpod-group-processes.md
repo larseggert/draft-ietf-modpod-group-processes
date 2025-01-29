@@ -79,16 +79,6 @@ IETF's various contribution channels. This moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.
 
-# Conventions and Definitions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-document are to be interpreted in their normal English sense; they are shown
-in uppercase for emphasis and clarity.
-
-{:aside}
-> TODO: Get feedback from the community whether this redefinition of BCP14
-> terms in process documents is something they support.
 
 ## Background {#background}
 
@@ -134,6 +124,17 @@ framework with an eye toward consistency across all IETF communication fora,
 timeliness, fairness, while also addressing transparency, appeals, and
 periodic review of moderation actions.  In particular, moderators are given the broadest
 possible freedom of action to address disruptive behavior.
+
+## Conventions and Definitions
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted in their normal English sense; they are shown
+in uppercase for emphasis and clarity.
+
+{:aside}
+> TODO: Get feedback from the community whether this redefinition of BCP14
+> terms in process documents is something they support.
 
 # IETF Moderator Team
 
