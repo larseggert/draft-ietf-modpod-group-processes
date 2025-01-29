@@ -64,7 +64,7 @@ informative:
 
 --- abstract
 
-This document describes the creation of a moderator team for all of the
+This document describes the creation of a moderator team for all the
 IETF's various contribution channels. Without removing existing responsibilities
 for working group management, this team enables a uniform approach to moderation
 of disruptive participation across all mailing lists and other methods of IETF
@@ -74,7 +74,7 @@ collaboration.
 
 # Introduction
 
-This document proposes the creation of a moderator team for all of the
+This document proposes the creation of a moderator team for all the
 IETF's various contribution channels. This moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.
@@ -91,7 +91,7 @@ Dealing with *disruptive* behavior, however, is not part of the role
 of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings and mailing
 lists, and an IESG statement {{MODML}} describes additional guidance
-to working group chairs about how - but not when - to moderate their
+to working group chairs about how — but not when — to moderate their
 lists.
 
 For IETF mailing lists not associated with a working group, another
@@ -286,7 +286,7 @@ required funding or resources with IETF Administration LLC
 Because the moderator team serves at the discretion of the IESG,
 any moderation decision can be appealed to the IESG by anyone,
 per {{!RFC2026}}. Disagreements with a decision by the moderator team can
-brought to their attention. If this does not lead to a resolution, a
+be brought to their attention. If this does not lead to a resolution, a
 decision by the IESG can be appealed to the IAB as described in
 {{!RFC2026}}.
 
@@ -413,7 +413,7 @@ ideal:
   their single list, which is ill-suited when a pattern of disruptive
   behavior spans multiple lists. Also, chairs and list administrators
   may not be fully aware of disruptive behavior that spans multiple
-  lists, due to not being subscribed to some of the affected.
+  lists, due to not being subscribed to some of them.
 
 - PR-actions, which can address disruptive behavior across several
   lists, are cumbersome and slow, and the community has not been able
