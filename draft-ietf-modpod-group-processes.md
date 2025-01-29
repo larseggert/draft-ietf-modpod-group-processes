@@ -79,7 +79,6 @@ IETF's various contribution channels. This moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.
 
-
 ## Background {#background}
 
 The IETF community has defined general guidelines of conduct for
