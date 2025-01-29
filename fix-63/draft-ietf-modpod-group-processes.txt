@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 28 July 2025                                      Cisco Systems
-                                                         24 January 2025
+Expires: 2 August 2025                                     Cisco Systems
+                                                         29 January 2025
 
 
                        IETF Community Moderation
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 July 2025.
+   This Internet-Draft will expire on 2 August 2025.
 
 Copyright Notice
 
@@ -389,11 +389,11 @@ Table of Contents
 
 4.8.  Relation to the IRTF
 
-   The Internet Research Task Force (IRTF) is a peer organization
-   separate from the IETF that is governed by its own set or rules and
-   processes.  Sections 3, 6 and 7 of [I-D.perkins-irtf-code-of-conduct]
-   discuss rules for participating in the IRTF and moderation of IRTF
-   participation channels.
+   The Internet Research Task Force (IRTF) [RFC2014] is a peer
+   organization separate from the IETF that is governed by its own set
+   or rules and processes.  Sections 3, 6 and 7 of
+   [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
+   the IRTF and moderation of IRTF participation channels.
 
 5.  Changes to Existing RFCs
 
@@ -488,6 +488,10 @@ Table of Contents
 
    [OT]       "Ombudsteam",
               <<https://www.ietf.org/contact/ombudsteam/>>.
+
+   [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
+              and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
+              October 1996, <https://www.rfc-editor.org/rfc/rfc2014>.
 
    [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
               Text on Security Considerations", BCP 72, RFC 3552,
