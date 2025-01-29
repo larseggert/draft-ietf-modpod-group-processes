@@ -389,7 +389,7 @@ These individuals suggested additional improvements to this document:
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
   [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
 
-# Problems with the previous approach {#motive}
+# Problems with the Previous Approach {#motive}
 
 The previous approach to moderation of disruptive participation
 through chairs, list administrators, and moderator teams, combined
