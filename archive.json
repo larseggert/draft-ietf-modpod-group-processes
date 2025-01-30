@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-28T00:21:44.800309+00:00",
+  "timestamp": "2025-01-30T00:20:55.455373+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -5787,7 +5787,7 @@
       ],
       "body": "Closes #81. It is intended to disarm the reader right away. If you get right into procedural points at the start, people will just argue. Besides, the sentiment seems inarguable.",
       "createdAt": "2025-01-01T20:13:18Z",
-      "updatedAt": "2025-01-21T08:20:05Z",
+      "updatedAt": "2025-01-29T18:47:02Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -5812,6 +5812,13 @@
           "body": "Not going to argue about the placement, but I think that is a pretty strong abstract. You don't need context there. :)\r\n\r\nI always try to suggest text, since one thing people often say is \"why not open a PR?\" when someone is just arguing. But that doesn't mean I am being insistent.\r\n\r\nEdit: I might also add that the README says \"Contributions can be made by creating pull requests.\" (subject to the usual Note Well material). Here, you have a well-written opener. I think anyone would perk up at that opening sentence vs \"This document describes the creation of a moderation team...\". I think you are missing that the first task is to get people to read the document in the first place.  Now, do you want to let Rob write that? Different question, but I'm OK with it if you write a better first sentence . \r\n\r\nThe trick here is this: you write one sentence about good things like empathy, honesty, and kindness. Then you flip to the \"This document describes...\" stuff with no verbal transition. It makes the procedural text much more powerful. If you look at my PR here, just imagine a \"\ud83d\udc40\" in the break after the first sentence. I don't care if you use my exact words.",
           "createdAt": "2025-01-02T16:41:19Z",
           "updatedAt": "2025-01-03T04:03:13Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Ok, here's how I propose we handle this one.  I'm not sure where to put it.\r\n\r\n```\r\nThe IETF is an open standards organization.  Engaged, respectful\r\ndiscussion that is within the scope of a forum should not be considered abuse,\r\nnor should someone be considered abusive solely because they are outside the rough consensus.  Disagreement and diverse\r\npoints of view within any standards organization is to be expected, and even\r\nhealthy.  With this in mind, moderators are expected to identify when someone\r\nhas crossed a line, and what action is appropriate.\r\n```\r\n\r\nThis probably addresses another point that @becarpenter made elsewhere as well.",
+          "createdAt": "2025-01-29T18:45:55Z",
+          "updatedAt": "2025-01-29T18:47:02Z"
         }
       ],
       "reviews": []
@@ -6107,7 +6114,7 @@
       ],
       "body": "report actions to those impacted.",
       "createdAt": "2025-01-20T22:24:39Z",
-      "updatedAt": "2025-01-21T15:05:55Z",
+      "updatedAt": "2025-01-29T10:56:40Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
@@ -6406,13 +6413,13 @@
       ],
       "body": "Updated this section as follows:\r\n* Noted that this is for serious legal risk only.\r\n* Removed list of types of behaviour that may trigger this as unnecessarily narrowing the scope.\r\n* Noted expectation that the IETF LLC only acts when it has received legal advice that such action is *necessary*.\r\n* Provided examples of when such an action is needed\r\n* Added requirement for the IETF LLC to update the IESG as much as it is legally able to do.\r\n* Replaced any mention of this being a temporary action that the moderation team then decides on as, by definition, this is an action that the IETF LLC has to take to protect the organization according to its fiduciary duty and that cannot be overridden by the moderation team.\r\n\r\nI will also take this to the list.",
       "createdAt": "2025-01-20T22:40:03Z",
-      "updatedAt": "2025-01-22T20:40:23Z",
+      "updatedAt": "2025-01-29T14:03:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
+      "baseRefOid": "6d7a2e12c8539032366025452ef47bdcf5b2a2ab",
       "headRepository": "JayDaley/draft-ietf-modpod-group-processes",
       "headRefName": "jay-daley-llc-section",
-      "headRefOid": "94661f922b527a84dbd20770603328346596d71f",
+      "headRefOid": "3c843843f8b3f2ff53fddbec368af588d0191a10",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -6579,7 +6586,7 @@
       ],
       "body": "title says it all",
       "createdAt": "2025-01-21T14:57:10Z",
-      "updatedAt": "2025-01-21T15:06:20Z",
+      "updatedAt": "2025-01-29T10:56:34Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "0cc5fdf241c95feb2d1d2bea48fe23cfd35d5c00",
@@ -6619,17 +6626,18 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-review",
+        "editorial"
       ],
       "body": "Fixes #63\r\n\r\nCC @csperkins",
       "createdAt": "2025-01-24T06:29:47Z",
-      "updatedAt": "2025-01-24T14:27:56Z",
+      "updatedAt": "2025-01-29T13:58:28Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "0a10e64a826c2692e5fa08348f7bbdf1d01a2234",
+      "baseRefOid": "b14247fd578015128e12ebe1ca5a23eccf8b13ec",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "fix-63",
-      "headRefOid": "57def34ce125291c220245b904e8be63fe54323d",
+      "headRefOid": "36752b489a96d748563fa204a52a7f05306f9936",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -6650,7 +6658,7 @@
       "id": "PR_kwDOJrr8CM6I2rR-",
       "title": "Various grammar fixes",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/98",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
@@ -6660,18 +6668,272 @@
       ],
       "body": "",
       "createdAt": "2025-01-24T06:34:51Z",
-      "updatedAt": "2025-01-24T06:37:20Z",
+      "updatedAt": "2025-01-29T14:02:05Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "b14247fd578015128e12ebe1ca5a23eccf8b13ec",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "grammar-fixes",
+      "headRefOid": "a361053b3a2eb28250ccec696b8952162f43901b",
+      "closedAt": "2025-01-29T14:02:03Z",
+      "mergedAt": "2025-01-29T14:02:03Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "6d7a2e12c8539032366025452ef47bdcf5b2a2ab"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 99,
+      "id": "PR_kwDOJrr8CM6JV_ya",
+      "title": "trim intro, move motivational text to Appendix",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/99",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "completed"
+      ],
+      "body": "The motivation section was too long and addresses the wrong audience.  Get that out of the way so that people who need to get to the normative part can do so with a clear understanding of the goals.",
+      "createdAt": "2025-01-29T11:00:23Z",
+      "updatedAt": "2025-01-29T21:41:58Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "0a10e64a826c2692e5fa08348f7bbdf1d01a2234",
-      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
-      "headRefName": "grammar-fixes",
-      "headRefOid": "75c1ad98ad52975a34c63c52f7a1a78a44f52eae",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "trim-intro",
+      "headRefOid": "912c350e3d03ab8599c91b22ed2072a493e79481",
+      "closedAt": "2025-01-29T13:54:42Z",
+      "mergedAt": "2025-01-29T13:54:42Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "b14247fd578015128e12ebe1ca5a23eccf8b13ec"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6Z1C18",
+          "commit": {
+            "abbreviatedOid": "96493dc"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T11:57:16Z",
+          "updatedAt": "2025-01-29T12:01:40Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\n# Background {#background}\r\n```\r\n\r\nFirst-level heading, right??",
+              "createdAt": "2025-01-29T11:57:17Z",
+              "updatedAt": "2025-01-29T12:01:40Z"
+            },
+            {
+              "originalPosition": 68,
+              "body": "```suggestion\r\nExperience and community input suggests that an evolution of the\r\nexisting processes is necessary (see {{motive}}).  This memo specifies a flexible moderation\r\n```\r\nOr cut:\r\n```suggestion\r\nThis memo specifies a flexible moderation\r\n```",
+              "createdAt": "2025-01-29T11:58:38Z",
+              "updatedAt": "2025-01-29T12:01:40Z"
+            },
+            {
+              "originalPosition": 69,
+              "body": "```suggestion\r\nframework with an eye toward consistency across all IETF communication fora,\r\n```\r\nNot sure we'll define a policy; it's what maybe the moderator team will do.\r\n\r\n```suggestion\r\napproach with an eye toward consistency across all IETF communication fora,\r\n```\r\nwould also WFM.",
+              "createdAt": "2025-01-29T11:59:44Z",
+              "updatedAt": "2025-01-29T12:01:40Z"
+            },
+            {
+              "originalPosition": 71,
+              "body": "```suggestion\r\nperiodic review of moderation actions.  In particular, moderators are given the broadest\r\n```",
+              "createdAt": "2025-01-29T12:00:11Z",
+              "updatedAt": "2025-01-29T12:01:40Z"
+            },
+            {
+              "originalPosition": 73,
+              "body": "```suggestion\r\npossible freedom of action to address disruptive behavior.\r\n```\r\nModeration may need to \"disrupt IETF activities\". If moderators can't take action because of a perceived disruption of IETF activities (whatever that actually means), we gain nothing.",
+              "createdAt": "2025-01-29T12:01:16Z",
+              "updatedAt": "2025-01-29T12:01:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z1Fk4",
+          "commit": {
+            "abbreviatedOid": "96493dc"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T12:02:16Z",
+          "updatedAt": "2025-01-29T12:02:16Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n{{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.\r\n```\r\nSame wording used elsewhere.",
+              "createdAt": "2025-01-29T12:02:16Z",
+              "updatedAt": "2025-01-29T12:02:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z1jPz",
+          "commit": {
+            "abbreviatedOid": "96493dc"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T12:55:13Z",
+          "updatedAt": "2025-01-29T12:55:13Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "I think it's part of the intro, no?",
+              "createdAt": "2025-01-29T12:55:13Z",
+              "updatedAt": "2025-01-29T12:55:22Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z1neG",
+          "commit": {
+            "abbreviatedOid": "90821b7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T13:01:40Z",
+          "updatedAt": "2025-01-29T13:01:41Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "But with two `##` it becomes a subsection under `Conventions and Definitions`...",
+              "createdAt": "2025-01-29T13:01:40Z",
+              "updatedAt": "2025-01-29T13:01:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z1nuV",
+          "commit": {
+            "abbreviatedOid": "90821b7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T13:02:07Z",
+          "updatedAt": "2025-01-29T13:02:07Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "```suggestion\r\n# Problems with the Previous Approach {#motive}\r\n```\r\nTitle case for consistency.",
+              "createdAt": "2025-01-29T13:02:07Z",
+              "updatedAt": "2025-01-29T13:02:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z1p84",
+          "commit": {
+            "abbreviatedOid": "96493dc"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T13:05:53Z",
+          "updatedAt": "2025-01-29T13:05:53Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Ah- I would move those down; which indeed I think would be the convention ;-)",
+              "createdAt": "2025-01-29T13:05:53Z",
+              "updatedAt": "2025-01-29T13:05:53Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z1qXv",
+          "commit": {
+            "abbreviatedOid": "96493dc"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-01-29T13:06:32Z",
+          "updatedAt": "2025-01-29T13:06:33Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "ACK. (I still find a single subsection within a parent section odd, but \ud83e\udd37 )",
+              "createdAt": "2025-01-29T13:06:33Z",
+              "updatedAt": "2025-01-29T13:06:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6Z2Mpf",
+          "commit": {
+            "abbreviatedOid": "912c350"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-29T13:54:33Z",
+          "updatedAt": "2025-01-29T13:54:33Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "id": "PR_kwDOJrr8CM6JbOcB",
+      "title": "add some text to explain the role of moderators",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/100",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion",
+        "needs-review"
+      ],
+      "body": "Not quite the language Robert used, but hopefully explanatory.\r\n\r\nCloses #81\r\nCloses #82",
+      "createdAt": "2025-01-29T21:46:34Z",
+      "updatedAt": "2025-01-30T00:05:16Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "6d7a2e12c8539032366025452ef47bdcf5b2a2ab",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "gen-philosophy",
+      "headRefOid": "fd9b84811d6447aecafcc4632c783e26b36cd98f",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": " May also close #89 ",
+          "createdAt": "2025-01-29T21:49:26Z",
+          "updatedAt": "2025-01-29T21:49:26Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Doesn't close #82 imho. Just put it in there. This paragraph is fine by me, but my sentence is 13 words and better.\r\n\r\nWhy is my sentence better? It's because it removes any sense of entitlement.",
+          "createdAt": "2025-01-29T23:58:27Z",
+          "updatedAt": "2025-01-30T00:05:16Z"
+        }
+      ],
       "reviews": []
     }
   ]
