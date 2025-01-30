@@ -87,6 +87,7 @@ Table of Contents
      2.5.  Appeals
      2.6.  Relation to the Ombudsteam
      2.7.  Relation to the IETF LLC
+     2.8.  Relation to the IRTF
    3.  Changes to Existing RFCs
    4.  Security Considerations
    5.  IANA Considerations
@@ -364,6 +365,14 @@ Table of Contents
    incidents and the taken emergency action SHOULD also be communicated
    to the IETF community.
 
+2.8.  Relation to the IRTF
+
+   The Internet Research Task Force (IRTF) [RFC2014] is a peer
+   organization separate from the IETF that is governed by its own set
+   or rules and processes.  Sections 3, 6 and 7 of
+   [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
+   the IRTF and moderation of IRTF participation channels.
+
 3.  Changes to Existing RFCs
 
    Creation of the IETF moderator team requires some changes to existing
@@ -444,6 +453,12 @@ Table of Contents
               2006, <<https://www.ietf.org/about/groups/iesg/statements/
               disruptive-posting/>>.
 
+   [I-D.perkins-irtf-code-of-conduct]
+              Perkins, C., "IRTF Code of Conduct", Work in Progress,
+              Internet-Draft, draft-perkins-irtf-code-of-conduct-07, 20
+              January 2025, <https://datatracker.ietf.org/doc/html/
+              draft-perkins-irtf-code-of-conduct-07>.
+
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
               <<https://www.ietf.org/about/groups/iesg/statements/
@@ -451,6 +466,10 @@ Table of Contents
 
    [OT]       "Ombudsteam",
               <<https://www.ietf.org/contact/ombudsteam/>>.
+
+   [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
+              and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
+              October 1996, <https://www.rfc-editor.org/rfc/rfc2014>.
 
    [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
               Text on Security Considerations", BCP 72, RFC 3552,
@@ -503,6 +522,9 @@ A.1.  Since draft-ietf-modpod-group-processes-00
    *  Editorial changes to acknowledgments.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
+
+   *  Point to relevant IRTF material. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/97)
 
 A.2.  Since draft-ecahc-moderation-01
 
