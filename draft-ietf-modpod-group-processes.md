@@ -330,6 +330,14 @@ the moderator team to let them determine any follow-up or more permanent
 moderation action. These incidents and the taken emergency action SHOULD also be
 communicated to the IETF community.
 
+## Relation to the IRTF
+
+The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
+organization separate from the IETF that is governed by its own
+set or rules and processes. {{Sections 3, 6 and 7 of
+?I-D.perkins-irtf-code-of-conduct}} discuss rules for participating
+in the IRTF and moderation of IRTF participation channels.
+
 # Changes to Existing RFCs
 
 Creation of the IETF moderator team requires some changes to existing
@@ -394,6 +402,7 @@ These individuals suggested additional improvements to this document:
 - [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 - [Fix wording, spelling and capitalization.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88)
 - [Editorial changes to acknowledgments.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87)
+- [Point to relevant IRTF material.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97)
 
 ## Since draft-ecahc-moderation-01
 
