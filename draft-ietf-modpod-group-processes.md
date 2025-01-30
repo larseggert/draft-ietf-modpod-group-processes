@@ -398,6 +398,7 @@ These individuals suggested additional improvements to this document:
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
   [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
+- [add some text to explain the role of moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/100)
 
 # Problems with the Previous Approach {#motive}
 
