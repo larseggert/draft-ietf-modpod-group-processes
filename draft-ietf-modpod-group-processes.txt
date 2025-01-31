@@ -5,14 +5,17 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 3 August 2025                                     Cisco Systems
-                                                         30 January 2025
+Expires: 4 August 2025                                     Cisco Systems
+                                                         31 January 2025
 
 
                        IETF Community Moderation
                 draft-ietf-modpod-group-processes-latest
 
 Abstract
+
+   The IETF will treat people with kindness and grace, but not endless
+   patience.
 
    This document describes the creation of a moderator team for all the
    IETF's various contribution channels.  Without removing existing
@@ -53,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 August 2025.
+   This Internet-Draft will expire on 4 August 2025.
 
 Copyright Notice
 
