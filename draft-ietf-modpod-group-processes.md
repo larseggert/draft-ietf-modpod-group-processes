@@ -325,12 +325,12 @@ examples of where this might be necessary are:
   interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
 
-If any such action is taken, the IETF LLC SHOULD inform the IESG as
-soon as possible and SHOULD provide full details of the subject of
-the action, nature of the action, reason for the action and expected
-duration, except where it receives legal advice to the contrary. The
-IETF LLC SHOULD also inform the moderator team and IETF community,
-except where it receives legal advice to the contrary.
+If any such action is taken, the IETF LLC SHOULD, except where 
+limited by legal advice to the contrary, inform the IESG as soon as 
+possible, providing full details of the subject of the action, nature
+of the action, reason for the action and expected duration. The IETF 
+LLC SHOULD also inform the moderator team and IETF community, except 
+where it receives legal advice to the contrary.
 
 As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
