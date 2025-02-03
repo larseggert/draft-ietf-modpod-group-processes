@@ -123,27 +123,27 @@ existing processes is necessary (see {{motive}}).
 
 ## General Philosophy
 
-The cornerstone of our philosophy is first and foremost the individual, whose responsibility
-is to further the goals of the organization {{!RFC3935}} in a manner consistent with the policy
-laid out in {{!RFC7154}}.  The IETF is an open standards organization.  Engaged, respectful
-discussion that is within the scope of a forum should not be considered abuse,
-nor should someone be considered abusive solely because they are outside the rough
-consensus.  Disagreement and diverse points of view within any standards organization
-are to be expected, and are even healthy.  However, when someone crosses the line into
-disruptive behavior, some action must be taken in order to maintain decorum of the
-community. 
+The cornerstone of our philosophy is first and foremost the individual, whose
+responsibility is to further the goals of the organization {{!RFC3935}} in a manner
+consistent with the policy laid out in {{!RFC7154}}.  The IETF is an open standards 
+organization.  Engaged, respectful discussion that is within the scope of a forum
+should not be considered abuse, nor should someone be considered abusive solely
+because they are outside the rough consensus.  Disagreement and diverse points of
+view within any standards organization are to be expected, and are even healthy.
+However, when someone crosses the line into disruptive behavior, some action must be
+taken in order to maintain decorum of the community. 
 
-The approach in this memo is intended to be consistently and fairly applied toward all IETF 
-communication fora in a timely fashion.  Because open participation is important, moderation 
-must provide for transparency and appeals mechanisms, while at the same time limiting
-the amount of time the community must spend on disruptive behavior. Also, because both
-people and circumstances change, it is appropriate to review previous moderator actions
-to determine if they still apply.
+The approach in this memo is intended to be consistently and fairly applied toward
+all IETF communication fora in a timely fashion.  Because open participation is
+important, moderation must provide for transparency and appeals mechanisms, while at
+the same time limiting the amount of time the community must spend on disruptive
+behavior. Also, because both people and circumstances change, it is appropriate to
+review previous moderator actions to determine if they still apply.
 
-The goal is explicitly **not** punishment, but maintaining an open, welcoming, non-hostile
-environment in which all may participate on an equal footing, regardless of their position or
-past contributions.  To this end, a moderation team is given the broadest possible latitude
-to maintain this environment.
+The goal is explicitly **not** punishment, but maintaining an open, welcoming,
+non-hostile environment in which all may participate on an equal footing, regardless
+of their position or past contributions.  To this end, a moderation team is given the
+broadest possible latitude to maintain this environment.
 
 ## Conventions and Definitions
 
