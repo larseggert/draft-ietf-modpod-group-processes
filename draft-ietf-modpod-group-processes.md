@@ -135,17 +135,19 @@ into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
 The approach in this memo is intended to be consistently and fairly applied
-toward all IETF communication fora in a timely fashion.  Because open
-participation is important, moderation must provide for transparency and
-appeals mechanisms, while at the same time limiting the amount of time the
-community must spend on disruptive behavior. Also, because both people and
+in all IETF communication fora in a timely fashion. It must provide transparency
+while at the same time limiting the amount of time the
+community must spend on disruptive behavior. Because sometimes reasonable people
+can disagree, an appeals process is important.  Because both people and
 circumstances change, it is appropriate to review previous moderator actions
 to determine if they still apply.
 
 The goal is explicitly **not** punishment, but maintaining an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
-regardless of their position or past contributions.  To this end, a moderation
-team is given the broadest possible latitude to maintain this environment.
+regardless of their position or past contributions.
+
+To meet our goals, a moderation team is given the broadest possible
+latitude to maintain this environment.
 
 ## Conventions and Definitions
 
