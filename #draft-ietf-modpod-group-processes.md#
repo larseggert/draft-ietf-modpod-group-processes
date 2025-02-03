@@ -64,8 +64,6 @@ informative:
 
 --- abstract
 
-The IETF will treat people with kindness and grace, but not endless patience.
-
 This document describes the creation of a moderator team for all the
 IETF's various contribution channels. Without removing existing responsibilities
 for working group management, this team enables a uniform approach to moderation
@@ -123,27 +121,18 @@ existing processes is necessary (see {{motive}}).
 
 ## General Philosophy
 
-The cornerstone of our philosophy is first and foremost the individual, whose responsibility
-is to further the goals of the organization {{!RFC3935}} in a manner consistent with the policy
-laid out in {{!RFC7154}}.  The IETF is an open standards organization.  Engaged, respectful
+This memo specifies a flexible moderation
+framework with an eye toward consistency across all IETF communication fora,
+timeliness, fairness, while also addressing transparency, appeals, and
+periodic review of moderation actions.  In particular, moderators are given the broadest
+possible freedom of action to address disruptive behavior.
+
+The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered abuse,
 nor should someone be considered abusive solely because they are outside the rough
 consensus.  Disagreement and diverse points of view within any standards organization
-are to be expected, and are even healthy.  However, when someone crosses the line into
-disruptive behavior, some action must be taken in order to maintain decorum of the
-community. 
-
-The approach in this memo is intended to be consistently and fairly applied toward all IETF 
-communication fora in a timely fashion.  Because open participation is important, moderation 
-must provide for transparency and appeals mechanisms, while at the same time limiting
-the amount of time the community must spend on disruptive behavior. Also, because both
-people and circumstances change, it is appropriate to review previous moderator actions
-to determine if they still apply.
-
-The goal is explicitly **not** punishment, but maintaining an open, welcoming, non-hostile
-environment in which all may participate on an equal footing, regardless of their position or
-past contributions.  To this end, a moderation team is given the broadest possible latitude
-to maintain this environment.
+are to be expected, and are even healthy.  With that in mind, moderators are
+expected to identify when someone has crossed a line, and what action is appropriate.
 
 ## Conventions and Definitions
 
@@ -329,38 +318,15 @@ NOT be shared between the teams.
 
 The Board of Directors of the IETF Administration LLC (IETF LLC) has
 fiduciary duty for the overall organization, which includes the duty
-to protect the organization from serious legal risk that may arise
-from the behavior of IETF participants.
+to protect the organization from legal risk that may arise from
+illegal, vulgar, or manifestly harassing behavior of IETF participants.
 
-This protection MAY include the need for the IETF LLC to take
-emergency moderation actions. These emergency actions are expected to
-be taken only when the IETF LLC has received legal advice that such
-action is necessary, and therefore extremely rare in frequency. Some
-examples of where this might be necessary are:
-
-- Someone making credible threat of harm to other IETF participants.
-- Someone using IETF mailing lists and/or websites to share content
-  where publishing that content on IETF lists and/or websites brings
-  serious legal risk.
-- Someone making credible threats of legal action where any form of
-  interaction with them on IETF mailing lists may have serious legal
-  consequences for the IETF.
-
-If any such action is taken, the IETF LLC SHOULD, except where
-limited by legal advice to the contrary, inform the IESG as soon as
-possible, providing full details of the subject of the action, nature
-of the action, reason for the action and expected duration. The IETF
-LLC SHOULD also inform the moderator team and IETF community, except
-where it receives legal advice to the contrary.
-
-As such an action would be taken by the IETF LLC in order to protect
-the IETF according to its fiduciary duty, then it cannot allow that
-to be overridden by a decision of the moderation team or the IESG.
-The subject of any such action may request a review by the IETF LLC
-board, as documented in section 4.7 of {{!RFC8711}}
-
-Any such action taken by the IETF LLC under this section of this
-policy, is not subject to the rest of the policy in this document.
+This protection MAY include the need for the LLC to take emergency moderation
+actions. These emergency actions are expected to be extremely rare, of temporary
+nature, and the incidents that required them SHOULD be immediately raised with
+the moderator team to let them determine any follow-up or more permanent
+moderation action. These incidents and the taken emergency action SHOULD also be
+communicated to the IETF community.
 
 ## Relation to the IRTF
 
@@ -434,7 +400,6 @@ These individuals suggested additional improvements to this document:
 - [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 - [Fix wording, spelling and capitalization.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88)
 - [Editorial changes to acknowledgments.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87)
-- [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
 - [Point to relevant IRTF material.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97)
 
 ## Since draft-ecahc-moderation-01
