@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-02T00:22:48.535480+00:00",
+  "timestamp": "2025-02-04T00:21:20.942505+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1761,6 +1761,24 @@
           "updatedAt": "2025-02-01T21:41:09Z"
         }
       ]
+    },
+    {
+      "number": 104,
+      "id": "I_kwDOJrr8CM6omdp9",
+      "title": "This memo / This document",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/104",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nThe document should use this term uniformly and sparingly.\n\n**Describe the solution you'd like**\nI think it should say \"This memo\" just a few times because I think it is cool, and the really old RFCs say that. In other cases, it's a little too indirect. Just cut out \"this document\" and get to the point. I noticed this one while reading other issues. It can be left until other matters are settled.",
+      "createdAt": "2025-02-03T22:12:30Z",
+      "updatedAt": "2025-02-03T22:15:05Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -6507,26 +6525,28 @@
       "id": "PR_kwDOJrr8CM6Iaj3f",
       "title": "Update \"Relation to the IETF LLC\"",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "JayDaley",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "finalize-pr"
+        "completed"
       ],
       "body": "Updated this section as follows:\r\n* Noted that this is for serious legal risk only.\r\n* Removed list of types of behaviour that may trigger this as unnecessarily narrowing the scope.\r\n* Noted expectation that the IETF LLC only acts when it has received legal advice that such action is *necessary*.\r\n* Provided examples of when such an action is needed\r\n* Added requirement for the IETF LLC to update the IESG as much as it is legally able to do.\r\n* Replaced any mention of this being a temporary action that the moderation team then decides on as, by definition, this is an action that the IETF LLC has to take to protect the organization according to its fiduciary duty and that cannot be overridden by the moderation team.\r\n\r\nI will also take this to the list.",
       "createdAt": "2025-01-20T22:40:03Z",
-      "updatedAt": "2025-01-31T05:59:16Z",
+      "updatedAt": "2025-02-03T07:11:29Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "6d7a2e12c8539032366025452ef47bdcf5b2a2ab",
+      "baseRefOid": "3d57a27f7d2915ab14006f2a8e757ceed0d455c7",
       "headRepository": "JayDaley/draft-ietf-modpod-group-processes",
       "headRefName": "jay-daley-llc-section",
-      "headRefOid": "3c843843f8b3f2ff53fddbec368af588d0191a10",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "2cc653e7b3dac1ad0206d0050cb55c0d01db3e7a",
+      "closedAt": "2025-02-03T07:11:29Z",
+      "mergedAt": "2025-02-03T07:11:29Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "10ee1a88abbdd2134611c511b8d2028f50de36da"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -6716,6 +6736,72 @@
               "updatedAt": "2025-01-31T05:59:16Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6aS6T3",
+          "commit": {
+            "abbreviatedOid": "94661f9"
+          },
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-02T21:58:42Z",
+          "updatedAt": "2025-02-02T21:58:42Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "@larseggert Yes, one to move an instance of \"except where it receives legal advice\" to the front to cover the whole sentence.  Sending the commit now.",
+              "createdAt": "2025-02-02T21:58:42Z",
+              "updatedAt": "2025-02-02T21:58:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6aS6r2",
+          "commit": {
+            "abbreviatedOid": "94661f9"
+          },
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-02T22:05:28Z",
+          "updatedAt": "2025-02-02T22:05:28Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "@larseggert Ready to go.",
+              "createdAt": "2025-02-02T22:05:28Z",
+              "updatedAt": "2025-02-02T22:05:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6aUhzP",
+          "commit": {
+            "abbreviatedOid": "a391bea"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "DISMISSED",
+          "body": "",
+          "createdAt": "2025-02-03T07:08:56Z",
+          "updatedAt": "2025-02-03T07:09:59Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6aUio7",
+          "commit": {
+            "abbreviatedOid": "2cc653e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-03T07:11:24Z",
+          "updatedAt": "2025-02-03T07:11:24Z",
+          "comments": []
         }
       ]
     },
@@ -7221,6 +7307,91 @@
           "body": "",
           "createdAt": "2025-01-31T06:24:01Z",
           "updatedAt": "2025-01-31T06:24:01Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "id": "PR_kwDOJrr8CM6J16am",
+      "title": "Rewrite philosophy (again).",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
+      "createdAt": "2025-02-03T12:30:07Z",
+      "updatedAt": "2025-02-03T19:02:10Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "reshape-intro",
+      "headRefOid": "47fb5877008f7ff4df3aa1d11c1670fa7ee1505e",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert because this is a major rewrite and lint wouldn't let me get away with it otherwise, please forgive the rewrapping.",
+          "createdAt": "2025-02-03T12:41:37Z",
+          "updatedAt": "2025-02-03T12:41:37Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I don't disagree with anything, but I think it is too long. I think you could lose the paragraph that starts with \"The approach in this memo...\".",
+          "createdAt": "2025-02-03T17:13:53Z",
+          "updatedAt": "2025-02-03T17:13:53Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@sayrer   The goal of that paragraph is to help ground the choices that follow.  Those are our values.   Why this way as opposed to some other way?  Did we miss anything at the end?   Another way to reword this would be \"success factors\".  ",
+          "createdAt": "2025-02-03T18:20:52Z",
+          "updatedAt": "2025-02-03T18:20:52Z"
+        },
+        {
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@elear These are called goals in the text so I would use \"Goals\" as the heading and be explicit that they are normative.  I've seen too many 'policies' that start with a non-normative introduction that contains things that do not appear in the body and therefore leave implementers struggling.",
+          "createdAt": "2025-02-03T18:31:58Z",
+          "updatedAt": "2025-02-03T18:31:58Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> @sayrer The goal of that paragraph is to help ground the choices that follow. Those are our values. Why this way as opposed to some other way? Did we miss anything at the end? Another way to reword this would be \"success factors\".\r\n\r\n@elear It seems redundant to me. Do we want inconsistent and unfair policies? Obviously not. Then, it goes on to describe things the document already does. Editorially, those sentences start with \"Because\" twice. I thought about fixing them but concluded that they could be deleted since they say \"important\" and \"appropriate\" without making a requirement, so they could go.",
+          "createdAt": "2025-02-03T18:37:02Z",
+          "updatedAt": "2025-02-03T18:37:02Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Ok, more pondering needed.  Then some chiseling.",
+          "createdAt": "2025-02-03T19:02:07Z",
+          "updatedAt": "2025-02-03T19:02:07Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6aXxBL",
+          "commit": {
+            "abbreviatedOid": "c0ce4f2"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "CHANGES_REQUESTED",
+          "body": "There is an extra file in the commit.",
+          "createdAt": "2025-02-03T13:32:53Z",
+          "updatedAt": "2025-02-03T13:32:53Z",
           "comments": []
         }
       ]
