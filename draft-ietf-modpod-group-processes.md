@@ -136,7 +136,7 @@ decorum of the community.
 
 To address disruptive behavior and encourage participation, consistent, fair, and
 timely moderation should be applied without regard to one's position or previous
-contributions, where disagreements may be appealed, and decisions can be 
+contributions, where disagreements may be appealed, and decisions can be
 reconsidered over time.
 
 The goal is explicitly **not** punishment, but maintaining an open, welcoming,
