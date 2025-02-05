@@ -134,20 +134,14 @@ are to be expected, and are even healthy. However, when someone crosses the line
 into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
-The approach in this memo is intended to be consistently and fairly applied
-in all IETF communication fora in a timely fashion. It must provide transparency
-while at the same time limiting the amount of time the
-community must spend on disruptive behavior. Because sometimes reasonable people
-can disagree, an appeals process is important.  Because both people and
-circumstances change, it is appropriate to review previous moderator actions
-to determine if they still apply.
+To address disruptive behavior and encourage participation, consistent, fair, and
+timely moderation should be applied without regard to one's position or previous
+contributions, where disagreements may be appealed, and decisions can be 
+reconsidered over time.
 
 The goal is explicitly **not** punishment, but maintaining an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their position or past contributions.
-
-To meet our goals, a moderation team is given the broadest possible
-latitude to maintain this environment.
 
 ## Conventions and Definitions
 
