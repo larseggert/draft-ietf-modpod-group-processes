@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-04T00:21:20.942505+00:00",
+  "timestamp": "2025-02-06T00:22:05.333758+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7325,13 +7325,13 @@
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-03T19:02:10Z",
+      "updatedAt": "2025-02-05T21:13:27Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "reshape-intro",
-      "headRefOid": "47fb5877008f7ff4df3aa1d11c1670fa7ee1505e",
+      "headRefOid": "5bd78d5e6f00d8f4d85f8f7ca0bda1d25709f618",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -7378,6 +7378,20 @@
           "body": "Ok, more pondering needed.  Then some chiseling.",
           "createdAt": "2025-02-03T19:02:07Z",
           "updatedAt": "2025-02-03T19:02:07Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think the substance is fine. If you know what Eliot sounds like in speech, it sounds like him (I know from YouTube). So, it's good writing in the sense that you can hear the author, and that's engaging. I think the new paragraph is better, but still a fairly confusing run-on sentence in writing. It's fine to go in as-is, but it probably needs another pass to make it a bit more clipped and direct. That's because it needs to be clear that you are probably in trouble if you are reading this memo. But it doesn't need to be polished up that way to make progress.",
+          "createdAt": "2025-02-05T20:20:19Z",
+          "updatedAt": "2025-02-05T20:26:29Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I got to this version, but only to back up my comments (take it or leave it).\r\n\r\n\"The cornerstone of our philosophy is first and foremost the individual, whose responsibility is to further the goals of the organization {{!RFC3935}} in a manner consistent with the policy laid out in {{!RFC7154}}.\r\n\r\nThe IETF is an open standards organization. Engaged, respectful\u00a0discussion within the scope of a forum is not considered abuse, nor should someone be considered abusive solely because they are outside the rough consensus. Disagreement and diverse points of view within any standards organization are to be expected and are even healthy. \u00a0With that in mind, moderators are expected to identify when someone has crossed a line, and what action is appropriate. When someone crosses the line into disruptive behavior, some action must be taken to maintain the decorum of the community.\r\n\r\nModeration will be consistent and fair to encourage participation. Disagreements may be appealed, and decisions can be\r\nreconsidered over time.\r\n\r\nThe goal is explicitly **not** punishment, but maintaining an open, welcoming, non-hostile environment where all may participate on equal footing, regardless of their position or their past contributions.\"",
+          "createdAt": "2025-02-05T20:59:19Z",
+          "updatedAt": "2025-02-05T21:13:27Z"
         }
       ],
       "reviews": [
@@ -7392,6 +7406,19 @@
           "body": "There is an extra file in the commit.",
           "createdAt": "2025-02-03T13:32:53Z",
           "updatedAt": "2025-02-03T13:32:53Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6aq4vD",
+          "commit": {
+            "abbreviatedOid": "5bd78d5"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-05T08:21:03Z",
+          "updatedAt": "2025-02-05T08:21:03Z",
           "comments": []
         }
       ]
