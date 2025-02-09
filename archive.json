@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-06T00:22:05.333758+00:00",
+  "timestamp": "2025-02-09T00:23:28.823832+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7325,7 +7325,7 @@
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-05T21:13:27Z",
+      "updatedAt": "2025-02-06T16:28:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
@@ -7392,6 +7392,20 @@
           "body": "I got to this version, but only to back up my comments (take it or leave it).\r\n\r\n\"The cornerstone of our philosophy is first and foremost the individual, whose responsibility is to further the goals of the organization {{!RFC3935}} in a manner consistent with the policy laid out in {{!RFC7154}}.\r\n\r\nThe IETF is an open standards organization. Engaged, respectful\u00a0discussion within the scope of a forum is not considered abuse, nor should someone be considered abusive solely because they are outside the rough consensus. Disagreement and diverse points of view within any standards organization are to be expected and are even healthy. \u00a0With that in mind, moderators are expected to identify when someone has crossed a line, and what action is appropriate. When someone crosses the line into disruptive behavior, some action must be taken to maintain the decorum of the community.\r\n\r\nModeration will be consistent and fair to encourage participation. Disagreements may be appealed, and decisions can be\r\nreconsidered over time.\r\n\r\nThe goal is explicitly **not** punishment, but maintaining an open, welcoming, non-hostile environment where all may participate on equal footing, regardless of their position or their past contributions.\"",
           "createdAt": "2025-02-05T20:59:19Z",
           "updatedAt": "2025-02-05T21:13:27Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The goal here is to explain what our goals are.  Robert, your text is just a bit TOO terse.  Let me work on the run on.  No rush here.",
+          "createdAt": "2025-02-06T09:29:44Z",
+          "updatedAt": "2025-02-06T09:29:44Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yeah, I can understand the opinion that it's too terse. I wrote it that way on purpose, but we don't have to use that tactic. I usually write text just to be productive, rather than complaining. It's not meant to be \"do it my way\". What I did do that I think is helpful is eliminate a few duplications of phrases like \"disruptive behavior\".",
+          "createdAt": "2025-02-06T15:40:45Z",
+          "updatedAt": "2025-02-06T16:28:31Z"
         }
       ],
       "reviews": [
