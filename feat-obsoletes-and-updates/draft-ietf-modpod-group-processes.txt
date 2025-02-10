@@ -100,8 +100,9 @@ Table of Contents
      7.1.  Normative References
      7.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-00
-     A.2.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-02
+     A.2.  Since draft-ietf-modpod-group-processes-00
+     A.3.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Authors' Addresses
 
@@ -540,7 +541,13 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-00
+A.1.  Since draft-ietf-modpod-group-processes-02
+
+   *  Say which RFCs this obsoletes and updates.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/105)
+
+A.2.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -567,7 +574,7 @@ A.1.  Since draft-ietf-modpod-group-processes-00
    *  Point to relevant IRTF material. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/97)
 
-A.2.  Since draft-ecahc-moderation-01
+A.3.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
