@@ -426,6 +426,11 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-02
+
+- [Say which RFCs this obsoletes and updates.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105
+)
+
 ## Since draft-ietf-modpod-group-processes-00
 
 - [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
