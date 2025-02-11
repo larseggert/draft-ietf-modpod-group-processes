@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 7 August 2025                                     Cisco Systems
-                                                         3 February 2025
+Expires: 15 August 2025                                    Cisco Systems
+                                                        11 February 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 August 2025.
+   This Internet-Draft will expire on 15 August 2025.
 
 Copyright Notice
 
@@ -99,8 +99,9 @@ Table of Contents
      7.1.  Normative References
      7.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-00
-     A.2.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-01
+     A.2.  Since draft-ietf-modpod-group-processes-00
+     A.3.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Authors' Addresses
 
@@ -528,7 +529,19 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-00
+A.1.  Since draft-ietf-modpod-group-processes-01
+
+   *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/92)
+
+   *  Point to relevant IRTF material. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/97)
+
+   *  Add some text to explain the role of moderators.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/100)
+
+A.2.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -549,23 +562,13 @@ A.1.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-   *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
-      draft-ietf-modpod-group-processes/pull/92)
-
-   *  Point to relevant IRTF material. (https://github.com/larseggert/
-      draft-ietf-modpod-group-processes/pull/97)
-
-A.2.  Since draft-ecahc-moderation-01
+A.3.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
       Updated editors.  Acknowledge authors of original pre-WG I-Ds.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/65)
-
-   *  Add some text to explain the role of moderators.
-      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
-      pull/100)
 
 Appendix B.  Problems with the Previous Approach
 
