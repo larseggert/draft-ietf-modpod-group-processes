@@ -418,6 +418,12 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-01
+
+- [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
+- [Point to relevant IRTF material.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97)
+- [Add some text to explain the role of moderators.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/100)
+
 ## Since draft-ietf-modpod-group-processes-00
 
 - [Spelling fix](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/80)
@@ -425,15 +431,12 @@ These individuals suggested additional improvements to this document:
 - [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 - [Fix wording, spelling and capitalization.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88)
 - [Editorial changes to acknowledgments.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87)
-- [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
-- [Point to relevant IRTF material.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97)
 
 ## Since draft-ecahc-moderation-01
 
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
   [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
-- [Add some text to explain the role of moderators.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/100)
 
 # Problems with the Previous Approach {#motive}
 
