@@ -135,9 +135,9 @@ into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
 To address disruptive behavior and encourage participation, we must apply
-consistent, fair, and timely moderation without regard to one's 
+consistent, fair, and timely moderation without regard to one's
 position or previous contributions. Like other IETF processes, disagreements
-should be addressed through appeals; and because people change, 
+should be addressed through appeals; and because people change,
 from time to time decisions may need to be reconsidered.
 
 The goal is explicitly **not** punishment, but maintaining an open, welcoming,
