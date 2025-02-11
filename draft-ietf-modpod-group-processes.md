@@ -134,8 +134,8 @@ are to be expected, and are even healthy. However, when someone crosses the line
 into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
-To address disruptive behavior and encourage participation, we must apply consistent,
-fair, and timely moderation without regard to one's 
+To address disruptive behavior and encourage participation, we must apply
+consistent, fair, and timely moderation without regard to one's 
 position or previous contributions. Like other IETF processes, disagreements
 should be addressed through appeals; and because people change, 
 from time to time decisions may need to be reconsidered.
