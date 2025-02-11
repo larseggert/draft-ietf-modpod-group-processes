@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-09T00:23:28.823832+00:00",
+  "timestamp": "2025-02-11T00:21:35.264586+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7436,6 +7436,62 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 105,
+      "id": "PR_kwDOJrr8CM6KqI95",
+      "title": "feat: Say which other RFCs we obsolete and updates",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "Any missing?",
+      "createdAt": "2025-02-10T14:54:55Z",
+      "updatedAt": "2025-02-10T14:59:46Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "feat-obsoletes-and-updates",
+      "headRefOid": "330630ace09eff83c13383ce148934a68035d5db",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 106,
+      "id": "PR_kwDOJrr8CM6KqM9d",
+      "title": "fix: Changelog entries got reordered",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/106",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "We didn't make new subsections in the changelog when we published new revisions.",
+      "createdAt": "2025-02-10T14:59:16Z",
+      "updatedAt": "2025-02-10T14:59:16Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "fix-changelog",
+      "headRefOid": "8319a2971abed074198f0df73d643d4e5f65b4be",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
