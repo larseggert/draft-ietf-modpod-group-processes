@@ -123,18 +123,26 @@ existing processes is necessary (see {{motive}}).
 
 ## General Philosophy
 
-This memo specifies a flexible moderation
-framework with an eye toward consistency across all IETF communication fora,
-timeliness, fairness, while also addressing transparency, appeals, and
-periodic review of moderation actions.  In particular, moderators are given the broadest
-possible freedom of action to address disruptive behavior.
-
+The cornerstone of our philosophy is first and foremost the individual, whose
+responsibility is to further the goals of the organization {{!RFC3935}} in a
+manner consistent with the policy laid out in {{!RFC7154}}.
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered abuse,
 nor should someone be considered abusive solely because they are outside the rough
 consensus.  Disagreement and diverse points of view within any standards organization
-are to be expected, and are even healthy.  With that in mind, moderators are
-expected to identify when someone has crossed a line, and what action is appropriate.
+are to be expected, and are even healthy. However, when someone crosses the line
+into disruptive behavior, some action must be taken in order to maintain
+decorum of the community.
+
+To address disruptive behavior and encourage participation, we must apply
+consistent, fair, and timely moderation without regard to one's
+position or previous contributions. Like other IETF processes, disagreements
+should be addressed through appeals; and because people change,
+from time to time decisions may need to be reconsidered.
+
+The goal is explicitly **not** punishment, but maintaining an open, welcoming,
+non-hostile environment in which all may participate on an equal footing,
+regardless of their position or past contributions.
 
 ## Conventions and Definitions
 
