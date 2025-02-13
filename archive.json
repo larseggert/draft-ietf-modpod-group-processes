@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-11T00:21:35.264586+00:00",
+  "timestamp": "2025-02-13T00:21:48.669413+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7325,13 +7325,13 @@
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-06T16:28:31Z",
+      "updatedAt": "2025-02-11T15:20:15Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "reshape-intro",
-      "headRefOid": "5bd78d5e6f00d8f4d85f8f7ca0bda1d25709f618",
+      "headRefOid": "33735260ac8efb5817db12d3def0bf2469d9377c",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -7470,7 +7470,7 @@
       "id": "PR_kwDOJrr8CM6KqM9d",
       "title": "fix: Changelog entries got reordered",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/106",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
@@ -7479,19 +7479,35 @@
       ],
       "body": "We didn't make new subsections in the changelog when we published new revisions.",
       "createdAt": "2025-02-10T14:59:16Z",
-      "updatedAt": "2025-02-10T14:59:16Z",
+      "updatedAt": "2025-02-11T15:53:23Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "fix-changelog",
       "headRefOid": "8319a2971abed074198f0df73d643d4e5f65b4be",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-02-11T15:53:20Z",
+      "mergedAt": "2025-02-11T15:53:20Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "5acbbb7ab2ec8ec052bdd7de00a03f3481a0df54"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6bg72r",
+          "commit": {
+            "abbreviatedOid": "8319a29"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-11T15:23:13Z",
+          "updatedAt": "2025-02-11T15:23:13Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
