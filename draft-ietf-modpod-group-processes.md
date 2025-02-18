@@ -134,13 +134,20 @@ are to be expected, and are even healthy. However, when someone crosses the line
 into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
-To address disruptive behavior and encourage participation, we must apply
-consistent, fair, and timely moderation without regard to one's
-position or previous contributions. Like other IETF processes, disagreements
-should be addressed through appeals; and because people change,
-from time to time decisions may need to be reconsidered.
+The moderation policy goals are as follows:
+- Apply consistent, fair, and timely moderation of communication without regard
+  to one's position or previous contributions across all IETF channels;
+- Disagreements are addressed through appeals;
+- Balance transparency against both privacy of individuals involved and further
+  disruption to the community;
+- Provide a means for moderators to reconsider decisions; and
+- Provide the broadest possible latitude to moderators, so that they may have the
+  flexibility to address a broad range of individuals and circumstances.
 
-The goal is explicitly **not** punishment, but maintaining an open, welcoming,
+Questions about processes detailed below should be answered through the lens
+of these aims.
+
+The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their position or past contributions.
 
