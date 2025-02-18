@@ -135,12 +135,13 @@ into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
 The moderation policy goals are as follows:
+
 - Apply consistent, fair, and timely moderation of communication without regard
   to one's position or previous contributions across all IETF channels;
 - Disagreements are addressed through appeals;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
-- Provide a means for moderators to reconsider decisions; and
+- Allow moderators to reconsider decisions; and
 - Provide the broadest possible latitude to moderators, so that they may have the
   flexibility to address a broad range of individuals and circumstances.
 
