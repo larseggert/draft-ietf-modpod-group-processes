@@ -136,8 +136,8 @@ decorum of the community.
 
 The moderation policy goals are as follows:
 
-- Apply consistent, fair, and timely moderation of communication without regard
-  to one's position or previous contributions across all IETF channels;
+- Apply consistent, fair, and timely moderation of communication across all IETF channels
+  without regard to one's position or previous contributions;
 - Disagreements are addressed through appeals;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
