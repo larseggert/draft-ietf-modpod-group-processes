@@ -434,6 +434,10 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-02
+
+- [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
+
 ## Since draft-ietf-modpod-group-processes-01
 
 - [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
