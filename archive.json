@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-18T00:21:40.986838+00:00",
+  "timestamp": "2025-02-20T00:21:59.074198+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7321,17 +7321,17 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-review"
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-11T15:20:15Z",
+      "updatedAt": "2025-02-18T22:52:19Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
+      "baseRefOid": "5acbbb7ab2ec8ec052bdd7de00a03f3481a0df54",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "reshape-intro",
-      "headRefOid": "33735260ac8efb5817db12d3def0bf2469d9377c",
+      "headRefOid": "2b6b30248cf6c8944ff76f3e055aa40a9adb47f2",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -7434,6 +7434,32 @@
           "createdAt": "2025-02-05T08:21:03Z",
           "updatedAt": "2025-02-05T08:21:03Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6cbTni",
+          "commit": {
+            "abbreviatedOid": "83299a3"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "LGTM for a first cut. I expect the WG will have feedback that will lead to further changes,",
+          "createdAt": "2025-02-18T17:38:34Z",
+          "updatedAt": "2025-02-18T17:39:49Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "```suggestion\r\n- Apply consistent, fair, and timely moderation of communication across all IETF channels\r\n  without regard to one's position or previous contributions;\r\n```",
+              "createdAt": "2025-02-18T17:38:34Z",
+              "updatedAt": "2025-02-18T17:39:49Z"
+            },
+            {
+              "originalPosition": 27,
+              "body": "```suggestion\r\n- Disagreements about moderation actions are addressed through appeals;\r\n```",
+              "createdAt": "2025-02-18T17:38:56Z",
+              "updatedAt": "2025-02-18T17:39:49Z"
+            }
+          ]
         }
       ]
     },
