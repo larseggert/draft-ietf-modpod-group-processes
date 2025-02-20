@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 15 August 2025                                    Cisco Systems
-                                                        11 February 2025
+Expires: 24 August 2025                                    Cisco Systems
+                                                        20 February 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 August 2025.
+   This Internet-Draft will expire on 24 August 2025.
 
 Copyright Notice
 
@@ -99,9 +99,10 @@ Table of Contents
      7.1.  Normative References
      7.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-01
-     A.2.  Since draft-ietf-modpod-group-processes-00
-     A.3.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-02
+     A.2.  Since draft-ietf-modpod-group-processes-01
+     A.3.  Since draft-ietf-modpod-group-processes-00
+     A.4.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Authors' Addresses
 
@@ -155,21 +156,42 @@ Table of Contents
 
 1.2.  General Philosophy
 
-   This memo specifies a flexible moderation framework with an eye
-   toward consistency across all IETF communication fora, timeliness,
-   fairness, while also addressing transparency, appeals, and periodic
-   review of moderation actions.  In particular, moderators are given
-   the broadest possible freedom of action to address disruptive
-   behavior.
+   The cornerstone of our philosophy is first and foremost the
+   individual, whose responsibility is to further the goals of the
+   organization [RFC3935] in a manner consistent with the policy laid
+   out in [RFC7154].  The IETF is an open standards organization.
+   Engaged, respectful discussion that is within the scope of a forum
+   should not be considered abuse, nor should someone be considered
+   abusive solely because they are outside the rough consensus.
+   Disagreement and diverse points of view within any standards
+   organization are to be expected, and are even healthy.  However, when
+   someone crosses the line into disruptive behavior, some action must
+   be taken in order to maintain decorum of the community.
 
-   The IETF is an open standards organization.  Engaged, respectful
-   discussion that is within the scope of a forum should not be
-   considered abuse, nor should someone be considered abusive solely
-   because they are outside the rough consensus.  Disagreement and
-   diverse points of view within any standards organization are to be
-   expected, and are even healthy.  With that in mind, moderators are
-   expected to identify when someone has crossed a line, and what action
-   is appropriate.
+   The moderation policy goals are as follows:
+
+   *  Apply consistent, fair, and timely moderation of communication
+      across all IETF channels without regard to one's position or
+      previous contributions;
+
+   *  Disagreements about moderation actions are addressed through
+      appeals;
+
+   *  Balance transparency against both privacy of individuals involved
+      and further disruption to the community;
+
+   *  Allow moderators to reconsider decisions; and
+
+   *  Provide the broadest possible latitude to moderators, so that they
+      may have the flexibility to address a broad range of individuals
+      and circumstances.
+
+   Questions about processes detailed below should be answered through
+   the lens of these aims.
+
+   The goal is explicitly *not* punishment, but to maintain an open,
+   welcoming, non-hostile environment in which all may participate on an
+   equal footing, regardless of their position or past contributions.
 
 1.3.  Conventions and Definitions
 
@@ -466,6 +488,14 @@ Table of Contents
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
 
+   [RFC3935]  Alvestrand, H., "A Mission Statement for the IETF",
+              BCP 95, RFC 3935, DOI 10.17487/RFC3935, October 2004,
+              <https://www.rfc-editor.org/rfc/rfc3935>.
+
+   [RFC7154]  Moonesamy, S., Ed., "IETF Guidelines for Conduct", BCP 54,
+              RFC 7154, DOI 10.17487/RFC7154, March 2014,
+              <https://www.rfc-editor.org/rfc/rfc7154>.
+
    [RFC7776]  Resnick, P. and A. Farrel, "IETF Anti-Harassment
               Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
               2016, <https://www.rfc-editor.org/rfc/rfc7776>.
@@ -517,10 +547,6 @@ Table of Contents
               DOI 10.17487/RFC3934, October 2004,
               <https://www.rfc-editor.org/rfc/rfc3934>.
 
-   [RFC7154]  Moonesamy, S., Ed., "IETF Guidelines for Conduct", BCP 54,
-              RFC 7154, DOI 10.17487/RFC7154, March 2014,
-              <https://www.rfc-editor.org/rfc/rfc7154>.
-
    [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
@@ -529,7 +555,12 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-01
+A.1.  Since draft-ietf-modpod-group-processes-02
+
+   *  Rewrite philosophy (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/103)
+
+A.2.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -541,7 +572,7 @@ A.1.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.2.  Since draft-ietf-modpod-group-processes-00
+A.3.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -562,7 +593,7 @@ A.2.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.3.  Since draft-ecahc-moderation-01
+A.4.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
