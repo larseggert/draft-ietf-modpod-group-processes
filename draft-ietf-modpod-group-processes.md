@@ -131,18 +131,34 @@ existing processes is necessary (see {{motive}}).
 
 ## General Philosophy
 
-This memo specifies a flexible moderation
-framework with an eye toward consistency across all IETF communication fora,
-timeliness, fairness, while also addressing transparency, appeals, and
-periodic review of moderation actions.  In particular, moderators are given the broadest
-possible freedom of action to address disruptive behavior.
-
+The cornerstone of our philosophy is first and foremost the individual, whose
+responsibility is to further the goals of the organization {{!RFC3935}} in a
+manner consistent with the policy laid out in {{!RFC7154}}.
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered abuse,
 nor should someone be considered abusive solely because they are outside the rough
 consensus.  Disagreement and diverse points of view within any standards organization
-are to be expected, and are even healthy.  With that in mind, moderators are
-expected to identify when someone has crossed a line, and what action is appropriate.
+are to be expected, and are even healthy. However, when someone crosses the line
+into disruptive behavior, some action must be taken in order to maintain
+decorum of the community.
+
+The moderation policy goals are as follows:
+
+- Apply consistent, fair, and timely moderation of communication across all IETF
+  channels without regard to one's position or previous contributions;
+- Disagreements about moderation actions are addressed through appeals;
+- Balance transparency against both privacy of individuals involved and further
+  disruption to the community;
+- Allow moderators to reconsider decisions; and
+- Provide the broadest possible latitude to moderators, so that they may have the
+  flexibility to address a broad range of individuals and circumstances.
+
+Questions about processes detailed below should be answered through the lens
+of these aims.
+
+The goal is explicitly **not** punishment, but to maintain an open, welcoming,
+non-hostile environment in which all may participate on an equal footing,
+regardless of their position or past contributions.
 
 ## Conventions and Definitions
 
@@ -430,6 +446,13 @@ These individuals suggested additional improvements to this document:
 
 - [Say which RFCs this obsoletes and updates.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105
 )
+- [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
+
+## Since draft-ietf-modpod-group-processes-01
+
+- [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
+- [Point to relevant IRTF material.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97)
+- [Add some text to explain the role of moderators.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/100)
 
 ## Since draft-ietf-modpod-group-processes-00
 
@@ -438,15 +461,12 @@ These individuals suggested additional improvements to this document:
 - [Scope and relationship between WG chairs and moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/76)
 - [Fix wording, spelling and capitalization.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/88)
 - [Editorial changes to acknowledgments.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/87)
-- [Update "Relation to the IETF LLC".](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/92)
-- [Point to relevant IRTF material.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/97)
 
 ## Since draft-ecahc-moderation-01
 
 - Content taken from
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
   [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
-- [Add some text to explain the role of moderators.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/100)
 
 # Problems with the Previous Approach {#motive}
 
