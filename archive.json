@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-20T00:21:59.074198+00:00",
+  "timestamp": "2025-02-23T00:23:54.411495+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -962,17 +962,17 @@
       "id": "I_kwDOJrr8CM6kpNhM",
       "title": "Create a new subsection in Introduction to cover goals",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/67",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "completed"
       ],
       "body": "Be explicit about what the goals of the work are.  Are they?\r\n\r\n- Inclusive environment through enforcement of IETF code of conduct\r\n- More responsive approach\r\n- Don't create community food fight?\r\n- Minimal intervention to enforce IETF code of conduct\r\n- Hold precious community resources\r\n- Maintain dignity of all individuals\r\n- Transparency\r\n- Fairness\r\n",
       "createdAt": "2024-12-29T14:07:30Z",
-      "updatedAt": "2025-01-07T07:32:08Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-22T18:15:04Z",
+      "closedAt": "2025-02-22T14:30:57Z",
       "comments": [
         {
           "author": "larseggert",
@@ -980,6 +980,13 @@
           "body": "I think we'd need consensus on these first before we can talk about adding a subsection for them. (I would argue that some are more important than others, and some might not make the cut for me personally.)",
           "createdAt": "2025-01-07T07:32:00Z",
           "updatedAt": "2025-01-07T07:32:00Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed by #103.",
+          "createdAt": "2025-02-22T14:30:57Z",
+          "updatedAt": "2025-02-22T14:30:57Z"
         }
       ]
     },
@@ -1051,12 +1058,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "needs-pr"
-      ],
+      "labels": [],
       "body": "The draft is silent on review of previous decisions.  Currently BCP 83 permits such review after a period of time.  It is possible that this should be left to the moderation team to define as a process, but it may also be possible to simply specify a time frame in this draft.",
       "createdAt": "2024-12-29T14:14:31Z",
-      "updatedAt": "2025-01-20T08:09:39Z",
+      "updatedAt": "2025-02-20T18:24:30Z",
       "closedAt": null,
       "comments": [
         {
@@ -1100,6 +1105,13 @@
           "body": "@becarpenter ok, I think I have an idea on how to split this baby.",
           "createdAt": "2025-01-11T15:37:53Z",
           "updatedAt": "2025-01-11T15:37:53Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@becarpenter please have a look at #107 ",
+          "createdAt": "2025-02-20T18:24:28Z",
+          "updatedAt": "2025-02-20T18:24:28Z"
         }
       ]
     },
@@ -1712,7 +1724,7 @@
       "id": "I_kwDOJrr8CM6oVsRK",
       "title": "Introduction / General Philosophy overlap",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/102",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -1722,8 +1734,8 @@
       ],
       "body": "**Proposal**\nThe Introduction and the first paragraph of the General Philosophy section are repetitive.\n\n**Describe the solution you'd like**\nMake the first paragraph of \"General Philosophy\" a single sentence: \"Moderators are given the broadest possible freedom of action to address disruptive behavior.\"\n\n**Additional context**\nThe first paragraph of General Philosophy also describes things that aren't in the document, like periodic reviews. I don't feel strongly about any of these issues, but it doesn't read well to me.",
       "createdAt": "2025-01-31T19:38:22Z",
-      "updatedAt": "2025-02-01T21:41:09Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-20T14:43:26Z",
+      "closedAt": "2025-02-20T14:43:26Z",
       "comments": [
         {
           "author": "elear",
@@ -1770,15 +1782,26 @@
       "state": "OPEN",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
-      "assignees": [],
+      "assignees": [
+        "elear"
+      ],
       "labels": [
-        "needs-discussion"
+        "needs-pr",
+        "editorial"
       ],
       "body": "**Proposal**\nThe document should use this term uniformly and sparingly.\n\n**Describe the solution you'd like**\nI think it should say \"This memo\" just a few times because I think it is cool, and the really old RFCs say that. In other cases, it's a little too indirect. Just cut out \"this document\" and get to the point. I noticed this one while reading other issues. It can be left until other matters are settled.",
       "createdAt": "2025-02-03T22:12:30Z",
-      "updatedAt": "2025-02-03T22:15:05Z",
+      "updatedAt": "2025-02-22T18:15:33Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This is editorial.  I can take a pass and see if this can be smoothed out",
+          "createdAt": "2025-02-22T14:34:56Z",
+          "updatedAt": "2025-02-22T14:34:56Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -7316,26 +7339,28 @@
       "id": "PR_kwDOJrr8CM6J16am",
       "title": "Rewrite philosophy (again).",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-review"
+        "finalize-pr"
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-18T22:52:19Z",
+      "updatedAt": "2025-02-20T14:43:25Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5acbbb7ab2ec8ec052bdd7de00a03f3481a0df54",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "reshape-intro",
-      "headRefOid": "2b6b30248cf6c8944ff76f3e055aa40a9adb47f2",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "c856c280736425975c4dfebeb5ab0ac79ed90484",
+      "closedAt": "2025-02-20T14:43:25Z",
+      "mergedAt": "2025-02-20T14:43:25Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da"
+      },
       "comments": [
         {
           "author": "elear",
@@ -7406,6 +7431,13 @@
           "body": "Yeah, I can understand the opinion that it's too terse. I wrote it that way on purpose, but we don't have to use that tactic. I usually write text just to be productive, rather than complaining. It's not meant to be \"do it my way\". What I did do that I think is helpful is eliminate a few duplications of phrases like \"disruptive behavior\".",
           "createdAt": "2025-02-06T15:40:45Z",
           "updatedAt": "2025-02-06T16:28:31Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert  ok to merge?",
+          "createdAt": "2025-02-20T11:49:01Z",
+          "updatedAt": "2025-02-20T11:49:01Z"
         }
       ],
       "reviews": [
@@ -7466,7 +7498,7 @@
     {
       "number": 105,
       "id": "PR_kwDOJrr8CM6KqI95",
-      "title": "feat: Say which other RFCs we obsolete and updates",
+      "title": "feat: Say which other RFCs we obsolete and update",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105",
       "state": "OPEN",
       "author": "larseggert",
@@ -7477,13 +7509,13 @@
       ],
       "body": "Any missing?",
       "createdAt": "2025-02-10T14:54:55Z",
-      "updatedAt": "2025-02-10T14:59:46Z",
+      "updatedAt": "2025-02-22T18:16:13Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
+      "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "feat-obsoletes-and-updates",
-      "headRefOid": "330630ace09eff83c13383ce148934a68035d5db",
+      "headRefOid": "fb5e78a791eda1c7a277e4e56d0c55f123f8b107",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -7534,6 +7566,42 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 107,
+      "id": "PR_kwDOJrr8CM6L8JNL",
+      "title": "Reinstatement",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "Closes Issue 70\r\nCloses Issue 72\r\n",
+      "createdAt": "2025-02-20T18:13:17Z",
+      "updatedAt": "2025-02-21T09:32:57Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "reinstatement",
+      "headRefOid": "d69914dbab847ebc937f68f2c3252a92c6a2fe37",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "https://mailarchive.ietf.org/arch/msg/mod-discuss/k1bVGZoKWfD019vVOa2j_w0qXYY/",
+          "createdAt": "2025-02-20T19:20:19Z",
+          "updatedAt": "2025-02-20T19:20:19Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
