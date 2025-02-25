@@ -318,6 +318,22 @@ be brought to their attention. If this does not lead to a resolution, a
 decision by the IESG can be appealed to the IAB as described in
 {{!RFC2026}}.
 
+## Reinstatement
+
+People and circumstances change.  Individuals who have been banned
+from a forum may request to be reinstated.  That request must be
+directed to the entity that made the decision (e.g., moderation team,
+working group chair, etc) or their successors, and that party may at
+their discretion
+reinstate someone, conditionally or unconditionally.  Decisions to
+not reinstate someone may not be appealed.  Requests for reinstatement
+may be entertained only a year after the initial decision, and then
+only annually.
+
+A ban imposed prior to this process shall be reconsidered only in
+accordance with the processes in place at the time of the ban,
+even if the corresponding RFC has been formally obsoleted.
+
 ## Relation to the Ombudsteam
 
 The moderator team SHALL complement the efforts of the IETF
@@ -426,6 +442,7 @@ These individuals suggested additional improvements to this document:
 - Michael Richardson
 - Rich Salz
 - Robert Sayre
+- Brian Carpenter
 
 --- back
 
@@ -437,6 +454,7 @@ These individuals suggested additional improvements to this document:
 ## Since draft-ietf-modpod-group-processes-02
 
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
+- [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
 
 ## Since draft-ietf-modpod-group-processes-01
 
