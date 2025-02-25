@@ -331,7 +331,8 @@ may be entertained only a year after the initial decision, and then
 only annually.
 
 A ban imposed prior to this process shall be reconsidered only in
-accordance with the processes in place at the time of the ban.
+accordance with the processes in place at the time of the ban,
+even if the corresponding RFC has been formally obsoleted.
 
 ## Relation to the Ombudsteam
 
@@ -441,6 +442,7 @@ These individuals suggested additional improvements to this document:
 - Michael Richardson
 - Rich Salz
 - Robert Sayre
+- Brian Carpenter
 
 --- back
 
@@ -452,6 +454,7 @@ These individuals suggested additional improvements to this document:
 ## Since draft-ietf-modpod-group-processes-02
 
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
+- [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
 
 ## Since draft-ietf-modpod-group-processes-01
 
