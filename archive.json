@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-23T00:23:54.411495+00:00",
+  "timestamp": "2025-02-25T00:24:26.650487+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7581,7 +7581,7 @@
       ],
       "body": "Closes Issue 70\r\nCloses Issue 72\r\n",
       "createdAt": "2025-02-20T18:13:17Z",
-      "updatedAt": "2025-02-21T09:32:57Z",
+      "updatedAt": "2025-02-24T16:49:32Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
@@ -7599,6 +7599,13 @@
           "body": "https://mailarchive.ietf.org/arch/msg/mod-discuss/k1bVGZoKWfD019vVOa2j_w0qXYY/",
           "createdAt": "2025-02-20T19:20:19Z",
           "updatedAt": "2025-02-20T19:20:19Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert please take a look at mailing list discussion when you can",
+          "createdAt": "2025-02-24T16:49:30Z",
+          "updatedAt": "2025-02-24T16:49:30Z"
         }
       ],
       "reviews": []
