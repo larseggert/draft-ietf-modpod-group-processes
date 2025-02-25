@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 24 August 2025                                    Cisco Systems
-                                                        20 February 2025
+Expires: 29 August 2025                                    Cisco Systems
+                                                        25 February 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 August 2025.
+   This Internet-Draft will expire on 29 August 2025.
 
 Copyright Notice
 
@@ -88,9 +88,10 @@ Table of Contents
      2.3.  Operations of the Moderator Team and Transparency
      2.4.  Training
      2.5.  Appeals
-     2.6.  Relation to the Ombudsteam
-     2.7.  Relation to the IETF LLC
-     2.8.  Relation to the IRTF
+     2.6.  Reinstatement
+     2.7.  Relation to the Ombudsteam
+     2.8.  Relation to the IETF LLC
+     2.9.  Relation to the IRTF
    3.  Changes to Existing RFCs
    4.  Security Considerations
    5.  IANA Considerations
@@ -361,7 +362,22 @@ Table of Contents
    resolution, a decision by the IESG can be appealed to the IAB as
    described in [RFC2026].
 
-2.6.  Relation to the Ombudsteam
+2.6.  Reinstatement
+
+   People and circumstances change.  Individuals who have been banned
+   from a forum may request to be reinstated.  That request must be
+   directed to the entity that made the decision (e.g., moderation team,
+   working group chair, etc) or their successors, and that party may at
+   their discretion reinstate someone, conditionally or unconditionally.
+   Decisions to not reinstate someone may not be appealed.  Requests for
+   reinstatement may be entertained only a year after the initial
+   decision, and then only annually.
+
+   A ban imposed prior to this process shall be reconsidered only in
+   accordance with the processes in place at the time of the ban, even
+   if the corresponding RFC has been formally obsoleted.
+
+2.7.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -375,7 +391,7 @@ Table of Contents
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
 
-2.7.  Relation to the IETF LLC
+2.8.  Relation to the IETF LLC
 
    The Board of Directors of the IETF Administration LLC (IETF LLC) has
    fiduciary duty for the overall organization, which includes the duty
@@ -414,7 +430,7 @@ Table of Contents
    Any such action taken by the IETF LLC under this section of this
    policy, is not subject to the rest of the policy in this document.
 
-2.8.  Relation to the IRTF
+2.9.  Relation to the IRTF
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
@@ -479,6 +495,8 @@ Table of Contents
    *  Rich Salz
 
    *  Robert Sayre
+
+   *  Brian Carpenter
 
 7.  References
 
@@ -559,6 +577,9 @@ A.1.  Since draft-ietf-modpod-group-processes-02
 
    *  Rewrite philosophy (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/103)
+
+   *  Reinstatement (https://github.com/larseggert/draft-ietf-modpod-
+      group-processes/pull/107)
 
 A.2.  Since draft-ietf-modpod-group-processes-01
 
