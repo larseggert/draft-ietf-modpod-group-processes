@@ -299,8 +299,8 @@ moderation, and refer interested parties to that forum.  All actions
 taken by the moderator team SHALL be reported to the IESG,
 as well as to those against whom those actions are directed.  All
 bans longer than fourteen (14) days SHALL be reported to the forum in
-which the person was banned, and in the case of a broad ban, to the
-community in a manner decided by the IESG.
+which the person was banned, and in the case of a ban that spans more
+than one forum, to the community in a manner decided by the IESG.
 
 ## Training
 
