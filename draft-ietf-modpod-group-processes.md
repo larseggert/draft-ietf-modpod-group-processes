@@ -302,6 +302,9 @@ bans longer than fourteen (14) days SHALL be reported to the forum in
 which the person was banned, and in the case of a ban that spans more
 than one forum, to the community in a manner decided by the IESG.
 
+Moderator actions MAY NOT include content removal or redcaction from
+IETF archives, which are both beyond the scope of this memo.
+
 ## Training
 
 The IETF is committed to providing and/or funding training for
