@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-25T00:24:26.650487+00:00",
+  "timestamp": "2025-02-27T00:22:22.757286+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1054,15 +1054,15 @@
       "id": "I_kwDOJrr8CM6kpOKK",
       "title": "Reinstatement requests",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/70",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "The draft is silent on review of previous decisions.  Currently BCP 83 permits such review after a period of time.  It is possible that this should be left to the moderation team to define as a process, but it may also be possible to simply specify a time frame in this draft.",
       "createdAt": "2024-12-29T14:14:31Z",
-      "updatedAt": "2025-02-20T18:24:30Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-25T20:59:58Z",
+      "closedAt": "2025-02-25T20:59:58Z",
       "comments": [
         {
           "author": "larseggert",
@@ -1138,7 +1138,7 @@
       "id": "I_kwDOJrr8CM6kpO1a",
       "title": "Review of previous bcp83 actions",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/72",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -1147,8 +1147,8 @@
       ],
       "body": "Brian Carpenter has raised the point about what to do about previous moderation decisions.",
       "createdAt": "2024-12-29T14:21:55Z",
-      "updatedAt": "2025-01-20T07:01:31Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-25T20:59:58Z",
+      "closedAt": "2025-02-25T20:59:58Z",
       "comments": [
         {
           "author": "becarpenter",
@@ -1631,17 +1631,18 @@
       "id": "I_kwDOJrr8CM6m_Yyg",
       "title": "What is a `broad ban`?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/93",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "editorial"
       ],
       "body": "Current text says:\n> All bans longer than fourteen (14) days SHALL be reported to the forum in which the person was banned, and in the case of a broad ban, to the community in a manner decided by the IESG.\n\n**Proposal**\nDefine what a `broad ban` is. I _think_ it would be `broad ban, i.e., a ban for multiple participation channels`.\n\n**Describe alternatives you've considered**\nReword `ban` to `moderation action` or something else, but there was concern this would be too noisy.\n",
       "createdAt": "2025-01-21T11:59:15Z",
-      "updatedAt": "2025-01-21T11:59:15Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-26T18:20:03Z",
+      "closedAt": "2025-02-26T18:20:03Z",
       "comments": []
     },
     {
@@ -7572,26 +7573,28 @@
       "id": "PR_kwDOJrr8CM6L8JNL",
       "title": "Reinstatement",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "completed"
       ],
       "body": "Closes Issue 70\r\nCloses Issue 72\r\n",
       "createdAt": "2025-02-20T18:13:17Z",
-      "updatedAt": "2025-02-24T16:49:32Z",
+      "updatedAt": "2025-02-25T21:00:22Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "reinstatement",
-      "headRefOid": "d69914dbab847ebc937f68f2c3252a92c6a2fe37",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "e70fd0461e76d22430787550ca9225861753667d",
+      "closedAt": "2025-02-25T20:59:57Z",
+      "mergedAt": "2025-02-25T20:59:57Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "3248f8f317010d2f4a98a0cc0ae453fb236b7d5d"
+      },
       "comments": [
         {
           "author": "becarpenter",
@@ -7606,9 +7609,116 @@
           "body": "@larseggert please take a look at mailing list discussion when you can",
           "createdAt": "2025-02-24T16:49:30Z",
           "updatedAt": "2025-02-24T16:49:30Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear was on PTO last week and am at a conference this week. Anything in particular you wanted to point me to on the list?",
+          "createdAt": "2025-02-25T04:18:27Z",
+          "updatedAt": "2025-02-25T04:18:27Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@larseggert, I think he means the thread starting at https://mailarchive.ietf.org/arch/browse/mod-discuss/?gbt=1&index=k1bVGZoKWfD019vVOa2j_w0qXYY",
+          "createdAt": "2025-02-25T19:08:42Z",
+          "updatedAt": "2025-02-25T19:08:42Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Thanks; was there anything in that thread that requires changes? IMO the current text, i.e.,\r\n> A ban imposed prior to this process shall be reconsidered only in\r\naccordance with the processes in place at the time of the ban.\r\n\r\nworks?",
+          "createdAt": "2025-02-25T19:27:55Z",
+          "updatedAt": "2025-02-25T19:27:55Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "That would be viable iff we added \", even if the corresponding RFC has been formally obsoleted.\" to avoid legalistic questions.\r\n\r\nI could live with that, but it wouldn't be my preference, as per my message at https://mailarchive.ietf.org/arch/msg/mod-discuss/NChwxkL61LsO9O9ke_q-UL6l6pw/\r\n",
+          "createdAt": "2025-02-25T19:47:28Z",
+          "updatedAt": "2025-02-25T19:47:28Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "That addition is fine by me (it seemed implied to me, but maybe it's better to be explicit.)\r\n\r\nI don't see a simpler solution here to avoid undefined states; do you?",
+          "createdAt": "2025-02-25T19:57:38Z",
+          "updatedAt": "2025-02-25T19:57:38Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I agree there isn't a simpler solution.",
+          "createdAt": "2025-02-25T20:34:46Z",
+          "updatedAt": "2025-02-25T20:34:46Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I can push an update with. Brian's edit above.",
+          "createdAt": "2025-02-25T20:41:51Z",
+          "updatedAt": "2025-02-25T20:41:51Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6dgJD_",
+          "commit": {
+            "abbreviatedOid": "e70fd04"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-25T20:59:26Z",
+          "updatedAt": "2025-02-25T20:59:26Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "id": "PR_kwDOJrr8CM6MsD8Z",
+      "title": "clarify ban text",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/108",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "This just replaces the term \"broad ban\" with something more specific.  It is editorial.\r\n\r\nFixes #93 \r\n",
+      "createdAt": "2025-02-26T18:09:56Z",
+      "updatedAt": "2025-02-26T18:20:02Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "3248f8f317010d2f4a98a0cc0ae453fb236b7d5d",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "banfix",
+      "headRefOid": "de0bcba859c98449089c868d45a26875e0fa7ab8",
+      "closedAt": "2025-02-26T18:20:02Z",
+      "mergedAt": "2025-02-26T18:20:02Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "4c063ecdfab6242ece8b748f286d3c4bfcc62e5d"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6drj8T",
+          "commit": {
+            "abbreviatedOid": "de0bcba"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-26T18:19:42Z",
+          "updatedAt": "2025-02-26T18:19:42Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
