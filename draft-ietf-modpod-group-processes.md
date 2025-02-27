@@ -302,6 +302,9 @@ bans longer than fourteen (14) days SHALL be reported to the forum in
 which the person was banned, and in the case of a ban that spans more
 than one forum, to the community in a manner decided by the IESG.
 
+Content removal or redaction from IETF archives are not moderation
+actions, and are therefore beyond the scope of this memo.
+
 ## Training
 
 The IETF is committed to providing and/or funding training for
@@ -455,6 +458,7 @@ These individuals suggested additional improvements to this document:
 
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
 - [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
+- [Content removal is not moderation.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/109)
 
 ## Since draft-ietf-modpod-group-processes-01
 
