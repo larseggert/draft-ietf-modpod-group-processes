@@ -458,6 +458,7 @@ These individuals suggested additional improvements to this document:
 
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
 - [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
+- [Content removal is not moderation.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/109)
 
 ## Since draft-ietf-modpod-group-processes-01
 
