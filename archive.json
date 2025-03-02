@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-27T00:22:22.757286+00:00",
+  "timestamp": "2025-03-02T00:24:33.069466+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1650,7 +1650,7 @@
       "id": "I_kwDOJrr8CM6nMs94",
       "title": "Content takedown",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/96",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -1659,8 +1659,8 @@
       ],
       "body": "**Proposal**\nThe document considers posting rights pretty thoroughly, but does it cover content takedown? It doesn't make a lot of sense for a mailing list, but it might on GitHub or in chat.\n\nI don't have a prefered solution, but I wondered if it should be covered. This issue came up #92, where it seems the LLC might have to respond to a DMCA takedown request or similar.\n",
       "createdAt": "2025-01-22T18:56:01Z",
-      "updatedAt": "2025-01-23T22:47:09Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-27T21:23:03Z",
+      "closedAt": "2025-02-27T21:23:03Z",
       "comments": [
         {
           "author": "becarpenter",
@@ -7200,7 +7200,7 @@
       ],
       "body": "Not quite the language Robert used, but hopefully explanatory.\r\n\r\nCloses #81\r\nCloses #82",
       "createdAt": "2025-01-29T21:46:34Z",
-      "updatedAt": "2025-01-30T10:03:25Z",
+      "updatedAt": "2025-02-27T05:12:08Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "6d7a2e12c8539032366025452ef47bdcf5b2a2ab",
@@ -7349,7 +7349,7 @@
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-20T14:43:25Z",
+      "updatedAt": "2025-02-27T05:12:06Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5acbbb7ab2ec8ec052bdd7de00a03f3481a0df54",
@@ -7582,7 +7582,7 @@
       ],
       "body": "Closes Issue 70\r\nCloses Issue 72\r\n",
       "createdAt": "2025-02-20T18:13:17Z",
-      "updatedAt": "2025-02-25T21:00:22Z",
+      "updatedAt": "2025-02-27T05:12:01Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
@@ -7716,6 +7716,196 @@
           "body": "",
           "createdAt": "2025-02-26T18:19:42Z",
           "updatedAt": "2025-02-26T18:19:42Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "id": "PR_kwDOJrr8CM6Mvhke",
+      "title": "no deletions per wg discussion",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/109",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #96 ",
+      "createdAt": "2025-02-27T05:24:41Z",
+      "updatedAt": "2025-02-27T21:23:02Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "4c063ecdfab6242ece8b748f286d3c4bfcc62e5d",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "nodeletions",
+      "headRefOid": "088004f7fb58f46eb4c1c8d512c59b92f8e52b0c",
+      "closedAt": "2025-02-27T21:23:02Z",
+      "mergedAt": "2025-02-27T21:23:02Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63"
+      },
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Oops, a little crosstalk, the current diff is also fine.\r\n\r\nedit: I guess my version is a little stronger and limiting, but either one seems OK.",
+          "createdAt": "2025-02-27T21:09:31Z",
+          "updatedAt": "2025-02-27T21:13:27Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6d3Ex8",
+          "commit": {
+            "abbreviatedOid": "05d8ea7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-02-27T16:54:06Z",
+          "updatedAt": "2025-02-27T16:54:16Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nContent removal or redaction from IETF archives are not moderation actions;\r\nthe IESG MUST initiate and approve any such operation beyond the scope\r\nof this memo.\r\n```\r\n\r\nMAY NOT is not a 2119 term.",
+              "createdAt": "2025-02-27T16:54:06Z",
+              "updatedAt": "2025-02-27T16:54:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d44Vn",
+          "commit": {
+            "abbreviatedOid": "05d8ea7"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-27T19:49:52Z",
+          "updatedAt": "2025-02-27T19:49:52Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "I take your point.  I don't think we want the \"IESG MUST...\"  thing either, tho.  Let me give it another whack.",
+              "createdAt": "2025-02-27T19:49:52Z",
+              "updatedAt": "2025-02-27T19:49:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d46RN",
+          "commit": {
+            "abbreviatedOid": "05d8ea7"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-27T19:53:14Z",
+          "updatedAt": "2025-02-27T19:53:14Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "Just to add, I don't think we want to mention who has responsibility.  Future RFCs can decide that.  We don't need to go there.",
+              "createdAt": "2025-02-27T19:53:14Z",
+              "updatedAt": "2025-02-27T19:53:14Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d5Ug6",
+          "commit": {
+            "abbreviatedOid": "350111d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-27T20:48:11Z",
+          "updatedAt": "2025-02-27T20:48:11Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "This is already under the auspices of the IESG per their \"management of the standards process\" responsibility, no future RFc needed.",
+              "createdAt": "2025-02-27T20:48:11Z",
+              "updatedAt": "2025-02-27T20:48:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d5ZNg",
+          "commit": {
+            "abbreviatedOid": "05d8ea7"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-27T20:58:13Z",
+          "updatedAt": "2025-02-27T20:58:13Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "No what I mean is that we shouldn't discuss who has responsibility for things outside the scope of the document.  For instance, If a later RFC deals with redactions and deletions, they shouldn't have to worry about updating this one.  And I proposed fewer words ;-)",
+              "createdAt": "2025-02-27T20:58:13Z",
+              "updatedAt": "2025-02-27T20:58:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d5cLw",
+          "commit": {
+            "abbreviatedOid": "05d8ea7"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-27T21:04:41Z",
+          "updatedAt": "2025-02-27T21:04:41Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "How about\r\n\r\n\"Permissible moderator actions do not include content removal or redaction from IETF archives. These actions are beyond the scope of this memo.\"\r\n\r\n#84 is still open, so that maybe we can leave the CAPS for that issue.\r\n",
+              "createdAt": "2025-02-27T21:04:41Z",
+              "updatedAt": "2025-02-27T21:06:51Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d5dTN",
+          "commit": {
+            "abbreviatedOid": "05d8ea7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-27T21:07:06Z",
+          "updatedAt": "2025-02-27T21:07:06Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "SGTM",
+              "createdAt": "2025-02-27T21:07:06Z",
+              "updatedAt": "2025-02-27T21:07:06Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6d5jWb",
+          "commit": {
+            "abbreviatedOid": "350111d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-27T21:20:50Z",
+          "updatedAt": "2025-02-27T21:20:50Z",
           "comments": []
         }
       ]
