@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 2 August 2025                                     Cisco Systems
-                                                         29 January 2025
+Expires: 4 September 2025                                  Cisco Systems
+                                                            3 March 2025
 
 
                        IETF Community Moderation
@@ -14,8 +14,11 @@ Expires: 2 August 2025                                     Cisco Systems
 
 Abstract
 
-   This document describes the creation of a moderator team for all of
-   the IETF's various contribution channels.  Without removing existing
+   The IETF will treat people with kindness and grace, but not endless
+   patience.
+
+   This document describes the creation of a moderator team for all the
+   IETF's various contribution channels.  Without removing existing
    responsibilities for working group management, this team enables a
    uniform approach to moderation of disruptive participation across all
    mailing lists and other methods of IETF collaboration.
@@ -53,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 August 2025.
+   This Internet-Draft will expire on 4 September 2025.
 
 Copyright Notice
 
@@ -73,7 +76,8 @@ Table of Contents
 
    1.  Introduction
      1.1.  Background
-     1.2.  Conventions and Definitions
+     1.2.  General Philosophy
+     1.3.  Conventions and Definitions
    2.  IETF Moderator Team
      2.1.  Composition
        2.1.1.  Team Diversity
@@ -84,9 +88,10 @@ Table of Contents
      2.3.  Operations of the Moderator Team and Transparency
      2.4.  Training
      2.5.  Appeals
-     2.6.  Relation to the Ombudsteam
-     2.7.  Relation to the IETF LLC
-     2.8.  Relation to the IRTF
+     2.6.  Reinstatement
+     2.7.  Relation to the Ombudsteam
+     2.8.  Relation to the IETF LLC
+     2.9.  Relation to the IRTF
    3.  Changes to Existing RFCs
    4.  Security Considerations
    5.  IANA Considerations
@@ -95,18 +100,20 @@ Table of Contents
      7.1.  Normative References
      7.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-00
-     A.2.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-02
+     A.2.  Since draft-ietf-modpod-group-processes-01
+     A.3.  Since draft-ietf-modpod-group-processes-00
+     A.4.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Authors' Addresses
 
 1.  Introduction
 
-   This document proposes the creation of a moderator team for all of
-   the IETF's various contribution channels.  This moderator team is
-   modeled after, and subsumes, the moderator team for the IETF
-   discussion list [RFC9245].  This memo is applicable to *all* IETF
-   participation channels.
+   This document proposes the creation of a moderator team for all the
+   IETF's various contribution channels.  This moderator team is modeled
+   after, and subsumes, the moderator team for the IETF discussion list
+   [RFC9245].  This memo is applicable to *all* IETF participation
+   channels.
 
 1.1.  Background
 
@@ -120,7 +127,7 @@ Table of Contents
    of the ombudsteam.  [RFC3934] tasks the chairs of each IETF working
    group with moderating their group's in-person meetings and mailing
    lists, and an IESG statement [MODML] describes additional guidance to
-   working group chairs about how - but not when - to moderate their
+   working group chairs about how — but not when — to moderate their
    lists.
 
    For IETF mailing lists not associated with a working group, another
@@ -146,14 +153,48 @@ Table of Contents
    in response to complaints from the community.
 
    Experience and community input suggests that an evolution of the
-   existing processes is necessary (see Appendix B).  This memo
-   specifies a flexible moderation framework with an eye toward
-   consistency across all IETF communication fora, timeliness, fairness,
-   while also addressing transparency, appeals, and periodic review of
-   moderation actions.  In particular, moderators are given the broadest
-   possible freedom of action to address disruptive behavior.
+   existing processes is necessary (see Appendix B).
 
-1.2.  Conventions and Definitions
+1.2.  General Philosophy
+
+   The cornerstone of our philosophy is first and foremost the
+   individual, whose responsibility is to further the goals of the
+   organization [RFC3935] in a manner consistent with the policy laid
+   out in [RFC7154].  The IETF is an open standards organization.
+   Engaged, respectful discussion that is within the scope of a forum
+   should not be considered abuse, nor should someone be considered
+   abusive solely because they are outside the rough consensus.
+   Disagreement and diverse points of view within any standards
+   organization are to be expected, and are even healthy.  However, when
+   someone crosses the line into disruptive behavior, some action must
+   be taken in order to maintain decorum of the community.
+
+   The moderation policy goals are as follows:
+
+   *  Apply consistent, fair, and timely moderation of communication
+      across all IETF channels without regard to one's position or
+      previous contributions;
+
+   *  Disagreements about moderation actions are addressed through
+      appeals;
+
+   *  Balance transparency against both privacy of individuals involved
+      and further disruption to the community;
+
+   *  Allow moderators to reconsider decisions; and
+
+   *  Provide the broadest possible latitude to moderators, so that they
+      may have the flexibility to address a broad range of individuals
+      and circumstances.
+
+   Questions about processes detailed below should be answered through
+   the lens of these aims.
+
+   The goal is explicitly *not* punishment, but to maintain an open,
+   welcoming, non-hostile environment in which all may participate on an
+   equal footing, regardless of their position or past contributions.
+
+1.3.  Conventions and Definitions
 
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
@@ -303,8 +344,11 @@ Table of Contents
    moderator team SHALL be reported to the IESG, as well as to those
    against whom those actions are directed.  All bans longer than
    fourteen (14) days SHALL be reported to the forum in which the person
-   was banned, and in the case of a broad ban, to the community in a
-   manner decided by the IESG.
+   was banned, and in the case of a ban that spans more than one forum,
+   to the community in a manner decided by the IESG.
+
+   Content removal or redaction from IETF archives are not moderation
+   actions, and are therefore beyond the scope of this memo.
 
 2.4.  Training
 
@@ -317,11 +361,26 @@ Table of Contents
    Because the moderator team serves at the discretion of the IESG, any
    moderation decision can be appealed to the IESG by anyone, per
    [RFC2026].  Disagreements with a decision by the moderator team can
-   brought to their attention.  If this does not lead to a resolution, a
-   decision by the IESG can be appealed to the IAB as described in
-   [RFC2026].
+   be brought to their attention.  If this does not lead to a
+   resolution, a decision by the IESG can be appealed to the IAB as
+   described in [RFC2026].
 
-2.6.  Relation to the Ombudsteam
+2.6.  Reinstatement
+
+   People and circumstances change.  Individuals who have been banned
+   from a forum may request to be reinstated.  That request must be
+   directed to the entity that made the decision (e.g., moderation team,
+   working group chair, etc) or their successors, and that party may at
+   their discretion reinstate someone, conditionally or unconditionally.
+   Decisions to not reinstate someone may not be appealed.  Requests for
+   reinstatement may be entertained only a year after the initial
+   decision, and then only annually.
+
+   A ban imposed prior to this process shall be reconsidered only in
+   accordance with the processes in place at the time of the ban, even
+   if the corresponding RFC has been formally obsoleted.
+
+2.7.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -335,23 +394,46 @@ Table of Contents
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
 
-2.7.  Relation to the IETF LLC
+2.8.  Relation to the IETF LLC
 
    The Board of Directors of the IETF Administration LLC (IETF LLC) has
    fiduciary duty for the overall organization, which includes the duty
-   to protect the organization from legal risk that may arise from
-   illegal, vulgar, or manifestly harassing behavior of IETF
-   participants.
+   to protect the organization from serious legal risk that may arise
+   from the behavior of IETF participants.
 
-   This protection MAY include the need for the LLC to take emergency
-   moderation actions.  These emergency actions are expected to be
-   extremely rare, of temporary nature, and the incidents that required
-   them SHOULD be immediately raised with the moderator team to let them
-   determine any follow-up or more permanent moderation action.  These
-   incidents and the taken emergency action SHOULD also be communicated
-   to the IETF community.
+   This protection MAY include the need for the IETF LLC to take
+   emergency moderation actions.  These emergency actions are expected
+   to be taken only when the IETF LLC has received legal advice that
+   such action is necessary, and therefore extremely rare in frequency.
+   Some examples of where this might be necessary are:
 
-2.8.  Relation to the IRTF
+   *  Someone making credible threat of harm to other IETF participants.
+
+   *  Someone using IETF mailing lists and/or websites to share content
+      where publishing that content on IETF lists and/or websites brings
+      serious legal risk.
+
+   *  Someone making credible threats of legal action where any form of
+      interaction with them on IETF mailing lists may have serious legal
+      consequences for the IETF.
+
+   If any such action is taken, the IETF LLC SHOULD, except where
+   limited by legal advice to the contrary, inform the IESG as soon as
+   possible, providing full details of the subject of the action, nature
+   of the action, reason for the action and expected duration.  The IETF
+   LLC SHOULD also inform the moderator team and IETF community, except
+   where it receives legal advice to the contrary.
+
+   As such an action would be taken by the IETF LLC in order to protect
+   the IETF according to its fiduciary duty, then it cannot allow that
+   to be overridden by a decision of the moderation team or the IESG.
+   The subject of any such action may request a review by the IETF LLC
+   board, as documented in section 4.7 of [RFC8711]
+
+   Any such action taken by the IETF LLC under this section of this
+   policy, is not subject to the rest of the policy in this document.
+
+2.9.  Relation to the IRTF
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
@@ -417,6 +499,8 @@ Table of Contents
 
    *  Robert Sayre
 
+   *  Brian Carpenter
+
 7.  References
 
 7.1.  Normative References
@@ -425,9 +509,22 @@ Table of Contents
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
 
+   [RFC3935]  Alvestrand, H., "A Mission Statement for the IETF",
+              BCP 95, RFC 3935, DOI 10.17487/RFC3935, October 2004,
+              <https://www.rfc-editor.org/rfc/rfc3935>.
+
+   [RFC7154]  Moonesamy, S., Ed., "IETF Guidelines for Conduct", BCP 54,
+              RFC 7154, DOI 10.17487/RFC7154, March 2014,
+              <https://www.rfc-editor.org/rfc/rfc7154>.
+
    [RFC7776]  Resnick, P. and A. Farrel, "IETF Anti-Harassment
               Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
               2016, <https://www.rfc-editor.org/rfc/rfc7776>.
+
+   [RFC8711]  Haberman, B., Hall, J., and J. Livingood, "Structure of
+              the IETF Administrative Support Activity, Version 2.0",
+              BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8711>.
 
 7.2.  Informative References
 
@@ -441,9 +538,9 @@ Table of Contents
 
    [I-D.perkins-irtf-code-of-conduct]
               Perkins, C., "IRTF Code of Conduct", Work in Progress,
-              Internet-Draft, draft-perkins-irtf-code-of-conduct-07, 20
-              January 2025, <https://datatracker.ietf.org/doc/html/
-              draft-perkins-irtf-code-of-conduct-07>.
+              Internet-Draft, draft-perkins-irtf-code-of-conduct-08, 2
+              February 2025, <https://datatracker.ietf.org/doc/html/
+              draft-perkins-irtf-code-of-conduct-08>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
@@ -471,15 +568,6 @@ Table of Contents
               DOI 10.17487/RFC3934, October 2004,
               <https://www.rfc-editor.org/rfc/rfc3934>.
 
-   [RFC7154]  Moonesamy, S., Ed., "IETF Guidelines for Conduct", BCP 54,
-              RFC 7154, DOI 10.17487/RFC7154, March 2014,
-              <https://www.rfc-editor.org/rfc/rfc7154>.
-
-   [RFC8711]  Haberman, B., Hall, J., and J. Livingood, "Structure of
-              the IETF Administrative Support Activity, Version 2.0",
-              BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
-              <https://www.rfc-editor.org/rfc/rfc8711>.
-
    [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
@@ -488,7 +576,30 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-00
+A.1.  Since draft-ietf-modpod-group-processes-02
+
+   *  Rewrite philosophy (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/103)
+
+   *  Reinstatement (https://github.com/larseggert/draft-ietf-modpod-
+      group-processes/pull/107)
+
+   *  Content removal is not moderation. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/109)
+
+A.2.  Since draft-ietf-modpod-group-processes-01
+
+   *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/92)
+
+   *  Point to relevant IRTF material. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/97)
+
+   *  Add some text to explain the role of moderators.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/100)
+
+A.3.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -509,10 +620,7 @@ A.1.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-   *  Point to relevant IRTF material. (https://github.com/larseggert/
-      draft-ietf-modpod-group-processes/pull/97)
-
-A.2.  Since draft-ecahc-moderation-01
+A.4.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
@@ -543,8 +651,7 @@ Appendix B.  Problems with the Previous Approach
       for their single list, which is ill-suited when a pattern of
       disruptive behavior spans multiple lists.  Also, chairs and list
       administrators may not be fully aware of disruptive behavior that
-      spans multiple lists, due to not being subscribed to some of the
-      affected.
+      spans multiple lists, due to not being subscribed to some of them.
 
    *  PR-actions, which can address disruptive behavior across several
       lists, are cumbersome and slow, and the community has not been
