@@ -327,11 +327,11 @@ People and circumstances change.  Individuals who have been banned
 from a forum may request to be reinstated.  That request must be
 directed to the entity that made the decision (e.g., moderation team,
 working group chair, etc) or their successors, and that party may at
-their discretion
-reinstate someone, conditionally or unconditionally.  Decisions to
-not reinstate someone may not be appealed.  Requests for reinstatement
-may be entertained only a year after the initial decision, and then
-only annually.
+their discretion reinstate someone, conditionally or unconditionally.
+Since a request to be reinstated is in effect an appeal process,
+decisions to not reinstate someone may not be appealed again.
+Requests for reinstatement may be entertained only a year after
+the initial decision, and then only annually.
 
 A ban imposed prior to this process shall be reconsidered only in
 accordance with the processes in place at the time of the ban,
