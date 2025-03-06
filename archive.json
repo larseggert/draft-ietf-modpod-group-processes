@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-04T00:22:33.620053+00:00",
+  "timestamp": "2025-03-06T00:22:56.695962+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7907,6 +7907,105 @@
           "createdAt": "2025-02-27T21:20:50Z",
           "updatedAt": "2025-02-27T21:20:50Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "id": "PR_kwDOJrr8CM6NQ6uN",
+      "title": "Reinstatement is equivalent to an appeal",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/110",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "From @becarpenter in https://mailarchive.ietf.org/arch/msg/mod-discuss/kfFHaz8VYFJf0DaJTWpJN5TJWvA",
+      "createdAt": "2025-03-04T08:15:50Z",
+      "updatedAt": "2025-03-04T22:27:07Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "becarpenter-appeal-reinstatement",
+      "headRefOid": "0a9a533ee1ba0c40af0061b1dc2dfa256f1bd5d6",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "WFM\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Tue, 4 Mar 2025, 21:17 Lars Eggert, ***@***.***> wrote:\r\n\r\n> ***@***.**** commented on this pull request.\r\n> ------------------------------\r\n>\r\n> In draft-ietf-modpod-group-processes.md\r\n> <https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/110#discussion_r1978861088>\r\n> :\r\n>\r\n> > @@ -327,11 +327,11 @@ People and circumstances change.  Individuals who have been banned\r\n>  from a forum may request to be reinstated.  That request must be\r\n>  directed to the entity that made the decision (e.g., moderation team,\r\n>  working group chair, etc) or their successors, and that party may at\r\n> -their discretion\r\n> -reinstate someone, conditionally or unconditionally.  Decisions to\r\n> -not reinstate someone may not be appealed.  Requests for reinstatement\r\n> -may be entertained only a year after the initial decision, and then\r\n> -only annually.\r\n> +their discretion reinstate someone, conditionally or unconditionally.\r\n> +Since a request to be reinstated is in effect an appeal process,\r\n>\r\n> \u2b07\ufe0f Suggested change\r\n>\r\n> -Since a request to be reinstated is in effect an appeal process,\r\n> +Since a request to be reinstated is in effect an appeal of an earlier decision,\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/110#pullrequestreview-2656397759>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKET6QIJIT7COMHXOJBO32SVORHAVCNFSM6AAAAABYI4Y4CKVHI2DSMVQWIX3LMV43YUDVNRWFEZLROVSXG5CSMV3GSZLXHMZDMNJWGM4TONZVHE>\r\n> .\r\n> You are receiving this because you were mentioned.Message ID:\r\n> <larseggert/draft-ietf-modpod-group-processes/pull/110/review/2656397759@\r\n> github.com>\r\n>\r\n",
+          "createdAt": "2025-03-04T08:27:46Z",
+          "updatedAt": "2025-03-04T08:27:46Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't particularly agree with the logic that this is some sort of appeal.  This process can grant whatever authority the community wants, and so there is no need to stretch analogies.",
+          "createdAt": "2025-03-04T12:55:11Z",
+          "updatedAt": "2025-03-04T12:55:11Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I don't have any problem with the mechanics here. I think the word should be \"revisited\" rather than \"entertained\". The latter sounds a little bit snotty (unintentionally), and making that change will also make the sentence clearer.",
+          "createdAt": "2025-03-04T18:03:57Z",
+          "updatedAt": "2025-03-04T18:05:09Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@elear, if it isn't a sort of appeal then we have to allow appeals against it - that was my whole point: we allow appeals against any decision whatever in the IETF.",
+          "createdAt": "2025-03-04T19:29:10Z",
+          "updatedAt": "2025-03-04T19:29:10Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Maybe another case of \"say less\".\r\n\r\nHere, we can take out the theorizing:\r\n\r\n-- Since a request to be reinstated is in effect an appeal process, decisions to not reinstate someone may not be appealed again.\r\n\r\nThen,\r\n\r\n++ There is no requirement to continually evaluate these decisions. It is reasonable to revisit these decisions after a year.\r\n\r\nThat should cover litigious weirdos and DoS attacks on appeals, but also give the moderators/chairs a guideline.",
+          "createdAt": "2025-03-04T19:49:17Z",
+          "updatedAt": "2025-03-04T19:55:38Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I certainly agree that if we don't say appeals are not allowed, we don't need to say anything.",
+          "createdAt": "2025-03-04T20:46:00Z",
+          "updatedAt": "2025-03-04T20:46:00Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> I certainly agree that if we don't say appeals are not allowed, we don't need to say anything.\r\n\r\nWell, I was going for \"you can appeal anything, but not every week for a year\". I think it's better to state it this way, so it's clear you are wasting your time. If someone said something crappy a few years ago, that's not grounds for a lifetime ban, but it is also not cool to hear from them every week hammering on the same issue. That is abuse.",
+          "createdAt": "2025-03-04T22:22:52Z",
+          "updatedAt": "2025-03-04T22:27:07Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6eVWm_",
+          "commit": {
+            "abbreviatedOid": "0a9a533"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-03-04T08:17:01Z",
+          "updatedAt": "2025-03-04T08:17:01Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\nSince a request to be reinstated is in effect an appeal of an earlier decision,\r\n```",
+              "createdAt": "2025-03-04T08:17:01Z",
+              "updatedAt": "2025-03-04T08:17:17Z"
+            }
+          ]
         }
       ]
     }
