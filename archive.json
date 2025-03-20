@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-18T00:22:51.348712+00:00",
+  "timestamp": "2025-03-20T00:22:41.031989+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1803,6 +1803,55 @@
           "updatedAt": "2025-02-22T14:34:56Z"
         }
       ]
+    },
+    {
+      "number": 112,
+      "id": "I_kwDOJrr8CM6uqKdO",
+      "title": "Does this document obsolete RFC 3683?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/112",
+      "state": "OPEN",
+      "author": "alvestrand",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I hope it does. But if so, it needs to say so.\n",
+      "createdAt": "2025-03-19T02:37:37Z",
+      "updatedAt": "2025-03-19T03:57:37Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "My understanding is that various Obsoletes and Updates will be the content of section 3 \"Changes to Existing RFCs\" once the rest is atble.",
+          "createdAt": "2025-03-19T03:08:17Z",
+          "updatedAt": "2025-03-19T03:08:17Z"
+        },
+        {
+          "author": "alvestrand",
+          "authorAssociation": "NONE",
+          "body": "#105, if merged, will close this issue. (with an answer of YES).\n",
+          "createdAt": "2025-03-19T03:57:36Z",
+          "updatedAt": "2025-03-19T03:57:36Z"
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "id": "I_kwDOJrr8CM6u04MO",
+      "title": "Timely action is one reason for the 14-day limit",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/113",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nWatching the meeting, I saw some concern about quick action from the moderators without consulting the chairs. One reason the 14-day limit doesn't require public transparency is so that moderators and/or chairs can act quickly, but walk back a decision within a few days if there's been a mistake or there's an adjustment needed. That way someone doesn't called out, and then further called out by a public apology.\n\n**Describe the solution you'd like**\nMy draft juxtaposed these concepts in \n[0-12](https://www.ietf.org/archive/id/draft-sayre-modpod-excellent-02.html#name-0-12-days)\n\nI don't care about the day count. This draft has a more minimal policy (no escalation steps), and something like this will have to match the writing style in this document.\n\n**Additional context**\nI would expect the moderators to go with \"I'm holding your messages for the chair to review\" if there's something borderline. It's probably pretty easy to know what to do with really bad stuff.",
+      "createdAt": "2025-03-19T20:32:11Z",
+      "updatedAt": "2025-03-19T20:56:32Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -8008,6 +8057,56 @@
           ]
         }
       ]
+    },
+    {
+      "number": 111,
+      "id": "PR_kwDOJrr8CM6PFQBg",
+      "title": "Circumvention demonstrates bad faith",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/111",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "Suggestion from an IETF participant at 112.",
+      "createdAt": "2025-03-18T10:56:25Z",
+      "updatedAt": "2025-03-19T00:51:31Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "circumvention-is-bad-faith",
+      "headRefOid": "2edb7855ec4a31b3a7ca8dbb6c0b48e29fde1727",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Hmm, I think it crosses over with #77.\r\n\r\nYou totally can circumvent IETF moderation, and even CC the IETF while doing it. That does not (necessarily) seem like bad faith to me, but a disagreement. That is why I opened #77. It might be that your opinions are not too interesting.\r\n\r\nThat is different from creating a new email account and abusing the IETF's infrastructure with your new account that no one reads other than on IETF lists.\r\n\r\nSo, is it the sort of \"free speech\" which will drive people away? Is it an \"unpopular opinion\", maybe only stated once? Pretty much the point of my input: the IETF can say \"cool it\" for a short period of time with no public record. Everyone has gotten worked up in an argument a few times. My draft is way better at describing this part, tbh, but \"circumvention\" is too vague in this diff.\r\n\r\nBut in the interest of \"rough consensus,\" it is fine. It will come up again, though.",
+          "createdAt": "2025-03-18T21:36:36Z",
+          "updatedAt": "2025-03-18T23:59:24Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think the text I proposed is unclear. The issue that was describes to me is if someone under moderation circumvents that _and continues posting in the forum they were blocked from_. ",
+          "createdAt": "2025-03-19T00:23:11Z",
+          "updatedAt": "2025-03-19T00:23:11Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "It's almost right. I think you mean that they take actions such that IETF mailing list (or equivalent) users still receive their messages. Maybe something like \"continues to take advantage of distribution from IETF infrastructure\".\r\n\r\nActions that intend to avoid a ban on distribution. If banned, I can email some pastebin thing and CC an IETF list. No big deal. The pastebin readers might notice that I CCed an IETF list, but it didn't show up in the IETF archive.\r\n\r\nI think we have to accept this exposure of moderation actions since the IETF designed this system.",
+          "createdAt": "2025-03-19T00:31:21Z",
+          "updatedAt": "2025-03-19T00:51:30Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
