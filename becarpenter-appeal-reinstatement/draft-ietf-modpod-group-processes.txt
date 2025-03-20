@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 5 September 2025                                  Cisco Systems
-                                                            4 March 2025
+Expires: 21 September 2025                                 Cisco Systems
+                                                           20 March 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 September 2025.
+   This Internet-Draft will expire on 21 September 2025.
 
 Copyright Notice
 
@@ -372,10 +372,10 @@ Table of Contents
    directed to the entity that made the decision (e.g., moderation team,
    working group chair, etc) or their successors, and that party may at
    their discretion reinstate someone, conditionally or unconditionally.
-   Since a request to be reinstated is in effect an appeal process,
-   decisions to not reinstate someone may not be appealed again.
-   Requests for reinstatement may be entertained only a year after the
-   initial decision, and then only annually.
+   Since a request to be reinstated is in effect an appeal of an earlier
+   decision, decisions to not reinstate someone may not be appealed
+   again.  Requests for reinstatement may be entertained only a year
+   after the initial decision, and then only annually.
 
    A ban imposed prior to this process shall be reconsidered only in
    accordance with the processes in place at the time of the ban, even
