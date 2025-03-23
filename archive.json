@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-20T00:22:41.031989+00:00",
+  "timestamp": "2025-03-23T00:25:11.142322+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1849,9 +1849,52 @@
       ],
       "body": "**Proposal**\nWatching the meeting, I saw some concern about quick action from the moderators without consulting the chairs. One reason the 14-day limit doesn't require public transparency is so that moderators and/or chairs can act quickly, but walk back a decision within a few days if there's been a mistake or there's an adjustment needed. That way someone doesn't called out, and then further called out by a public apology.\n\n**Describe the solution you'd like**\nMy draft juxtaposed these concepts in \n[0-12](https://www.ietf.org/archive/id/draft-sayre-modpod-excellent-02.html#name-0-12-days)\n\nI don't care about the day count. This draft has a more minimal policy (no escalation steps), and something like this will have to match the writing style in this document.\n\n**Additional context**\nI would expect the moderators to go with \"I'm holding your messages for the chair to review\" if there's something borderline. It's probably pretty easy to know what to do with really bad stuff.",
       "createdAt": "2025-03-19T20:32:11Z",
-      "updatedAt": "2025-03-19T20:56:32Z",
+      "updatedAt": "2025-03-20T04:02:37Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@sayrer My understanding is quite different. Where I thought we settled was that one of the primary reasons for having a moderation team is to increase the chances of swift response when needed.  The issue people had was about the interaction between the Mod team and WG Chairs.  My suggestion, which I think the authors are going to explore, was to define what action the mod team can take when - i.e. to clear state that when rapid action is required, the mod team can do A and B (e.g. put the list into emergency moderation, or put individuals into temporary moderation)  but not C (e.g. block someone from posting altogether), without consulting the WG Chairs, and that when rapid action is *not* required, the mod team cannot act without WG Chair agreement, except D (e.g. when moderating someone across every list).",
+          "createdAt": "2025-03-20T01:57:14Z",
+          "updatedAt": "2025-03-20T01:57:14Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "The central problem there is that the mod team cannot possibly monitor all lists 24x7 so the initial alert for a problem should come from a responsible person monitoring the list, and realistically that means a WG chair (or secretary, for WGs that appoint a secretary). Exactly how an incident is handled lies between the WG chairs and the mod team, assuming we don't plan to micromanage this via an RFC. \n\nOne model might be for a WG chair to put somebody into moderation first, and call in the mod team second, but experience might suggest a different approach.\n\nThere's a corner case where the WG chairs ignore the problem and some other list member raises the alarm, and another corner case where one of the WG chairs _is_ the problem, but we can't expect to cover all corner cases in an RFC.",
+          "createdAt": "2025-03-20T02:10:53Z",
+          "updatedAt": "2025-03-20T02:10:53Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> [@sayrer](https://github.com/sayrer) My understanding is quite different. Where I thought we settled was that one of the primary reasons for having a moderation team is to increase the chances of swift response when needed.\n\nYes, that is also my understanding. The reason for the day count (14) is so that moderators (or chairs) can act quickly without creating yet more drama.\n\n> The issue people had was about the interaction between the Mod team and WG Chairs.\n\nYep, #85 is about this one, which I agree is unsettled.\n\n> My suggestion, which I think the authors are going to explore, was to define what action the mod team can take when - i.e. to clear state that when rapid action is required, the mod team can do A and B (e.g. put the list into emergency moderation, or put individuals into temporary moderation) but not C (e.g. block someone from posting altogether), without consulting the WG Chairs, and that when rapid action is _not_ required, the mod team cannot act without WG Chair agreement, except D (e.g. when moderating someone across every list).\n\nI don't think this approach is meaningfully different from what I suggested. It makes some more precise rules, but I'm not sure to what end. Even if the moderators bounce someone's messages for a few days (C), the person can resend them if the chairs decide they are OK, and nothing will be public (but the person being moderated will know). ",
+          "createdAt": "2025-03-20T02:27:33Z",
+          "updatedAt": "2025-03-20T02:28:27Z"
+        },
+        {
+          "author": "JayDaley",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@becarpenter \n\n> ...  the initial alert for a problem should come from a responsible person monitoring the list, and realistically that means a WG chair (or secretary, for WGs that appoint a secretary).\n\nIf the WG chairs could react this quick, we would not have an issue.  What I see is that it is other list members who alert people and it is when the WG chairs are not able to react quickly enough to those alerts that things can get bad quickly.",
+          "createdAt": "2025-03-20T02:33:32Z",
+          "updatedAt": "2025-03-20T02:33:32Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@JayDaley, this must vary between WGs; my experience is that WG chairs do jump on poor behaviour in a timely manner. If they don't, I agree that there needs to be a pathway directly to the mod team. But I wrote _should_ (a.k.a. __SHOULD__) because this pathway needs to be the exception, not the rule. Keeping order in the WG is a primary responsibility of every WG chair. \"Moderate the WG email list\" is a specific chair duty under section 6.1 of RFC 2418.",
+          "createdAt": "2025-03-20T03:02:09Z",
+          "updatedAt": "2025-03-20T03:02:09Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@becarpenter @JayDaley I opened the issue because I think any brief moderation action, if not made public, is not too harmful to the moderated participant. It doesn't inhibit contributions. The IETF doesn't move that fast, but email threads can.\n\nSo, there's no reason to classify them the way Jay suggests. It does need to be transparent if it's ongoing (hence 14 days).",
+          "createdAt": "2025-03-20T04:01:50Z",
+          "updatedAt": "2025-03-20T04:02:36Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -7973,13 +8016,13 @@
       ],
       "body": "From @becarpenter in https://mailarchive.ietf.org/arch/msg/mod-discuss/kfFHaz8VYFJf0DaJTWpJN5TJWvA",
       "createdAt": "2025-03-04T08:15:50Z",
-      "updatedAt": "2025-03-04T22:27:07Z",
+      "updatedAt": "2025-03-20T02:28:00Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "becarpenter-appeal-reinstatement",
-      "headRefOid": "0a9a533ee1ba0c40af0061b1dc2dfa256f1bd5d6",
+      "headRefOid": "8f452804029e21274cbed370c57d5d22df475ff9",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8072,13 +8115,13 @@
       ],
       "body": "Suggestion from an IETF participant at 112.",
       "createdAt": "2025-03-18T10:56:25Z",
-      "updatedAt": "2025-03-19T00:51:31Z",
+      "updatedAt": "2025-03-20T21:03:42Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "circumvention-is-bad-faith",
-      "headRefOid": "2edb7855ec4a31b3a7ca8dbb6c0b48e29fde1727",
+      "headRefOid": "717381944dd0bebe9a5f3ec00f5eef7f7a44e441",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8104,9 +8147,30 @@
           "body": "It's almost right. I think you mean that they take actions such that IETF mailing list (or equivalent) users still receive their messages. Maybe something like \"continues to take advantage of distribution from IETF infrastructure\".\r\n\r\nActions that intend to avoid a ban on distribution. If banned, I can email some pastebin thing and CC an IETF list. No big deal. The pastebin readers might notice that I CCed an IETF list, but it didn't show up in the IETF archive.\r\n\r\nI think we have to accept this exposure of moderation actions since the IETF designed this system.",
           "createdAt": "2025-03-19T00:31:21Z",
           "updatedAt": "2025-03-19T00:51:30Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I've approved the change, but I might check the list before merging.",
+          "createdAt": "2025-03-20T21:03:41Z",
+          "updatedAt": "2025-03-20T21:03:41Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6hLV55",
+          "commit": {
+            "abbreviatedOid": "7173819"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-03-20T21:02:58Z",
+          "updatedAt": "2025-03-20T21:02:58Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
