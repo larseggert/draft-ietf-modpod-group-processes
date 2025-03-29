@@ -253,10 +253,10 @@ observe or are alerted to problematic behavior on such channels, they
 MUST consult with the group's management to jointly determine an
 appropriate response.
 
-Only when necessary MAY the moderators take actions against
-someone in a working group setting, but they MUST inform management of
-relevant groups, including WG chairs and area directors, when they do
-so.
+Moderators may take actions against
+someone in a working group setting, but they MUST immediately inform
+management of relevant groups, including WG chairs and area directors,
+when they do so.
 
 If working group management and moderators have a disagreement about
 how to proceed in any given circumstance, before any further action is
