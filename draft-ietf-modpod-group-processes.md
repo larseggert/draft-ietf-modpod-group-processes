@@ -244,7 +244,7 @@ should be approached.
 ### IETF Working Groups
 
 The management and moderation of participation channels associated
-with various IETF working groups, including their mailing lists, chat 
+with various IETF working groups, including their mailing lists, chat
 channels and in-person, remote, or interim meetings remains primarily a task of
 the relevant group's management, such as WG chairs.
 Group participants MAY and chairs
