@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-27T00:22:58.721034+00:00",
+  "timestamp": "2025-03-30T00:25:56.879438+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1849,7 +1849,7 @@
       ],
       "body": "**Proposal**\nWatching the meeting, I saw some concern about quick action from the moderators without consulting the chairs. One reason the 14-day limit doesn't require public transparency is so that moderators and/or chairs can act quickly, but walk back a decision within a few days if there's been a mistake or there's an adjustment needed. That way someone doesn't called out, and then further called out by a public apology.\n\n**Describe the solution you'd like**\nMy draft juxtaposed these concepts in \n[0-12](https://www.ietf.org/archive/id/draft-sayre-modpod-excellent-02.html#name-0-12-days)\n\nI don't care about the day count. This draft has a more minimal policy (no escalation steps), and something like this will have to match the writing style in this document.\n\n**Additional context**\nI would expect the moderators to go with \"I'm holding your messages for the chair to review\" if there's something borderline. It's probably pretty easy to know what to do with really bad stuff.",
       "createdAt": "2025-03-19T20:32:11Z",
-      "updatedAt": "2025-03-20T04:02:37Z",
+      "updatedAt": "2025-03-29T22:09:34Z",
       "closedAt": null,
       "comments": [
         {
@@ -1893,8 +1893,70 @@
           "body": "@becarpenter @JayDaley I opened the issue because I think any brief moderation action, if not made public, is not too harmful to the moderated participant. It doesn't inhibit contributions. The IETF doesn't move that fast, but email threads can.\n\nSo, there's no reason to classify them the way Jay suggests. It does need to be transparent if it's ongoing (hence 14 days).",
           "createdAt": "2025-03-20T04:01:50Z",
           "updatedAt": "2025-03-20T04:02:36Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'm not sure what is being proposed.",
+          "createdAt": "2025-03-29T10:15:51Z",
+          "updatedAt": "2025-03-29T10:15:51Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "OK. In my view, the document needs to explain that the 14-day limit enables quick action. Let's add to your proposed text in #114.\n\n\"Moderators may take actions against someone in a working group setting, but they MUST immediately inform management of relevant groups, including WG chairs and area directors, when they do so. The 14-day limit in Section 2.3 exists so that immediate action can be taken, but any disagreements between moderators and list management can be resolved within a few days without public debate.\"\n\nI am not attached to the words, but that is the reason I put the time limit in my draft. I think some people missed that point, so it is worth explaining that it is intended to mitigate overzealous moderation as well as grant clemency to people briefly not at their best. It is also why I banned myself from the mod-discuss list and this repo for a week. Just to show that a brief timeout is not a big deal in the IETF process, as long as it's not made into a spectacle.",
+          "createdAt": "2025-03-29T18:42:49Z",
+          "updatedAt": "2025-03-29T20:27:51Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "As long as the text makes it clear that moderating a WG list is _primarily_ the WG chairs' job, and that it's a _failure_ by the chairs if the moderator team has to intervene, then yes, +1 to @sayrer. Anything else simply doesn't scale and invites chairs to duck the hard problems.",
+          "createdAt": "2025-03-29T19:31:24Z",
+          "updatedAt": "2025-03-29T19:31:24Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@becarpenter It may not be a failure.  Consider the case when someone has a nutty across multiple lists, and the moderator shuts that person down...",
+          "createdAt": "2025-03-29T20:30:24Z",
+          "updatedAt": "2025-03-29T20:30:24Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Hi @elear. The editors could take the first part of @becarpenter's suggestion here\n\n\"As long as the text makes it clear that moderating a WG list is _primarily_ the WG chairs' job...\"\n\nwithout accepting the _failure_ part. It is a breadth vs depth situation, right? We'd expect the chairs to deal with trolls that deal with narrow topics, but there might also be people using LLMs to write things like \"Thanks for your for your thoughtful comments on [WG subject matter], my solution involves Spam Jamma Pajamas\".",
+          "createdAt": "2025-03-29T21:34:36Z",
+          "updatedAt": "2025-03-29T21:34:36Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yes, \"failure\" is too strong. The case that matters is if the chairs don't act, for whatever reason. But we don't want the existence of the mod team to make chairs believe that they're off the hook.",
+          "createdAt": "2025-03-29T22:09:33Z",
+          "updatedAt": "2025-03-29T22:09:33Z"
         }
       ]
+    },
+    {
+      "number": 115,
+      "id": "I_kwDOJrr8CM6wUrVV",
+      "title": "Editorial: Section 2 should be split",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/115",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "larseggert"
+      ],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\n\nThe current TOC of the document is as follows:\n\n1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.1.  Background  . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.2.  General Philosophy  . . . . . . . . . . . . . . . . . . .   4\n     1.3.  Conventions and Definitions . . . . . . . . . . . . . . .   5\n   2.  IETF Moderator Team . . . . . . . . . . . . . . . . . . . . .   5\n     2.1.  Composition . . . . . . . . . . . . . . . . . . . . . . .   5\n       2.1.1.  Team Diversity  . . . . . . . . . . . . . . . . . . .   5\n     2.2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . .   6\n       2.2.1.  Non-IETF Communication Channels And Private\n               Communications Excluded . . . . . . . . . . . . . . .   6\n       2.2.2.  IETF Working Groups . . . . . . . . . . . . . . . . .   7\n     2.3.  Operations of the Moderator Team and Transparency . . . .   7\n     2.4.  Training  . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.5.  Appeals . . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.6.  Reinstatement . . . . . . . . . . . . . . . . . . . . . .   8\n     2.7.  Relation to the Ombudsteam  . . . . . . . . . . . . . . .   9\n     2.8.  Relation to the IETF LLC  . . . . . . . . . . . . . . . .   9\n     2.9.  Relation to the IRTF  . . . . . . . . . . . . . . . . . .  10\n\n\n**Describe the solution you'd like**\n\nLogically, there is the moderator team and there are the moderation processes, and a few other things.\n\nMy suggestion:\n\nSections 2, 2.1, 2.2, 2.7, 2.8, and 2.9 are about the team composition and scope.  Let's combine them into a single section (presumably 2).  Section 2.3, 2.5, and 2.6 are about process.  They should be combined into a single section (presumably 2bis/3).  This leaves Section 2.4.  It can reside either in the Section 2 or remain on its own.\n\n\n**Describe alternatives you've considered**\nOptional: A clear and concise description of any alternatives you've considered.\n\n**Additional context**\nAdd any other context or screenshots about the feature request here.\n",
+      "createdAt": "2025-03-29T16:26:10Z",
+      "updatedAt": "2025-03-29T16:26:35Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -8168,6 +8230,49 @@
           "body": "",
           "createdAt": "2025-03-20T21:02:58Z",
           "updatedAt": "2025-03-20T21:02:58Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "id": "PR_kwDOJrr8CM6QqPG8",
+      "title": "Correct a statement that is logically redundant and add word \"Immediately\"",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/114",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-review",
+        "editorial"
+      ],
+      "body": "When is a moderator going to take an action unnecessarily?  So that there are no misunderstandings, if a moderator DOES take an action, make clear that they inform\r\nthe right people immediately.",
+      "createdAt": "2025-03-29T15:52:38Z",
+      "updatedAt": "2025-03-29T17:37:02Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "logicfix",
+      "headRefOid": "1e3e7a0a8d227805a9fb26126162b37ff04e8c49",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6ikurM",
+          "commit": {
+            "abbreviatedOid": "1e3e7a0"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-03-29T17:37:02Z",
+          "updatedAt": "2025-03-29T17:37:02Z",
           "comments": []
         }
       ]
