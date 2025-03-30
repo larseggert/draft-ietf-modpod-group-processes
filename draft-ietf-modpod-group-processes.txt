@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 31 August 2025                                    Cisco Systems
-                                                        27 February 2025
+Expires: 1 October 2025                                    Cisco Systems
+                                                           30 March 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 August 2025.
+   This Internet-Draft will expire on 1 October 2025.
 
 Copyright Notice
 
@@ -296,10 +296,9 @@ Table of Contents
    channels, they MUST consult with the group's management to jointly
    determine an appropriate response.
 
-   Only when necessary MAY the moderators take actions against someone
-   in a working group setting, but they MUST inform management of
-   relevant groups, including WG chairs and area directors, when they do
-   so.
+   Moderators may take actions against someone in a working group
+   setting, but they MUST immediately inform management of relevant
+   groups, including WG chairs and area directors, when they do so.
 
    If working group management and moderators have a disagreement about
    how to proceed in any given circumstance, before any further action
