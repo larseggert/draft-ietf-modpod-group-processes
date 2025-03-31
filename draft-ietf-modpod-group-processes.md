@@ -229,7 +229,7 @@ their own judgment and community suggestions. (Note that some participation
 channels, such as the examples given in the previous sentence, have no
 chairs or other community leadership, so the moderators MUST handle those.)
 
-Moderators are expected to be a resource that group management can use
+Moderators are expected to be a resource that the community can use
 to address problematic contributions.
 
 ### Non-IETF Communication Channels And Private Communications Excluded
