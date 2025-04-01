@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-30T00:25:56.879438+00:00",
+  "timestamp": "2025-04-01T00:27:08.424109+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1464,7 +1464,7 @@
       ],
       "body": "Rob Wilton thinks \"no\".",
       "createdAt": "2025-01-08T09:10:16Z",
-      "updatedAt": "2025-01-20T08:07:58Z",
+      "updatedAt": "2025-03-31T05:26:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -1515,6 +1515,13 @@
           "body": "We agree.",
           "createdAt": "2025-01-09T19:31:32Z",
           "updatedAt": "2025-01-09T19:31:32Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I see us adding 2119 terms and not removing them. This seems to indicate that we find them useful. I'm hence inclined to close this as \"won't fix\".",
+          "createdAt": "2025-03-31T05:26:30Z",
+          "updatedAt": "2025-03-31T05:26:30Z"
         }
       ]
     },
@@ -1849,7 +1856,7 @@
       ],
       "body": "**Proposal**\nWatching the meeting, I saw some concern about quick action from the moderators without consulting the chairs. One reason the 14-day limit doesn't require public transparency is so that moderators and/or chairs can act quickly, but walk back a decision within a few days if there's been a mistake or there's an adjustment needed. That way someone doesn't called out, and then further called out by a public apology.\n\n**Describe the solution you'd like**\nMy draft juxtaposed these concepts in \n[0-12](https://www.ietf.org/archive/id/draft-sayre-modpod-excellent-02.html#name-0-12-days)\n\nI don't care about the day count. This draft has a more minimal policy (no escalation steps), and something like this will have to match the writing style in this document.\n\n**Additional context**\nI would expect the moderators to go with \"I'm holding your messages for the chair to review\" if there's something borderline. It's probably pretty easy to know what to do with really bad stuff.",
       "createdAt": "2025-03-19T20:32:11Z",
-      "updatedAt": "2025-03-29T22:09:34Z",
+      "updatedAt": "2025-03-31T22:47:31Z",
       "closedAt": null,
       "comments": [
         {
@@ -1935,6 +1942,27 @@
           "body": "Yes, \"failure\" is too strong. The case that matters is if the chairs don't act, for whatever reason. But we don't want the existence of the mod team to make chairs believe that they're off the hook.",
           "createdAt": "2025-03-29T22:09:33Z",
           "updatedAt": "2025-03-29T22:09:33Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'll create a new PR for this.  A few points:\n\n* The draft already states in the first sentence of the subsection that WG management is primary.\n* The point might get lost in the muddled text that then follows.\n* I can add some text around why the 14 day period.",
+          "createdAt": "2025-03-30T08:46:18Z",
+          "updatedAt": "2025-03-30T08:46:18Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think you want to edit that PR to say \"Address issue 113\"",
+          "createdAt": "2025-03-30T20:54:49Z",
+          "updatedAt": "2025-03-30T20:54:49Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think the list still doesn't understand this one, looking at the last few days:\n\nhttps://mailarchive.ietf.org/arch/browse/static/mod-discuss/2025-03/\n\nThe idea behind keeping things private for a few days is to let someone decide quickly. But the WG seems wrapped around the axle on who can act at all. My point is that the chairs or moderators can do /anything/ for a few days, an it will not impede IETF contributions.",
+          "createdAt": "2025-03-31T22:47:31Z",
+          "updatedAt": "2025-03-31T22:47:31Z"
         }
       ]
     },
@@ -1954,9 +1982,17 @@
       ],
       "body": "**Proposal**\n\nThe current TOC of the document is as follows:\n\n1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.1.  Background  . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.2.  General Philosophy  . . . . . . . . . . . . . . . . . . .   4\n     1.3.  Conventions and Definitions . . . . . . . . . . . . . . .   5\n   2.  IETF Moderator Team . . . . . . . . . . . . . . . . . . . . .   5\n     2.1.  Composition . . . . . . . . . . . . . . . . . . . . . . .   5\n       2.1.1.  Team Diversity  . . . . . . . . . . . . . . . . . . .   5\n     2.2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . .   6\n       2.2.1.  Non-IETF Communication Channels And Private\n               Communications Excluded . . . . . . . . . . . . . . .   6\n       2.2.2.  IETF Working Groups . . . . . . . . . . . . . . . . .   7\n     2.3.  Operations of the Moderator Team and Transparency . . . .   7\n     2.4.  Training  . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.5.  Appeals . . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.6.  Reinstatement . . . . . . . . . . . . . . . . . . . . . .   8\n     2.7.  Relation to the Ombudsteam  . . . . . . . . . . . . . . .   9\n     2.8.  Relation to the IETF LLC  . . . . . . . . . . . . . . . .   9\n     2.9.  Relation to the IRTF  . . . . . . . . . . . . . . . . . .  10\n\n\n**Describe the solution you'd like**\n\nLogically, there is the moderator team and there are the moderation processes, and a few other things.\n\nMy suggestion:\n\nSections 2, 2.1, 2.2, 2.7, 2.8, and 2.9 are about the team composition and scope.  Let's combine them into a single section (presumably 2).  Section 2.3, 2.5, and 2.6 are about process.  They should be combined into a single section (presumably 2bis/3).  This leaves Section 2.4.  It can reside either in the Section 2 or remain on its own.\n\n\n**Describe alternatives you've considered**\nOptional: A clear and concise description of any alternatives you've considered.\n\n**Additional context**\nAdd any other context or screenshots about the feature request here.\n",
       "createdAt": "2025-03-29T16:26:10Z",
-      "updatedAt": "2025-03-29T16:26:35Z",
+      "updatedAt": "2025-03-31T05:22:59Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "SGTM. I could also see 2.7-2.9 go into a new \"Relations\" section.",
+          "createdAt": "2025-03-31T05:22:58Z",
+          "updatedAt": "2025-03-31T05:22:58Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -8239,7 +8275,7 @@
       "id": "PR_kwDOJrr8CM6QqPG8",
       "title": "Correct a statement that is logically redundant and add word \"Immediately\"",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/114",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -8249,13 +8285,55 @@
       ],
       "body": "When is a moderator going to take an action unnecessarily?  So that there are no misunderstandings, if a moderator DOES take an action, make clear that they inform\r\nthe right people immediately.",
       "createdAt": "2025-03-29T15:52:38Z",
-      "updatedAt": "2025-03-29T17:37:02Z",
+      "updatedAt": "2025-03-30T08:36:47Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "logicfix",
-      "headRefOid": "1e3e7a0a8d227805a9fb26126162b37ff04e8c49",
+      "headRefOid": "67edf8365aaba0a38bce4b4a2125282c363e6f53",
+      "closedAt": "2025-03-30T08:36:47Z",
+      "mergedAt": "2025-03-30T08:36:47Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "f60982c6a489666e809e9707b186636484791631"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6ikurM",
+          "commit": {
+            "abbreviatedOid": "67edf83"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-03-29T17:37:02Z",
+          "updatedAt": "2025-03-30T08:34:45Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "id": "PR_kwDOJrr8CM6QsBvP",
+      "title": "Address issue 114",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/116",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Move consultant text to scope.\r\nExplain 14 day rule.\r\n\r\nCloses #114 ",
+      "createdAt": "2025-03-30T09:09:45Z",
+      "updatedAt": "2025-03-31T09:12:27Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "f60982c6a489666e809e9707b186636484791631",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "114-timely-action",
+      "headRefOid": "f23f932ec5760c198e763c70b3e9c86729031666",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8263,17 +8341,84 @@
       "comments": [],
       "reviews": [
         {
-          "id": "PRR_kwDOJrr8CM6ikurM",
+          "id": "PRR_kwDOJrr8CM6inhEe",
           "commit": {
-            "abbreviatedOid": "1e3e7a0"
+            "abbreviatedOid": "6f1d60c"
           },
           "author": "larseggert",
           "authorAssociation": "OWNER",
-          "state": "APPROVED",
+          "state": "COMMENTED",
           "body": "",
-          "createdAt": "2025-03-29T17:37:02Z",
-          "updatedAt": "2025-03-29T17:37:02Z",
-          "comments": []
+          "createdAt": "2025-03-31T05:25:22Z",
+          "updatedAt": "2025-03-31T05:25:22Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "This needs to move down into \"IETF Working Groups\"?",
+              "createdAt": "2025-03-31T05:25:22Z",
+              "updatedAt": "2025-03-31T05:25:22Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6inzF7",
+          "commit": {
+            "abbreviatedOid": "6f1d60c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-03-31T06:35:55Z",
+          "updatedAt": "2025-03-31T06:35:55Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "I pulled it forward because it seemed like part of the moderators' scope.  This may be one that cuts either way.  Whichever you prefer.",
+              "createdAt": "2025-03-31T06:35:55Z",
+              "updatedAt": "2025-03-31T06:35:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6inzwD",
+          "commit": {
+            "abbreviatedOid": "6f1d60c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-03-31T06:37:58Z",
+          "updatedAt": "2025-03-31T06:37:58Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "It's just that \"group management\" hasn't been talked about before.",
+              "createdAt": "2025-03-31T06:37:58Z",
+              "updatedAt": "2025-03-31T06:37:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6io7va",
+          "commit": {
+            "abbreviatedOid": "6f1d60c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-03-31T09:07:04Z",
+          "updatedAt": "2025-03-31T09:07:04Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Yeah... this sort of ties to the point that Jay and Brian are making about handling non-WG fora.  We need a bit more text, but I think that's a bit more substantial than this.  I don't want to back into that here...  I'll update with a small amount of text.",
+              "createdAt": "2025-03-31T09:07:04Z",
+              "updatedAt": "2025-03-31T09:07:05Z"
+            }
+          ]
         }
       ]
     }
