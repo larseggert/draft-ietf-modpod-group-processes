@@ -203,7 +203,6 @@ Team diversity is also important to ensure any participant observing
 problematic behavior can identify a moderator they feel comfortable
 contacting.
 
-
 ## Training
 
 The IETF is committed to providing and/or funding training for
