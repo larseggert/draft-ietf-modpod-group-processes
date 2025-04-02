@@ -144,7 +144,7 @@ The moderation policy goals are as follows:
 - Allow moderators to reconsider decisions; and
 - Provide the broadest possible latitude to moderators, so that they may have the
   flexibility to address a broad range of individuals and circumstances.
-q
+
 Questions about processes detailed below should be answered through the lens
 of these aims.
 
