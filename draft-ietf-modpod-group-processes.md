@@ -144,7 +144,7 @@ The moderation policy goals are as follows:
 - Allow moderators to reconsider decisions; and
 - Provide the broadest possible latitude to moderators, so that they may have the
   flexibility to address a broad range of individuals and circumstances.
-
+q
 Questions about processes detailed below should be answered through the lens
 of these aims.
 
@@ -203,7 +203,7 @@ Team diversity is also important to ensure any participant observing
 problematic behavior can identify a moderator they feel comfortable
 contacting.
 
-## Scope
+# Scope
 
 The IETF moderator team is responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
@@ -232,7 +232,7 @@ chairs or other community leadership, so the moderators MUST handle those.)
 Moderators are expected to be a resource that the community can use
 to address problematic contributions.
 
-### Non-IETF Communication Channels And Private Communications Excluded
+## Non-IETF Communication Channels And Private Communications Excluded
 
 It is important to note that the moderator team only
 moderates *public* IETF participation channels. Their mandate does
@@ -241,7 +241,7 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-### IETF Working Groups
+## IETF Working Groups
 
 The management and moderation of participation channels associated
 with various IETF working groups, including their mailing lists, chat
@@ -268,7 +268,7 @@ in such cases, and the group management should respect the moderators'
 task of upholding an overall IETF-wide uniformity for
 moderation.
 
-## Operations of the Moderator Team and Transparency
+# Operations of the Moderator Team and Transparency
 
 Within the bounds of the policies set within this memo and with the
 approval of the IESG, the moderator team SHALL define any additional
@@ -335,6 +335,8 @@ only annually.
 A ban imposed prior to this process shall be reconsidered only in
 accordance with the processes in place at the time of the ban,
 even if the corresponding RFC has been formally obsoleted.
+
+# Relationship to other IETF functions
 
 ## Relation to the Ombudsteam
 
