@@ -219,7 +219,7 @@ also includes non-WG IETF-sponsored chat mechanisms.
 Interactions with WGs are discussed below.
 
 It is not expected that the moderators will be monitoring every
-IETF channel, but rather that participants MAY and chairs SHOULD flag
+IETF channel, but rather that participants MAY and group management SHOULD flag
 concerns about disruptive behavior to the moderators. However,
 the moderators SHOULD actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
@@ -228,6 +228,9 @@ moderators should decide which channels are in this set based on
 their own judgment and community suggestions. (Note that some participation
 channels, such as the examples given in the previous sentence, have no
 chairs or other community leadership, so the moderators MUST handle those.)
+
+Moderators are expected to be a resource that the community can use
+to address problematic contributions.
 
 ### Non-IETF Communication Channels And Private Communications Excluded
 
@@ -241,26 +244,21 @@ should be approached.
 ### IETF Working Groups
 
 The management and moderation of participation channels associated
-with various IETF groups, including their mailing lists, chat channels
-and in-person, remote, or interim meetings remains primarily a task of
-the relevant group's management, such as WG chairs. However,
-moderators are available for consultation and assistance should issues
-arise, and they MAY proactively confer with the group management over
-potential patterns of behavior. Group participants MAY and chairs
+with various IETF working groups, including their mailing lists, chat
+channels and in-person, remote, or interim meetings remains primarily a task of
+the relevant group's management, such as WG chairs.
+Group participants MAY and chairs
 MUST alert the moderators to problematic behavior that rises to the
-level that some action is needed. Similarly, when moderators
-observe or are alerted to problematic behavior on such channels, they
-MUST consult with the group's management to jointly determine an
-appropriate response.
+level that some action is needed.
 
-Moderators may take actions against
+Moderators MAY take actions against
 someone in a working group setting, but they MUST immediately inform
 management of relevant groups, including WG chairs and area directors,
 when they do so.
 
 If working group management and moderators have a disagreement about
 how to proceed in any given circumstance, before any further action is
-taken, the matter should be taken up with the responsible area
+taken, the matter SHALL be taken up with the responsible area
 director(s) for resolution, and, when more than one area is involved,
 with the IESG.
 
@@ -297,7 +295,8 @@ The moderator team is responsible to the IESG.  The IESG
 MAY create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All actions
 taken by the moderator team SHALL be reported to the IESG,
-as well as to those against whom those actions are directed.  All
+as well as to those against whom those actions are directed.
+To address inappropriate contributions in a timely manner, only
 bans longer than fourteen (14) days SHALL be reported to the forum in
 which the person was banned, and in the case of a ban that spans more
 than one forum, to the community in a manner decided by the IESG.
@@ -456,6 +455,7 @@ These individuals suggested additional improvements to this document:
 
 ## Since draft-ietf-modpod-group-processes-02
 
+- [Address issue 113](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/116)
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
 - [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
 - [Content removal is not moderation.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/109)
