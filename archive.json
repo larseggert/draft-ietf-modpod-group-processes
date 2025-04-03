@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-01T00:27:08.424109+00:00",
+  "timestamp": "2025-04-03T00:23:17.719263+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1847,7 +1847,7 @@
       "id": "I_kwDOJrr8CM6u04MO",
       "title": "Timely action is one reason for the 14-day limit",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/113",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -1856,8 +1856,8 @@
       ],
       "body": "**Proposal**\nWatching the meeting, I saw some concern about quick action from the moderators without consulting the chairs. One reason the 14-day limit doesn't require public transparency is so that moderators and/or chairs can act quickly, but walk back a decision within a few days if there's been a mistake or there's an adjustment needed. That way someone doesn't called out, and then further called out by a public apology.\n\n**Describe the solution you'd like**\nMy draft juxtaposed these concepts in \n[0-12](https://www.ietf.org/archive/id/draft-sayre-modpod-excellent-02.html#name-0-12-days)\n\nI don't care about the day count. This draft has a more minimal policy (no escalation steps), and something like this will have to match the writing style in this document.\n\n**Additional context**\nI would expect the moderators to go with \"I'm holding your messages for the chair to review\" if there's something borderline. It's probably pretty easy to know what to do with really bad stuff.",
       "createdAt": "2025-03-19T20:32:11Z",
-      "updatedAt": "2025-03-31T22:47:31Z",
-      "closedAt": null,
+      "updatedAt": "2025-04-02T08:14:16Z",
+      "closedAt": "2025-04-02T08:14:16Z",
       "comments": [
         {
           "author": "JayDaley",
@@ -1960,9 +1960,23 @@
         {
           "author": "sayrer",
           "authorAssociation": "CONTRIBUTOR",
-          "body": "I think the list still doesn't understand this one, looking at the last few days:\n\nhttps://mailarchive.ietf.org/arch/browse/static/mod-discuss/2025-03/\n\nThe idea behind keeping things private for a few days is to let someone decide quickly. But the WG seems wrapped around the axle on who can act at all. My point is that the chairs or moderators can do /anything/ for a few days, an it will not impede IETF contributions.",
+          "body": "I think the list still doesn't understand this one, looking at the last few days:\n\nhttps://mailarchive.ietf.org/arch/browse/static/mod-discuss/2025-03/\n\nThe idea behind keeping things private for a few days is to let someone decide quickly. But the WG seems wrapped around the axle on who can act at all. My point is that the chairs or moderators can do /anything/ for a few days, and it will not impede IETF contributions.",
           "createdAt": "2025-03-31T22:47:31Z",
-          "updatedAt": "2025-03-31T22:47:31Z"
+          "updatedAt": "2025-04-01T20:56:27Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't think they're that wrapped.  I think two people just don't like the idea of moderators at all.",
+          "createdAt": "2025-04-01T12:11:12Z",
+          "updatedAt": "2025-04-01T12:11:12Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think maybe the draft should say both in the Abstract and the first para of the Introduction something like:\n\n_Primary responsibility for moderation lies with working group chairs, but sometimes this needs support from experienced colleagues._\n\nThat won't create agreement where it doesn't exist, but I think it will help in clarifying where the disagreement lies.",
+          "createdAt": "2025-04-01T19:19:17Z",
+          "updatedAt": "2025-04-01T19:19:17Z"
         }
       ]
     },
@@ -8318,27 +8332,44 @@
     {
       "number": 116,
       "id": "PR_kwDOJrr8CM6QsBvP",
-      "title": "Address issue 114",
+      "title": "Address issue 113",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/116",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
-      "body": "Move consultant text to scope.\r\nExplain 14 day rule.\r\n\r\nCloses #114 ",
+      "body": "Move consultant text to scope.\r\nExplain 14 day rule.\r\n\r\nCloses #113 ",
       "createdAt": "2025-03-30T09:09:45Z",
-      "updatedAt": "2025-03-31T09:12:27Z",
+      "updatedAt": "2025-04-02T08:14:14Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "f60982c6a489666e809e9707b186636484791631",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "114-timely-action",
-      "headRefOid": "f23f932ec5760c198e763c70b3e9c86729031666",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "headRefOid": "b75c55a2ba8f9e48539b724929abe10aa0f1af20",
+      "closedAt": "2025-04-02T08:14:14Z",
+      "mergedAt": "2025-04-02T08:14:14Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "14164be74488b9ffa98a7fe3318e6f6672843c90"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert could you push this one, and then I'll get on to a few other ones.",
+          "createdAt": "2025-04-02T07:47:52Z",
+          "updatedAt": "2025-04-02T07:47:52Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "This needs a changelog entry, since it's not editorial.",
+          "createdAt": "2025-04-02T07:49:31Z",
+          "updatedAt": "2025-04-02T07:49:31Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM6inhEe",
@@ -8419,8 +8450,50 @@
               "updatedAt": "2025-03-31T09:07:05Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6jBFIb",
+          "commit": {
+            "abbreviatedOid": "f23f932"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-04-02T07:48:57Z",
+          "updatedAt": "2025-04-02T07:48:57Z",
+          "comments": []
         }
       ]
+    },
+    {
+      "number": 117,
+      "id": "PR_kwDOJrr8CM6RHqQ8",
+      "title": "Add major sections (Editorial)",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/117",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion",
+        "editorial"
+      ],
+      "body": "Create some major sections based on logical separations.  No substantial text changes.\r\n\r\nCloses #115.",
+      "createdAt": "2025-04-02T16:19:47Z",
+      "updatedAt": "2025-04-02T16:26:05Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "14164be74488b9ffa98a7fe3318e6f6672843c90",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "restructure",
+      "headRefOid": "5e4c25a343491b39364dc5bf00519741f88ed5c0",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
