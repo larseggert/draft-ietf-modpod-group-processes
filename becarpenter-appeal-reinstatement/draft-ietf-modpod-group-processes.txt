@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 21 September 2025                                 Cisco Systems
-                                                           20 March 2025
+Expires: 6 October 2025                                    Cisco Systems
+                                                            4 April 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 September 2025.
+   This Internet-Draft will expire on 6 October 2025.
 
 Copyright Notice
 
@@ -81,24 +81,26 @@ Table of Contents
    2.  IETF Moderator Team
      2.1.  Composition
        2.1.1.  Team Diversity
-     2.2.  Scope
-       2.2.1.  Non-IETF Communication Channels And Private
-               Communications Excluded
-       2.2.2.  IETF Working Groups
-     2.3.  Operations of the Moderator Team and Transparency
-     2.4.  Training
-     2.5.  Appeals
-     2.6.  Reinstatement
-     2.7.  Relation to the Ombudsteam
-     2.8.  Relation to the IETF LLC
-     2.9.  Relation to the IRTF
-   3.  Changes to Existing RFCs
-   4.  Security Considerations
-   5.  IANA Considerations
-   6.  Acknowledgments
-   7.  References
-     7.1.  Normative References
-     7.2.  Informative References
+     2.2.  Training
+   3.  Scope
+     3.1.  Non-IETF Communication Channels And Private Communications
+           Excluded
+     3.2.  IETF Working Groups
+   4.  Operations and Procedures of the Moderator Team and
+           Transparency
+     4.1.  Appeals
+     4.2.  Reinstatement
+   5.  Relationship to other IETF functions
+     5.1.  Relation to the Ombudsteam
+     5.2.  Relation to the IETF LLC
+     5.3.  Relation to the IRTF
+   6.  Changes to Existing RFCs
+   7.  Security Considerations
+   8.  IANA Considerations
+   9.  Acknowledgments
+   10. References
+     10.1.  Normative References
+     10.2.  Informative References
    Appendix A.  Changes
      A.1.  Since draft-ietf-modpod-group-processes-02
      A.2.  Since draft-ietf-modpod-group-processes-01
@@ -224,7 +226,7 @@ Table of Contents
    moderators MAY decide to consult with the IESG when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 2.5), the IESG MUST NOT appoint a moderator
+   decisions (see Section 4.1), the IESG MUST NOT appoint a moderator
    who is serving on the IESG or IAB.  Individuals serving on other
    bodies to which the NomCom appoints members, such as the IETF Trust
    or the LLC Board, as well as LLC staff and contractors SHALL also be
@@ -244,7 +246,13 @@ Table of Contents
    problematic behavior can identify a moderator they feel comfortable
    contacting.
 
-2.2.  Scope
+2.2.  Training
+
+   The IETF is committed to providing and/or funding training for
+   appointed moderators as necessary.  The IESG will negotiate any
+   required funding or resources with IETF Administration LLC [RFC8711].
+
+3.  Scope
 
    The IETF moderator team is responsible for establishing processes to
    address moderation needs across all IETF fora, both present and
@@ -260,19 +268,22 @@ Table of Contents
    Interactions with WGs are discussed below.
 
    It is not expected that the moderators will be monitoring every IETF
-   channel, but rather that participants MAY and chairs SHOULD flag
-   concerns about disruptive behavior to the moderators.  However, the
-   moderators SHOULD actively monitor a small set of key participation
-   channels, including, for example, the IETF discussion and last-call
-   mailing lists or the IETF plenary chat channel.  The moderators
-   should decide which channels are in this set based on their own
-   judgment and community suggestions.  (Note that some participation
-   channels, such as the examples given in the previous sentence, have
-   no chairs or other community leadership, so the moderators MUST
-   handle those.)
+   channel, but rather that participants MAY and group management SHOULD
+   flag concerns about disruptive behavior to the moderators.  However,
+   the moderators SHOULD actively monitor a small set of key
+   participation channels, including, for example, the IETF discussion
+   and last-call mailing lists or the IETF plenary chat channel.  The
+   moderators should decide which channels are in this set based on
+   their own judgment and community suggestions.  (Note that some
+   participation channels, such as the examples given in the previous
+   sentence, have no chairs or other community leadership, so the
+   moderators MUST handle those.)
 
-2.2.1.  Non-IETF Communication Channels And Private Communications
-        Excluded
+   Moderators are expected to be a resource that the community can use
+   to address problematic contributions.
+
+3.1.  Non-IETF Communication Channels And Private Communications
+      Excluded
 
    It is important to note that the moderator team only moderates
    _public_ IETF participation channels.  Their mandate does not extend
@@ -281,29 +292,22 @@ Table of Contents
    outside of meetings.  In such cases, the Ombudsteam should be
    approached.
 
-2.2.2.  IETF Working Groups
+3.2.  IETF Working Groups
 
    The management and moderation of participation channels associated
-   with various IETF groups, including their mailing lists, chat
+   with various IETF working groups, including their mailing lists, chat
    channels and in-person, remote, or interim meetings remains primarily
-   a task of the relevant group's management, such as WG chairs.
-   However, moderators are available for consultation and assistance
-   should issues arise, and they MAY proactively confer with the group
-   management over potential patterns of behavior.  Group participants
-   MAY and chairs MUST alert the moderators to problematic behavior that
-   rises to the level that some action is needed.  Similarly, when
-   moderators observe or are alerted to problematic behavior on such
-   channels, they MUST consult with the group's management to jointly
-   determine an appropriate response.
+   a task of the relevant group's management, such as WG chairs.  Group
+   participants MAY and chairs MUST alert the moderators to problematic
+   behavior that rises to the level that some action is needed.
 
-   Only when necessary MAY the moderators take actions against someone
-   in a working group setting, but they MUST inform management of
-   relevant groups, including WG chairs and area directors, when they do
-   so.
+   Moderators MAY take actions against someone in a working group
+   setting, but they MUST immediately inform management of relevant
+   groups, including WG chairs and area directors, when they do so.
 
    If working group management and moderators have a disagreement about
    how to proceed in any given circumstance, before any further action
-   is taken, the matter should be taken up with the responsible area
+   is taken, the matter SHALL be taken up with the responsible area
    director(s) for resolution, and, when more than one area is involved,
    with the IESG.
 
@@ -312,7 +316,7 @@ Table of Contents
    such cases, and the group management should respect the moderators'
    task of upholding an overall IETF-wide uniformity for moderation.
 
-2.3.  Operations of the Moderator Team and Transparency
+4.  Operations and Procedures of the Moderator Team and Transparency
 
    Within the bounds of the policies set within this memo and with the
    approval of the IESG, the moderator team SHALL define any additional
@@ -333,7 +337,8 @@ Table of Contents
    *  Temporary or permanent bans in one or more fora.
 
    We stress that these are only examples, and not in any way
-   prescriptive.  The moderator team is free to decide on these actions.
+   prescriptive.  The moderator team is free to decide on these or other
+   actions.
 
    The expectation is that the minimal action necessary to maintain the
    comity of a forum will be attempted.
@@ -342,21 +347,16 @@ Table of Contents
    or designate a forum to facilitate discussion about moderation, and
    refer interested parties to that forum.  All actions taken by the
    moderator team SHALL be reported to the IESG, as well as to those
-   against whom those actions are directed.  All bans longer than
-   fourteen (14) days SHALL be reported to the forum in which the person
-   was banned, and in the case of a ban that spans more than one forum,
-   to the community in a manner decided by the IESG.
+   against whom those actions are directed.  To address inappropriate
+   contributions in a timely manner, only bans longer than fourteen (14)
+   days SHALL be reported to the forum in which the person was banned,
+   and in the case of a ban that spans more than one forum, to the
+   community in a manner decided by the IESG.
 
    Content removal or redaction from IETF archives are not moderation
    actions, and are therefore beyond the scope of this memo.
 
-2.4.  Training
-
-   The IETF is committed to providing and/or funding training for
-   appointed moderators as necessary.  The IESG will negotiate any
-   required funding or resources with IETF Administration LLC [RFC8711].
-
-2.5.  Appeals
+4.1.  Appeals
 
    Because the moderator team serves at the discretion of the IESG, any
    moderation decision can be appealed to the IESG by anyone, per
@@ -365,7 +365,7 @@ Table of Contents
    resolution, a decision by the IESG can be appealed to the IAB as
    described in [RFC2026].
 
-2.6.  Reinstatement
+4.2.  Reinstatement
 
    People and circumstances change.  Individuals who have been banned
    from a forum may request to be reinstated.  That request must be
@@ -381,7 +381,9 @@ Table of Contents
    accordance with the processes in place at the time of the ban, even
    if the corresponding RFC has been formally obsoleted.
 
-2.7.  Relation to the Ombudsteam
+5.  Relationship to other IETF functions
+
+5.1.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -395,7 +397,7 @@ Table of Contents
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
 
-2.8.  Relation to the IETF LLC
+5.2.  Relation to the IETF LLC
 
    The Board of Directors of the IETF Administration LLC (IETF LLC) has
    fiduciary duty for the overall organization, which includes the duty
@@ -434,7 +436,7 @@ Table of Contents
    Any such action taken by the IETF LLC under this section of this
    policy, is not subject to the rest of the policy in this document.
 
-2.9.  Relation to the IRTF
+5.3.  Relation to the IRTF
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
@@ -442,7 +444,7 @@ Table of Contents
    [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
    the IRTF and moderation of IRTF participation channels.
 
-3.  Changes to Existing RFCs
+6.  Changes to Existing RFCs
 
    Creation of the IETF moderator team requires some changes to existing
    RFCs and also requires the IESG to update a number of their
@@ -450,24 +452,24 @@ Table of Contents
 
       |  TODO: Add once we know this I-D will go forward in some form.
 
-4.  Security Considerations
+7.  Security Considerations
 
    The usual security considerations [RFC3552] do not apply to this
    document.
 
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
-   process, per Section 2.5.
+   process, per Section 4.1.
 
    The actions of the moderator team are intended to limit the
    likelihood of disruptive behavior by a few IETF participants from
    discouraging participation by other IETF participants.
 
-5.  IANA Considerations
+8.  IANA Considerations
 
    This document has no IANA actions.
 
-6.  Acknowledgments
+9.  Acknowledgments
 
    This document is based on two individual Internet-Drafts, draft-
    ecahc-moderation (https://datatracker.ietf.org/doc/draft-ecahc-
@@ -502,9 +504,9 @@ Table of Contents
 
    *  Brian Carpenter
 
-7.  References
+10.  References
 
-7.1.  Normative References
+10.1.  Normative References
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -527,7 +529,7 @@ Table of Contents
               BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
               <https://www.rfc-editor.org/rfc/rfc8711>.
 
-7.2.  Informative References
+10.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
               <<https://www.ietf.org/about/groups/iesg/statements/anti-
@@ -578,6 +580,9 @@ Appendix A.  Changes
       |  RFC Editor: Please remove this appendix before publication.
 
 A.1.  Since draft-ietf-modpod-group-processes-02
+
+   *  Address issue 113 (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/116)
 
    *  Rewrite philosophy (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/103)
