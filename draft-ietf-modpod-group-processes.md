@@ -258,16 +258,18 @@ Group participants MAY and chairs
 MUST alert the moderators to problematic behavior that rises to the
 level that some action is needed.
 
-Moderators MAY take actions against
+In the interest of timely and consistent moderation,
+moderators MAY take actions against
 someone in a working group setting, but they MUST immediately inform
 management of relevant groups, including WG chairs and area directors,
 when they do so.
 
-If working group management and moderators have a disagreement about
-how to proceed in any given circumstance, before any further action is
-taken, the matter SHALL be taken up with the responsible area
+If working group management and moderators disagree about
+a group moderation action taken by one party unilaterally,
+the matter SHALL be taken up with the responsible area
 director(s) for resolution, and, when more than one area is involved,
-with the IESG.
+with the IESG. Based on the result of this consultation, the moderation
+action may be upheld, modified or reverted.
 
 It is anticipated that such disagreements will be exceedingly rare.
 The moderators should respect the views of the group management
@@ -327,7 +329,7 @@ People and circumstances change.  Individuals who have been banned
 from a forum may request reinstatement.  Any such request must be
 directed to the entity that made the decision (e.g., moderation team,
 working group chairs, etc.) or their successors, and that party may - at
-their discretion -
+their discretion - 
 reinstate someone, conditionally or unconditionally.  Decisions to
 not reinstate someone may not be appealed.  Requests for reinstatement
 may be entertained only a year after the initial decision, and then
