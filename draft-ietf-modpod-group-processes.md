@@ -406,15 +406,6 @@ set or rules and processes. {{Sections 3, 6 and 7 of
 ?I-D.perkins-irtf-code-of-conduct}} discuss rules for participating
 in the IRTF and moderation of IRTF participation channels.
 
-# Changes to Existing RFCs
-
-Creation of the IETF moderator team requires some changes to existing
-RFCs and also requires the IESG to update a number of their
-statements. This section describes these changes.
-
-{:aside}
-> TODO: Add once we know this I-D will go forward in some form.
-
 # Security Considerations
 
 The usual security considerations {{?RFC3552}} do not apply to this
