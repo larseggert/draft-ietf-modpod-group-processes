@@ -203,7 +203,14 @@ Team diversity is also important to ensure any participant observing
 problematic behavior can identify a moderator they feel comfortable
 contacting.
 
-## Scope
+## Training
+
+The IETF is committed to providing and/or funding training for
+appointed moderators as necessary. The IESG will negotiate any
+required funding or resources with IETF Administration LLC
+{{?RFC8711}}.
+
+# Scope
 
 The IETF moderator team is responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
@@ -232,7 +239,7 @@ chairs or other community leadership, so the moderators MUST handle those.)
 Moderators are expected to be a resource that the community can use
 to address problematic contributions.
 
-### Non-IETF Communication Channels And Private Communications Excluded
+## Non-IETF Communication Channels And Private Communications Excluded
 
 It is important to note that the moderator team only
 moderates *public* IETF participation channels. Their mandate does
@@ -241,7 +248,7 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-### IETF Working Groups
+## IETF Working Groups
 
 The management and moderation of participation channels associated
 with various IETF working groups, including their mailing lists, chat
@@ -268,7 +275,7 @@ in such cases, and the group management should respect the moderators'
 task of upholding an overall IETF-wide uniformity for
 moderation.
 
-## Operations of the Moderator Team and Transparency
+# Operations and Procedures of the Moderator Team and Transparency
 
 Within the bounds of the policies set within this memo and with the
 approval of the IESG, the moderator team SHALL define any additional
@@ -286,7 +293,8 @@ actions that could be taken include:
 - Temporary or permanent bans in one or more fora.
 
 We stress that these are only examples, and not in any way
-prescriptive. The moderator team is free to decide on these actions.
+prescriptive. The moderator team is free to decide on these or other
+actions.
 
 The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
@@ -303,13 +311,6 @@ than one forum, to the community in a manner decided by the IESG.
 
 Content removal or redaction from IETF archives are not moderation
 actions, and are therefore beyond the scope of this memo.
-
-## Training
-
-The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IESG will negotiate any
-required funding or resources with IETF Administration LLC
-{{?RFC8711}}.
 
 ## Appeals {#appeals}
 
@@ -335,6 +336,8 @@ only annually.
 A ban imposed prior to this process shall be reconsidered only in
 accordance with the processes in place at the time of the ban,
 even if the corresponding RFC has been formally obsoleted.
+
+# Relationship to other IETF functions
 
 ## Relation to the Ombudsteam
 
