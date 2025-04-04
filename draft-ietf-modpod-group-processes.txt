@@ -219,7 +219,7 @@ Table of Contents
    The moderator team consists of no less than five individuals.  The
    IESG appoints and replaces moderators.  In selecting members, the
    IESG will take into account geographic coverage, expected and
-   unexpected absenses, and team diversity.  The moderator team may
+   unexpected absences, and team diversity.  The moderator team may
    expand or contract based on operational experience.  Apart from
    appointing and replacing moderators, the IESG SHALL refrain from the
    day-to-day operation and management of the moderator team.  The
@@ -301,15 +301,17 @@ Table of Contents
    participants MAY and chairs MUST alert the moderators to problematic
    behavior that rises to the level that some action is needed.
 
-   Moderators MAY take actions against someone in a working group
-   setting, but they MUST immediately inform management of relevant
-   groups, including WG chairs and area directors, when they do so.
+   In the interest of timely and consistent moderation, moderators MAY
+   take actions against someone in a working group setting, but they
+   MUST immediately inform management of relevant groups, including WG
+   chairs and area directors, when they do so.
 
-   If working group management and moderators have a disagreement about
-   how to proceed in any given circumstance, before any further action
-   is taken, the matter SHALL be taken up with the responsible area
-   director(s) for resolution, and, when more than one area is involved,
-   with the IESG.
+   If working group management and moderators disagree about a group
+   moderation action taken by one party unilaterally, the matter SHALL
+   be taken up with the responsible area director(s) for resolution,
+   and, when more than one area is involved, with the IESG.  Based on
+   the result of this consultation, the moderation action may be upheld,
+   modified or reverted.
 
    It is anticipated that such disagreements will be exceedingly rare.
    The moderators should respect the views of the group management in
@@ -370,7 +372,7 @@ Table of Contents
    People and circumstances change.  Individuals who have been banned
    from a forum may request to be reinstated.  That request must be
    directed to the entity that made the decision (e.g., moderation team,
-   working group chair, etc) or their successors, and that party may at
+   working group chair, etc.) or their successors, and that party may at
    their discretion reinstate someone, conditionally or unconditionally.
    Decisions to not reinstate someone may not be appealed.  Requests for
    reinstatement may be entertained only a year after the initial
