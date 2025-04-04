@@ -8,6 +8,8 @@ number:
 date:
 consensus: true
 v: 3
+obsoletes: 3683, 9245
+updates: 2418
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/draft-ietf-modpod-group-processes
@@ -80,6 +82,12 @@ This document proposes the creation of a moderator team for all the
 IETF's various contribution channels. The moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
+
+As a consequence, this document obsoletes {{!RFC3683}} and the "posting rights"
+(PR) action it defines. It also obsoletes {{Section 4 of !RFC9245}}, which
+defines the IETF discussion list moderation team. Finally, it updates {{Section
+6.1 of !RFC2418}}, because the moderator team will now work together with
+working group chairs to moderate disruptive behavior.
 
 ## Background {#background}
 
@@ -400,15 +408,6 @@ set or rules and processes. {{Sections 3, 6 and 7 of
 ?I-D.perkins-irtf-code-of-conduct}} discuss rules for participating
 in the IRTF and moderation of IRTF participation channels.
 
-# Changes to Existing RFCs
-
-Creation of the IETF moderator team requires some changes to existing
-RFCs and also requires the IESG to update a number of their
-statements. This section describes these changes.
-
-{:aside}
-> TODO: Add once we know this I-D will go forward in some form.
-
 # Security Considerations
 
 The usual security considerations {{?RFC3552}} do not apply to this
@@ -460,6 +459,8 @@ These individuals suggested additional improvements to this document:
 
 ## Since draft-ietf-modpod-group-processes-02
 
+- [Say which RFCs this obsoletes and updates.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105
+)
 - [Address issue 113](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/116)
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
 - [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
