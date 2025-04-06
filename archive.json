@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-03T00:23:17.719263+00:00",
+  "timestamp": "2025-04-06T00:25:31.866468+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1985,7 +1985,7 @@
       "id": "I_kwDOJrr8CM6wUrVV",
       "title": "Editorial: Section 2 should be split",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/115",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -1996,8 +1996,8 @@
       ],
       "body": "**Proposal**\n\nThe current TOC of the document is as follows:\n\n1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.1.  Background  . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.2.  General Philosophy  . . . . . . . . . . . . . . . . . . .   4\n     1.3.  Conventions and Definitions . . . . . . . . . . . . . . .   5\n   2.  IETF Moderator Team . . . . . . . . . . . . . . . . . . . . .   5\n     2.1.  Composition . . . . . . . . . . . . . . . . . . . . . . .   5\n       2.1.1.  Team Diversity  . . . . . . . . . . . . . . . . . . .   5\n     2.2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . .   6\n       2.2.1.  Non-IETF Communication Channels And Private\n               Communications Excluded . . . . . . . . . . . . . . .   6\n       2.2.2.  IETF Working Groups . . . . . . . . . . . . . . . . .   7\n     2.3.  Operations of the Moderator Team and Transparency . . . .   7\n     2.4.  Training  . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.5.  Appeals . . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.6.  Reinstatement . . . . . . . . . . . . . . . . . . . . . .   8\n     2.7.  Relation to the Ombudsteam  . . . . . . . . . . . . . . .   9\n     2.8.  Relation to the IETF LLC  . . . . . . . . . . . . . . . .   9\n     2.9.  Relation to the IRTF  . . . . . . . . . . . . . . . . . .  10\n\n\n**Describe the solution you'd like**\n\nLogically, there is the moderator team and there are the moderation processes, and a few other things.\n\nMy suggestion:\n\nSections 2, 2.1, 2.2, 2.7, 2.8, and 2.9 are about the team composition and scope.  Let's combine them into a single section (presumably 2).  Section 2.3, 2.5, and 2.6 are about process.  They should be combined into a single section (presumably 2bis/3).  This leaves Section 2.4.  It can reside either in the Section 2 or remain on its own.\n\n\n**Describe alternatives you've considered**\nOptional: A clear and concise description of any alternatives you've considered.\n\n**Additional context**\nAdd any other context or screenshots about the feature request here.\n",
       "createdAt": "2025-03-29T16:26:10Z",
-      "updatedAt": "2025-03-31T05:22:59Z",
-      "closedAt": null,
+      "updatedAt": "2025-04-04T05:51:22Z",
+      "closedAt": "2025-04-04T05:51:22Z",
       "comments": [
         {
           "author": "larseggert",
@@ -2005,6 +2005,13 @@
           "body": "SGTM. I could also see 2.7-2.9 go into a new \"Relations\" section.",
           "createdAt": "2025-03-31T05:22:58Z",
           "updatedAt": "2025-03-31T05:22:58Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert I propose that you approve this one and push a new version.  Then we fine tune from there.",
+          "createdAt": "2025-04-03T14:39:15Z",
+          "updatedAt": "2025-04-03T14:39:15Z"
         }
       ]
     }
@@ -4663,7 +4670,7 @@
       ],
       "body": "gets defined in this memo.\r\n\r\nCloses #68.",
       "createdAt": "2024-12-30T09:14:07Z",
-      "updatedAt": "2025-01-20T12:09:42Z",
+      "updatedAt": "2025-04-04T11:56:01Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a585ff25b9394fb884e584a74e9c431c5ddb6d13",
@@ -5115,7 +5122,7 @@
       ],
       "body": "Attempts to strike a balance of powers, but is explicit.  Separates composition and scope.\r\n\r\nCloses #71.",
       "createdAt": "2024-12-30T15:20:03Z",
-      "updatedAt": "2025-01-20T12:09:53Z",
+      "updatedAt": "2025-04-04T11:56:01Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7dfd3e57a858997a300e5fada6e672152736fb84",
@@ -5983,7 +5990,7 @@
       ],
       "body": "",
       "createdAt": "2024-12-31T18:45:55Z",
-      "updatedAt": "2025-01-20T12:09:43Z",
+      "updatedAt": "2025-04-04T11:56:01Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "a75793eda2fe3db371dbe3b95bde2a0949bbdd24",
@@ -6186,7 +6193,7 @@
       ],
       "body": "",
       "createdAt": "2025-01-14T08:30:47Z",
-      "updatedAt": "2025-01-20T12:09:44Z",
+      "updatedAt": "2025-04-04T11:56:02Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7efeb52e9ad434a82a6e2d2194a564541508ac58",
@@ -6216,7 +6223,7 @@
       ],
       "body": "Sorry to be a pain.\r\n\r\n- \"Robert\" has more variations than you might expect, and I don't mind any of them. But there should only be one in the same document.\r\n\r\n- It's weird to start a sentence with a URL.",
       "createdAt": "2025-01-19T21:47:15Z",
-      "updatedAt": "2025-01-20T15:15:22Z",
+      "updatedAt": "2025-04-04T11:56:02Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "289b41549994568c5cd9afa726ec76043b9da758",
@@ -6286,7 +6293,7 @@
       ],
       "body": "- `moderation team` -> `moderator team` for consistency\r\n- fix misspellings\r\n\r\nNo content changes.",
       "createdAt": "2025-01-20T06:52:14Z",
-      "updatedAt": "2025-01-20T15:15:23Z",
+      "updatedAt": "2025-04-04T11:56:02Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "08b22cd3994812498063405f0424477b7dc08549",
@@ -6358,7 +6365,7 @@
       ],
       "body": "",
       "createdAt": "2025-01-20T21:21:30Z",
-      "updatedAt": "2025-01-22T07:19:17Z",
+      "updatedAt": "2025-04-04T11:56:02Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
@@ -6463,7 +6470,7 @@
       ],
       "body": "report actions to those impacted.",
       "createdAt": "2025-01-20T22:24:39Z",
-      "updatedAt": "2025-01-29T10:56:40Z",
+      "updatedAt": "2025-04-04T11:56:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ed9c65ba993d4eb43ff94550b21e51af0faf0c7b",
@@ -6762,7 +6769,7 @@
       ],
       "body": "Updated this section as follows:\r\n* Noted that this is for serious legal risk only.\r\n* Removed list of types of behaviour that may trigger this as unnecessarily narrowing the scope.\r\n* Noted expectation that the IETF LLC only acts when it has received legal advice that such action is *necessary*.\r\n* Provided examples of when such an action is needed\r\n* Added requirement for the IETF LLC to update the IESG as much as it is legally able to do.\r\n* Replaced any mention of this being a temporary action that the moderation team then decides on as, by definition, this is an action that the IETF LLC has to take to protect the organization according to its fiduciary duty and that cannot be overridden by the moderation team.\r\n\r\nI will also take this to the list.",
       "createdAt": "2025-01-20T22:40:03Z",
-      "updatedAt": "2025-02-03T07:11:29Z",
+      "updatedAt": "2025-04-04T11:56:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3d57a27f7d2915ab14006f2a8e757ceed0d455c7",
@@ -7083,7 +7090,7 @@
       ],
       "body": "title says it all",
       "createdAt": "2025-01-21T14:57:10Z",
-      "updatedAt": "2025-01-29T10:56:34Z",
+      "updatedAt": "2025-04-04T11:56:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "0cc5fdf241c95feb2d1d2bea48fe23cfd35d5c00",
@@ -7127,7 +7134,7 @@
       ],
       "body": "Fixes #63\r\n\r\nCC @csperkins",
       "createdAt": "2025-01-24T06:29:47Z",
-      "updatedAt": "2025-01-30T10:03:51Z",
+      "updatedAt": "2025-04-04T11:56:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "b14247fd578015128e12ebe1ca5a23eccf8b13ec",
@@ -7161,12 +7168,11 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-review",
-        "editorial"
+        "completed"
       ],
       "body": "",
       "createdAt": "2025-01-24T06:34:51Z",
-      "updatedAt": "2025-01-29T14:02:05Z",
+      "updatedAt": "2025-04-04T11:56:04Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "b14247fd578015128e12ebe1ca5a23eccf8b13ec",
@@ -7196,7 +7202,7 @@
       ],
       "body": "The motivation section was too long and addresses the wrong audience.  Get that out of the way so that people who need to get to the normative part can do so with a clear understanding of the goals.",
       "createdAt": "2025-01-29T11:00:23Z",
-      "updatedAt": "2025-01-29T21:41:58Z",
+      "updatedAt": "2025-04-04T11:56:04Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "0a10e64a826c2692e5fa08348f7bbdf1d01a2234",
@@ -7404,7 +7410,7 @@
       ],
       "body": "Not quite the language Robert used, but hopefully explanatory.\r\n\r\nCloses #81\r\nCloses #82",
       "createdAt": "2025-01-29T21:46:34Z",
-      "updatedAt": "2025-02-27T05:12:08Z",
+      "updatedAt": "2025-04-04T11:56:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "6d7a2e12c8539032366025452ef47bdcf5b2a2ab",
@@ -7496,7 +7502,7 @@
       ],
       "body": "This was supposed to be in #82, but I screwed that up by misreading the conflict the rebase was having. I couldn't tell if what I had in #82 was wanted, or just #100.",
       "createdAt": "2025-01-30T19:13:23Z",
-      "updatedAt": "2025-01-31T06:24:07Z",
+      "updatedAt": "2025-04-04T11:56:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "77ddf9f9162076192345ca9dbe7fcc8091283e4c",
@@ -7549,11 +7555,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "finalize-pr"
+        "completed"
       ],
       "body": "Closes #102.  I've taken a whack at trying to reduce the duplication, while at the same time trying to summarize additional views we've seen on the mailing list.  In particular, I want to point out that the moderation team is not intended to exist in order to either (a) punish individuals or (b) exclude people on the basis of their views.\r\n\r\nBut I might have gotten it wrong.  Feel free to edit away or tell me that this is rubbish.",
       "createdAt": "2025-02-03T12:30:07Z",
-      "updatedAt": "2025-02-27T05:12:06Z",
+      "updatedAt": "2025-04-04T11:56:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5acbbb7ab2ec8ec052bdd7de00a03f3481a0df54",
@@ -7714,18 +7720,26 @@
       ],
       "body": "Any missing?",
       "createdAt": "2025-02-10T14:54:55Z",
-      "updatedAt": "2025-02-22T18:16:13Z",
+      "updatedAt": "2025-04-04T06:23:10Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
+      "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "feat-obsoletes-and-updates",
-      "headRefOid": "fb5e78a791eda1c7a277e4e56d0c55f123f8b107",
+      "headRefOid": "a0b1c260c04ae6a47957c4d6776ce6b8adf8151c",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "OK to merge?",
+          "createdAt": "2025-04-04T05:53:00Z",
+          "updatedAt": "2025-04-04T05:53:00Z"
+        }
+      ],
       "reviews": []
     },
     {
@@ -7738,11 +7752,11 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "editorial"
+        "completed"
       ],
       "body": "We didn't make new subsections in the changelog when we published new revisions.",
       "createdAt": "2025-02-10T14:59:16Z",
-      "updatedAt": "2025-02-11T15:53:23Z",
+      "updatedAt": "2025-04-04T11:56:06Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "10ee1a88abbdd2134611c511b8d2028f50de36da",
@@ -7786,7 +7800,7 @@
       ],
       "body": "Closes Issue 70\r\nCloses Issue 72\r\n",
       "createdAt": "2025-02-20T18:13:17Z",
-      "updatedAt": "2025-02-27T05:12:01Z",
+      "updatedAt": "2025-04-04T11:56:06Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8f2b8d5ec223262909e95ac61405c2fcdc45d0da",
@@ -7890,11 +7904,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "editorial"
+        "completed"
       ],
       "body": "This just replaces the term \"broad ban\" with something more specific.  It is editorial.\r\n\r\nFixes #93 \r\n",
       "createdAt": "2025-02-26T18:09:56Z",
-      "updatedAt": "2025-02-26T18:20:02Z",
+      "updatedAt": "2025-04-04T11:56:07Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3248f8f317010d2f4a98a0cc0ae453fb236b7d5d",
@@ -7933,10 +7947,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Closes #96 ",
       "createdAt": "2025-02-27T05:24:41Z",
-      "updatedAt": "2025-02-27T21:23:02Z",
+      "updatedAt": "2025-04-04T11:56:07Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "4c063ecdfab6242ece8b748f286d3c4bfcc62e5d",
@@ -8128,13 +8144,13 @@
       ],
       "body": "From @becarpenter in https://mailarchive.ietf.org/arch/msg/mod-discuss/kfFHaz8VYFJf0DaJTWpJN5TJWvA",
       "createdAt": "2025-03-04T08:15:50Z",
-      "updatedAt": "2025-03-20T02:28:00Z",
+      "updatedAt": "2025-04-04T19:43:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
+      "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "becarpenter-appeal-reinstatement",
-      "headRefOid": "8f452804029e21274cbed370c57d5d22df475ff9",
+      "headRefOid": "ed5769664444ef57194c3395d42f56fe9ac0c57d",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8188,6 +8204,20 @@
           "body": "> I certainly agree that if we don't say appeals are not allowed, we don't need to say anything.\r\n\r\nWell, I was going for \"you can appeal anything, but not every week for a year\". I think it's better to state it this way, so it's clear you are wasting your time. If someone said something crappy a few years ago, that's not grounds for a lifetime ban, but it is also not cool to hear from them every week hammering on the same issue. That is abuse.",
           "createdAt": "2025-03-04T22:22:52Z",
           "updatedAt": "2025-03-04T22:27:07Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I owe a reword on this one.",
+          "createdAt": "2025-04-04T14:12:02Z",
+          "updatedAt": "2025-04-04T14:12:02Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@elear, I think you need to touch section 2.5 \"Appeals\" as well, since it says \"_any_ moderation decision can be appealed to the IESG\". We can't just cancel that in the very next paragraph. Perhaps we need to narrow the grounds of appeal somehow? We obviously want to prevent vexatious and repetitious appeals, but we need to allow appeals on the grounds of unfairness. This is very tricky to get right.",
+          "createdAt": "2025-04-04T19:43:30Z",
+          "updatedAt": "2025-04-04T19:43:30Z"
         }
       ],
       "reviews": [
@@ -8227,13 +8257,13 @@
       ],
       "body": "Suggestion from an IETF participant at 112.",
       "createdAt": "2025-03-18T10:56:25Z",
-      "updatedAt": "2025-03-20T21:03:42Z",
+      "updatedAt": "2025-04-04T05:51:46Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
+      "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "circumvention-is-bad-faith",
-      "headRefOid": "717381944dd0bebe9a5f3ec00f5eef7f7a44e441",
+      "headRefOid": "9b7d3d852d44ed7c56259b674ccce0b4d77e3cf1",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8272,14 +8302,14 @@
         {
           "id": "PRR_kwDOJrr8CM6hLV55",
           "commit": {
-            "abbreviatedOid": "7173819"
+            "abbreviatedOid": "9b7d3d8"
           },
           "author": "elear",
           "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "",
           "createdAt": "2025-03-20T21:02:58Z",
-          "updatedAt": "2025-03-20T21:02:58Z",
+          "updatedAt": "2025-04-04T05:51:46Z",
           "comments": []
         }
       ]
@@ -8294,12 +8324,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-review",
-        "editorial"
+        "completed"
       ],
       "body": "When is a moderator going to take an action unnecessarily?  So that there are no misunderstandings, if a moderator DOES take an action, make clear that they inform\r\nthe right people immediately.",
       "createdAt": "2025-03-29T15:52:38Z",
-      "updatedAt": "2025-03-30T08:36:47Z",
+      "updatedAt": "2025-04-04T11:56:08Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "42de6c32861fd0211e99e6dd4bcf802cad7f9f63",
@@ -8338,10 +8367,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Move consultant text to scope.\r\nExplain 14 day rule.\r\n\r\nCloses #113 ",
       "createdAt": "2025-03-30T09:09:45Z",
-      "updatedAt": "2025-04-02T08:14:14Z",
+      "updatedAt": "2025-04-04T11:56:08Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "f60982c6a489666e809e9707b186636484791631",
@@ -8471,29 +8502,132 @@
       "id": "PR_kwDOJrr8CM6RHqQ8",
       "title": "Add major sections (Editorial)",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/117",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion",
-        "editorial"
+        "completed"
       ],
       "body": "Create some major sections based on logical separations.  No substantial text changes.\r\n\r\nCloses #115.",
       "createdAt": "2025-04-02T16:19:47Z",
-      "updatedAt": "2025-04-02T16:26:05Z",
+      "updatedAt": "2025-04-04T11:56:09Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "14164be74488b9ffa98a7fe3318e6f6672843c90",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "restructure",
       "headRefOid": "5e4c25a343491b39364dc5bf00519741f88ed5c0",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-04-04T05:51:22Z",
+      "mergedAt": "2025-04-04T05:51:21Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "3525240d2b9806bb8a534da07f9b511a5274373a"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6jbS7J",
+          "commit": {
+            "abbreviatedOid": "5e4c25a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-04-04T05:51:15Z",
+          "updatedAt": "2025-04-04T05:51:15Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "id": "PR_kwDOJrr8CM6RWqqS",
+      "title": "feat: Clarify moderator-chair collaboration",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/118",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "completed"
+      ],
+      "body": "Each side can take action if needed, resolve disagreements and adjust moderation action after.\r\n\r\n(Also fix two typos.)",
+      "createdAt": "2025-04-04T06:04:23Z",
+      "updatedAt": "2025-04-04T11:56:09Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "mod-mgmt",
+      "headRefOid": "480c1604a567675b356136bf344cb55e072d5213",
+      "closedAt": "2025-04-04T10:09:43Z",
+      "mergedAt": "2025-04-04T10:09:43Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "7de1a5ebe45b912f6f1b9dd59f0ce738733990b4"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6jdSdQ",
+          "commit": {
+            "abbreviatedOid": "480c160"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-04-04T09:26:07Z",
+          "updatedAt": "2025-04-04T09:26:07Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "id": "PR_kwDOJrr8CM6RWwKt",
+      "title": "fix: Some nits",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/119",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "completed"
+      ],
+      "body": "",
+      "createdAt": "2025-04-04T06:21:40Z",
+      "updatedAt": "2025-04-04T11:56:10Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "7de1a5ebe45b912f6f1b9dd59f0ce738733990b4",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "fix-nits",
+      "headRefOid": "9db5a4bcfe319ec49250fd375cd4cfb345183483",
+      "closedAt": "2025-04-04T11:55:28Z",
+      "mergedAt": "2025-04-04T11:55:28Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "d320d95aa28cf508769e565c0698b93aa98aac82"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6jdRNR",
+          "commit": {
+            "abbreviatedOid": "dd45c93"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-04-04T09:24:32Z",
+          "updatedAt": "2025-04-04T09:24:32Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
