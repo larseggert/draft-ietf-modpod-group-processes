@@ -77,14 +77,14 @@ collaboration.
 # Introduction
 
 This document proposes the creation of a moderator team for all the
-IETF's various contribution channels. This moderator team is modeled
+IETF's various contribution channels. The moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
-{{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.
+{{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
 
 ## Background {#background}
 
-The IETF community has defined general guidelines of conduct for
-personal interaction in the IETF {{?RFC7154}}, and the IESG has
+The IETF community has defined general guidelines for
+personal interactions in the IETF {{?RFC7154}}, and the IESG has
 defined an anti-harassment policy for the IETF {{AHP}} for which the IETF
 community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
@@ -126,6 +126,7 @@ existing processes is necessary (see {{motive}}).
 The cornerstone of our philosophy is first and foremost the individual, whose
 responsibility is to further the goals of the organization {{!RFC3935}} in a
 manner consistent with the policy laid out in {{!RFC7154}}.
+
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered abuse,
 nor should someone be considered abusive solely because they are outside the rough
@@ -175,7 +176,7 @@ in the previous model {{motive}} and the principles described in the introductio
 The moderator team consists of no less than five
 individuals.  The IESG appoints and replaces moderators.
 In selecting members, the IESG will take into
-account geographic coverage, expected and unexpected absenses, and
+account geographic coverage, expected and unexpected absences, and
 team diversity.  The moderator team may expand or contract
 based on operational experience.  Apart from appointing and replacing
 moderators, the IESG SHALL refrain from the day-to-day operation
@@ -222,8 +223,7 @@ The moderators are authorized to moderate all non-working group
 fora, including the IETF discussion and last-call mailing lists
 and all non-WG mailing lists, as well as area mailing lists.  This
 also includes non-WG IETF-sponsored chat mechanisms.
-
-Interactions with WGs are discussed below.
+(Involvement in the moderation of WGs is further discussed in {{wg-mod}}.)
 
 It is not expected that the moderators will be monitoring every
 IETF channel, but rather that participants MAY and group management SHOULD flag
@@ -248,7 +248,7 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-## IETF Working Groups
+## IETF Working Groups {#wg-mod}
 
 The management and moderation of participation channels associated
 with various IETF working groups, including their mailing lists, chat
@@ -258,16 +258,18 @@ Group participants MAY and chairs
 MUST alert the moderators to problematic behavior that rises to the
 level that some action is needed.
 
-Moderators MAY take actions against
+In the interest of timely and consistent moderation,
+moderators MAY take actions against
 someone in a working group setting, but they MUST immediately inform
 management of relevant groups, including WG chairs and area directors,
 when they do so.
 
-If working group management and moderators have a disagreement about
-how to proceed in any given circumstance, before any further action is
-taken, the matter SHALL be taken up with the responsible area
+If working group management and moderators disagree about
+a group moderation action taken by one party unilaterally,
+the matter SHALL be taken up with the responsible area
 director(s) for resolution, and, when more than one area is involved,
-with the IESG.
+with the IESG. Based on the result of this consultation, the moderation
+action may be upheld, modified or reverted.
 
 It is anticipated that such disagreements will be exceedingly rare.
 The moderators should respect the views of the group management
@@ -327,10 +329,10 @@ decision by the IESG can be appealed to the IAB as described in
 ## Reinstatement
 
 People and circumstances change.  Individuals who have been banned
-from a forum may request to be reinstated.  That request must be
+from a forum may request reinstatement.  Any such request must be
 directed to the entity that made the decision (e.g., moderation team,
-working group chair, etc) or their successors, and that party may at
-their discretion
+working group chairs, etc.) or their successors, and that party may - at
+their discretion -
 reinstate someone, conditionally or unconditionally.  Decisions to
 not reinstate someone may not be appealed.  Requests for reinstatement
 may be entertained only a year after the initial decision, and then
