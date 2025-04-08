@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-06T00:25:31.866468+00:00",
+  "timestamp": "2025-04-08T00:23:18.751512+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -7716,11 +7716,11 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "finalize-pr"
       ],
       "body": "Any missing?",
       "createdAt": "2025-02-10T14:54:55Z",
-      "updatedAt": "2025-04-04T06:23:10Z",
+      "updatedAt": "2025-04-07T05:45:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
@@ -8140,11 +8140,11 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "finalize-pr"
       ],
       "body": "From @becarpenter in https://mailarchive.ietf.org/arch/msg/mod-discuss/kfFHaz8VYFJf0DaJTWpJN5TJWvA",
       "createdAt": "2025-03-04T08:15:50Z",
-      "updatedAt": "2025-04-04T19:43:31Z",
+      "updatedAt": "2025-04-07T05:45:24Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
@@ -8253,17 +8253,17 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "finalize-pr"
       ],
       "body": "Suggestion from an IETF participant at 112.",
       "createdAt": "2025-03-18T10:56:25Z",
-      "updatedAt": "2025-04-04T05:51:46Z",
+      "updatedAt": "2025-04-07T12:18:38Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
+      "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "circumvention-is-bad-faith",
-      "headRefOid": "9b7d3d852d44ed7c56259b674ccce0b4d77e3cf1",
+      "headRefOid": "61a1f166122a4bb73928618378440c72fb2c5247",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8296,20 +8296,34 @@
           "body": "I've approved the change, but I might check the list before merging.",
           "createdAt": "2025-03-20T21:03:41Z",
           "updatedAt": "2025-03-20T21:03:41Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Do we think this needs a changelog mention?",
+          "createdAt": "2025-04-07T05:41:32Z",
+          "updatedAt": "2025-04-07T05:41:32Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think we do, but I would also suggest that we incorporated text your proposed text or something similar.  I'm also thinking that it would be good to at least allude to additional sanctions, including notification to the community and other interested parties that such an attack took place.",
+          "createdAt": "2025-04-07T12:18:37Z",
+          "updatedAt": "2025-04-07T12:18:37Z"
         }
       ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM6hLV55",
           "commit": {
-            "abbreviatedOid": "9b7d3d8"
+            "abbreviatedOid": "61a1f16"
           },
           "author": "elear",
           "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "",
           "createdAt": "2025-03-20T21:02:58Z",
-          "updatedAt": "2025-04-04T05:51:46Z",
+          "updatedAt": "2025-04-06T13:15:37Z",
           "comments": []
         }
       ]
