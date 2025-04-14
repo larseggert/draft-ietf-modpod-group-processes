@@ -153,17 +153,6 @@ The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their position or past contributions.
 
-## Conventions and Definitions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-document are to be interpreted in their normal English sense; they are shown
-in uppercase for emphasis and clarity.
-
-{:aside}
-> TODO: Get feedback from the community whether this redefinition of BCP14
-> terms in process documents is something they support.
-
 # IETF Moderator Team
 
 This document proposes a different, uniform approach to moderating the
@@ -179,23 +168,23 @@ In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absences, and
 team diversity.  The moderator team may expand or contract
 based on operational experience.  Apart from appointing and replacing
-moderators, the IESG SHALL refrain from the day-to-day operation
-and management of the moderator team. The moderators MAY decide to
+moderators, the IESG shall refrain from the day-to-day operation
+and management of the moderator team. The moderators may decide to
 consult with the IESG when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IESG MUST NOT appoint a
+decisions (see {{appeals}}), the IESG must not appoint a
 moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
-Trust or the LLC Board, as well as LLC staff and contractors SHALL
+Trust or the LLC Board, as well as LLC staff and contractors shall
 also be excluded from serving on the moderator team. If a moderator
-is assuming any such role, they SHALL step down from the moderator team
+is assuming any such role, they shall step down from the moderator team
 soon after.
 
 ### Team Diversity
 
 Due to the global nature of the IETF, the membership of this team
-SHOULD reflect a diversity of time zones and other participant
+should reflect a diversity of time zones and other participant
 characteristics that lets it operate effectively around the clock and
 throughout the year. Ideally, the moderators should be able to
 respond to issues within a few hours.
@@ -226,15 +215,15 @@ also includes non-WG IETF-sponsored chat mechanisms.
 (Involvement in the moderation of WGs is further discussed in {{wg-mod}}.)
 
 It is not expected that the moderators will be monitoring every
-IETF channel, but rather that participants MAY and group management SHOULD flag
+IETF channel, but rather that participants may and group management should flag
 concerns about disruptive behavior to the moderators. However,
-the moderators SHOULD actively monitor a small set of key
+the moderators should actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
 and last-call mailing lists or the IETF plenary chat channel. The
 moderators should decide which channels are in this set based on
 their own judgment and community suggestions. (Note that some participation
 channels, such as the examples given in the previous sentence, have no
-chairs or other community leadership, so the moderators MUST handle those.)
+chairs or other community leadership, so the moderators must handle those.)
 
 Moderators are expected to be a resource that the community can use
 to address problematic contributions.
@@ -254,19 +243,19 @@ The management and moderation of participation channels associated
 with various IETF working groups, including their mailing lists, chat
 channels and in-person, remote, or interim meetings remains primarily a task of
 the relevant group's management, such as WG chairs.
-Group participants MAY and chairs
-MUST alert the moderators to problematic behavior that rises to the
+Group participants may and chairs
+must alert the moderators to problematic behavior that rises to the
 level that some action is needed.
 
 In the interest of timely and consistent moderation,
-moderators MAY take actions against
-someone in a working group setting, but they MUST immediately inform
+moderators may take actions against
+someone in a working group setting, but they must immediately inform
 management of relevant groups, including WG chairs and area directors,
 when they do so.
 
 If working group management and moderators disagree about
 a group moderation action taken by one party unilaterally,
-the matter SHALL be taken up with the responsible area
+the matter shall be taken up with the responsible area
 director(s) for resolution, and, when more than one area is involved,
 with the IESG. Based on the result of this consultation, the moderation
 action may be upheld, modified or reverted.
@@ -280,9 +269,9 @@ moderation.
 # Operations and Procedures of the Moderator Team and Transparency
 
 Within the bounds of the policies set within this memo and with the
-approval of the IESG, the moderator team SHALL define any additional
+approval of the IESG, the moderator team shall define any additional
 processes and moderation criteria necessary to execute their role.
-Those processes and criteria SHALL be developed with community input
+Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.
 
 The intent of this memo is to provide the widest possible freedom of
@@ -302,12 +291,12 @@ The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
 
 The moderator team is responsible to the IESG.  The IESG
-MAY create or designate a forum to facilitate discussion about
+may create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All actions
-taken by the moderator team SHALL be reported to the IESG,
+taken by the moderator team shall be reported to the IESG,
 as well as to those against whom those actions are directed.
 To address inappropriate contributions in a timely manner, only
-bans longer than fourteen (14) days SHALL be reported to the forum in
+bans longer than fourteen (14) days shall be reported to the forum in
 which the person was banned, and in the case of a ban that spans more
 than one forum, to the community in a manner decided by the IESG.
 
@@ -343,17 +332,17 @@ even if the corresponding RFC has been formally obsoleted.
 
 ## Relation to the Ombudsteam
 
-The moderator team SHALL complement the efforts of the IETF
+The moderator team shall complement the efforts of the IETF
 ombudsteam {{OT}}, whose focus on anti-harassment and operation
-SHALL remain unchanged. The moderator team and ombudsteam are
+shall remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
-do so in each case. For example, the ombudsteam MAY decide to have
+do so in each case. For example, the ombudsteam may decide to have
 one of their members serve as a liaison to the moderator team.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
-case overlaps with an ombudsteam case, confidential information MUST
-NOT be shared between the teams.
+case overlaps with an ombudsteam case, confidential information must
+not be shared between the teams.
 
 ## Relation to the IETF LLC
 
@@ -362,7 +351,7 @@ fiduciary duty for the overall organization, which includes the duty
 to protect the organization from serious legal risk that may arise
 from the behavior of IETF participants.
 
-This protection MAY include the need for the IETF LLC to take
+This protection may include the need for the IETF LLC to take
 emergency moderation actions. These emergency actions are expected to
 be taken only when the IETF LLC has received legal advice that such
 action is necessary, and therefore extremely rare in frequency. Some
@@ -376,11 +365,11 @@ examples of where this might be necessary are:
   interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
 
-If any such action is taken, the IETF LLC SHOULD, except where
+If any such action is taken, the IETF LLC should, except where
 limited by legal advice to the contrary, inform the IESG as soon as
 possible, providing full details of the subject of the action, nature
 of the action, reason for the action and expected duration. The IETF
-LLC SHOULD also inform the moderator team and IETF community, except
+LLC should also inform the moderator team and IETF community, except
 where it receives legal advice to the contrary.
 
 As such an action would be taken by the IETF LLC in order to protect
