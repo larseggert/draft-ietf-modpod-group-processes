@@ -532,3 +532,28 @@ ideal:
   systems, virtual meetings, wikis, GitHub repositories, and more.
   How disruptive behavior is moderated in these channels is currently
   undefined.
+
+# Starting Points {#starting}
+
+This appendix is informative.
+
+The list below describes some types of disruptive behavior, but it is non-exhaustive.
+
+  - unsolicited bulk e-mail;
+
+  - discussion of subjects unrelated to IETF policy, meetings,
+    activities, or technical concerns;
+
+  - unprofessional commentary, regardless of the general subject; and,
+
+  - announcements of conferences, events, or activities that are not
+    sponsored or endorsed by the Internet Society or IETF.
+
+  - repeatedly arguing counter to a WG charter that has been approved by the IESG.
+
+  - "sealioning", where a participant makes incessant requests for evidence or data,
+    even while remaining superficially polite.
+
+These items are just examples. The moderator team's task consists of subjective 
+judgement calls. Behaviors not listed here might require moderation, and it is not
+possible to write a complete list of all such behaviors.
