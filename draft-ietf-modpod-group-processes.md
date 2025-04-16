@@ -458,6 +458,10 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-03
+
+- [Add some starting examples](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121)
+
 ## Since draft-ietf-modpod-group-processes-02
 
 - [Address issue 113](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/116)
