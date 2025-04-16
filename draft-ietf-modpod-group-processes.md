@@ -548,12 +548,12 @@ The list below describes some types of disruptive behavior, but it is non-exhaus
   - discussion of subjects unrelated to IETF policy, meetings,
     activities, or technical concerns;
 
-  - uncivil commentary, regardless of the general subject; and,
+  - uncivil commentary, regardless of the general subject;
 
   - announcements of conferences, events, or activities that are not
-    sponsored or endorsed by the Internet Society or IETF.
+    sponsored or endorsed by the Internet Society or IETF;
 
-  - repeatedly arguing counter to a WG charter that has been approved by the IESG.
+  - repeatedly arguing counter to a WG charter that has been approved by the IESG; and
 
   - "sealioning", where a participant makes incessant requests for evidence or data,
     even while remaining superficially polite.
