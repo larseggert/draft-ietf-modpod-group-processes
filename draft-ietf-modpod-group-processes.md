@@ -548,7 +548,7 @@ The list below describes some types of disruptive behavior, but it is non-exhaus
   - discussion of subjects unrelated to IETF policy, meetings,
     activities, or technical concerns;
 
-  - unprofessional commentary, regardless of the general subject; and,
+  - uncivil commentary, regardless of the general subject; and,
 
   - announcements of conferences, events, or activities that are not
     sponsored or endorsed by the Internet Society or IETF.
