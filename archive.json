@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-15T00:24:20.927406+00:00",
+  "timestamp": "2025-04-17T00:23:50.369502+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1269,7 +1269,7 @@
       ],
       "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
       "createdAt": "2024-12-31T17:56:53Z",
-      "updatedAt": "2025-04-14T19:11:37Z",
+      "updatedAt": "2025-04-15T08:04:47Z",
       "closedAt": null,
       "comments": [
         {
@@ -1334,6 +1334,20 @@
           "body": "When I filed this issue, I was wrongly assuming there would be a bulleted list like the one in RFC 3683. We should still do it, but maybe in an appendix supplied as a starting point for the moderation team. I think they'll be implicitly starting from there anyway, and we can throw Sealioning in, too.",
           "createdAt": "2025-04-14T19:11:35Z",
           "updatedAt": "2025-04-14T19:11:35Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@sayrer I have no problem with such an appendix as long as it is clear that-\n\n- the examples are non-normative and by no means exhaustive, and\n- every case needs to be evaluated in an appropriate context.\n\nDo you want to create a PR?",
+          "createdAt": "2025-04-15T07:30:53Z",
+          "updatedAt": "2025-04-15T07:30:53Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'll do a PR soon. It will be \"Appendix C. Starting Points\".\n\nThat should write itself, and the title prevents rules lawyering. The difficult part is writing it without the passive voice (\"it is expected that...\" etc).",
+          "createdAt": "2025-04-15T08:00:16Z",
+          "updatedAt": "2025-04-15T08:04:46Z"
         }
       ]
     },
@@ -1473,12 +1487,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "needs-pr"
-      ],
+      "labels": [],
       "body": "Rob Wilton thinks \"no\".",
       "createdAt": "2025-01-08T09:10:16Z",
-      "updatedAt": "2025-04-14T14:47:53Z",
+      "updatedAt": "2025-04-15T05:52:08Z",
       "closedAt": null,
       "comments": [
         {
@@ -8720,7 +8732,7 @@
       ],
       "body": "PR for #84\r\n",
       "createdAt": "2025-04-14T14:47:14Z",
-      "updatedAt": "2025-04-14T20:13:26Z",
+      "updatedAt": "2025-04-15T05:51:53Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
@@ -8735,9 +8747,9 @@
         {
           "author": "larseggert",
           "authorAssociation": "OWNER",
-          "body": "Also the neqo-common codec tests are sometimes flaky, so not sure if it's just this one.",
+          "body": "~~Also the neqo-common codec tests are sometimes flaky, so not sure if it's just this one.~~",
           "createdAt": "2025-04-14T16:31:52Z",
-          "updatedAt": "2025-04-14T16:31:52Z"
+          "updatedAt": "2025-04-15T05:48:08Z"
         },
         {
           "author": "sayrer",
@@ -8745,6 +8757,13 @@
           "body": "@larseggert I think you replied to the wrong issue.\r\n\r\nFor this one, the suggested text in RFC 8174 should be used in \"[1.3. ](https://larseggert.github.io/draft-ietf-modpod-group-processes/draft-ietf-modpod-group-processes.html#section-1.3)[Conventions and Definitions](https://larseggert.github.io/draft-ietf-modpod-group-processes/draft-ietf-modpod-group-processes.html#name-conventions-and-definitions)\"\r\n\r\nhttps://datatracker.ietf.org/doc/html/rfc8174",
           "createdAt": "2025-04-14T20:13:25Z",
           "updatedAt": "2025-04-14T20:13:25Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@rgwilton do you want to incorporate @sayrer's suggestion?",
+          "createdAt": "2025-04-15T05:51:52Z",
+          "updatedAt": "2025-04-15T05:51:52Z"
         }
       ],
       "reviews": [
@@ -8762,6 +8781,54 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 121,
+      "id": "PR_kwDOJrr8CM6S42YR",
+      "title": "Starting Points",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Addresses #78 and some feedback about Sealioning at IETF 122. I think \"sealioning\" is a really good example, because it is such a subjective matter.",
+      "createdAt": "2025-04-16T19:26:29Z",
+      "updatedAt": "2025-04-16T22:40:47Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "bullet_points",
+      "headRefOid": "26754871ea88e7170ad7da76e72ae1e4f21a4e18",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think we've had a lot of prior discussion about \"unprofessional commentary\" and didn't we end up with \"uncivil commentary\" as a less contentious phrase? That covers a pretty broad spectrum from vulgar language to simple rudeness.",
+          "createdAt": "2025-04-16T20:19:12Z",
+          "updatedAt": "2025-04-16T20:19:12Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@becarpenter I think that's right. I have never cared about that one, so I probably just forgot about it. \"Uncivil\" it is.",
+          "createdAt": "2025-04-16T20:55:13Z",
+          "updatedAt": "2025-04-16T20:55:13Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Also: I don't care about these exact words. I think I got the point across, but it could always be better.",
+          "createdAt": "2025-04-16T22:40:45Z",
+          "updatedAt": "2025-04-16T22:40:45Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
