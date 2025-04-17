@@ -460,7 +460,7 @@ These individuals suggested additional improvements to this document:
 
 ## Since draft-ietf-modpod-group-processes-03
 
-- [Add some starting examples](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121)
+- [Non-normative Examples of Disruptive Behavior](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121)
 
 ## Since draft-ietf-modpod-group-processes-02
 
@@ -537,9 +537,7 @@ ideal:
   How disruptive behavior is moderated in these channels is currently
   undefined.
 
-# Starting Points {#starting}
-
-This appendix is informative.
+# Non-normative Examples of Disruptive Behavior {#examples}
 
 The list below describes some types of disruptive behavior, but it is non-exhaustive.
 
