@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-17T00:23:50.369502+00:00",
+  "timestamp": "2025-04-20T00:26:18.855361+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1264,12 +1264,10 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [
-        "needs-pr"
-      ],
+      "labels": [],
       "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
       "createdAt": "2024-12-31T17:56:53Z",
-      "updatedAt": "2025-04-15T08:04:47Z",
+      "updatedAt": "2025-04-17T05:34:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -8791,16 +8789,18 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "Addresses #78 and some feedback about Sealioning at IETF 122. I think \"sealioning\" is a really good example, because it is such a subjective matter.",
       "createdAt": "2025-04-16T19:26:29Z",
-      "updatedAt": "2025-04-16T22:40:47Z",
+      "updatedAt": "2025-04-18T16:47:56Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "bullet_points",
-      "headRefOid": "26754871ea88e7170ad7da76e72ae1e4f21a4e18",
+      "headRefOid": "1fdeb1d31afb9e3ac865d465bb281300787b7d13",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8826,6 +8826,41 @@
           "body": "Also: I don't care about these exact words. I think I got the point across, but it could always be better.",
           "createdAt": "2025-04-16T22:40:45Z",
           "updatedAt": "2025-04-16T22:40:45Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This seems ok.  One request- please change the title from \"A starting point\" to \"Non-normative Examples of misbehavior\".",
+          "createdAt": "2025-04-17T16:35:06Z",
+          "updatedAt": "2025-04-17T16:35:06Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> This seems ok. One request- please change the title from \"A starting point\" to \"Non-normative Examples of misbehavior\".\r\n\r\n@elear I took the suggestion, but wrote it slightly differently.",
+          "createdAt": "2025-04-17T20:11:14Z",
+          "updatedAt": "2025-04-17T20:11:14Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "LGTM.",
+          "createdAt": "2025-04-17T21:06:14Z",
+          "updatedAt": "2025-04-17T21:06:14Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert @sayrer the checks seem to be broken on this one. ",
+          "createdAt": "2025-04-18T04:00:36Z",
+          "updatedAt": "2025-04-18T04:00:36Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@elear @larseggert I think Lars has to allow the checks to run. But I am not sure Lars wants to put the list in. Better to suggest a concrete PR instead of debating this issue in the abstract, though.\r\n\r\nI think I framed it well enough to avoid rules-lawyering.",
+          "createdAt": "2025-04-18T16:47:54Z",
+          "updatedAt": "2025-04-18T16:47:54Z"
         }
       ],
       "reviews": []
