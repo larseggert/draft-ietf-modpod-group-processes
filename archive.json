@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-20T00:26:18.855361+00:00",
+  "timestamp": "2025-04-27T00:26:22.553899+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1222,7 +1222,7 @@
       ],
       "body": "My draft says:\r\n\r\n```Anyone can start a blog, or CC an email to a non-IETF list. There are many venues not subject to IETF moderation.```\r\n\r\nI'm not attached to the exact phrasing here, but I do think the general idea should go in.",
       "createdAt": "2024-12-31T17:40:49Z",
-      "updatedAt": "2025-01-20T07:01:32Z",
+      "updatedAt": "2025-04-24T16:32:23Z",
       "closedAt": null,
       "comments": [
         {
@@ -1252,6 +1252,13 @@
           "body": "Ah. This text intends to point out that you are not being \"silenced\" if your contribution to an IETF list is held up by moderation. Basically, an IETF list, especially one with wide distribution, is not your blog. My draft has an extra sentence on this point, but I'm not attached to the wording:\r\n\r\n> Anyone can start a blog, or CC an email to a non-IETF list.  There are many venues not subject to IETF moderation.\r\n> \r\n> It may be that the IETF audience's attention is being abused through IETF infrastructure, so that's why this action exists.",
           "createdAt": "2025-01-07T14:50:34Z",
           "updatedAt": "2025-01-07T17:33:51Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Well, I guess I did this (again) on mod-discuss:\n\nhttps://lists.w3.org/Archives/Public/www-archive/2025Apr/0001.html\n\nMore people will probably read Tim's (it must be noted: extremely mild-mannered) message now than if it just went through.\n\nIt is about this draft:\nhttps://datatracker.ietf.org/doc/draft-sayre-modpod-summary/\n\nwhich is not the one in this repo.",
+          "createdAt": "2025-04-24T16:28:29Z",
+          "updatedAt": "2025-04-24T16:32:21Z"
         }
       ]
     },
