@@ -309,6 +309,9 @@ actions.
 The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
 
+Any attempt to circumvent or otherwise ignore a moderation action
+is a demonstration of bad faith that may warrant further moderation.
+
 The moderator team is responsible to the IESG.  The IESG
 MAY create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All actions
