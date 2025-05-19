@@ -4,9 +4,10 @@
 
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 20 November 2025                                  Cisco Systems
-                                                             19 May 2025
+Obsoletes: 3683, 9245 (if approved)                         E. Lear, Ed.
+Updates: 2418 (if approved)                                Cisco Systems
+Intended status: Best Current Practice                       19 May 2025
+Expires: 20 November 2025
 
 
                        IETF Community Moderation
@@ -94,13 +95,12 @@ Table of Contents
      5.1.  Relation to the Ombudsteam
      5.2.  Relation to the IETF LLC
      5.3.  Relation to the IRTF
-   6.  Changes to Existing RFCs
-   7.  Security Considerations
-   8.  IANA Considerations
-   9.  Acknowledgments
-   10. References
-     10.1.  Normative References
-     10.2.  Informative References
+   6.  Security Considerations
+   7.  IANA Considerations
+   8.  Acknowledgments
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
    Appendix A.  Changes
      A.1.  Since draft-ietf-modpod-group-processes-02
      A.2.  Since draft-ietf-modpod-group-processes-01
@@ -116,6 +116,13 @@ Table of Contents
    after, and subsumes, the moderator team for the IETF discussion list
    [RFC9245] and is tasked to moderate *all* IETF participation
    channels.
+
+   As a consequence, this document obsoletes [RFC3683] and the "posting
+   rights" (PR) action it defines.  It also obsoletes Section 4 of
+   [RFC9245], which defines the IETF discussion list moderation team.
+   Finally, it updates Section 6.1 of [RFC2418], because the moderator
+   team will now work together with working group chairs to moderate
+   disruptive behavior.
 
 1.1.  Background
 
@@ -449,15 +456,7 @@ Table of Contents
    [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
    the IRTF and moderation of IRTF participation channels.
 
-6.  Changes to Existing RFCs
-
-   Creation of the IETF moderator team requires some changes to existing
-   RFCs and also requires the IESG to update a number of their
-   statements.  This section describes these changes.
-
-      |  TODO: Add once we know this I-D will go forward in some form.
-
-7.  Security Considerations
+6.  Security Considerations
 
    The usual security considerations [RFC3552] do not apply to this
    document.
@@ -470,11 +469,11 @@ Table of Contents
    likelihood of disruptive behavior by a few IETF participants from
    discouraging participation by other IETF participants.
 
-8.  IANA Considerations
+7.  IANA Considerations
 
    This document has no IANA actions.
 
-9.  Acknowledgments
+8.  Acknowledgments
 
    This document is based on two individual Internet-Drafts, draft-
    ecahc-moderation (https://datatracker.ietf.org/doc/draft-ecahc-
@@ -509,13 +508,21 @@ Table of Contents
 
    *  Brian Carpenter
 
-10.  References
+9.  References
 
-10.1.  Normative References
+9.1.  Normative References
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
+
+   [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
+              Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
+              September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
+
+   [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
+              Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
+              March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
 
    [RFC3935]  Alvestrand, H., "A Mission Statement for the IETF",
               BCP 95, RFC 3935, DOI 10.17487/RFC3935, October 2004,
@@ -534,7 +541,11 @@ Table of Contents
               BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
               <https://www.rfc-editor.org/rfc/rfc8711>.
 
-10.2.  Informative References
+   [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
+              BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
+              <https://www.rfc-editor.org/rfc/rfc9245>.
+
+9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
               <<https://www.ietf.org/about/groups/iesg/statements/anti-
@@ -567,24 +578,20 @@ Table of Contents
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
 
-   [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
-              Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
-              March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
-
    [RFC3934]  Wasserman, M., "Updates to RFC 2418 Regarding the
               Management of IETF Mailing Lists", BCP 25, RFC 3934,
               DOI 10.17487/RFC3934, October 2004,
               <https://www.rfc-editor.org/rfc/rfc3934>.
-
-   [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
-              BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
-              <https://www.rfc-editor.org/rfc/rfc9245>.
 
 Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
 A.1.  Since draft-ietf-modpod-group-processes-02
+
+   *  Say which RFCs this obsoletes and updates.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/105)
 
    *  Address issue 113 (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/116)
