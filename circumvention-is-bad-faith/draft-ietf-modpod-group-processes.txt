@@ -5,8 +5,8 @@
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                      E. Lear, Ed.
-Expires: 8 October 2025                                    Cisco Systems
-                                                            6 April 2025
+Expires: 20 November 2025                                  Cisco Systems
+                                                             19 May 2025
 
 
                        IETF Community Moderation
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 October 2025.
+   This Internet-Draft will expire on 20 November 2025.
 
 Copyright Notice
 
@@ -347,7 +347,7 @@ Table of Contents
    comity of a forum will be attempted.
 
    Any attempt to circumvent or otherwise ignore a moderation action is
-   a demonstration of bad faith.
+   a demonstration of bad faith that may warrant further moderation.
 
    The moderator team is responsible to the IESG.  The IESG MAY create
    or designate a forum to facilitate discussion about moderation, and
