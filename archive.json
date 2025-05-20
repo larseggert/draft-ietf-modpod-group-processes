@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-27T00:26:22.553899+00:00",
+  "timestamp": "2025-05-20T00:26:03.310661+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1882,15 +1882,15 @@
       "id": "I_kwDOJrr8CM6uqKdO",
       "title": "Does this document obsolete RFC 3683?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/112",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "alvestrand",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "I hope it does. But if so, it needs to say so.\n",
       "createdAt": "2025-03-19T02:37:37Z",
-      "updatedAt": "2025-03-19T03:57:37Z",
-      "closedAt": null,
+      "updatedAt": "2025-05-19T08:24:23Z",
+      "closedAt": "2025-05-19T08:24:23Z",
       "comments": [
         {
           "author": "becarpenter",
@@ -7777,7 +7777,7 @@
       "id": "PR_kwDOJrr8CM6KqI95",
       "title": "feat: Say which other RFCs we obsolete and update",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
@@ -7786,17 +7786,19 @@
       ],
       "body": "Any missing?",
       "createdAt": "2025-02-10T14:54:55Z",
-      "updatedAt": "2025-04-07T05:45:05Z",
+      "updatedAt": "2025-05-19T08:24:24Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "feat-obsoletes-and-updates",
       "headRefOid": "a0b1c260c04ae6a47957c4d6776ce6b8adf8151c",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-05-19T08:24:22Z",
+      "mergedAt": "2025-05-19T08:24:22Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "ef5221aaa53d3e2150190df4eb3c0f825663cdf8"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -8210,7 +8212,7 @@
       ],
       "body": "From @becarpenter in https://mailarchive.ietf.org/arch/msg/mod-discuss/kfFHaz8VYFJf0DaJTWpJN5TJWvA",
       "createdAt": "2025-03-04T08:15:50Z",
-      "updatedAt": "2025-04-14T06:51:06Z",
+      "updatedAt": "2025-05-19T08:22:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3525240d2b9806bb8a534da07f9b511a5274373a",
@@ -8291,6 +8293,13 @@
           "body": "This is what I proposed on list.\r\n\r\n```diff\r\ndiff --git a/draft-ietf-modpod-group-processes.md b/draft-ietf-modpod-group-processes.md\r\nindex e16b154..d7b9c59 100644\r\n--- a/draft-ietf-modpod-group-processes.md\r\n+++ b/draft-ietf-modpod-group-processes.md\r\n@@ -328,8 +328,10 @@ from a forum may request to be reinstated.  That request must be\r\n directed to the entity that made the decision (e.g., moderation team,\r\n working group chair, etc) or their successors, and that party may at\r\n their discretion reinstate someone, conditionally or unconditionally.\r\n-Since a request to be reinstated is in effect an appeal of an earlier decision,\r\n-decisions to not reinstate someone may not be appealed again.\r\n+An action to not restore rights cannot be appealed so as to avoid a\r\n+denial of service attacks on our processes by people whose\r\n+inappropriate behavior has already been established.  Any restoration\r\n+is a grace, not any form of a right.\r\n Requests for reinstatement may be entertained only a year after\r\n the initial decision, and then only annually.\r\n \r\n```",
           "createdAt": "2025-04-14T06:51:05Z",
           "updatedAt": "2025-04-14T06:51:05Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@becarpenter please resolve the conflict so this can progress. Also see @elear' suggestion.",
+          "createdAt": "2025-05-19T08:22:02Z",
+          "updatedAt": "2025-05-19T08:22:02Z"
         }
       ],
       "reviews": [
@@ -8321,26 +8330,29 @@
       "id": "PR_kwDOJrr8CM6PFQBg",
       "title": "Circumvention demonstrates bad faith",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/111",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "finalize-pr"
+        "finalize-pr",
+        "editorial"
       ],
       "body": "Suggestion from an IETF participant at 112.",
       "createdAt": "2025-03-18T10:56:25Z",
-      "updatedAt": "2025-04-14T06:39:28Z",
+      "updatedAt": "2025-05-19T08:29:15Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
+      "baseRefOid": "ef5221aaa53d3e2150190df4eb3c0f825663cdf8",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "circumvention-is-bad-faith",
-      "headRefOid": "61a1f166122a4bb73928618378440c72fb2c5247",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "07bac1fc781baf629b9cda62196dd25134788cd7",
+      "closedAt": "2025-05-19T08:29:14Z",
+      "mergedAt": "2025-05-19T08:29:14Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "6317670050c3ac30fc6b767c6920699fc8eec101"
+      },
       "comments": [
         {
           "author": "sayrer",
@@ -8390,6 +8402,13 @@
           "body": "Here's what I'm proposing:\r\n\r\n```diff\r\n-Any attempt to circumvent or otherwise ignore a moderation action\r\n-is a demonstration of bad faith.\r\n+Any attempt to circumvent or otherwise ignore a moderation action is a\r\n+demonstration of bad faith that may warrant further moderation,\r\n+including but not limited to notification of the act to the community\r\n+and other interested parties.\r\n```",
           "createdAt": "2025-04-14T06:39:27Z",
           "updatedAt": "2025-04-14T06:39:27Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Marking this as editorial, since IMO it just spells out something that should be inherently clear anyway.",
+          "createdAt": "2025-05-19T08:27:44Z",
+          "updatedAt": "2025-05-19T08:27:44Z"
         }
       ],
       "reviews": [
@@ -8737,7 +8756,7 @@
       ],
       "body": "PR for #84\r\n",
       "createdAt": "2025-04-14T14:47:14Z",
-      "updatedAt": "2025-04-15T05:51:53Z",
+      "updatedAt": "2025-05-19T08:20:58Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
@@ -8769,6 +8788,13 @@
           "body": "@rgwilton do you want to incorporate @sayrer's suggestion?",
           "createdAt": "2025-04-15T05:51:52Z",
           "updatedAt": "2025-04-15T05:51:52Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@rgwilton ping?",
+          "createdAt": "2025-05-19T08:20:57Z",
+          "updatedAt": "2025-05-19T08:20:57Z"
         }
       ],
       "reviews": [
@@ -8801,13 +8827,13 @@
       ],
       "body": "Addresses #78 and some feedback about Sealioning at IETF 122. I think \"sealioning\" is a really good example, because it is such a subjective matter.",
       "createdAt": "2025-04-16T19:26:29Z",
-      "updatedAt": "2025-04-18T16:47:56Z",
+      "updatedAt": "2025-05-19T08:26:33Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
+      "baseRefOid": "ef5221aaa53d3e2150190df4eb3c0f825663cdf8",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "bullet_points",
-      "headRefOid": "1fdeb1d31afb9e3ac865d465bb281300787b7d13",
+      "headRefOid": "ef032886c09bf0e6a93b943e726ad3c351be0967",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8868,6 +8894,13 @@
           "body": "@elear @larseggert I think Lars has to allow the checks to run. But I am not sure Lars wants to put the list in. Better to suggest a concrete PR instead of debating this issue in the abstract, though.\r\n\r\nI think I framed it well enough to avoid rules-lawyering.",
           "createdAt": "2025-04-18T16:47:54Z",
           "updatedAt": "2025-04-18T16:47:54Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@sayrer lints need fixing.",
+          "createdAt": "2025-05-19T08:26:32Z",
+          "updatedAt": "2025-05-19T08:26:32Z"
         }
       ],
       "reviews": []
