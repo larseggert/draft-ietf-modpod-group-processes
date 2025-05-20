@@ -543,23 +543,26 @@ ideal:
 
 # Non-normative Examples of Disruptive Behavior {#examples}
 
-The list below describes some types of disruptive behavior, but it is non-exhaustive.
+The list below describes some types of disruptive behavior, but it
+is non-exhaustive.
 
-  - unsolicited bulk e-mail;
+- unsolicited bulk e-mail;
 
-  - discussion of subjects unrelated to IETF policy, meetings,
-    activities, or technical concerns;
+- discussion of subjects unrelated to IETF policy, meetings,
+  activities, or technical concerns;
 
-  - uncivil commentary, regardless of the general subject;
+- uncivil commentary, regardless of the general subject;
 
-  - announcements of conferences, events, or activities that are not
-    sponsored or endorsed by the Internet Society or IETF;
+- announcements of conferences, events, or activities that are not
+  sponsored or endorsed by the Internet Society or IETF;
 
-  - repeatedly arguing counter to a WG charter that has been approved by the IESG; and
+- repeatedly arguing counter to a WG charter that has been approved by
+  the IESG; and
 
-  - "sealioning", where a participant makes incessant requests for evidence or data,
-    even while remaining superficially polite.
+- "sealioning", where a participant makes incessant requests for evidence or
+  data, even while remaining superficially polite.
 
-These items are just examples. The moderator team's task consists of subjective 
-judgement calls. Behaviors not listed here might require moderation, and it is not
-possible to write a complete list of all such behaviors.
+These items are just examples. The moderator team's task consists of
+subjective judgement calls. Behaviors not listed here might require
+moderation, and it is not possible to write a complete list of all such
+behaviors.
