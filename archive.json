@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-20T00:26:03.310661+00:00",
+  "timestamp": "2025-05-22T00:25:09.657272+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -8827,13 +8827,13 @@
       ],
       "body": "Addresses #78 and some feedback about Sealioning at IETF 122. I think \"sealioning\" is a really good example, because it is such a subjective matter.",
       "createdAt": "2025-04-16T19:26:29Z",
-      "updatedAt": "2025-05-19T08:26:33Z",
+      "updatedAt": "2025-05-21T04:17:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "ef5221aaa53d3e2150190df4eb3c0f825663cdf8",
+      "baseRefOid": "6317670050c3ac30fc6b767c6920699fc8eec101",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "bullet_points",
-      "headRefOid": "ef032886c09bf0e6a93b943e726ad3c351be0967",
+      "headRefOid": "8256444471f097a992fe91bf57b320d13f5292e2",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -8904,6 +8904,48 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 122,
+      "id": "PR_kwDOJrr8CM6W7pB-",
+      "title": "Add local lint instructions.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/122",
+      "state": "MERGED",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-05-20T17:39:49Z",
+      "updatedAt": "2025-05-21T04:15:00Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "6317670050c3ac30fc6b767c6920699fc8eec101",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "lint_instructions",
+      "headRefOid": "6d535ee14dbdf510fc043a24c8a103823adc99aa",
+      "closedAt": "2025-05-21T04:15:00Z",
+      "mergedAt": "2025-05-21T04:15:00Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "868c8c30499f14199b2e4cdf1b5f9ef2a485d4aa"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6qLcH-",
+          "commit": {
+            "abbreviatedOid": "6d535ee"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-05-20T17:58:39Z",
+          "updatedAt": "2025-05-20T17:58:39Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
