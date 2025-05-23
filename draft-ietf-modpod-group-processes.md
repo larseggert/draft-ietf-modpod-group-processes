@@ -460,6 +460,10 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-03
+
+- [Non-normative Examples of Disruptive Behavior](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121)
+
 ## Since draft-ietf-modpod-group-processes-02
 
 - [Say which RFCs this obsoletes and updates.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105
@@ -536,3 +540,29 @@ ideal:
   systems, virtual meetings, wikis, GitHub repositories, and more.
   How disruptive behavior is moderated in these channels is currently
   undefined.
+
+# Non-Normative Examples of Disruptive Behavior {#examples}
+
+The list below describes some types of disruptive behavior, but it
+is non-exhaustive.
+
+- unsolicited bulk e-mail;
+
+- discussion of subjects unrelated to IETF policy, meetings,
+  activities, or technical concerns;
+
+- uncivil commentary, regardless of the general subject;
+
+- announcements of conferences, events, or activities that are not
+  sponsored or endorsed by the Internet Society or IETF;
+
+- repeatedly arguing counter to a WG charter that has been approved by
+  the IESG; and
+
+- "sealioning", where a participant makes incessant requests for evidence or
+  data, even while remaining superficially polite.
+
+These items are just examples. The moderator team's task consists of
+subjective judgement calls. Behaviors not listed here might require
+moderation, and it is not possible to write a complete list of all such
+behaviors.
