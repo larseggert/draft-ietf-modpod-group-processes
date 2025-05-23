@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 9245 (if approved)                         E. Lear, Ed.
 Updates: 2418 (if approved)                                Cisco Systems
-Intended status: Best Current Practice                       19 May 2025
-Expires: 20 November 2025
+Intended status: Best Current Practice                       23 May 2025
+Expires: 24 November 2025
 
 
                        IETF Community Moderation
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 November 2025.
+   This Internet-Draft will expire on 24 November 2025.
 
 Copyright Notice
 
@@ -102,11 +102,13 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-02
-     A.2.  Since draft-ietf-modpod-group-processes-01
-     A.3.  Since draft-ietf-modpod-group-processes-00
-     A.4.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-03
+     A.2.  Since draft-ietf-modpod-group-processes-02
+     A.3.  Since draft-ietf-modpod-group-processes-01
+     A.4.  Since draft-ietf-modpod-group-processes-00
+     A.5.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
+   Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
 
 1.  Introduction
@@ -587,7 +589,13 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-02
+A.1.  Since draft-ietf-modpod-group-processes-03
+
+   *  Non-normative Examples of Disruptive Behavior
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/121)
+
+A.2.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -605,7 +613,7 @@ A.1.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.2.  Since draft-ietf-modpod-group-processes-01
+A.3.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -617,7 +625,7 @@ A.2.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.3.  Since draft-ietf-modpod-group-processes-00
+A.4.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -638,7 +646,7 @@ A.3.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.4.  Since draft-ecahc-moderation-01
+A.5.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
@@ -693,6 +701,32 @@ Appendix B.  Problems with the Previous Approach
       systems, virtual meetings, wikis, GitHub repositories, and more.
       How disruptive behavior is moderated in these channels is
       currently undefined.
+
+Appendix C.  Non-Normative Examples of Disruptive Behavior
+
+   The list below describes some types of disruptive behavior, but it is
+   non-exhaustive.
+
+   *  unsolicited bulk e-mail;
+
+   *  discussion of subjects unrelated to IETF policy, meetings,
+      activities, or technical concerns;
+
+   *  uncivil commentary, regardless of the general subject;
+
+   *  announcements of conferences, events, or activities that are not
+      sponsored or endorsed by the Internet Society or IETF;
+
+   *  repeatedly arguing counter to a WG charter that has been approved
+      by the IESG; and
+
+   *  "sealioning", where a participant makes incessant requests for
+      evidence or data, even while remaining superficially polite.
+
+   These items are just examples.  The moderator team's task consists of
+   subjective judgement calls.  Behaviors not listed here might require
+   moderation, and it is not possible to write a complete list of all
+   such behaviors.
 
 Authors' Addresses
 
