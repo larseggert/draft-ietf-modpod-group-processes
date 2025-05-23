@@ -541,7 +541,7 @@ ideal:
   How disruptive behavior is moderated in these channels is currently
   undefined.
 
-# Non-normative Examples of Disruptive Behavior {#examples}
+# Non-Normative Examples of Disruptive Behavior {#examples}
 
 The list below describes some types of disruptive behavior, but it
 is non-exhaustive.
