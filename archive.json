@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-22T00:25:09.657272+00:00",
+  "timestamp": "2025-05-25T00:28:02.566544+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1267,15 +1267,15 @@
       "id": "I_kwDOJrr8CM6kyCMU",
       "title": "Disruptive behavior: arguing counter to the charter of a WG",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/78",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
       "createdAt": "2024-12-31T17:56:53Z",
-      "updatedAt": "2025-04-17T05:34:52Z",
-      "closedAt": null,
+      "updatedAt": "2025-05-23T05:30:21Z",
+      "closedAt": "2025-05-23T05:30:21Z",
       "comments": [
         {
           "author": "sayrer",
@@ -8818,7 +8818,7 @@
       "id": "PR_kwDOJrr8CM6S42YR",
       "title": "Starting Points",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -8827,17 +8827,19 @@
       ],
       "body": "Addresses #78 and some feedback about Sealioning at IETF 122. I think \"sealioning\" is a really good example, because it is such a subjective matter.",
       "createdAt": "2025-04-16T19:26:29Z",
-      "updatedAt": "2025-05-21T04:17:31Z",
+      "updatedAt": "2025-05-23T05:30:20Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "6317670050c3ac30fc6b767c6920699fc8eec101",
+      "baseRefOid": "868c8c30499f14199b2e4cdf1b5f9ef2a485d4aa",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "bullet_points",
-      "headRefOid": "8256444471f097a992fe91bf57b320d13f5292e2",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "ffa42d29a237d9145b17d77ad8329a0272ea35f6",
+      "closedAt": "2025-05-23T05:30:20Z",
+      "mergedAt": "2025-05-23T05:30:20Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "801a620b806145990c04ed250bceafe4da0575a5"
+      },
       "comments": [
         {
           "author": "becarpenter",
@@ -8903,7 +8905,28 @@
           "updatedAt": "2025-05-19T08:26:32Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6qPdV0",
+          "commit": {
+            "abbreviatedOid": "ac71c26"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-05-21T04:16:44Z",
+          "updatedAt": "2025-05-23T05:27:13Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\r\n# Non-Normative Examples of Disruptive Behavior {#examples}\r\n```",
+              "createdAt": "2025-05-21T04:16:44Z",
+              "updatedAt": "2025-05-23T05:27:13Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 122,
