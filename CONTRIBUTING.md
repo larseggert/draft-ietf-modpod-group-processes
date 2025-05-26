@@ -31,20 +31,3 @@ technical issues needs to occur on the mailing list.
 
 You might also like to familiarize yourself with other
 [Working Group documents](https://datatracker.ietf.org/wg/modpod/documents/).
-
-## Markdown Lint Instructions
-
-This repository runs `markdown-lint` as a GitHub Workflow when a PR is
-submitted. It can be run locally using Docker with an identical configuration
-to the GitHub Workflow.
-
-```bash
-docker run --rm \
--v "$(pwd)/draft-ietf-modpod-group-processes.md:\
-/draft-ietf-modpod-group-processes.md:ro" \
--v "$(pwd)/.github/workflows/markdownlint.json:\
-/markdownlint.json:ro" \
-avtodev/markdown-lint:v1 \
---config ./markdownlint.json \
-/draft-ietf-modpod-group-processes.md
-```
