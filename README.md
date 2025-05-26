@@ -1,3 +1,5 @@
+<!-- regenerate: on (set to off if you edit this file) -->
+
 # IETF Community Moderation
 
 This is the working area for the IETF [MODPOD Working Group](https://datatracker.ietf.org/group/modpod/documents/) Internet-Draft, "IETF Community Moderation".
