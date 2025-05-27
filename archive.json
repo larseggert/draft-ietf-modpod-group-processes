@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-25T00:28:02.566544+00:00",
+  "timestamp": "2025-05-27T00:24:57.279186+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2078,6 +2078,46 @@
           "body": "@larseggert I propose that you approve this one and push a new version.  Then we fine tune from there.",
           "createdAt": "2025-04-03T14:39:15Z",
           "updatedAt": "2025-04-03T14:39:15Z"
+        }
+      ]
+    },
+    {
+      "number": 124,
+      "id": "I_kwDOJrr8CM64OJhM",
+      "title": "Add lint changes to README",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/124",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "> @sayrer The `update-files` workflow for @martinthomson's repo overwrites your changes. Suggest to move them to `README.md` and set its `regenerate` field to `off`.\r\n\r\n_Originally posted by @larseggert in https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/123#discussion_r2107024265_\r\n            ",
+      "createdAt": "2025-05-26T10:24:00Z",
+      "updatedAt": "2025-05-26T22:57:09Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Fine with me. I just thought I was being a pain editing the Markdown on my Macbook, so I found the correct incantation (it even complains it is AMD64).",
+          "createdAt": "2025-05-26T22:19:40Z",
+          "updatedAt": "2025-05-26T22:19:40Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I am not sure this is right, though. What is the local command one would run to prevent back-and-forth comments about Markdown syntax?",
+          "createdAt": "2025-05-26T22:27:15Z",
+          "updatedAt": "2025-05-26T22:27:15Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Maybe the best thing is to have @martinthomson add my shell hackery to his template. (sorry Martin!).\n\nThis is a bad thing because there is an undocumented ceremony. You can only find out you've transgressed the Markdown rules upon submitting your text.",
+          "createdAt": "2025-05-26T22:30:00Z",
+          "updatedAt": "2025-05-26T22:57:09Z"
         }
       ]
     }
@@ -8967,6 +9007,57 @@
           "createdAt": "2025-05-20T17:58:39Z",
           "updatedAt": "2025-05-20T17:58:39Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "id": "PR_kwDOJrr8CM6XnMaH",
+      "title": "Automatic update of .gitignore",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/123",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-05-26T10:21:12Z",
+      "updatedAt": "2025-05-26T10:23:36Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "801a620b806145990c04ed250bceafe4da0575a5",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "update-deps",
+      "headRefOid": "0323beee4754b2673bf2506e021191cb536f63d9",
+      "closedAt": "2025-05-26T10:23:35Z",
+      "mergedAt": "2025-05-26T10:23:35Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "630a9a5e11040bc9c8278b0543ef93d73e75c44a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6q8Y_u",
+          "commit": {
+            "abbreviatedOid": "0323bee"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T10:23:17Z",
+          "updatedAt": "2025-05-26T10:23:17Z",
+          "comments": [
+            {
+              "originalPosition": 20,
+              "body": "@sayrer The `update-files` workflow for @martinthomson's repo overwrites your changes. Suggest to move them to `README.md` and set its `regenerate` field to `off`.",
+              "createdAt": "2025-05-26T10:23:17Z",
+              "updatedAt": "2025-05-26T10:23:18Z"
+            }
+          ]
         }
       ]
     }
