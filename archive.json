@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-27T00:24:57.279186+00:00",
+  "timestamp": "2025-05-29T00:25:13.896255+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2095,7 +2095,7 @@
       ],
       "body": "> @sayrer The `update-files` workflow for @martinthomson's repo overwrites your changes. Suggest to move them to `README.md` and set its `regenerate` field to `off`.\r\n\r\n_Originally posted by @larseggert in https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/123#discussion_r2107024265_\r\n            ",
       "createdAt": "2025-05-26T10:24:00Z",
-      "updatedAt": "2025-05-26T22:57:09Z",
+      "updatedAt": "2025-05-28T23:27:42Z",
       "closedAt": null,
       "comments": [
         {
@@ -2118,6 +2118,55 @@
           "body": "Maybe the best thing is to have @martinthomson add my shell hackery to his template. (sorry Martin!).\n\nThis is a bad thing because there is an undocumented ceremony. You can only find out you've transgressed the Markdown rules upon submitting your text.",
           "createdAt": "2025-05-26T22:30:00Z",
           "updatedAt": "2025-05-26T22:57:09Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I just use `markdownlint` installed from Homebrew. It may even be something @martinthomson wants to add to the docker image?",
+          "createdAt": "2025-05-27T05:26:35Z",
+          "updatedAt": "2025-05-27T05:26:35Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "It depends.  What does the dependency tree look like?  What do the false positives look like?",
+          "createdAt": "2025-05-27T05:39:16Z",
+          "updatedAt": "2025-05-27T05:39:16Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I didn't mean you should run it as part of the Makefiles; just to ship it as part of the docker image.",
+          "createdAt": "2025-05-27T06:30:31Z",
+          "updatedAt": "2025-05-27T06:30:31Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> I just use `markdownlint` installed from Homebrew. It may even be something [@martinthomson](https://github.com/martinthomson) wants to add to the docker image?\n\nI see. It's just a different way of doing things. I try not to ever use Homebrew (I do have it...) and edit in VS Code or now Zed over SSH to a Linux machine, and try to use Docker there when I can. That means I don't need to keep parallel copies of Linux programs and deal with zsh vs bash, the fact that macOS uses the BSD versions of common command line tools, etc etc. And, no macOS configuration cruft builds up. :) But I'm ok with whatever you folks decide.",
+          "createdAt": "2025-05-27T16:36:14Z",
+          "updatedAt": "2025-05-27T19:39:56Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "As a node.js tool, it will be installed automatically if you list it in `package.json`.  You can add linting rules that depend on it being installed as well ([instructions](https://github.com/martinthomson/i-d-template/blob/1e574ab5138b8dd11fb8b45c3129e4dc1021a57f/deps.mk#L39-L50), which I need to move to the docs).  The installation is cached, so the overall cost to CI runtime is minimal.  Is there something else you would need Lars?",
+          "createdAt": "2025-05-28T00:14:52Z",
+          "updatedAt": "2025-05-28T00:14:52Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "No, that is awesome, didn't know. @sayrer maybe take this capability into account when you update the linting recipe?",
+          "createdAt": "2025-05-28T05:25:36Z",
+          "updatedAt": "2025-05-28T05:25:36Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I meant to say that you can write it your way, not that I would do it. :)\n\nBut I did notice I could cover #77.\n\nhttps://gist.github.com/sayrer/1fdee360799d26b26c19381d12cf549e\n\nSo, I've gone and published something fully outside the IETF terms, but harmlessly so. The point here is not that I am mad (I am not). But you do need a tool that is more efficient than running a CI tool.\n\nThat's the point of #77. There is no grievance. Everything in my gist is out of the IETF's control. It is only a reliance on the audience that fuels the \"free speech\" arguments.",
+          "createdAt": "2025-05-28T23:04:17Z",
+          "updatedAt": "2025-05-28T23:27:41Z"
         }
       ]
     }
