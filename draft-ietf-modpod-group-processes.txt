@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 9245 (if approved)                         E. Lear, Ed.
 Updates: 2418 (if approved)                                Cisco Systems
-Intended status: Best Current Practice                       26 May 2025
-Expires: 27 November 2025
+Intended status: Best Current Practice                       30 May 2025
+Expires: 1 December 2025
 
 
                        IETF Community Moderation
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 November 2025.
+   This Internet-Draft will expire on 1 December 2025.
 
 Copyright Notice
 
@@ -78,7 +78,6 @@ Table of Contents
    1.  Introduction
      1.1.  Background
      1.2.  General Philosophy
-     1.3.  Conventions and Definitions
    2.  IETF Moderator Team
      2.1.  Composition
        2.1.1.  Team Diversity
@@ -102,11 +101,12 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-03
-     A.2.  Since draft-ietf-modpod-group-processes-02
-     A.3.  Since draft-ietf-modpod-group-processes-01
-     A.4.  Since draft-ietf-modpod-group-processes-00
-     A.5.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-04
+     A.2.  Since draft-ietf-modpod-group-processes-03
+     A.3.  Since draft-ietf-modpod-group-processes-02
+     A.4.  Since draft-ietf-modpod-group-processes-01
+     A.5.  Since draft-ietf-modpod-group-processes-00
+     A.6.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
@@ -207,16 +207,6 @@ Table of Contents
    welcoming, non-hostile environment in which all may participate on an
    equal footing, regardless of their position or past contributions.
 
-1.3.  Conventions and Definitions
-
-   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-   document are to be interpreted in their normal English sense; they
-   are shown in uppercase for emphasis and clarity.
-
-      |  TODO: Get feedback from the community whether this redefinition
-      |  of BCP14 terms in process documents is something they support.
-
 2.  IETF Moderator Team
 
    This document proposes a different, uniform approach to moderating
@@ -232,23 +222,23 @@ Table of Contents
    IESG will take into account geographic coverage, expected and
    unexpected absences, and team diversity.  The moderator team may
    expand or contract based on operational experience.  Apart from
-   appointing and replacing moderators, the IESG SHALL refrain from the
+   appointing and replacing moderators, the IESG shall refrain from the
    day-to-day operation and management of the moderator team.  The
-   moderators MAY decide to consult with the IESG when needed.
+   moderators may decide to consult with the IESG when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.1), the IESG MUST NOT appoint a moderator
+   decisions (see Section 4.1), the IESG must not appoint a moderator
    who is serving on the IESG or IAB.  Individuals serving on other
    bodies to which the NomCom appoints members, such as the IETF Trust
-   or the LLC Board, as well as LLC staff and contractors SHALL also be
+   or the LLC Board, as well as LLC staff and contractors shall also be
    excluded from serving on the moderator team.  If a moderator is
-   assuming any such role, they SHALL step down from the moderator team
+   assuming any such role, they shall step down from the moderator team
    soon after.
 
 2.1.1.  Team Diversity
 
    Due to the global nature of the IETF, the membership of this team
-   SHOULD reflect a diversity of time zones and other participant
+   should reflect a diversity of time zones and other participant
    characteristics that lets it operate effectively around the clock and
    throughout the year.  Ideally, the moderators should be able to
    respond to issues within a few hours.
@@ -278,16 +268,16 @@ Table of Contents
    moderation of WGs is further discussed in Section 3.2.)
 
    It is not expected that the moderators will be monitoring every IETF
-   channel, but rather that participants MAY and group management SHOULD
+   channel, but rather that participants may and group management should
    flag concerns about disruptive behavior to the moderators.  However,
-   the moderators SHOULD actively monitor a small set of key
+   the moderators should actively monitor a small set of key
    participation channels, including, for example, the IETF discussion
    and last-call mailing lists or the IETF plenary chat channel.  The
    moderators should decide which channels are in this set based on
    their own judgment and community suggestions.  (Note that some
    participation channels, such as the examples given in the previous
    sentence, have no chairs or other community leadership, so the
-   moderators MUST handle those.)
+   moderators must handle those.)
 
    Moderators are expected to be a resource that the community can use
    to address problematic contributions.
@@ -308,16 +298,16 @@ Table of Contents
    with various IETF working groups, including their mailing lists, chat
    channels and in-person, remote, or interim meetings remains primarily
    a task of the relevant group's management, such as WG chairs.  Group
-   participants MAY and chairs MUST alert the moderators to problematic
+   participants may and chairs must alert the moderators to problematic
    behavior that rises to the level that some action is needed.
 
-   In the interest of timely and consistent moderation, moderators MAY
+   In the interest of timely and consistent moderation, moderators may
    take actions against someone in a working group setting, but they
-   MUST immediately inform management of relevant groups, including WG
+   must immediately inform management of relevant groups, including WG
    chairs and area directors, when they do so.
 
    If working group management and moderators disagree about a group
-   moderation action taken by one party unilaterally, the matter SHALL
+   moderation action taken by one party unilaterally, the matter shall
    be taken up with the responsible area director(s) for resolution,
    and, when more than one area is involved, with the IESG.  Based on
    the result of this consultation, the moderation action may be upheld,
@@ -331,9 +321,9 @@ Table of Contents
 4.  Operations and Procedures of the Moderator Team and Transparency
 
    Within the bounds of the policies set within this memo and with the
-   approval of the IESG, the moderator team SHALL define any additional
+   approval of the IESG, the moderator team shall define any additional
    processes and moderation criteria necessary to execute their role.
-   Those processes and criteria SHALL be developed with community input
+   Those processes and criteria shall be developed with community input
    and made public, but need not be documented in the RFC series.
 
    The intent of this memo is to provide the widest possible freedom of
@@ -358,13 +348,13 @@ Table of Contents
    Any attempt to circumvent or otherwise ignore a moderation action is
    a demonstration of bad faith that may warrant further moderation.
 
-   The moderator team is responsible to the IESG.  The IESG MAY create
+   The moderator team is responsible to the IESG.  The IESG may create
    or designate a forum to facilitate discussion about moderation, and
    refer interested parties to that forum.  All actions taken by the
-   moderator team SHALL be reported to the IESG, as well as to those
+   moderator team shall be reported to the IESG, as well as to those
    against whom those actions are directed.  To address inappropriate
    contributions in a timely manner, only bans longer than fourteen (14)
-   days SHALL be reported to the forum in which the person was banned,
+   days shall be reported to the forum in which the person was banned,
    and in the case of a ban that spans more than one forum, to the
    community in a manner decided by the IESG.
 
@@ -399,17 +389,17 @@ Table of Contents
 
 5.1.  Relation to the Ombudsteam
 
-   The moderator team SHALL complement the efforts of the IETF
-   ombudsteam [OT], whose focus on anti-harassment and operation SHALL
+   The moderator team shall complement the efforts of the IETF
+   ombudsteam [OT], whose focus on anti-harassment and operation shall
    remain unchanged.  The moderator team and ombudsteam are expected to
    work together in cases that may involve both disruptive behavior and
    harassment; they may determine the most effective way to do so in
-   each case.  For example, the ombudsteam MAY decide to have one of
+   each case.  For example, the ombudsteam may decide to have one of
    their members serve as a liaison to the moderator team.
 
    The ombudsteam has strict rules of confidentiality.  If a moderation
-   case overlaps with an ombudsteam case, confidential information MUST
-   NOT be shared between the teams.
+   case overlaps with an ombudsteam case, confidential information must
+   not be shared between the teams.
 
 5.2.  Relation to the IETF LLC
 
@@ -418,7 +408,7 @@ Table of Contents
    to protect the organization from serious legal risk that may arise
    from the behavior of IETF participants.
 
-   This protection MAY include the need for the IETF LLC to take
+   This protection may include the need for the IETF LLC to take
    emergency moderation actions.  These emergency actions are expected
    to be taken only when the IETF LLC has received legal advice that
    such action is necessary, and therefore extremely rare in frequency.
@@ -434,11 +424,11 @@ Table of Contents
       interaction with them on IETF mailing lists may have serious legal
       consequences for the IETF.
 
-   If any such action is taken, the IETF LLC SHOULD, except where
+   If any such action is taken, the IETF LLC should, except where
    limited by legal advice to the contrary, inform the IESG as soon as
    possible, providing full details of the subject of the action, nature
    of the action, reason for the action and expected duration.  The IETF
-   LLC SHOULD also inform the moderator team and IETF community, except
+   LLC should also inform the moderator team and IETF community, except
    where it receives legal advice to the contrary.
 
    As such an action would be taken by the IETF LLC in order to protect
@@ -589,13 +579,19 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-03
+A.1.  Since draft-ietf-modpod-group-processes-04
+
+   *  Use plain English instead of BCP 14 language
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/120)
+
+A.2.  Since draft-ietf-modpod-group-processes-03
 
    *  Non-normative Examples of Disruptive Behavior
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/121)
 
-A.2.  Since draft-ietf-modpod-group-processes-02
+A.3.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -613,7 +609,7 @@ A.2.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.3.  Since draft-ietf-modpod-group-processes-01
+A.4.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -625,7 +621,7 @@ A.3.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.4.  Since draft-ietf-modpod-group-processes-00
+A.5.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -646,7 +642,7 @@ A.4.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.5.  Since draft-ecahc-moderation-01
+A.6.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
