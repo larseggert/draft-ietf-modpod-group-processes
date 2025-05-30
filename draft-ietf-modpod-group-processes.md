@@ -449,6 +449,10 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-04
+
+- [Use plain English instead of BCP 14 language](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/120)
+
 ## Since draft-ietf-modpod-group-processes-03
 
 - [Non-normative Examples of Disruptive Behavior](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121)
