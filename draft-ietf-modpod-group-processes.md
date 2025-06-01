@@ -89,6 +89,10 @@ defines the IETF discussion list moderation team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
 working group chairs to moderate disruptive behavior.
 
+## Terms and Definitions {#terms}
+
+This document makes normative requirements, but does not use the capitalized terms described in {{?RFC8147}}.
+
 ## Background {#background}
 
 The IETF community has defined general guidelines for
