@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-29T00:25:13.896255+00:00",
+  "timestamp": "2025-06-01T00:31:41.490052+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1488,15 +1488,15 @@
       "id": "I_kwDOJrr8CM6lY4jC",
       "title": "Should we use 2119 langauge in the draft?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/84",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Rob Wilton thinks \"no\".",
       "createdAt": "2025-01-08T09:10:16Z",
-      "updatedAt": "2025-04-15T05:52:08Z",
-      "closedAt": null,
+      "updatedAt": "2025-05-30T11:31:42Z",
+      "closedAt": "2025-05-30T11:31:42Z",
       "comments": [
         {
           "author": "larseggert",
@@ -1563,7 +1563,7 @@
         },
         {
           "author": "rgwilton",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Pretending that human interactions are like protocol interactions probably will not help make human interactions more friendly and welcoming.\n\nI feel reasonably strongly that 2119 language is overly used in IETF documents such that ends up being less readable rather than more readable, or otherwise jarring, and I think that it would be more helpful for 2119 language to be reserved for network protocols where the extra clarity is important.  \n\nOr perhaps to phrase the question differently, for this document, how does \"that SHALL moderate\" differ from \"that shall moderate\"?  If for example, the moderation team, ends up not moderating in one case (for whatever reason, perhaps it is the weekend, or everyone is busy) then does that cause the overall communication to fail?\n\nHaving said all that, is this a hill, I'm going to die on?  Nope. ;-)",
           "createdAt": "2025-04-14T14:09:45Z",
           "updatedAt": "2025-04-14T14:09:45Z"
@@ -1577,14 +1577,14 @@
         },
         {
           "author": "rgwilton",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "The PR would just be to remove the 2119 reference and uncapitalize when 2119 terms have been used.  I can provide a PR if that helps, but probably needs agreement to make the change first?",
           "createdAt": "2025-04-14T14:21:31Z",
           "updatedAt": "2025-04-14T14:21:31Z"
         },
         {
           "author": "rgwilton",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "I've now created a PR, in case that is helpful.",
           "createdAt": "2025-04-14T14:47:52Z",
           "updatedAt": "2025-04-14T14:47:52Z"
@@ -8836,26 +8836,28 @@
       "id": "PR_kwDOJrr8CM6SgEP4",
       "title": "Use lowercase rather than 2119 langauge",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/120",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "rgwilton",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
         "needs-discussion"
       ],
       "body": "PR for #84\r\n",
       "createdAt": "2025-04-14T14:47:14Z",
-      "updatedAt": "2025-05-19T08:20:58Z",
+      "updatedAt": "2025-05-30T11:31:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "d320d95aa28cf508769e565c0698b93aa98aac82",
+      "baseRefOid": "630a9a5e11040bc9c8278b0543ef93d73e75c44a",
       "headRepository": "rgwilton/draft-ietf-modpod-group-processes",
       "headRefName": "main",
-      "headRefOid": "7e84c0215816107bfdac4843dcfd797871a23839",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "db2bf2b7eeea276eab055a782e97830b9a34f7f6",
+      "closedAt": "2025-05-30T11:31:41Z",
+      "mergedAt": "2025-05-30T11:31:41Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "1164cad9c7eba67a46eb2c5328396070752d804f"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -8884,20 +8886,67 @@
           "body": "@rgwilton ping?",
           "createdAt": "2025-05-19T08:20:57Z",
           "updatedAt": "2025-05-19T08:20:57Z"
+        },
+        {
+          "author": "rgwilton",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> @rgwilton do you want to incorporate @sayrer's suggestion?\r\n\r\nNo.  I think that I raised this on the list, but the thread seemed to be die out, the last post seems to be my reply to Rob Sayre \"Re: PR#120 MUST/SHALL or must/shall?\" on 15th April.\r\n\r\nI've re-pinged the list.  I definitely don't agree with using RFC 8174 language with a different meaning, I think that would just be confusing.",
+          "createdAt": "2025-05-30T09:20:27Z",
+          "updatedAt": "2025-05-30T09:20:27Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@rgwilton Please rebase",
+          "createdAt": "2025-05-30T09:58:45Z",
+          "updatedAt": "2025-05-30T09:58:45Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closes #84 ",
+          "createdAt": "2025-05-30T11:31:16Z",
+          "updatedAt": "2025-05-30T11:31:16Z"
         }
       ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM6kySCl",
           "commit": {
-            "abbreviatedOid": "7e84c02"
+            "abbreviatedOid": "aad2ff9"
           },
           "author": "elear",
           "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "",
           "createdAt": "2025-04-14T14:52:25Z",
-          "updatedAt": "2025-04-14T14:52:25Z",
+          "updatedAt": "2025-05-30T10:21:24Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6rt1zh",
+          "commit": {
+            "abbreviatedOid": "aad2ff9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-05-30T10:37:10Z",
+          "updatedAt": "2025-05-30T10:37:10Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6rt2M4",
+          "commit": {
+            "abbreviatedOid": "aad2ff9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "LGTM, but needs a changelog entry before we can merge. @rgwilton would you add one to the PR?",
+          "createdAt": "2025-05-30T10:37:41Z",
+          "updatedAt": "2025-05-30T10:37:41Z",
           "comments": []
         }
       ]
