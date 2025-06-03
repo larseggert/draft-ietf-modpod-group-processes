@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-01T00:31:41.490052+00:00",
+  "timestamp": "2025-06-03T00:25:54.062489+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -9158,6 +9158,47 @@
           ]
         }
       ]
+    },
+    {
+      "number": 125,
+      "id": "PR_kwDOJrr8CM6Ygshe",
+      "title": "Add terms.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/125",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-01T22:22:27Z",
+      "updatedAt": "2025-06-02T17:13:17Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "terms",
+      "headRefOid": "62f5c4ff7579df5d7131ca51f6a6055222426077",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't think we should include this text.  See discussion on list.",
+          "createdAt": "2025-06-02T11:54:13Z",
+          "updatedAt": "2025-06-02T11:54:13Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> I don't think we should include this text. See discussion on list.\r\n\r\nOh, sure. I made the PR so we could discuss something concrete rather than debating language in the abstract.  We should put this thread and issue in the document shepherd's writeup just to show it was considered in detail.\r\n\r\nIt is a major pet peeve of mine when something is /wrong/ in a document and they say \"the WG considered it\", but there is no clear correct answer here. I'll put some links in so you can just point people at this page:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/JSlUAP__g5MAoS4nB_qdIs3VLg8/\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/T61XcYNXtYr-hPnWF3RVpzRT3Vc/\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/RgYjjMZZsVrKKSvjq-jtuAg5uXg/\r\n\r\n",
+          "createdAt": "2025-06-02T17:09:46Z",
+          "updatedAt": "2025-06-02T17:13:17Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
