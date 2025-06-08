@@ -247,9 +247,20 @@ should be approached.
 
 ## IETF Working Groups {#wg-mod}
 
-Primary responsibility of moderation of working group participation channels resides with working group management.  Working group participants should first report problems to chairs, and absent a timely, satisfactory response, to the moderation team (tbd@ietf.org).  In cases where working group management does not respond to complaints, the moderation team may act.  Their first action will be to attempt to contact the chairs.  They may act further if there is no timely response, informing both chairs and the responsible area director of any actions taken.
+Primary responsibility of moderation of working group participation
+channels resides with working group management.  Working group
+participants should first report problems to chairs, and absent a
+timely, satisfactory response, to the moderation team (tbd@ietf.org).
+In cases where working group management does not respond to
+complaints, the moderation team may act.  Their first action will be
+to attempt to contact the chairs.  They may act further if there is no
+timely response, informing both chairs and the responsible area
+director of any actions taken.
 
-Both working group management and moderators shall act consistent with guidelines approved by the IESG.  In cases of disagreement over a moderation decision, the matter should be taken up with the responsible area director for resolution.
+Both working group management and moderators shall act consistent with
+guidelines approved by the IESG.  In cases of disagreement over a
+moderation decision, the matter should be taken up with the responsible
+area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
