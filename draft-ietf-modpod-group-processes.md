@@ -257,10 +257,10 @@ to attempt to contact the chairs.  They may act further if there is no
 timely response, informing both chairs and the responsible area
 director of any actions taken.
 
-Both working group management and moderators shall act consistent with
-guidelines approved by the IESG.  In cases of disagreement over a
-moderation decision, the matter should be taken up with the responsible
-area director for resolution.
+Both working group management and moderators shall act in a manner
+consistent with guidelines approved by the IESG.  In cases of
+disagreement over a moderation decision, the matter should be taken
+up with the responsible area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
