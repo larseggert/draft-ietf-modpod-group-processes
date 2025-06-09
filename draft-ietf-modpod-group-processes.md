@@ -251,7 +251,7 @@ Primary responsibility of moderation of working group participation
 channels resides with working group management.  Working group
 participants should first report problems to chairs, and absent a
 timely, satisfactory response, to the moderation team.
-In cases where working group management does not respond to
+In cases where working group management does appear to act on
 complaints, the moderation team may act.  Their first action will be
 to attempt to contact the chairs.  They may act further if there is no
 timely response, informing both chairs and the responsible area
