@@ -259,8 +259,9 @@ director of any actions taken.
 
 Both working group management and moderators shall act in a manner
 consistent with guidelines approved by the IESG.  In cases of
-disagreement over a moderation decision, the matter should be taken
-up with the responsible area director for resolution.
+disagreement between the chairs and moderation team
+over a moderation decision, the matter should be taken up
+with the responsible area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
