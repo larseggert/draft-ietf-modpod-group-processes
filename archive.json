@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-03T00:25:54.062489+00:00",
+  "timestamp": "2025-06-10T00:25:38.756399+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -9199,6 +9199,93 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 126,
+      "id": "PR_kwDOJrr8CM6ZkZsz",
+      "title": "New attempt to address moderation/WG interactions",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/126",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "This PR closes #85 if approved.\r\n\r\nA few key points:\r\n\r\n- first stop is always the working group management\r\n- if no timely response, then the moderators may act\r\n- in case of disagreement, take it to the AD.\r\n- chairs and moderators need to act consistently with any IESG-approved guidance.\r\n\r\n",
+      "createdAt": "2025-06-08T08:36:03Z",
+      "updatedAt": "2025-06-09T20:24:12Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "wgs-agin",
+      "headRefOid": "184feac7afedab09ca160f9204a1975e42338f5c",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6tZkU7",
+          "commit": {
+            "abbreviatedOid": "5ef3c6e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-06-09T07:11:37Z",
+          "updatedAt": "2025-06-09T07:15:31Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "```suggestion\r\ntimely, satisfactory response, to the moderation team.\r\n```\r\nI don't think we want to hardcode an email address in the RFC.",
+              "createdAt": "2025-06-09T07:11:38Z",
+              "updatedAt": "2025-06-09T07:15:31Z"
+            },
+            {
+              "originalPosition": 33,
+              "body": "```suggestion\r\nparticipants should report problems to both the chairs and\r\nto the moderation team (tbd@ietf.org).\r\n```\r\nIf issues are only reported to the chairs, how will the mod team learn about them and start the clock to determine if they need to nudge the chairs or act themselves?\r\n",
+              "createdAt": "2025-06-09T07:13:15Z",
+              "updatedAt": "2025-06-09T07:15:31Z"
+            },
+            {
+              "originalPosition": 38,
+              "body": "```suggestion\r\nIn cases where working group management does appear to act on\r\ncomplaints, the moderation team may act.  Their first action will be\r\nto attempt to contact the chairs.  They may act further if there is no\r\ntimely response, informing both chairs and the responsible area\r\ndirector of any actions taken.\r\n```",
+              "createdAt": "2025-06-09T07:14:10Z",
+              "updatedAt": "2025-06-09T07:15:31Z"
+            },
+            {
+              "originalPosition": 43,
+              "body": "```suggestion\r\ndisagreement between the chairs and moderation team\r\nover a moderation decision, the matter should be taken up\r\nwith the responsible area director for resolution.\r\n```",
+              "createdAt": "2025-06-09T07:15:08Z",
+              "updatedAt": "2025-06-09T07:15:31Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6thkq6",
+          "commit": {
+            "abbreviatedOid": "5ef3c6e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-09T20:24:12Z",
+          "updatedAt": "2025-06-09T20:24:12Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "I have no objection to the above.  Need to recommit it.",
+              "createdAt": "2025-06-09T20:24:12Z",
+              "updatedAt": "2025-06-09T20:24:12Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
