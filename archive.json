@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-10T00:25:38.756399+00:00",
+  "timestamp": "2025-06-12T00:25:24.607662+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -9214,7 +9214,7 @@
       ],
       "body": "This PR closes #85 if approved.\r\n\r\nA few key points:\r\n\r\n- first stop is always the working group management\r\n- if no timely response, then the moderators may act\r\n- in case of disagreement, take it to the AD.\r\n- chairs and moderators need to act consistently with any IESG-approved guidance.\r\n\r\n",
       "createdAt": "2025-06-08T08:36:03Z",
-      "updatedAt": "2025-06-09T20:24:12Z",
+      "updatedAt": "2025-06-11T05:31:17Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
@@ -9282,6 +9282,46 @@
               "body": "I have no objection to the above.  Need to recommit it.",
               "createdAt": "2025-06-09T20:24:12Z",
               "updatedAt": "2025-06-09T20:24:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6tsBeQ",
+          "commit": {
+            "abbreviatedOid": "184feac"
+          },
+          "author": "rjsparks",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-10T15:05:10Z",
+          "updatedAt": "2025-06-10T15:05:11Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "Checking: should the be `does not appear`?",
+              "createdAt": "2025-06-10T15:05:10Z",
+              "updatedAt": "2025-06-10T15:05:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6tyhIh",
+          "commit": {
+            "abbreviatedOid": "184feac"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-11T05:31:17Z",
+          "updatedAt": "2025-06-11T05:31:17Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "```suggestion\r\nIn cases where working group management does not appear to act on\r\n```",
+              "createdAt": "2025-06-11T05:31:17Z",
+              "updatedAt": "2025-06-11T05:31:17Z"
             }
           ]
         }
