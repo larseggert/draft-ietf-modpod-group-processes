@@ -247,32 +247,21 @@ should be approached.
 
 ## IETF Working Groups {#wg-mod}
 
-The management and moderation of participation channels associated
-with various IETF working groups, including their mailing lists, chat
-channels and in-person, remote, or interim meetings remains primarily a task of
-the relevant group's management, such as WG chairs.
-Group participants may and chairs
-must alert the moderators to problematic behavior that rises to the
-level that some action is needed.
+Primary responsibility of moderation of working group participation
+channels resides with working group management.  Working group
+participants should report problems to both chairs and to the moderation
+team.
+In cases where working group management does not appear to act on
+complaints, the moderation team may act.  Their first action will be
+to attempt to contact the chairs.  They may act further if there is no
+timely response, informing both chairs and the responsible area
+director of any actions taken.
 
-In the interest of timely and consistent moderation,
-moderators may take actions against
-someone in a working group setting, but they must immediately inform
-management of relevant groups, including WG chairs and area directors,
-when they do so.
-
-If working group management and moderators disagree about
-a group moderation action taken by one party unilaterally,
-the matter shall be taken up with the responsible area
-director(s) for resolution, and, when more than one area is involved,
-with the IESG. Based on the result of this consultation, the moderation
-action may be upheld, modified or reverted.
-
-It is anticipated that such disagreements will be exceedingly rare.
-The moderators should respect the views of the group management
-in such cases, and the group management should respect the moderators'
-task of upholding an overall IETF-wide uniformity for
-moderation.
+Both working group management and moderators shall act in a manner
+consistent with guidelines approved by the IESG.  In cases of
+disagreement between the chairs and moderation team
+over a moderation decision, the matter should be taken up
+with the responsible area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
@@ -448,6 +437,10 @@ These individuals suggested additional improvements to this document:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since raft-ietf-modpod-group-processes-05
+
+- [New attempt to address moderation/WG interactions](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/126)
 
 ## Since draft-ietf-modpod-group-processes-04
 
