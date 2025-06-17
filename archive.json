@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-12T00:25:24.607662+00:00",
+  "timestamp": "2025-06-17T00:25:41.818361+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -9214,7 +9214,7 @@
       ],
       "body": "This PR closes #85 if approved.\r\n\r\nA few key points:\r\n\r\n- first stop is always the working group management\r\n- if no timely response, then the moderators may act\r\n- in case of disagreement, take it to the AD.\r\n- chairs and moderators need to act consistently with any IESG-approved guidance.\r\n\r\n",
       "createdAt": "2025-06-08T08:36:03Z",
-      "updatedAt": "2025-06-11T05:31:17Z",
+      "updatedAt": "2025-06-16T20:55:44Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
@@ -9322,6 +9322,46 @@
               "body": "```suggestion\r\nIn cases where working group management does not appear to act on\r\n```",
               "createdAt": "2025-06-11T05:31:17Z",
               "updatedAt": "2025-06-11T05:31:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6us2yR",
+          "commit": {
+            "abbreviatedOid": "5ef3c6e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-16T07:52:03Z",
+          "updatedAt": "2025-06-16T07:52:03Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "@elear would you? We can then IMO ship this. Oh, and also add a changelog entry.",
+              "createdAt": "2025-06-16T07:52:03Z",
+              "updatedAt": "2025-06-16T07:52:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u2Yvy",
+          "commit": {
+            "abbreviatedOid": "5ef3c6e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-16T20:55:44Z",
+          "updatedAt": "2025-06-16T20:55:44Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "give me just a day or so.",
+              "createdAt": "2025-06-16T20:55:44Z",
+              "updatedAt": "2025-06-16T20:55:44Z"
             }
           ]
         }
