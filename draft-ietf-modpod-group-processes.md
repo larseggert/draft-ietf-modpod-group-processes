@@ -249,9 +249,9 @@ should be approached.
 
 Primary responsibility of moderation of working group participation
 channels resides with working group management.  Working group
-participants should first report problems to chairs, and absent a
-timely, satisfactory response, to the moderation team.
-In cases where working group management does appear to act on
+participants should report problems to both chairs and to the moderation
+team.
+In cases where working group management does not appear to act on
 complaints, the moderation team may act.  Their first action will be
 to attempt to contact the chairs.  They may act further if there is no
 timely response, informing both chairs and the responsible area
@@ -437,6 +437,10 @@ These individuals suggested additional improvements to this document:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since raft-ietf-modpod-group-processes-05
+
+- [New attempt to address moderation/WG interactions](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/126)
 
 ## Since draft-ietf-modpod-group-processes-04
 
