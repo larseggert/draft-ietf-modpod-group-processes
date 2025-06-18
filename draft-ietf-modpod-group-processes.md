@@ -413,8 +413,8 @@ This memo is based on two individual Internet-Drafts,
 authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ Housley and Brian E.
 Carpenter, and
 [draft-lear-bcp83-replacement](<https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/>)
-authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine.  Robert Sayre
-authored
+authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine.
+Robert Sayre authored
 [draft-sayre-modpod-excellent](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
 which also originated ideas reflected in this work.
 
