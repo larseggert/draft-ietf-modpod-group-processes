@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-17T00:25:41.818361+00:00",
+  "timestamp": "2025-06-19T00:25:59.404613+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -1596,7 +1596,7 @@
       "id": "I_kwDOJrr8CM6leBVJ",
       "title": "Requirements on WG Chairs",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/85",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -1605,8 +1605,8 @@
       ],
       "body": "Since we're aiming for consistency, some of the requirements we make of the moderation team might have to apply to WG Chairs as well. Having never been a chair, I am not sure what's reasonable here. This issue came up in #74. It's probably OK to close some in-flight PRs and then have a look at this one.",
       "createdAt": "2025-01-08T19:01:10Z",
-      "updatedAt": "2025-01-20T08:07:37Z",
-      "closedAt": null,
+      "updatedAt": "2025-06-17T09:46:32Z",
+      "closedAt": "2025-06-17T09:46:32Z",
       "comments": [
         {
           "author": "becarpenter",
@@ -9164,21 +9164,21 @@
       "id": "PR_kwDOJrr8CM6Ygshe",
       "title": "Add terms.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/125",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-06-01T22:22:27Z",
-      "updatedAt": "2025-06-02T17:13:17Z",
+      "updatedAt": "2025-06-17T17:44:47Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "terms",
       "headRefOid": "62f5c4ff7579df5d7131ca51f6a6055222426077",
-      "closedAt": null,
+      "closedAt": "2025-06-17T17:44:42Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -9205,7 +9205,7 @@
       "id": "PR_kwDOJrr8CM6ZkZsz",
       "title": "New attempt to address moderation/WG interactions",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/126",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -9214,17 +9214,19 @@
       ],
       "body": "This PR closes #85 if approved.\r\n\r\nA few key points:\r\n\r\n- first stop is always the working group management\r\n- if no timely response, then the moderators may act\r\n- in case of disagreement, take it to the AD.\r\n- chairs and moderators need to act consistently with any IESG-approved guidance.\r\n\r\n",
       "createdAt": "2025-06-08T08:36:03Z",
-      "updatedAt": "2025-06-16T20:55:44Z",
+      "updatedAt": "2025-06-17T09:46:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "wgs-agin",
-      "headRefOid": "184feac7afedab09ca160f9204a1975e42338f5c",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "0462f5affcfe03551cbb0a759c6e0c51f6d9ebfa",
+      "closedAt": "2025-06-17T09:46:31Z",
+      "mergedAt": "2025-06-17T09:46:31Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "5d616e32e6095bf44789cf69693a141231623ec2"
+      },
       "comments": [],
       "reviews": [
         {
@@ -9364,6 +9366,234 @@
               "updatedAt": "2025-06-16T20:55:44Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7ir4",
+          "commit": {
+            "abbreviatedOid": "184feac"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:16:31Z",
+          "updatedAt": "2025-06-17T09:16:31Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "Righto.",
+              "createdAt": "2025-06-17T09:16:31Z",
+              "updatedAt": "2025-06-17T09:16:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7jM3",
+          "commit": {
+            "abbreviatedOid": "184feac"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:16:57Z",
+          "updatedAt": "2025-06-17T09:16:57Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "Tackled in my update.",
+              "createdAt": "2025-06-17T09:16:57Z",
+              "updatedAt": "2025-06-17T09:16:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7n1v",
+          "commit": {
+            "abbreviatedOid": "5ef3c6e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:21:52Z",
+          "updatedAt": "2025-06-17T09:21:52Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "See update.",
+              "createdAt": "2025-06-17T09:21:52Z",
+              "updatedAt": "2025-06-17T09:21:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7oV5",
+          "commit": {
+            "abbreviatedOid": "184feac"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:22:19Z",
+          "updatedAt": "2025-06-17T09:22:19Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "please review next version.",
+              "createdAt": "2025-06-17T09:22:19Z",
+              "updatedAt": "2025-06-17T09:22:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7pWC",
+          "commit": {
+            "abbreviatedOid": "184feac"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:23:19Z",
+          "updatedAt": "2025-06-17T09:23:19Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "This snould be resolved.",
+              "createdAt": "2025-06-17T09:23:19Z",
+              "updatedAt": "2025-06-17T09:23:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7qT7",
+          "commit": {
+            "abbreviatedOid": "5ef3c6e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:24:23Z",
+          "updatedAt": "2025-06-17T09:24:24Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "please review.",
+              "createdAt": "2025-06-17T09:24:24Z",
+              "updatedAt": "2025-06-17T09:24:24Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7sBg",
+          "commit": {
+            "abbreviatedOid": "0462f5a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:26:35Z",
+          "updatedAt": "2025-06-17T09:26:35Z",
+          "comments": [
+            {
+              "originalPosition": 41,
+              "body": "This first sentence should maybe go into an other section? It seems disconnected from the rest of the section.\r\n```suggestion\r\nIn cases of\r\n```",
+              "createdAt": "2025-06-17T09:26:35Z",
+              "updatedAt": "2025-06-17T09:26:35Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u7sKb",
+          "commit": {
+            "abbreviatedOid": "0462f5a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-06-17T09:26:45Z",
+          "updatedAt": "2025-06-17T09:26:45Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6u77dH",
+          "commit": {
+            "abbreviatedOid": "0462f5a"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T09:45:07Z",
+          "updatedAt": "2025-06-17T09:45:07Z",
+          "comments": [
+            {
+              "originalPosition": 41,
+              "body": "I'd leave it be.  This is really focused on WGs.",
+              "createdAt": "2025-06-17T09:45:07Z",
+              "updatedAt": "2025-06-17T09:45:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 127,
+      "id": "PR_kwDOJrr8CM6bFm5m",
+      "title": "EDITORIAL: Consolidate \"this document/this memo\".",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/127",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #104 if approved.",
+      "createdAt": "2025-06-18T14:21:42Z",
+      "updatedAt": "2025-06-18T22:00:48Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "5d616e32e6095bf44789cf69693a141231623ec2",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "thismemo",
+      "headRefOid": "48d37b23ff653f564dc2a6d82739f623edc39b6a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@sayrer please review.",
+          "createdAt": "2025-06-18T14:22:12Z",
+          "updatedAt": "2025-06-18T14:22:12Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> @sayrer please review.\r\n\r\nIt seems fine to me.",
+          "createdAt": "2025-06-18T22:00:48Z",
+          "updatedAt": "2025-06-18T22:00:48Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6vNi1y",
+          "commit": {
+            "abbreviatedOid": "48d37b2"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-06-18T14:48:33Z",
+          "updatedAt": "2025-06-18T14:48:33Z",
+          "comments": []
         }
       ]
     }
