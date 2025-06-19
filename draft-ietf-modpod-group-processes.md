@@ -68,7 +68,7 @@ informative:
 
 The IETF will treat people with kindness and grace, but not endless patience.
 
-This document describes the creation of a moderator team for all the
+This memo describes the creation of a moderator team for all the
 IETF's various contribution channels. Without removing existing responsibilities
 for working group management, this team enables a uniform approach to moderation
 of disruptive participation across all mailing lists and other methods of IETF
@@ -78,12 +78,12 @@ collaboration.
 
 # Introduction
 
-This document proposes the creation of a moderator team for all the
+This memo proposes the creation of a moderator team for all the
 IETF's various contribution channels. The moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
 
-As a consequence, this document obsoletes {{!RFC3683}} and the "posting rights"
+As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
 (PR) action it defines. It also obsoletes {{Section 4 of !RFC9245}}, which
 defines the IETF discussion list moderation team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
@@ -163,7 +163,7 @@ regardless of their position or past contributions.
 
 # IETF Moderator Team
 
-This document proposes a different, uniform approach to moderating the
+This memo proposes a different, uniform approach to moderating the
 IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
 in the previous model {{motive}} and the principles described in the introduction.
@@ -265,7 +265,7 @@ with the responsible area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
-Within the bounds of the policies set within this memo and with the
+Within the bounds of the policies set herein and with the
 approval of the IESG, the moderator team shall define any additional
 processes and moderation criteria necessary to execute their role.
 Those processes and criteria shall be developed with community input
@@ -379,7 +379,7 @@ The subject of any such action may request a review by the IETF LLC
 board, as documented in section 4.7 of {{!RFC8711}}
 
 Any such action taken by the IETF LLC under this section of this
-policy, is not subject to the rest of the policy in this document.
+policy, is not subject to the rest of this policy.
 
 ## Relation to the IRTF
 
@@ -404,21 +404,21 @@ participation by other IETF participants.
 
 # IANA Considerations
 
-This document has no IANA actions.
+No IANA actions are requested.
 
 # Acknowledgments
 
-This document is based on two individual Internet-Drafts,
+This memo is based on two individual Internet-Drafts,
 [draft-ecahc-moderation](<https://datatracker.ietf.org/doc/draft-ecahc-moderation/>)
 authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ Housley and Brian E.
 Carpenter, and
 [draft-lear-bcp83-replacement](<https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/>)
-authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine. Many of
-the ideas in this document originated in those I-Ds. Robert Sayre authored
+authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine.
+Robert Sayre authored
 [draft-sayre-modpod-excellent](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
-which also originated ideas reflected in this WG document.
+which also originated ideas reflected in this work.
 
-These individuals suggested additional improvements to this document:
+These individuals contributed additional improvements:
 
 - Alissa Cooper
 - Chris Box
