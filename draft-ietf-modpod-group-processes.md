@@ -8,6 +8,8 @@ number:
 date:
 consensus: true
 v: 3
+obsoletes: 3683, 9245
+updates: 2418
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/draft-ietf-modpod-group-processes
@@ -66,7 +68,7 @@ informative:
 
 The IETF will treat people with kindness and grace, but not endless patience.
 
-This document describes the creation of a moderator team for all the
+This memo describes the creation of a moderator team for all the
 IETF's various contribution channels. Without removing existing responsibilities
 for working group management, this team enables a uniform approach to moderation
 of disruptive participation across all mailing lists and other methods of IETF
@@ -76,15 +78,21 @@ collaboration.
 
 # Introduction
 
-This document proposes the creation of a moderator team for all the
-IETF's various contribution channels. This moderator team is modeled
+This memo proposes the creation of a moderator team for all the
+IETF's various contribution channels. The moderator team is modeled
 after, and subsumes, the moderator team for the IETF discussion list
-{{?RFC9245}}.  This memo is applicable to **all** IETF participation channels.
+{{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
+
+As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
+(PR) action it defines. It also obsoletes {{Section 4 of !RFC9245}}, which
+defines the IETF discussion list moderation team. Finally, it updates {{Section
+6.1 of !RFC2418}}, because the moderator team will now work together with
+working group chairs to moderate disruptive behavior.
 
 ## Background {#background}
 
-The IETF community has defined general guidelines of conduct for
-personal interaction in the IETF {{?RFC7154}}, and the IESG has
+The IETF community has defined general guidelines for
+personal interactions in the IETF {{?RFC7154}}, and the IESG has
 defined an anti-harassment policy for the IETF {{AHP}} for which the IETF
 community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
@@ -126,6 +134,7 @@ existing processes is necessary (see {{motive}}).
 The cornerstone of our philosophy is first and foremost the individual, whose
 responsibility is to further the goals of the organization {{!RFC3935}} in a
 manner consistent with the policy laid out in {{!RFC7154}}.
+
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered abuse,
 nor should someone be considered abusive solely because they are outside the rough
@@ -152,20 +161,9 @@ The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their position or past contributions.
 
-## Conventions and Definitions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-document are to be interpreted in their normal English sense; they are shown
-in uppercase for emphasis and clarity.
-
-{:aside}
-> TODO: Get feedback from the community whether this redefinition of BCP14
-> terms in process documents is something they support.
-
 # IETF Moderator Team
 
-This document proposes a different, uniform approach to moderating the
+This memo proposes a different, uniform approach to moderating the
 IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
 in the previous model {{motive}} and the principles described in the introduction.
@@ -175,26 +173,26 @@ in the previous model {{motive}} and the principles described in the introductio
 The moderator team consists of no less than five
 individuals.  The IESG appoints and replaces moderators.
 In selecting members, the IESG will take into
-account geographic coverage, expected and unexpected absenses, and
+account geographic coverage, expected and unexpected absences, and
 team diversity.  The moderator team may expand or contract
 based on operational experience.  Apart from appointing and replacing
-moderators, the IESG SHALL refrain from the day-to-day operation
-and management of the moderator team. The moderators MAY decide to
+moderators, the IESG shall refrain from the day-to-day operation
+and management of the moderator team. The moderators may decide to
 consult with the IESG when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IESG MUST NOT appoint a
+decisions (see {{appeals}}), the IESG must not appoint a
 moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
-Trust or the LLC Board, as well as LLC staff and contractors SHALL
+Trust or the LLC Board, as well as LLC staff and contractors shall
 also be excluded from serving on the moderator team. If a moderator
-is assuming any such role, they SHALL step down from the moderator team
+is assuming any such role, they shall step down from the moderator team
 soon after.
 
 ### Team Diversity
 
 Due to the global nature of the IETF, the membership of this team
-SHOULD reflect a diversity of time zones and other participant
+should reflect a diversity of time zones and other participant
 characteristics that lets it operate effectively around the clock and
 throughout the year. Ideally, the moderators should be able to
 respond to issues within a few hours.
@@ -222,19 +220,18 @@ The moderators are authorized to moderate all non-working group
 fora, including the IETF discussion and last-call mailing lists
 and all non-WG mailing lists, as well as area mailing lists.  This
 also includes non-WG IETF-sponsored chat mechanisms.
-
-Interactions with WGs are discussed below.
+(Involvement in the moderation of WGs is further discussed in {{wg-mod}}.)
 
 It is not expected that the moderators will be monitoring every
-IETF channel, but rather that participants MAY and group management SHOULD flag
+IETF channel, but rather that participants may and group management should flag
 concerns about disruptive behavior to the moderators. However,
-the moderators SHOULD actively monitor a small set of key
+the moderators should actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
 and last-call mailing lists or the IETF plenary chat channel. The
 moderators should decide which channels are in this set based on
 their own judgment and community suggestions. (Note that some participation
 channels, such as the examples given in the previous sentence, have no
-chairs or other community leadership, so the moderators MUST handle those.)
+chairs or other community leadership, so the moderators must handle those.)
 
 Moderators are expected to be a resource that the community can use
 to address problematic contributions.
@@ -248,39 +245,30 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-## IETF Working Groups
+## IETF Working Groups {#wg-mod}
 
-The management and moderation of participation channels associated
-with various IETF working groups, including their mailing lists, chat
-channels and in-person, remote, or interim meetings remains primarily a task of
-the relevant group's management, such as WG chairs.
-Group participants MAY and chairs
-MUST alert the moderators to problematic behavior that rises to the
-level that some action is needed.
+Primary responsibility of moderation of working group participation
+channels resides with working group management.  Working group
+participants should report problems to both chairs and to the moderation
+team.
+In cases where working group management does not appear to act on
+complaints, the moderation team may act.  Their first action will be
+to attempt to contact the chairs.  They may act further if there is no
+timely response, informing both chairs and the responsible area
+director of any actions taken.
 
-Moderators MAY take actions against
-someone in a working group setting, but they MUST immediately inform
-management of relevant groups, including WG chairs and area directors,
-when they do so.
-
-If working group management and moderators have a disagreement about
-how to proceed in any given circumstance, before any further action is
-taken, the matter SHALL be taken up with the responsible area
-director(s) for resolution, and, when more than one area is involved,
-with the IESG.
-
-It is anticipated that such disagreements will be exceedingly rare.
-The moderators should respect the views of the group management
-in such cases, and the group management should respect the moderators'
-task of upholding an overall IETF-wide uniformity for
-moderation.
+Both working group management and moderators shall act in a manner
+consistent with guidelines approved by the IESG.  In cases of
+disagreement between the chairs and moderation team
+over a moderation decision, the matter should be taken up
+with the responsible area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
-Within the bounds of the policies set within this memo and with the
-approval of the IESG, the moderator team SHALL define any additional
+Within the bounds of the policies set herein and with the
+approval of the IESG, the moderator team shall define any additional
 processes and moderation criteria necessary to execute their role.
-Those processes and criteria SHALL be developed with community input
+Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.
 
 The intent of this memo is to provide the widest possible freedom of
@@ -299,13 +287,16 @@ actions.
 The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
 
+Any attempt to circumvent or otherwise ignore a moderation action
+is a demonstration of bad faith that may warrant further moderation.
+
 The moderator team is responsible to the IESG.  The IESG
-MAY create or designate a forum to facilitate discussion about
+may create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All actions
-taken by the moderator team SHALL be reported to the IESG,
+taken by the moderator team shall be reported to the IESG,
 as well as to those against whom those actions are directed.
 To address inappropriate contributions in a timely manner, only
-bans longer than fourteen (14) days SHALL be reported to the forum in
+bans longer than fourteen (14) days shall be reported to the forum in
 which the person was banned, and in the case of a ban that spans more
 than one forum, to the community in a manner decided by the IESG.
 
@@ -324,14 +315,18 @@ decision by the IESG can be appealed to the IAB as described in
 ## Reinstatement
 
 People and circumstances change.  Individuals who have been banned
-from a forum may request to be reinstated.  That request must be
-directed to the entity that made the decision (e.g., moderation team,
-working group chair, etc) or their successors, and that party may at
-their discretion reinstate someone, conditionally or unconditionally.
-Since a request to be reinstated is in effect an appeal of an earlier decision,
-decisions to not reinstate someone may not be appealed again.
-Requests for reinstatement may be entertained only a year after
-the initial decision, and then only annually.
+from a forum may request reinstatement.  Any such request must be
+directed to the entity who made the decision (e.g., moderation team,
+working group chairs, etc.) or their successors.  That party may at
+their discretion
+reinstate someone, conditionally or unconditionally.  So as to avoid
+denial of service attacks on our processes, decisions to not reinstate
+someone whose inappropriate behavior has already been established
+may not be appealed.  Any reinstatement is a grace and not a right.
+Decisions to
+not reinstate someone may not be appealed.  Requests for reinstatement
+may be entertained only a year after the initial decision, and then
+only annually.
 
 A ban imposed prior to this process shall be reconsidered only in
 accordance with the processes in place at the time of the ban,
@@ -341,17 +336,17 @@ even if the corresponding RFC has been formally obsoleted.
 
 ## Relation to the Ombudsteam
 
-The moderator team SHALL complement the efforts of the IETF
+The moderator team shall complement the efforts of the IETF
 ombudsteam {{OT}}, whose focus on anti-harassment and operation
-SHALL remain unchanged. The moderator team and ombudsteam are
+shall remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
-do so in each case. For example, the ombudsteam MAY decide to have
+do so in each case. For example, the ombudsteam may decide to have
 one of their members serve as a liaison to the moderator team.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
-case overlaps with an ombudsteam case, confidential information MUST
-NOT be shared between the teams.
+case overlaps with an ombudsteam case, confidential information must
+not be shared between the teams.
 
 ## Relation to the IETF LLC
 
@@ -360,7 +355,7 @@ fiduciary duty for the overall organization, which includes the duty
 to protect the organization from serious legal risk that may arise
 from the behavior of IETF participants.
 
-This protection MAY include the need for the IETF LLC to take
+This protection may include the need for the IETF LLC to take
 emergency moderation actions. These emergency actions are expected to
 be taken only when the IETF LLC has received legal advice that such
 action is necessary, and therefore extremely rare in frequency. Some
@@ -374,11 +369,11 @@ examples of where this might be necessary are:
   interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
 
-If any such action is taken, the IETF LLC SHOULD, except where
+If any such action is taken, the IETF LLC should, except where
 limited by legal advice to the contrary, inform the IESG as soon as
 possible, providing full details of the subject of the action, nature
 of the action, reason for the action and expected duration. The IETF
-LLC SHOULD also inform the moderator team and IETF community, except
+LLC should also inform the moderator team and IETF community, except
 where it receives legal advice to the contrary.
 
 As such an action would be taken by the IETF LLC in order to protect
@@ -388,7 +383,7 @@ The subject of any such action may request a review by the IETF LLC
 board, as documented in section 4.7 of {{!RFC8711}}
 
 Any such action taken by the IETF LLC under this section of this
-policy, is not subject to the rest of the policy in this document.
+policy, is not subject to the rest of this policy.
 
 ## Relation to the IRTF
 
@@ -397,15 +392,6 @@ organization separate from the IETF that is governed by its own
 set or rules and processes. {{Sections 3, 6 and 7 of
 ?I-D.perkins-irtf-code-of-conduct}} discuss rules for participating
 in the IRTF and moderation of IRTF participation channels.
-
-# Changes to Existing RFCs
-
-Creation of the IETF moderator team requires some changes to existing
-RFCs and also requires the IESG to update a number of their
-statements. This section describes these changes.
-
-{:aside}
-> TODO: Add once we know this I-D will go forward in some form.
 
 # Security Considerations
 
@@ -422,21 +408,21 @@ participation by other IETF participants.
 
 # IANA Considerations
 
-This document has no IANA actions.
+No IANA actions are requested.
 
 # Acknowledgments
 
-This document is based on two individual Internet-Drafts,
+This memo is based on two individual Internet-Drafts,
 [draft-ecahc-moderation](<https://datatracker.ietf.org/doc/draft-ecahc-moderation/>)
 authored by Lars Eggert, Alissa Cooper, Jari Arkko, Russ Housley and Brian E.
 Carpenter, and
 [draft-lear-bcp83-replacement](<https://datatracker.ietf.org/doc/draft-lear-bcp83-replacement/>)
-authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine. Many of
-the ideas in this document originated in those I-Ds. Robert Sayre authored
+authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine.
+Robert Sayre authored
 [draft-sayre-modpod-excellent](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
-which also originated ideas reflected in this WG document.
+which also originated ideas reflected in this work.
 
-These individuals suggested additional improvements to this document:
+These individuals contributed additional improvements:
 
 - Alissa Cooper
 - Chris Box
@@ -456,8 +442,22 @@ These individuals suggested additional improvements to this document:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since raft-ietf-modpod-group-processes-05
+
+- [New attempt to address moderation/WG interactions](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/126)
+
+## Since draft-ietf-modpod-group-processes-04
+
+- [Use plain English instead of BCP 14 language](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/120)
+
+## Since draft-ietf-modpod-group-processes-03
+
+- [Non-normative Examples of Disruptive Behavior](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/121)
+
 ## Since draft-ietf-modpod-group-processes-02
 
+- [Say which RFCs this obsoletes and updates.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/105
+)
 - [Address issue 113](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/116)
 - [Rewrite philosophy](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/103)
 - [Reinstatement](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/107)
@@ -530,3 +530,29 @@ ideal:
   systems, virtual meetings, wikis, GitHub repositories, and more.
   How disruptive behavior is moderated in these channels is currently
   undefined.
+
+# Non-Normative Examples of Disruptive Behavior {#examples}
+
+The list below describes some types of disruptive behavior, but it
+is non-exhaustive.
+
+- unsolicited bulk e-mail;
+
+- discussion of subjects unrelated to IETF policy, meetings,
+  activities, or technical concerns;
+
+- uncivil commentary, regardless of the general subject;
+
+- announcements of conferences, events, or activities that are not
+  sponsored or endorsed by the Internet Society or IETF;
+
+- repeatedly arguing counter to a WG charter that has been approved by
+  the IESG; and
+
+- "sealioning", where a participant makes incessant requests for evidence or
+  data, even while remaining superficially polite.
+
+These items are just examples. The moderator team's task consists of
+subjective judgement calls. Behaviors not listed here might require
+moderation, and it is not possible to write a complete list of all such
+behaviors.
