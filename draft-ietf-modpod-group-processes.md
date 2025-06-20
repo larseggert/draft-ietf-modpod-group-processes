@@ -316,10 +316,14 @@ decision by the IESG can be appealed to the IAB as described in
 
 People and circumstances change.  Individuals who have been banned
 from a forum may request reinstatement.  Any such request must be
-directed to the entity that made the decision (e.g., moderation team,
-working group chairs, etc.) or their successors, and that party may - at
-their discretion -
-reinstate someone, conditionally or unconditionally.  Decisions to
+directed to the entity who made the decision (e.g., moderation team,
+working group chairs, etc.) or their successors.  That party may at
+their discretion
+reinstate someone, conditionally or unconditionally.  So as to avoid
+denial of service attacks on our processes, decisions to not reinstate
+someone who has been the subject of a moderation action
+may not be appealed.  Any reinstatement is a grace and not a right.
+Decisions to
 not reinstate someone may not be appealed.  Requests for reinstatement
 may be entertained only a year after the initial decision, and then
 only annually.
