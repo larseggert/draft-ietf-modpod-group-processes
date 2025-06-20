@@ -321,7 +321,7 @@ working group chairs, etc.) or their successors.  That party may at
 their discretion
 reinstate someone, conditionally or unconditionally.  So as to avoid
 denial of service attacks on our processes, decisions to not reinstate
-someone whose inappropriate behavior has already been established
+someone who has been the subject of a moderation action
 may not be appealed.  Any reinstatement is a grace and not a right.
 Decisions to
 not reinstate someone may not be appealed.  Requests for reinstatement
