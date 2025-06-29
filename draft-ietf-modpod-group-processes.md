@@ -216,22 +216,40 @@ future, including, but not limited to, mailing lists, chat channels,
 and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, Wikis, or issue trackers.
 
-The moderators are authorized to moderate all non-working group
+The moderators are authorized to moderate all
 fora, including the IETF discussion and last-call mailing lists
-and all non-WG mailing lists, as well as area mailing lists.  This
-also includes non-WG IETF-sponsored chat mechanisms.
-(Involvement in the moderation of WGs is further discussed in {{wg-mod}}.)
+all WG and non-WG mailing lists, area mailing lists, and chat systems in
+coordination with the owners (if there are any) of those fora.
+Participants
+should contact both fora owners and moderators when they have concerns,
+and moderators should only act when the owners do not respond in a
+timely fashion.  In general, their first act should be to contact the
+fora owners, and then only act if the owners remain unresponsive.
+
+In the case of plenary fora, such as the ietf list, last-call list, and
+other channels in which all or a large portion of the IETF community
+engage, moderators shall act as owners, and they will be the primary
+contacts for complaints.
+
+Forum owners and moderators shall act in a manner
+consistent with guidelines approved by the IESG.  In cases of
+disagreement between the chairs and moderation team
+over a moderation decision, the matter should be taken up
+with the responsible area director for resolution, or the IETF chair
+if a responsible area director cannot be determined or is not assigned.
 
 It is not expected that the moderators will be monitoring every
-IETF channel, but rather that participants may and group management should flag
-concerns about disruptive behavior to the moderators. However,
+IETF channel, but rather that participants may and group management
+should flag concerns about disruptive behavior to the moderators and
+owners of those channels. However,
 the moderators should actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
 and last-call mailing lists or the IETF plenary chat channel. The
 moderators should decide which channels are in this set based on
-their own judgment and community suggestions. (Note that some participation
-channels, such as the examples given in the previous sentence, have no
-chairs or other community leadership, so the moderators must handle those.)
+their own judgment and community suggestions. (Note that some
+participation channels, such as the examples given in the previous
+sentence, have no chairs or other community leadership, so the
+moderators must handle those.)
 
 Moderators are expected to be a resource that the community can use
 to address problematic contributions.
@@ -244,24 +262,6 @@ not extend to problematic behavior in private channels, such as
 private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
-
-## IETF Working Groups {#wg-mod}
-
-Primary responsibility of moderation of working group participation
-channels resides with working group management.  Working group
-participants should report problems to both chairs and to the moderation
-team.
-In cases where working group management does not appear to act on
-complaints, the moderation team may act.  Their first action will be
-to attempt to contact the chairs.  They may act further if there is no
-timely response, informing both chairs and the responsible area
-director of any actions taken.
-
-Both working group management and moderators shall act in a manner
-consistent with guidelines approved by the IESG.  In cases of
-disagreement between the chairs and moderation team
-over a moderation decision, the matter should be taken up
-with the responsible area director for resolution.
 
 # Operations and Procedures of the Moderator Team and Transparency
 
