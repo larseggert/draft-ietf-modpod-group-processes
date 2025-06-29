@@ -420,7 +420,8 @@ Carpenter, and
 authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine.
 Robert Sayre authored
 [draft-sayre-modpod-excellent](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
-which also originated ideas reflected in this work.
+which also originated ideas reflected in this work.  Pete Resnick provided the basis for
+how the moderators interact with list / forum leadership.
 
 These individuals contributed additional improvements:
 
@@ -441,6 +442,10 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modmod-group-processes-06
+
+- [Normalize handling of moderation across all fora](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/129)
 
 ## Since raft-ietf-modpod-group-processes-05
 
