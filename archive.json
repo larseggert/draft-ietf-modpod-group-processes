@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-22T00:28:33.904341+00:00",
+  "timestamp": "2025-06-29T00:29:17.535244+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2174,6 +2174,30 @@
           "body": "I meant to say that you can write it your way, not that I would do it. :)\n\nBut I did notice I could cover #77.\n\nhttps://gist.github.com/sayrer/1fdee360799d26b26c19381d12cf549e\n\nSo, I've gone and published something fully outside the IETF terms, but harmlessly so. The point here is not that I am mad (I am not). But you do need a tool that is more efficient than running a CI tool.\n\nThat's the point of #77. There is no grievance. Everything in my gist is out of the IETF's control. It is only a reliance on the audience that fuels the \"free speech\" arguments.",
           "createdAt": "2025-05-28T23:04:17Z",
           "updatedAt": "2025-05-28T23:27:41Z"
+        }
+      ]
+    },
+    {
+      "number": 128,
+      "id": "I_kwDOJrr8CM69qnO8",
+      "title": "Address non-WG mailing lists",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/128",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "We're still not there.  Current center of gravity seems to be to treat them like WG mailing lists, where owners get first shot.  The key is that all abuse has to be reported to the moderators, so that they can track.  @rgwilton please create a PR that you think would would create a functional solution.",
+      "createdAt": "2025-06-27T09:17:54Z",
+      "updatedAt": "2025-06-29T00:26:27Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I brought up on the list, but there's a subtlety here. There are non-WG lists like ietf@ietf.org and last-call@ietf.org, where the moderators are the first choice right now. Is that intended to continure with this draft? I think so, but I also think moderators can decide to intervene in a very obscure non-WG list if they think it is warranted.",
+          "createdAt": "2025-06-29T00:26:26Z",
+          "updatedAt": "2025-06-29T00:26:26Z"
         }
       ]
     }
