@@ -228,8 +228,9 @@ fora, including the IETF discussion and last-call mailing lists
 all WG and non-WG mailing lists, area mailing lists, and chat systems in
 coordination with the owners (if there are any) of those fora.
 Participants
-should contact both fora owners and moderators when they have concerns,
-and moderators should only act when the owners do not respond in a
+should contact both fora owners and the moderator team when they have concerns
+about any problematic behavior happening in the forum.
+The moderator team should only act when the owners do not respond in a
 timely fashion.  In general, their first act should be to contact the
 fora owners, and then only act if the owners remain unresponsive.
 
