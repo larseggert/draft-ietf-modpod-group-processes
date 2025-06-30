@@ -161,6 +161,8 @@ The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their position or past contributions.
 
+## Terminology
+
 Below we use the term "owner" to refer to the people who
 are assigned by the IESG to manage a particular communication
 channel.  For example, working group chairs are in this limited
