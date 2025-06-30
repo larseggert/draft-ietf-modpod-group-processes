@@ -312,7 +312,9 @@ over a moderation decision, the matter should be taken up
 with the responsible area director for resolution, or the IETF chair
 if a responsible area director cannot be determined or is not assigned.
 
-Any moderation decision can be appealed to the IESG by anyone,
+
+Because the moderator team serves at the discretion of the IESG,
+any moderation decision can be appealed to the IESG by anyone,
 per {{!RFC2026}}. Disagreements with a decision by the moderator team can
 be brought to their attention. If this does not lead to a resolution, a
 decision by the IESG can be appealed to the IAB as described in
