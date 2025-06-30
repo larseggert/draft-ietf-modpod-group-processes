@@ -224,7 +224,7 @@ and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, Wikis, or issue trackers.
 
 The moderators are authorized to moderate all
-fora, including the IETF discussion and last-call mailing lists
+fora, including the IETF discussion and last-call mailing lists,
 all WG and non-WG mailing lists, area mailing lists, and chat systems in
 coordination with the owners (if there are any) of those fora.
 Participants
