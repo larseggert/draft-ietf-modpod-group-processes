@@ -166,7 +166,6 @@ are assigned by the IESG to manage a particular communication
 channel.  For example, working group chairs are in this limited
 sense owners, as are non-WG list administrators.
 
-
 # IETF Moderator Team
 
 This memo proposes a different, uniform approach to moderating the
@@ -280,7 +279,7 @@ is a demonstration of bad faith that may warrant further moderation.
 
 The moderator team is responsible to the IESG.  The IESG
 may create or designate a forum to facilitate discussion about
-moderation, and refer interested parties to that forum.  All 
+moderation, and refer interested parties to that forum.  All
 moderation actions shall be reported to the IESG,
 as well as to those against whom those actions are directed.
 To address inappropriate contributions in a timely manner, only
