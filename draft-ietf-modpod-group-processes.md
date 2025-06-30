@@ -288,7 +288,7 @@ is a demonstration of bad faith that may warrant further moderation.
 The moderator team is responsible to the IESG.  The IESG
 may create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All
-moderation actions that restrict posting rights shall be 
+moderation actions that restrict posting rights shall be
 periodically reported to the IESG,
 as well as immediately to those against whom those actions are directed.
 To address inappropriate contributions in a timely manner, only
