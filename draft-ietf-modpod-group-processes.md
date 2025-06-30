@@ -423,7 +423,7 @@ authored by Eliot Lear, Robert Wilton, Bron Gondwana and John R. Levine.
 Robert Sayre authored
 [draft-sayre-modpod-excellent](<https://datatracker.ietf.org/doc/draft-sayre-modpod-excellent/>),
 which also originated ideas reflected in this work.  Pete Resnick provided the
-basis for how the moderators interact with list / forum leadership.
+basis for how the moderators interact with list/forum leadership.
 
 These individuals contributed additional improvements:
 
