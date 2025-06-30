@@ -235,7 +235,7 @@ coordination with the administrators (if there are any) of those fora.
 Participants
 should contact both fora administrators and the moderator team when they
 have concerns
-about any problematic behavior happening in the forum.
+about any problematic behavior happening in a forum.
 The moderator team should only act when the administrators do not
 respond in a
 timely fashion.  In general, their first act should be to contact the
