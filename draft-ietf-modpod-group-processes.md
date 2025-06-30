@@ -229,7 +229,8 @@ employ, such as GitHub repositories, Wikis, or issue trackers.
 
 The moderators are authorized to moderate all
 fora, including the IETF discussion and last-call mailing lists,
-all WG and non-WG mailing lists, area mailing lists, and chat systems in
+all WG and non-WG mailing lists, area mailing lists, and chat channels
+or other collaborative tools used to conduct public IETF work. They do so in
 coordination with the administrators (if there are any) of those fora.
 Participants
 should contact both fora administrators and the moderator team when they
