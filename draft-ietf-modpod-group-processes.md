@@ -280,7 +280,7 @@ Examples of actions that could be taken include:
 - Temporary or permanent bans in one or more fora.
 
 We stress that these are only examples, and not in any way
-prescriptive. administrators and moderators are free to decide on
+prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
 The expectation is that the minimal action necessary to maintain the
