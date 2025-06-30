@@ -166,7 +166,10 @@ regardless of their position or past contributions.
 Below we use the term "administrator" to refer to the people who
 are assigned by the IESG to manage a particular communication
 channel, such as a mailing list or a chat group.  For example, working
-group chairs are administrators.
+group chairs are administrators of all the participation channels their WG
+uses, which typically includes mailing lists and chat channels, but might
+also include collaborative tools such as GitHub or GitLab. Another example
+of administrators are the "owners" of non-WG IETF mailing lists.
 
 # IETF Moderator Team
 
