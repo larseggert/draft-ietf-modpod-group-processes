@@ -163,17 +163,18 @@ regardless of their position or past contributions.
 
 ## Terminology
 
-Below we use the term "owner" to refer to the people who
+Below we use the term "administrator" to refer to the people who
 are assigned by the IESG to manage a particular communication
-channel.  For example, working group chairs are in this limited
-sense owners, as are non-WG list administrators.
+channel, such as a mailing list or a chat group.  For example, working
+group chairs are administrators.
 
 # IETF Moderator Team
 
 This memo proposes a different, uniform approach to moderating the
 IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
-in the previous model {{motive}} and the principles described in the introduction.
+in the previous model {{motive}} and the principles described in the
+introduction.
 
 ## Composition
 
@@ -226,17 +227,21 @@ employ, such as GitHub repositories, Wikis, or issue trackers.
 The moderators are authorized to moderate all
 fora, including the IETF discussion and last-call mailing lists,
 all WG and non-WG mailing lists, area mailing lists, and chat systems in
-coordination with the owners (if there are any) of those fora.
+coordination with the administrators (if there are any) of those fora.
 Participants
-should contact both fora owners and the moderator team when they have concerns
+should contact both fora administrators and the moderator team when they
+have concerns
 about any problematic behavior happening in the forum.
-The moderator team should only act when the owners do not respond in a
+The moderator team should only act when the administrators do not
+respond in a
 timely fashion.  In general, their first act should be to contact the
-fora owners, and then only act if the owners remain unresponsive.
+fora administrators, and then only act if the administrators
+remain unresponsive.
 
 In the case of plenary fora, such as the ietf list, last-call list, and
 other channels in which all or a large portion of the IETF community
-engage, moderators shall act as owners.  As such, they will be the primary
+engage, moderators shall act as administrators.  As such, they will be
+the primary
 contacts for complaints, and they will provide active supervision.
 Moderators are not expected to actively monitor other fora, where they
 will instead respond to reports from participants.
@@ -262,8 +267,8 @@ Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.
 
 The intent of this memo is to provide the widest possible freedom of
-action to owners and moderators, with a few constraints.  Examples of
-actions that could be taken include:
+action to administrators and moderators, with a few constraints.
+Examples of actions that could be taken include:
 
 - Automated rate limiting mechanisms;
 - Review and approval of submissions/messages;
@@ -271,8 +276,8 @@ actions that could be taken include:
 - Temporary or permanent bans in one or more fora.
 
 We stress that these are only examples, and not in any way
-prescriptive. Owners and moderators are free to decide on these or other
-actions.
+prescriptive. administrators and moderators are free to decide on
+these or other actions.
 
 The expectation is that the minimal action necessary to maintain the
 comity of a forum will be attempted.
@@ -283,8 +288,9 @@ is a demonstration of bad faith that may warrant further moderation.
 The moderator team is responsible to the IESG.  The IESG
 may create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.  All
-moderation actions shall be reported to the IESG,
-as well as to those against whom those actions are directed.
+moderation actions that restrict posting rights shall be 
+periodically reported to the IESG,
+as well as immediately to those against whom those actions are directed.
 To address inappropriate contributions in a timely manner, only
 bans longer than fourteen (14) days shall be reported to the forum in
 which the person was banned, and in the case of a ban that spans more
@@ -295,9 +301,9 @@ actions, and are therefore beyond the scope of this memo.
 
 ## Consistency and Conflict Resolution {#appeals}
 
-Forum owners and moderators shall act in a manner
+Forum administrators and moderators shall act in a manner
 consistent with guidelines approved by the IESG.  In cases of
-disagreement between the owners and the moderation team
+disagreement between the administrators and the moderation team
 over a moderation decision, the matter should be taken up
 with the responsible area director for resolution, or the IETF chair
 if a responsible area director cannot be determined or is not assigned.
