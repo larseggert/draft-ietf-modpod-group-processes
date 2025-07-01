@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-29T00:29:17.535244+00:00",
+  "timestamp": "2025-07-01T00:29:47.071636+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2182,22 +2182,31 @@
       "id": "I_kwDOJrr8CM69qnO8",
       "title": "Address non-WG mailing lists",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/128",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "We're still not there.  Current center of gravity seems to be to treat them like WG mailing lists, where owners get first shot.  The key is that all abuse has to be reported to the moderators, so that they can track.  @rgwilton please create a PR that you think would would create a functional solution.",
       "createdAt": "2025-06-27T09:17:54Z",
-      "updatedAt": "2025-06-29T00:26:27Z",
-      "closedAt": null,
+      "updatedAt": "2025-06-30T13:09:28Z",
+      "closedAt": "2025-06-30T13:09:28Z",
       "comments": [
         {
           "author": "sayrer",
           "authorAssociation": "CONTRIBUTOR",
-          "body": "I brought up on the list, but there's a subtlety here. There are non-WG lists like ietf@ietf.org and last-call@ietf.org, where the moderators are the first choice right now. Is that intended to continure with this draft? I think so, but I also think moderators can decide to intervene in a very obscure non-WG list if they think it is warranted.",
+          "body": "I brought up on the list, but there's a subtlety here. There are non-WG lists like ietf@ietf.org and last-call@ietf.org, where the moderators are the first choice right now. Is that intended to continue with this draft? I think so, but I also think moderators can decide to intervene in a very obscure non-WG list if they think it is warranted (not that they would be proactively monitoring them).",
           "createdAt": "2025-06-29T00:26:26Z",
-          "updatedAt": "2025-06-29T00:26:26Z"
+          "updatedAt": "2025-06-29T00:36:17Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yes, it's my assumption that certain non-WG lists (TBD, but including ietf@ and last-call@) would be actively moderated; the recent discussion was aimed at the large number of special-topic non-WG lists.",
+          "createdAt": "2025-06-29T01:26:35Z",
+          "updatedAt": "2025-06-29T01:26:35Z"
         }
       ]
     }
@@ -9718,6 +9727,515 @@
           "createdAt": "2025-06-18T14:48:33Z",
           "updatedAt": "2025-06-18T14:48:33Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 129,
+      "id": "PR_kwDOJrr8CM6ckZ-8",
+      "title": "Normalize handling of moderation across all fora",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/129",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This commit consolidates text between WG and non-WG fora, such that they are largely treated the same, the exceptions being the ietf and last-call lists, and similar.  This commit intends **no change** from the previous proposed handling of WG fora.  It closes #128.",
+      "createdAt": "2025-06-29T09:06:19Z",
+      "updatedAt": "2025-06-30T13:09:27Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e529cb7c0d8059760538f1da518e3a61eb834d62",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "non-wg-mgmt",
+      "headRefOid": "9c9adb2cb199e74dc9cadec16e1c64e9abad224d",
+      "closedAt": "2025-06-30T13:09:27Z",
+      "mergedAt": "2025-06-30T13:09:27Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "541de0600d3015086c26ca115a28f514837279f8"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert sorry- please do a re-review.",
+          "createdAt": "2025-06-30T06:32:01Z",
+          "updatedAt": "2025-06-30T06:32:01Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6w_DO4",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-29T16:06:25Z",
+          "updatedAt": "2025-06-29T16:08:00Z",
+          "comments": [
+            {
+              "originalPosition": 22,
+              "body": "This paragraph is clear.",
+              "createdAt": "2025-06-29T16:06:25Z",
+              "updatedAt": "2025-06-29T16:08:00Z"
+            },
+            {
+              "originalPosition": 47,
+              "body": "I don't think this parenthetical is necessary given that these lists are already mentioned twice in this section, but I don't feel strongly.",
+              "createdAt": "2025-06-29T16:07:36Z",
+              "updatedAt": "2025-06-29T16:08:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6w_GO4",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-29T16:42:04Z",
+          "updatedAt": "2025-06-29T16:42:04Z",
+          "comments": [
+            {
+              "originalPosition": 47,
+              "body": "@sayrer I think I agree.",
+              "createdAt": "2025-06-29T16:42:04Z",
+              "updatedAt": "2025-06-29T16:42:04Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6w_fI4",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-29T20:24:05Z",
+          "updatedAt": "2025-06-29T20:24:05Z",
+          "comments": [
+            {
+              "originalPosition": 47,
+              "body": "I think we need to indicate that dealing with WG lists and the general channels like ietf@ are the priority job and the other channels are done on a best-effort basis. Otherwise we are giving the moderators an unbounded work load. That would be a replacement for the parenthesis.",
+              "createdAt": "2025-06-29T20:24:05Z",
+              "updatedAt": "2025-06-29T20:24:06Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6w_oyr",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-29T21:49:23Z",
+          "updatedAt": "2025-06-29T21:49:23Z",
+          "comments": [
+            {
+              "originalPosition": 47,
+              "body": "@becarpenter Yes, I agree. I said something similar here:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/ISiJZYP06lUd1Tx4yvBaWv7je-Q/\r\n\r\n\"The moderator team can decide how to deal with non-WG lists on a case-by-case basis.\"\r\n\r\nBut this parenthetical is not making that point.",
+              "createdAt": "2025-06-29T21:49:23Z",
+              "updatedAt": "2025-06-29T21:49:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xBlF8",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T05:51:35Z",
+          "updatedAt": "2025-06-30T05:51:35Z",
+          "comments": [
+            {
+              "originalPosition": 47,
+              "body": "I do not want to signal that abuse would be tolerated anywhere.",
+              "createdAt": "2025-06-30T05:51:35Z",
+              "updatedAt": "2025-06-30T05:51:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xBmKT",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T05:54:20Z",
+          "updatedAt": "2025-06-30T05:54:20Z",
+          "comments": [
+            {
+              "originalPosition": 47,
+              "body": "Just to go a little further, the parenthetical became redundant because the text above talks about how to handle lists that may not have owners.  Also, the text notes that the moderators will actively monitor ietf@ and plenary lists.  Others will require reporting.",
+              "createdAt": "2025-06-30T05:54:20Z",
+              "updatedAt": "2025-06-30T05:54:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xBkNv",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-06-30T05:49:14Z",
+          "updatedAt": "2025-06-30T06:00:36Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\nfora, including the IETF discussion and last-call mailing lists,\r\n```\r\nWe used the term `contribution channels` above. We should find one term and use it consistently.",
+              "createdAt": "2025-06-30T05:49:14Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            },
+            {
+              "originalPosition": 11,
+              "body": "The previous paragraph already lists examples of fora. Suggest to add the clarification there, rather than repeating it here.",
+              "createdAt": "2025-06-30T05:54:12Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            },
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\nshould contact both fora owners and the moderator team when they have concerns\r\nabout any problematic behavior happening in the forum.\r\nThe moderator team should only act when the owners do not respond in a\r\n```\r\nI don't love the term `owners`, but I can't come up with a better one.",
+              "createdAt": "2025-06-30T05:56:44Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            },
+            {
+              "originalPosition": 24,
+              "body": "This sentence is disconnected from the rest of the section and should probably move somewhere else.",
+              "createdAt": "2025-06-30T05:57:55Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            },
+            {
+              "originalPosition": 33,
+              "body": "```suggestion\r\nIETF channel, but rather that participants may and fora owners\r\n```\r\nWe should find one term and use it consistently. ",
+              "createdAt": "2025-06-30T05:59:01Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            },
+            {
+              "originalPosition": 81,
+              "body": "```suggestion\r\nbasis for how the moderators interact with list/forum leadership.\r\n```",
+              "createdAt": "2025-06-30T05:59:56Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            },
+            {
+              "originalPosition": 81,
+              "body": "Also add Pete to the list below?",
+              "createdAt": "2025-06-30T06:00:22Z",
+              "updatedAt": "2025-06-30T06:00:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xBukp",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T06:14:08Z",
+          "updatedAt": "2025-06-30T06:14:08Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "See next commit",
+              "createdAt": "2025-06-30T06:14:08Z",
+              "updatedAt": "2025-06-30T06:14:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xBurs",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T06:14:22Z",
+          "updatedAt": "2025-06-30T06:14:22Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "Yeah we do.",
+              "createdAt": "2025-06-30T06:14:22Z",
+              "updatedAt": "2025-06-30T06:14:22Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xBu1O",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T06:14:39Z",
+          "updatedAt": "2025-06-30T06:14:40Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Me neither.  That's my problem.  See next commit.",
+              "createdAt": "2025-06-30T06:14:40Z",
+              "updatedAt": "2025-06-30T06:14:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xB2iQ",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T06:31:02Z",
+          "updatedAt": "2025-06-30T06:31:03Z",
+          "comments": [
+            {
+              "originalPosition": 24,
+              "body": "I've moved this down into the appeals discussion and changed the heading name.",
+              "createdAt": "2025-06-30T06:31:02Z",
+              "updatedAt": "2025-06-30T06:31:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xB223",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T06:31:41Z",
+          "updatedAt": "2025-06-30T06:31:42Z",
+          "comments": [
+            {
+              "originalPosition": 81,
+              "body": "Sorry, which list?  I already added him to acknowledgments.",
+              "createdAt": "2025-06-30T06:31:41Z",
+              "updatedAt": "2025-06-30T06:31:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xCjjk",
+          "commit": {
+            "abbreviatedOid": "86259c0"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T07:47:04Z",
+          "updatedAt": "2025-06-30T07:47:05Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "group manager?",
+              "createdAt": "2025-06-30T07:47:04Z",
+              "updatedAt": "2025-06-30T07:47:05Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xDFXG",
+          "commit": {
+            "abbreviatedOid": "a263cf9"
+          },
+          "author": "rgwilton",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T08:34:17Z",
+          "updatedAt": "2025-06-30T08:34:17Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "administrator seems like another obvious candidate",
+              "createdAt": "2025-06-30T08:34:17Z",
+              "updatedAt": "2025-06-30T08:34:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xFZbR",
+          "commit": {
+            "abbreviatedOid": "ff31df5"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-06-30T12:06:42Z",
+          "updatedAt": "2025-06-30T12:12:38Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "```suggestion\r\ngroup chairs are administrators of all the participation channels their WG\r\nuses, which typically includes mailing lists and chat channels, but might\r\nalso include collaborative tools such as GitHub or GitLab. Another example\r\nof administrators are the \"owners\" of non-WG IETF mailing lists.\r\n```\r\n\r\nJust to flesh this out a bit more.",
+              "createdAt": "2025-06-30T12:06:42Z",
+              "updatedAt": "2025-06-30T12:12:38Z"
+            },
+            {
+              "originalPosition": 45,
+              "body": "```suggestion\r\nall WG and non-WG mailing lists, area mailing lists, and chat channels\r\nor other collaborative tools used to conduct public IETF work. They do so in\r\ncoordination with the administrators (if there are any) of those fora.\r\n```",
+              "createdAt": "2025-06-30T12:08:27Z",
+              "updatedAt": "2025-06-30T12:12:38Z"
+            },
+            {
+              "originalPosition": 49,
+              "body": "```suggestion\r\nabout any problematic behavior happening in a forum.\r\n```",
+              "createdAt": "2025-06-30T12:08:54Z",
+              "updatedAt": "2025-06-30T12:12:38Z"
+            },
+            {
+              "originalPosition": 109,
+              "body": "```suggestion\r\nprescriptive. Administrators and moderators are free to decide on\r\nthese or other actions.\r\n```\r\n\r\nSo how do we get moderation consistency? I assume this RFC will tasks the moderator team to establish and maintain a set of moderation actions together with some guidance on how to apply them, and administrators are expected to follow that guidance? Because otherwise we're back to the status quo, where every forum does what it wants.",
+              "createdAt": "2025-06-30T12:11:20Z",
+              "updatedAt": "2025-06-30T12:12:38Z"
+            },
+            {
+              "originalPosition": 135,
+              "body": "See above, I assume those guidelines are produced by the moderator team.",
+              "createdAt": "2025-06-30T12:12:05Z",
+              "updatedAt": "2025-06-30T12:12:38Z"
+            },
+            {
+              "originalPosition": 143,
+              "body": "Why are we cutting the first part?",
+              "createdAt": "2025-06-30T12:12:29Z",
+              "updatedAt": "2025-06-30T12:12:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xFolo",
+          "commit": {
+            "abbreviatedOid": "ff31df5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T12:28:57Z",
+          "updatedAt": "2025-06-30T12:28:57Z",
+          "comments": [
+            {
+              "originalPosition": 135,
+              "body": "Absolutely.",
+              "createdAt": "2025-06-30T12:28:57Z",
+              "updatedAt": "2025-06-30T12:28:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xFpFd",
+          "commit": {
+            "abbreviatedOid": "ff31df5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T12:29:41Z",
+          "updatedAt": "2025-06-30T12:29:41Z",
+          "comments": [
+            {
+              "originalPosition": 143,
+              "body": "I wasn't sure it was adding anything.  Is it?  It seemed like either a non-sequitor or obvious.  We can revert if you think appropriate.",
+              "createdAt": "2025-06-30T12:29:41Z",
+              "updatedAt": "2025-06-30T12:29:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xFtwS",
+          "commit": {
+            "abbreviatedOid": "ff31df5"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T12:36:17Z",
+          "updatedAt": "2025-06-30T12:36:17Z",
+          "comments": [
+            {
+              "originalPosition": 143,
+              "body": "I think it was added because someone was asking why the IESG is the start of the appeals chain.",
+              "createdAt": "2025-06-30T12:36:17Z",
+              "updatedAt": "2025-06-30T12:36:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xF6On",
+          "commit": {
+            "abbreviatedOid": "ff31df5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T12:53:01Z",
+          "updatedAt": "2025-06-30T12:53:01Z",
+          "comments": [
+            {
+              "originalPosition": 143,
+              "body": "We might need more changes there.  I am thinking that we just reference RFC the appeals chain 2026.  Otherwise, the responsible area directors don't get their shot first.",
+              "createdAt": "2025-06-30T12:53:01Z",
+              "updatedAt": "2025-06-30T12:53:01Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xF-jI",
+          "commit": {
+            "abbreviatedOid": "ff31df5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-30T12:58:26Z",
+          "updatedAt": "2025-06-30T12:58:26Z",
+          "comments": [
+            {
+              "originalPosition": 143,
+              "body": "But I will revert this text, and then bring this up as a separate issue.",
+              "createdAt": "2025-06-30T12:58:26Z",
+              "updatedAt": "2025-06-30T12:58:26Z"
+            }
+          ]
         }
       ]
     }
