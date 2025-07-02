@@ -265,13 +265,15 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-# Operations and Procedures of the Moderator Team and Transparency
+# Moderation Procedures and Transparency
 
 Within the bounds of the policies set herein and with the
-approval of the IESG, the moderator team shall define any additional
+approval of the IESG, the moderator team shall define
 processes and moderation criteria necessary to execute their role.
 Those processes and criteria shall be developed with community input
-and made public, but need not be documented in the RFC series.
+and made public, but need not be documented in the RFC series.  Until
+that happens, administrators are to use their
+best judgment within the bounds of policies defined here.
 
 The intent of this memo is to provide the widest possible freedom of
 action to administrators and moderators, with a few constraints.
