@@ -237,7 +237,7 @@ Participants
 should contact both fora administrators and the moderator team when they
 have concerns
 about any problematic behavior happening in a forum.  Administrators
-should address such complaints promptly, replying to the complainant,
+should address such reports promptly, replying to the reporter,
 and informing the moderator team of their disposition.
 The moderator team should only act when the administrators do not
 respond in a
