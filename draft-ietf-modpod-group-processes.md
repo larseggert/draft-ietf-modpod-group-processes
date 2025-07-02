@@ -8,7 +8,7 @@ number:
 date:
 consensus: true
 v: 3
-obsoletes: 3683, 9245
+obsoletes: 3683, 3934, 9245
 updates: 2418
 venue:
     mail: mod-discuss@ietf.org
@@ -84,7 +84,8 @@ after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
 
 As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
-(PR) action it defines. It also obsoletes {{Section 4 of !RFC9245}}, which
+(PR) action it defines, and {{!RFC3934}}. 
+It also obsoletes {{Section 4 of !RFC9245}}, which
 defines the IETF discussion list moderation team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
 working group chairs to moderate disruptive behavior.
@@ -235,7 +236,9 @@ coordination with the administrators (if there are any) of those fora.
 Participants
 should contact both fora administrators and the moderator team when they
 have concerns
-about any problematic behavior happening in a forum.
+about any problematic behavior happening in a forum.  Administrators
+should address such complaints promptly, replying to the complainant,
+and informing the moderator team of their disposition.
 The moderator team should only act when the administrators do not
 respond in a
 timely fashion.  In general, their first act should be to contact the
