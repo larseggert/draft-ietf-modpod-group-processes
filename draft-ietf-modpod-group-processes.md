@@ -84,7 +84,7 @@ after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
 
 As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
-(PR) action it defines, and {{!RFC3934}}. 
+(PR) action it defines, and {{!RFC3934}}.
 It also obsoletes {{Section 4 of !RFC9245}}, which
 defines the IETF discussion list moderation team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
