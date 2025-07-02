@@ -245,7 +245,7 @@ future.  Moderators are expected to be a resource that the community
 can use to address problematic contributions.
 
 Moderators may take actions when administrators do not respond to
-reports in a timely fashion.  Their first action should generally be to 
+reports in a timely fashion.  Their first action should generally be to
 attempt to contact the relevant administrators.
 
 Moderators are administrators for IETF
