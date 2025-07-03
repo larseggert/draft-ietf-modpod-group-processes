@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-01T00:29:47.071636+00:00",
+  "timestamp": "2025-07-03T00:26:01.858412+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -707,10 +707,12 @@
       "author": "becarpenter",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "The draft has two TODOs that amount to the same thing: \"Decide whether moderation rights remain also with WG chairs, list admins,...\"\r\n\r\nThis is a scaling issue: there is no way that a small team can pro-actively moderate hundreds of lists. So it seems evident to me that existing list admins must be the first line (whether for WG or non-WG lists). The only exceptions might be a handful of IETF-wide lists, notably ietf@ and last-call@ (as the draft already says).\r\n\r\nOf course that interacts with the BCP83 discussion.",
       "createdAt": "2024-06-19T21:48:39Z",
-      "updatedAt": "2024-07-03T06:39:30Z",
+      "updatedAt": "2025-07-02T06:24:38Z",
       "closedAt": "2024-07-03T06:39:30Z",
       "comments": [
         {
@@ -826,7 +828,7 @@
       ],
       "body": "There have been several email comments objecting to \"The IETF Chair appoints members of the moderator team.\" The concern is that this might end up with the Chair being conflicted when a moderation \"case\" involves the Chair (or maybe the IESG).\r\nShould the moderator team be appointed by a community process? If so, how, since NomCom is already overloaded?",
       "createdAt": "2024-06-25T21:56:42Z",
-      "updatedAt": "2025-01-20T12:10:13Z",
+      "updatedAt": "2025-07-02T06:24:38Z",
       "closedAt": "2025-01-20T11:47:20Z",
       "comments": [
         {
@@ -949,11 +951,12 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "",
       "createdAt": "2024-11-02T12:14:09Z",
-      "updatedAt": "2025-01-30T10:03:46Z",
+      "updatedAt": "2025-07-02T06:24:38Z",
       "closedAt": "2025-01-30T10:03:46Z",
       "comments": []
     },
@@ -971,7 +974,7 @@
       ],
       "body": "Be explicit about what the goals of the work are.  Are they?\r\n\r\n- Inclusive environment through enforcement of IETF code of conduct\r\n- More responsive approach\r\n- Don't create community food fight?\r\n- Minimal intervention to enforce IETF code of conduct\r\n- Hold precious community resources\r\n- Maintain dignity of all individuals\r\n- Transparency\r\n- Fairness\r\n",
       "createdAt": "2024-12-29T14:07:30Z",
-      "updatedAt": "2025-02-22T18:15:04Z",
+      "updatedAt": "2025-07-02T06:24:40Z",
       "closedAt": "2025-02-22T14:30:57Z",
       "comments": [
         {
@@ -1004,7 +1007,7 @@
       ],
       "body": "Currently the draft leaves a lot of process for the moderation team to define.  On the one hand, we do not want to tie the hands of moderators, and on the other hand, our RFCs are normally the way we define process.",
       "createdAt": "2024-12-29T14:09:34Z",
-      "updatedAt": "2025-01-20T12:10:28Z",
+      "updatedAt": "2025-07-02T06:24:40Z",
       "closedAt": "2025-01-14T07:24:15Z",
       "comments": [
         {
@@ -1037,7 +1040,7 @@
       ],
       "body": "The draft currently states that the moderation team should maintain a public mailing list to discuss not only general moderation topics and policy, but individual moderation decisions.  That may simply move the food fight from one list to another.  But some level of transparency to the community is necessary.  Where is the line?",
       "createdAt": "2024-12-29T14:11:54Z",
-      "updatedAt": "2025-01-20T12:10:14Z",
+      "updatedAt": "2025-07-02T06:24:40Z",
       "closedAt": "2025-01-20T12:08:27Z",
       "comments": [
         {
@@ -1058,10 +1061,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "The draft is silent on review of previous decisions.  Currently BCP 83 permits such review after a period of time.  It is possible that this should be left to the moderation team to define as a process, but it may also be possible to simply specify a time frame in this draft.",
       "createdAt": "2024-12-29T14:14:31Z",
-      "updatedAt": "2025-02-25T20:59:58Z",
+      "updatedAt": "2025-07-02T06:24:40Z",
       "closedAt": "2025-02-25T20:59:58Z",
       "comments": [
         {
@@ -1129,7 +1134,7 @@
       ],
       "body": "Because we are tasked with covering **all** communication channels, the relationship between moderators and the WG chairs and others must be defined in some way.",
       "createdAt": "2024-12-29T14:17:08Z",
-      "updatedAt": "2025-01-20T12:10:15Z",
+      "updatedAt": "2025-07-02T06:24:41Z",
       "closedAt": "2025-01-20T11:47:20Z",
       "comments": []
     },
@@ -1143,11 +1148,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "Brian Carpenter has raised the point about what to do about previous moderation decisions.",
       "createdAt": "2024-12-29T14:21:55Z",
-      "updatedAt": "2025-02-25T20:59:58Z",
+      "updatedAt": "2025-07-02T06:24:41Z",
       "closedAt": "2025-02-25T20:59:58Z",
       "comments": [
         {
@@ -1218,11 +1224,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "My draft says:\r\n\r\n```Anyone can start a blog, or CC an email to a non-IETF list. There are many venues not subject to IETF moderation.```\r\n\r\nI'm not attached to the exact phrasing here, but I do think the general idea should go in.",
       "createdAt": "2024-12-31T17:40:49Z",
-      "updatedAt": "2025-06-19T11:45:30Z",
+      "updatedAt": "2025-07-02T06:24:41Z",
       "closedAt": "2025-06-19T11:45:30Z",
       "comments": [
         {
@@ -1278,10 +1285,12 @@
       "author": "sayrer",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "I think this one needs to be covered in some form. For example, if a WG is chartered to encrypt DNS, it is disruptive to jump in and argue against encrypting DNS.\r\n\r\nIt is OK to question anything in the IETF at least a few times, but repeated derailments of this sort are all too common. These can be really bad, because the responses often start to get rude. Then, the original poster might say \"I can't believe this uncivil behavior!\", but of course they are just trying to gum up the works. Then, some third party will read that thread and think \"what a fiasco.\"",
       "createdAt": "2024-12-31T17:56:53Z",
-      "updatedAt": "2025-05-23T05:30:21Z",
+      "updatedAt": "2025-07-02T06:24:42Z",
       "closedAt": "2025-05-23T05:30:21Z",
       "comments": [
         {
@@ -1373,11 +1382,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-pr"
+        "needs-pr",
+        "completed"
       ],
       "body": "This is copy/paste from the list, just so it doesn't get lost in the mix.\r\n\r\nThe person being moderated must be informed. It's unfortunate that we have\r\nto say this, but we've had problems with that in the past. Think of actions\r\nsuch as a chair removing someone from a list without informing them, etc.\r\nI've never seen anything like that, but I have heard stories of such\r\nchicanery, and I think that's why some people that have been in the IETF\r\nfor a long time lean toward too much immediate transparency.\r\n\r\nAfter all, if these actions are subject to appeal, the person has to know\r\nabout them.",
       "createdAt": "2024-12-31T18:19:09Z",
-      "updatedAt": "2025-01-23T06:40:05Z",
+      "updatedAt": "2025-07-02T06:24:42Z",
       "closedAt": "2025-01-23T06:40:05Z",
       "comments": [
         {
@@ -1427,11 +1437,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "My draft has this section. I don't really like most of the text. I just hammered it out in about two minutes. But I do think one sentence is good: \"The IETF will treat people with kindness and grace, but not endless patience.\"\r\n\r\nI'd like to save that one.\r\n\r\n\r\n\r\n> Hypocrisy\r\n> \r\n> The hazard in writing any document of this sort is that it seems to presume the authors and supporters are perfect. They are not.\r\n> \r\n> Everyone makes mistakes. The IETF will treat people with kindness and grace, but not endless patience.\r\n> \r\n> This document describes a two-way street. Moderators must also maintain excellence.",
       "createdAt": "2024-12-31T20:15:02Z",
-      "updatedAt": "2025-01-30T10:03:21Z",
+      "updatedAt": "2025-07-02T06:24:42Z",
       "closedAt": "2025-01-30T10:03:21Z",
       "comments": [
         {
@@ -1457,7 +1468,7 @@
       ],
       "body": "The current text talks about five, but my suggestion is that operational experience dictate the team size, not an RFC.",
       "createdAt": "2025-01-08T09:04:09Z",
-      "updatedAt": "2025-01-20T12:10:15Z",
+      "updatedAt": "2025-07-02T06:24:43Z",
       "closedAt": "2025-01-20T11:47:21Z",
       "comments": [
         {
@@ -1499,10 +1510,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "Rob Wilton thinks \"no\".",
       "createdAt": "2025-01-08T09:10:16Z",
-      "updatedAt": "2025-05-30T11:31:42Z",
+      "updatedAt": "2025-07-02T06:24:43Z",
       "closedAt": "2025-05-30T11:31:42Z",
       "comments": [
         {
@@ -1608,11 +1621,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-pr"
+        "needs-pr",
+        "completed"
       ],
       "body": "Since we're aiming for consistency, some of the requirements we make of the moderation team might have to apply to WG Chairs as well. Having never been a chair, I am not sure what's reasonable here. This issue came up in #74. It's probably OK to close some in-flight PRs and then have a look at this one.",
       "createdAt": "2025-01-08T19:01:10Z",
-      "updatedAt": "2025-06-17T09:46:32Z",
+      "updatedAt": "2025-07-02T06:24:43Z",
       "closedAt": "2025-06-17T09:46:32Z",
       "comments": [
         {
@@ -1655,11 +1669,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-pr"
+        "needs-pr",
+        "completed"
       ],
       "body": "**Proposal**\nThe document should give some brief guidance about Last Call situations.\n\n**Describe the solution you'd like**\nI think the moderators and chairs should not be able to quietly ban people during Last Calls, if the posts are on-topic. \n\n**Describe alternatives you've considered**\nPrevent it altogether during Last Call, but I think they should be able to deal with spam and random stuff.\n",
       "createdAt": "2025-01-20T16:14:03Z",
-      "updatedAt": "2025-01-30T10:03:22Z",
+      "updatedAt": "2025-07-02T06:24:43Z",
       "closedAt": "2025-01-30T10:03:21Z",
       "comments": [
         {
@@ -1717,11 +1732,12 @@
       "assignees": [],
       "labels": [
         "needs-discussion",
+        "completed",
         "editorial"
       ],
       "body": "Current text says:\n> All bans longer than fourteen (14) days SHALL be reported to the forum in which the person was banned, and in the case of a broad ban, to the community in a manner decided by the IESG.\n\n**Proposal**\nDefine what a `broad ban` is. I _think_ it would be `broad ban, i.e., a ban for multiple participation channels`.\n\n**Describe alternatives you've considered**\nReword `ban` to `moderation action` or something else, but there was concern this would be too noisy.\n",
       "createdAt": "2025-01-21T11:59:15Z",
-      "updatedAt": "2025-02-26T18:20:03Z",
+      "updatedAt": "2025-07-02T06:24:44Z",
       "closedAt": "2025-02-26T18:20:03Z",
       "comments": []
     },
@@ -1735,11 +1751,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "**Proposal**\nThe document considers posting rights pretty thoroughly, but does it cover content takedown? It doesn't make a lot of sense for a mailing list, but it might on GitHub or in chat.\n\nI don't have a prefered solution, but I wondered if it should be covered. This issue came up #92, where it seems the LLC might have to respond to a DMCA takedown request or similar.\n",
       "createdAt": "2025-01-22T18:56:01Z",
-      "updatedAt": "2025-02-27T21:23:03Z",
+      "updatedAt": "2025-07-02T06:24:44Z",
       "closedAt": "2025-02-27T21:23:03Z",
       "comments": [
         {
@@ -1811,11 +1828,12 @@
       "assignees": [],
       "labels": [
         "needs-pr",
+        "completed",
         "editorial"
       ],
       "body": "**Proposal**\nThe Introduction and the first paragraph of the General Philosophy section are repetitive.\n\n**Describe the solution you'd like**\nMake the first paragraph of \"General Philosophy\" a single sentence: \"Moderators are given the broadest possible freedom of action to address disruptive behavior.\"\n\n**Additional context**\nThe first paragraph of General Philosophy also describes things that aren't in the document, like periodic reviews. I don't feel strongly about any of these issues, but it doesn't read well to me.",
       "createdAt": "2025-01-31T19:38:22Z",
-      "updatedAt": "2025-02-20T14:43:26Z",
+      "updatedAt": "2025-07-02T06:24:44Z",
       "closedAt": "2025-02-20T14:43:26Z",
       "comments": [
         {
@@ -1868,11 +1886,12 @@
       ],
       "labels": [
         "needs-pr",
+        "completed",
         "editorial"
       ],
       "body": "**Proposal**\nThe document should use this term uniformly and sparingly.\n\n**Describe the solution you'd like**\nI think it should say \"This memo\" just a few times because I think it is cool, and the really old RFCs say that. In other cases, it's a little too indirect. Just cut out \"this document\" and get to the point. I noticed this one while reading other issues. It can be left until other matters are settled.",
       "createdAt": "2025-02-03T22:12:30Z",
-      "updatedAt": "2025-06-19T05:52:55Z",
+      "updatedAt": "2025-07-02T06:24:45Z",
       "closedAt": "2025-06-19T05:52:55Z",
       "comments": [
         {
@@ -1893,10 +1912,12 @@
       "author": "alvestrand",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "completed"
+      ],
       "body": "I hope it does. But if so, it needs to say so.\n",
       "createdAt": "2025-03-19T02:37:37Z",
-      "updatedAt": "2025-05-19T08:24:23Z",
+      "updatedAt": "2025-07-02T06:24:45Z",
       "closedAt": "2025-05-19T08:24:23Z",
       "comments": [
         {
@@ -1925,11 +1946,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "**Proposal**\nWatching the meeting, I saw some concern about quick action from the moderators without consulting the chairs. One reason the 14-day limit doesn't require public transparency is so that moderators and/or chairs can act quickly, but walk back a decision within a few days if there's been a mistake or there's an adjustment needed. That way someone doesn't called out, and then further called out by a public apology.\n\n**Describe the solution you'd like**\nMy draft juxtaposed these concepts in \n[0-12](https://www.ietf.org/archive/id/draft-sayre-modpod-excellent-02.html#name-0-12-days)\n\nI don't care about the day count. This draft has a more minimal policy (no escalation steps), and something like this will have to match the writing style in this document.\n\n**Additional context**\nI would expect the moderators to go with \"I'm holding your messages for the chair to review\" if there's something borderline. It's probably pretty easy to know what to do with really bad stuff.",
       "createdAt": "2025-03-19T20:32:11Z",
-      "updatedAt": "2025-04-02T08:14:16Z",
+      "updatedAt": "2025-07-02T06:24:45Z",
       "closedAt": "2025-04-02T08:14:16Z",
       "comments": [
         {
@@ -2065,11 +2087,12 @@
         "larseggert"
       ],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "**Proposal**\n\nThe current TOC of the document is as follows:\n\n1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.1.  Background  . . . . . . . . . . . . . . . . . . . . . . .   3\n     1.2.  General Philosophy  . . . . . . . . . . . . . . . . . . .   4\n     1.3.  Conventions and Definitions . . . . . . . . . . . . . . .   5\n   2.  IETF Moderator Team . . . . . . . . . . . . . . . . . . . . .   5\n     2.1.  Composition . . . . . . . . . . . . . . . . . . . . . . .   5\n       2.1.1.  Team Diversity  . . . . . . . . . . . . . . . . . . .   5\n     2.2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . .   6\n       2.2.1.  Non-IETF Communication Channels And Private\n               Communications Excluded . . . . . . . . . . . . . . .   6\n       2.2.2.  IETF Working Groups . . . . . . . . . . . . . . . . .   7\n     2.3.  Operations of the Moderator Team and Transparency . . . .   7\n     2.4.  Training  . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.5.  Appeals . . . . . . . . . . . . . . . . . . . . . . . . .   8\n     2.6.  Reinstatement . . . . . . . . . . . . . . . . . . . . . .   8\n     2.7.  Relation to the Ombudsteam  . . . . . . . . . . . . . . .   9\n     2.8.  Relation to the IETF LLC  . . . . . . . . . . . . . . . .   9\n     2.9.  Relation to the IRTF  . . . . . . . . . . . . . . . . . .  10\n\n\n**Describe the solution you'd like**\n\nLogically, there is the moderator team and there are the moderation processes, and a few other things.\n\nMy suggestion:\n\nSections 2, 2.1, 2.2, 2.7, 2.8, and 2.9 are about the team composition and scope.  Let's combine them into a single section (presumably 2).  Section 2.3, 2.5, and 2.6 are about process.  They should be combined into a single section (presumably 2bis/3).  This leaves Section 2.4.  It can reside either in the Section 2 or remain on its own.\n\n\n**Describe alternatives you've considered**\nOptional: A clear and concise description of any alternatives you've considered.\n\n**Additional context**\nAdd any other context or screenshots about the feature request here.\n",
       "createdAt": "2025-03-29T16:26:10Z",
-      "updatedAt": "2025-04-04T05:51:22Z",
+      "updatedAt": "2025-07-02T06:24:46Z",
       "closedAt": "2025-04-04T05:51:22Z",
       "comments": [
         {
@@ -2098,11 +2121,12 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
+        "needs-pr",
         "editorial"
       ],
       "body": "> @sayrer The `update-files` workflow for @martinthomson's repo overwrites your changes. Suggest to move them to `README.md` and set its `regenerate` field to `off`.\r\n\r\n_Originally posted by @larseggert in https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/123#discussion_r2107024265_\r\n            ",
       "createdAt": "2025-05-26T10:24:00Z",
-      "updatedAt": "2025-05-28T23:27:42Z",
+      "updatedAt": "2025-07-02T06:24:06Z",
       "closedAt": null,
       "comments": [
         {
@@ -2187,11 +2211,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "completed"
       ],
       "body": "We're still not there.  Current center of gravity seems to be to treat them like WG mailing lists, where owners get first shot.  The key is that all abuse has to be reported to the moderators, so that they can track.  @rgwilton please create a PR that you think would would create a functional solution.",
       "createdAt": "2025-06-27T09:17:54Z",
-      "updatedAt": "2025-06-30T13:09:28Z",
+      "updatedAt": "2025-07-02T06:24:46Z",
       "closedAt": "2025-06-30T13:09:28Z",
       "comments": [
         {
@@ -2209,6 +2234,38 @@
           "updatedAt": "2025-06-29T01:26:35Z"
         }
       ]
+    },
+    {
+      "number": 130,
+      "id": "I_kwDOJrr8CM6-UdJI",
+      "title": "Obsolete RFC 3934 and then incorporate any tidbits",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/130",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From Pete Resnick:\n\n> Picking up an old thread, since it was mentioned in January, and again here by Brian, but still isn't addressed: This document should obsolete (not just update) 3934 and incorporate anything (if anything) from that document that we want to preserve. ",
+      "createdAt": "2025-07-01T16:00:32Z",
+      "updatedAt": "2025-07-02T06:42:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 131,
+      "id": "I_kwDOJrr8CM6-U-6e",
+      "title": "admins should inform moderators of outcomes of complaints",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/131",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This doesn't need to be in any detail, but it of the form: \"warned\", \"some action taken\", \"no action required\".  The purpose of this is to facilitate consistency across the IETF.",
+      "createdAt": "2025-07-01T16:52:41Z",
+      "updatedAt": "2025-07-02T06:42:34Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -8842,7 +8899,7 @@
       ],
       "body": "Create some major sections based on logical separations.  No substantial text changes.\r\n\r\nCloses #115.",
       "createdAt": "2025-04-02T16:19:47Z",
-      "updatedAt": "2025-04-04T11:56:09Z",
+      "updatedAt": "2025-07-02T06:33:26Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "14164be74488b9ffa98a7fe3318e6f6672843c90",
@@ -9343,7 +9400,7 @@
       ],
       "body": "This PR closes #85 if approved.\r\n\r\nA few key points:\r\n\r\n- first stop is always the working group management\r\n- if no timely response, then the moderators may act\r\n- in case of disagreement, take it to the AD.\r\n- chairs and moderators need to act consistently with any IESG-approved guidance.\r\n\r\n",
       "createdAt": "2025-06-08T08:36:03Z",
-      "updatedAt": "2025-06-17T09:46:31Z",
+      "updatedAt": "2025-07-02T06:33:27Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "1164cad9c7eba67a46eb2c5328396070752d804f",
@@ -9685,7 +9742,7 @@
       ],
       "body": "Closes #104 if approved.",
       "createdAt": "2025-06-18T14:21:42Z",
-      "updatedAt": "2025-06-19T05:52:54Z",
+      "updatedAt": "2025-07-02T06:33:29Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5d616e32e6095bf44789cf69693a141231623ec2",
@@ -9742,7 +9799,7 @@
       "labels": [],
       "body": "This commit consolidates text between WG and non-WG fora, such that they are largely treated the same, the exceptions being the ietf and last-call lists, and similar.  This commit intends **no change** from the previous proposed handling of WG fora.  It closes #128.",
       "createdAt": "2025-06-29T09:06:19Z",
-      "updatedAt": "2025-06-30T13:09:27Z",
+      "updatedAt": "2025-07-02T06:33:30Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e529cb7c0d8059760538f1da518e3a61eb834d62",
@@ -10236,6 +10293,175 @@
               "updatedAt": "2025-06-30T12:58:26Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "number": 132,
+      "id": "PR_kwDOJrr8CM6dBnkk",
+      "title": "Clarify roles and responsibilities, obsolete 3934",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/132",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "A few changes:\r\n\r\n- admins have a responsibility to promptly address complaints\r\n- they should report the outcome to moderators\r\n- obsoletes RFC 3934\r\n\r\nCloses #130.  Closes #131.\r\n",
+      "createdAt": "2025-07-02T06:36:30Z",
+      "updatedAt": "2025-07-02T14:41:43Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "541de0600d3015086c26ca115a28f514837279f8",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "admins-and-3934",
+      "headRefOid": "8ff9c9828b18934ecd97db5aff587a0ccaa8e04a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'm still not entirely happy with the language.  I want to lead with administrators.  Look for another commit.",
+          "createdAt": "2025-07-02T10:25:14Z",
+          "updatedAt": "2025-07-02T10:25:14Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6xf-3F",
+          "commit": {
+            "abbreviatedOid": "1dbd006"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-07-02T06:50:23Z",
+          "updatedAt": "2025-07-02T06:50:49Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "```suggestion\r\nabout any problematic behavior happening in a forum.  Administrators\r\nshould address such reports promptly, replying to the reporter,\r\nand informing the moderator team of their disposition.\r\n```\r\nMore neutral wording.",
+              "createdAt": "2025-07-02T06:50:23Z",
+              "updatedAt": "2025-07-02T06:50:49Z"
+            },
+            {
+              "originalPosition": 15,
+              "body": "Is there more to do to address #130 or is this it?",
+              "createdAt": "2025-07-02T06:50:44Z",
+              "updatedAt": "2025-07-02T06:50:49Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xgW_n",
+          "commit": {
+            "abbreviatedOid": "1dbd006"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-02T07:27:14Z",
+          "updatedAt": "2025-07-02T07:27:14Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "What we are saying is that guidance must be developed by the moderator team with community input, and then approved, and that admins should act consistently with that guidance.  There is an issue: the guidance won't be there day one.  We might need some interim guidance along the lines of, \u201cUntil such time guidance that guidance is approved, admins should use their best judgment.\"",
+              "createdAt": "2025-07-02T07:27:14Z",
+              "updatedAt": "2025-07-02T07:27:14Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xg8p-",
+          "commit": {
+            "abbreviatedOid": "1dbd006"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-02T08:19:12Z",
+          "updatedAt": "2025-07-02T08:19:12Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "ok, see latest commit.",
+              "createdAt": "2025-07-02T08:19:12Z",
+              "updatedAt": "2025-07-02T08:19:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xhWbn",
+          "commit": {
+            "abbreviatedOid": "d06233b"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-02T08:51:47Z",
+          "updatedAt": "2025-07-02T08:51:48Z",
+          "comments": [
+            {
+              "originalPosition": 45,
+              "body": "Armchair lawyers will complain that this leaves the team the option of never publicizing their processes and criteria :-)\r\n\r\nI think it would be fair to only have the moderator team start their work after they have done this publication - the initial version need not be perfect since they will be able to quickly revise as needed.",
+              "createdAt": "2025-07-02T08:51:47Z",
+              "updatedAt": "2025-07-02T08:51:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xiPM9",
+          "commit": {
+            "abbreviatedOid": "d06233b"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-02T10:02:26Z",
+          "updatedAt": "2025-07-02T10:02:26Z",
+          "comments": [
+            {
+              "originalPosition": 45,
+              "body": "Ok, we'll start with that.",
+              "createdAt": "2025-07-02T10:02:26Z",
+              "updatedAt": "2025-07-02T10:02:26Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xiXtN",
+          "commit": {
+            "abbreviatedOid": "408c03f"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-07-02T10:14:34Z",
+          "updatedAt": "2025-07-02T10:14:34Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6xltL_",
+          "commit": {
+            "abbreviatedOid": "8ff9c98"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-07-02T14:41:43Z",
+          "updatedAt": "2025-07-02T14:41:43Z",
+          "comments": []
         }
       ]
     }
