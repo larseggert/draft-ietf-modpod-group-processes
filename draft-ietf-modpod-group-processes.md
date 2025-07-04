@@ -8,7 +8,7 @@ number:
 date:
 consensus: true
 v: 3
-obsoletes: 3683, 9245
+obsoletes: 3683, 3934, 9245
 updates: 2418
 venue:
     mail: mod-discuss@ietf.org
@@ -84,7 +84,8 @@ after, and subsumes, the moderator team for the IETF discussion list
 {{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
 
 As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
-(PR) action it defines. It also obsoletes {{Section 4 of !RFC9245}}, which
+(PR) action it defines, and {{!RFC3934}}.
+It also obsoletes {{Section 4 of !RFC9245}}, which
 defines the IETF discussion list moderation team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
 working group chairs to moderate disruptive behavior.
@@ -129,7 +130,7 @@ by the IESG, often in response to complaints from the community.
 Experience and community input suggests that an evolution of the
 existing processes is necessary (see {{motive}}).
 
-## General Philosophy
+## General Philosophy {#genphil}
 
 The cornerstone of our philosophy is first and foremost the individual, whose
 responsibility is to further the goals of the organization {{!RFC3935}} in a
@@ -219,39 +220,48 @@ appointed moderators as necessary. The IESG will negotiate any
 required funding or resources with IETF Administration LLC
 {{?RFC8711}}.
 
-# Scope
+# Scope and Responsibilities
 
-The IETF moderator team is responsible for establishing processes to
-address moderation needs across all IETF fora, both present and
+This policy applies to all IETF fora, both present and
 future, including, but not limited to, mailing lists, chat channels,
 and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, Wikis, or issue trackers.
 
-The moderators are authorized to moderate all
-fora, including the IETF discussion and last-call mailing lists,
-all WG and non-WG mailing lists, area mailing lists, and chat channels
-or other collaborative tools used to conduct public IETF work. They do so in
-coordination with the administrators (if there are any) of those fora.
-Participants
-should contact both fora administrators and the moderator team when they
-have concerns
-about any problematic behavior happening in a forum.
-The moderator team should only act when the administrators do not
-respond in a
-timely fashion.  In general, their first act should be to contact the
-fora administrators, and then only act if the administrators
-remain unresponsive.
+Different people have different responsibilities.
 
-In the case of plenary fora, such as the ietf list, last-call list, and
-other channels in which all or a large portion of the IETF community
-engage, moderators shall act as administrators.  As such, they will be
-the primary
-contacts for complaints, and they will provide active supervision.
-Moderators are not expected to actively monitor other fora, where they
-will instead respond to reports from participants.
+Participants are always expected to behave in a manner as discussed in
+{{genphil}}.  They are also encouraged to report inappropriate behavior
+directed at them or someone else to an administrator of the respective
+forum **and** the moderators.
 
-Moderators are expected to be a resource that the community can use
-to address problematic contributions.
+Administrators are primarily responsible for managing their fora in
+accordance with guidance developed by the moderators and approved by
+the IESG. As such, they shall address reports of inappropriate behavior
+in a timely fashion, apprising moderators of their disposition.
+
+Moderators are responsible for establishing processes to
+address moderation needs across all IETF fora, both present and
+future.  Moderators are expected to be a resource that the community
+can use to address problematic contributions.
+
+Moderators may take actions when administrators do not respond to
+reports in a timely fashion.  Their first action should generally be to
+attempt to contact the relevant administrators.
+
+Moderators are administrators for IETF
+plenary fora, such as the IETF discussion and last-call lists, attendee
+lists, and any plenary chat sessions. They are also administrators for
+any forum that cuts across IETF areas or does not have an
+administrator.
+
+In order to scale the function, except for plenary fora as described
+above, moderators are not expected to always actively monitor
+all communications.  Instead they will process reports from
+participants.
+
+Area directors are expected to resolve conflicts as described here and
+in {{appeals}}.  The IESG is responsible for appointing and oversseeing
+the moderation team, and approving guidance provided by that team.
 
 ## Non-IETF Communication Channels And Private Communications Excluded
 
@@ -262,13 +272,15 @@ private chat channels, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
-# Operations and Procedures of the Moderator Team and Transparency
+# Moderation Procedures and Transparency {#prod}
 
 Within the bounds of the policies set herein and with the
-approval of the IESG, the moderator team shall define any additional
+approval of the IESG, the moderator team shall define
 processes and moderation criteria necessary to execute their role.
 Those processes and criteria shall be developed with community input
-and made public, but need not be documented in the RFC series.
+and made public, but need not be documented in the RFC series.  This
+shall be the first task for the moderator team.  Until
+that happens, the previous procedures remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
 action to administrators and moderators, with a few constraints.
@@ -305,7 +317,7 @@ actions, and are therefore beyond the scope of this memo.
 
 ## Consistency and Conflict Resolution {#appeals}
 
-Forum administrators and moderators shall act in a manner
+Administrators and moderators shall act in a manner
 consistent with guidelines approved by the IESG.  In cases of
 disagreement between the administrators and the moderation team
 over a moderation decision, the matter should be taken up
@@ -453,6 +465,7 @@ These individuals contributed additional improvements:
 ## Since draft-ietf-modmod-group-processes-06
 
 - [Normalize handling of moderation across all fora](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/129)
+- [Obsolete RFC 3934, explicit admin responsibility](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/132)
 
 ## Since raft-ietf-modpod-group-processes-05
 
