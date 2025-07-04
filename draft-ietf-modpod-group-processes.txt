@@ -4,10 +4,10 @@
 
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: 3683, 9245 (if approved)                         E. Lear, Ed.
+Obsoletes: 3683, 3934, 9245 (if approved)                   E. Lear, Ed.
 Updates: 2418 (if approved)                                Cisco Systems
-Intended status: Best Current Practice                      30 June 2025
-Expires: 1 January 2026
+Intended status: Best Current Practice                       4 July 2025
+Expires: 5 January 2026
 
 
                        IETF Community Moderation
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 January 2026.
+   This Internet-Draft will expire on 5 January 2026.
 
 Copyright Notice
 
@@ -83,11 +83,10 @@ Table of Contents
      2.1.  Composition
        2.1.1.  Team Diversity
      2.2.  Training
-   3.  Scope
+   3.  Scope and Responsibilities
      3.1.  Non-IETF Communication Channels And Private Communications
            Excluded
-   4.  Operations and Procedures of the Moderator Team and
-           Transparency
+   4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
      4.2.  Reinstatement
    5.  Relationship to other IETF functions
@@ -122,11 +121,11 @@ Table of Contents
    channels.
 
    As a consequence, this memo obsoletes [RFC3683] and the "posting
-   rights" (PR) action it defines.  It also obsoletes Section 4 of
-   [RFC9245], which defines the IETF discussion list moderation team.
-   Finally, it updates Section 6.1 of [RFC2418], because the moderator
-   team will now work together with working group chairs to moderate
-   disruptive behavior.
+   rights" (PR) action it defines, and [RFC3934].  It also obsoletes
+   Section 4 of [RFC9245], which defines the IETF discussion list
+   moderation team.  Finally, it updates Section 6.1 of [RFC2418],
+   because the moderator team will now work together with working group
+   chairs to moderate disruptive behavior.
 
 1.1.  Background
 
@@ -266,36 +265,48 @@ Table of Contents
    appointed moderators as necessary.  The IESG will negotiate any
    required funding or resources with IETF Administration LLC [RFC8711].
 
-3.  Scope
+3.  Scope and Responsibilities
 
-   The IETF moderator team is responsible for establishing processes to
-   address moderation needs across all IETF fora, both present and
-   future, including, but not limited to, mailing lists, chat channels,
-   and discussions in other systems that the IETF or WGs have chosen to
+   This policy applies to all IETF fora, both present and future,
+   including, but not limited to, mailing lists, chat channels, and
+   discussions in other systems that the IETF or WGs have chosen to
    employ, such as GitHub repositories, Wikis, or issue trackers.
 
-   The moderators are authorized to moderate all fora, including the
-   IETF discussion and last-call mailing lists, all WG and non-WG
-   mailing lists, area mailing lists, and chat channels or other
-   collaborative tools used to conduct public IETF work.  They do so in
-   coordination with the administrators (if there are any) of those
-   fora.  Participants should contact both fora administrators and the
-   moderator team when they have concerns about any problematic behavior
-   happening in a forum.  The moderator team should only act when the
-   administrators do not respond in a timely fashion.  In general, their
-   first act should be to contact the fora administrators, and then only
-   act if the administrators remain unresponsive.
+   Different people have different responsibilities.
 
-   In the case of plenary fora, such as the ietf list, last-call list,
-   and other channels in which all or a large portion of the IETF
-   community engage, moderators shall act as administrators.  As such,
-   they will be the primary contacts for complaints, and they will
-   provide active supervision.  Moderators are not expected to actively
-   monitor other fora, where they will instead respond to reports from
-   participants.
+   Participants are always expected to behave in a manner as discussed
+   in Section 1.2.  They are also encouraged to report inappropriate
+   behavior directed at them or someone else to an administrator of the
+   respective forum *and* the moderators.
 
+   Administrators are primarily responsible for managing their fora in
+   accordance with guidance developed by the moderators and approved by
+   the IESG.  As such, they shall address reports of inappropriate
+   behavior in a timely fashion, apprising moderators of their
+   disposition.
+
+   Moderators are responsible for establishing processes to address
+   moderation needs across all IETF fora, both present and future.
    Moderators are expected to be a resource that the community can use
    to address problematic contributions.
+
+   Moderators may take actions when administrators do not respond to
+   reports in a timely fashion.  Their first action should generally be
+   to attempt to contact the relevant administrators.
+
+   Moderators are administrators for IETF plenary fora, such as the IETF
+   discussion and last-call lists, attendee lists, and any plenary chat
+   sessions.  They are also administrators for any forum that cuts
+   across IETF areas or does not have an administrator.
+
+   In order to scale the function, except for plenary fora as described
+   above, moderators are not expected to always actively monitor all
+   communications.  Instead they will process reports from participants.
+
+   Area directors are expected to resolve conflicts as described here
+   and in Section 4.1.  The IESG is responsible for appointing and
+   oversseeing the moderation team, and approving guidance provided by
+   that team.
 
 3.1.  Non-IETF Communication Channels And Private Communications
       Excluded
@@ -307,13 +318,15 @@ Table of Contents
    outside of meetings.  In such cases, the Ombudsteam should be
    approached.
 
-4.  Operations and Procedures of the Moderator Team and Transparency
+4.  Moderation Procedures and Transparency
 
    Within the bounds of the policies set herein and with the approval of
-   the IESG, the moderator team shall define any additional processes
-   and moderation criteria necessary to execute their role.  Those
-   processes and criteria shall be developed with community input and
-   made public, but need not be documented in the RFC series.
+   the IESG, the moderator team shall define processes and moderation
+   criteria necessary to execute their role.  Those processes and
+   criteria shall be developed with community input and made public, but
+   need not be documented in the RFC series.  This shall be the first
+   task for the moderator team.  Until that happens, the previous
+   procedures remain in effect.
 
    The intent of this memo is to provide the widest possible freedom of
    action to administrators and moderators, with a few constraints.
@@ -353,9 +366,9 @@ Table of Contents
 
 4.1.  Consistency and Conflict Resolution
 
-   Forum administrators and moderators shall act in a manner consistent
-   with guidelines approved by the IESG.  In cases of disagreement
-   between the administrators and the moderation team over a moderation
+   Administrators and moderators shall act in a manner consistent with
+   guidelines approved by the IESG.  In cases of disagreement between
+   the administrators and the moderation team over a moderation
    decision, the matter should be taken up with the responsible area
    director for resolution, or the IETF chair if a responsible area
    director cannot be determined or is not assigned.
@@ -517,6 +530,11 @@ Table of Contents
               Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
               March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
 
+   [RFC3934]  Wasserman, M., "Updates to RFC 2418 Regarding the
+              Management of IETF Mailing Lists", BCP 25, RFC 3934,
+              DOI 10.17487/RFC3934, October 2004,
+              <https://www.rfc-editor.org/rfc/rfc3934>.
+
    [RFC3935]  Alvestrand, H., "A Mission Statement for the IETF",
               BCP 95, RFC 3935, DOI 10.17487/RFC3935, October 2004,
               <https://www.rfc-editor.org/rfc/rfc3935>.
@@ -571,11 +589,6 @@ Table of Contents
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
 
-   [RFC3934]  Wasserman, M., "Updates to RFC 2418 Regarding the
-              Management of IETF Mailing Lists", BCP 25, RFC 3934,
-              DOI 10.17487/RFC3934, October 2004,
-              <https://www.rfc-editor.org/rfc/rfc3934>.
-
 Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
@@ -585,6 +598,10 @@ A.1.  Since draft-ietf-modmod-group-processes-06
    *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/129)
+
+   *  Obsolete RFC 3934, explicit admin responsibility
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/132)
 
 A.2.  Since raft-ietf-modpod-group-processes-05
 
