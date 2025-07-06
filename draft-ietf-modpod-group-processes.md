@@ -467,7 +467,7 @@ These individuals contributed additional improvements:
 - [Normalize handling of moderation across all fora](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/129)
 - [Obsolete RFC 3934, explicit admin responsibility](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/132)
 
-## Since raft-ietf-modpod-group-processes-05
+## Since draft-ietf-modpod-group-processes-05
 
 - [New attempt to address moderation/WG interactions](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/126)
 
