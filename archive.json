@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-03T00:26:01.858412+00:00",
+  "timestamp": "2025-07-06T00:28:50.699754+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2240,15 +2240,15 @@
       "id": "I_kwDOJrr8CM6-UdJI",
       "title": "Obsolete RFC 3934 and then incorporate any tidbits",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/130",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "From Pete Resnick:\n\n> Picking up an old thread, since it was mentioned in January, and again here by Brian, but still isn't addressed: This document should obsolete (not just update) 3934 and incorporate anything (if anything) from that document that we want to preserve. ",
       "createdAt": "2025-07-01T16:00:32Z",
-      "updatedAt": "2025-07-02T06:42:56Z",
-      "closedAt": null,
+      "updatedAt": "2025-07-04T14:11:29Z",
+      "closedAt": "2025-07-04T14:11:29Z",
       "comments": []
     },
     {
@@ -2256,15 +2256,15 @@
       "id": "I_kwDOJrr8CM6-U-6e",
       "title": "admins should inform moderators of outcomes of complaints",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/131",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This doesn't need to be in any detail, but it of the form: \"warned\", \"some action taken\", \"no action required\".  The purpose of this is to facilitate consistency across the IETF.",
       "createdAt": "2025-07-01T16:52:41Z",
-      "updatedAt": "2025-07-02T06:42:34Z",
-      "closedAt": null,
+      "updatedAt": "2025-07-04T14:11:29Z",
+      "closedAt": "2025-07-04T14:11:29Z",
       "comments": []
     }
   ],
@@ -10301,7 +10301,7 @@
       "id": "PR_kwDOJrr8CM6dBnkk",
       "title": "Clarify roles and responsibilities, obsolete 3934",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/132",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -10310,17 +10310,19 @@
       ],
       "body": "A few changes:\r\n\r\n- admins have a responsibility to promptly address complaints\r\n- they should report the outcome to moderators\r\n- obsoletes RFC 3934\r\n\r\nCloses #130.  Closes #131.\r\n",
       "createdAt": "2025-07-02T06:36:30Z",
-      "updatedAt": "2025-07-02T14:41:43Z",
+      "updatedAt": "2025-07-04T14:11:28Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "541de0600d3015086c26ca115a28f514837279f8",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "admins-and-3934",
       "headRefOid": "8ff9c9828b18934ecd97db5aff587a0ccaa8e04a",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-07-04T14:11:28Z",
+      "mergedAt": "2025-07-04T14:11:28Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "61e2fe1e9093cd06931f6e548c6c2c1df59c15ee"
+      },
       "comments": [
         {
           "author": "elear",
