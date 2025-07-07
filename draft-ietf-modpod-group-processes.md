@@ -239,8 +239,8 @@ accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of inappropriate behavior
 in a timely fashion, apprising moderators of their disposition. In
 Working Group communication, moderator team intervention is especially
-suboptimal. Working Group chairs should not allow matters to escalate
-to that point.
+suboptimal. Working Group chairs should not allow matters to reach
+that point.
 
 Moderators are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
