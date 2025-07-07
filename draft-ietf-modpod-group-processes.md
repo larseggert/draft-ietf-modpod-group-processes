@@ -237,7 +237,10 @@ forum **and** the moderators.
 Administrators are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of inappropriate behavior
-in a timely fashion, apprising moderators of their disposition.
+in a timely fashion, apprising moderators of their disposition. In
+Working Group communication, moderator team intervention is especially
+suboptimal. Working Group chairs should not allow matters to escalate
+to that point.
 
 Moderators are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
