@@ -100,7 +100,7 @@ empowering an ombudsteam {{OT}} to take necessary action.
 Dealing with *disruptive* behavior, however, is not part of the role
 of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings while
-{{!RFC3934}} authorizes chairs to manage mailing
+{{!RFC3934}} authorized chairs to manage mailing
 lists. An IESG statement {{MODML}} describes additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
