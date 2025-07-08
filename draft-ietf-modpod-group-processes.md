@@ -68,12 +68,11 @@ informative:
 
 The IETF will treat people with kindness and grace, but not endless patience.
 
-This memo describes the creation of a moderator team for all the
-IETF's various contribution channels. Without removing existing responsibilities
-for working group management, this team enables a uniform approach to moderation
-of disruptive participation across all mailing lists and other methods of IETF
-collaboration.
-
+This memo describes the moderation of disruptive participation
+across the IETF's various contribution channels.  It establishes policies
+for moderation and a moderation team.  That team will develop a uniform
+set of guidelines and facilitate their consistent implementation with
+chairs and administrators.  
 --- middle
 
 # Introduction
@@ -99,9 +98,10 @@ community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
-group with moderating their group's in-person meetings and mailing
-lists, and an IESG statement {{MODML}} describes additional guidance
+of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
+group with moderating their group's in-person meetings while
+{{!RFC3934}} authorizes chairs to manage mailing
+lists. An IESG statement {{MODML}} describes additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
 
@@ -151,8 +151,8 @@ The moderation policy goals are as follows:
 - Disagreements about moderation actions are addressed through appeals;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
-- Allow moderators to reconsider decisions; and
-- Provide the broadest possible latitude to moderators, so that they may have the
+- Allow moderation decisions to be reconsidered; and
+- Provide the broadest possible latitude to moderation, so that they may have the
   flexibility to address a broad range of individuals and circumstances.
 
 Questions about processes detailed below should be answered through the lens
