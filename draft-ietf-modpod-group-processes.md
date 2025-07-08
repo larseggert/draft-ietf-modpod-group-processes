@@ -70,7 +70,7 @@ The IETF will treat people with kindness and grace, but not endless patience.
 
 This memo describes the moderation of disruptive participation
 across the IETF's various contribution channels.  It establishes guardrails
-for moderation and a moderation team.  That team will develop a uniform
+for moderation and a moderator team.  That team will develop a uniform
 set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
@@ -85,7 +85,7 @@ after, and subsumes, the moderator team for the IETF discussion list
 As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
 (PR) action it defines, and {{!RFC3934}}.
 It also obsoletes {{Section 4 of !RFC9245}}, which
-defines the IETF discussion list moderation team. Finally, it updates {{Section
+defines the IETF discussion list moderator team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
 working group chairs to moderate disruptive behavior.
 
@@ -261,7 +261,7 @@ participants.
 
 Area directors are expected to resolve conflicts as described here and
 in {{appeals}}.  The IESG is responsible for appointing and oversseeing
-the moderation team, and approving guidance provided by that team.
+the moderator team, and approving guidance provided by that team.
 
 ## Non-IETF Communication Channels And Private Communications Excluded
 
@@ -319,7 +319,7 @@ actions, and are therefore beyond the scope of this memo.
 
 Administrators and moderators shall act in a manner
 consistent with guidelines approved by the IESG.  In cases of
-disagreement between the administrators and the moderation team
+disagreement between the administrators and the moderator team
 over a moderation decision, the matter should be taken up
 with the responsible area director for resolution, or the IETF chair
 if a responsible area director cannot be determined or is not assigned.
@@ -335,7 +335,7 @@ decision by the IESG can be appealed to the IAB as described in
 
 People and circumstances change.  Individuals who have been banned
 from a forum may request reinstatement.  Any such request must be
-directed to the entity who made the decision (e.g., moderation team,
+directed to the entity who made the decision (e.g., moderator team,
 working group chairs, etc.) or their successors.  That party may at
 their discretion
 reinstate someone, conditionally or unconditionally.  So as to avoid
@@ -397,7 +397,7 @@ where it receives legal advice to the contrary.
 
 As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
-to be overridden by a decision of the moderation team or the IESG.
+to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
 board, as documented in section 4.7 of {{!RFC8711}}
 
