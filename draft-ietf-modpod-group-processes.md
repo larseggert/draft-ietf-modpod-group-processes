@@ -72,7 +72,7 @@ This memo describes the moderation of disruptive participation
 across the IETF's various contribution channels.  It establishes policies
 for moderation and a moderation team.  That team will develop a uniform
 set of guidelines and facilitate their consistent implementation with
-chairs and administrators.  
+chairs and administrators.
 --- middle
 
 # Introduction
