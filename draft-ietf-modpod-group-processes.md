@@ -152,8 +152,9 @@ The moderation policy goals are as follows:
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
 - Allow moderation decisions to be reconsidered; and
-- Provide the broadest possible latitude to moderation, so that they may have the
-  flexibility to address a broad range of individuals and circumstances.
+- Provide the broadest possible latitude to administrators and moderators, so
+  that they may have the flexibility to address a broad range of individuals
+  and circumstances.
 
 Questions about processes detailed below should be answered through the lens
 of these aims.
