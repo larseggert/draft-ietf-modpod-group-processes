@@ -69,7 +69,7 @@ informative:
 The IETF will treat people with kindness and grace, but not endless patience.
 
 This memo describes the moderation of disruptive participation
-across the IETF's various contribution channels.  It establishes policies
+across the IETF's various contribution channels.  It establishes guardrails
 for moderation and a moderation team.  That team will develop a uniform
 set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
