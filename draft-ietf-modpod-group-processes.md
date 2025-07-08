@@ -462,6 +462,9 @@ These individuals contributed additional improvements:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-07
+- [Pete Resnick issues and similar](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/134)
+
 ## Since draft-ietf-modmod-group-processes-06
 
 - [Normalize handling of moderation across all fora](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/129)
