@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-06T00:28:50.699754+00:00",
+  "timestamp": "2025-07-08T00:25:58.062542+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -10466,6 +10466,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 133,
+      "id": "PR_kwDOJrr8CM6d07OY",
+      "title": "Emphasize the point that WG chairs need to do their job.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/133",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I don't care about the wording, feel free to change it.",
+      "createdAt": "2025-07-07T21:15:54Z",
+      "updatedAt": "2025-07-07T22:58:15Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "wgchairs",
+      "headRefOid": "6bf3ce897da724c2e55ff9b3e582d2b3602507e4",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
