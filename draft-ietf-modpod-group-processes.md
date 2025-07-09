@@ -68,12 +68,11 @@ informative:
 
 The IETF will treat people with kindness and grace, but not endless patience.
 
-This memo describes the creation of a moderator team for all the
-IETF's various contribution channels. Without removing existing responsibilities
-for working group management, this team enables a uniform approach to moderation
-of disruptive participation across all mailing lists and other methods of IETF
-collaboration.
-
+This memo describes the moderation of disruptive participation
+across the IETF's various contribution channels.  It establishes guardrails
+for moderation and a moderator team.  That team will develop a uniform
+set of guidelines and facilitate their consistent implementation with
+chairs and administrators.
 --- middle
 
 # Introduction
@@ -86,7 +85,7 @@ after, and subsumes, the moderator team for the IETF discussion list
 As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
 (PR) action it defines, and {{!RFC3934}}.
 It also obsoletes {{Section 4 of !RFC9245}}, which
-defines the IETF discussion list moderation team. Finally, it updates {{Section
+defines the IETF discussion list moderator team. Finally, it updates {{Section
 6.1 of !RFC2418}}, because the moderator team will now work together with
 working group chairs to moderate disruptive behavior.
 
@@ -99,9 +98,10 @@ community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
-group with moderating their group's in-person meetings and mailing
-lists, and an IESG statement {{MODML}} describes additional guidance
+of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
+group with moderating their group's in-person meetings while
+{{!RFC3934}} authorized chairs to manage mailing
+lists. An IESG statement {{MODML}} describes additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
 
@@ -151,9 +151,10 @@ The moderation policy goals are as follows:
 - Disagreements about moderation actions are addressed through appeals;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
-- Allow moderators to reconsider decisions; and
-- Provide the broadest possible latitude to moderators, so that they may have the
-  flexibility to address a broad range of individuals and circumstances.
+- Allow moderation decisions to be reconsidered; and
+- Provide the broadest possible latitude to administrators and moderators, so
+  that they have the flexibility to address a broad range of individuals
+  and circumstances.
 
 Questions about processes detailed below should be answered through the lens
 of these aims.
@@ -261,7 +262,7 @@ participants.
 
 Area directors are expected to resolve conflicts as described here and
 in {{appeals}}.  The IESG is responsible for appointing and oversseeing
-the moderation team, and approving guidance provided by that team.
+the moderator team, and approving guidance provided by that team.
 
 ## Non-IETF Communication Channels And Private Communications Excluded
 
@@ -319,7 +320,7 @@ actions, and are therefore beyond the scope of this memo.
 
 Administrators and moderators shall act in a manner
 consistent with guidelines approved by the IESG.  In cases of
-disagreement between the administrators and the moderation team
+disagreement between the administrators and the moderator team
 over a moderation decision, the matter should be taken up
 with the responsible area director for resolution, or the IETF chair
 if a responsible area director cannot be determined or is not assigned.
@@ -335,7 +336,7 @@ decision by the IESG can be appealed to the IAB as described in
 
 People and circumstances change.  Individuals who have been banned
 from a forum may request reinstatement.  Any such request must be
-directed to the entity who made the decision (e.g., moderation team,
+directed to the entity who made the decision (e.g., moderator team,
 working group chairs, etc.) or their successors.  That party may at
 their discretion
 reinstate someone, conditionally or unconditionally.  So as to avoid
@@ -397,7 +398,7 @@ where it receives legal advice to the contrary.
 
 As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
-to be overridden by a decision of the moderation team or the IESG.
+to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
 board, as documented in section 4.7 of {{!RFC8711}}
 
@@ -461,6 +462,10 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-07
+
+- [Pete Resnick issues and similar](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/134)
 
 ## Since draft-ietf-modmod-group-processes-06
 
