@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-08T00:25:58.062542+00:00",
+  "timestamp": "2025-07-10T00:26:18.486297+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2266,6 +2266,39 @@
       "updatedAt": "2025-07-04T14:11:29Z",
       "closedAt": "2025-07-04T14:11:29Z",
       "comments": []
+    },
+    {
+      "number": 134,
+      "id": "I_kwDOJrr8CM6_bJUl",
+      "title": "Abstract rewrite, Reference correction, moderation not moderators",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/134",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "\n- Abstract needs to be rewritten\n- Reference error to 3934 rather than 2418\n- Make it about moderation, not moderators\n",
+      "createdAt": "2025-07-08T08:29:48Z",
+      "updatedAt": "2025-07-08T15:32:59Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "rjsparks",
+          "authorAssociation": "NONE",
+          "body": "tiny nit: Pete has reported several issues along the way and finding what _this_ issue is actually about requires digging. Could the Issue titles (like email subjects) get a little closer to the content of the issue?",
+          "createdAt": "2025-07-08T13:47:00Z",
+          "updatedAt": "2025-07-08T13:47:00Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@rjsparks done",
+          "createdAt": "2025-07-08T15:32:59Z",
+          "updatedAt": "2025-07-08T15:32:59Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -10474,12 +10507,14 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/133",
       "state": "OPEN",
       "author": "sayrer",
-      "authorAssociation": "CONTRIBUTOR",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "needs-discussion"
+      ],
       "body": "I don't care about the wording, feel free to change it.",
       "createdAt": "2025-07-07T21:15:54Z",
-      "updatedAt": "2025-07-07T22:58:15Z",
+      "updatedAt": "2025-07-08T03:32:07Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
@@ -10492,6 +10527,197 @@
       "mergeCommit": null,
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 135,
+      "id": "PR_kwDOJrr8CM6d5R-3",
+      "title": "Redo abstract, 3934 => 2418, moderation, no moderator focus",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/135",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion",
+        "needs-review"
+      ],
+      "body": "Closes #134.\r\n",
+      "createdAt": "2025-07-08T08:32:00Z",
+      "updatedAt": "2025-07-09T20:40:25Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "pete-comments-abstract-and-other",
+      "headRefOid": "60eb82a046cccd5006ed24000b2fce774da20071",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Super nitpick (when I worked at Mozilla this was called an \"uber nit\", meaning that it was petty but important).\r\n\r\n> that they may have the flexibility\r\n\r\nI would strike \"may\".\r\n\r\n\"Provide the broadest possible latitude to administrators and moderators, so that they may have the flexibility to address a broad range of individuals and circumstances.\"\r\n\r\nI know the use of \"may\" here means a grant, but an unkind reading could mean there is some doubt.\r\n\r\n",
+          "createdAt": "2025-07-08T21:48:08Z",
+          "updatedAt": "2025-07-08T21:48:08Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I will be remote for the IETF meeting, but let's leave this one open for discussion.  @larseggert if you want you could live edit, even, if there is good hallway bandwidth.",
+          "createdAt": "2025-07-09T17:46:03Z",
+          "updatedAt": "2025-07-09T17:46:03Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> I will be remote for the IETF meeting, but let's leave this one open for discussion. @larseggert if you want you could live edit, even, if there is good hallway bandwidth.\r\n\r\nThis one seems so uncontroversial. I am a bit perplexed. Perhaps there is a disconnect. Some people think \"well, the IETF gets a lot of documents done\" and others think \"that is a toxic cesspool, I refuse to participate\". I've heard both sentiments. So, if there's resistance to change, it comes from people who think the status quo is OK. I do not think it is OK, but I am willing to listen.",
+          "createdAt": "2025-07-09T20:40:25Z",
+          "updatedAt": "2025-07-09T20:40:25Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6yo_p3",
+          "commit": {
+            "abbreviatedOid": "9705a27"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-08T10:59:32Z",
+          "updatedAt": "2025-07-08T11:00:45Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\nacross the IETF's various contribution channels.  It establishes guardrails\n```\n",
+              "createdAt": "2025-07-08T10:59:32Z",
+              "updatedAt": "2025-07-08T11:00:45Z"
+            },
+            {
+              "originalPosition": 27,
+              "body": "We are obsoleting this, so should rephrase.",
+              "createdAt": "2025-07-08T11:00:29Z",
+              "updatedAt": "2025-07-08T11:00:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ysqVU",
+          "commit": {
+            "abbreviatedOid": "9705a27"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-08T15:03:11Z",
+          "updatedAt": "2025-07-08T15:03:11Z",
+          "comments": [
+            {
+              "originalPosition": 27,
+              "body": "s/es/ed.",
+              "createdAt": "2025-07-08T15:03:11Z",
+              "updatedAt": "2025-07-08T15:03:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6yssG6",
+          "commit": {
+            "abbreviatedOid": "12987a7"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-08T15:04:57Z",
+          "updatedAt": "2025-07-08T15:04:57Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "It is supposed to be uniformly \"moderator team\", right?",
+              "createdAt": "2025-07-08T15:04:57Z",
+              "updatedAt": "2025-07-08T15:04:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ysv1V",
+          "commit": {
+            "abbreviatedOid": "12987a7"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-08T15:07:34Z",
+          "updatedAt": "2025-07-08T15:07:34Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "Righto.",
+              "createdAt": "2025-07-08T15:07:34Z",
+              "updatedAt": "2025-07-08T15:07:34Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6yueJo",
+          "commit": {
+            "abbreviatedOid": "5b3426f"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-08T17:28:04Z",
+          "updatedAt": "2025-07-08T17:28:04Z",
+          "comments": [
+            {
+              "originalPosition": 48,
+              "body": "I think this should be:\r\n\r\n\"Give the broadest possible latitude to the moderator team\"\r\n\r\nThe phrase \"Provide the broadest possible latitude to moderation\" doesn't read well to me.\r\n",
+              "createdAt": "2025-07-08T17:28:04Z",
+              "updatedAt": "2025-07-08T17:28:04Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6yuhoR",
+          "commit": {
+            "abbreviatedOid": "5b3426f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-08T17:33:42Z",
+          "updatedAt": "2025-07-08T17:33:42Z",
+          "comments": [
+            {
+              "originalPosition": 48,
+              "body": "Ok.  Take another look and see what you think.",
+              "createdAt": "2025-07-08T17:33:42Z",
+              "updatedAt": "2025-07-08T17:33:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6y7vnV",
+          "commit": {
+            "abbreviatedOid": "60eb82a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-07-09T15:23:45Z",
+          "updatedAt": "2025-07-09T15:23:45Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
