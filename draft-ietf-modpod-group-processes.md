@@ -82,15 +82,17 @@ across the IETF's various contribution channels.  A moderator team is
 formed to draft procedures and to facilitate their consistent
 implementation.
 
-This memo also obsoletes the following procedures:
+This memo addresses modifies the following documents:
 
-- {{!RFC3683}} as the "posting rights" (PR) action it defines are
-  replaced by procedures defined herein;
-- {{!RFC3934}} as it replaces working group moderation procedures;
-- {{Section 3 of !RFC9245}}, as the IETF discussion list moderation
-  team is replaced by the moderator team.
-- {{Section 6.1 of !RFC2418}}, because the moderator team will now work
-  together with working group chairs to moderate disruptive behavior.
+- Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
+  are replaced by procedures defined herein;
+- Obsoletes{{!RFC3934}} as it replaces working group moderation
+  procedures;
+- Obsoletes {{Section 3 of !RFC9245}}, as the IETF discussion list
+  moderation team is replaced by the moderator team.
+- Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
+  now work together with working group chairs to moderate disruptive
+  behavior.
 
 The details of each of these changes and the philosophy behind them
 are described below.
