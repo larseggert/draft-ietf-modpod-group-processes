@@ -8,8 +8,8 @@ number:
 date:
 consensus: true
 v: 3
-obsoletes: 3683, 3934, 9245
-updates: 2418
+obsoletes: 3683, 3934
+updates: 2418, 9245
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/draft-ietf-modpod-group-processes
@@ -77,17 +77,23 @@ chairs and administrators.
 
 # Introduction
 
-This memo proposes the creation of a moderator team for all the
-IETF's various contribution channels. The moderator team is modeled
-after, and subsumes, the moderator team for the IETF discussion list
-{{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
+This memo describes the moderation of disruptive participation
+across the IETF's various contribution channels.  A moderator team is
+formed to draft procedures and to facilitate their consistent
+implementation.
 
-As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
-(PR) action it defines, and {{!RFC3934}}.
-It also obsoletes {{Section 4 of !RFC9245}}, which
-defines the IETF discussion list moderator team. Finally, it updates {{Section
-6.1 of !RFC2418}}, because the moderator team will now work together with
-working group chairs to moderate disruptive behavior.
+This memo also obsoletes the following procedures:
+
+- {{!RFC3683}} asand the "posting rights" (PR) action it defines are
+  replaced by procedures defined herein;
+- {{!RFC3934}} as it replaces working group moderation procedures;
+- {{Section 3 of !RFC9245}}, as the IETF discussion list moderation
+  team is replaced by the moderator team.
+- {{Section 6.1 of !RFC2418}}, because the moderator team will now work
+  together with working group chairs to moderate disruptive behavior.
+
+The details of each of these changes and the philosophy behind them
+are described below.
 
 ## Background {#background}
 
@@ -100,8 +106,8 @@ empowering an ombudsteam {{OT}} to take necessary action.
 Dealing with *disruptive* behavior, however, is not part of the role
 of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings while
-{{!RFC3934}} authorized chairs to manage mailing
-lists. An IESG statement {{MODML}} describes additional guidance
+{{!RFC3934}} provided chairs a procedure to help manage mailing
+lists. An IESG statement {{MODML}} described additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
 
@@ -152,7 +158,7 @@ The moderation policy goals are as follows:
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
 - Allow moderation decisions to be reconsidered; and
-- Provide the broadest possible latitude to administrators and moderators, so
+- Provide the broadest possible latitude to all people doing moderation, so
   that they have the flexibility to address a broad range of individuals
   and circumstances.
 
@@ -175,9 +181,11 @@ of administrators are the "owners" of non-WG IETF mailing lists.
 
 # IETF Moderator Team
 
-This memo proposes a different, uniform approach to moderating the
-IETF's various participation channels: a moderator team for the IETF.
-The creation of this team intends to address the issues identified
+This memo proposes a uniform approach to moderating the
+IETF's various participation channels. A moderator team for the IETF
+will develop uniform guidelines for moderation and will facilitate
+their implementation as detailed below.
+These changes are intended to address the issues identified
 in the previous model {{motive}} and the principles described in the
 introduction.
 
@@ -239,6 +247,8 @@ Administrators are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of inappropriate behavior
 in a timely fashion, apprising moderators of their disposition.
+Administrators should take seriously the need for consistent
+implementation of moderation guidelines.
 
 Moderators are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
@@ -246,8 +256,13 @@ future.  Moderators are expected to be a resource that the community
 can use to address problematic contributions.
 
 Moderators may take actions when administrators do not respond to
-reports in a timely fashion.  Their first action should generally be to
-attempt to contact the relevant administrators.
+reports in a timely fashion.  Their first action should generally be 
+to attempt to contact and advise the relevant administratorsl.
+They should only take
+moderation actions when administrators are not responsive.  In
+particular moderators should give WG chairs every opportunity to
+manage what may be difficult and contentious debates within their
+groups.  Disagreements are discussed below in {{appeals}).
 
 Moderators are administrators for IETF
 plenary fora, such as the IETF discussion and last-call lists, attendee
@@ -275,9 +290,11 @@ should be approached.
 
 # Moderation Procedures and Transparency {#prod}
 
-Within the bounds of the policies set herein and with the
+Within the bounds of the policies set herein, the
 approval of the IESG, the moderator team shall define
-processes and moderation criteria necessary to execute their role.
+processes and criteria relating to moderation, including
+the moderator team's own operating procedures.
+
 Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
