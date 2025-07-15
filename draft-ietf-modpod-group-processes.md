@@ -84,7 +84,7 @@ implementation.
 
 This memo also obsoletes the following procedures:
 
-- {{!RFC3683}} asand the "posting rights" (PR) action it defines are
+- {{!RFC3683}} as the "posting rights" (PR) action it defines are
   replaced by procedures defined herein;
 - {{!RFC3934}} as it replaces working group moderation procedures;
 - {{Section 3 of !RFC9245}}, as the IETF discussion list moderation
