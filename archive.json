@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-10T00:26:18.486297+00:00",
+  "timestamp": "2025-07-17T00:27:21.008624+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2299,6 +2299,22 @@
           "updatedAt": "2025-07-08T15:32:59Z"
         }
       ]
+    },
+    {
+      "number": 136,
+      "id": "I_kwDOJrr8CM7AudOA",
+      "title": "PRO placeholder",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/136",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This issue is opened to remind us to check references based on the progress of the PRO working group.  Some coordination would be ideal.",
+      "createdAt": "2025-07-15T19:06:18Z",
+      "updatedAt": "2025-07-15T19:06:18Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -10543,13 +10559,13 @@
       ],
       "body": "Closes #134.\r\n",
       "createdAt": "2025-07-08T08:32:00Z",
-      "updatedAt": "2025-07-09T20:40:25Z",
+      "updatedAt": "2025-07-15T22:08:12Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "pete-comments-abstract-and-other",
-      "headRefOid": "60eb82a046cccd5006ed24000b2fce774da20071",
+      "headRefOid": "48d812cdc1247af03a1ebd1f36bd13d432f3aba7",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -10716,6 +10732,39 @@
           "createdAt": "2025-07-09T15:23:45Z",
           "updatedAt": "2025-07-09T15:23:45Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM60GEbh",
+          "commit": {
+            "abbreviatedOid": "12a309d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Would have liked to see the editorial changes in a separate editorial PR.",
+          "createdAt": "2025-07-15T17:35:57Z",
+          "updatedAt": "2025-07-15T17:35:57Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM60J5Dz",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-15T22:08:11Z",
+          "updatedAt": "2025-07-15T22:08:12Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "Maybe \"This memo obsoletes or updates the following documents\"?\r\n\r\nHere's the guideline, I think:\r\nhttps://datatracker.ietf.org/doc/html/rfc7322#section-4.1.4",
+              "createdAt": "2025-07-15T22:08:11Z",
+              "updatedAt": "2025-07-15T22:08:12Z"
+            }
+          ]
         }
       ]
     }
