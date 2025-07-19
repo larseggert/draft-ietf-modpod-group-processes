@@ -292,7 +292,7 @@ should be approached.
 
 # Moderation Procedures and Transparency {#prod}
 
-Within the bounds of the policies set herein, the
+Within the bounds of the policies set herein, and with the
 approval of the IESG, the moderator team shall define
 processes and criteria relating to moderation, including
 the moderator team's own operating procedures.
