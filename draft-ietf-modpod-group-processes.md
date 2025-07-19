@@ -259,7 +259,7 @@ can use to address problematic contributions.
 
 Moderators may take actions when administrators do not respond to
 reports in a timely fashion.  Their first action should generally be
-to attempt to contact and advise the relevant administratorsl.
+to attempt to contact and advise the relevant administrators.
 They should only take
 moderation actions when administrators are not responsive.  In
 particular, moderators should give WG chairs every opportunity to
