@@ -262,7 +262,7 @@ reports in a timely fashion.  Their first action should generally be
 to attempt to contact and advise the relevant administratorsl.
 They should only take
 moderation actions when administrators are not responsive.  In
-particular moderators should give WG chairs every opportunity to
+particular, moderators should give WG chairs every opportunity to
 manage what may be difficult and contentious debates within their
 groups.  Disagreements are discussed below in {{appeals}).
 
