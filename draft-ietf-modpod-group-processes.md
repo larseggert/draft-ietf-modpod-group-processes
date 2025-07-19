@@ -82,7 +82,7 @@ across the IETF's various contribution channels.  A moderator team is
 formed to draft procedures and to facilitate their consistent
 implementation.
 
-This memo addresses modifies the following documents:
+This memo makes the following changes:
 
 - Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
   are replaced by procedures defined herein;
