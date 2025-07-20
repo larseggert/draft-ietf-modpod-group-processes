@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-17T00:27:21.008624+00:00",
+  "timestamp": "2025-07-20T00:30:20.273326+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -10530,7 +10530,7 @@
       ],
       "body": "I don't care about the wording, feel free to change it.",
       "createdAt": "2025-07-07T21:15:54Z",
-      "updatedAt": "2025-07-08T03:32:07Z",
+      "updatedAt": "2025-07-19T17:49:01Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
@@ -10541,7 +10541,22 @@
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Eliot has since added the text: \"In particular, moderators should give WG chairs every opportunity to manage what may be difficult and contentious debates within their groups.\"\r\n\r\nThis is a different approach than I took here, where it's a failure of the chairs if the moderators intervene. However, it does acknowledge that such moderation is suboptimal, so the moderators also know to avoid it. I prefer this approach, but it's a WG decision. I didn't sense strong opinions, so maybe no one cares. Maybe we can just see what the room thinks at IETF 123.",
+          "createdAt": "2025-07-19T16:33:51Z",
+          "updatedAt": "2025-07-19T16:33:51Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think the matter should be discussed this week.",
+          "createdAt": "2025-07-19T17:49:01Z",
+          "updatedAt": "2025-07-19T17:49:01Z"
+        }
+      ],
       "reviews": []
     },
     {
@@ -10559,13 +10574,13 @@
       ],
       "body": "Closes #134.\r\n",
       "createdAt": "2025-07-08T08:32:00Z",
-      "updatedAt": "2025-07-15T22:08:12Z",
+      "updatedAt": "2025-07-19T20:16:36Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "pete-comments-abstract-and-other",
-      "headRefOid": "48d812cdc1247af03a1ebd1f36bd13d432f3aba7",
+      "headRefOid": "dadb77e8f7b9e5593c0c3c927c4a47405d22b8c5",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -10763,6 +10778,232 @@
               "body": "Maybe \"This memo obsoletes or updates the following documents\"?\r\n\r\nHere's the guideline, I think:\r\nhttps://datatracker.ietf.org/doc/html/rfc7322#section-4.1.4",
               "createdAt": "2025-07-15T22:08:11Z",
               "updatedAt": "2025-07-15T22:08:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6062_1",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T10:37:57Z",
+          "updatedAt": "2025-07-19T10:38:56Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "```suggestion\nThis memo obsoletes or updates the following documents:\n```\nPer @sayrer's suggestion.",
+              "createdAt": "2025-07-19T10:37:57Z",
+              "updatedAt": "2025-07-19T10:38:56Z"
+            },
+            {
+              "originalPosition": 193,
+              "body": "Please add a changelog entry?",
+              "createdAt": "2025-07-19T10:38:46Z",
+              "updatedAt": "2025-07-19T10:38:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607Ilr",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T15:21:17Z",
+          "updatedAt": "2025-07-19T15:21:17Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "I don't think much of that either, TBH.  I have a simpler approach.  Look for a push momentarily.",
+              "createdAt": "2025-07-19T15:21:17Z",
+              "updatedAt": "2025-07-19T15:21:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607Ims",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T15:21:33Z",
+          "updatedAt": "2025-07-19T15:21:33Z",
+          "comments": [
+            {
+              "originalPosition": 193,
+              "body": "There is one.I think there is one?",
+              "createdAt": "2025-07-19T15:21:33Z",
+              "updatedAt": "2025-07-19T15:21:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607PUG",
+          "commit": {
+            "abbreviatedOid": "646c962"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T16:29:42Z",
+          "updatedAt": "2025-07-19T16:29:43Z",
+          "comments": [
+            {
+              "originalPosition": 124,
+              "body": "nit: should be \"In particular,\" [with comma]",
+              "createdAt": "2025-07-19T16:29:42Z",
+              "updatedAt": "2025-07-19T16:29:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607YuJ",
+          "commit": {
+            "abbreviatedOid": "646c962"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T17:47:42Z",
+          "updatedAt": "2025-07-19T17:47:42Z",
+          "comments": [
+            {
+              "originalPosition": 124,
+              "body": "There are two general rules for leading preposition phases:\r\n\r\n- More than one and you must separate with commas.  Example: On a dark night, in a cold house, David lit a fire.\r\n- A single but long phrase.  In the middle of a war in the Pacific, Harry and Ito got drunk on a bottle of saki.\r\n\r\nFor short single phrases, the comma is optional.",
+              "createdAt": "2025-07-19T17:47:42Z",
+              "updatedAt": "2025-07-19T17:48:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607m5S",
+          "commit": {
+            "abbreviatedOid": "646c962"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T19:47:54Z",
+          "updatedAt": "2025-07-19T19:47:54Z",
+          "comments": [
+            {
+              "originalPosition": 124,
+              "body": "I think this one needs the comma, because the difference between \"In particular moderators\" and \"In particular, moderators\" does matter. It resolves itself if you keep going, but it doesn't read well imho. I tried a few grammar checkers, and they agree.",
+              "createdAt": "2025-07-19T19:47:54Z",
+              "updatedAt": "2025-07-19T19:48:47Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607neE",
+          "commit": {
+            "abbreviatedOid": "646c962"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T19:57:27Z",
+          "updatedAt": "2025-07-19T19:57:27Z",
+          "comments": [
+            {
+              "originalPosition": 124,
+              "body": "Hmm.  I didn't think there was an ambiguity, but a comma is a pretty cheap add, so... Ok.",
+              "createdAt": "2025-07-19T19:57:27Z",
+              "updatedAt": "2025-07-19T19:57:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607ohB",
+          "commit": {
+            "abbreviatedOid": "b0c7dc2"
+          },
+          "author": "alvestrand",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T20:05:20Z",
+          "updatedAt": "2025-07-19T20:05:21Z",
+          "comments": [
+            {
+              "originalPosition": 121,
+              "body": "```suggestion\r\nto attempt to contact and advise the relevant administrators.\r\n```",
+              "createdAt": "2025-07-19T20:05:20Z",
+              "updatedAt": "2025-07-19T20:05:21Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607orC",
+          "commit": {
+            "abbreviatedOid": "b0c7dc2"
+          },
+          "author": "alvestrand",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T20:06:56Z",
+          "updatedAt": "2025-07-19T20:06:57Z",
+          "comments": [
+            {
+              "originalPosition": 144,
+              "body": "grammar does not make sense here.\r\n```suggestion\r\nWithin the bounds of the policies set herein, and with the\r\n```",
+              "createdAt": "2025-07-19T20:06:56Z",
+              "updatedAt": "2025-07-19T20:06:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607pUI",
+          "commit": {
+            "abbreviatedOid": "646c962"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T20:11:57Z",
+          "updatedAt": "2025-07-19T20:11:57Z",
+          "comments": [
+            {
+              "originalPosition": 124,
+              "body": "Right, it's not a big deal. The way I think about it is reading from a teleprompter when you don't know what is coming next:\r\n\r\n- \"In particular moderators, there can be...\"\r\n- \"In particular, moderators should...\"\r\n\r\nThis doesn't even get into whether we mean picky moderators, or just some subset of moderators, in the first case. :)",
+              "createdAt": "2025-07-19T20:11:57Z",
+              "updatedAt": "2025-07-19T20:15:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM607pkw",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-19T20:16:36Z",
+          "updatedAt": "2025-07-19T20:16:36Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "Yeah, Eliot's version is better imho.",
+              "createdAt": "2025-07-19T20:16:36Z",
+              "updatedAt": "2025-07-19T20:16:36Z"
             }
           ]
         }
