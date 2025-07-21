@@ -88,8 +88,9 @@ This memo makes the following changes:
   are replaced by procedures defined herein;
 - Obsoletes{{!RFC3934}} as it replaces working group moderation
   procedures;
-- Obsoletes {{Section 3 of !RFC9245}}, as the IETF discussion list
-  moderation team is replaced by the moderator team.
+- Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
+  {{Section 4 of !RFC9245}}, as the IETF discussion list moderation
+  team is replaced by the moderator team.
 - Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
   now work together with working group chairs to moderate disruptive
   behavior.
