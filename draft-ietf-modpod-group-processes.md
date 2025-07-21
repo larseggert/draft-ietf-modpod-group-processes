@@ -485,7 +485,8 @@ These individuals contributed additional improvements:
 ## Since draft-ietf-modpod-group-processes-07
 
 - [Pete Resnick issues and similar](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/134)
-- Includes changes to abstract, intro, tweaks to make relationship between admins/WG chairs clearer
+- Includes changes to abstract, intro, tweaks to make relationship
+  between admins/WG chairs clearer.
 - Makes roles clearer, moderation team=> moderator team.
 
 ## Since draft-ietf-modmod-group-processes-06
