@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-20T00:30:20.273326+00:00",
+  "timestamp": "2025-07-22T00:27:37.481497+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -10530,13 +10530,13 @@
       ],
       "body": "I don't care about the wording, feel free to change it.",
       "createdAt": "2025-07-07T21:15:54Z",
-      "updatedAt": "2025-07-19T17:49:01Z",
+      "updatedAt": "2025-07-21T19:44:48Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "wgchairs",
-      "headRefOid": "6bf3ce897da724c2e55ff9b3e582d2b3602507e4",
+      "headRefOid": "c4d88b2025047723262eee0f46f4014a31afb21e",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -10557,7 +10557,68 @@
           "updatedAt": "2025-07-19T17:49:01Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM61BCxQ",
+          "commit": {
+            "abbreviatedOid": "6bf3ce8"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T07:54:05Z",
+          "updatedAt": "2025-07-21T07:54:10Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\nin a timely fashion, apprising moderators of their disposition. For a\r\nWorking Group, the chairs should perform moderation in a way that\r\nobviates the need for moderator team involvement.\r\n```\r\nAlternative proposal.",
+              "createdAt": "2025-07-21T07:54:05Z",
+              "updatedAt": "2025-07-21T08:14:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61BNtw",
+          "commit": {
+            "abbreviatedOid": "6bf3ce8"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T08:10:40Z",
+          "updatedAt": "2025-07-21T08:10:40Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "s/eliminates/obviates/ ?",
+              "createdAt": "2025-07-21T08:10:40Z",
+              "updatedAt": "2025-07-21T08:10:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61Hb7I",
+          "commit": {
+            "abbreviatedOid": "6bf3ce8"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T15:22:52Z",
+          "updatedAt": "2025-07-21T15:22:52Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "That works for me. (this will conflict with #135, so let's wait for that one, since it is a bigger change)",
+              "createdAt": "2025-07-21T15:22:52Z",
+              "updatedAt": "2025-07-21T15:31:25Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 135,
@@ -10574,13 +10635,13 @@
       ],
       "body": "Closes #134.\r\n",
       "createdAt": "2025-07-08T08:32:00Z",
-      "updatedAt": "2025-07-19T20:16:36Z",
+      "updatedAt": "2025-07-21T18:17:43Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "15f83e7db3fd09194422ef9f07184b902a5daff3",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "pete-comments-abstract-and-other",
-      "headRefOid": "dadb77e8f7b9e5593c0c3c927c4a47405d22b8c5",
+      "headRefOid": "5371e7262cd4ab27d5dc981f2f688f2cc9fe75ba",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -11004,6 +11065,126 @@
               "body": "Yeah, Eliot's version is better imho.",
               "createdAt": "2025-07-19T20:16:36Z",
               "updatedAt": "2025-07-19T20:16:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61BDz6",
+          "commit": {
+            "abbreviatedOid": "dadb77e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T07:55:48Z",
+          "updatedAt": "2025-07-21T07:55:49Z",
+          "comments": [
+            {
+              "originalPosition": 193,
+              "body": "The only one the `Pete Resnick issues and similar` one below. Is that also capturing the changes in this PR?",
+              "createdAt": "2025-07-21T07:55:49Z",
+              "updatedAt": "2025-07-21T07:55:49Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61BUKM",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T08:20:19Z",
+          "updatedAt": "2025-07-21T08:20:20Z",
+          "comments": [
+            {
+              "originalPosition": 193,
+              "body": "Ok.  As long as we can have other than Issues in changes, I can elaborate.",
+              "createdAt": "2025-07-21T08:20:20Z",
+              "updatedAt": "2025-07-21T08:20:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61BmVn",
+          "commit": {
+            "abbreviatedOid": "48d812c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T08:47:35Z",
+          "updatedAt": "2025-07-21T08:47:35Z",
+          "comments": [
+            {
+              "originalPosition": 193,
+              "body": "done",
+              "createdAt": "2025-07-21T08:47:35Z",
+              "updatedAt": "2025-07-21T08:47:35Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61EmFO",
+          "commit": {
+            "abbreviatedOid": "24abf10"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T12:28:23Z",
+          "updatedAt": "2025-07-21T12:28:23Z",
+          "comments": [
+            {
+              "originalPosition": 46,
+              "body": "```suggestion\n- Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of\n  {{Section 4 of !RFC9245}}, as the IETF discussion list moderation\n  team is replaced by the moderator team.\n```",
+              "createdAt": "2025-07-21T12:28:23Z",
+              "updatedAt": "2025-07-21T12:28:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61EnWt",
+          "commit": {
+            "abbreviatedOid": "24abf10"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T12:29:52Z",
+          "updatedAt": "2025-07-21T12:29:52Z",
+          "comments": [
+            {
+              "originalPosition": 198,
+              "body": "Please link to the PR.",
+              "createdAt": "2025-07-21T12:29:52Z",
+              "updatedAt": "2025-07-21T12:29:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61JsBh",
+          "commit": {
+            "abbreviatedOid": "24abf10"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-21T18:17:42Z",
+          "updatedAt": "2025-07-21T18:17:43Z",
+          "comments": [
+            {
+              "originalPosition": 198,
+              "body": "Arrrrrrgh!  it's one PR, Lars.",
+              "createdAt": "2025-07-21T18:17:42Z",
+              "updatedAt": "2025-07-21T18:17:43Z"
             }
           ]
         }
