@@ -4,8 +4,8 @@
 
 Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: 3683, 3934, 9245 (if approved)                   E. Lear, Ed.
-Updates: 2418 (if approved)                                Cisco Systems
+Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
+Updates: 2418, 9245 (if approved)                          Cisco Systems
 Intended status: Best Current Practice                      22 July 2025
 Expires: 23 January 2026
 
@@ -18,11 +18,11 @@ Abstract
    The IETF will treat people with kindness and grace, but not endless
    patience.
 
-   This memo describes the creation of a moderator team for all the
-   IETF's various contribution channels.  Without removing existing
-   responsibilities for working group management, this team enables a
-   uniform approach to moderation of disruptive participation across all
-   mailing lists and other methods of IETF collaboration.
+   This memo describes the moderation of disruptive participation across
+   the IETF's various contribution channels.  It establishes guardrails
+   for moderation and a moderator team.  That team will develop a
+   uniform set of guidelines and facilitate their consistent
+   implementation with chairs and administrators.
 
 About This Document
 
@@ -100,32 +100,44 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modmod-group-processes-06
-     A.2.  Since draft-ietf-modpod-group-processes-05
-     A.3.  Since draft-ietf-modpod-group-processes-04
-     A.4.  Since draft-ietf-modpod-group-processes-03
-     A.5.  Since draft-ietf-modpod-group-processes-02
-     A.6.  Since draft-ietf-modpod-group-processes-01
-     A.7.  Since draft-ietf-modpod-group-processes-00
-     A.8.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-07
+     A.2.  Since draft-ietf-modmod-group-processes-06
+     A.3.  Since draft-ietf-modpod-group-processes-05
+     A.4.  Since draft-ietf-modpod-group-processes-04
+     A.5.  Since draft-ietf-modpod-group-processes-03
+     A.6.  Since draft-ietf-modpod-group-processes-02
+     A.7.  Since draft-ietf-modpod-group-processes-01
+     A.8.  Since draft-ietf-modpod-group-processes-00
+     A.9.  Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
 
 1.  Introduction
 
-   This memo proposes the creation of a moderator team for all the
-   IETF's various contribution channels.  The moderator team is modeled
-   after, and subsumes, the moderator team for the IETF discussion list
-   [RFC9245] and is tasked to moderate *all* IETF participation
-   channels.
+   This memo describes the moderation of disruptive participation across
+   the IETF's various contribution channels.  A moderator team is formed
+   to draft procedures and to facilitate their consistent
+   implementation.
 
-   As a consequence, this memo obsoletes [RFC3683] and the "posting
-   rights" (PR) action it defines, and [RFC3934].  It also obsoletes
-   Section 4 of [RFC9245], which defines the IETF discussion list
-   moderation team.  Finally, it updates Section 6.1 of [RFC2418],
-   because the moderator team will now work together with working group
-   chairs to moderate disruptive behavior.
+   This memo makes the following changes:
+
+   *  Obsoletes [RFC3683] as the "posting rights" (PR) action it defines
+      are replaced by procedures defined herein;
+
+   *  Obsoletes[RFC3934] as it replaces working group moderation
+      procedures;
+
+   *  Obsoletes Section 3 of [RFC9245] and the second paragraph of
+      Section 4 of [RFC9245], as the IETF discussion list moderation
+      team is replaced by the moderator team.
+
+   *  Updates Section 6.1 of [RFC2418], because the moderator team will
+      now work together with working group chairs to moderate disruptive
+      behavior.
+
+   The details of each of these changes and the philosophy behind them
+   are described below.
 
 1.1.  Background
 
@@ -136,11 +148,11 @@ Table of Contents
    ombudsteam [OT] to take necessary action.
 
    Dealing with _disruptive_ behavior, however, is not part of the role
-   of the ombudsteam.  [RFC3934] tasks the chairs of each IETF working
-   group with moderating their group's in-person meetings and mailing
-   lists, and an IESG statement [MODML] describes additional guidance to
-   working group chairs about how — but not when — to moderate their
-   lists.
+   of the ombudsteam.  [RFC2418] tasks the chairs of each IETF working
+   group with moderating their group's in-person meetings while
+   [RFC3934] provided chairs a procedure to help manage mailing lists.
+   An IESG statement [MODML] described additional guidance to working
+   group chairs about how — but not when — to moderate their lists.
 
    For IETF mailing lists not associated with a working group, another
    IESG statement [DP] clarifies that the list administrators are tasked
@@ -195,11 +207,11 @@ Table of Contents
    *  Balance transparency against both privacy of individuals involved
       and further disruption to the community;
 
-   *  Allow moderators to reconsider decisions; and
+   *  Allow moderation decisions to be reconsidered; and
 
-   *  Provide the broadest possible latitude to moderators, so that they
-      may have the flexibility to address a broad range of individuals
-      and circumstances.
+   *  Provide the broadest possible latitude to all people doing
+      moderation, so that they have the flexibility to address a broad
+      range of individuals and circumstances.
 
    Questions about processes detailed below should be answered through
    the lens of these aims.
@@ -221,11 +233,12 @@ Table of Contents
 
 2.  IETF Moderator Team
 
-   This memo proposes a different, uniform approach to moderating the
-   IETF's various participation channels: a moderator team for the IETF.
-   The creation of this team intends to address the issues identified in
-   the previous model Appendix B and the principles described in the
-   introduction.
+   This memo proposes a uniform approach to moderating the IETF's
+   various participation channels.  A moderator team for the IETF will
+   develop uniform guidelines for moderation and will facilitate their
+   implementation as detailed below.  These changes are intended to
+   address the issues identified in the previous model Appendix B and
+   the principles described in the introduction.
 
 2.1.  Composition
 
@@ -294,7 +307,12 @@ Table of Contents
 
    Moderators may take actions when administrators do not respond to
    reports in a timely fashion.  Their first action should generally be
-   to attempt to contact the relevant administrators.
+   to attempt to contact and advise the relevant administrators.  They
+   should only take moderation actions when administrators are not
+   responsive.  In particular, moderators should give WG chairs every
+   opportunity to manage what may be difficult and contentious debates
+   within their groups.  Disagreements are discussed below in
+   Section 4.1).
 
    Moderators are administrators for IETF plenary fora, such as the IETF
    discussion and last-call lists, attendee lists, and any plenary chat
@@ -307,7 +325,7 @@ Table of Contents
 
    Area directors are expected to resolve conflicts as described here
    and in Section 4.1.  The IESG is responsible for appointing and
-   oversseeing the moderation team, and approving guidance provided by
+   oversseeing the moderator team, and approving guidance provided by
    that team.
 
 3.1.  Non-IETF Communication Channels And Private Communications
@@ -322,13 +340,15 @@ Table of Contents
 
 4.  Moderation Procedures and Transparency
 
-   Within the bounds of the policies set herein and with the approval of
-   the IESG, the moderator team shall define processes and moderation
-   criteria necessary to execute their role.  Those processes and
-   criteria shall be developed with community input and made public, but
-   need not be documented in the RFC series.  This shall be the first
-   task for the moderator team.  Until that happens, the previous
-   procedures remain in effect.
+   Within the bounds of the policies set herein, and with the approval
+   of the IESG, the moderator team shall define processes and criteria
+   relating to moderation, including the moderator team's own operating
+   procedures.
+
+   Those processes and criteria shall be developed with community input
+   and made public, but need not be documented in the RFC series.  This
+   shall be the first task for the moderator team.  Until that happens,
+   the previous procedures remain in effect.
 
    The intent of this memo is to provide the widest possible freedom of
    action to administrators and moderators, with a few constraints.
@@ -370,10 +390,10 @@ Table of Contents
 
    Administrators and moderators shall act in a manner consistent with
    guidelines approved by the IESG.  In cases of disagreement between
-   the administrators and the moderation team over a moderation
-   decision, the matter should be taken up with the responsible area
-   director for resolution, or the IETF chair if a responsible area
-   director cannot be determined or is not assigned.
+   the administrators and the moderator team over a moderation decision,
+   the matter should be taken up with the responsible area director for
+   resolution, or the IETF chair if a responsible area director cannot
+   be determined or is not assigned.
 
    Because the moderator team serves at the discretion of the IESG, any
    moderation decision can be appealed to the IESG by anyone, per
@@ -386,7 +406,7 @@ Table of Contents
 
    People and circumstances change.  Individuals who have been banned
    from a forum may request reinstatement.  Any such request must be
-   directed to the entity who made the decision (e.g., moderation team,
+   directed to the entity who made the decision (e.g., moderator team,
    working group chairs, etc.) or their successors.  That party may at
    their discretion reinstate someone, conditionally or unconditionally.
    So as to avoid denial of service attacks on our processes, decisions
@@ -448,7 +468,7 @@ Table of Contents
 
    As such an action would be taken by the IETF LLC in order to protect
    the IETF according to its fiduciary duty, then it cannot allow that
-   to be overridden by a decision of the moderation team or the IESG.
+   to be overridden by a decision of the moderator team or the IESG.
    The subject of any such action may request a review by the IETF LLC
    board, as documented in section 4.7 of [RFC8711]
 
@@ -472,9 +492,9 @@ Table of Contents
    undesired opinions is counteracted by the availability of an appeals
    process, per Section 4.1.
 
-   The actions of the moderator team are intended to limit the
-   likelihood of disruptive behavior by a few IETF participants from
-   discouraging participation by other IETF participants.
+   Moderation actions are intended to limit the likelihood of disruptive
+   behavior by a few IETF participants from discouraging participation
+   by other IETF participants.
 
 7.  IANA Considerations
 
@@ -595,7 +615,17 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modmod-group-processes-06
+A.1.  Since draft-ietf-modpod-group-processes-07
+
+   *  Pete Resnick issues and similar (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/issues/134)
+
+   *  Includes changes to abstract, intro, tweaks to make relationship
+      between admins/WG chairs clearer; makes roles clearer, moderation
+      team => moderator team. (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/135)
+
+A.2.  Since draft-ietf-modmod-group-processes-06
 
    *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -605,25 +635,25 @@ A.1.  Since draft-ietf-modmod-group-processes-06
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/132)
 
-A.2.  Since draft-ietf-modpod-group-processes-05
+A.3.  Since draft-ietf-modpod-group-processes-05
 
    *  New attempt to address moderation/WG interactions
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/126)
 
-A.3.  Since draft-ietf-modpod-group-processes-04
+A.4.  Since draft-ietf-modpod-group-processes-04
 
    *  Use plain English instead of BCP 14 language
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/120)
 
-A.4.  Since draft-ietf-modpod-group-processes-03
+A.5.  Since draft-ietf-modpod-group-processes-03
 
    *  Non-normative Examples of Disruptive Behavior
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/121)
 
-A.5.  Since draft-ietf-modpod-group-processes-02
+A.6.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -641,7 +671,7 @@ A.5.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.6.  Since draft-ietf-modpod-group-processes-01
+A.7.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -653,7 +683,7 @@ A.6.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.7.  Since draft-ietf-modpod-group-processes-00
+A.8.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -674,7 +704,7 @@ A.7.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.8.  Since draft-ecahc-moderation-01
+A.9.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
