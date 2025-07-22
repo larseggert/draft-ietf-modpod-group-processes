@@ -184,9 +184,7 @@ are assigned by the IESG to manage a particular public participation
 channel or discussion forum. This document uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
 chat group, or discussion in a collaborative tool such as GitHub or
-GitLab.
-
-For example, working
+GitLab. For example, working
 group chairs are administrators of all the public fora their WG
 uses, which typically includes mailing lists and chat groups, but might
 also include collaborative tools such as GitHub or GitLab. Another example
