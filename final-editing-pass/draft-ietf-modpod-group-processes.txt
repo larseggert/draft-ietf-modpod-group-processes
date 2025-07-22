@@ -19,11 +19,10 @@ Abstract
    endless patience.
 
    This memo describes the moderation of disruptive participation across
-   the IETF's various public contribution channels and discussion
-   forums.  It establishes guardrails for moderation and a moderator
-   team.  That team will develop a uniform set of guidelines and
-   facilitate their consistent implementation with chairs and
-   administrators.
+   the IETF's various public contribution channels and discussion fora.
+   It establishes guardrails for moderation and a moderator team.  That
+   team will develop a uniform set of guidelines and facilitate their
+   consistent implementation with chairs and administrators.
 
 About This Document
 
@@ -85,7 +84,7 @@ Table of Contents
        2.1.1.  Team Diversity
      2.2.  Training
    3.  Scope and Responsibilities
-     3.1.  Out of Scope: Non-IETF Forums, Private Communications, and
+     3.1.  Out of Scope: Non-IETF Fora, Private Communications, and
            Content Removal
    4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
@@ -117,9 +116,9 @@ Table of Contents
 1.  Introduction
 
    This memo describes the moderation of disruptive participation across
-   the IETF's various public contribution channels and discussion
-   forums.  It creates a moderator team to draft procedures and to
-   facilitate their consistent application.
+   the IETF's various public contribution channels and discussion fora.
+   It creates a moderator team to draft procedures and to facilitate
+   their consistent application.
 
    This memo makes the following changes:
 
@@ -201,8 +200,7 @@ Table of Contents
 
    *  Apply consistent, fair, and timely moderation of communication
       across all public IETF participation channels and participation
-      forums; without regard to one's position or previous
-      contributions;
+      fora; without regard to one's position or previous contributions;
 
    *  Appeals are available to address disagreements about moderation
       actions;
@@ -230,18 +228,16 @@ Table of Contents
    channel or discussion forum.  This document uses the term "forum" to
    refer to any public IETF participation channel, such as a mailing
    list, chat group, or discussion in a collaborative tool such as
-   GitHub or GitLab.
-
-   For example, working group chairs are administrators of all the
-   public forums their WG uses, which typically includes mailing lists
-   and chat groups, but might also include collaborative tools such as
-   GitHub or GitLab.  Another example of administrators are the "owners"
-   of non-WG IETF mailing lists.
+   GitHub or GitLab.  For example, working group chairs are
+   administrators of all the public fora their WG uses, which typically
+   includes mailing lists and chat groups, but might also include
+   collaborative tools such as GitHub or GitLab.  Another example of
+   administrators are the "owners" of non-WG IETF mailing lists.
 
 2.  IETF Moderator Team
 
    This memo proposes a uniform approach to moderating the IETF's
-   various public forums.  A moderator team for the IETF will develop
+   various public fora.  A moderator team for the IETF will develop
    uniform guidelines for moderation and will facilitate their
    implementation and application as detailed below.  These changes are
    intended to address the issues identified in the previous model
@@ -289,9 +285,9 @@ Table of Contents
 
 3.  Scope and Responsibilities
 
-   This policy applies to all public IETF forums, both present and
-   future, including, but not limited to, mailing lists, chat groups,
-   and discussions in other systems that the IETF or WGs have chosen to
+   This policy applies to all public IETF fora, both present and future,
+   including, but not limited to, mailing lists, chat groups, and
+   discussions in other systems that the IETF or WGs have chosen to
    employ, such as GitHub repositories, Wikis, or issue trackers.
 
    Different people have different responsibilities.
@@ -301,17 +297,17 @@ Table of Contents
    behavior directed at them or someone else to an administrator of the
    respective forum *and* the moderators.
 
-   *Administrators* are primarily responsible for managing their forums
-   in accordance with guidance developed by the moderators and approved
-   by the IESG.  As such, they shall address reports of inappropriate
+   *Administrators* are primarily responsible for managing their fora in
+   accordance with guidance developed by the moderators and approved by
+   the IESG.  As such, they shall address reports of inappropriate
    behavior in a timely fashion, apprising moderators of their
    disposition.  For a Working Group, the chairs should perform
    moderation in a way that obviates the need for moderator team
    involvement.
 
    *Moderators* are responsible for establishing processes to address
-   moderation needs across all IETF forums, both present and future.
-   They are a resource that the community can use to address problematic
+   moderation needs across all IETF fora, both present and future.  They
+   are a resource that the community can use to address problematic
    contributions.
 
    Moderators may take actions when administrators do not respond to
@@ -323,14 +319,14 @@ Table of Contents
    within their groups.  Section 4.1 discusses the handling of
    disagreements.
 
-   Moderators are administrators for IETF plenary forums, currently
+   Moderators are administrators for IETF plenary fora, currently
    including the IETF discussion and last-call lists, attendee lists,
    and any plenary chat sessions.  They are also administrators for any
    forum that cuts across IETF areas or does not have an administrator.
 
-   In order to scale the function, except for plenary forums as
-   described above, moderators are not expected to always actively
-   monitor all communications.  Instead, they will process reports from
+   In order to scale the function, except for plenary fora as described
+   above, moderators are not expected to always actively monitor all
+   communications.  Instead, they will process reports from
    participants.
 
    *Area Directors* are expected to resolve conflicts as described here
@@ -338,11 +334,11 @@ Table of Contents
    overseeing the moderator team, and approving guidance provided by
    that team.
 
-3.1.  Out of Scope: Non-IETF Forums, Private Communications, and Content
+3.1.  Out of Scope: Non-IETF Fora, Private Communications, and Content
       Removal
 
    It is important to note that the moderator team only moderates
-   _public_ IETF forums.  Their mandate does not extend to problematic
+   _public_ IETF fora.  Their mandate does not extend to problematic
    behavior in private communication, such as private chat groups,
    direct messages, or conversations or other interactions outside of
    meetings.  In such cases, the Ombudsteam should be approached.
@@ -372,7 +368,7 @@ Table of Contents
 
    *  A private or public admonishment;
 
-   *  Temporary or permanent bans in one or more forums.
+   *  Temporary or permanent bans in one or more fora.
 
    We stress that these are only examples, and not in any way
    prescriptive.  Administrators and moderators are free to decide on
@@ -496,7 +492,7 @@ Table of Contents
    organization separate from the IETF that is governed by its own set
    or rules and processes.  Sections 3, 6 and 7 of
    [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
-   the IRTF and moderation of IRTF participation forums.
+   the IRTF and moderation of IRTF participation fora.
 
 6.  Security Considerations
 
@@ -642,7 +638,7 @@ A.1.  Since draft-ietf-modpod-group-processes-07
 
 A.2.  Since draft-ietf-modmod-group-processes-06
 
-   *  Normalize handling of moderation across all forums
+   *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/129)
 
@@ -772,7 +768,7 @@ Appendix B.  Problems with the Previous Approach
       which moderation processes are currently defined.  IETF business
       also happens in chat groups, remote meeting participation systems,
       virtual meetings, wikis, GitHub repositories, and more.  How
-      disruptive behavior is moderated in these forums is currently
+      disruptive behavior is moderated in these fora is currently
       undefined.
 
 Appendix C.  Non-Normative Examples of Disruptive Behavior
