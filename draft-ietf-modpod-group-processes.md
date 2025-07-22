@@ -8,8 +8,8 @@ number:
 date:
 consensus: true
 v: 3
-obsoletes: 3683, 3934, 9245
-updates: 2418
+obsoletes: 3683, 3934
+updates: 2418, 9245
 venue:
     mail: mod-discuss@ietf.org
     github: larseggert/draft-ietf-modpod-group-processes
@@ -68,27 +68,35 @@ informative:
 
 The IETF will treat people with kindness and grace, but not endless patience.
 
-This memo describes the creation of a moderator team for all the
-IETF's various contribution channels. Without removing existing responsibilities
-for working group management, this team enables a uniform approach to moderation
-of disruptive participation across all mailing lists and other methods of IETF
-collaboration.
-
+This memo describes the moderation of disruptive participation
+across the IETF's various contribution channels.  It establishes guardrails
+for moderation and a moderator team.  That team will develop a uniform
+set of guidelines and facilitate their consistent implementation with
+chairs and administrators.
 --- middle
 
 # Introduction
 
-This memo proposes the creation of a moderator team for all the
-IETF's various contribution channels. The moderator team is modeled
-after, and subsumes, the moderator team for the IETF discussion list
-{{?RFC9245}} and is tasked to moderate **all** IETF participation channels.
+This memo describes the moderation of disruptive participation
+across the IETF's various contribution channels.  A moderator team is
+formed to draft procedures and to facilitate their consistent
+implementation.
 
-As a consequence, this memo obsoletes {{!RFC3683}} and the "posting rights"
-(PR) action it defines, and {{!RFC3934}}.
-It also obsoletes {{Section 4 of !RFC9245}}, which
-defines the IETF discussion list moderation team. Finally, it updates {{Section
-6.1 of !RFC2418}}, because the moderator team will now work together with
-working group chairs to moderate disruptive behavior.
+This memo makes the following changes:
+
+- Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
+  are replaced by procedures defined herein;
+- Obsoletes{{!RFC3934}} as it replaces working group moderation
+  procedures;
+- Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
+  {{Section 4 of !RFC9245}}, as the IETF discussion list moderation
+  team is replaced by the moderator team.
+- Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
+  now work together with working group chairs to moderate disruptive
+  behavior.
+
+The details of each of these changes and the philosophy behind them
+are described below.
 
 ## Background {#background}
 
@@ -99,9 +107,10 @@ community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
-group with moderating their group's in-person meetings and mailing
-lists, and an IESG statement {{MODML}} describes additional guidance
+of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
+group with moderating their group's in-person meetings while
+{{!RFC3934}} provided chairs a procedure to help manage mailing
+lists. An IESG statement {{MODML}} described additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
 
@@ -151,9 +160,10 @@ The moderation policy goals are as follows:
 - Disagreements about moderation actions are addressed through appeals;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
-- Allow moderators to reconsider decisions; and
-- Provide the broadest possible latitude to moderators, so that they may have the
-  flexibility to address a broad range of individuals and circumstances.
+- Allow moderation decisions to be reconsidered; and
+- Provide the broadest possible latitude to all people doing moderation, so
+  that they have the flexibility to address a broad range of individuals
+  and circumstances.
 
 Questions about processes detailed below should be answered through the lens
 of these aims.
@@ -174,9 +184,11 @@ of administrators are the "owners" of non-WG IETF mailing lists.
 
 # IETF Moderator Team
 
-This memo proposes a different, uniform approach to moderating the
-IETF's various participation channels: a moderator team for the IETF.
-The creation of this team intends to address the issues identified
+This memo proposes a uniform approach to moderating the
+IETF's various participation channels. A moderator team for the IETF
+will develop uniform guidelines for moderation and will facilitate
+their implementation as detailed below.
+These changes are intended to address the issues identified
 in the previous model {{motive}} and the principles described in the
 introduction.
 
@@ -247,8 +259,13 @@ future.  Moderators are expected to be a resource that the community
 can use to address problematic contributions.
 
 Moderators may take actions when administrators do not respond to
-reports in a timely fashion.  Their first action should generally be to
-attempt to contact the relevant administrators.
+reports in a timely fashion.  Their first action should generally be
+to attempt to contact and advise the relevant administrators.
+They should only take
+moderation actions when administrators are not responsive.  In
+particular, moderators should give WG chairs every opportunity to
+manage what may be difficult and contentious debates within their
+groups.  Disagreements are discussed below in {{appeals}).
 
 Moderators are administrators for IETF
 plenary fora, such as the IETF discussion and last-call lists, attendee
@@ -263,7 +280,7 @@ participants.
 
 Area directors are expected to resolve conflicts as described here and
 in {{appeals}}.  The IESG is responsible for appointing and oversseeing
-the moderation team, and approving guidance provided by that team.
+the moderator team, and approving guidance provided by that team.
 
 ## Non-IETF Communication Channels And Private Communications Excluded
 
@@ -276,9 +293,11 @@ should be approached.
 
 # Moderation Procedures and Transparency {#prod}
 
-Within the bounds of the policies set herein and with the
+Within the bounds of the policies set herein, and with the
 approval of the IESG, the moderator team shall define
-processes and moderation criteria necessary to execute their role.
+processes and criteria relating to moderation, including
+the moderator team's own operating procedures.
+
 Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
@@ -321,7 +340,7 @@ actions, and are therefore beyond the scope of this memo.
 
 Administrators and moderators shall act in a manner
 consistent with guidelines approved by the IESG.  In cases of
-disagreement between the administrators and the moderation team
+disagreement between the administrators and the moderator team
 over a moderation decision, the matter should be taken up
 with the responsible area director for resolution, or the IETF chair
 if a responsible area director cannot be determined or is not assigned.
@@ -337,7 +356,7 @@ decision by the IESG can be appealed to the IAB as described in
 
 People and circumstances change.  Individuals who have been banned
 from a forum may request reinstatement.  Any such request must be
-directed to the entity who made the decision (e.g., moderation team,
+directed to the entity who made the decision (e.g., moderator team,
 working group chairs, etc.) or their successors.  That party may at
 their discretion
 reinstate someone, conditionally or unconditionally.  So as to avoid
@@ -399,7 +418,7 @@ where it receives legal advice to the contrary.
 
 As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
-to be overridden by a decision of the moderation team or the IESG.
+to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
 board, as documented in section 4.7 of {{!RFC8711}}
 
@@ -423,7 +442,7 @@ Potential abuse of the moderation process for the suppression of
 undesired opinions is counteracted by the availability of an appeals
 process, per {{appeals}}.
 
-The actions of the moderator team are intended to limit the likelihood
+Moderation actions are intended to limit the likelihood
 of disruptive behavior by a few IETF participants from discouraging
 participation by other IETF participants.
 
@@ -463,6 +482,13 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-07
+
+- [Pete Resnick issues and similar](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/134)
+- [Includes changes to abstract, intro, tweaks to make relationship
+  between admins/WG chairs clearer; makes roles clearer,
+  moderation team => moderator team.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/135)
 
 ## Since draft-ietf-modmod-group-processes-06
 
