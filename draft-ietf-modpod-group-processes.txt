@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934, 9245 (if approved)                   E. Lear, Ed.
 Updates: 2418 (if approved)                                Cisco Systems
-Intended status: Best Current Practice                       6 July 2025
-Expires: 7 January 2026
+Intended status: Best Current Practice                      22 July 2025
+Expires: 23 January 2026
 
 
                        IETF Community Moderation
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 January 2026.
+   This Internet-Draft will expire on 23 January 2026.
 
 Copyright Notice
 
@@ -283,7 +283,9 @@ Table of Contents
    accordance with guidance developed by the moderators and approved by
    the IESG.  As such, they shall address reports of inappropriate
    behavior in a timely fashion, apprising moderators of their
-   disposition.
+   disposition.  For a Working Group, the chairs should perform
+   moderation in a way that obviates the need for moderator team
+   involvement.
 
    Moderators are responsible for establishing processes to address
    moderation needs across all IETF fora, both present and future.
