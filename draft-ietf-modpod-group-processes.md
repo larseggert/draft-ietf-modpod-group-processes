@@ -277,6 +277,10 @@ particular, moderators should give WG chairs every opportunity to
 manage what may be difficult and contentious debates within their
 groups.  {{appeals}} discusses the handling of disagreements.
 
+Situations may arise where a moderator sees a need for immediate action; for example harassment.
+In such a situation, the moderator need not wait for a response from the chair before taking action. 
+Such situations should also be brought to the immediate attention of the Ombudsteam.
+
 Moderators are administrators for IETF
 plenary fora, currently including the IETF discussion and last-call lists, attendee
 lists, and any plenary chat sessions. They are also administrators for
