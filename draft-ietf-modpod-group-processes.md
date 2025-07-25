@@ -505,7 +505,7 @@ These individuals contributed additional improvements:
 ## Since draft-ietf-modpod-group-processes-08
 
 - [Address timeliness and exisgent circumstances](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/142)
-   
+
 ## Since draft-ietf-modpod-group-processes-07
 
 - [Pete Resnick issues and similar](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/134)
