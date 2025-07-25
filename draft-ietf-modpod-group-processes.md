@@ -275,7 +275,9 @@ They should only take
 moderation actions when administrators are not responsive.  In
 particular, moderators should give WG chairs every opportunity to
 manage what may be difficult and contentious debates within their
-groups.  {{appeals}} discusses the handling of disagreements.
+groups.  Within these guidelines, it is left to moderators'
+judgement to determine when they must act.
+{{appeals}} discusses the handling of disagreements.
 
 Moderators are administrators for IETF
 plenary fora, currently including the IETF discussion and last-call lists, attendee
@@ -499,6 +501,10 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-08
+
+  - [Address timeliness and exisgent circumstances](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/142)
 
 ## Since draft-ietf-modpod-group-processes-07
 
