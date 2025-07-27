@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-24T00:27:28.686061+00:00",
+  "timestamp": "2025-07-27T00:30:16.483888+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2353,6 +2353,92 @@
           "body": "I think it should stay in. There will always be new kinds of spam.\n\nBut the document could say that not all moderation actions need detailed explanations, and there are mechanisms in place to deal with obviously off-topic messages.",
           "createdAt": "2025-07-23T16:28:39Z",
           "updatedAt": "2025-07-23T16:28:39Z"
+        }
+      ]
+    },
+    {
+      "number": 142,
+      "id": "I_kwDOJrr8CM7CdzII",
+      "title": "Address timeliness and exisgent circumstances",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/142",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Ted raised a point about situations requiring urgent attention. There has been some discussion on the list about this.  The trick is to add text without overstepping the ombudsteam or the LLC.",
+      "createdAt": "2025-07-25T09:27:15Z",
+      "updatedAt": "2025-07-25T09:27:15Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 144,
+      "id": "I_kwDOJrr8CM7ChBDk",
+      "title": "Tracking issue for ombudsteam",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/144",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Agreed to have onbudsteam look at existing text.",
+      "createdAt": "2025-07-25T14:32:21Z",
+      "updatedAt": "2025-07-25T14:32:21Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 145,
+      "id": "I_kwDOJrr8CM7ClOF7",
+      "title": "\"IETF community\"",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/145",
+      "state": "CLOSED",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nTake out \"community\".\n\n**Describe alternatives you've considered**\nI can live with it, but \"IETF community\" sounds a bit like \"ATM Machine\" to me. Are we a \"task force community\"?\n\nI guess we have the RFC Editor here anyway.\n\n[Editorial, but I prefer \"The IETF\"]",
+      "createdAt": "2025-07-25T22:27:38Z",
+      "updatedAt": "2025-07-26T16:13:10Z",
+      "closedAt": "2025-07-26T16:13:10Z",
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I made the change to emphasize that it is not the IETF LLC or leadership talked about here, but everyone.",
+          "createdAt": "2025-07-26T07:55:01Z",
+          "updatedAt": "2025-07-26T07:55:01Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I mostly agree with Lars on this one- the IETF community has been used consistently to refer to the entity that encompasses our activities.  However- there is a small issue hiding here: some people may presume that people in communities have more rights than people in professional organizations.  I think the right answer is to remind people that this group of people gathers for a purpose, and we do that in the introduction.",
+          "createdAt": "2025-07-26T08:18:36Z",
+          "updatedAt": "2025-07-26T08:18:36Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "\"IETF participants\"?",
+          "createdAt": "2025-07-26T08:33:59Z",
+          "updatedAt": "2025-07-26T08:33:59Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "IMHO leave it as is.",
+          "createdAt": "2025-07-26T09:23:05Z",
+          "updatedAt": "2025-07-26T09:23:05Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yeah, it's fine.",
+          "createdAt": "2025-07-26T16:13:10Z",
+          "updatedAt": "2025-07-26T16:13:10Z"
         }
       ]
     }
@@ -11384,11 +11470,12 @@
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [
-        "needs-discussion"
+        "needs-discussion",
+        "wontfix"
       ],
       "body": "As discussed in today's meeting, here is my proposed text for situations where immediate moderator action is required and the moderator should not wait for a response from the chairs.",
       "createdAt": "2025-07-23T08:19:46Z",
-      "updatedAt": "2025-07-23T09:09:35Z",
+      "updatedAt": "2025-07-25T09:25:34Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
@@ -11400,7 +11487,80 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM61lk_H",
+          "commit": {
+            "abbreviatedOid": "8f1e83b"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-07-23T09:37:15Z",
+          "updatedAt": "2025-07-24T06:11:50Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "```suggestion\r\ngroups.\r\n\r\nThere may be exceptional situations when a moderator should take immediate action,\r\nwithout awaiting a response from an administrator.  When this happens, moderator must\r\nreport the incident to the relevant administrators, area directors, and specifically in the\r\ncase of ongoing harassment, to the ombudsteam.\r\n\r\n{{appeals}} discusses the handling of disagreements.\r\n```",
+              "createdAt": "2025-07-23T09:37:15Z",
+              "updatedAt": "2025-07-24T06:11:50Z"
+            },
+            {
+              "originalPosition": 7,
+              "body": "I'm not convinced that this text is sufficiently constrained.",
+              "createdAt": "2025-07-23T09:38:59Z",
+              "updatedAt": "2025-07-24T06:11:50Z"
+            },
+            {
+              "originalPosition": 7,
+              "body": "I also wonder if this crosses into LLC territory.",
+              "createdAt": "2025-07-23T21:23:47Z",
+              "updatedAt": "2025-07-24T06:11:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM619z6O",
+          "commit": {
+            "abbreviatedOid": "8f1e83b"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-24T18:58:59Z",
+          "updatedAt": "2025-07-24T18:58:59Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Just because it's fresh in my mind, not because I am feeling particularly insistent:\r\n\r\n\"Moderators can take immediate action when warranted, such as holding all messages from one or more participants for review. The moderator team must report the incident to the relevant administrators, area directors, and specifically in the case of ongoing harassment, to the ombudsteam.\"",
+              "createdAt": "2025-07-24T18:58:59Z",
+              "updatedAt": "2025-07-24T18:58:59Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM62E5-q",
+          "commit": {
+            "abbreviatedOid": "8f1e83b"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-25T09:25:34Z",
+          "updatedAt": "2025-07-25T09:25:34Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I have added the \"wontfix\" label to this PR, not because we won't add text, but because I think we are zeroing in on a different starting point",
+              "createdAt": "2025-07-25T09:25:34Z",
+              "updatedAt": "2025-07-25T09:25:34Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 139,
@@ -11416,7 +11576,7 @@
       "labels": [],
       "body": "This text is as emphatic as I could manage. I do not claim that it is emphatic enough, but I think it helps to clarify the meaning of the existing text, which was fine but IMO not sufficient.",
       "createdAt": "2025-07-23T08:26:15Z",
-      "updatedAt": "2025-07-23T16:18:51Z",
+      "updatedAt": "2025-07-24T15:26:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
@@ -11508,6 +11668,66 @@
               "updatedAt": "2025-07-23T16:18:51Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM61zt9F",
+          "commit": {
+            "abbreviatedOid": "4b80b2d"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-24T06:13:02Z",
+          "updatedAt": "2025-07-24T06:13:02Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "An easier approach would be to drop the word.  Also, keep in mind that we are in a non-normative appendix.",
+              "createdAt": "2025-07-24T06:13:02Z",
+              "updatedAt": "2025-07-24T06:13:02Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM610_xZ",
+          "commit": {
+            "abbreviatedOid": "4b80b2d"
+          },
+          "author": "Abhayakara",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-24T08:05:38Z",
+          "updatedAt": "2025-07-24T08:05:38Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "We should not assume that because we all know the appendix is non-normative, that someone who gets moderated will accept that as an explanation for why their lawyering doesn't work.",
+              "createdAt": "2025-07-24T08:05:38Z",
+              "updatedAt": "2025-07-24T08:05:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM617Gik",
+          "commit": {
+            "abbreviatedOid": "4b80b2d"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-24T15:26:03Z",
+          "updatedAt": "2025-07-24T15:26:03Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "> An easier approach would be to drop the word. Also, keep in mind that we are in a non-normative appendix.\r\n\r\nYep, my proposal is purposely not as concise as it could be. But certainly it's editorial. Up to you.",
+              "createdAt": "2025-07-24T15:26:03Z",
+              "updatedAt": "2025-07-24T15:26:03Z"
+            }
+          ]
         }
       ]
     },
@@ -11536,6 +11756,86 @@
       "mergeCommit": null,
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 143,
+      "id": "PR_kwDOJrr8CM6gmaPc",
+      "title": "Make clear that moderators should use their judgment on timing",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/143",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #142 \r\nCloses #138 ",
+      "createdAt": "2025-07-25T09:37:31Z",
+      "updatedAt": "2025-07-26T13:19:40Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "timeliness",
+      "headRefOid": "0d83681802b07831242793a4e23d6beddeeb9342",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM62K_TA",
+          "commit": {
+            "abbreviatedOid": "5b57831"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-07-25T17:48:34Z",
+          "updatedAt": "2025-07-25T17:48:34Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 146,
+      "id": "PR_kwDOJrr8CM6gwZm-",
+      "title": "revise based change of focus from moderators to moderation",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/146",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Small changes to address the focus change.",
+      "createdAt": "2025-07-26T13:30:51Z",
+      "updatedAt": "2025-07-26T18:04:52Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "fix-ombudsteam-text",
+      "headRefOid": "e02de82fbc0746f5b642fba9c86f31ce8a543651",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM62SAZ2",
+          "commit": {
+            "abbreviatedOid": "87ea614"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-07-26T13:53:39Z",
+          "updatedAt": "2025-07-26T13:53:39Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
