@@ -395,17 +395,11 @@ even if the corresponding RFC has been formally obsoleted.
 
 ## Relation to the Ombudsteam
 
-The moderator team shall complement the efforts of the IETF
+Administrators and moderators shall complement the efforts of the IETF
 ombudsteam {{OT}}, whose focus on anti-harassment and operation
-shall remain unchanged. The moderator team and ombudsteam are
-expected to work together in cases that may involve both disruptive
-behavior and harassment; they may determine the most effective way to
-do so in each case. For example, the ombudsteam may decide to have
-one of their members serve as a liaison to the moderator team.
-
-The ombudsteam has strict rules of confidentiality. If a moderation
-case overlaps with an ombudsteam case, confidential information must
-not be shared between the teams.
+shall remain unchanged. Administrators and moderators should always
+report suspected harassment.  They should nonetheless take any
+necessary actions regarding disruptive behavior.
 
 ## Relation to the IETF LLC
 
