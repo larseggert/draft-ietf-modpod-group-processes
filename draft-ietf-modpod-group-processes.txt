@@ -100,15 +100,16 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-07
-     A.2.  Since draft-ietf-modmod-group-processes-06
-     A.3.  Since draft-ietf-modpod-group-processes-05
-     A.4.  Since draft-ietf-modpod-group-processes-04
-     A.5.  Since draft-ietf-modpod-group-processes-03
-     A.6.  Since draft-ietf-modpod-group-processes-02
-     A.7.  Since draft-ietf-modpod-group-processes-01
-     A.8.  Since draft-ietf-modpod-group-processes-00
-     A.9.  Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-08
+     A.2.  Since draft-ietf-modpod-group-processes-07
+     A.3.  Since draft-ietf-modmod-group-processes-06
+     A.4.  Since draft-ietf-modpod-group-processes-05
+     A.5.  Since draft-ietf-modpod-group-processes-04
+     A.6.  Since draft-ietf-modpod-group-processes-03
+     A.7.  Since draft-ietf-modpod-group-processes-02
+     A.8.  Since draft-ietf-modpod-group-processes-01
+     A.9.  Since draft-ietf-modpod-group-processes-00
+     A.10. Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
@@ -316,8 +317,9 @@ Table of Contents
    should only take moderation actions when administrators are not
    responsive.  In particular, moderators should give WG chairs every
    opportunity to manage what may be difficult and contentious debates
-   within their groups.  Section 4.1 discusses the handling of
-   disagreements.
+   within their groups.  Within the bounds of this principle, it is left
+   to moderators' judgement to determine when they must act.
+   Section 4.1 discusses the handling of disagreements.
 
    Moderators are administrators for IETF plenary fora, currently
    including the IETF discussion and last-call lists, attendee lists,
@@ -620,7 +622,17 @@ Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-07
+A.1.  Since draft-ietf-modpod-group-processes-08
+
+   *  Address timeliness and exisgent circumstances
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      issues/142)
+
+   *  Make clear that moderators should use their judgment on timing
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/143)
+
+A.2.  Since draft-ietf-modpod-group-processes-07
 
    *  Pete Resnick issues and similar (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/issues/134)
@@ -630,7 +642,7 @@ A.1.  Since draft-ietf-modpod-group-processes-07
       team → moderator team. (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/135)
 
-A.2.  Since draft-ietf-modmod-group-processes-06
+A.3.  Since draft-ietf-modmod-group-processes-06
 
    *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -640,25 +652,25 @@ A.2.  Since draft-ietf-modmod-group-processes-06
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/132)
 
-A.3.  Since draft-ietf-modpod-group-processes-05
+A.4.  Since draft-ietf-modpod-group-processes-05
 
    *  New attempt to address moderation/WG interactions
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/126)
 
-A.4.  Since draft-ietf-modpod-group-processes-04
+A.5.  Since draft-ietf-modpod-group-processes-04
 
    *  Use plain English instead of BCP 14 language
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/120)
 
-A.5.  Since draft-ietf-modpod-group-processes-03
+A.6.  Since draft-ietf-modpod-group-processes-03
 
    *  Non-normative Examples of Disruptive Behavior
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/121)
 
-A.6.  Since draft-ietf-modpod-group-processes-02
+A.7.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -676,7 +688,7 @@ A.6.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.7.  Since draft-ietf-modpod-group-processes-01
+A.8.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -688,7 +700,7 @@ A.7.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.8.  Since draft-ietf-modpod-group-processes-00
+A.9.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -709,7 +721,7 @@ A.8.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.9.  Since draft-ecahc-moderation-01
+A.10.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
