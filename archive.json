@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-27T00:30:16.483888+00:00",
+  "timestamp": "2025-07-31T00:27:31.269087+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2330,7 +2330,7 @@
       ],
       "body": "**Proposal**\nUnsoliicited bulk email is disruptive, and therefore falls within the moderation team scope. However, the volume of such material is such that reporting on actions against it will be an onerous workload.\n\n**Describe the solution you'd like**\nIn appendix A, take UBE out of the list, and make a special paragraph for it, saying something like \"UBE is considered disruptive, and thus within the moderator scope, but actions taken against it are not considered moderation actions, and don't trigger a requirement for reporting the action to the originator or to the IESG.\"\n",
       "createdAt": "2025-07-23T09:14:33Z",
-      "updatedAt": "2025-07-23T16:28:39Z",
+      "updatedAt": "2025-07-29T22:30:06Z",
       "closedAt": null,
       "comments": [
         {
@@ -2353,6 +2353,13 @@
           "body": "I think it should stay in. There will always be new kinds of spam.\n\nBut the document could say that not all moderation actions need detailed explanations, and there are mechanisms in place to deal with obviously off-topic messages.",
           "createdAt": "2025-07-23T16:28:39Z",
           "updatedAt": "2025-07-23T16:28:39Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Occurs to me that #141 has a paragraph about UBE, so this example seems to hold.",
+          "createdAt": "2025-07-29T22:30:06Z",
+          "updatedAt": "2025-07-29T22:30:06Z"
         }
       ]
     },
@@ -2361,15 +2368,15 @@
       "id": "I_kwDOJrr8CM7CdzII",
       "title": "Address timeliness and exisgent circumstances",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/142",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Ted raised a point about situations requiring urgent attention. There has been some discussion on the list about this.  The trick is to add text without overstepping the ombudsteam or the LLC.",
       "createdAt": "2025-07-25T09:27:15Z",
-      "updatedAt": "2025-07-25T09:27:15Z",
-      "closedAt": null,
+      "updatedAt": "2025-07-29T06:59:25Z",
+      "closedAt": "2025-07-29T06:59:25Z",
       "comments": []
     },
     {
@@ -2377,15 +2384,15 @@
       "id": "I_kwDOJrr8CM7ChBDk",
       "title": "Tracking issue for ombudsteam",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/144",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Agreed to have onbudsteam look at existing text.",
       "createdAt": "2025-07-25T14:32:21Z",
-      "updatedAt": "2025-07-25T14:32:21Z",
-      "closedAt": null,
+      "updatedAt": "2025-07-29T06:48:02Z",
+      "closedAt": "2025-07-29T06:48:02Z",
       "comments": []
     },
     {
@@ -11465,7 +11472,7 @@
       "id": "PR_kwDOJrr8CM6gN2FB",
       "title": "Need for immediate action.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/138",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "Abhayakara",
       "authorAssociation": "NONE",
       "assignees": [],
@@ -11475,14 +11482,14 @@
       ],
       "body": "As discussed in today's meeting, here is my proposed text for situations where immediate moderator action is required and the moderator should not wait for a response from the chairs.",
       "createdAt": "2025-07-23T08:19:46Z",
-      "updatedAt": "2025-07-25T09:25:34Z",
+      "updatedAt": "2025-07-29T06:59:25Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
       "headRepository": "Abhayakara/draft-ietf-modpod-group-processes",
       "headRefName": "patch-2",
       "headRefOid": "8f1e83bfdf90fc3d50e2c0202fa70b457e796a09",
-      "closedAt": null,
+      "closedAt": "2025-07-29T06:59:25Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -11743,7 +11750,7 @@
       "labels": [],
       "body": "Following the brief discussion in the WG meeting, I offered to propose new wording. While considering what to write here, I realised that it would be good to give moderators discretion to take a light-touch approach in borderline cases. For example if a particular post is in the grey area between civil and uncivil, it may be useful to place the sender in hold for moderation for a few days so that if a subsequent message crosses the line, it can be prevented from reaching the list.\r\n\r\nThe alternative is that we require moderators to always notify the affected person about holds. If we take this route, moderators are likely to refrain from taking action in borderline cases, and wait until the line has been crossed. In this scenario some damage (e.g. to newcomer participation) is incurred.\r\n\r\nI would appreciate WG thoughts on this wording.",
       "createdAt": "2025-07-23T09:24:58Z",
-      "updatedAt": "2025-07-23T09:24:58Z",
+      "updatedAt": "2025-07-29T16:30:49Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
@@ -11754,32 +11761,83 @@
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Also needs change log.",
+          "createdAt": "2025-07-29T16:30:49Z",
+          "updatedAt": "2025-07-29T16:30:49Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM624mro",
+          "commit": {
+            "abbreviatedOid": "ed6765e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-07-29T16:19:12Z",
+          "updatedAt": "2025-07-29T16:19:26Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\ndelay messages by holding them for approval.  Those messages are expected to\r\nbe processed in a timely manner.\r\n```\r\n\r\nDon't focus on the moderation team doing the holding.",
+              "createdAt": "2025-07-29T16:19:12Z",
+              "updatedAt": "2025-07-29T16:19:26Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM624nE0",
+          "commit": {
+            "abbreviatedOid": "ed6765e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-29T16:19:44Z",
+          "updatedAt": "2025-07-29T16:19:44Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Please rebase.",
+              "createdAt": "2025-07-29T16:19:44Z",
+              "updatedAt": "2025-07-29T16:19:44Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 143,
       "id": "PR_kwDOJrr8CM6gmaPc",
       "title": "Make clear that moderators should use their judgment on timing",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/143",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Closes #142 \r\nCloses #138 ",
       "createdAt": "2025-07-25T09:37:31Z",
-      "updatedAt": "2025-07-26T13:19:40Z",
+      "updatedAt": "2025-07-29T06:59:25Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
+      "baseRefOid": "2346e8ce2d90e2200aa804334117260e934dcfc0",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "timeliness",
-      "headRefOid": "0d83681802b07831242793a4e23d6beddeeb9342",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "8c66d96b1fb243ca11d46590dfc951743f91e423",
+      "closedAt": "2025-07-29T06:59:24Z",
+      "mergedAt": "2025-07-29T06:59:24Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "5ae562f783e78e2644271ed18e7351a78a2787af"
+      },
       "comments": [],
       "reviews": [
         {
@@ -11800,27 +11858,37 @@
     {
       "number": 146,
       "id": "PR_kwDOJrr8CM6gwZm-",
-      "title": "revise based change of focus from moderators to moderation",
+      "title": "revise ombudsteam text based change of focus from moderators to moderation",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/146",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Small changes to address the focus change.",
       "createdAt": "2025-07-26T13:30:51Z",
-      "updatedAt": "2025-07-26T18:04:52Z",
+      "updatedAt": "2025-07-29T06:47:25Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
       "headRepository": "elear/draft-ietf-modpod-group-processes",
       "headRefName": "fix-ombudsteam-text",
       "headRefOid": "e02de82fbc0746f5b642fba9c86f31ce8a543651",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "closedAt": "2025-07-29T06:47:25Z",
+      "mergedAt": "2025-07-29T06:47:25Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "2346e8ce2d90e2200aa804334117260e934dcfc0"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closes #144 ",
+          "createdAt": "2025-07-29T06:46:11Z",
+          "updatedAt": "2025-07-29T06:46:11Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM62SAZ2",
