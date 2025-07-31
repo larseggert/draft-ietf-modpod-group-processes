@@ -273,10 +273,12 @@ reports in a timely fashion.  Their first action should generally be
 to attempt to contact and advise the relevant administrators.
 They should only take
 moderation actions when administrators are not responsive.  In
-particular, moderators should give WG chairs every opportunity to
+particular, moderators should generally give WG chairs
+the opportunity to
 manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
-moderators' judgement to determine when they must act.
+moderators' judgement to determine when they must act, with the
+understanding that some situations may require fast responses.
 {{appeals}} discusses the handling of disagreements.
 
 Moderators are administrators for IETF
