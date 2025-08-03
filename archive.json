@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-31T00:27:31.269087+00:00",
+  "timestamp": "2025-08-03T00:31:01.664463+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -11583,7 +11583,7 @@
       "labels": [],
       "body": "This text is as emphatic as I could manage. I do not claim that it is emphatic enough, but I think it helps to clarify the meaning of the existing text, which was fine but IMO not sufficient.",
       "createdAt": "2025-07-23T08:26:15Z",
-      "updatedAt": "2025-07-24T15:26:03Z",
+      "updatedAt": "2025-07-31T15:34:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
@@ -11733,6 +11733,26 @@
               "body": "> An easier approach would be to drop the word. Also, keep in mind that we are in a non-normative appendix.\r\n\r\nYep, my proposal is purposely not as concise as it could be. But certainly it's editorial. Up to you.",
               "createdAt": "2025-07-24T15:26:03Z",
               "updatedAt": "2025-07-24T15:26:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM63Vw9U",
+          "commit": {
+            "abbreviatedOid": "4b80b2d"
+          },
+          "author": "jgscudder",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-31T15:34:41Z",
+          "updatedAt": "2025-07-31T15:34:41Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Instead of aiming for just the right level of condescension, another option is to leave out the condescension and use a few extra words, as in, \"These are examples. They are not intended to be limiting.\"\n\nBut I agree that the editors should use their editorial discretion and that this shed will hold the necessary bikes no matter what color we paint it.",
+              "createdAt": "2025-07-31T15:34:41Z",
+              "updatedAt": "2025-07-31T15:34:41Z"
             }
           ]
         }
@@ -11904,6 +11924,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 147,
+      "id": "PR_kwDOJrr8CM6hfOwA",
+      "title": "Try to find another happy medium on power of moderators",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/147",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This PR attempts to make clear that moderators can act with dispatch when it is clear that the situation calls for it.",
+      "createdAt": "2025-07-31T08:13:38Z",
+      "updatedAt": "2025-07-31T08:13:39Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "5ae562f783e78e2644271ed18e7351a78a2787af",
+      "headRepository": "elear/draft-ietf-modpod-group-processes",
+      "headRefName": "more-on-timeliness",
+      "headRefOid": "482b1da134cad3993cb2d64846d57f4ed424157a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
