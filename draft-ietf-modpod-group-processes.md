@@ -498,6 +498,10 @@ These individuals contributed additional improvements:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-09
+
+- [Try to find another happy medium on power of moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/147)
+
 ## Since draft-ietf-modpod-group-processes-08
 
 - [Address timeliness and exisgent circumstances](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/142)
