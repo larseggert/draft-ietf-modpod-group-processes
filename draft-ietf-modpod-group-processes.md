@@ -161,7 +161,7 @@ The moderation policy goals are as follows:
 
 - Apply consistent, fair, and timely moderation of communication across all public
   IETF participation channels and participation fora;
-  without regard to one's position or previous contributions;
+  without regard to one's role in the ITEF or previous technical contributions;
 - Appeals are available to address disagreements about moderation actions;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
@@ -175,7 +175,7 @@ of these aims.
 
 The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
-regardless of their position or past contributions.
+regardless of their role in the IETF or past technical contributions.
 
 ## Terminology
 
@@ -364,10 +364,10 @@ if a responsible area director cannot be determined or is not assigned.
 
 Because the moderator team serves at the discretion of the IESG,
 any moderation decision can be appealed to the IESG by anyone,
-per {{!RFC2026}}. Disagreements with a decision by the moderator team can
+per {{Section 6.5.2 of !RFC2026}}. Disagreements with a decision by the moderator team can
 be brought to their attention. If this does not lead to a resolution, a
 decision by the IESG can be appealed to the IAB as described in
-{{!RFC2026}}.
+{{Section 6.5.2 of !RFC2026}}.
 
 ## Reinstatement
 
