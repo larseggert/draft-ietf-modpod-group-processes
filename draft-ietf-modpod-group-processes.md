@@ -364,7 +364,8 @@ if a responsible area director cannot be determined or is not assigned.
 
 Because the moderator team serves at the discretion of the IESG,
 any moderation decision can be appealed to the IESG by anyone,
-per {{Section 6.5.2 of !RFC2026}}. Disagreements with a decision by the moderator team can
+per {{Section 6.5.2 of !RFC2026}}.
+Disagreements with a decision by the moderator team can
 be brought to their attention. If this does not lead to a resolution, a
 decision by the IESG can be appealed to the IAB as described in
 {{Section 6.5.2 of !RFC2026}}.
