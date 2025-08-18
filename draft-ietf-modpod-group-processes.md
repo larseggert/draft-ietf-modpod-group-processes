@@ -622,7 +622,7 @@ is non-exhaustive.
 - "Sealioning", where a participant makes incessant requests for evidence or
   data, even while remaining superficially polite.
 
-These items are just examples. If a particular example of moderation cannot
+These items are examples. If a particular example of moderation cannot
 be matched to an example that appears in this list, this has no bearing at
 all on whether or not the moderation action was warranted. Its absence
 from this list therefore cannot serve as a basis for an appeal.
