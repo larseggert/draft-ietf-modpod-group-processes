@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-14T00:26:15.052615+00:00",
+  "timestamp": "2025-08-19T00:25:28.403320+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -11593,18 +11593,47 @@
       "labels": [],
       "body": "This text is as emphatic as I could manage. I do not claim that it is emphatic enough, but I think it helps to clarify the meaning of the existing text, which was fine but IMO not sufficient.",
       "createdAt": "2025-07-23T08:26:15Z",
-      "updatedAt": "2025-07-31T15:34:41Z",
+      "updatedAt": "2025-08-18T21:45:55Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
       "headRepository": "Abhayakara/draft-ietf-modpod-group-processes",
       "headRefName": "patch-3",
-      "headRefOid": "4b80b2da8888a323aac360dd5361d330e0183693",
+      "headRefOid": "a9fb7f46eb64e94567d9cb36b0cbf13229393b32",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Are people still interested in getting this merged, or can it be closed?",
+          "createdAt": "2025-08-18T06:12:14Z",
+          "updatedAt": "2025-08-18T06:12:14Z"
+        },
+        {
+          "author": "Abhayakara",
+          "authorAssociation": "NONE",
+          "body": "> Are people still interested in getting this merged, or can it be closed?\r\n\r\nI thought Eliot had taken it on. There was some discussion, and I think the text Eliot came up with was pretty good. Personally I would still like to see this done, but I can't speak to the consensus.",
+          "createdAt": "2025-08-18T06:26:07Z",
+          "updatedAt": "2025-08-18T06:26:07Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "My action.  I'll take a quick stare today.",
+          "createdAt": "2025-08-18T07:28:05Z",
+          "updatedAt": "2025-08-18T07:28:05Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert can we just remove the word just in #149 and close this one out?",
+          "createdAt": "2025-08-18T07:35:19Z",
+          "updatedAt": "2025-08-18T07:35:19Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM61lNz_",
@@ -11765,6 +11794,66 @@
               "updatedAt": "2025-07-31T15:34:41Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66ZzNl",
+          "commit": {
+            "abbreviatedOid": "4b80b2d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-18T08:27:46Z",
+          "updatedAt": "2025-08-18T08:27:47Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\nThese items are examples. If a particular example of moderation cannot\n```\n@elear like this?",
+              "createdAt": "2025-08-18T08:27:47Z",
+              "updatedAt": "2025-08-18T08:27:47Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66cpPE",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-18T11:56:48Z",
+          "updatedAt": "2025-08-18T11:56:48Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\nThese items are examples. Whether a particular instance where moderation occurred\r\nmatches an example in this list has no bearing\r\non whether the moderation action was warranted. Lack of such a match\r\ntherefore cannot serve as a basis for an appeal.\r\n```",
+              "createdAt": "2025-08-18T11:56:48Z",
+              "updatedAt": "2025-08-18T11:59:35Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66kQ6e",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-18T21:45:54Z",
+          "updatedAt": "2025-08-18T21:45:55Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Ooh, I don't know. Since I didn't like using \"whether\" twice, here is a short one. Feel free to mix and match:\r\n\r\n\"These items are examples. Other moderation actions can be warranted. An absence from this list therefore cannot serve as the basis for an appeal.\"\r\n\r\nSomething like this phrasing serves the same purpose as \"merely\". It's clear that the document is using a sharp knife.",
+              "createdAt": "2025-08-18T21:45:54Z",
+              "updatedAt": "2025-08-18T22:00:06Z"
+            }
+          ]
         }
       ]
     },
@@ -11780,7 +11869,7 @@
       "labels": [],
       "body": "Following the brief discussion in the WG meeting, I offered to propose new wording. While considering what to write here, I realised that it would be good to give moderators discretion to take a light-touch approach in borderline cases. For example if a particular post is in the grey area between civil and uncivil, it may be useful to place the sender in hold for moderation for a few days so that if a subsequent message crosses the line, it can be prevented from reaching the list.\r\n\r\nThe alternative is that we require moderators to always notify the affected person about holds. If we take this route, moderators are likely to refrain from taking action in borderline cases, and wait until the line has been crossed. In this scenario some damage (e.g. to newcomer participation) is incurred.\r\n\r\nI would appreciate WG thoughts on this wording.",
       "createdAt": "2025-07-23T09:24:58Z",
-      "updatedAt": "2025-07-29T16:30:49Z",
+      "updatedAt": "2025-08-18T06:12:28Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
@@ -11798,6 +11887,13 @@
           "body": "Also needs change log.",
           "createdAt": "2025-07-29T16:30:49Z",
           "updatedAt": "2025-07-29T16:30:49Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Are people still interested in getting this merged, or can it be closed?",
+          "createdAt": "2025-08-18T06:12:28Z",
+          "updatedAt": "2025-08-18T06:12:28Z"
         }
       ],
       "reviews": [
@@ -12028,6 +12124,63 @@
           "createdAt": "2025-08-12T08:58:02Z",
           "updatedAt": "2025-08-12T08:58:02Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 149,
+      "id": "PR_kwDOJrr8CM6kCVJe",
+      "title": "Suggestions by Pete",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/149",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "See https://mailarchive.ietf.org/arch/msg/mod-discuss/f4d7wFNZag3n-0eRKOgKlUxUyyQ",
+      "createdAt": "2025-08-18T06:08:57Z",
+      "updatedAt": "2025-08-18T07:25:56Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "5674e43854c7d3397ccb44ba765e2109ae3f695a",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "wglc-pete",
+      "headRefOid": "21bb2c81415755e1cdbd088dc078ed06cf2928d1",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think the changes are fine, but should we keep this PR open for other WGLC comments?",
+          "createdAt": "2025-08-18T07:25:56Z",
+          "updatedAt": "2025-08-18T07:25:56Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM66YLuA",
+          "commit": {
+            "abbreviatedOid": "15197d1"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-18T06:10:04Z",
+          "updatedAt": "2025-08-18T06:10:04Z",
+          "comments": [
+            {
+              "originalPosition": 27,
+              "body": "I pointed these to 6.5.2, because 6.5.1 very narrowly is about\n> (a) his or her own views have not been\n   adequately considered by the Working Group, or\n\n>(b) the Working Group\n   has made an incorrect technical choice which places the quality\n   and/or integrity of the Working Group's product(s) in significant\n   jeopardy\n\nneither of which seems correct here.",
+              "createdAt": "2025-08-18T06:10:04Z",
+              "updatedAt": "2025-08-18T06:10:05Z"
+            }
+          ]
         }
       ]
     }
