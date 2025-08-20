@@ -273,9 +273,13 @@ reports in a timely fashion.  Their first action should generally be
 to attempt to contact and advise the relevant administrators.
 They should only take
 moderation actions when administrators are not responsive.  In
-particular, moderators should give WG chairs every opportunity to
+particular, moderators should generally give WG chairs
+the opportunity to
 manage what may be difficult and contentious debates within their
-groups.  {{appeals}} discusses the handling of disagreements.
+groups.  Within the bounds of this principle, it is left to
+moderators' judgement to determine when they must act, with the
+understanding that some situations may require fast responses.
+{{appeals}} discusses the handling of disagreements.
 
 Moderators are administrators for IETF
 plenary fora, currently including the IETF discussion and last-call lists, attendee
@@ -393,17 +397,11 @@ even if the corresponding RFC has been formally obsoleted.
 
 ## Relation to the Ombudsteam
 
-The moderator team shall complement the efforts of the IETF
+Administrators and moderators shall complement the efforts of the IETF
 ombudsteam {{OT}}, whose focus on anti-harassment and operation
-shall remain unchanged. The moderator team and ombudsteam are
-expected to work together in cases that may involve both disruptive
-behavior and harassment; they may determine the most effective way to
-do so in each case. For example, the ombudsteam may decide to have
-one of their members serve as a liaison to the moderator team.
-
-The ombudsteam has strict rules of confidentiality. If a moderation
-case overlaps with an ombudsteam case, confidential information must
-not be shared between the teams.
+shall remain unchanged. Administrators and moderators should always
+report suspected harassment.  They should nonetheless take any
+necessary actions regarding disruptive behavior.
 
 ## Relation to the IETF LLC
 
@@ -499,6 +497,15 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-09
+
+- [Try to find another happy medium on power of moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/147)
+
+## Since draft-ietf-modpod-group-processes-08
+
+- [Address timeliness and exisgent circumstances](https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/142)
+- [Make clear that moderators should use their judgment on timing](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/143)
 
 ## Since draft-ietf-modpod-group-processes-07
 
