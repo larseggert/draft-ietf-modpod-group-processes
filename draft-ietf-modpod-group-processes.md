@@ -622,10 +622,7 @@ is non-exhaustive.
 - "Sealioning", where a participant makes incessant requests for evidence or
   data, even while remaining superficially polite.
 
-These items are examples. If a particular example of moderation cannot
-be matched to an example that appears in this list, this has no bearing at
-all on whether or not the moderation action was warranted. Its absence
-from this list therefore cannot serve as a basis for an appeal.
+These items are examples. Moderators and administrators may take moderation actions for many other cases. 
 
 The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
