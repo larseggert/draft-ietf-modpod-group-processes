@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-19T00:25:28.403320+00:00",
+  "timestamp": "2025-08-21T00:23:32.128774+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -11593,13 +11593,13 @@
       "labels": [],
       "body": "This text is as emphatic as I could manage. I do not claim that it is emphatic enough, but I think it helps to clarify the meaning of the existing text, which was fine but IMO not sufficient.",
       "createdAt": "2025-07-23T08:26:15Z",
-      "updatedAt": "2025-08-18T21:45:55Z",
+      "updatedAt": "2025-08-20T20:07:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
+      "baseRefOid": "5674e43854c7d3397ccb44ba765e2109ae3f695a",
       "headRepository": "Abhayakara/draft-ietf-modpod-group-processes",
       "headRefName": "patch-3",
-      "headRefOid": "a9fb7f46eb64e94567d9cb36b0cbf13229393b32",
+      "headRefOid": "6325a1098994e657e2c072d42f29541ea2defea2",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -11632,6 +11632,13 @@
           "body": "@larseggert can we just remove the word just in #149 and close this one out?",
           "createdAt": "2025-08-18T07:35:19Z",
           "updatedAt": "2025-08-18T07:35:19Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "please rebase",
+          "createdAt": "2025-08-20T07:22:57Z",
+          "updatedAt": "2025-08-20T07:22:57Z"
         }
       ],
       "reviews": [
@@ -11854,6 +11861,159 @@
               "updatedAt": "2025-08-18T22:00:06Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66muJR",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-19T05:33:37Z",
+          "updatedAt": "2025-08-19T05:33:37Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Actually, I would prefer that we remove all text \"These items are examples.\"  That statement makes clear that other possibilities exist.",
+              "createdAt": "2025-08-19T05:33:37Z",
+              "updatedAt": "2025-08-19T05:33:37Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66vULI",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-19T16:03:38Z",
+          "updatedAt": "2025-08-19T16:03:38Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Well, the aim around this text is to address the concern Lars raises here:\r\n\r\nhttps://youtu.be/kqnCi-BErs0?si=d4ZO6OFKTupm93cQ&t=466\r\n\r\nSo, being very concise might give rise to people getting confused about that list. People who run into this appendix are probably not thinking very calmly. But if Lars is ok with being very brief, it's fine with me. He would know more about the value of pre-empting appeals.",
+              "createdAt": "2025-08-19T16:03:38Z",
+              "updatedAt": "2025-08-19T17:11:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66wM-Y",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-19T17:21:59Z",
+          "updatedAt": "2025-08-19T17:22:00Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": " Nothing we say here will stop an appeal. It might at best stop some confused emails.",
+              "createdAt": "2025-08-19T17:21:59Z",
+              "updatedAt": "2025-08-19T17:22:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66xPvf",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "Abhayakara",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-19T18:52:00Z",
+          "updatedAt": "2025-08-19T18:52:00Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "The point isn't to stop an appeal. It's to quickly eliminate the early exchanges in the appeal. The point is that if it's said explicitly that this isn't an exhaustive list and that not being on this list isn't grounds for an appeal, that's one quick exchange either eliminated or streamlined. It's not that someone with a bee in their bonnet isn't going to come up with something else.",
+              "createdAt": "2025-08-19T18:52:00Z",
+              "updatedAt": "2025-08-19T18:52:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM663Ilk",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-20T06:47:52Z",
+          "updatedAt": "2025-08-20T06:47:53Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Along the lines of what @sayrer suggested:\n```suggestion\nThese items are examples. Moderators and administrators may take moderation actions for many other cases. \n```",
+              "createdAt": "2025-08-20T06:47:53Z",
+              "updatedAt": "2025-08-20T06:47:53Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM66v-3N",
+          "commit": {
+            "abbreviatedOid": "3d65d2e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-08-19T17:00:42Z",
+          "updatedAt": "2025-08-20T08:15:17Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "It's excessive.  The title of the section is \"Non-normative Examples of Disruptive Behavior\".    The key term is **non-normative**.\r\n",
+              "createdAt": "2025-08-19T17:00:43Z",
+              "updatedAt": "2025-08-20T07:21:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM663kx5",
+          "commit": {
+            "abbreviatedOid": "a9fb7f4"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-20T07:22:18Z",
+          "updatedAt": "2025-08-20T07:22:18Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "I think this is addressed in the other thread.  @Abhayakara @sayrer please review the committed changes.",
+              "createdAt": "2025-08-20T07:22:18Z",
+              "updatedAt": "2025-08-20T07:22:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM67C0ui",
+          "commit": {
+            "abbreviatedOid": "6325a10"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-08-20T20:07:03Z",
+          "updatedAt": "2025-08-20T20:07:03Z",
+          "comments": []
         }
       ]
     },
