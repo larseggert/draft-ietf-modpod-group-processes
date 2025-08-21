@@ -630,7 +630,7 @@ is non-exhaustive.
   data, even while remaining superficially polite.
 
 These items are examples. Moderators and administrators may take moderation
-actions for many other cases. 
+actions for many other cases.
 
 The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
