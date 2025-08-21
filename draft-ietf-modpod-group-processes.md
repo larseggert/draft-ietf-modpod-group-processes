@@ -629,7 +629,10 @@ is non-exhaustive.
 - "Sealioning", where a participant makes incessant requests for evidence or
   data, even while remaining superficially polite.
 
-These items are just examples. The moderator team's task consists of
+These items are examples. Moderators and administrators may take moderation
+actions for many other cases.
+
+The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
