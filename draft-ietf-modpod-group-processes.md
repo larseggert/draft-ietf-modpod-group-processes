@@ -161,7 +161,7 @@ The moderation policy goals are as follows:
 
 - Apply consistent, fair, and timely moderation of communication across all public
   IETF participation channels and participation fora;
-  without regard to one's role in the ITEF or previous technical contributions;
+  without regard to one's role in the IETF or previous technical contributions;
 - Appeals are available to address disagreements about moderation actions;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
