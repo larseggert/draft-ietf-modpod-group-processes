@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-21T00:23:32.128774+00:00",
+  "timestamp": "2025-08-24T00:27:48.096732+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -11584,26 +11584,28 @@
       "id": "PR_kwDOJrr8CM6gN7zm",
       "title": "Proposed additional text for the \"examples\" appendix",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/139",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "Abhayakara",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [
         "elear"
       ],
       "labels": [],
       "body": "This text is as emphatic as I could manage. I do not claim that it is emphatic enough, but I think it helps to clarify the meaning of the existing text, which was fine but IMO not sufficient.",
       "createdAt": "2025-07-23T08:26:15Z",
-      "updatedAt": "2025-08-20T20:07:03Z",
+      "updatedAt": "2025-08-21T08:29:03Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5674e43854c7d3397ccb44ba765e2109ae3f695a",
       "headRepository": "Abhayakara/draft-ietf-modpod-group-processes",
       "headRefName": "patch-3",
-      "headRefOid": "6325a1098994e657e2c072d42f29541ea2defea2",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "4e01d820f8aff9c9732f5efc755b8ee2ec0aff0e",
+      "closedAt": "2025-08-21T08:29:03Z",
+      "mergedAt": "2025-08-21T08:29:03Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "b1e0b0343ae2c10d0ed3c59ec53a84b04739f072"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -11614,7 +11616,7 @@
         },
         {
           "author": "Abhayakara",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "> Are people still interested in getting this merged, or can it be closed?\r\n\r\nI thought Eliot had taken it on. There was some discussion, and I think the text Eliot came up with was pretty good. Personally I would still like to see this done, but I can't speak to the consensus.",
           "createdAt": "2025-08-18T06:26:07Z",
           "updatedAt": "2025-08-18T06:26:07Z"
@@ -11668,7 +11670,7 @@
             "abbreviatedOid": "4b80b2d"
           },
           "author": "Abhayakara",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-07-23T14:35:40Z",
@@ -11748,7 +11750,7 @@
             "abbreviatedOid": "4b80b2d"
           },
           "author": "Abhayakara",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-07-24T08:05:38Z",
@@ -11928,7 +11930,7 @@
             "abbreviatedOid": "a9fb7f4"
           },
           "author": "Abhayakara",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-08-19T18:52:00Z",
@@ -12301,13 +12303,13 @@
       ],
       "body": "See https://mailarchive.ietf.org/arch/msg/mod-discuss/f4d7wFNZag3n-0eRKOgKlUxUyyQ",
       "createdAt": "2025-08-18T06:08:57Z",
-      "updatedAt": "2025-08-18T07:25:56Z",
+      "updatedAt": "2025-08-22T05:45:43Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5674e43854c7d3397ccb44ba765e2109ae3f695a",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "wglc-pete",
-      "headRefOid": "21bb2c81415755e1cdbd088dc078ed06cf2928d1",
+      "headRefOid": "0a30866df0852da9d99c06de3b64f07efbb47b76",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -12339,6 +12341,46 @@
               "body": "I pointed these to 6.5.2, because 6.5.1 very narrowly is about\n> (a) his or her own views have not been\n   adequately considered by the Working Group, or\n\n>(b) the Working Group\n   has made an incorrect technical choice which places the quality\n   and/or integrity of the Working Group's product(s) in significant\n   jeopardy\n\nneither of which seems correct here.",
               "createdAt": "2025-08-18T06:10:04Z",
               "updatedAt": "2025-08-18T06:10:05Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM67R6V4",
+          "commit": {
+            "abbreviatedOid": "21bb2c8"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-21T19:36:45Z",
+          "updatedAt": "2025-08-21T19:36:45Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "Just a typo: \"ITEF\".",
+              "createdAt": "2025-08-21T19:36:45Z",
+              "updatedAt": "2025-08-21T19:36:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM67WN35",
+          "commit": {
+            "abbreviatedOid": "21bb2c8"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-22T05:45:02Z",
+          "updatedAt": "2025-08-22T05:45:21Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\n  without regard to one's role in the IETF or previous technical contributions;\n```\n",
+              "createdAt": "2025-08-22T05:45:02Z",
+              "updatedAt": "2025-08-22T05:45:21Z"
             }
           ]
         }
