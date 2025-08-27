@@ -119,7 +119,7 @@ Table of Contents
 
    This memo describes the moderation of disruptive participation across
    the IETF's various public contribution channels and discussion fora.
-   It creates a moderator team to draft procedures and to facilitate
+   It creates a moderator team to develop procedures and to facilitate
    their consistent application.
 
    This memo makes the following changes:
@@ -184,9 +184,9 @@ Table of Contents
 1.2.  General Philosophy
 
    The cornerstone of our philosophy is first and foremost the
-   individual, whose responsibility is to further the goals of the
-   organization [RFC3935] in a manner consistent with the policy laid
-   out in [RFC7154].
+   individual, whose responsibility is to further the goals of the IETF
+   as an organization [RFC3935] in a manner consistent with the policy
+   laid out in [RFC7154].
 
    The IETF is an open standards organization.  Engaged, respectful
    discussion that is within the scope of a forum should not be
@@ -255,8 +255,8 @@ Table of Contents
    The moderator team may expand or contract based on operational
    experience.  Apart from appointing and replacing moderators, the IESG
    shall refrain from the day-to-day operation and management of the
-   moderator team.  The moderators may decide to consult with the IESG
-   when needed.
+   moderator team.  The moderators may consult with the IESG when
+   needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
    decisions (see Section 4.1), the IESG must not appoint a moderator
@@ -353,7 +353,7 @@ Table of Contents
 4.  Moderation Procedures and Transparency
 
    Within the bounds of the policies set herein, and with the approval
-   of the IESG, the moderator team shall define processes and criteria
+   of the IESG, the moderator team shall develop processes and criteria
    relating to moderation, including the moderator team's own operating
    procedures.
 
@@ -378,8 +378,7 @@ Table of Contents
    prescriptive.  Administrators and moderators are free to decide on
    these or other actions.
 
-   The expectation is that the minimal action necessary to maintain the
-   comity of a forum will be attempted.
+   The expectation is that the minimal actions necessary will be taken.
 
    Any attempt to circumvent or otherwise ignore a moderation action is
    a demonstration of bad faith that may warrant further moderation.
@@ -489,9 +488,9 @@ Table of Contents
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
-   or rules and processes.  Sections 3, 6 and 7 of
-   [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
-   the IRTF and moderation of IRTF participation fora.
+   or rules and processes.  Sections 3, 6 and 7 of [RFC9775] discuss
+   rules for participating in the IRTF and moderation of IRTF
+   participation fora.
 
 6.  Security Considerations
 
@@ -591,26 +590,19 @@ Table of Contents
 9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
-              <<https://www.ietf.org/about/groups/iesg/statements/anti-
-              harassment-policy/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/anti-
+              harassment-policy/>.
 
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
-              2006, <<https://www.ietf.org/about/groups/iesg/statements/
-              disruptive-posting/>>.
-
-   [I-D.perkins-irtf-code-of-conduct]
-              Perkins, C., "IRTF Code of Conduct", Work in Progress,
-              Internet-Draft, draft-perkins-irtf-code-of-conduct-08, 2
-              February 2025, <https://datatracker.ietf.org/doc/html/
-              draft-perkins-irtf-code-of-conduct-08>.
+              2006, <https://www.ietf.org/about/groups/iesg/statements/
+              disruptive-posting/>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
-              <<https://www.ietf.org/about/groups/iesg/statements/
-              mailing-lists-moderation/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/
+              mailing-lists-moderation/>.
 
-   [OT]       "Ombudsteam",
-              <<https://www.ietf.org/contact/ombudsteam/>>.
+   [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
 
    [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
               and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
@@ -620,6 +612,10 @@ Table of Contents
               Text on Security Considerations", BCP 72, RFC 3552,
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
+
+   [RFC9775]  Perkins, C. S., "IRTF Code of Conduct", RFC 9775,
+              DOI 10.17487/RFC9775, March 2025,
+              <https://www.rfc-editor.org/rfc/rfc9775>.
 
 Appendix A.  Changes
 
@@ -791,8 +787,6 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The list below describes some types of disruptive behavior, but it is
    non-exhaustive.
 
-   *  Unsolicited bulk e-mail;
-
    *  Discussion of subjects unrelated to IETF policy, meetings,
       activities, or technical concerns;
 
@@ -813,6 +807,11 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The moderator team's task consists of subjective judgement calls.
    Behaviors not listed here might require moderation, and it is not
    possible to write a complete list of all such behaviors.
+
+   Unsolicited bulk e-mail is considered disruptive, and thus within the
+   moderation scope, but actions taken against it are not considered
+   moderation actions and don't trigger a requirement for reporting the
+   action to the originator or to the IESG.
 
 Authors' Addresses
 
