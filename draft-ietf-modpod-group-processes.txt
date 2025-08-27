@@ -488,9 +488,9 @@ Table of Contents
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
-   or rules and processes.  Sections 3, 6 and 7 of
-   [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
-   the IRTF and moderation of IRTF participation fora.
+   or rules and processes.  Sections 3, 6 and 7 of [RFC9775] discuss
+   rules for participating in the IRTF and moderation of IRTF
+   participation fora.
 
 6.  Security Considerations
 
@@ -597,12 +597,6 @@ Table of Contents
               2006, <<https://www.ietf.org/about/groups/iesg/statements/
               disruptive-posting/>>.
 
-   [I-D.perkins-irtf-code-of-conduct]
-              Perkins, C., "IRTF Code of Conduct", Work in Progress,
-              Internet-Draft, draft-perkins-irtf-code-of-conduct-08, 2
-              February 2025, <https://datatracker.ietf.org/doc/html/
-              draft-perkins-irtf-code-of-conduct-08>.
-
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
               <<https://www.ietf.org/about/groups/iesg/statements/
@@ -619,6 +613,10 @@ Table of Contents
               Text on Security Considerations", BCP 72, RFC 3552,
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
+
+   [RFC9775]  Perkins, C. S., "IRTF Code of Conduct", RFC 9775,
+              DOI 10.17487/RFC9775, March 2025,
+              <https://www.rfc-editor.org/rfc/rfc9775>.
 
 Appendix A.  Changes
 
