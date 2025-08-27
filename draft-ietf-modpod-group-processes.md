@@ -296,7 +296,9 @@ participants.
 in {{appeals}}.  The IESG is responsible for appointing and overseeing
 the moderator team, and approving guidance provided by that team.
 
-## Out of Scope: Non-IETF Fora, Private Communications, and Content Removal
+## Out of Scope
+
+### Non-IETF Fora and Private Communications
 
 It is important to note that the moderator team only
 moderates *public* IETF fora. Their mandate does
@@ -304,6 +306,8 @@ not extend to problematic behavior in private communication, such as
 private chat groups, direct messages, or conversations or other
 interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
+
+### Content Removal
 
 Content removal or redaction from IETF archives are not moderation
 actions, and are therefore also beyond the scope of this memo.
