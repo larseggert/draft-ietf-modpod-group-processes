@@ -333,8 +333,7 @@ We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
-The expectation is that the minimal action necessary to maintain the
-comity of a forum will be attempted.
+The expectation is that the minimal actions necessary will be taken.
 
 Any attempt to circumvent or otherwise ignore a moderation action
 is a demonstration of bad faith that may warrant further moderation.
