@@ -46,23 +46,23 @@ informative:
     date: 2013-11-03
     author:
         - org: IESG
-    target: <https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/>
+    target: https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/
   OT:
     title: Ombudsteam
     date: false
-    target: <https://www.ietf.org/contact/ombudsteam/>
+    target: https://www.ietf.org/contact/ombudsteam/
   MODML:
     title: IESG Guidance on the Moderation of IETF Working Group Mailing Lists
     date: 2000-08-29
     author:
         - org: IESG
-    target: <https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/>
+    target: https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/
   DP:
     title: IESG Statement on Disruptive Posting
     date: 2006-02-16
     author:
         - org: IESG
-    target: <https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/>
+    target: https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/
 
 --- abstract
 
@@ -81,7 +81,7 @@ chairs and administrators.
 This memo describes the moderation of disruptive participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
-moderator team to draft procedures and to facilitate their consistent
+moderator team to develop procedures and to facilitate their consistent
 application.
 
 This memo makes the following changes:
@@ -143,9 +143,9 @@ existing processes is necessary (see {{motive}}).
 
 ## General Philosophy {#genphil}
 
-The cornerstone of our philosophy is first and foremost the individual, whose
-responsibility is to further the goals of the organization {{!RFC3935}} in a
-manner consistent with the policy laid out in {{!RFC7154}}.
+The cornerstone of our philosophy is that individuals are responsible for
+furthering the goals of the IETF as an organization {{!RFC3935}}
+in a manner consistent with the policy laid out in {{!RFC7154}}.
 
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered disruptive,
@@ -202,7 +202,7 @@ introduction.
 
 ## Composition
 
-The moderator team consists of no less than five
+The moderator team initially consists of at least five
 individuals.  The IESG appoints and replaces moderators.
 In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absences, and
@@ -211,7 +211,7 @@ team diversity.
 The moderator team may expand or contract
 based on operational experience.  Apart from appointing and replacing
 moderators, the IESG shall refrain from the day-to-day operation
-and management of the moderator team. The moderators may decide to
+and management of the moderator team. The moderators may
 consult with the IESG when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
@@ -311,7 +311,7 @@ actions, and are therefore also beyond the scope of this memo.
 # Moderation Procedures and Transparency {#prod}
 
 Within the bounds of the policies set herein, and with the
-approval of the IESG, the moderator team shall define
+approval of the IESG, the moderator team shall develop
 processes and criteria relating to moderation, including
 the moderator team's own operating procedures.
 
@@ -333,8 +333,7 @@ We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
-The expectation is that the minimal action necessary to maintain the
-comity of a forum will be attempted.
+The expectation is that the minimal actions necessary will be taken.
 
 Any attempt to circumvent or otherwise ignore a moderation action
 is a demonstration of bad faith that may warrant further moderation.
@@ -417,11 +416,11 @@ be taken only when the IETF LLC has received legal advice that such
 action is necessary, and therefore extremely rare in frequency. Some
 examples of where this might be necessary are:
 
-- Someone making credible threat of harm to other IETF participants.
+- Someone making a credible threat of harm to other IETF participants.
 - Someone using IETF mailing lists and/or websites to share content
   where publishing that content on IETF lists and/or websites brings
   serious legal risk.
-- Someone making credible threats of legal action where any form of
+- Someone making a credible threat of legal action where any form of
   interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
 
@@ -446,7 +445,7 @@ policy, is not subject to the rest of this policy.
 The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
 organization separate from the IETF that is governed by its own
 set or rules and processes. {{Sections 3, 6 and 7 of
-?I-D.perkins-irtf-code-of-conduct}} discuss rules for participating
+?RFC9775}} discuss rules for participating
 in the IRTF and moderation of IRTF participation fora.
 
 # Security Considerations
@@ -614,8 +613,6 @@ ideal:
 The list below describes some types of disruptive behavior, but it
 is non-exhaustive.
 
-- Unsolicited bulk e-mail;
-
 - Discussion of subjects unrelated to IETF policy, meetings,
   activities, or technical concerns;
 
@@ -630,7 +627,15 @@ is non-exhaustive.
 - "Sealioning", where a participant makes incessant requests for evidence or
   data, even while remaining superficially polite.
 
-These items are just examples. The moderator team's task consists of
+These items are examples. Moderators and administrators may take moderation
+actions for many other cases.
+
+The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
+
+Unsolicited bulk e-mail is considered disruptive, and thus within the moderation
+scope, but actions taken against it are not considered moderation actions
+and don't trigger a requirement for reporting the action to the originator
+or to the IESG.
