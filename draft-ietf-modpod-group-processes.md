@@ -46,23 +46,23 @@ informative:
     date: 2013-11-03
     author:
         - org: IESG
-    target: <https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/>
+    target: https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/
   OT:
     title: Ombudsteam
     date: false
-    target: <https://www.ietf.org/contact/ombudsteam/>
+    target: https://www.ietf.org/contact/ombudsteam/
   MODML:
     title: IESG Guidance on the Moderation of IETF Working Group Mailing Lists
     date: 2000-08-29
     author:
         - org: IESG
-    target: <https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/>
+    target: https://www.ietf.org/about/groups/iesg/statements/mailing-lists-moderation/
   DP:
     title: IESG Statement on Disruptive Posting
     date: 2006-02-16
     author:
         - org: IESG
-    target: <https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/>
+    target: https://www.ietf.org/about/groups/iesg/statements/disruptive-posting/
 
 --- abstract
 
