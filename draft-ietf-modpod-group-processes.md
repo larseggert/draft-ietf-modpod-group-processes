@@ -202,7 +202,7 @@ introduction.
 
 ## Composition
 
-The moderator team consists of no less than five
+The moderator team initially consists of at least five
 individuals.  The IESG appoints and replaces moderators.
 In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absences, and
