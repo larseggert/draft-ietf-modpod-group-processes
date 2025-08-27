@@ -590,20 +590,19 @@ Table of Contents
 9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
-              <<https://www.ietf.org/about/groups/iesg/statements/anti-
-              harassment-policy/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/anti-
+              harassment-policy/>.
 
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
-              2006, <<https://www.ietf.org/about/groups/iesg/statements/
-              disruptive-posting/>>.
+              2006, <https://www.ietf.org/about/groups/iesg/statements/
+              disruptive-posting/>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
-              <<https://www.ietf.org/about/groups/iesg/statements/
-              mailing-lists-moderation/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/
+              mailing-lists-moderation/>.
 
-   [OT]       "Ombudsteam",
-              <<https://www.ietf.org/contact/ombudsteam/>>.
+   [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
 
    [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
               and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
