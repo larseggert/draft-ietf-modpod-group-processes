@@ -144,8 +144,8 @@ existing processes is necessary (see {{motive}}).
 ## General Philosophy {#genphil}
 
 The cornerstone of our philosophy is first and foremost the individual, whose
-responsibility is to further the goals of the organization {{!RFC3935}} in a
-manner consistent with the policy laid out in {{!RFC7154}}.
+responsibility is to further the goals of the IETF as an organisation {{!RFC3935}}
+in a manner consistent with the policy laid out in {{!RFC7154}}.
 
 The IETF is an open standards organization.  Engaged, respectful
 discussion that is within the scope of a forum should not be considered disruptive,
