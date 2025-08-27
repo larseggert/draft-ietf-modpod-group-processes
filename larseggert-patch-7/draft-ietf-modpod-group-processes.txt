@@ -247,16 +247,16 @@ Table of Contents
 
 2.1.  Composition
 
-   The moderator team consists of no less than five individuals.  The
-   IESG appoints and replaces moderators.  In selecting members, the
+   The moderator team initially consists of at least five individuals.
+   The IESG appoints and replaces moderators.  In selecting members, the
    IESG will take into account geographic coverage, expected and
    unexpected absences, and team diversity.
 
    The moderator team may expand or contract based on operational
    experience.  Apart from appointing and replacing moderators, the IESG
    shall refrain from the day-to-day operation and management of the
-   moderator team.  The moderators may decide to consult with the IESG
-   when needed.
+   moderator team.  The moderators may consult with the IESG when
+   needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
    decisions (see Section 4.1), the IESG must not appoint a moderator
@@ -378,8 +378,7 @@ Table of Contents
    prescriptive.  Administrators and moderators are free to decide on
    these or other actions.
 
-   The expectation is that the minimal action necessary to maintain the
-   comity of a forum will be attempted.
+   The expectation is that the minimal actions necessary will be taken.
 
    Any attempt to circumvent or otherwise ignore a moderation action is
    a demonstration of bad faith that may warrant further moderation.
@@ -458,13 +457,14 @@ Table of Contents
    such action is necessary, and therefore extremely rare in frequency.
    Some examples of where this might be necessary are:
 
-   *  Someone making credible threat of harm to other IETF participants.
+   *  Someone making a credible threat of harm to other IETF
+      participants.
 
    *  Someone using IETF mailing lists and/or websites to share content
       where publishing that content on IETF lists and/or websites brings
       serious legal risk.
 
-   *  Someone making credible threats of legal action where any form of
+   *  Someone making a credible threat of legal action where any form of
       interaction with them on IETF mailing lists may have serious legal
       consequences for the IETF.
 
@@ -488,9 +488,9 @@ Table of Contents
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
-   or rules and processes.  Sections 3, 6 and 7 of
-   [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
-   the IRTF and moderation of IRTF participation fora.
+   or rules and processes.  Sections 3, 6 and 7 of [RFC9775] discuss
+   rules for participating in the IRTF and moderation of IRTF
+   participation fora.
 
 6.  Security Considerations
 
@@ -590,26 +590,19 @@ Table of Contents
 9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
-              <<https://www.ietf.org/about/groups/iesg/statements/anti-
-              harassment-policy/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/anti-
+              harassment-policy/>.
 
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
-              2006, <<https://www.ietf.org/about/groups/iesg/statements/
-              disruptive-posting/>>.
-
-   [I-D.perkins-irtf-code-of-conduct]
-              Perkins, C., "IRTF Code of Conduct", Work in Progress,
-              Internet-Draft, draft-perkins-irtf-code-of-conduct-08, 2
-              February 2025, <https://datatracker.ietf.org/doc/html/
-              draft-perkins-irtf-code-of-conduct-08>.
+              2006, <https://www.ietf.org/about/groups/iesg/statements/
+              disruptive-posting/>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
-              <<https://www.ietf.org/about/groups/iesg/statements/
-              mailing-lists-moderation/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/
+              mailing-lists-moderation/>.
 
-   [OT]       "Ombudsteam",
-              <<https://www.ietf.org/contact/ombudsteam/>>.
+   [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
 
    [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
               and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
@@ -619,6 +612,10 @@ Table of Contents
               Text on Security Considerations", BCP 72, RFC 3552,
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
+
+   [RFC9775]  Perkins, C. S., "IRTF Code of Conduct", RFC 9775,
+              DOI 10.17487/RFC9775, March 2025,
+              <https://www.rfc-editor.org/rfc/rfc9775>.
 
 Appendix A.  Changes
 
