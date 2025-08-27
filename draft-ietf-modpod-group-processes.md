@@ -416,11 +416,11 @@ be taken only when the IETF LLC has received legal advice that such
 action is necessary, and therefore extremely rare in frequency. Some
 examples of where this might be necessary are:
 
-- Someone making credible threat of harm to other IETF participants.
+- Someone making a credible threat of harm to other IETF participants.
 - Someone using IETF mailing lists and/or websites to share content
   where publishing that content on IETF lists and/or websites brings
   serious legal risk.
-- Someone making credible threats of legal action where any form of
+- Someone making a credible threat of legal action where any form of
   interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
 
