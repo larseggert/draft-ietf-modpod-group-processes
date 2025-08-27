@@ -100,17 +100,18 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Changes
-     A.1.  Since draft-ietf-modpod-group-processes-09
-     A.2.  Since draft-ietf-modpod-group-processes-08
-     A.3.  Since draft-ietf-modpod-group-processes-07
-     A.4.  Since draft-ietf-modmod-group-processes-06
-     A.5.  Since draft-ietf-modpod-group-processes-05
-     A.6.  Since draft-ietf-modpod-group-processes-04
-     A.7.  Since draft-ietf-modpod-group-processes-03
-     A.8.  Since draft-ietf-modpod-group-processes-02
-     A.9.  Since draft-ietf-modpod-group-processes-01
-     A.10. Since draft-ietf-modpod-group-processes-00
-     A.11. Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-10
+     A.2.  Since draft-ietf-modpod-group-processes-09
+     A.3.  Since draft-ietf-modpod-group-processes-08
+     A.4.  Since draft-ietf-modpod-group-processes-07
+     A.5.  Since draft-ietf-modmod-group-processes-06
+     A.6.  Since draft-ietf-modpod-group-processes-05
+     A.7.  Since draft-ietf-modpod-group-processes-04
+     A.8.  Since draft-ietf-modpod-group-processes-03
+     A.9.  Since draft-ietf-modpod-group-processes-02
+     A.10. Since draft-ietf-modpod-group-processes-01
+     A.11. Since draft-ietf-modpod-group-processes-00
+     A.12. Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
@@ -184,9 +185,9 @@ Table of Contents
 1.2.  General Philosophy
 
    The cornerstone of our philosophy is first and foremost the
-   individual, whose responsibility is to further the goals of the
-   organization [RFC3935] in a manner consistent with the policy laid
-   out in [RFC7154].
+   individual, whose responsibility is to further the goals of the IETF
+   as an organization [RFC3935] in a manner consistent with the policy
+   laid out in [RFC7154].
 
    The IETF is an open standards organization.  Engaged, respectful
    discussion that is within the scope of a forum should not be
@@ -378,8 +379,7 @@ Table of Contents
    prescriptive.  Administrators and moderators are free to decide on
    these or other actions.
 
-   The expectation is that the minimal action necessary to maintain the
-   comity of a forum will be attempted.
+   The expectation is that the minimal actions necessary will be taken.
 
    Any attempt to circumvent or otherwise ignore a moderation action is
    a demonstration of bad faith that may warrant further moderation.
@@ -458,13 +458,14 @@ Table of Contents
    such action is necessary, and therefore extremely rare in frequency.
    Some examples of where this might be necessary are:
 
-   *  Someone making credible threat of harm to other IETF participants.
+   *  Someone making a credible threat of harm to other IETF
+      participants.
 
    *  Someone using IETF mailing lists and/or websites to share content
       where publishing that content on IETF lists and/or websites brings
       serious legal risk.
 
-   *  Someone making credible threats of legal action where any form of
+   *  Someone making a credible threat of legal action where any form of
       interaction with them on IETF mailing lists may have serious legal
       consequences for the IETF.
 
@@ -488,9 +489,9 @@ Table of Contents
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
    organization separate from the IETF that is governed by its own set
-   or rules and processes.  Sections 3, 6 and 7 of
-   [I-D.perkins-irtf-code-of-conduct] discuss rules for participating in
-   the IRTF and moderation of IRTF participation fora.
+   or rules and processes.  Sections 3, 6 and 7 of [RFC9775] discuss
+   rules for participating in the IRTF and moderation of IRTF
+   participation fora.
 
 6.  Security Considerations
 
@@ -527,7 +528,11 @@ Table of Contents
 
    *  Alissa Cooper
 
+   *  Brian Carpenter
+
    *  Chris Box
+
+   *  Colin Perkins
 
    *  Eric Rescorla
 
@@ -539,11 +544,17 @@ Table of Contents
 
    *  Michael Richardson
 
+   *  Pete Resnick
+
    *  Rich Salz
 
    *  Robert Sayre
 
-   *  Brian Carpenter
+   *  Russ Housely
+
+   *  Stephen Farrell
+
+   *  Tim Bray
 
 9.  References
 
@@ -590,26 +601,19 @@ Table of Contents
 9.2.  Informative References
 
    [AHP]      IESG, "IETF Anti-Harassment Policy", 3 November 2013,
-              <<https://www.ietf.org/about/groups/iesg/statements/anti-
-              harassment-policy/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/anti-
+              harassment-policy/>.
 
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
-              2006, <<https://www.ietf.org/about/groups/iesg/statements/
-              disruptive-posting/>>.
-
-   [I-D.perkins-irtf-code-of-conduct]
-              Perkins, C., "IRTF Code of Conduct", Work in Progress,
-              Internet-Draft, draft-perkins-irtf-code-of-conduct-08, 2
-              February 2025, <https://datatracker.ietf.org/doc/html/
-              draft-perkins-irtf-code-of-conduct-08>.
+              2006, <https://www.ietf.org/about/groups/iesg/statements/
+              disruptive-posting/>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
-              <<https://www.ietf.org/about/groups/iesg/statements/
-              mailing-lists-moderation/>>.
+              <https://www.ietf.org/about/groups/iesg/statements/
+              mailing-lists-moderation/>.
 
-   [OT]       "Ombudsteam",
-              <<https://www.ietf.org/contact/ombudsteam/>>.
+   [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
 
    [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
               and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
@@ -620,17 +624,25 @@ Table of Contents
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
 
+   [RFC9775]  Perkins, C. S., "IRTF Code of Conduct", RFC 9775,
+              DOI 10.17487/RFC9775, March 2025,
+              <https://www.rfc-editor.org/rfc/rfc9775>.
+
 Appendix A.  Changes
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-09
+A.1.  Since draft-ietf-modpod-group-processes-10
+
+   *  Many editorial suggestions received during WGLC.
+
+A.2.  Since draft-ietf-modpod-group-processes-09
 
    *  Try to find another happy medium on power of moderators
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/147)
 
-A.2.  Since draft-ietf-modpod-group-processes-08
+A.3.  Since draft-ietf-modpod-group-processes-08
 
    *  Address timeliness and exisgent circumstances
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -640,7 +652,7 @@ A.2.  Since draft-ietf-modpod-group-processes-08
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/143)
 
-A.3.  Since draft-ietf-modpod-group-processes-07
+A.4.  Since draft-ietf-modpod-group-processes-07
 
    *  Pete Resnick issues and similar (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/issues/134)
@@ -650,7 +662,7 @@ A.3.  Since draft-ietf-modpod-group-processes-07
       team → moderator team. (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/135)
 
-A.4.  Since draft-ietf-modmod-group-processes-06
+A.5.  Since draft-ietf-modmod-group-processes-06
 
    *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -660,25 +672,25 @@ A.4.  Since draft-ietf-modmod-group-processes-06
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/132)
 
-A.5.  Since draft-ietf-modpod-group-processes-05
+A.6.  Since draft-ietf-modpod-group-processes-05
 
    *  New attempt to address moderation/WG interactions
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/126)
 
-A.6.  Since draft-ietf-modpod-group-processes-04
+A.7.  Since draft-ietf-modpod-group-processes-04
 
    *  Use plain English instead of BCP 14 language
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/120)
 
-A.7.  Since draft-ietf-modpod-group-processes-03
+A.8.  Since draft-ietf-modpod-group-processes-03
 
    *  Non-normative Examples of Disruptive Behavior
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/121)
 
-A.8.  Since draft-ietf-modpod-group-processes-02
+A.9.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -696,7 +708,7 @@ A.8.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.9.  Since draft-ietf-modpod-group-processes-01
+A.10.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -708,7 +720,7 @@ A.9.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.10.  Since draft-ietf-modpod-group-processes-00
+A.11.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -729,7 +741,7 @@ A.10.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.11.  Since draft-ecahc-moderation-01
+A.12.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
@@ -790,8 +802,6 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The list below describes some types of disruptive behavior, but it is
    non-exhaustive.
 
-   *  Unsolicited bulk e-mail;
-
    *  Discussion of subjects unrelated to IETF policy, meetings,
       activities, or technical concerns;
 
@@ -812,6 +822,11 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The moderator team's task consists of subjective judgement calls.
    Behaviors not listed here might require moderation, and it is not
    possible to write a complete list of all such behaviors.
+
+   Unsolicited bulk e-mail is considered disruptive, and thus within the
+   moderation scope, but actions taken against it are not considered
+   moderation actions and don't trigger a requirement for reporting the
+   action to the originator or to the IESG.
 
 Authors' Addresses
 
