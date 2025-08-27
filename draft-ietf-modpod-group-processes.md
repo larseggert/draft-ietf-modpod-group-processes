@@ -211,7 +211,7 @@ team diversity.
 The moderator team may expand or contract
 based on operational experience.  Apart from appointing and replacing
 moderators, the IESG shall refrain from the day-to-day operation
-and management of the moderator team. The moderators may decide to
+and management of the moderator team. The moderators may
 consult with the IESG when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
