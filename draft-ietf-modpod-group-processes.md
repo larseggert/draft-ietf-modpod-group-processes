@@ -613,8 +613,6 @@ ideal:
 The list below describes some types of disruptive behavior, but it
 is non-exhaustive.
 
-- Unsolicited bulk e-mail;
-
 - Discussion of subjects unrelated to IETF policy, meetings,
   activities, or technical concerns;
 
@@ -636,3 +634,8 @@ The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
+
+Unsolicited bulk e-mail is considered disruptive, and thus within the moderation
+scope, but actions taken against it are not considered moderation actions
+and don't trigger a requirement for reporting the action to the originator
+or to the IESG.
