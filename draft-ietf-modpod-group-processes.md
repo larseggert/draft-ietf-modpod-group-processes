@@ -81,7 +81,7 @@ chairs and administrators.
 This memo describes the moderation of disruptive participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
-moderator team to draft procedures and to facilitate their consistent
+moderator team to develop procedures and to facilitate their consistent
 application.
 
 This memo makes the following changes:
@@ -311,7 +311,7 @@ actions, and are therefore also beyond the scope of this memo.
 # Moderation Procedures and Transparency {#prod}
 
 Within the bounds of the policies set herein, and with the
-approval of the IESG, the moderator team shall define
+approval of the IESG, the moderator team shall develop
 processes and criteria relating to moderation, including
 the moderator team's own operating procedures.
 
