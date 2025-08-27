@@ -260,7 +260,7 @@ forum **and** the moderators.
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of inappropriate behavior
 in a timely fashion, apprising moderators of their disposition. For a
-Working Group, the chairs should perform moderation in a way that
+Working Group, the chairs should aim to perform moderation in a way that
 obviates the need for moderator team involvement.
 
 **Moderators** are responsible for establishing processes to
