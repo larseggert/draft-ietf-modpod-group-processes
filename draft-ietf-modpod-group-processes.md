@@ -480,15 +480,20 @@ basis for how the moderators interact with list/forum leadership.
 These individuals contributed additional improvements:
 
 - Alissa Cooper
+- Brian Carpenter
 - Chris Box
+- Colin Perkins
 - Eric Rescorla
 - Jay Daley
 - Joel Halpern
 - Melinda Shore
 - Michael Richardson
+- Pete Resnick
 - Rich Salz
 - Robert Sayre
-- Brian Carpenter
+- Russ Housely
+- Stephen Farrell
+- Tim Bray
 
 --- back
 
@@ -496,6 +501,10 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-10
+
+- Many editorial suggestions received during WGLC.
 
 ## Since draft-ietf-modpod-group-processes-09
 
