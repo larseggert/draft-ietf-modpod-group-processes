@@ -238,9 +238,9 @@ contacting.
 ## Training
 
 The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IESG will negotiate any
-required funding or resources with IETF Administration LLC
-{{?RFC8711}}.
+administrators and appointed moderators as necessary. The IESG will
+negotiate any required funding or resources with IETF Administration
+LLC {{?RFC8711}}.
 
 # Scope and Responsibilities
 
