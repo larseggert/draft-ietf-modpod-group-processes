@@ -100,6 +100,19 @@ This memo makes the following changes:
 The details of each of these changes and the philosophy behind them
 are described below.
 
+## Terminology Note
+
+Below we use the term "administrator" to refer to the people who
+are assigned by the IESG to manage a particular public participation
+channel or discussion forum. This document uses the term "forum"
+to refer to any public IETF participation channel, such as a mailing list,
+chat group, or discussion in a collaborative tool such as GitHub or
+GitLab. For example, working
+group chairs are administrators of all the public fora their WG
+uses, which typically includes mailing lists and chat groups, but might
+also include collaborative tools such as GitHub or GitLab. Another example
+of administrators are the "owners" of non-WG IETF mailing lists.
+
 ## Background {#background}
 
 The IETF community has defined general guidelines for
@@ -124,12 +137,15 @@ list administrators and operate by a different set of processes
 {{?RFC9245}}.
 
 Note that the term "moderation" can refer both to *preemptive*
-moderation, where moderators review attempted participation before it occurs
+moderation, where administrators review attempted participation before
+it occurs
 (such as reviewing messages to a mailing list), and *reactive* moderation,
-where moderators intervene after problematic participation has occurred. The
+where administrators intervene after problematic participation has occurred.
+The
 IETF historically mainly practiced reactive moderation, with a spectrum from
 gentle reminders on- and off-list, all the way to suspension of posting rights
 and other ways of participating or communicating. It is up to the moderators
+and administrators
 to decide which mix of preemptive and reactive moderation to employ as
 part of their processes.
 
@@ -176,19 +192,6 @@ of these aims.
 The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their role in the IETF or past technical contributions.
-
-## Terminology
-
-Below we use the term "administrator" to refer to the people who
-are assigned by the IESG to manage a particular public participation
-channel or discussion forum. This document uses the term "forum"
-to refer to any public IETF participation channel, such as a mailing list,
-chat group, or discussion in a collaborative tool such as GitHub or
-GitLab. For example, working
-group chairs are administrators of all the public fora their WG
-uses, which typically includes mailing lists and chat groups, but might
-also include collaborative tools such as GitHub or GitLab. Another example
-of administrators are the "owners" of non-WG IETF mailing lists.
 
 # IETF Moderator Team
 
