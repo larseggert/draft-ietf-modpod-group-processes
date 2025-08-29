@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                    27 August 2025
-Expires: 28 February 2026
+Intended status: Best Current Practice                    29 August 2025
+Expires: 2 March 2026
 
 
                        IETF Community Moderation
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 February 2026.
+   This Internet-Draft will expire on 2 March 2026.
 
 Copyright Notice
 
@@ -76,9 +76,9 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-     1.1.  Background
-     1.2.  General Philosophy
-     1.3.  Terminology
+     1.1.  Terminology Note
+     1.2.  Background
+     1.3.  General Philosophy
    2.  IETF Moderator Team
      2.1.  Composition
        2.1.1.  Team Diversity
@@ -141,7 +141,20 @@ Table of Contents
    The details of each of these changes and the philosophy behind them
    are described below.
 
-1.1.  Background
+1.1.  Terminology Note
+
+   Below we use the term "administrator" to refer to the people who are
+   assigned by the IESG to manage a particular public participation
+   channel or discussion forum.  This document uses the term "forum" to
+   refer to any public IETF participation channel, such as a mailing
+   list, chat group, or discussion in a collaborative tool such as
+   GitHub or GitLab.  For example, working group chairs are
+   administrators of all the public fora their WG uses, which typically
+   includes mailing lists and chat groups, but might also include
+   collaborative tools such as GitHub or GitLab.  Another example of
+   administrators are the "owners" of non-WG IETF mailing lists.
+
+1.2.  Background
 
    The IETF community has defined general guidelines for personal
    interactions in the IETF [RFC7154], and the IESG has defined an anti-
@@ -163,15 +176,15 @@ Table of Contents
    administrators and operate by a different set of processes [RFC9245].
 
    Note that the term "moderation" can refer both to _preemptive_
-   moderation, where moderators review attempted participation before it
-   occurs (such as reviewing messages to a mailing list), and _reactive_
-   moderation, where moderators intervene after problematic
-   participation has occurred.  The IETF historically mainly practiced
-   reactive moderation, with a spectrum from gentle reminders on- and
-   off-list, all the way to suspension of posting rights and other ways
-   of participating or communicating.  It is up to the moderators to
-   decide which mix of preemptive and reactive moderation to employ as
-   part of their processes.
+   moderation, where administrators review attempted participation
+   before it occurs (such as reviewing messages to a mailing list), and
+   _reactive_ moderation, where administrators intervene after
+   problematic participation has occurred.  The IETF historically mainly
+   practiced reactive moderation, with a spectrum from gentle reminders
+   on- and off-list, all the way to suspension of posting rights and
+   other ways of participating or communicating.  It is up to the
+   moderators and administrators to decide which mix of preemptive and
+   reactive moderation to employ as part of their processes.
 
    In addition, [RFC3683] defines a process for revoking an individual's
    posting rights to IETF mailing lists following a community last-call
@@ -181,7 +194,7 @@ Table of Contents
    Experience and community input suggests that an evolution of the
    existing processes is necessary (see Appendix B).
 
-1.2.  General Philosophy
+1.3.  General Philosophy
 
    The cornerstone of our philosophy is that individuals are responsible
    for furthering the goals of the IETF as an organization [RFC3935] in
@@ -223,19 +236,6 @@ Table of Contents
    welcoming, non-hostile environment in which all may participate on an
    equal footing, regardless of their role in the IETF or past technical
    contributions.
-
-1.3.  Terminology
-
-   Below we use the term "administrator" to refer to the people who are
-   assigned by the IESG to manage a particular public participation
-   channel or discussion forum.  This document uses the term "forum" to
-   refer to any public IETF participation channel, such as a mailing
-   list, chat group, or discussion in a collaborative tool such as
-   GitHub or GitLab.  For example, working group chairs are
-   administrators of all the public fora their WG uses, which typically
-   includes mailing lists and chat groups, but might also include
-   collaborative tools such as GitHub or GitLab.  Another example of
-   administrators are the "owners" of non-WG IETF mailing lists.
 
 2.  IETF Moderator Team
 
@@ -296,7 +296,7 @@ Table of Contents
    Different people have different responsibilities.
 
    *Participants* should always behave in a manner discussed in
-   Section 1.2.  They are also encouraged to report inappropriate
+   Section 1.3.  They are also encouraged to report inappropriate
    behavior directed at them or someone else to an administrator of the
    respective forum *and* the moderators.
 
