@@ -179,8 +179,8 @@ regardless of their role in the IETF or past technical contributions.
 
 ## Terminology
 
-Below we use the term "administrator" to refer to the people who
-are assigned by the IESG to manage a particular public participation
+Below we use the term "administrator" to refer to the people who are
+authorized by the IESG or LLC to manage a particular public participation
 channel or discussion forum. This document uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
 chat group, or discussion in a collaborative tool such as GitHub or
@@ -282,8 +282,8 @@ understanding that some situations may require fast responses.
 {{appeals}} discusses the handling of disagreements.
 
 Moderators are administrators for IETF
-plenary fora, currently including the IETF discussion and last-call lists, attendee
-lists, and any plenary chat sessions. They are also administrators for
+plenary fora, currently including the IETF discussion and last-call lists
+and any plenary chat sessions. They are also administrators for
 any forum that cuts across IETF areas or does not have an
 administrator.
 
