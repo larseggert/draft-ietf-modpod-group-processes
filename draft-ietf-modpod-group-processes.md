@@ -498,6 +498,9 @@ These individuals contributed additional improvements:
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
 
+## Since draft-ietf-modpod-group-processes-10
+- [remove attendee mailing lists from moderator primary responsibility](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181)
+
 ## Since draft-ietf-modpod-group-processes-09
 
 - [Try to find another happy medium on power of moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/147)
