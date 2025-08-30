@@ -299,17 +299,14 @@ participants.
 in {{appeals}}.  The IESG is responsible for appointing and overseeing
 the moderator team, and approving guidance provided by that team.
 
-## Out of Scope: Non-IETF Fora, Private Communications, and Content Removal
+## Actions That Are Out of Scope
 
-It is important to note that the moderator team only
-moderates *public* IETF fora. Their mandate does
-not extend to problematic behavior in private communication, such as
-private chat groups, direct messages, or conversations or other
-interactions outside of meetings. In such cases, the Ombudsteam
-should be approached.
-
-Content removal or redaction from IETF archives are not moderation
-actions, and are therefore also beyond the scope of this memo.
+Moderator actions are only permitted for the purposes of limiting
+disruptive communications in IETF fora.  All other actions are beyond
+the scope of this memo. Examples of actions that are out of scope include,
+but are not limited to, datatracker account removal, in-person meeting
+registration, content removal or redaction, moderation or policing of
+private or non-IETF communications, and redaction from IETF archives.
 
 # Moderation Procedures and Transparency {#prod}
 
