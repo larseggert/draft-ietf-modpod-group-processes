@@ -71,7 +71,7 @@ The IETF community will treat people with kindness and grace, but not endless pa
 This memo describes the moderation of disruptive participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
-for moderation and a moderator team.  That team will develop a uniform
+for moderation and a moderator team.  That team will develop a
 set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
@@ -195,10 +195,10 @@ regardless of their role in the IETF or past technical contributions.
 
 # IETF Moderator Team
 
-This memo proposes a uniform approach to moderating the
+This memo proposes a consistent approach to moderating the
 IETF's various public fora. A moderator team for the IETF
-will develop uniform guidelines for moderation and will facilitate
-their implementation and application as detailed below.
+will develop guidelines for moderation and will facilitate
+their consistent implementation and application as detailed below.
 These changes are intended to address the issues identified
 in the previous model {{motive}} and the principles described in the
 introduction.
