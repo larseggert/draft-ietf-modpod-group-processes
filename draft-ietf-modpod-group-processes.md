@@ -299,7 +299,7 @@ the moderator team, and approving guidance provided by that team.
 ## Actions That Are Out of Scope
 
 Moderator actions are only permitted for the purposes of limiting
-disruptive communications to IETF fora.  All other actions are beyond
+disruptive communications in IETF fora.  All other actions are beyond
 the scope of this memo. Examples actions that are out of scope include,
 but are not limited to, datatracker account removal, in-person meeting
 registration, content removal or redaction, moderation or policing of
