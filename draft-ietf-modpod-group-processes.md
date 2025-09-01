@@ -357,7 +357,7 @@ the community in a manner decided by the IESG.
 ## Consistency and Conflict Resolution {#appeals}
 
 Administrators and moderators shall act in a manner
-consistent this meme and the guidelines approved by the IESG.  In cases
+consistent this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
 with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
