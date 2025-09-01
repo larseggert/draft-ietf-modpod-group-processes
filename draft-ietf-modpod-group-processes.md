@@ -288,8 +288,8 @@ understanding that some situations may require fast responses.
 {{appeals}} discusses the handling of disagreements.
 
 Moderators are administrators for IETF
-plenary fora, currently including the IETF discussion and last-call lists, attendee
-lists, and any plenary chat sessions. They are also administrators for
+plenary fora, currently including the IETF discussion and last-call lists
+and any plenary chat sessions. They are also administrators for
 any forum that cuts across IETF areas or does not have an
 administrator.
 
@@ -500,6 +500,10 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-10
+
+- [remove attendee mailing lists from moderator primary responsibility](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181)
 
 ## Since draft-ietf-modpod-group-processes-09
 
