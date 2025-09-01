@@ -68,17 +68,19 @@ informative:
 
 The IETF community will treat people with kindness and grace, but not endless patience.
 
-This memo describes the moderation of disruptive participation
+This memo establishes a policy for the moderation of disruptive
+participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
-for moderation and a moderator team.  That team will develop a uniform
+for moderation and a moderator team.  That team will develop a
 set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
 
 # Introduction
 
-This memo describes the moderation of disruptive participation
+This memo establishes a policy for the moderation of disruptive
+participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
 moderator team to develop procedures and to facilitate their consistent
@@ -99,6 +101,19 @@ This memo makes the following changes:
 
 The details of each of these changes and the philosophy behind them
 are described below.
+
+## Terminology Note
+
+Below we use the term "administrator" to refer to the people who
+are assigned by the IESG to manage a particular public participation
+channel or discussion forum. This document uses the term "forum"
+to refer to any public IETF participation channel, such as a mailing list,
+chat group, or discussion in a collaborative tool such as GitHub or
+GitLab. For example, working
+group chairs are administrators of all the public fora their WG
+uses, which typically includes mailing lists and chat groups, but might
+also include collaborative tools such as GitHub or GitLab. Another example
+of administrators are the "owners" of non-WG IETF mailing lists.
 
 ## Background {#background}
 
@@ -124,12 +139,15 @@ list administrators and operate by a different set of processes
 {{?RFC9245}}.
 
 Note that the term "moderation" can refer both to *preemptive*
-moderation, where moderators review attempted participation before it occurs
+moderation, where administrators review attempted participation before
+it occurs
 (such as reviewing messages to a mailing list), and *reactive* moderation,
-where moderators intervene after problematic participation has occurred. The
+where administrators intervene after problematic participation has occurred.
+The
 IETF historically mainly practiced reactive moderation, with a spectrum from
 gentle reminders on- and off-list, all the way to suspension of posting rights
 and other ways of participating or communicating. It is up to the moderators
+and administrators
 to decide which mix of preemptive and reactive moderation to employ as
 part of their processes.
 
@@ -160,8 +178,9 @@ decorum of the community.
 The moderation policy goals are as follows:
 
 - Apply consistent, fair, and timely moderation of communication across all public
-  IETF participation channels and participation fora;
-  without regard to one's role in the IETF or previous technical contributions;
+  IETF participation channels and participation fora
+  without regard to a participant's role in the IETF or previous technical
+  contributions;
 - Appeals are available to address disagreements about moderation actions;
 - Balance transparency against both privacy of individuals involved and further
   disruption to the community;
@@ -177,25 +196,12 @@ The goal is explicitly **not** punishment, but to maintain an open, welcoming,
 non-hostile environment in which all may participate on an equal footing,
 regardless of their role in the IETF or past technical contributions.
 
-## Terminology
-
-Below we use the term "administrator" to refer to the people who are
-authorized by the IESG or LLC to manage a particular public participation
-channel or discussion forum. This document uses the term "forum"
-to refer to any public IETF participation channel, such as a mailing list,
-chat group, or discussion in a collaborative tool such as GitHub or
-GitLab. For example, working
-group chairs are administrators of all the public fora their WG
-uses, which typically includes mailing lists and chat groups, but might
-also include collaborative tools such as GitHub or GitLab. Another example
-of administrators are the "owners" of non-WG IETF mailing lists.
-
 # IETF Moderator Team
 
-This memo proposes a uniform approach to moderating the
+This memo proposes a consistent approach to moderating the
 IETF's various public fora. A moderator team for the IETF
-will develop uniform guidelines for moderation and will facilitate
-their implementation and application as detailed below.
+will develop guidelines for moderation and will facilitate
+their consistent implementation and application as detailed below.
 These changes are intended to address the issues identified
 in the previous model {{motive}} and the principles described in the
 introduction.
@@ -238,9 +244,9 @@ contacting.
 ## Training
 
 The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IESG will negotiate any
-required funding or resources with IETF Administration LLC
-{{?RFC8711}}.
+administrators and moderators as necessary. The IESG will
+negotiate any required funding or resources with IETF Administration
+LLC {{?RFC8711}}.
 
 # Scope and Responsibilities
 
@@ -296,17 +302,14 @@ participants.
 in {{appeals}}.  The IESG is responsible for appointing and overseeing
 the moderator team, and approving guidance provided by that team.
 
-## Out of Scope: Non-IETF Fora, Private Communications, and Content Removal
+## Actions That Are Out of Scope
 
-It is important to note that the moderator team only
-moderates *public* IETF fora. Their mandate does
-not extend to problematic behavior in private communication, such as
-private chat groups, direct messages, or conversations or other
-interactions outside of meetings. In such cases, the Ombudsteam
-should be approached.
-
-Content removal or redaction from IETF archives are not moderation
-actions, and are therefore also beyond the scope of this memo.
+Moderator actions are only permitted for the purposes of limiting
+disruptive communications in IETF fora.  All other actions are beyond
+the scope of this memo. Examples of actions that are out of scope include,
+but are not limited to, datatracker account removal, in-person meeting
+registration, content removal or redaction, moderation or policing of
+private or non-IETF communications, and redaction from IETF archives.
 
 # Moderation Procedures and Transparency {#prod}
 
