@@ -272,7 +272,7 @@ obviates the need for moderator team involvement.
 **Moderators** are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
-can use to address disruptive contributions.
+can use to address disruptive behavior.
 
 Moderators may take actions when administrators do not respond to
 reports in a timely fashion.  Their first action should generally be
