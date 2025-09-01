@@ -290,7 +290,7 @@ understanding that some situations may require fast responses.
 Moderators are administrators for IETF
 plenary fora, currently including the IETF discussion and last-call lists, attendee
 lists, and any plenary chat sessions. They are also administrators for
-any forum that cuts across IETF areas or does not have an
+any forum that does not otherwise have an
 administrator.
 
 In order to scale the function, except for plenary fora as described
