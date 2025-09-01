@@ -357,19 +357,12 @@ the community in a manner decided by the IESG.
 ## Consistency and Conflict Resolution {#appeals}
 
 Administrators and moderators shall act in a manner
-consistent with guidelines approved by the IESG.  In cases of
-disagreement between the administrators and the moderator team
-over a moderation decision, the matter should be taken up
-with the responsible area director for resolution, or the IETF chair
+consistent this meme and the guidelines approved by the IESG.  In cases
+of disagreement over a moderation decision, anyone may take the matter up
+with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
-
-Because the moderator team serves at the discretion of the IESG,
-any moderation decision can be appealed to the IESG by anyone,
-per {{Section 6.5.2 of !RFC2026}}.
-Disagreements with a decision by the moderator team can
-be brought to their attention. If this does not lead to a resolution, a
-decision by the IESG can be appealed to the IAB as described in
-{{Section 6.5.2 of !RFC2026}}.
+Further appeals may be made to the IESG
+per {{Section 6.5.2 of !RFC2026}}, and then if necessary to the IAB.
 
 ## Reinstatement
 
