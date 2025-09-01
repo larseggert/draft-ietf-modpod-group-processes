@@ -349,7 +349,7 @@ All moderation actions that restrict posting rights shall be
 periodically reported to the IESG,
 as well as immediately to those against whom those actions take effect.
 
-To address disrutpive behavior in a timely manner, only
+To address disruptive behavior in a timely manner, only
 moderation actions suspending participation rights for longer than
 fourteen (14) days shall be reported to the forum to which such an action applies.
 If such an action applies to more than one forum, it should be communicated to
