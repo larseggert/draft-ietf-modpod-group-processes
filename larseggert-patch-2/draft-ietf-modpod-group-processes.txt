@@ -311,7 +311,7 @@ Table of Contents
    *Moderators* are responsible for establishing processes to address
    moderation needs across all IETF fora, both present and future.  They
    are a resource that the community can use to address disruptive
-   contributions.
+   behavior.
 
    Moderators may take actions when administrators do not respond to
    reports in a timely fashion.  Their first action should generally be
