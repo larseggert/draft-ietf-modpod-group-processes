@@ -295,7 +295,7 @@ administrator.
 
 In order to scale the function, except for plenary fora as described
 above, moderators are not expected to always actively monitor
-all communications.  Instead, they will process reports from
+all communications.  In general, they will process reports from
 participants.
 
 **Area Directors** are expected to resolve conflicts as described here and
