@@ -255,26 +255,26 @@ future, including, but not limited to, mailing lists, chat groups,
 and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, Wikis, or issue trackers.
 
-Different people have different responsibilities.
+Different people have different moderation responsibilities:
 
-**Participants** should always behave in a manner discussed in
+- **Participants** should always behave in a manner discussed in
 {{genphil}}.  They are also encouraged to report disruptive behavior
 directed at them or someone else to an administrator of the respective
 forum **and** the moderators.
 
-**Administrators** are primarily responsible for managing their fora in
+- **Administrators** are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of their disposition. For a
 Working Group, the chairs should perform moderation in a way that
 obviates the need for moderator team involvement.
 
-**Moderators** are responsible for establishing processes to
+- **Moderators** are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
 can use to address disruptive behavior.
 
-Moderators may take actions when administrators do not respond to
+  Moderators may take actions when administrators do not respond to
 reports in a timely fashion.  Their first action should generally be
 to attempt to contact and advise the relevant administrators.
 They should only take
@@ -287,17 +287,17 @@ moderators' judgement to determine when they must act, with the
 understanding that some situations may require fast responses.
 {{appeals}} discusses the handling of disagreements.
 
-Moderators are administrators for IETF
+  Moderators are administrators for IETF
 plenary fora, currently including the IETF discussion and last-call
 lists and any plenary chat sessions. They are also administrators for
 any forum that does not otherwise have an administrator.
 
-In order to scale the function, except for plenary fora as described
+  In order to scale the function, except for plenary fora as described
 above, moderators are not expected to always actively monitor
 all communications.  In general, they will process reports from
 participants.
 
-**Area Directors** are expected to resolve conflicts as described here and
+- **Area Directors** are expected to resolve conflicts as described here and
 in {{appeals}}.  The IESG is responsible for appointing and overseeing
 the moderator team, and approving guidance provided by that team.
 
