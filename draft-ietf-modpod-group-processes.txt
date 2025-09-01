@@ -180,7 +180,7 @@ Table of Contents
    moderation, where administrators review attempted participation
    before it occurs (such as reviewing messages to a mailing list), and
    _reactive_ moderation, where administrators intervene after
-   problematic participation has occurred.  The IETF historically mainly
+   disruptive participation has occurred.  The IETF historically mainly
    practiced reactive moderation, with a spectrum from gentle reminders
    on- and off-list, all the way to suspension of posting rights and
    other ways of participating or communicating.  It is up to the
@@ -278,7 +278,7 @@ Table of Contents
    respond to issues within a few hours.
 
    Team diversity is also important to ensure any participant observing
-   problematic behavior can identify a moderator they feel comfortable
+   disruptive behavior can identify a moderator they feel comfortable
    contacting.
 
 2.2.  Training
@@ -298,22 +298,21 @@ Table of Contents
    Different people have different responsibilities.
 
    *Participants* should always behave in a manner discussed in
-   Section 1.3.  They are also encouraged to report inappropriate
-   behavior directed at them or someone else to an administrator of the
+   Section 1.3.  They are also encouraged to report disruptive behavior
+   directed at them or someone else to an administrator of the
    respective forum *and* the moderators.
 
    *Administrators* are primarily responsible for managing their fora in
    accordance with guidance developed by the moderators and approved by
-   the IESG.  As such, they shall address reports of inappropriate
-   behavior in a timely fashion, apprising moderators of their
-   disposition.  For a Working Group, the chairs should perform
-   moderation in a way that obviates the need for moderator team
-   involvement.
+   the IESG.  As such, they shall address reports of disruptive behavior
+   in a timely fashion, apprising moderators of their disposition.  For
+   a Working Group, the chairs should perform moderation in a way that
+   obviates the need for moderator team involvement.
 
    *Moderators* are responsible for establishing processes to address
    moderation needs across all IETF fora, both present and future.  They
-   are a resource that the community can use to address problematic
-   contributions.
+   are a resource that the community can use to address disruptive
+   behavior.
 
    Moderators may take actions when administrators do not respond to
    reports in a timely fashion.  Their first action should generally be
@@ -392,12 +391,11 @@ Table of Contents
    periodically reported to the IESG, as well as immediately to those
    against whom those actions take effect.
 
-   To address inappropriate contributions in a timely manner, only
-   moderation actions suspending participation rights for longer than
-   fourteen (14) days shall be reported to the forum to which such an
-   action applies.  If such an action applies to more than one forum, it
-   should be communicated to the community in a manner decided by the
-   IESG.
+   To address disruptive behavior in a timely manner, only moderation
+   actions suspending participation rights for longer than fourteen (14)
+   days shall be reported to the forum to which such an action applies.
+   If such an action applies to more than one forum, it should be
+   communicated to the community in a manner decided by the IESG.
 
 4.1.  Consistency and Conflict Resolution
 
