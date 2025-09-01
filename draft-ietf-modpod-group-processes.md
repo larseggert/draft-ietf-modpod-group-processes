@@ -142,7 +142,7 @@ Note that the term "moderation" can refer both to *preemptive*
 moderation, where administrators review attempted participation before
 it occurs
 (such as reviewing messages to a mailing list), and *reactive* moderation,
-where administrators intervene after problematic participation has occurred.
+where administrators intervene after disruptive participation has occurred.
 The
 IETF historically mainly practiced reactive moderation, with a spectrum from
 gentle reminders on- and off-list, all the way to suspension of posting rights
@@ -238,7 +238,7 @@ throughout the year. Ideally, the moderators should be able to
 respond to issues within a few hours.
 
 Team diversity is also important to ensure any participant observing
-problematic behavior can identify a moderator they feel comfortable
+disruptive behavior can identify a moderator they feel comfortable
 contacting.
 
 ## Training
@@ -258,13 +258,13 @@ employ, such as GitHub repositories, Wikis, or issue trackers.
 Different people have different responsibilities.
 
 **Participants** should always behave in a manner discussed in
-{{genphil}}.  They are also encouraged to report inappropriate behavior
+{{genphil}}.  They are also encouraged to report disruptive behavior
 directed at them or someone else to an administrator of the respective
 forum **and** the moderators.
 
 **Administrators** are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
-the IESG. As such, they shall address reports of inappropriate behavior
+the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of their disposition. For a
 Working Group, the chairs should perform moderation in a way that
 obviates the need for moderator team involvement.
@@ -272,7 +272,7 @@ obviates the need for moderator team involvement.
 **Moderators** are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
-can use to address problematic contributions.
+can use to address disruptive behavior.
 
 Moderators may take actions when administrators do not respond to
 reports in a timely fashion.  Their first action should generally be
@@ -348,7 +348,7 @@ All moderation actions that restrict posting rights shall be
 periodically reported to the IESG,
 as well as immediately to those against whom those actions take effect.
 
-To address inappropriate contributions in a timely manner, only
+To address disruptive behavior in a timely manner, only
 moderation actions suspending participation rights for longer than
 fourteen (14) days shall be reported to the forum to which such an action applies.
 If such an action applies to more than one forum, it should be communicated to
