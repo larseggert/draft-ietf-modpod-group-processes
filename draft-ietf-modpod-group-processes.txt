@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                  1 September 2025
-Expires: 5 March 2026
+Intended status: Best Current Practice                  2 September 2025
+Expires: 6 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 March 2026.
+   This Internet-Draft will expire on 6 March 2026.
 
 Copyright Notice
 
@@ -313,7 +313,10 @@ Table of Contents
    *  *Moderators* are responsible for establishing processes to address
       moderation needs across all IETF fora, both present and future.
       They are a resource that the community can use to address
-      disruptive behavior.
+      disruptive behavior.  The moderator team is responsible to the
+      IESG.  The IESG may create or designate a forum to facilitate
+      discussion about moderation, and refer interested parties to that
+      forum.
 
       Moderators may take actions when administrators do not respond to
       reports in a timely fashion.  Their first action should generally
@@ -381,13 +384,9 @@ Table of Contents
    these or other actions.
 
    The expectation is that the minimal actions necessary will be taken.
-
-   Any attempt to circumvent or otherwise ignore a moderation action is
-   a demonstration of bad faith that may warrant further moderation.
-
-   The moderator team is responsible to the IESG.  The IESG may create
-   or designate a forum to facilitate discussion about moderation, and
-   refer interested parties to that forum.
+   Those who are directed to stop disrupting a forum must do so
+   immediately.  Further disruptions may lead to further corrective
+   actions.
 
    All moderation actions that restrict posting rights shall be
    periodically reported to the IESG, as well as immediately to those
