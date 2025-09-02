@@ -86,6 +86,7 @@ Table of Contents
      2.2.  Training
    3.  Scope and Responsibilities
      3.1.  Actions That Are Out of Scope
+     3.2.  Unsolicted Bulk Messages
    4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
      4.2.  Reinstatement
@@ -355,6 +356,14 @@ Table of Contents
    or policing of private or non-IETF communications, and redaction from
    IETF archives.
 
+3.2.  Unsolicted Bulk Messages
+
+   Unsolicited bulk messages are considered disruptive and should be
+   handled in a manner consistent with the IESG statement on IETF Spam
+   Control on IETF Mailing Lists[IESG-SPAM], or its successors.
+   Administrators may take similar actions in other fora (e.g., GitHub
+   or Instant Messaging).  Such actions require no additional reporting.
+
 4.  Moderation Procedures and Transparency
 
    Within the bounds of the policies set herein, and with the approval
@@ -542,6 +551,12 @@ Table of Contents
 9.  References
 
 9.1.  Normative References
+
+   [IESG-SPAM]
+              IESG, "IESG Statement on Spam Control on IETF Mailing
+              Lists", 18 April 2008, <https://datatracker.ietf.org/doc/
+              statement-iesg-iesg-statement-on-spam-control-on-ietf-
+              mailing-lists-20080414/>.
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -807,11 +822,6 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The moderator team's task consists of subjective judgement calls.
    Behaviors not listed here might require moderation, and it is not
    possible to write a complete list of all such behaviors.
-
-   Unsolicited bulk e-mail is considered disruptive, and thus within the
-   moderation scope, but actions taken against it are not considered
-   moderation actions and don't trigger a requirement for reporting the
-   action to the originator or to the IESG.
 
 Authors' Addresses
 
