@@ -273,6 +273,9 @@ obviates the need for moderator team involvement.
 address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
 can use to address disruptive behavior.
+The moderator team is responsible to the IESG.  The IESG
+may create or designate a forum to facilitate discussion about
+moderation, and refer interested parties to that forum.
 
   Moderators may take actions when administrators do not respond to
 reports in a timely fashion.  Their first action should generally be
@@ -336,13 +339,8 @@ prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
 The expectation is that the minimal actions necessary will be taken.
-
-Any attempt to circumvent or otherwise ignore a moderation action
-is a demonstration of bad faith that may warrant further moderation.
-
-The moderator team is responsible to the IESG.  The IESG
-may create or designate a forum to facilitate discussion about
-moderation, and refer interested parties to that forum.
+Those who are directed to stop disrupting a forum must do so immediately.
+Further disruptions may lead to further corrective actions.
 
 All moderation actions that restrict posting rights shall be
 periodically reported to the IESG,
