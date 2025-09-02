@@ -342,9 +342,17 @@ The expectation is that the minimal actions necessary will be taken.
 Those who are directed to stop disrupting a forum must do so immediately.
 Further disruptions may lead to further corrective actions.
 
-All moderation actions that restrict posting rights shall be
-periodically reported to the IESG,
-as well as immediately to those against whom those actions take effect.
+Administrators and moderators have discretion to block unsolicited bulk email.
+Such actions do not need to follow the reporting requirements set out below.
+
+Moderation actions that reject or discard subsequent messages shall be reported
+immediately to those against whom those actions take effect. The moderator team's
+public process documentation shall describe notification policy for actions that
+delay messages by holding them for approval. The moderation team are expected to
+process all held messages in a timely manner.
+
+All moderation actions in the above paragraph shall be periodically reported to
+the IESG, including any cases where the affected person was not notified.
 
 To address disruptive behavior in a timely manner, only
 moderation actions suspending participation rights for longer than
