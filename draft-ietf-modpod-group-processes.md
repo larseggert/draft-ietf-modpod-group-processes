@@ -646,7 +646,7 @@ subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
 
-# The risks of moderation: (self) censorship
+# The risks of moderation and (self) censorship
 
 There is a risk that the evolution of well-intended procedures
 established following this document gives rise to a regime
