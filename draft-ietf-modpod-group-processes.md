@@ -645,3 +645,23 @@ The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
+
+# The risks of moderation: (self) censorship
+
+There is a risk that the evolution of well-intended procedures
+established following this document gives rise to a regime
+where participants are censored, or feel that they are subject
+to an unreasonable censorship regime, or where participants
+self-censor in fear of being considered disruptive. That is a
+risk that the moderation team and the IESG need to always
+consider as procedures for handling disruption are developed
+and as those are operated.
+
+The goal is that participants always feel free to provide
+valuable technical input, even if that is perceived to be
+unwelcome or against the prevailing consensus, so long
+as it is provided in a manner that respects the overall goal
+of the IETF, which is to make a better Internet.  Participants
+are invited to comment on moderation processes and their
+attendant risks at any time to the IESG, the NOMCOM, the
+moderation team, or to broader community.
