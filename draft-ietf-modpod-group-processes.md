@@ -316,6 +316,14 @@ but are not limited to, datatracker account removal, in-person meeting
 registration, content removal or redaction, moderation or policing of
 private or non-IETF communications, and redaction from IETF archives.
 
+## Unsolicted Bulk Messages
+
+Unsolicited bulk messages are considered disruptive and should be handled in a
+manner consistent with the IESG statement on IETF Spam Control on IETF
+Mailing Lists{{IESG-SPAM}}, or its successors.  Administrators
+may take similar actions in other fora (e.g., GitHub or Instant Messaging).
+Such actions require no additional reporting.
+
 # Moderation Procedures and Transparency {#prod}
 
 Within the bounds of the policies set herein, and with the
@@ -639,9 +647,3 @@ The moderator team's task consists of
 subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
-
-Unsolicited bulk messages are considered disruptive and should be handled in a
-manner consistent with the IESG statement on IETF Spam Control on IETF
-Mailing Lists{{IESG-SPAM}}, or its successors.  Administrators
-may take similar actions in other fora (e.g., GitHub or Instant Messaging).
-Such actions require no additional reporting.
