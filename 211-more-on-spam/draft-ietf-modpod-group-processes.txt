@@ -86,6 +86,7 @@ Table of Contents
      2.2.  Training
    3.  Scope and Responsibilities
      3.1.  Actions That Are Out of Scope
+     3.2.  Unsolicted Bulk Messages
    4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
      4.2.  Reinstatement
@@ -351,6 +352,14 @@ Table of Contents
    person meeting registration, content removal or redaction, moderation
    or policing of private or non-IETF communications, and redaction from
    IETF archives.
+
+3.2.  Unsolicted Bulk Messages
+
+   Unsolicited bulk messages are considered disruptive and should be
+   handled in a manner consistent with the IESG statement on IETF Spam
+   Control on IETF Mailing Lists[IESG-SPAM], or its successors.
+   Administrators may take similar actions in other fora (e.g., GitHub
+   or Instant Messaging).  Such actions require no additional reporting.
 
 4.  Moderation Procedures and Transparency
 
@@ -814,12 +823,6 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The moderator team's task consists of subjective judgement calls.
    Behaviors not listed here might require moderation, and it is not
    possible to write a complete list of all such behaviors.
-
-   Unsolicited bulk messages are considered disruptive and should be
-   handled in a manner consistent with the IESG statement on IETF Spam
-   Control on IETF Mailing Lists[IESG-SPAM], or its successors.
-   Administrators may take similar actions in other fora (e.g., GitHub
-   or Instant Messaging).  Such actions require no additional reporting.
 
 Authors' Addresses
 
