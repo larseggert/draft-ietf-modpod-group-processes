@@ -497,6 +497,7 @@ These individuals contributed additional improvements:
 - Rich Salz
 - Robert Sayre
 - Brian Carpenter
+- Stephen Farrell
 
 --- back
 
