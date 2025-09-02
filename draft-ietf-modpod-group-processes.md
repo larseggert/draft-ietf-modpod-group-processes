@@ -379,17 +379,14 @@ per {{Section 6.5.2 of !RFC2026}}, and then if necessary to the IAB.
 ## Reinstatement
 
 People and circumstances change.  Individuals whose participation
-rights have been suspended from a forum may request
-reinstatement.
-Requests for reinstatement
-may be made only a year after the initial decision, and then
-only annually afterwards.
-
+rights have been suspended from a forum may request reinstatement.
 Any such request must be
 directed to the entity who made the decision (e.g., moderator team,
 working group chairs, etc.) or their successors.  That party may at
-their discretion
-reinstate someone, conditionally or unconditionally.
+their discretion reinstate someone, conditionally or unconditionally.
+Reinstatement requests will only be entertained every four months.  The
+moderation team may amend this timeframe as part of the procesess
+they develop.
 
 To avoid
 denial-of-service attacks on our processes, decisions to not reinstate
