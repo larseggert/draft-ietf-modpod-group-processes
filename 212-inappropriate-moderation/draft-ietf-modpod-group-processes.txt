@@ -115,7 +115,7 @@ Table of Contents
      A.12. Since draft-ecahc-moderation-01
    Appendix B.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
-   Appendix D.  The risks of moderation: (self) censorship
+   Appendix D.  The risks of moderation and (self) censorship
    Authors' Addresses
 
 1.  Introduction
@@ -824,7 +824,7 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    Behaviors not listed here might require moderation, and it is not
    possible to write a complete list of all such behaviors.
 
-Appendix D.  The risks of moderation: (self) censorship
+Appendix D.  The risks of moderation and (self) censorship
 
    There is a risk that the evolution of well-intended procedures
    established following this document gives rise to a regime where
