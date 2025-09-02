@@ -39,6 +39,12 @@ author:
     email: lear@lear.ch
 
 normative:
+  IESG-SPAM:
+    title: IESG Statement on Spam Control on IETF Mailing Lists
+    date: 2008-04-18
+    author:
+       - org: IESG
+    target: https://datatracker.ietf.org/doc/statement-iesg-iesg-statement-on-spam-control-on-ietf-mailing-lists-20080414/
 
 informative:
   AHP:
@@ -634,7 +640,8 @@ subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
 
-Unsolicited bulk e-mail is considered disruptive, and thus within the moderation
-scope, but actions taken against it are not considered moderation actions
-and don't trigger a requirement for reporting the action to the originator
-or to the IESG.
+Unsolicited bulk messages are considered disruptive and should be handled in a
+manner consistent with the IESG statement on IETF Spam Control on IETF
+Mailing Lists{{IESG-SPAM}}, or its successors.  Administrators
+may take similar actions in other fora (e.g., GitHub or Instant Messaging).
+Such actions require no additional reporting.
