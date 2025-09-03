@@ -96,7 +96,7 @@ This memo makes the following changes:
 
 - Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
   are replaced by procedures defined herein;
-- Obsoletes{{!RFC3934}} as it replaces working group moderation
+- Obsoletes {{!RFC3934}} as it replaces working group moderation
   procedures;
 - Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
   {{Section 4 of !RFC9245}}, as the moderator team replaces the
