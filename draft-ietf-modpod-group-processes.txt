@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                  2 September 2025
-Expires: 6 March 2026
+Intended status: Best Current Practice                  3 September 2025
+Expires: 7 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 March 2026.
+   This Internet-Draft will expire on 7 March 2026.
 
 Copyright Notice
 
@@ -129,7 +129,7 @@ Table of Contents
    *  Obsoletes [RFC3683] as the "posting rights" (PR) action it defines
       are replaced by procedures defined herein;
 
-   *  Obsoletes[RFC3934] as it replaces working group moderation
+   *  Obsoletes [RFC3934] as it replaces working group moderation
       procedures;
 
    *  Obsoletes Section 3 of [RFC9245] and the second paragraph of
