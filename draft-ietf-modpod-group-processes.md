@@ -379,7 +379,7 @@ per {{Section 6.5.2 of !RFC2026}}, and then if necessary to the IAB.
 ## Reinstatement
 
 People and circumstances change.  Individuals whose participation
-rights have been suspended from a forum may request
+rights have been indefinitely suspended from a forum may request
 reinstatement.
 Requests for reinstatement
 may be made only a year after the initial decision, and then
