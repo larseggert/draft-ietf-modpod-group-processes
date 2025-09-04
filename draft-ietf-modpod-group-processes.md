@@ -346,7 +346,8 @@ Examples of actions that could be taken include:
 - Automated rate limiting mechanisms;
 - Review and approval of submissions/messages;
 - A private or public admonishment;
-- Temporary or permanent suspension of participation rights in one or more fora.
+- Temporary or permanent suspension of participation privileges
+  in one or more fora.
 
 We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
@@ -356,12 +357,12 @@ The expectation is that the minimal actions necessary will be taken.
 Those who are directed to stop disrupting a forum must do so immediately.
 Further disruptions may lead to further corrective actions.
 
-All moderation actions that restrict posting rights shall be
+All moderation actions that restrict participation privileges shall be
 periodically reported to the IESG,
 as well as immediately to those against whom those actions take effect.
 
 To address disruptive behavior in a timely manner, only
-moderation actions suspending participation rights for longer than
+moderation actions suspending participation privileges for longer than
 fourteen (14) days shall be reported to the forum to which such an action applies.
 If such an action applies to more than one forum, it should be communicated to
 the community in a manner decided by the IESG.
@@ -379,7 +380,7 @@ per {{Section 6.5.2 of !RFC2026}}, and then if necessary to the IAB.
 ## Reinstatement
 
 People and circumstances change.  Individuals whose participation
-rights have been suspended from a forum may request
+privileges have been suspended from a forum may request
 reinstatement.
 Requests for reinstatement
 may be made only a year after the initial decision, and then
@@ -393,10 +394,10 @@ reinstate someone, conditionally or unconditionally.
 
 To avoid
 denial-of-service attacks on our processes, decisions to not reinstate
-someone's participation rights may not be appealed.
+someone's participation privileges may not be appealed.
 Any reinstatement is a grace and not a right.
 
-A suspension of participation rights imposed prior to this process shall be reconsidered only in
+A suspension of participation privileges imposed prior to this process shall be reconsidered only in
 accordance with the processes in place at the time of the suspension,
 even if the corresponding RFC has been formally obsoleted.
 
