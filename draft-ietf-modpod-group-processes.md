@@ -397,7 +397,8 @@ denial-of-service attacks on our processes, decisions to not reinstate
 someone's participation privileges may not be appealed.
 Any reinstatement is a grace and not a right.
 
-A suspension of participation privileges imposed prior to this process shall be reconsidered only in
+A suspension of participation privileges imposed prior to this process
+shall be reconsidered only in
 accordance with the processes in place at the time of the suspension,
 even if the corresponding RFC has been formally obsoleted.
 
