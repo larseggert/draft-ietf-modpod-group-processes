@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-02T00:24:12.003421+00:00",
+  "timestamp": "2025-09-04T00:22:41.223368+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3327,6 +3327,133 @@
           "body": "@sayrer Sorry, if we remove the \"primary\" we end up with a text conflict, in that we say in one place that moderators can act, and we imply here that they can't.  I'll cough up a PR.",
           "createdAt": "2025-09-01T08:37:34Z",
           "updatedAt": "2025-09-01T08:37:34Z"
+        }
+      ]
+    },
+    {
+      "number": 208,
+      "id": "I_kwDOJrr8CM7JKfRe",
+      "title": "Stephen Farrell Comments Part 2 (combined)",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/208",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Two messages from Stephen.  Will subdivide issues:\n\nHiya,\n\nI continued reading from section 4 on, I'll try to not\nrepeat any issues already raised. I do have one other\nissue to raise, that I'll do in a separate email as it's\nmaybe more controversial and less related to the text of\ndraft-10.\n\nCheers,\nS.\n\nNon-nits:\n\n- section 4: \"Any attempt to circumvent or otherwise ignore a moderation\naction is a demonstration of bad faith that may warrant further\nmoderation.\" - I think this is just wrong, one cannot know for sure\nsuch action is a demonstration of bad faith - it could be ignorance,\nor cultural. I think we want to say that decision makers can factor\nwhat they perceive as such efforts into future/additional decisions\nbut we don't need to say more.\n\n- 4.2: \"Requests for reinstatement may be made only a year after the\ninitial decision, and then only annually afterwards\" - anyone can\nask, any time, I think we want to say that decision makers can choose\nto take no action for a year after a decision, rather than say that\nsuch a request can't be made. Maybe also s/year/4 months/ as I\ndon't see why a year is a good choice and 3 times a year matches\nthe IETF cadence for various things and should be long enough for\nan otherwise reasonable person to have re-discovered \"comity\":-)\n\n- 5.2: The LLC frequently delete errata spam. Do we need to say\nanything related to that? I think the answer is \"no\" but forget\nif that was discussed. If we did want to say something it might\nbe along the lines of \"the LLC may operate policies they define\nfor handling spam in fora related to the IETF that are subject\nto injection of spam (e.g. current errata processing)\" but might\nbe better to say nothing as hopefully errata processing will be\nimproved soonish.\n\nNits:\n\n- section 4: \"comity\" - not a good word choice, as noted already:-)\n\n- 4.1: The appeals text is written as if this document is what sets\nour the moderation procedures, rather than this document tasking a\nteam to develop such procedures. The text is probably ok though but\nmaybe the editors might want to look at it another time in that light.\n\n- 4.2: \"grace\": more flowery language\n\n\nAlso:\n\nHiya,\n\nI do not think this WG or this draft is imposing a censorship\nregime. However, I do think that is a risk that we ought to\naddress.\n\nI suggest we add an Appendix D that says that, e.g. along the\nlines of:\n\n\"\nAppendix D: Risks related to better IETF community moderation\n\nThere is a risk that the evolution of well-intended procedures\nestablished following this document gives rise to a regime\nwhere participants are censored, or feel that they are subject\nto an unreasonable censorship regime, or where participants\nself-censor in fear of being considered disruptive. That is a\nreal risk that the moderation team, and the IESG, need to always\nconsider as procedures for handling disruption are developed\nand as those are operated.\n\nThe goal is that participants always feel free to provide\nvaluable technical input, even if that is unwelcome, so long\nas it is provided in a manner that respects the overall goal\nof the IETF, which is to make a better Internet.\n\"\n\nI don't care how that sentiment/constraint is expressed nor\nwhere, but I do think we ought say it directly somewhere.\n\nCheers,\nS.",
+      "createdAt": "2025-09-02T08:22:57Z",
+      "updatedAt": "2025-09-02T08:25:01Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Note that the nits have been separately addressed in other issues.",
+          "createdAt": "2025-09-02T08:25:01Z",
+          "updatedAt": "2025-09-02T08:25:01Z"
+        }
+      ]
+    },
+    {
+      "number": 209,
+      "id": "I_kwDOJrr8CM7JKf9w",
+      "title": "Circumvention",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/209",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "section 4: \"Any attempt to circumvent or otherwise ignore a moderation\naction is a demonstration of bad faith that may warrant further\nmoderation.\" - I think this is just wrong, one cannot know for sure\nsuch action is a demonstration of bad faith - it could be ignorance,\nor cultural. I think we want to say that decision makers can factor\nwhat they perceive as such efforts into future/additional decisions\nbut we don't need to say more.",
+      "createdAt": "2025-09-02T08:23:32Z",
+      "updatedAt": "2025-09-02T10:08:05Z",
+      "closedAt": "2025-09-02T10:08:05Z",
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "> one cannot know for sure\n> such action is a demonstration of bad faith - it could be ignorance,\n> or cultural\n\nI don't agree. If someone gets a note from the moderators saying \"you can't post to this list for X days because Y\", and then they go and make a new email address and post again, it's hard to think of how this could be ignorance or cultural.",
+          "createdAt": "2025-09-02T09:17:31Z",
+          "updatedAt": "2025-09-02T09:17:31Z"
+        }
+      ]
+    },
+    {
+      "number": 210,
+      "id": "I_kwDOJrr8CM7JKgdR",
+      "title": "Reinstatement",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/210",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From Stephen:\n\n- 4.2: \"Requests for reinstatement may be made only a year after the\ninitial decision, and then only annually afterwards\" - anyone can\nask, any time, I think we want to say that decision makers can choose\nto take no action for a year after a decision, rather than say that\nsuch a request can't be made. Maybe also s/year/4 months/ as I\ndon't see why a year is a good choice and 3 times a year matches\nthe IETF cadence for various things and should be long enough for\nan otherwise reasonable person to have re-discovered \"comity\":-) ",
+      "createdAt": "2025-09-02T08:24:00Z",
+      "updatedAt": "2025-09-02T09:19:42Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Does this matter?",
+          "createdAt": "2025-09-02T09:19:42Z",
+          "updatedAt": "2025-09-02T09:19:42Z"
+        }
+      ]
+    },
+    {
+      "number": 211,
+      "id": "I_kwDOJrr8CM7JKg4j",
+      "title": "more on spam",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/211",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From Stephen:\n\n- 5.2: The LLC frequently delete errata spam. Do we need to say\nanything related to that? I think the answer is \"no\" but forget\nif that was discussed. If we did want to say something it might\nbe along the lines of \"the LLC may operate policies they define\nfor handling spam in fora related to the IETF that are subject\nto injection of spam (e.g. current errata processing)\" but might\nbe better to say nothing as hopefully errata processing will be\nimproved soonish. ",
+      "createdAt": "2025-09-02T08:24:28Z",
+      "updatedAt": "2025-09-02T10:08:16Z",
+      "closedAt": "2025-09-02T10:08:16Z",
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I don't think we need to say anything about that. ",
+          "createdAt": "2025-09-02T09:21:25Z",
+          "updatedAt": "2025-09-02T09:21:25Z"
+        }
+      ]
+    },
+    {
+      "number": 212,
+      "id": "I_kwDOJrr8CM7JKkpt",
+      "title": "New text on addressing risk of malicious or inappropriate censorship",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/212",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I do not think this WG or this draft is imposing a censorship\nregime. However, I do think that is a risk that we ought to\naddress.\n\nI suggest we add an Appendix D that says that, e.g. along the\nlines of:\n\n\"\nAppendix D: Risks related to better IETF community moderation\n\nThere is a risk that the evolution of well-intended procedures\nestablished following this document gives rise to a regime\nwhere participants are censored, or feel that they are subject\nto an unreasonable censorship regime, or where participants\nself-censor in fear of being considered disruptive. That is a\nreal risk that the moderation team, and the IESG, need to always\nconsider as procedures for handling disruption are developed\nand as those are operated.\n\nThe goal is that participants always feel free to provide\nvaluable technical input, even if that is unwelcome, so long\nas it is provided in a manner that respects the overall goal\nof the IETF, which is to make a better Internet.\n\"\n\nI don't care how that sentiment/constraint is expressed nor\nwhere, but I do think we ought say it directly somewhere.",
+      "createdAt": "2025-09-02T08:27:38Z",
+      "updatedAt": "2025-09-02T20:09:45Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I fully disagree that this is a \"real risk\". It's at best hypothetical.",
+          "createdAt": "2025-09-02T09:22:10Z",
+          "updatedAt": "2025-09-02T09:22:10Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "It should go to the list. The challenge is that \"censorship\" must be balanced with \"entitlement\". So, if you're repeatedly saying something, maybe people just don't care! That's not an objection exactly, but it can be exhausting.",
+          "createdAt": "2025-09-02T20:09:45Z",
+          "updatedAt": "2025-09-02T20:09:45Z"
         }
       ]
     }
@@ -14505,6 +14632,396 @@
           "body": "",
           "createdAt": "2025-09-01T08:55:31Z",
           "updatedAt": "2025-09-01T08:55:31Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 213,
+      "id": "PR_kwDOJrr8CM6mZ8cQ",
+      "title": "get rid of bad faith",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/213",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #209\r\n\r\nAlso moves up some text about moderators being responsible to the IESG to the part where we describe the role of the moderator.",
+      "createdAt": "2025-09-02T08:51:22Z",
+      "updatedAt": "2025-09-02T10:08:06Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ef3f4a996c220357b6ec5c9244881b83a9beb04a",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "209-circumvention",
+      "headRefOid": "7cd1a5abf442a239dc36133d54699bece1f97be8",
+      "closedAt": "2025-09-02T10:08:05Z",
+      "mergedAt": "2025-09-02T10:08:05Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "5996d4f6bce405340a41c1c2b5187087b745b0dd"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69SKLP",
+          "commit": {
+            "abbreviatedOid": "7cd1a5a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-02T09:23:08Z",
+          "updatedAt": "2025-09-02T09:23:08Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 214,
+      "id": "PR_kwDOJrr8CM6man-f",
+      "title": "Spam spam spam spam",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/214",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #211 \r\n\r\nMakes consistent with existing IESG policy. Normative text.",
+      "createdAt": "2025-09-02T09:47:44Z",
+      "updatedAt": "2025-09-02T10:08:16Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ef3f4a996c220357b6ec5c9244881b83a9beb04a",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "211-more-on-spam",
+      "headRefOid": "0e152d2ac4bfd4faab632a2ddeca729073047858",
+      "closedAt": "2025-09-02T10:08:15Z",
+      "mergedAt": "2025-09-02T10:08:15Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "250a7a2eae541b89723160c0cea14feb307435a0"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69S32x",
+          "commit": {
+            "abbreviatedOid": "0e152d2"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-02T10:07:50Z",
+          "updatedAt": "2025-09-02T10:07:50Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 215,
+      "id": "PR_kwDOJrr8CM6mddw-",
+      "title": "rewrite, reducing minimum waiting time",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/215",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #210 ",
+      "createdAt": "2025-09-02T13:43:13Z",
+      "updatedAt": "2025-09-03T15:30:01Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "210-reinstatement",
+      "headRefOid": "b1b756728e7371fbe0376f94f00abd26ad0fd445",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69WDEH",
+          "commit": {
+            "abbreviatedOid": "b1b7567"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-02T13:51:33Z",
+          "updatedAt": "2025-09-02T13:51:33Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "I think we need to think about this a bit more.\n\nIf someone's posting rights have been suspended for some period, there is no need for letting them ask for reinstatement before that period is over. (We could even say they get automatically restored, but that is maybe a detail best left to the mod team.)\n\nIf someone's posting rights have been suspended _indefinitely_, then I think we should say after what time they can ask for reinstatement. (I personally think a year is fine.)",
+              "createdAt": "2025-09-02T13:51:33Z",
+              "updatedAt": "2025-09-02T13:51:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69l6-V",
+          "commit": {
+            "abbreviatedOid": "b1b7567"
+          },
+          "author": "nickhilliard",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-03T14:03:36Z",
+          "updatedAt": "2025-09-03T14:03:36Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "isn't this the point of a reinstatement request though, i.e. to request before the waiting period is over?",
+              "createdAt": "2025-09-03T14:03:36Z",
+              "updatedAt": "2025-09-03T14:03:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69m25e",
+          "commit": {
+            "abbreviatedOid": "b1b7567"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-03T14:56:14Z",
+          "updatedAt": "2025-09-03T14:56:14Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "I hope not? If someone has lost their posting rights for a period, under what conditions would they be reinstated early?",
+              "createdAt": "2025-09-03T14:56:14Z",
+              "updatedAt": "2025-09-03T14:56:14Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69nOXi",
+          "commit": {
+            "abbreviatedOid": "b1b7567"
+          },
+          "author": "nickhilliard",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-03T15:19:51Z",
+          "updatedAt": "2025-09-03T15:19:52Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "e.g. if they acknowledged the behaviour that led to the moderation action + committed to keep the peace.  Clemency is widely understood as being a reasonable thing across many cultures. Sometimes people have a bad day, or a bad week, but later climb down off their perch.\r\n\r\nSecondly, if the policy allows indefinite suspension but with the possibility of reinstatement, what does that mean? Is someone reinstated by default after a specific period of time if they ask, no strings attached?  In which case it's not clear what the practical difference is between a fixed suspension term, and indefinite suspension with automatic reinstatement.\r\n\r\nI.e. what's the strategy here? Should it be rules-based (i.e. hardline) or discretion-based (i.e. clemency)?\r\n",
+              "createdAt": "2025-09-03T15:19:52Z",
+              "updatedAt": "2025-09-03T15:19:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69nXf6",
+          "commit": {
+            "abbreviatedOid": "b1b7567"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-03T15:30:01Z",
+          "updatedAt": "2025-09-03T15:30:01Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "> e.g. if they acknowledged the behaviour that led to the moderation action + committed to keep the peace. \r\n\r\nPast experience is that participants who are able to self-regulate in this way never make it to the stage where their posting rights are suspended, i.e., whomever this applies to have been given chances like that and failed to take them.\r\n\r\n> Secondly, if the policy allows indefinite suspension but with the possibility of reinstatement, what does that mean?\r\n\r\nI don't think we want to allow this. That is what the original \"one year\" text was supposed to address.\r\n",
+              "createdAt": "2025-09-03T15:30:01Z",
+              "updatedAt": "2025-09-03T15:30:21Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 216,
+      "id": "PR_kwDOJrr8CM6md4wc",
+      "title": "add appendix about censorship/self-censorship",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/216",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #212 ",
+      "createdAt": "2025-09-02T14:14:35Z",
+      "updatedAt": "2025-09-02T14:39:15Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "212-inappropriate-moderation",
+      "headRefOid": "a7f445cfd72ace103851c6226d9a264353bd586f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert This conversation should move to the list.",
+          "createdAt": "2025-09-02T14:39:15Z",
+          "updatedAt": "2025-09-02T14:39:15Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69Wer5",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-02T14:16:47Z",
+          "updatedAt": "2025-09-02T14:16:48Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "```suggestion\nof the IETF, which is to make a better Internet. \n```\n\nNot sure we really need to say that people can talk about things.",
+              "createdAt": "2025-09-02T14:16:48Z",
+              "updatedAt": "2025-09-02T14:16:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69WgKw",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-02T14:17:58Z",
+          "updatedAt": "2025-09-02T14:17:58Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "```suggestion\nThere is a possibility that the evolution of well-intended procedures\n```",
+              "createdAt": "2025-09-02T14:17:58Z",
+              "updatedAt": "2025-09-02T14:17:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69WhPv",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-02T14:19:08Z",
+          "updatedAt": "2025-09-02T14:19:08Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "I don't think there is any risk or possibility that participants will be censored. Or rather, that they cannot say things they should be able to say.",
+              "createdAt": "2025-09-02T14:19:08Z",
+              "updatedAt": "2025-09-02T14:19:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69WiG-",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-02T14:20:02Z",
+          "updatedAt": "2025-09-02T14:20:03Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "I think the term `censorship` is entirely inappropriate here.",
+              "createdAt": "2025-09-02T14:20:02Z",
+              "updatedAt": "2025-09-02T14:20:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM69WvW9",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "sftcd",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-02T14:33:43Z",
+          "updatedAt": "2025-09-02T14:33:44Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "I'd say it's a very small risk, but could envisage a future where some ML system bounces messages that fail a sentiment analysis test of some sort that could well be described as censorship, were that done badly.",
+              "createdAt": "2025-09-02T14:33:43Z",
+              "updatedAt": "2025-09-02T14:33:44Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 217,
+      "id": "PR_kwDOJrr8CM6mqpHa",
+      "title": "(editorial) add space",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/217",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-09-03T14:35:41Z",
+      "updatedAt": "2025-09-03T14:55:19Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
+      "headRepository": "seanturner/draft-ietf-modpod-group-processes",
+      "headRefName": "patch-1",
+      "headRefOid": "055f575ec11427c9bf157320b197bce956e25aa2",
+      "closedAt": "2025-09-03T14:55:19Z",
+      "mergedAt": "2025-09-03T14:55:19Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "7ade5e72b905be6bc9d3768a26e2c9a339cff80c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69m1v0",
+          "commit": {
+            "abbreviatedOid": "055f575"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-03T14:55:02Z",
+          "updatedAt": "2025-09-03T14:55:02Z",
           "comments": []
         }
       ]
