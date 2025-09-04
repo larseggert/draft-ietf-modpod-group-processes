@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                  3 September 2025
-Expires: 7 March 2026
+Intended status: Best Current Practice                  4 September 2025
+Expires: 8 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 March 2026.
+   This Internet-Draft will expire on 8 March 2026.
 
 Copyright Notice
 
@@ -420,9 +420,9 @@ Table of Contents
 4.2.  Reinstatement
 
    People and circumstances change.  Individuals whose participation
-   rights have been suspended from a forum may request reinstatement.
-   Requests for reinstatement may be made only a year after the initial
-   decision, and then only annually afterwards.
+   rights have been indefinitely suspended from a forum may request
+   reinstatement.  Requests for reinstatement may be made only a year
+   after the initial decision, and then only annually afterwards.
 
    Any such request must be directed to the entity who made the decision
    (e.g., moderator team, working group chairs, etc.) or their
