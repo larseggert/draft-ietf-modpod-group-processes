@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                  1 September 2025
-Expires: 5 March 2026
+Intended status: Best Current Practice                  4 September 2025
+Expires: 8 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 March 2026.
+   This Internet-Draft will expire on 8 March 2026.
 
 Copyright Notice
 
@@ -86,6 +86,7 @@ Table of Contents
      2.2.  Training
    3.  Scope and Responsibilities
      3.1.  Actions That Are Out of Scope
+     3.2.  Unsolicted Bulk Messages
    4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
      4.2.  Reinstatement
@@ -128,7 +129,7 @@ Table of Contents
    *  Obsoletes [RFC3683] as the "posting rights" (PR) action it defines
       are replaced by procedures defined herein;
 
-   *  Obsoletes[RFC3934] as it replaces working group moderation
+   *  Obsoletes [RFC3934] as it replaces working group moderation
       procedures;
 
    *  Obsoletes Section 3 of [RFC9245] and the second paragraph of
@@ -180,7 +181,7 @@ Table of Contents
    moderation, where administrators review attempted participation
    before it occurs (such as reviewing messages to a mailing list), and
    _reactive_ moderation, where administrators intervene after
-   problematic participation has occurred.  The IETF historically mainly
+   disruptive participation has occurred.  The IETF historically mainly
    practiced reactive moderation, with a spectrum from gentle reminders
    on- and off-list, all the way to suspension of posting rights and
    other ways of participating or communicating.  It is up to the
@@ -278,7 +279,7 @@ Table of Contents
    respond to issues within a few hours.
 
    Team diversity is also important to ensure any participant observing
-   problematic behavior can identify a moderator they feel comfortable
+   disruptive behavior can identify a moderator they feel comfortable
    contacting.
 
 2.2.  Training
@@ -295,51 +296,55 @@ Table of Contents
    discussions in other systems that the IETF or WGs have chosen to
    employ, such as GitHub repositories, Wikis, or issue trackers.
 
-   Different people have different responsibilities.
+   Different people have different moderation responsibilities:
 
-   *Participants* should always behave in a manner discussed in
-   Section 1.3.  They are also encouraged to report inappropriate
-   behavior directed at them or someone else to an administrator of the
-   respective forum *and* the moderators.
+   *  *Participants* should always behave in a manner discussed in
+      Section 1.3.  They are also encouraged to report disruptive
+      behavior directed at them or someone else to an administrator of
+      the respective forum *and* the moderators.
 
-   *Administrators* are primarily responsible for managing their fora in
-   accordance with guidance developed by the moderators and approved by
-   the IESG.  As such, they shall address reports of inappropriate
-   behavior in a timely fashion, apprising moderators of their
-   disposition.  For a Working Group, the chairs should perform
-   moderation in a way that obviates the need for moderator team
-   involvement.
+   *  *Administrators* are primarily responsible for managing their fora
+      in accordance with guidance developed by the moderators and
+      approved by the IESG.  As such, they shall address reports of
+      disruptive behavior in a timely fashion, apprising moderators of
+      their disposition.  For a Working Group, the chairs should perform
+      moderation in a way that obviates the need for moderator team
+      involvement.
 
-   *Moderators* are responsible for establishing processes to address
-   moderation needs across all IETF fora, both present and future.  They
-   are a resource that the community can use to address problematic
-   contributions.
+   *  *Moderators* are responsible for establishing processes to address
+      moderation needs across all IETF fora, both present and future.
+      They are a resource that the community can use to address
+      disruptive behavior.  The moderator team is responsible to the
+      IESG.  The IESG may create or designate a forum to facilitate
+      discussion about moderation, and refer interested parties to that
+      forum.
 
-   Moderators may take actions when administrators do not respond to
-   reports in a timely fashion.  Their first action should generally be
-   to attempt to contact and advise the relevant administrators.  They
-   should only take moderation actions when administrators are not
-   responsive.  In particular, moderators should generally give WG
-   chairs the opportunity to manage what may be difficult and
-   contentious debates within their groups.  Within the bounds of this
-   principle, it is left to moderators' judgement to determine when they
-   must act, with the understanding that some situations may require
-   fast responses.  Section 4.1 discusses the handling of disagreements.
+      Moderators may take actions when administrators do not respond to
+      reports in a timely fashion.  Their first action should generally
+      be to attempt to contact and advise the relevant administrators.
+      They should only take moderation actions when administrators are
+      not responsive.  In particular, moderators should generally give
+      WG chairs the opportunity to manage what may be difficult and
+      contentious debates within their groups.  Within the bounds of
+      this principle, it is left to moderators' judgement to determine
+      when they must act, with the understanding that some situations
+      may require fast responses.  Section 4.1 discusses the handling of
+      disagreements.
 
-   Moderators are administrators for IETF plenary fora, currently
-   including the IETF discussion and last-call lists and any plenary
-   chat sessions.  They are also administrators for any forum that does
-   not otherwise have an administrator.
+      Moderators are administrators for IETF plenary fora, currently
+      including the IETF discussion and last-call lists and any plenary
+      chat sessions.  They are also administrators for any forum that
+      does not otherwise have an administrator.
 
-   In order to scale the function, except for plenary fora as described
-   above, moderators are not expected to always actively monitor all
-   communications.  In general, they will process reports from
-   participants.
+      In order to scale the function, except for plenary fora as
+      described above, moderators are not expected to always actively
+      monitor all communications.  In general, they will process reports
+      from participants.
 
-   *Area Directors* are expected to resolve conflicts as described here
-   and in Section 4.1.  The IESG is responsible for appointing and
-   overseeing the moderator team, and approving guidance provided by
-   that team.
+   *  *Area Directors* are expected to resolve conflicts as described
+      here and in Section 4.1.  The IESG is responsible for appointing
+      and overseeing the moderator team, and approving guidance provided
+      by that team.
 
 3.1.  Actions That Are Out of Scope
 
@@ -350,6 +355,14 @@ Table of Contents
    person meeting registration, content removal or redaction, moderation
    or policing of private or non-IETF communications, and redaction from
    IETF archives.
+
+3.2.  Unsolicted Bulk Messages
+
+   Unsolicited bulk messages are considered disruptive and should be
+   handled in a manner consistent with the IESG statement on IETF Spam
+   Control on IETF Mailing Lists[IESG-SPAM], or its successors.
+   Administrators may take similar actions in other fora (e.g., GitHub
+   or Instant Messaging).  Such actions require no additional reporting.
 
 4.  Moderation Procedures and Transparency
 
@@ -373,47 +386,37 @@ Table of Contents
 
    *  A private or public admonishment;
 
-   *  Temporary or permanent bans in one or more fora.
+   *  Temporary or permanent suspension of participation rights in one
+      or more fora.
 
    We stress that these are only examples, and not in any way
    prescriptive.  Administrators and moderators are free to decide on
    these or other actions.
 
    The expectation is that the minimal actions necessary will be taken.
-
-   Any attempt to circumvent or otherwise ignore a moderation action is
-   a demonstration of bad faith that may warrant further moderation.
-
-   The moderator team is responsible to the IESG.  The IESG may create
-   or designate a forum to facilitate discussion about moderation, and
-   refer interested parties to that forum.
+   Those who are directed to stop disrupting a forum must do so
+   immediately.  Further disruptions may lead to further corrective
+   actions.
 
    All moderation actions that restrict posting rights shall be
    periodically reported to the IESG, as well as immediately to those
    against whom those actions take effect.
 
-   To address inappropriate contributions in a timely manner, only
-   moderation actions suspending participation rights for longer than
-   fourteen (14) days shall be reported to the forum to which such an
-   action applies.  If such an action applies to more than one forum, it
-   should be communicated to the community in a manner decided by the
-   IESG.
+   To address disruptive behavior in a timely manner, only moderation
+   actions suspending participation rights for longer than fourteen (14)
+   days shall be reported to the forum to which such an action applies.
+   If such an action applies to more than one forum, it should be
+   communicated to the community in a manner decided by the IESG.
 
 4.1.  Consistency and Conflict Resolution
 
-   Administrators and moderators shall act in a manner consistent with
-   guidelines approved by the IESG.  In cases of disagreement between
-   the administrators and the moderator team over a moderation decision,
-   the matter should be taken up with the responsible area director for
-   resolution, or the IETF chair if a responsible area director cannot
-   be determined or is not assigned.
-
-   Because the moderator team serves at the discretion of the IESG, any
-   moderation decision can be appealed to the IESG by anyone, per
-   Section 6.5.2 of [RFC2026].  Disagreements with a decision by the
-   moderator team can be brought to their attention.  If this does not
-   lead to a resolution, a decision by the IESG can be appealed to the
-   IAB as described in Section 6.5.2 of [RFC2026].
+   Administrators and moderators shall act in a manner consistent this
+   memo and the guidelines approved by the IESG.  In cases of
+   disagreement over a moderation decision, anyone may take the matter
+   up with the responsible area director for resolution, or with the
+   IETF chair if a responsible area director cannot be determined or is
+   not assigned.  Further appeals may be made to the IESG per
+   Section 6.5.2 of [RFC2026], and then if necessary to the IAB.
 
 4.2.  Reinstatement
 
@@ -431,9 +434,10 @@ Table of Contents
    reinstate someone's participation rights may not be appealed.  Any
    reinstatement is a grace and not a right.
 
-   A ban imposed prior to this process shall be reconsidered only in
-   accordance with the processes in place at the time of the ban, even
-   if the corresponding RFC has been formally obsoleted.
+   A suspension of participation rights imposed prior to this process
+   shall be reconsidered only in accordance with the processes in place
+   at the time of the suspension, even if the corresponding RFC has been
+   formally obsoleted.
 
 5.  Relationship to other IETF functions
 
@@ -549,6 +553,12 @@ Table of Contents
 9.  References
 
 9.1.  Normative References
+
+   [IESG-SPAM]
+              IESG, "IESG Statement on Spam Control on IETF Mailing
+              Lists", 18 April 2008, <https://datatracker.ietf.org/doc/
+              statement-iesg-iesg-statement-on-spam-control-on-ietf-
+              mailing-lists-20080414/>.
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -814,11 +824,6 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The moderator team's task consists of subjective judgement calls.
    Behaviors not listed here might require moderation, and it is not
    possible to write a complete list of all such behaviors.
-
-   Unsolicited bulk e-mail is considered disruptive, and thus within the
-   moderation scope, but actions taken against it are not considered
-   moderation actions and don't trigger a requirement for reporting the
-   action to the originator or to the IESG.
 
 Authors' Addresses
 
