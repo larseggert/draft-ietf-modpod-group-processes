@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-04T00:22:41.223368+00:00",
+  "timestamp": "2025-09-07T00:25:46.943885+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2906,18 +2906,17 @@
       "id": "I_kwDOJrr8CM7InipK",
       "title": "Add sentence about fairness",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/184",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "needs-discussion",
-        "needs-pr"
+        "needs-discussion"
       ],
       "body": ">\n> - s1.1: \"decide which mix of preemptive and reactive moderation to\n> employ\" on it's face would allow a company-X administrator/moderator\n> to pre-emptively moderate all emails from any new posters from\n> company-Y. I think it's also an important part of the background that\n> we don't want that, so suggest adding a sentence about fairness/open-\n> ness etc. with some suitable reference. (I don't mind much which text\n> or reference and I'm sure the editors could find something fine.) \n\nSince all actions are appealable, this surely would be caught.  The higher level point here is that anyone including administrators can misbehave.  We just had an appeal here that tests whether that was the case.",
       "createdAt": "2025-08-29T07:33:59Z",
-      "updatedAt": "2025-09-01T08:21:31Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-05T06:25:50Z",
+      "closedAt": "2025-09-05T06:25:50Z",
       "comments": [
         {
           "author": "elear",
@@ -2946,6 +2945,13 @@
           "body": "I'm with @elear on closing this. The concern here is by no means limited to moderation (e.g., AD from org X and WG chair from org Y). ",
           "createdAt": "2025-09-01T08:21:31Z",
           "updatedAt": "2025-09-01T08:21:31Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@sftcd Propose to close this one.",
+          "createdAt": "2025-09-05T06:13:55Z",
+          "updatedAt": "2025-09-05T06:13:55Z"
         }
       ]
     },
@@ -3383,15 +3389,15 @@
       "id": "I_kwDOJrr8CM7JKgdR",
       "title": "Reinstatement",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/210",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "From Stephen:\n\n- 4.2: \"Requests for reinstatement may be made only a year after the\ninitial decision, and then only annually afterwards\" - anyone can\nask, any time, I think we want to say that decision makers can choose\nto take no action for a year after a decision, rather than say that\nsuch a request can't be made. Maybe also s/year/4 months/ as I\ndon't see why a year is a good choice and 3 times a year matches\nthe IETF cadence for various things and should be long enough for\nan otherwise reasonable person to have re-discovered \"comity\":-) ",
       "createdAt": "2025-09-02T08:24:00Z",
-      "updatedAt": "2025-09-02T09:19:42Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-04T09:38:50Z",
+      "closedAt": "2025-09-04T09:38:50Z",
       "comments": [
         {
           "author": "larseggert",
@@ -13789,13 +13795,13 @@
       ],
       "body": "Fixes #170",
       "createdAt": "2025-08-27T07:17:37Z",
-      "updatedAt": "2025-09-01T08:35:45Z",
+      "updatedAt": "2025-09-05T10:19:45Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "b1e0b0343ae2c10d0ed3c59ec53a84b04739f072",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "larseggert-patch-10",
-      "headRefOid": "6c217d852d95c4cd5ca47dde7a513d1fc1601446",
+      "headRefOid": "9b2415f702022eaad890723dec842dd50d83d32a",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -13814,6 +13820,55 @@
           "body": "This might make for a messy rebase.  I'm still not sure this is a good idea.  The issue here is that we've had moderator procuedures for a while, and people should get a quick summary of what's changing.  That might require a small touch up, but I think we need something at the front.",
           "createdAt": "2025-09-01T08:35:45Z",
           "updatedAt": "2025-09-01T08:35:45Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert propose to close.",
+          "createdAt": "2025-09-05T06:16:02Z",
+          "updatedAt": "2025-09-05T06:16:02Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@csperkins?",
+          "createdAt": "2025-09-05T06:27:12Z",
+          "updatedAt": "2025-09-05T06:27:12Z"
+        },
+        {
+          "author": "csperkins",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The suggested change looks good to me, and I would encourage you to apply it. The process nerdery of what's changed needs to be recorded, but putting it up-front gets in the way of the meaningful content.",
+          "createdAt": "2025-09-05T08:35:42Z",
+          "updatedAt": "2025-09-05T08:35:42Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@csperkins as a matter of practice in the IETF, when we update or obsolete RFCs we explain what's changing up front.",
+          "createdAt": "2025-09-05T08:38:43Z",
+          "updatedAt": "2025-09-05T08:38:43Z"
+        },
+        {
+          "author": "csperkins",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sometimes, sometimes not. I generally think it's a mistake when we lead with the history rather than the content.",
+          "createdAt": "2025-09-05T08:41:14Z",
+          "updatedAt": "2025-09-05T08:41:14Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I can live with moving #Background but the intro really should stay and I'm likely not the only one who thinks that way.",
+          "createdAt": "2025-09-05T08:45:32Z",
+          "updatedAt": "2025-09-05T08:45:32Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think @csperkins' proposal is OK. Let me update the PR so we see what that looks like.\r\n",
+          "createdAt": "2025-09-05T10:09:21Z",
+          "updatedAt": "2025-09-05T10:09:21Z"
         }
       ],
       "reviews": []
@@ -14725,25 +14780,40 @@
       "id": "PR_kwDOJrr8CM6mddw-",
       "title": "rewrite, reducing minimum waiting time",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/215",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Closes #210 ",
       "createdAt": "2025-09-02T13:43:13Z",
-      "updatedAt": "2025-09-03T15:30:01Z",
+      "updatedAt": "2025-09-04T09:41:45Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "210-reinstatement",
       "headRefOid": "b1b756728e7371fbe0376f94f00abd26ad0fd445",
-      "closedAt": null,
+      "closedAt": "2025-09-04T09:41:45Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I propose to close this PR as lacking consensus.",
+          "createdAt": "2025-09-04T07:11:52Z",
+          "updatedAt": "2025-09-04T07:11:52Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "How about an editorial change along these lines:\r\n>Individuals whose participation\r\nrights have been suspended **indefinitely** from a forum may request\r\nreinstatement.",
+          "createdAt": "2025-09-04T08:06:53Z",
+          "updatedAt": "2025-09-04T08:06:53Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM69WDEH",
@@ -14859,7 +14929,7 @@
       "labels": [],
       "body": "Closes #212 ",
       "createdAt": "2025-09-02T14:14:35Z",
-      "updatedAt": "2025-09-02T14:39:15Z",
+      "updatedAt": "2025-09-05T05:54:46Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
@@ -14979,6 +15049,66 @@
               "updatedAt": "2025-09-02T14:33:44Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6-Blxc",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-05T05:53:50Z",
+          "updatedAt": "2025-09-05T05:53:50Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "In an area in which people are worried about censorship, inviting comment is important.",
+              "createdAt": "2025-09-05T05:53:50Z",
+              "updatedAt": "2025-09-05T05:53:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6-Bl6O",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-05T05:54:10Z",
+          "updatedAt": "2025-09-05T05:54:10Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "Risk is the correct word here, IMHO.",
+              "createdAt": "2025-09-05T05:54:10Z",
+              "updatedAt": "2025-09-05T05:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6-BmJO",
+          "commit": {
+            "abbreviatedOid": "a7f445c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-05T05:54:46Z",
+          "updatedAt": "2025-09-05T05:54:46Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "I disagree.  That is in fact the risk.",
+              "createdAt": "2025-09-05T05:54:46Z",
+              "updatedAt": "2025-09-05T05:54:46Z"
+            }
+          ]
         }
       ]
     },
@@ -15022,6 +15152,92 @@
           "body": "",
           "createdAt": "2025-09-03T14:55:02Z",
           "updatedAt": "2025-09-03T14:55:02Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 218,
+      "id": "PR_kwDOJrr8CM6mzZvP",
+      "title": "indefinitely",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/218",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #210 \r\nAlternative to #215",
+      "createdAt": "2025-09-04T08:36:08Z",
+      "updatedAt": "2025-09-04T09:38:51Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "7ade5e72b905be6bc9d3768a26e2c9a339cff80c",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "larseggert-patch-2",
+      "headRefOid": "433af2f876dc0a553e09a4b2a547c5b2aaf577aa",
+      "closedAt": "2025-09-04T09:38:49Z",
+      "mergedAt": "2025-09-04T09:38:49Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "ddff5bcb0eba62f6fee2f27df74a3222ad014a45"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69ylFy",
+          "commit": {
+            "abbreviatedOid": "433af2f"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-04T09:04:40Z",
+          "updatedAt": "2025-09-04T09:04:40Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 219,
+      "id": "PR_kwDOJrr8CM6mzbTB",
+      "title": "suspension of participation privileges",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/219",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "ban -> suspension of participation rights",
+      "createdAt": "2025-09-04T08:38:09Z",
+      "updatedAt": "2025-09-04T09:41:27Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ddff5bcb0eba62f6fee2f27df74a3222ad014a45",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "larseggert-patch-3",
+      "headRefOid": "30c36b830573d6c3375b8a252ab0c9092c0a96b9",
+      "closedAt": "2025-09-04T09:41:25Z",
+      "mergedAt": "2025-09-04T09:41:25Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "e75b336a6e6753dab1955c8d590413f35b870eb9"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM69ymEd",
+          "commit": {
+            "abbreviatedOid": "471344e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-04T09:05:44Z",
+          "updatedAt": "2025-09-04T09:05:44Z",
           "comments": []
         }
       ]
