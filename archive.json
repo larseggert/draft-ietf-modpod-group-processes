@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-07T00:25:46.943885+00:00",
+  "timestamp": "2025-09-09T00:24:00.301406+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -13584,7 +13584,7 @@
       ],
       "body": "Fixes #158",
       "createdAt": "2025-08-27T06:58:18Z",
-      "updatedAt": "2025-08-27T07:25:04Z",
+      "updatedAt": "2025-09-08T09:49:11Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "b1e0b0343ae2c10d0ed3c59ec53a84b04739f072",
@@ -13602,6 +13602,20 @@
           "body": "I don't think we should make this change.  Otherwise we are splitting what is out of scope into two sections.",
           "createdAt": "2025-08-27T07:18:15Z",
           "updatedAt": "2025-08-27T07:18:15Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Propose to close.",
+          "createdAt": "2025-09-08T08:58:42Z",
+          "updatedAt": "2025-09-08T08:58:42Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@russhousley ?",
+          "createdAt": "2025-09-08T09:49:11Z",
+          "updatedAt": "2025-09-08T09:49:11Z"
         }
       ],
       "reviews": []
