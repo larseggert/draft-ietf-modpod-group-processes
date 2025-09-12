@@ -92,7 +92,9 @@ It creates a
 moderator team to develop procedures and to facilitate their consistent
 application.
 
-This memo makes the following changes:
+## Updates to IETF Processes
+
+This memo makes the following changes to existing processes:
 
 - Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
   are replaced by procedures defined herein;
@@ -147,7 +149,7 @@ list administrators and operate by a different set of processes
 Note that the term "moderation" can refer both to *preemptive*
 moderation, where administrators review attempted participation before
 it occurs
-(such as reviewing messages to a mailing list), and *reactive* moderation,
+(such as reviewing messages prior to posting to a mailing list), and *reactive* moderation,
 where administrators intervene after disruptive participation has occurred.
 The
 IETF historically mainly practiced reactive moderation, with a spectrum from
@@ -271,8 +273,12 @@ forum **and** the moderators.
 - **Administrators** are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
-in a timely fashion, apprising moderators of their disposition. For a
-Working Group, the chairs should perform moderation in a way that
+in a timely fashion, apprising moderators of reports or actions taken.
+
+  For a Working Group, the chairs are assumed to be adminstrators, though
+others might be assigned the role in addition to or in lieu of chairs
+with the assent of the responsible area director.
+Working Group fora administrators should perform moderation in a way that
 obviates the need for moderator team involvement.
 
 - **Moderators** are responsible for establishing processes to
@@ -374,8 +380,8 @@ consistent this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
 with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
-Further appeals may be made to the IESG
-per {{Section 6.5.2 of !RFC2026}}, and then if necessary to the IAB.
+Further appeals may be made to the IESG per {{Section 6.5.2 of !RFC2026}},
+which also includes the option of an appeal to the IAB.
 
 ## Reinstatement
 
