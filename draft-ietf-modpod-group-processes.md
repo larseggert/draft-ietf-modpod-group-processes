@@ -412,6 +412,14 @@ shall remain unchanged. Administrators and moderators should always
 report suspected harassment.  They should nonetheless take any
 necessary actions regarding disruptive behavior.
 
+If the ombudsteam is confidentially notified of unacceptable behavior
+on a public forum, they may notify the appropriate administrator about
+the concern and suggest a course of action. Administrators are
+encouraged to take ombudsteam concerns into consideration. The
+ombudsteam will clearly communicate whether their proposal is a
+non-binding suggestion or a formal Remedy as defined in
+{{Section 5 of RFC7776}}.
+
 ## Relation to the IETF LLC
 
 The Board of Directors of the IETF Administration LLC (IETF LLC) has
