@@ -214,11 +214,13 @@ introduction.
 
 ## Composition
 
-The moderator team initially consists of at least five
-individuals.  The IESG appoints and replaces moderators.
-In selecting members, the IESG will take into
-account geographic coverage, expected and unexpected absences, and
-team diversity.
+The moderator team consists of no less than five individuals.  The
+IESG appoints and recalls moderators.  In selecting members, the
+IESG will take into account geographic coverage, expected and
+unexpected absences, and team diversity.  From time to time, the
+size of the moderator team may fall below five owing to changes in
+membership, but the IESG will rapidly appoint new moderators to
+bring the size back up to five.
 
 The moderator team may expand or contract
 based on operational experience.  Apart from appointing and replacing
