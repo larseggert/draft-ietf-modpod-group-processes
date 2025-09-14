@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-09T00:24:00.301406+00:00",
+  "timestamp": "2025-09-14T00:25:19.146248+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3462,6 +3462,24 @@
           "updatedAt": "2025-09-02T20:09:45Z"
         }
       ]
+    },
+    {
+      "number": 221,
+      "id": "I_kwDOJrr8CM7LUa2r",
+      "title": "Announcements",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/221",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nSome lists (e.g. TLS) want to allow non-IETF announcements, if they are pre-approved\n\n**Describe the solution you'd like**\n>    *  Announcements of conferences, events, or activities that are not sponsored or endorsed by the Internet Society or IETF;\n>\n> Over in TLS, the chairs discussed this particular bullet a couple of months ago and while we don\u2019t want to get spammed we don\u2019t have a problem with announcements as long as they are pre-approved;\n\nThese bullet points are actually difficult to write. How about:\n\n\"Unauthorized announcements of conferences, events, or activities that are not sponsored or endorsed by the Internet Society or IETF;\"\n\nhttps://www.merriam-webster.com/dictionary/unauthorized\n\n**Describe alternatives you've considered**\n\"Unauthorized messages announcing conferences [...]\"\n\n**Additional context**\nNot attached to any wording here, just kind of a crummy issue of the wording \"Unauthorized announcement\" being read as a property of the announcement itself (like \"the conference authorized the announcement\"). So maybe something else would be better.",
+      "createdAt": "2025-09-12T16:23:24Z",
+      "updatedAt": "2025-09-12T16:23:24Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -15255,6 +15273,355 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 220,
+      "id": "PR_kwDOJrr8CM6oJ2KZ",
+      "title": "Some (mostly) editorial tweaks",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/220",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Take or leave as you see fit.  I'll add a bit of commentary as review comments.",
+      "createdAt": "2025-09-12T03:59:22Z",
+      "updatedAt": "2025-09-13T17:28:48Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "headRepository": "martinthomson/moderation",
+      "headRefName": "mt-edit",
+      "headRefOid": "dc998cf3db0b23e1354c77290f9d6499309f3db4",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6_mYF5",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "As noted, if you think that this isn't helpful, feel free to take what you like and discard the rest.",
+          "createdAt": "2025-09-12T03:59:46Z",
+          "updatedAt": "2025-09-12T04:03:46Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "It felt like this was worth a heading.",
+              "createdAt": "2025-09-12T03:59:46Z",
+              "updatedAt": "2025-09-12T04:03:46Z"
+            },
+            {
+              "originalPosition": 30,
+              "body": "This was assumed, but not explicit.  So I thought that it was worth documenting.  My understanding is that this is the currently accepted practice.",
+              "createdAt": "2025-09-12T04:01:05Z",
+              "updatedAt": "2025-09-12T04:03:46Z"
+            },
+            {
+              "originalPosition": 42,
+              "body": "This created the perception that this document was defining the appeal process, but it's just reusing the 2026 process.  Hopefully this just clarifies that the IAB appeal is just a feature of RFC 2026.",
+              "createdAt": "2025-09-12T04:02:16Z",
+              "updatedAt": "2025-09-12T04:03:46Z"
+            },
+            {
+              "originalPosition": 26,
+              "body": "The subject of the \"they\" in this sentence is the administrators.  But the subject of the \"their\" is the reports of disruptive behavior.  So I spelled it out.",
+              "createdAt": "2025-09-12T04:03:24Z",
+              "updatedAt": "2025-09-12T04:03:46Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6_3QV3",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "These changes LGTM",
+          "createdAt": "2025-09-12T22:09:48Z",
+          "updatedAt": "2025-09-12T22:09:48Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6_6ecy",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T07:03:40Z",
+          "updatedAt": "2025-09-13T07:03:40Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "What I want to avoid is reporters having to do a lot of digging to figure out who to report complaints to.  I think WG chairs cannot delegate the reporting aspect.",
+              "createdAt": "2025-09-13T07:03:40Z",
+              "updatedAt": "2025-09-13T07:03:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6_6ezP",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T07:05:13Z",
+          "updatedAt": "2025-09-13T07:05:13Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "ah.  this makes your suggestion above more clear.",
+              "createdAt": "2025-09-13T07:05:13Z",
+              "updatedAt": "2025-09-13T07:05:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6__y66",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T17:28:48Z",
+          "updatedAt": "2025-09-13T17:28:48Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "I don't like this one. It restates things in RFC 2418, and everything happens with the assent of the AD (whether explicit or just absent)",
+              "createdAt": "2025-09-13T17:28:48Z",
+              "updatedAt": "2025-09-13T17:28:48Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 222,
+      "id": "PR_kwDOJrr8CM6oVIwR",
+      "title": "Clarify relationship to IRTF",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/222",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on [the list dicussion](https://mailarchive.ietf.org/arch/msg/mod-discuss/DwGwGt0W-2FZ7pKX-WIKBjm42wY/), it sounds like the goal is for these policies to not apply to the IRTF. Let's make that crystal clear then.",
+      "createdAt": "2025-09-12T21:54:24Z",
+      "updatedAt": "2025-09-13T19:23:34Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
+      "headRefName": "clarify_irtf",
+      "headRefOid": "867b800044a16ba144efa84823847480c68f0773",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6_6fn8",
+          "commit": {
+            "abbreviatedOid": "7a0502e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T07:08:42Z",
+          "updatedAt": "2025-09-13T07:08:43Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I would leave the IRSG the option to apply these rules, should they choose to do so.",
+              "createdAt": "2025-09-13T07:08:42Z",
+              "updatedAt": "2025-09-13T07:08:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6__u7l",
+          "commit": {
+            "abbreviatedOid": "7a0502e"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T17:14:59Z",
+          "updatedAt": "2025-09-13T17:14:59Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Yeah, it seems a bit redundant. This part is already in there: \"a peer organization separate from the IETF that is governed by its own set or rules and processes.\"\r\n\r\nBut there is a typo! Should be \"its own set *of* rules and processes.\" Maybe it will read a bit easier with that fixed.",
+              "createdAt": "2025-09-13T17:14:59Z",
+              "updatedAt": "2025-09-13T17:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AAKBw",
+          "commit": {
+            "abbreviatedOid": "7a0502e"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T19:14:37Z",
+          "updatedAt": "2025-09-13T19:14:38Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Thanks. I've fixed the typo and mentioned that this is true at the time of publication but could change in the future",
+              "createdAt": "2025-09-13T19:14:38Z",
+              "updatedAt": "2025-09-13T19:14:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AALpj",
+          "commit": {
+            "abbreviatedOid": "7a0502e"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-13T19:23:34Z",
+          "updatedAt": "2025-09-13T19:23:34Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "OK, if you really feel strongly about this one, how about:\r\n\r\n\"The policies described here do not apply to IRTF fora such as research group mailing lists.  The\r\nIRSG may choose to change that in the future.\"\r\n\r\nSo, no \"at the time\" stuff. I would not add this text, but I do not feel strongly.",
+              "createdAt": "2025-09-13T19:23:34Z",
+              "updatedAt": "2025-09-13T19:23:34Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 223,
+      "id": "PR_kwDOJrr8CM6oVJxM",
+      "title": "Add communication from ombudsteam",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/223",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The draft does a good job of covering communications from the administrators to the ombudsteam, but I would suggest adding text about the inverse direction.\r\n\r\n_(David, writing as an individual)_",
+      "createdAt": "2025-09-12T21:58:10Z",
+      "updatedAt": "2025-09-12T21:58:11Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
+      "headRefName": "ombuds",
+      "headRefOid": "bfa296c75a0a6b59e6b932f9531a94422a2ba559",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 224,
+      "id": "PR_kwDOJrr8CM6oVNEW",
+      "title": "Reword composition text",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/224",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The composition text was somewhat unclear to me, and did not handle cases of resignations from the moderator team. The proposed new text attempts to resolve these issues while still providing the IESG with the flexibility to recall a moderator if needed.\r\n\r\nThis text was inspired by Section 3.1 of RFC 7776.",
+      "createdAt": "2025-09-12T22:08:20Z",
+      "updatedAt": "2025-09-12T22:08:21Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
+      "headRefName": "composition",
+      "headRefOid": "eb15258b1aa48e7e7927ba611d7177c49c9e60f7",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 225,
+      "id": "PR_kwDOJrr8CM6oa3Ev",
+      "title": "Attempt to address spt's comment on Announcements.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/225",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The TLS WG likes to allow pre-approved announcements. I'm sure there are other groups that do as well (DNS OARC, things like that).\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/lDBRz4iWw077lYYNCgZjClY6OXY/\r\n\r\nThis is my attempt, feel free to change the wording. Should close #221.",
+      "createdAt": "2025-09-13T16:17:08Z",
+      "updatedAt": "2025-09-13T16:25:26Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "announcements",
+      "headRefOid": "722e3e0242f6b66528538bc02f66572e71121b39",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 226,
+      "id": "PR_kwDOJrr8CM6oa5G1",
+      "title": "Address comments from Chris Box and Brian Carpenter regarding the first point in Appendix C",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/226",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "See the discussion here:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/t_lO3RgjlkeRztMb4NDh-kCzVRo/\r\n\r\nThis one is my fault, as I did indeed just copy/paste the old version from the IETF list policies.\r\n\r\nStephen Farrell raised the point that sometimes a group is chartered to define a charter, but I think we're still covered on that one, especially given the text on approved charters below.",
+      "createdAt": "2025-09-13T16:23:51Z",
+      "updatedAt": "2025-09-13T16:23:52Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "offtopic",
+      "headRefOid": "c8f92d48b5bed9349079b0ddc8b5a58396fb1e26",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
