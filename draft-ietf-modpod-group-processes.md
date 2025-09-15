@@ -626,8 +626,7 @@ ideal:
 The list below describes some types of disruptive behavior, but it
 is non-exhaustive.
 
-- Discussion of subjects unrelated to IETF policy, meetings,
-  activities, or technical concerns;
+- Discussion of subjects unrelated to a forum's charter or scope;
 
 - Uncivil commentary, regardless of the general subject;
 
