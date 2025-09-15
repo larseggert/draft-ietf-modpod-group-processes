@@ -529,7 +529,7 @@ These individuals contributed additional improvements:
 
 # Changes and Motivation
 
-{{#introduction}} summarized the process changes introduced by this memo.
+{{introduction}} summarized the process changes introduced by this memo.
 The remainder of this section discusses the background that let to them.
 
 ## Changes {#changes}
