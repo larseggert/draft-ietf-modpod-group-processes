@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                  4 September 2025
-Expires: 8 March 2026
+Intended status: Best Current Practice                 15 September 2025
+Expires: 19 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 March 2026.
+   This Internet-Draft will expire on 19 March 2026.
 
 Copyright Notice
 
@@ -804,8 +804,7 @@ Appendix C.  Non-Normative Examples of Disruptive Behavior
    The list below describes some types of disruptive behavior, but it is
    non-exhaustive.
 
-   *  Discussion of subjects unrelated to IETF policy, meetings,
-      activities, or technical concerns;
+   *  Discussion of subjects unrelated to a forum's charter or scope;
 
    *  Uncivil commentary, regardless of the general subject;
 
