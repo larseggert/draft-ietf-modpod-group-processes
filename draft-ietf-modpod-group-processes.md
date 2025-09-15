@@ -149,7 +149,8 @@ list administrators and operate by a different set of processes
 Note that the term "moderation" can refer both to *preemptive*
 moderation, where administrators review attempted participation before
 it occurs
-(such as reviewing messages prior to delivery to a mailing list), and *reactive* moderation,
+(such as reviewing messages prior to delivery to a mailing list), and
+*reactive* moderation,
 where administrators intervene after disruptive participation has occurred.
 The
 IETF historically mainly practiced reactive moderation, with a spectrum from
