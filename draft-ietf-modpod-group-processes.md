@@ -92,7 +92,7 @@ It creates a
 moderator team to develop procedures and to facilitate their consistent
 application.
 
-## Updates to IETF Processes
+This memo makes the following changes:
 
 This memo makes the following changes to existing processes:
 
