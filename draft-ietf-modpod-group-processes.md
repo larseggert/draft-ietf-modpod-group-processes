@@ -455,10 +455,8 @@ The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
 organization separate from the IETF that is governed by its own
 set of rules and processes. {{Sections 3, 6 and 7 of
 ?RFC9775}} discuss rules for participating
-in the IRTF and moderation of IRTF participation fora.  At the time
-of publication of this document, the policies described herein do
-not apply to IRTF fora such as research group mailing lists.  The
-IRSG may choose to change that in the future.
+in the IRTF and moderation of IRTF participation fora.
+The policies described in this memo do not apply to the IRTF.
 
 # Security Considerations
 
