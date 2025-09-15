@@ -630,8 +630,9 @@ is non-exhaustive.
 
 - Uncivil commentary, regardless of the general subject;
 
-- Announcements of conferences, events, or activities that are not
-  sponsored or endorsed by the Internet Society or IETF;
+- Messages announcing conferences, events, or activities
+  that are not sponsored or endorsed by the Internet Society or IETF,
+  unless posted with prior approval of list administrators;
 
 - Repeatedly arguing counter to a WG charter that has been approved by
   the IESG; and
