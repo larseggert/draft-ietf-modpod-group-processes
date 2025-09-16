@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-14T00:25:19.146248+00:00",
+  "timestamp": "2025-09-16T00:23:09.207248+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2479,15 +2479,15 @@
       "id": "I_kwDOJrr8CM7H-Tgy",
       "title": "Russ Housley WGLC comments",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/150",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "From Russ on list:\n\n```\nI support publication after the following concern is addressed.\n\nConcern: Section 4 opens with various moderation actions, but Section 4.1 only addresses bans.  No reinstatement is needed following a  private or public admonishment.  The subsection should be clear that it is only applies to bans.\n\nMinor suggestion: Break Section 3.1 into tow parts.  Mak e Section 3.2 about content removal.\n\nNit: Section 2.1: s/The moderators may decide to consult/The moderators may consult/\n```",
       "createdAt": "2025-08-26T10:04:11Z",
-      "updatedAt": "2025-08-26T10:04:11Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-15T08:58:11Z",
+      "closedAt": "2025-09-15T08:58:11Z",
       "comments": []
     },
     {
@@ -2632,15 +2632,17 @@
       "id": "I_kwDOJrr8CM7IKrOO",
       "title": "Break Section 3.1 into two parts",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/158",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "wontfix"
+      ],
       "body": "Minor suggestion: Break Section 3.1 into tow parts.  Make Section 3.2 about content removal.",
       "createdAt": "2025-08-27T06:56:07Z",
-      "updatedAt": "2025-09-01T10:23:06Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-15T08:57:51Z",
+      "closedAt": "2025-09-15T08:57:51Z",
       "comments": [
         {
           "author": "elear",
@@ -3468,7 +3470,7 @@
       "id": "I_kwDOJrr8CM7LUa2r",
       "title": "Announcements",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/221",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -3477,7 +3479,23 @@
       ],
       "body": "**Proposal**\nSome lists (e.g. TLS) want to allow non-IETF announcements, if they are pre-approved\n\n**Describe the solution you'd like**\n>    *  Announcements of conferences, events, or activities that are not sponsored or endorsed by the Internet Society or IETF;\n>\n> Over in TLS, the chairs discussed this particular bullet a couple of months ago and while we don\u2019t want to get spammed we don\u2019t have a problem with announcements as long as they are pre-approved;\n\nThese bullet points are actually difficult to write. How about:\n\n\"Unauthorized announcements of conferences, events, or activities that are not sponsored or endorsed by the Internet Society or IETF;\"\n\nhttps://www.merriam-webster.com/dictionary/unauthorized\n\n**Describe alternatives you've considered**\n\"Unauthorized messages announcing conferences [...]\"\n\n**Additional context**\nNot attached to any wording here, just kind of a crummy issue of the wording \"Unauthorized announcement\" being read as a property of the announcement itself (like \"the conference authorized the announcement\"). So maybe something else would be better.",
       "createdAt": "2025-09-12T16:23:24Z",
-      "updatedAt": "2025-09-12T16:23:24Z",
+      "updatedAt": "2025-09-15T07:51:32Z",
+      "closedAt": "2025-09-15T07:51:32Z",
+      "comments": []
+    },
+    {
+      "number": 227,
+      "id": "I_kwDOJrr8CM7LrCol",
+      "title": "IAB-, RSWG-, and Independent Stream-managed forums?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/227",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "(Aside: did my WGLC comment about whether this applies to IAB-, RSWG-, and Independent Stream-managed forums get captured somewhere?)\r\n\r\n_Originally posted by @csperkins in https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/222#discussion_r2348295668_\r\n            ",
+      "createdAt": "2025-09-15T09:20:24Z",
+      "updatedAt": "2025-09-15T09:20:24Z",
       "closedAt": null,
       "comments": []
     }
@@ -13055,7 +13073,7 @@
       ],
       "body": "Following the brief discussion in the WG meeting, I offered to propose new wording. While considering what to write here, I realised that it would be good to give moderators discretion to take a light-touch approach in borderline cases. For example if a particular post is in the grey area between civil and uncivil, it may be useful to place the sender in hold for moderation for a few days so that if a subsequent message crosses the line, it can be prevented from reaching the list.\r\n\r\nThe alternative is that we require moderators to always notify the affected person about holds. If we take this route, moderators are likely to refrain from taking action in borderline cases, and wait until the line has been crossed. In this scenario some damage (e.g. to newcomer participation) is incurred.\r\n\r\nI would appreciate WG thoughts on this wording.",
       "createdAt": "2025-07-23T09:24:58Z",
-      "updatedAt": "2025-08-27T07:25:03Z",
+      "updatedAt": "2025-09-15T17:15:30Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "72a119be908f9208b5b9179c2d1ed12ea683f9f8",
@@ -13080,6 +13098,13 @@
           "body": "Are people still interested in getting this merged, or can it be closed?",
           "createdAt": "2025-08-18T06:12:28Z",
           "updatedAt": "2025-08-18T06:12:28Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Unless someone updates this, I'll close soon.",
+          "createdAt": "2025-09-15T15:25:43Z",
+          "updatedAt": "2025-09-15T15:25:43Z"
         }
       ],
       "reviews": [
@@ -13120,6 +13145,26 @@
               "body": "Please rebase.",
               "createdAt": "2025-07-29T16:19:44Z",
               "updatedAt": "2025-07-29T16:19:44Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AQrCy",
+          "commit": {
+            "abbreviatedOid": "ed6765e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T17:15:30Z",
+          "updatedAt": "2025-09-15T17:15:30Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "@chris-box please rebase",
+              "createdAt": "2025-09-15T17:15:30Z",
+              "updatedAt": "2025-09-15T17:15:30Z"
             }
           ]
         }
@@ -13592,7 +13637,7 @@
       "id": "PR_kwDOJrr8CM6li1Ca",
       "title": "Split 3.1",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/160",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
@@ -13602,14 +13647,14 @@
       ],
       "body": "Fixes #158",
       "createdAt": "2025-08-27T06:58:18Z",
-      "updatedAt": "2025-09-08T09:49:11Z",
+      "updatedAt": "2025-09-15T08:57:20Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "b1e0b0343ae2c10d0ed3c59ec53a84b04739f072",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "larseggert-patch-5",
       "headRefOid": "9010b93d3936dc76073ab5aee64650a8e482cee9",
-      "closedAt": null,
+      "closedAt": "2025-09-15T08:57:20Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -13827,13 +13872,13 @@
       ],
       "body": "Fixes #170",
       "createdAt": "2025-08-27T07:17:37Z",
-      "updatedAt": "2025-09-05T10:19:45Z",
+      "updatedAt": "2025-09-15T17:13:47Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "larseggert-patch-10",
-      "headRefOid": "9b2415f702022eaad890723dec842dd50d83d32a",
+      "headRefOid": "310805150396db0f5439f74d25a5c6e36b2bd48f",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -13901,6 +13946,20 @@
           "body": "I think @csperkins' proposal is OK. Let me update the PR so we see what that looks like.\r\n",
           "createdAt": "2025-09-05T10:09:21Z",
           "updatedAt": "2025-09-05T10:09:21Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear are you OK with the latest version of this?",
+          "createdAt": "2025-09-15T15:16:40Z",
+          "updatedAt": "2025-09-15T15:16:40Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert please see my suggestions.",
+          "createdAt": "2025-09-15T17:13:47Z",
+          "updatedAt": "2025-09-15T17:13:47Z"
         }
       ],
       "reviews": []
@@ -14961,7 +15020,7 @@
       "labels": [],
       "body": "Closes #212 ",
       "createdAt": "2025-09-02T14:14:35Z",
-      "updatedAt": "2025-09-05T05:54:46Z",
+      "updatedAt": "2025-09-15T21:20:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
@@ -14979,6 +15038,48 @@
           "body": "@larseggert This conversation should move to the list.",
           "createdAt": "2025-09-02T14:39:15Z",
           "updatedAt": "2025-09-02T14:39:15Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I propose to close with no action here.",
+          "createdAt": "2025-09-15T15:25:08Z",
+          "updatedAt": "2025-09-15T15:25:08Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We need more input.  Rob, Stephen, and I think we need something...",
+          "createdAt": "2025-09-15T17:14:48Z",
+          "updatedAt": "2025-09-15T17:14:48Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We do need something, but \"censorship regime\" is over-the-top, and I would appeal it. So let's try rewording this one. Edit: I also do not think it needs to be an appendix. The text in RFC 2418 about a WG facilitator is close to what we want:\r\n\r\nhttps://www.rfc-editor.org/rfc/rfc2418.html#section-6.4",
+          "createdAt": "2025-09-15T20:22:03Z",
+          "updatedAt": "2025-09-15T20:37:27Z"
+        },
+        {
+          "author": "sftcd",
+          "authorAssociation": "NONE",
+          "body": "> We do need something, but \"censorship regime\" is ridiculous\r\n\r\nAs I pointed out above, an ML system could well introduce such a regime if done badly. I don't think that's at all ridiculous. Maybe we just agree to disagree about that (which is fine) but I don't know what other words would work instead TBH.",
+          "createdAt": "2025-09-15T20:38:21Z",
+          "updatedAt": "2025-09-15T20:38:21Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> > We do need something, but \"censorship regime\" is ridiculous\r\n> \r\n> As I pointed out above, an ML system could well introduce such a regime if done badly. I don't think that's at all ridiculous. Maybe we just agree to disagree about that (which is fine) but I don't know what other words would work instead TBH.\r\n\r\nI think we can find something. The danger is that it can sound clich\u00e9, like \"fascism is on the rise\". I definitely got that from the current text. ",
+          "createdAt": "2025-09-15T20:40:36Z",
+          "updatedAt": "2025-09-15T20:40:36Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> Participants must always feel free to provide valuable technical input, even if it is perceived to be unwelcome or against the prevailing consensus, so long as it is provided in a manner that respects the overall goal of the IETF, which is to make a better Internet.\r\n\r\nSomething like that (feel free to remix). Here we use \"must\" and avoid saying things like \"censorship regime\". That is the reason for the phrasing I used.",
+          "createdAt": "2025-09-15T20:48:11Z",
+          "updatedAt": "2025-09-15T21:20:41Z"
         }
       ],
       "reviews": [
@@ -15286,13 +15387,13 @@
       "labels": [],
       "body": "Take or leave as you see fit.  I'll add a bit of commentary as review comments.",
       "createdAt": "2025-09-12T03:59:22Z",
-      "updatedAt": "2025-09-13T17:28:48Z",
+      "updatedAt": "2025-09-15T16:30:41Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "baseRefOid": "9b44ea552523fd779f6b13c680d0f586b69e78a2",
       "headRepository": "martinthomson/moderation",
       "headRefName": "mt-edit",
-      "headRefOid": "dc998cf3db0b23e1354c77290f9d6499309f3db4",
+      "headRefOid": "4f20b3136ae451b78d511c1581c6e1b8ae8208b9",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -15343,7 +15444,7 @@
             "abbreviatedOid": "dc998cf"
           },
           "author": "DavidSchinazi",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "These changes LGTM",
           "createdAt": "2025-09-12T22:09:48Z",
@@ -15409,6 +15510,205 @@
               "updatedAt": "2025-09-13T17:28:48Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AGq-2",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:37:15Z",
+          "updatedAt": "2025-09-15T05:37:16Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\n(such as reviewing messages prior to delivery to a mailing list), and *reactive* moderation,\n```",
+              "createdAt": "2025-09-15T05:37:16Z",
+              "updatedAt": "2025-09-15T05:37:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AGrVP",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:37:55Z",
+          "updatedAt": "2025-09-15T05:37:56Z",
+          "comments": [
+            {
+              "originalPosition": 29,
+              "body": "```suggestion\nothers might be assigned the role in addition to or instead of chairs\n```",
+              "createdAt": "2025-09-15T05:37:55Z",
+              "updatedAt": "2025-09-15T05:37:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AGrjQ",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "LGTM modulo some nits.",
+          "createdAt": "2025-09-15T05:38:33Z",
+          "updatedAt": "2025-09-15T05:38:33Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIBzk",
+          "commit": {
+            "abbreviatedOid": "dc998cf"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T07:55:45Z",
+          "updatedAt": "2025-09-15T07:55:45Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "I'd like to leave this text as is, at least for now. We have other pending changes around this, I think.",
+              "createdAt": "2025-09-15T07:55:45Z",
+              "updatedAt": "2025-09-15T07:55:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIDx5",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T07:58:07Z",
+          "updatedAt": "2025-09-15T07:58:19Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIFCe",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Sorry- I was fast on the click there.  I'll add some comments to clarify",
+          "createdAt": "2025-09-15T07:59:36Z",
+          "updatedAt": "2025-09-15T07:59:36Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIG64",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T08:02:08Z",
+          "updatedAt": "2025-09-15T08:02:09Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nThis memo makes the following changes:\r\n```",
+              "createdAt": "2025-09-15T08:02:08Z",
+              "updatedAt": "2025-09-15T08:02:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIMXL",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T08:08:57Z",
+          "updatedAt": "2025-09-15T08:08:57Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "```suggestion\r\nFor a working group, chairs are assumed to be administrators.  While they may\r\ndevolve this responsibility, they must always make clear to complainants and\r\nmoderators  who is responsible for resolving a complaint in a timely fashion.\r\nForum administrators should perform moderation in a way that\r\n```",
+              "createdAt": "2025-09-15T08:08:57Z",
+              "updatedAt": "2025-09-15T08:08:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIO1U",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T08:12:11Z",
+          "updatedAt": "2025-09-15T08:12:11Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "Lint\r\n\r\n```suggestion\r\n(such as reviewing messages prior to delivery to a mailing list), and\r\n*reactive* moderation,\r\n```",
+              "createdAt": "2025-09-15T08:12:11Z",
+              "updatedAt": "2025-09-15T08:12:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7APAbS",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T15:15:04Z",
+          "updatedAt": "2025-09-15T15:15:05Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "Can we find a simpler word than `devolve`?\r\n\r\nMaybe\r\n```\r\nFor a working group, chairs are by default the administrators.  They may\r\ndelegate this responsibility, but it must always transparently communicated\r\nwho holds this role and is hence taking moderation actions on behalf of the chairs.\r\nForum administrators should perform moderation in a way that\r\n```",
+              "createdAt": "2025-09-15T15:15:05Z",
+              "updatedAt": "2025-09-15T15:15:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AQJNV",
+          "commit": {
+            "abbreviatedOid": "e514fe5"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T16:30:41Z",
+          "updatedAt": "2025-09-15T16:30:41Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "I think \"delegate\" is what's typically used here, at least in American English. This is a good explanation: https://hinative.com/questions/23265760",
+              "createdAt": "2025-09-15T16:30:41Z",
+              "updatedAt": "2025-09-15T16:30:41Z"
+            }
+          ]
         }
       ]
     },
@@ -15417,25 +15717,42 @@
       "id": "PR_kwDOJrr8CM6oVIwR",
       "title": "Clarify relationship to IRTF",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/222",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Based on [the list dicussion](https://mailarchive.ietf.org/arch/msg/mod-discuss/DwGwGt0W-2FZ7pKX-WIKBjm42wY/), it sounds like the goal is for these policies to not apply to the IRTF. Let's make that crystal clear then.",
       "createdAt": "2025-09-12T21:54:24Z",
-      "updatedAt": "2025-09-13T19:23:34Z",
+      "updatedAt": "2025-09-15T18:53:06Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "baseRefOid": "9b44ea552523fd779f6b13c680d0f586b69e78a2",
       "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
       "headRefName": "clarify_irtf",
-      "headRefOid": "867b800044a16ba144efa84823847480c68f0773",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "headRefOid": "0a77f51c4fcb513bd8d99f3ffdce86ce93c70555",
+      "closedAt": "2025-09-15T18:53:06Z",
+      "mergedAt": "2025-09-15T18:53:06Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "2c551e7dc9b72a8a8a843bb63afcce056f40fabd"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@csperkins ?",
+          "createdAt": "2025-09-14T06:39:14Z",
+          "updatedAt": "2025-09-14T06:39:14Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I accepted Lars's suggestion from Colin. That removes the ambiguity for me, so I'm happy with this",
+          "createdAt": "2025-09-15T18:37:41Z",
+          "updatedAt": "2025-09-15T18:37:41Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM6_6fn8",
@@ -15483,7 +15800,7 @@
             "abbreviatedOid": "7a0502e"
           },
           "author": "DavidSchinazi",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-09-13T19:14:37Z",
@@ -15516,6 +15833,159 @@
               "updatedAt": "2025-09-13T19:23:34Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AGnu-",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:28:45Z",
+          "updatedAt": "2025-09-15T05:28:45Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "I'm ambivalent about this. I think \"the IRTF is governed by its own rules\" already makes it clear enough this doc doesn't apply.",
+              "createdAt": "2025-09-15T05:28:45Z",
+              "updatedAt": "2025-09-15T05:28:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIxmK",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "csperkins",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T08:48:11Z",
+          "updatedAt": "2025-09-15T08:48:11Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "This can also be read as implying that the IRSG should choose to do so, which is debatable. If the existing text is unclear, I'd prefer to add \"The policies described in this memo do not apply to the IRTF.\" and nothing more.",
+              "createdAt": "2025-09-15T08:48:11Z",
+              "updatedAt": "2025-09-15T08:48:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIysA",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "csperkins",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T08:49:32Z",
+          "updatedAt": "2025-09-15T08:49:33Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "(Aside: did my WGLC comment about whether this applies to IAB-, RSWG-, and Independent Stream-managed forums get captured somewhere?)",
+              "createdAt": "2025-09-15T08:49:32Z",
+              "updatedAt": "2025-09-15T08:49:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AJPgz",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T09:20:45Z",
+          "updatedAt": "2025-09-15T09:20:45Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "It did now :-) #227 Sorry for missing it.",
+              "createdAt": "2025-09-15T09:20:45Z",
+              "updatedAt": "2025-09-15T09:20:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AJQGF",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "csperkins",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T09:21:32Z",
+          "updatedAt": "2025-09-15T09:21:32Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "No worries",
+              "createdAt": "2025-09-15T09:21:32Z",
+              "updatedAt": "2025-09-15T09:21:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AO3s2",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T15:06:06Z",
+          "updatedAt": "2025-09-15T15:06:06Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\nin the IRTF and moderation of IRTF participation fora.\nThe policies described in this memo do not apply to the IRTF.\n```\nI think this is the change @csperkins suggested.",
+              "createdAt": "2025-09-15T15:06:06Z",
+              "updatedAt": "2025-09-15T15:06:06Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ARZ-R",
+          "commit": {
+            "abbreviatedOid": "867b800"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T18:16:41Z",
+          "updatedAt": "2025-09-15T18:16:41Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "I still think this is redundant, but it's not something to argue about, as long as @DavidSchinazi also thinks it is ok.",
+              "createdAt": "2025-09-15T18:16:41Z",
+              "updatedAt": "2025-09-15T18:16:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ARy0b",
+          "commit": {
+            "abbreviatedOid": "0a77f51"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T18:52:35Z",
+          "updatedAt": "2025-09-15T18:52:35Z",
+          "comments": []
         }
       ]
     },
@@ -15524,26 +15994,95 @@
       "id": "PR_kwDOJrr8CM6oVJxM",
       "title": "Add communication from ombudsteam",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/223",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "DavidSchinazi",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "The draft does a good job of covering communications from the administrators to the ombudsteam, but I would suggest adding text about the inverse direction.\r\n\r\n_(David, writing as an individual)_",
       "createdAt": "2025-09-12T21:58:10Z",
-      "updatedAt": "2025-09-12T21:58:11Z",
+      "updatedAt": "2025-09-15T19:44:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
       "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
       "headRefName": "ombuds",
       "headRefOid": "bfa296c75a0a6b59e6b932f9531a94422a2ba559",
-      "closedAt": null,
+      "closedAt": "2025-09-15T19:44:05Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@peteresnick? (I assume this is the right GitHub ID, apologies if it is not.)",
+          "createdAt": "2025-09-15T05:23:19Z",
+          "updatedAt": "2025-09-15T05:23:19Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7AGmJH",
+          "commit": {
+            "abbreviatedOid": "bfa296c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:25:19Z",
+          "updatedAt": "2025-09-15T05:25:19Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "I'm not sure this is possible, given the \"cone of silence\" around the Ombudsteam.",
+              "createdAt": "2025-09-15T05:25:19Z",
+              "updatedAt": "2025-09-15T05:25:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ARAcq",
+          "commit": {
+            "abbreviatedOid": "bfa296c"
+          },
+          "author": "peteresnick",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T17:45:20Z",
+          "updatedAt": "2025-09-15T17:45:20Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "Yes, I think this would be a problem. If the ombudsteam is *confidentially* notified about some behavior that doesn't rise to the level of harassment, the ombudsteam can encourage the reporter to notify the chair/administrator, or the mod team in the alternative. If the reporter asks an ombudsperson to help out (maybe the reporter feels uncomfortable making the report), and the ombudsperson also believes that the behavior is disruptive, the ombudsperson can make a report to the chair/administrator/mod-team, but that's as an individual. The ombudsteam should not get into the business of being a conduit for reports that should have gone to the chair/administrator/mod-team in the first place, both because it will sound like it's coming from some level of authority (which the PR text seems to imply) and because it will end up with far too many reports to the ombudsteam.\r\n\r\nAside from that, the charter is quite clear: \"The revising or redefining of related Ombudsteam policies or practices such as [RFC7776](https://datatracker.ietf.org/doc/rfc7776/) [...] is out of scope.\" And the document even says quite clearly: \"Dealing with _disruptive_ behavior, however, is not part of the role of the ombudsteam.\"\r\n\r\nLet's not do this.",
+              "createdAt": "2025-09-15T17:45:20Z",
+              "updatedAt": "2025-09-15T17:45:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ASV-x",
+          "commit": {
+            "abbreviatedOid": "bfa296c"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T19:43:49Z",
+          "updatedAt": "2025-09-15T19:43:49Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "After thinking about this some more - and a very helpful offline conversation with Pete - I agree that this change isn't right. I'll close this PR.",
+              "createdAt": "2025-09-15T19:43:49Z",
+              "updatedAt": "2025-09-15T19:43:49Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 224,
@@ -15552,76 +16091,309 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/224",
       "state": "OPEN",
       "author": "DavidSchinazi",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "The composition text was somewhat unclear to me, and did not handle cases of resignations from the moderator team. The proposed new text attempts to resolve these issues while still providing the IESG with the flexibility to recall a moderator if needed.\r\n\r\nThis text was inspired by Section 3.1 of RFC 7776.",
       "createdAt": "2025-09-12T22:08:20Z",
-      "updatedAt": "2025-09-12T22:08:21Z",
+      "updatedAt": "2025-09-15T19:24:44Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
       "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
       "headRefName": "composition",
-      "headRefOid": "eb15258b1aa48e7e7927ba611d7177c49c9e60f7",
+      "headRefOid": "a3c980311741e9aaf0f997a1be279aa7a0a809b6",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7AGl5P",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:24:31Z",
+          "updatedAt": "2025-09-15T05:24:32Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "Would you mind restoring the original line breaks (as far as possible), so that the diff highlights actual changes?",
+              "createdAt": "2025-09-15T05:24:32Z",
+              "updatedAt": "2025-09-15T05:24:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AIVoI",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T08:18:35Z",
+          "updatedAt": "2025-09-15T08:18:36Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "We can't quite predict the future yet, regardless of what several RFCs might say.\r\n```suggestion\r\nmembership, but the IESG should endeavor to rapidly appoint\r\nnew moderators to\r\n```",
+              "createdAt": "2025-09-15T08:18:36Z",
+              "updatedAt": "2025-09-15T08:18:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AO8uR",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T15:11:12Z",
+          "updatedAt": "2025-09-15T15:11:12Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "Also, this makes a pretty significant change, in that it requires a floor of five, whereas the current text is about an initial size that might well drop below five if the IESG finds that useful. Because the current text talks about an initial size, it also does not talk about rapidly needing to find more people. I think that is a feature.",
+              "createdAt": "2025-09-15T15:11:12Z",
+              "updatedAt": "2025-09-15T15:11:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AQpGM",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T17:12:43Z",
+          "updatedAt": "2025-09-15T17:12:43Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "@DavidSchinazi is reacting (correctly, I think) to Chris Box's point that there needs to be a minimum of five moderators for the moderators' own sanity/avoidance of burnout.  I was concerned that we wouldn't get even five (it's probably not going to be a fun job- oh the glory!).  But Chris certainly won me over with his argument that we do at least need to start with five.",
+              "createdAt": "2025-09-15T17:12:43Z",
+              "updatedAt": "2025-09-15T17:12:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ARqlw",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T18:41:18Z",
+          "updatedAt": "2025-09-15T18:41:18Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "Done",
+              "createdAt": "2025-09-15T18:41:18Z",
+              "updatedAt": "2025-09-15T18:41:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ARsGH",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T18:43:03Z",
+          "updatedAt": "2025-09-15T18:43:03Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "If we just require an initial number of five, then the number could drop to three, and that could lead to burnout for a couple more, and all of a sudden we end up with one or zero moderators. I think we should strive to stay above five, to avoid burnout. The text is specifically worded to not be a hard floor, just a strong suggestion to the IESG",
+              "createdAt": "2025-09-15T18:43:03Z",
+              "updatedAt": "2025-09-15T18:43:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ASEoB",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T19:18:21Z",
+          "updatedAt": "2025-09-15T19:18:22Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "I think what we said at some point also was to let this number float based on operational experience.",
+              "createdAt": "2025-09-15T19:18:21Z",
+              "updatedAt": "2025-09-15T19:18:22Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ASIxy",
+          "commit": {
+            "abbreviatedOid": "eb15258"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T19:24:43Z",
+          "updatedAt": "2025-09-15T19:24:44Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "For the ombudsteam, the RFC floor was 3 but in practice we generally have 5 people these days. We could do the same here. But I do think having a floor is helpful. As someone who would consider putting my name in as a potential moderator - knowing that there's a sizable team to work with is quite important so I know I'm not signing up for an unbounded amount of work. I think a floor of 5 is reasonable personally",
+              "createdAt": "2025-09-15T19:24:43Z",
+              "updatedAt": "2025-09-15T19:24:44Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 225,
       "id": "PR_kwDOJrr8CM6oa3Ev",
       "title": "Attempt to address spt's comment on Announcements.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/225",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "sayrer",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "The TLS WG likes to allow pre-approved announcements. I'm sure there are other groups that do as well (DNS OARC, things like that).\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/lDBRz4iWw077lYYNCgZjClY6OXY/\r\n\r\nThis is my attempt, feel free to change the wording. Should close #221.",
       "createdAt": "2025-09-13T16:17:08Z",
-      "updatedAt": "2025-09-13T16:25:26Z",
+      "updatedAt": "2025-09-15T07:51:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
+      "baseRefOid": "7aa5bf28bc1e66bfc8f87215f1f33f0cde6ace49",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "announcements",
-      "headRefOid": "722e3e0242f6b66528538bc02f66572e71121b39",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "58e4b9d8514700763fb97eefe186917f4c45f8f3",
+      "closedAt": "2025-09-15T07:51:31Z",
+      "mergedAt": "2025-09-15T07:51:31Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "9b44ea552523fd779f6b13c680d0f586b69e78a2"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7AGp4p",
+          "commit": {
+            "abbreviatedOid": "722e3e0"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:33:45Z",
+          "updatedAt": "2025-09-15T05:33:45Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "\"Unauthorized\" here raises the question \"who can authorize\", so maybe\n\n```suggestion\n- Messages announcing conferences, events, or activities\n  that are not sponsored or endorsed by the Internet Society or IETF,\n  unless posted with prior approval of list administrators;\n```",
+              "createdAt": "2025-09-15T05:33:45Z",
+              "updatedAt": "2025-09-15T05:33:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AH-kI",
+          "commit": {
+            "abbreviatedOid": "58e4b9d"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T07:51:24Z",
+          "updatedAt": "2025-09-15T07:51:24Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 226,
       "id": "PR_kwDOJrr8CM6oa5G1",
       "title": "Address comments from Chris Box and Brian Carpenter regarding the first point in Appendix C",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/226",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "sayrer",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "See the discussion here:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/t_lO3RgjlkeRztMb4NDh-kCzVRo/\r\n\r\nThis one is my fault, as I did indeed just copy/paste the old version from the IETF list policies.\r\n\r\nStephen Farrell raised the point that sometimes a group is chartered to define a charter, but I think we're still covered on that one, especially given the text on approved charters below.",
       "createdAt": "2025-09-13T16:23:51Z",
-      "updatedAt": "2025-09-13T16:23:52Z",
+      "updatedAt": "2025-09-15T07:45:30Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
       "headRepository": "sayrer/draft-ietf-modpod-group-processes",
       "headRefName": "offtopic",
-      "headRefOid": "c8f92d48b5bed9349079b0ddc8b5a58396fb1e26",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "61f8b7d7d33727780cb99c155c25019687a1ef61",
+      "closedAt": "2025-09-15T07:45:30Z",
+      "mergedAt": "2025-09-15T07:45:30Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "7aa5bf28bc1e66bfc8f87215f1f33f0cde6ace49"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7AGqod",
+          "commit": {
+            "abbreviatedOid": "c8f92d4"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T05:36:06Z",
+          "updatedAt": "2025-09-15T05:36:06Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "This is not only for (working) groups, so we need to be a bit more general; maybe\n\n```suggestion\n- Discussion of subjects unrelated to a forum's charter or scope;\n```",
+              "createdAt": "2025-09-15T05:36:06Z",
+              "updatedAt": "2025-09-15T05:36:06Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7AH4Sg",
+          "commit": {
+            "abbreviatedOid": "61f8b7d"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T07:44:40Z",
+          "updatedAt": "2025-09-15T07:44:40Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
