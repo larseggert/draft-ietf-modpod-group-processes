@@ -276,10 +276,10 @@ accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 
-  For a Working Group, the chairs are assumed to be adminstrators, though
-others might be assigned the role in addition to or instead of chairs
-with the assent of the responsible area director.
-Working Group fora administrators should perform moderation in a way that
+For a working group, chairs are by default the administrators.  They may
+delegate this responsibility, but they must always accept, acknowledge,
+and keep track of complaints of disruptive behavior.
+Forum administrators should perform moderation in a way that
 obviates the need for moderator team involvement.
 
 - **Moderators** are responsible for establishing processes to
