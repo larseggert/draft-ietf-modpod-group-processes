@@ -92,7 +92,8 @@ It creates a
 moderator team to develop procedures and to facilitate their consistent
 application.
 
-This memo makes the following changes:
+This memo obsoletes and updates some prior IETF processes, summarized here
+and described in more detail in {{changes}}:
 
 - Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
   are replaced by procedures defined herein;
@@ -104,9 +105,6 @@ This memo makes the following changes:
 - Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
   now work together with working group chairs to moderate disruptive
   behavior.
-
-The details of each of these changes and the philosophy behind them
-are described below.
 
 ## Terminology Note
 
@@ -120,50 +118,6 @@ group chairs are administrators of all the public fora their WG
 uses, which typically includes mailing lists and chat groups, but might
 also include collaborative tools such as GitHub or GitLab. Another example
 of administrators are the "owners" of non-WG IETF mailing lists.
-
-## Background {#background}
-
-The IETF community has defined general guidelines for
-personal interactions in the IETF {{?RFC7154}}, and the IESG has
-defined an anti-harassment policy for the IETF {{AHP}} for which the IETF
-community has defined anti-harassment procedures {{!RFC7776}},
-empowering an ombudsteam {{OT}} to take necessary action.
-
-Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
-group with moderating their group's in-person meetings while
-{{!RFC3934}} provided chairs a procedure to help manage mailing
-lists. An IESG statement {{MODML}} described additional guidance
-to working group chairs about how — but not when — to moderate their
-lists.
-
-For IETF mailing lists not associated with a working group, another
-IESG statement {{DP}} clarifies that the IESG tasks list administrators
-with moderation. And the IETF list for general discussions
-has, mostly for historic reasons, a team of moderators that are not
-list administrators and operate by a different set of processes
-{{?RFC9245}}.
-
-Note that the term "moderation" can refer both to *preemptive*
-moderation, where administrators review attempted participation before
-it occurs
-(such as reviewing messages to a mailing list), and *reactive* moderation,
-where administrators intervene after disruptive participation has occurred.
-The
-IETF historically mainly practiced reactive moderation, with a spectrum from
-gentle reminders on- and off-list, all the way to suspension of posting rights
-and other ways of participating or communicating. It is up to the moderators
-and administrators
-to decide which mix of preemptive and reactive moderation to employ as
-part of their processes.
-
-In addition, {{?RFC3683}} defines a process for revoking an
-individual's posting rights to IETF mailing lists following a
-community last-call of a "posting rights" action (PR-action) proposed
-by the IESG, often in response to complaints from the community.
-
-Experience and community input suggests that an evolution of the
-existing processes is necessary (see {{motive}}).
 
 ## General Philosophy {#genphil}
 
@@ -503,7 +457,7 @@ These individuals contributed additional improvements:
 
 --- back
 
-# Changes
+# Change History of this I-D
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
@@ -574,7 +528,56 @@ These individuals contributed additional improvements:
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
   [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
 
-# Problems with the Previous Approach {#motive}
+# Changes and Motivation
+
+{{introduction}} summarized the process changes introduced by this memo.
+The remainder of this section discusses the background that let to them.
+
+## Changes {#changes}
+
+The IETF community has defined general guidelines for
+personal interactions in the IETF {{?RFC7154}}, and the IESG has
+defined an anti-harassment policy for the IETF {{AHP}} for which the IETF
+community has defined anti-harassment procedures {{!RFC7776}},
+empowering an ombudsteam {{OT}} to take necessary action.
+
+Dealing with *disruptive* behavior, however, is not part of the role
+of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
+group with moderating their group's in-person meetings while
+{{!RFC3934}} provided chairs a procedure to help manage mailing
+lists. An IESG statement {{MODML}} described additional guidance
+to working group chairs about how — but not when — to moderate their
+lists.
+
+For IETF mailing lists not associated with a working group, another
+IESG statement {{DP}} clarifies that the IESG tasks list administrators
+with moderation. And the IETF list for general discussions
+has, mostly for historic reasons, a team of moderators that are not
+list administrators and operate by a different set of processes
+{{?RFC9245}}.
+
+Note that the term "moderation" can refer both to *preemptive*
+moderation, where administrators review attempted participation before
+it occurs
+(such as reviewing messages to a mailing list), and *reactive* moderation,
+where administrators intervene after disruptive participation has occurred.
+The
+IETF historically mainly practiced reactive moderation, with a spectrum from
+gentle reminders on- and off-list, all the way to suspension of posting rights
+and other ways of participating or communicating. It is up to the moderators
+and administrators
+to decide which mix of preemptive and reactive moderation to employ as
+part of their processes.
+
+In addition, {{?RFC3683}} defines a process for revoking an
+individual's posting rights to IETF mailing lists following a
+community last-call of a "posting rights" action (PR-action) proposed
+by the IESG, often in response to complaints from the community.
+
+Experience and community input suggests that an evolution of the
+existing processes is necessary.
+
+## Problems with the Previous Approach {#motive}
 
 The previous approach to moderation of disruptive participation
 through chairs, list administrators, and moderator teams, combined
