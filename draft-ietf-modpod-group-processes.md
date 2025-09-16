@@ -125,13 +125,11 @@ The cornerstone of our philosophy is that individuals are responsible for
 furthering the goals of the IETF as an organization {{!RFC3935}}
 in a manner consistent with the policy laid out in {{!RFC7154}}.
 
-The IETF is an open standards organization.  Engaged, respectful
-discussion that is within the scope of a forum should not be considered disruptive,
-nor should someone be considered disruptive solely because they are outside the rough
-consensus.
-
 Disagreement and diverse points of view within any standards organization
-are to be expected, and are even healthy. However, when someone crosses the line
+are to be expected, and are even healthy.  The IETF is no exception.
+{{?RFC7282}} provides non-normative guidance on the consensus process.
+Engaged, respectful discussion that is within the scope of a forum is not
+disruptive.  However, when someone crosses the line
 into disruptive behavior, some action must be taken in order to maintain
 decorum of the community.
 
