@@ -502,15 +502,23 @@ Table of Contents
 
    *  Colin Perkins
 
+   *  David Schinazi
+
    *  Eric Rescorla
 
    *  Jay Daley
 
    *  Joel Halpern
 
+   *  John Klensin
+
    *  Melinda Shore
 
+   *  Martin Thomson
+
    *  Michael Richardson
+
+   *  Nick Hilliard
 
    *  Pete Resnick
 
@@ -520,7 +528,13 @@ Table of Contents
 
    *  Russ Housely
 
+   *  Sean Turner
+
+   *  Simon Josefsson
+
    *  Stephen Farrell
+
+   *  Ted Lemon
 
    *  Tim Bray
 
