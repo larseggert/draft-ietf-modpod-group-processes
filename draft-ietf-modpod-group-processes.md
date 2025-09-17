@@ -95,6 +95,8 @@ application.
 This memo obsoletes and updates some prior IETF processes, summarized here
 and described in more detail in {{changes}}:
 
+This memo makes the following changes to existing processes:
+
 - Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
   are replaced by procedures defined herein;
 - Obsoletes {{!RFC3934}} as it replaces working group moderation
@@ -225,8 +227,12 @@ forum **and** the moderators.
 - **Administrators** are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
-in a timely fashion, apprising moderators of their disposition. For a
-Working Group, the chairs should perform moderation in a way that
+in a timely fashion, apprising moderators of reports or actions taken.
+
+For a working group, chairs are by default the administrators.  They may
+delegate this responsibility, but they must always accept, acknowledge,
+and keep track of complaints of disruptive behavior.
+Forum administrators should perform moderation in a way that
 obviates the need for moderator team involvement.
 
 - **Moderators** are responsible for establishing processes to
@@ -328,8 +334,7 @@ consistent this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
 with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
-Further appeals may be made to the IESG
-per {{Section 6.5.2 of !RFC2026}}, and then if necessary to the IAB.
+Further appeals may be made to the IESG per {{Section 6.5.2 of !RFC2026}}.
 
 ## Reinstatement
 
