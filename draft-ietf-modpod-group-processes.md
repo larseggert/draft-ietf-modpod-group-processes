@@ -313,7 +313,8 @@ Further disruptions may lead to further corrective actions.
 
 All moderation actions that restrict participation privileges shall be
 periodically reported to the IESG,
-as well as immediately to those against whom those actions take effect.
+as well as immediately to the moderator team for their review, and to
+those against whom those actions take effect.
 
 To address disruptive behavior in a timely manner, only
 moderation actions suspending participation privileges for longer than
