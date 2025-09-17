@@ -221,7 +221,7 @@ account geographic coverage, expected and unexpected absences, and
 team diversity.
 
 The moderator team may expand or contract
-based on operational experience.  Apart from appointing and replacing
+based on operational experience.  Apart from appointing and recalling
 moderators, the IESG shall refrain from the day-to-day operation
 and management of the moderator team. The moderators may
 consult with the IESG when needed.
