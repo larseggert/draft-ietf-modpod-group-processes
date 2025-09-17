@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 16 September 2025
-Expires: 20 March 2026
+Intended status: Best Current Practice                 17 September 2025
+Expires: 21 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 March 2026.
+   This Internet-Draft will expire on 21 March 2026.
 
 Copyright Notice
 
@@ -127,6 +127,8 @@ Table of Contents
 
    This memo obsoletes and updates some prior IETF processes, summarized
    here and described in more detail in Appendix B.1:
+
+   This memo makes the following changes to existing processes:
 
    *  Obsoletes [RFC3683] as the "posting rights" (PR) action it defines
       are replaced by procedures defined herein;
@@ -266,9 +268,13 @@ Table of Contents
       in accordance with guidance developed by the moderators and
       approved by the IESG.  As such, they shall address reports of
       disruptive behavior in a timely fashion, apprising moderators of
-      their disposition.  For a Working Group, the chairs should perform
-      moderation in a way that obviates the need for moderator team
-      involvement.
+      reports or actions taken.
+
+   For a working group, chairs are by default the administrators.  They
+   may delegate this responsibility, but they must always accept,
+   acknowledge, and keep track of complaints of disruptive behavior.
+   Forum administrators should perform moderation in a way that obviates
+   the need for moderator team involvement.
 
    *  *Moderators* are responsible for establishing processes to address
       moderation needs across all IETF fora, both present and future.
@@ -375,7 +381,7 @@ Table of Contents
    up with the responsible area director for resolution, or with the
    IETF chair if a responsible area director cannot be determined or is
    not assigned.  Further appeals may be made to the IESG per
-   Section 6.5.2 of [RFC2026], and then if necessary to the IAB.
+   Section 6.5.2 of [RFC2026].
 
 4.2.  Reinstatement
 
