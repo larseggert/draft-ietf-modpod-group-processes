@@ -454,16 +454,23 @@ These individuals contributed additional improvements:
 - Brian Carpenter
 - Chris Box
 - Colin Perkins
+- David Schinazi
 - Eric Rescorla
 - Jay Daley
 - Joel Halpern
+- John Klensin
 - Melinda Shore
+- Martin Thomson
 - Michael Richardson
+- Nick Hilliard
 - Pete Resnick
 - Rich Salz
 - Robert Sayre
 - Russ Housely
+- Sean Turner
+- Simon Josefsson
 - Stephen Farrell
+- Ted Lemon
 - Tim Bray
 
 --- back
