@@ -163,15 +163,16 @@ Table of Contents
    for furthering the goals of the IETF as an organization [RFC3935] in
    a manner consistent with the policy laid out in [RFC7154].
 
-   The IETF is an open standards organization.  Engaged, respectful
-   discussion that is within the scope of a forum should not be
-   considered disruptive, nor should someone be considered disruptive
-   solely because they are outside the rough consensus.
-
    Disagreement and diverse points of view within any standards
-   organization are to be expected, and are even healthy.  However, when
-   someone crosses the line into disruptive behavior, some action must
-   be taken in order to maintain decorum of the community.
+   organization are to be expected, and are even healthy.  The IETF is
+   an open standards organization with a discussion-based rough
+   consensus process, a non-normative description of which is in
+   [RFC7282].  Engaged, respectful discussion that is within the scope
+   of an IETF forum should therefore not be considered disruptive, nor
+   should someone be considered disruptive solely because they are
+   outside the rough consensus.  However, when someone crosses the line
+   into disruptive behavior, some action must be taken in order to
+   maintain decorum of the community.
 
    The moderation policy goals are as follows:
 
@@ -585,6 +586,10 @@ Table of Contents
               Text on Security Considerations", BCP 72, RFC 3552,
               DOI 10.17487/RFC3552, July 2003,
               <https://www.rfc-editor.org/rfc/rfc3552>.
+
+   [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF",
+              RFC 7282, DOI 10.17487/RFC7282, June 2014,
+              <https://www.rfc-editor.org/rfc/rfc7282>.
 
    [RFC9775]  Perkins, C. S., "IRTF Code of Conduct", RFC 9775,
               DOI 10.17487/RFC9775, March 2025,
