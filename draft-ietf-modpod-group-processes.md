@@ -173,7 +173,7 @@ introduction.
 The IESG appoints and recalls moderators.
 The moderator team initially consists of no less than five individuals.  
 The moderator team may expand or contract
-based on operational experience. 
+based on operational experience.
 In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absences, and
 team diversity.
@@ -263,7 +263,7 @@ all communications.  In general, they will process reports from
 participants.
 
 - **Area Directors** are expected to resolve conflicts as described here and
-in {{appeals}}. Apart from appointing and replacing
+in {{appeals}}. Apart from appointing and recalling
 moderators, the IESG shall refrain from the day-to-day operation
 and management of the moderator team. The moderators may
 consult with the IESG when needed.
