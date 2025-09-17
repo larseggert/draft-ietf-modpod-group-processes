@@ -170,17 +170,13 @@ introduction.
 
 ## Composition
 
-The moderator team initially consists of at least five
-individuals.  The IESG appoints and replaces moderators.
+The IESG appoints and recalls moderators.
+The moderator team initially consists of no less than five individuals.  
+The moderator team may expand or contract
+based on operational experience. 
 In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absences, and
 team diversity.
-
-The moderator team may expand or contract
-based on operational experience.  Apart from appointing and replacing
-moderators, the IESG shall refrain from the day-to-day operation
-and management of the moderator team. The moderators may
-consult with the IESG when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
 decisions (see {{appeals}}), the IESG must not appoint a
@@ -267,7 +263,12 @@ all communications.  In general, they will process reports from
 participants.
 
 - **Area Directors** are expected to resolve conflicts as described here and
-in {{appeals}}.  The IESG is responsible for appointing and overseeing
+in {{appeals}}. Apart from appointing and replacing
+moderators, the IESG shall refrain from the day-to-day operation
+and management of the moderator team. The moderators may
+consult with the IESG when needed.
+
+ The IESG is responsible for appointing and overseeing
 the moderator team, and approving guidance provided by that team.
 
 ## Actions That Are Out of Scope
