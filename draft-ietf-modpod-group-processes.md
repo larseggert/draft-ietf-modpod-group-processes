@@ -171,7 +171,7 @@ introduction.
 ## Composition
 
 The IESG appoints and recalls moderators.
-The moderator team initially consists of no less than five individuals.  
+The moderator team initially consists of no less than five individuals.
 The moderator team may expand or contract
 based on operational experience.
 In selecting members, the IESG will take into
