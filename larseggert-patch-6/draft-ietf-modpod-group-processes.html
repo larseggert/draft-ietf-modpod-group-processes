@@ -9,27 +9,28 @@
 <meta content="Eliot Lear" name="author">
 <meta content="
        The IETF community will treat people with kindness and grace, but not endless patience. 
-       This memo describes the moderation of disruptive participation
+       This memo establishes a policy for the moderation of disruptive
+participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
-for moderation and a moderator team.  That team will develop a uniform
+for moderation and a moderator team.  That team will develop a
 set of guidelines and facilitate their consistent implementation with
 chairs and administrators. 
     " name="description">
-<meta content="xml2rfc 3.30.0" name="generator">
+<meta content="xml2rfc 3.30.1" name="generator">
 <meta content="draft-ietf-modpod-group-processes-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.30.0
+  xml2rfc 3.30.1
     Python 3.12.11
     ConfigArgParse 1.7
     google-i18n-address 3.1.1
     intervaltree 3.1.0
     Jinja2 3.1.6
     lxml 5.3.1
-    platformdirs 4.3.8
+    platformdirs 4.4.0
     pycountry 24.6.1
     PyYAML 6.0.2
-    requests 2.32.4
+    requests 2.32.5
     setuptools 80.9.0
     wcwidth 0.2.13
 -->
@@ -1050,11 +1051,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">IETF Community Moderation</td>
-<td class="right">August 2025</td>
+<td class="right">September 2025</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Eggert &amp; Lear</td>
-<td class="center">Expires 28 February 2026</td>
+<td class="center">Expires 21 March 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1073,12 +1074,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a>, <a href="https://www.rfc-editor.org/rfc/rfc9245" class="eref">9245</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2025-08-27" class="published">27 August 2025</time>
+<time datetime="2025-09-17" class="published">17 September 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-02-28">28 February 2026</time></dd>
+<dd class="expires"><time datetime="2026-03-21">21 March 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1098,10 +1099,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">The IETF community will treat people with kindness and grace, but not endless patience.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-<p id="section-abstract-2">This memo describes the moderation of disruptive participation
+<p id="section-abstract-2">This memo establishes a policy for the moderation of disruptive
+participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
-for moderation and a moderator team.  That team will develop a uniform
+for moderation and a moderator team.  That team will develop a
 set of guidelines and facilitate their consistent implementation with
 chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
@@ -1140,7 +1142,7 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 28 February 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 21 March 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1170,16 +1172,13 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
         </h2>
 <nav class="toc"><ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.1">
-            <p id="section-toc.1-1.1.1"><a href="#section-1" class="auto internal xref">1</a>.  <a href="#name-introduction" class="internal xref">Introduction</a></p>
+            <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="auto internal xref">1</a>.  <a href="#name-introduction" class="internal xref">Introduction</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.1.2.1">
-                <p id="section-toc.1-1.1.2.1.1" class="keepWithNext"><a href="#section-1.1" class="auto internal xref">1.1</a>.  <a href="#name-background" class="internal xref">Background</a></p>
+                <p id="section-toc.1-1.1.2.1.1" class="keepWithNext"><a href="#section-1.1" class="auto internal xref">1.1</a>.  <a href="#name-terminology-note" class="internal xref">Terminology Note</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.1.2.2">
                 <p id="section-toc.1-1.1.2.2.1" class="keepWithNext"><a href="#section-1.2" class="auto internal xref">1.2</a>.  <a href="#name-general-philosophy" class="internal xref">General Philosophy</a></p>
-</li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.1.2.3">
-                <p id="section-toc.1-1.1.2.3.1" class="keepWithNext"><a href="#section-1.3" class="auto internal xref">1.3</a>.  <a href="#name-terminology" class="internal xref">Terminology</a></p>
 </li>
             </ul>
 </li>
@@ -1203,7 +1202,10 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
             <p id="section-toc.1-1.3.1"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-scope-and-responsibilities" class="internal xref">Scope and Responsibilities</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.1">
-                <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-out-of-scope-non-ietf-fora-" class="internal xref">Out of Scope: Non-IETF Fora, Private Communications, and Content Removal</a></p>
+                <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-actions-that-are-out-of-sco" class="internal xref">Actions That Are Out of Scope</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2">
+                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="auto internal xref">3.2</a>.  <a href="#name-unsolicted-bulk-messages" class="internal xref">Unsolicted Bulk Messages</a></p>
 </li>
             </ul>
 </li>
@@ -1253,7 +1255,7 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
-            <p id="section-toc.1-1.10.1"><a href="#appendix-A" class="auto internal xref">Appendix A</a>.  <a href="#name-changes" class="internal xref">Changes</a></p>
+            <p id="section-toc.1-1.10.1"><a href="#appendix-A" class="auto internal xref">Appendix A</a>.  <a href="#name-change-history-of-this-i-d" class="internal xref">Change History of this I-D</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10.2.1">
                 <p id="section-toc.1-1.10.2.1.1"><a href="#appendix-A.1" class="auto internal xref">A.1</a>.  <a href="#name-since-draft-ietf-modpod-gro" class="internal xref">Since draft-ietf-modpod-group-processes-10</a></p>
@@ -1294,7 +1296,15 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11">
-            <p id="section-toc.1-1.11.1"><a href="#appendix-B" class="auto internal xref">Appendix B</a>.  <a href="#name-problems-with-the-previous-" class="internal xref">Problems with the Previous Approach</a></p>
+            <p id="section-toc.1-1.11.1"><a href="#appendix-B" class="auto internal xref">Appendix B</a>.  <a href="#name-changes-and-motivation" class="internal xref">Changes and Motivation</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11.2.1">
+                <p id="section-toc.1-1.11.2.1.1"><a href="#appendix-B.1" class="auto internal xref">B.1</a>.  <a href="#name-changes" class="internal xref">Changes</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11.2.2">
+                <p id="section-toc.1-1.11.2.2.1"><a href="#appendix-B.2" class="auto internal xref">B.2</a>.  <a href="#name-problems-with-the-previous-" class="internal xref">Problems with the Previous Approach</a></p>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12">
             <p id="section-toc.1-1.12.1"><a href="#appendix-C" class="auto internal xref">Appendix C</a>.  <a href="#name-non-normative-examples-of-d" class="internal xref">Non-Normative Examples of Disruptive Behavior</a></p>
@@ -1311,126 +1321,41 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">This memo describes the moderation of disruptive participation
+<p id="section-1-1">This memo establishes a policy for the moderation of disruptive
+participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
-moderator team to draft procedures and to facilitate their consistent
+moderator team to develop procedures and to facilitate their consistent
 application.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">This memo makes the following changes:<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-2">This memo obsoletes and updates some prior IETF processes, summarized here
+and described in more detail in <a href="#changes" class="auto internal xref">Appendix B.1</a>:<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">This memo makes the following changes to existing processes:<a href="#section-1-3" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-1-3.1">
-          <p id="section-1-3.1.1">Obsoletes <span>[<a href="#RFC3683" class="cite xref">RFC3683</a>]</span> as the "posting rights" (PR) action it defines
-are replaced by procedures defined herein;<a href="#section-1-3.1.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-1-4.1">
+          <p id="section-1-4.1.1">Obsoletes <span>[<a href="#RFC3683" class="cite xref">RFC3683</a>]</span> as the "posting rights" (PR) action it defines
+are replaced by procedures defined herein;<a href="#section-1-4.1.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-1-3.2">
-          <p id="section-1-3.2.1">Obsoletes<span>[<a href="#RFC3934" class="cite xref">RFC3934</a>]</span> as it replaces working group moderation
-procedures;<a href="#section-1-3.2.1" class="pilcrow">¶</a></p>
+        <li class="normal" id="section-1-4.2">
+          <p id="section-1-4.2.1">Obsoletes <span>[<a href="#RFC3934" class="cite xref">RFC3934</a>]</span> as it replaces working group moderation
+procedures;<a href="#section-1-4.2.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-1-3.3">
-          <p id="section-1-3.3.1">Obsoletes <span><a href="https://rfc-editor.org/rfc/rfc9245#section-3" class="relref">Section 3</a> of [<a href="#RFC9245" class="cite xref">RFC9245</a>]</span> and the second paragraph of
+        <li class="normal" id="section-1-4.3">
+          <p id="section-1-4.3.1">Obsoletes <span><a href="https://rfc-editor.org/rfc/rfc9245#section-3" class="relref">Section 3</a> of [<a href="#RFC9245" class="cite xref">RFC9245</a>]</span> and the second paragraph of
 <span><a href="https://rfc-editor.org/rfc/rfc9245#section-4" class="relref">Section 4</a> of [<a href="#RFC9245" class="cite xref">RFC9245</a>]</span>, as the moderator team replaces the
-IETF discussion list moderation team.<a href="#section-1-3.3.1" class="pilcrow">¶</a></p>
+IETF discussion list moderation team.<a href="#section-1-4.3.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-1-3.4">
-          <p id="section-1-3.4.1">Updates <span><a href="https://rfc-editor.org/rfc/rfc2418#section-6.1" class="relref">Section 6.1</a> of [<a href="#RFC2418" class="cite xref">RFC2418</a>]</span>, because the moderator team will
+        <li class="normal" id="section-1-4.4">
+          <p id="section-1-4.4.1">Updates <span><a href="https://rfc-editor.org/rfc/rfc2418#section-6.1" class="relref">Section 6.1</a> of [<a href="#RFC2418" class="cite xref">RFC2418</a>]</span>, because the moderator team will
 now work together with working group chairs to moderate disruptive
-behavior.<a href="#section-1-3.4.1" class="pilcrow">¶</a></p>
+behavior.<a href="#section-1-4.4.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-1-4">The details of each of these changes and the philosophy behind them
-are described below.<a href="#section-1-4" class="pilcrow">¶</a></p>
-<div id="background">
+<div id="terminology-note">
 <section id="section-1.1">
-        <h3 id="name-background">
-<a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-background" class="section-name selfRef">Background</a>
+        <h3 id="name-terminology-note">
+<a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-terminology-note" class="section-name selfRef">Terminology Note</a>
         </h3>
-<p id="section-1.1-1">The IETF community has defined general guidelines for
-personal interactions in the IETF <span>[<a href="#RFC7154" class="cite xref">RFC7154</a>]</span>, and the IESG has
-defined an anti-harassment policy for the IETF <span>[<a href="#AHP" class="cite xref">AHP</a>]</span> for which the IETF
-community has defined anti-harassment procedures <span>[<a href="#RFC7776" class="cite xref">RFC7776</a>]</span>,
-empowering an ombudsteam <span>[<a href="#OT" class="cite xref">OT</a>]</span> to take necessary action.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
-<p id="section-1.1-2">Dealing with <em>disruptive</em> behavior, however, is not part of the role
-of the ombudsteam. <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span> tasks the chairs of each IETF working
-group with moderating their group's in-person meetings while
-<span>[<a href="#RFC3934" class="cite xref">RFC3934</a>]</span> provided chairs a procedure to help manage mailing
-lists. An IESG statement <span>[<a href="#MODML" class="cite xref">MODML</a>]</span> described additional guidance
-to working group chairs about how — but not when — to moderate their
-lists.<a href="#section-1.1-2" class="pilcrow">¶</a></p>
-<p id="section-1.1-3">For IETF mailing lists not associated with a working group, another
-IESG statement <span>[<a href="#DP" class="cite xref">DP</a>]</span> clarifies that the IESG tasks list administrators
-with moderation. And the IETF list for general discussions
-has, mostly for historic reasons, a team of moderators that are not
-list administrators and operate by a different set of processes
-<span>[<a href="#RFC9245" class="cite xref">RFC9245</a>]</span>.<a href="#section-1.1-3" class="pilcrow">¶</a></p>
-<p id="section-1.1-4">Note that the term "moderation" can refer both to <em>preemptive</em>
-moderation, where moderators review attempted participation before it occurs
-(such as reviewing messages to a mailing list), and <em>reactive</em> moderation,
-where moderators intervene after problematic participation has occurred. The
-IETF historically mainly practiced reactive moderation, with a spectrum from
-gentle reminders on- and off-list, all the way to suspension of posting rights
-and other ways of participating or communicating. It is up to the moderators
-to decide which mix of preemptive and reactive moderation to employ as
-part of their processes.<a href="#section-1.1-4" class="pilcrow">¶</a></p>
-<p id="section-1.1-5">In addition, <span>[<a href="#RFC3683" class="cite xref">RFC3683</a>]</span> defines a process for revoking an
-individual's posting rights to IETF mailing lists following a
-community last-call of a "posting rights" action (PR-action) proposed
-by the IESG, often in response to complaints from the community.<a href="#section-1.1-5" class="pilcrow">¶</a></p>
-<p id="section-1.1-6">Experience and community input suggests that an evolution of the
-existing processes is necessary (see <a href="#motive" class="auto internal xref">Appendix B</a>).<a href="#section-1.1-6" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="genphil">
-<section id="section-1.2">
-        <h3 id="name-general-philosophy">
-<a href="#section-1.2" class="section-number selfRef">1.2. </a><a href="#name-general-philosophy" class="section-name selfRef">General Philosophy</a>
-        </h3>
-<p id="section-1.2-1">The cornerstone of our philosophy is first and foremost the individual, whose
-responsibility is to further the goals of the IETF as an organization <span>[<a href="#RFC3935" class="cite xref">RFC3935</a>]</span>
-in a manner consistent with the policy laid out in <span>[<a href="#RFC7154" class="cite xref">RFC7154</a>]</span>.<a href="#section-1.2-1" class="pilcrow">¶</a></p>
-<p id="section-1.2-2">The IETF is an open standards organization.  Engaged, respectful
-discussion that is within the scope of a forum should not be considered disruptive,
-nor should someone be considered disruptive solely because they are outside the rough
-consensus.<a href="#section-1.2-2" class="pilcrow">¶</a></p>
-<p id="section-1.2-3">Disagreement and diverse points of view within any standards organization
-are to be expected, and are even healthy. However, when someone crosses the line
-into disruptive behavior, some action must be taken in order to maintain
-decorum of the community.<a href="#section-1.2-3" class="pilcrow">¶</a></p>
-<p id="section-1.2-4">The moderation policy goals are as follows:<a href="#section-1.2-4" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-1.2-5.1">
-            <p id="section-1.2-5.1.1">Apply consistent, fair, and timely moderation of communication across all public
-IETF participation channels and participation fora;
-without regard to one's position or previous contributions;<a href="#section-1.2-5.1.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.2-5.2">
-            <p id="section-1.2-5.2.1">Appeals are available to address disagreements about moderation actions;<a href="#section-1.2-5.2.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.2-5.3">
-            <p id="section-1.2-5.3.1">Balance transparency against both privacy of individuals involved and further
-disruption to the community;<a href="#section-1.2-5.3.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.2-5.4">
-            <p id="section-1.2-5.4.1">Allow moderation decisions to be reconsidered; and<a href="#section-1.2-5.4.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.2-5.5">
-            <p id="section-1.2-5.5.1">Provide the broadest possible latitude to all people doing moderation, so
-that they have the flexibility to address a broad range of individuals
-and circumstances.<a href="#section-1.2-5.5.1" class="pilcrow">¶</a></p>
-</li>
-        </ul>
-<p id="section-1.2-6">Questions about processes detailed below should be answered through the lens
-of these aims.<a href="#section-1.2-6" class="pilcrow">¶</a></p>
-<p id="section-1.2-7">The goal is explicitly <strong>not</strong> punishment, but to maintain an open, welcoming,
-non-hostile environment in which all may participate on an equal footing,
-regardless of their position or past contributions.<a href="#section-1.2-7" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="terminology">
-<section id="section-1.3">
-        <h3 id="name-terminology">
-<a href="#section-1.3" class="section-number selfRef">1.3. </a><a href="#name-terminology" class="section-name selfRef">Terminology</a>
-        </h3>
-<p id="section-1.3-1">Below we use the term "administrator" to refer to the people who
+<p id="section-1.1-1">Below we use the term "administrator" to refer to the people who
 are assigned by the IESG to manage a particular public participation
 channel or discussion forum. This document uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
@@ -1439,7 +1364,57 @@ GitLab. For example, working
 group chairs are administrators of all the public fora their WG
 uses, which typically includes mailing lists and chat groups, but might
 also include collaborative tools such as GitHub or GitLab. Another example
-of administrators are the "owners" of non-WG IETF mailing lists.<a href="#section-1.3-1" class="pilcrow">¶</a></p>
+of administrators are the "owners" of non-WG IETF mailing lists.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="genphil">
+<section id="section-1.2">
+        <h3 id="name-general-philosophy">
+<a href="#section-1.2" class="section-number selfRef">1.2. </a><a href="#name-general-philosophy" class="section-name selfRef">General Philosophy</a>
+        </h3>
+<p id="section-1.2-1">The cornerstone of our philosophy is that individuals are responsible for
+furthering the goals of the IETF as an organization <span>[<a href="#RFC3935" class="cite xref">RFC3935</a>]</span>
+in a manner consistent with the policy laid out in <span>[<a href="#RFC7154" class="cite xref">RFC7154</a>]</span>.<a href="#section-1.2-1" class="pilcrow">¶</a></p>
+<p id="section-1.2-2">Disagreement and diverse points of view within any standards organization
+are to be expected, and are even healthy.
+The IETF is an open standards organization with a discussion-based rough
+consensus process, a non-normative description of which is in <span>[<a href="#RFC7282" class="cite xref">RFC7282</a>]</span>.
+Engaged, respectful discussion that is within the scope of an IETF forum
+should therefore not be considered disruptive,
+nor should someone be considered disruptive solely because they are outside
+the rough consensus.
+However, when someone crosses the line
+into disruptive behavior, some action must be taken in order to maintain
+decorum of the community.<a href="#section-1.2-2" class="pilcrow">¶</a></p>
+<p id="section-1.2-3">The moderation policy goals are as follows:<a href="#section-1.2-3" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-1.2-4.1">
+            <p id="section-1.2-4.1.1">Apply consistent, fair, and timely moderation of communication across all public
+IETF participation channels and participation fora
+without regard to a participant's role in the IETF or previous technical
+contributions;<a href="#section-1.2-4.1.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-1.2-4.2">
+            <p id="section-1.2-4.2.1">Appeals are available to address disagreements about moderation actions;<a href="#section-1.2-4.2.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-1.2-4.3">
+            <p id="section-1.2-4.3.1">Balance transparency against both privacy of individuals involved and further
+disruption to the community;<a href="#section-1.2-4.3.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-1.2-4.4">
+            <p id="section-1.2-4.4.1">Allow moderation decisions to be reconsidered; and<a href="#section-1.2-4.4.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-1.2-4.5">
+            <p id="section-1.2-4.5.1">Provide the broadest possible latitude to all people doing moderation, so
+that they have the flexibility to address a broad range of individuals
+and circumstances.<a href="#section-1.2-4.5.1" class="pilcrow">¶</a></p>
+</li>
+        </ul>
+<p id="section-1.2-5">Questions about processes detailed below should be answered through the lens
+of these aims.<a href="#section-1.2-5" class="pilcrow">¶</a></p>
+<p id="section-1.2-6">The goal is explicitly <strong>not</strong> punishment, but to maintain an open, welcoming,
+non-hostile environment in which all may participate on an equal footing,
+regardless of their role in the IETF or past technical contributions.<a href="#section-1.2-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1449,36 +1424,33 @@ of administrators are the "owners" of non-WG IETF mailing lists.<a href="#sectio
       <h2 id="name-ietf-moderator-team">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-ietf-moderator-team" class="section-name selfRef">IETF Moderator Team</a>
       </h2>
-<p id="section-2-1">This memo proposes a uniform approach to moderating the
+<p id="section-2-1">This memo proposes a consistent approach to moderating the
 IETF's various public fora. A moderator team for the IETF
-will develop uniform guidelines for moderation and will facilitate
-their implementation and application as detailed below.
+will develop guidelines for moderation and will facilitate
+their consistent implementation and application as detailed below.
 These changes are intended to address the issues identified
-in the previous model <a href="#motive" class="auto internal xref">Appendix B</a> and the principles described in the
+in the previous model <a href="#motive" class="auto internal xref">Appendix B.2</a> and the principles described in the
 introduction.<a href="#section-2-1" class="pilcrow">¶</a></p>
 <div id="composition">
 <section id="section-2.1">
         <h3 id="name-composition">
 <a href="#section-2.1" class="section-number selfRef">2.1. </a><a href="#name-composition" class="section-name selfRef">Composition</a>
         </h3>
-<p id="section-2.1-1">The moderator team consists of no less than five
-individuals.  The IESG appoints and replaces moderators.
+<p id="section-2.1-1">The IESG appoints and recalls moderators.
+The moderator team initially consists of no less than five individuals.
+The moderator team may expand or contract
+based on operational experience.
 In selecting members, the IESG will take into
 account geographic coverage, expected and unexpected absences, and
 team diversity.<a href="#section-2.1-1" class="pilcrow">¶</a></p>
-<p id="section-2.1-2">The moderator team may expand or contract
-based on operational experience.  Apart from appointing and replacing
-moderators, the IESG shall refrain from the day-to-day operation
-and management of the moderator team. The moderators may
-consult with the IESG when needed.<a href="#section-2.1-2" class="pilcrow">¶</a></p>
-<p id="section-2.1-3">Because the IESG and IAB are in the appeals chain for moderator team
+<p id="section-2.1-2">Because the IESG and IAB are in the appeals chain for moderator team
 decisions (see <a href="#appeals" class="auto internal xref">Section 4.1</a>), the IESG must not appoint a
 moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors shall
 also be excluded from serving on the moderator team. If a moderator
 is assuming any such role, they shall step down from the moderator team
-soon after.<a href="#section-2.1-3" class="pilcrow">¶</a></p>
+soon after.<a href="#section-2.1-2" class="pilcrow">¶</a></p>
 <div id="team-diversity">
 <section id="section-2.1.1">
           <h4 id="name-team-diversity">
@@ -1490,7 +1462,7 @@ characteristics that lets it operate effectively around the clock and
 throughout the year. Ideally, the moderators should be able to
 respond to issues within a few hours.<a href="#section-2.1.1-1" class="pilcrow">¶</a></p>
 <p id="section-2.1.1-2">Team diversity is also important to ensure any participant observing
-problematic behavior can identify a moderator they feel comfortable
+disruptive behavior can identify a moderator they feel comfortable
 contacting.<a href="#section-2.1.1-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1502,9 +1474,9 @@ contacting.<a href="#section-2.1.1-2" class="pilcrow">¶</a></p>
 <a href="#section-2.2" class="section-number selfRef">2.2. </a><a href="#name-training" class="section-name selfRef">Training</a>
         </h3>
 <p id="section-2.2-1">The IETF is committed to providing and/or funding training for
-appointed moderators as necessary. The IESG will negotiate any
-required funding or resources with IETF Administration LLC
-<span>[<a href="#RFC8711" class="cite xref">RFC8711</a>]</span>.<a href="#section-2.2-1" class="pilcrow">¶</a></p>
+administrators and moderators as necessary. The IESG will
+negotiate any required funding or resources with IETF Administration
+LLC <span>[<a href="#RFC8711" class="cite xref">RFC8711</a>]</span>.<a href="#section-2.2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1518,22 +1490,37 @@ required funding or resources with IETF Administration LLC
 future, including, but not limited to, mailing lists, chat groups,
 and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, Wikis, or issue trackers.<a href="#section-3-1" class="pilcrow">¶</a></p>
-<p id="section-3-2">Different people have different responsibilities.<a href="#section-3-2" class="pilcrow">¶</a></p>
-<p id="section-3-3"><strong>Participants</strong> should always behave in a manner discussed in
-<a href="#genphil" class="auto internal xref">Section 1.2</a>.  They are also encouraged to report inappropriate behavior
+<p id="section-3-2">Different people have different moderation responsibilities:<a href="#section-3-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3-3.1">
+          <p id="section-3-3.1.1"><strong>Participants</strong> should always behave in a manner discussed in
+<a href="#genphil" class="auto internal xref">Section 1.2</a>.  They are also encouraged to report disruptive behavior
 directed at them or someone else to an administrator of the respective
-forum <strong>and</strong> the moderators.<a href="#section-3-3" class="pilcrow">¶</a></p>
-<p id="section-3-4"><strong>Administrators</strong> are primarily responsible for managing their fora in
+forum <strong>and</strong> the moderators.<a href="#section-3-3.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-3-3.2">
+          <p id="section-3-3.2.1"><strong>Administrators</strong> are primarily responsible for managing their fora in
 accordance with guidance developed by the moderators and approved by
-the IESG. As such, they shall address reports of inappropriate behavior
-in a timely fashion, apprising moderators of their disposition. For a
-Working Group, the chairs should perform moderation in a way that
+the IESG. As such, they shall address reports of disruptive behavior
+in a timely fashion, apprising moderators of reports or actions taken.<a href="#section-3-3.2.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<p id="section-3-4">For a working group, chairs are by default the administrators.  They may
+delegate this responsibility, but they must always accept, acknowledge,
+and keep track of complaints of disruptive behavior.
+Forum administrators should perform moderation in a way that
 obviates the need for moderator team involvement.<a href="#section-3-4" class="pilcrow">¶</a></p>
-<p id="section-3-5"><strong>Moderators</strong> are responsible for establishing processes to
+<ul class="normal">
+<li class="normal" id="section-3-5.1">
+          <p id="section-3-5.1.1"><strong>Moderators</strong> are responsible for establishing processes to
 address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
-can use to address problematic contributions.<a href="#section-3-5" class="pilcrow">¶</a></p>
-<p id="section-3-6">Moderators may take actions when administrators do not respond to
+can use to address disruptive behavior.
+The moderator team is responsible to the IESG.  The IESG
+may create or designate a forum to facilitate discussion about
+moderation, and refer interested parties to that forum.<a href="#section-3-5.1.1" class="pilcrow">¶</a></p>
+<p id="section-3-5.1.2">
+Moderators may take actions when administrators do not respond to
 reports in a timely fashion.  Their first action should generally be
 to attempt to contact and advise the relevant administrators.
 They should only take
@@ -1544,32 +1531,49 @@ manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
 moderators' judgement to determine when they must act, with the
 understanding that some situations may require fast responses.
-<a href="#appeals" class="auto internal xref">Section 4.1</a> discusses the handling of disagreements.<a href="#section-3-6" class="pilcrow">¶</a></p>
-<p id="section-3-7">Moderators are administrators for IETF
-plenary fora, currently including the IETF discussion and last-call lists, attendee
-lists, and any plenary chat sessions. They are also administrators for
-any forum that cuts across IETF areas or does not have an
-administrator.<a href="#section-3-7" class="pilcrow">¶</a></p>
-<p id="section-3-8">In order to scale the function, except for plenary fora as described
+<a href="#appeals" class="auto internal xref">Section 4.1</a> discusses the handling of disagreements.<a href="#section-3-5.1.2" class="pilcrow">¶</a></p>
+<p id="section-3-5.1.3">
+Moderators are administrators for IETF
+plenary fora, currently including the IETF discussion and last-call
+lists and any plenary chat sessions. They are also administrators for
+any forum that does not otherwise have an administrator.<a href="#section-3-5.1.3" class="pilcrow">¶</a></p>
+<p id="section-3-5.1.4">
+In order to scale the function, except for plenary fora as described
 above, moderators are not expected to always actively monitor
-all communications.  Instead, they will process reports from
-participants.<a href="#section-3-8" class="pilcrow">¶</a></p>
-<p id="section-3-9"><strong>Area Directors</strong> are expected to resolve conflicts as described here and
-in <a href="#appeals" class="auto internal xref">Section 4.1</a>.  The IESG is responsible for appointing and overseeing
-the moderator team, and approving guidance provided by that team.<a href="#section-3-9" class="pilcrow">¶</a></p>
-<div id="out-of-scope-non-ietf-fora-private-communications-and-content-removal">
+all communications.  In general, they will process reports from
+participants.<a href="#section-3-5.1.4" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-3-5.2">
+          <p id="section-3-5.2.1"><strong>Area Directors</strong> are expected to resolve conflicts as described here and
+in <a href="#appeals" class="auto internal xref">Section 4.1</a>. Apart from appointing and recalling
+moderators, the IESG shall refrain from the day-to-day operation
+and management of the moderator team. The moderators may
+consult with the IESG when needed.<a href="#section-3-5.2.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<div id="actions-that-are-out-of-scope">
 <section id="section-3.1">
-        <h3 id="name-out-of-scope-non-ietf-fora-">
-<a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-out-of-scope-non-ietf-fora-" class="section-name selfRef">Out of Scope: Non-IETF Fora, Private Communications, and Content Removal</a>
+        <h3 id="name-actions-that-are-out-of-sco">
+<a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-actions-that-are-out-of-sco" class="section-name selfRef">Actions That Are Out of Scope</a>
         </h3>
-<p id="section-3.1-1">It is important to note that the moderator team only
-moderates <em>public</em> IETF fora. Their mandate does
-not extend to problematic behavior in private communication, such as
-private chat groups, direct messages, or conversations or other
-interactions outside of meetings. In such cases, the Ombudsteam
-should be approached.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
-<p id="section-3.1-2">Content removal or redaction from IETF archives are not moderation
-actions, and are therefore also beyond the scope of this memo.<a href="#section-3.1-2" class="pilcrow">¶</a></p>
+<p id="section-3.1-1">Moderator actions are only permitted for the purposes of limiting
+disruptive communications in IETF fora.  All other actions are beyond
+the scope of this memo. Examples of actions that are out of scope include,
+but are not limited to, datatracker account removal, in-person meeting
+registration, content removal or redaction, moderation or policing of
+private or non-IETF communications, and redaction from IETF archives.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="unsolicted-bulk-messages">
+<section id="section-3.2">
+        <h3 id="name-unsolicted-bulk-messages">
+<a href="#section-3.2" class="section-number selfRef">3.2. </a><a href="#name-unsolicted-bulk-messages" class="section-name selfRef">Unsolicted Bulk Messages</a>
+        </h3>
+<p id="section-3.2-1">Unsolicited bulk messages are considered disruptive and should be handled in a
+manner consistent with the IESG statement on IETF Spam Control on IETF
+Mailing Lists<span>[<a href="#IESG-SPAM" class="cite xref">IESG-SPAM</a>]</span>, or its successors.  Administrators
+may take similar actions in other fora (e.g., GitHub or Instant Messaging).
+Such actions require no additional reporting.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1580,7 +1584,7 @@ actions, and are therefore also beyond the scope of this memo.<a href="#section-
 <a href="#section-4" class="section-number selfRef">4. </a><a href="#name-moderation-procedures-and-t" class="section-name selfRef">Moderation Procedures and Transparency</a>
       </h2>
 <p id="section-4-1">Within the bounds of the policies set herein, and with the
-approval of the IESG, the moderator team shall define
+approval of the IESG, the moderator team shall develop
 processes and criteria relating to moderation, including
 the moderator team's own operating procedures.<a href="#section-4-1" class="pilcrow">¶</a></p>
 <p id="section-4-2">Those processes and criteria shall be developed with community input
@@ -1601,43 +1605,36 @@ Examples of actions that could be taken include:<a href="#section-4-3" class="pi
           <p id="section-4-4.3.1">A private or public admonishment;<a href="#section-4-4.3.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-4.4">
-          <p id="section-4-4.4.1">Temporary or permanent bans in one or more fora.<a href="#section-4-4.4.1" class="pilcrow">¶</a></p>
+          <p id="section-4-4.4.1">Temporary or permanent suspension of participation privileges
+in one or more fora.<a href="#section-4-4.4.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 <p id="section-4-5">We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.<a href="#section-4-5" class="pilcrow">¶</a></p>
-<p id="section-4-6">The expectation is that the minimal actions necessary will be taken.<a href="#section-4-6" class="pilcrow">¶</a></p>
-<p id="section-4-7">Any attempt to circumvent or otherwise ignore a moderation action
-is a demonstration of bad faith that may warrant further moderation.<a href="#section-4-7" class="pilcrow">¶</a></p>
-<p id="section-4-8">The moderator team is responsible to the IESG.  The IESG
-may create or designate a forum to facilitate discussion about
-moderation, and refer interested parties to that forum.<a href="#section-4-8" class="pilcrow">¶</a></p>
-<p id="section-4-9">All moderation actions that restrict posting rights shall be
+<p id="section-4-6">The expectation is that the minimal actions necessary will be taken.
+Those who are directed to stop disrupting a forum must do so immediately.
+Further disruptions may lead to further corrective actions.<a href="#section-4-6" class="pilcrow">¶</a></p>
+<p id="section-4-7">All moderation actions that restrict participation privileges shall be
 periodically reported to the IESG,
-as well as immediately to those against whom those actions take effect.<a href="#section-4-9" class="pilcrow">¶</a></p>
-<p id="section-4-10">To address inappropriate contributions in a timely manner, only
-moderation actions suspending participation rights for longer than
+as well as immediately to the moderator team for their review, and
+immediately to those against whom those actions take effect.<a href="#section-4-7" class="pilcrow">¶</a></p>
+<p id="section-4-8">To address disruptive behavior in a timely manner, only
+moderation actions suspending participation privileges for longer than
 fourteen (14) days shall be reported to the forum to which such an action applies.
 If such an action applies to more than one forum, it should be communicated to
-the community in a manner decided by the IESG.<a href="#section-4-10" class="pilcrow">¶</a></p>
+the community in a manner decided by the IESG.<a href="#section-4-8" class="pilcrow">¶</a></p>
 <div id="appeals">
 <section id="section-4.1">
         <h3 id="name-consistency-and-conflict-re">
 <a href="#section-4.1" class="section-number selfRef">4.1. </a><a href="#name-consistency-and-conflict-re" class="section-name selfRef">Consistency and Conflict Resolution</a>
         </h3>
 <p id="section-4.1-1">Administrators and moderators shall act in a manner
-consistent with guidelines approved by the IESG.  In cases of
-disagreement between the administrators and the moderator team
-over a moderation decision, the matter should be taken up
-with the responsible area director for resolution, or the IETF chair
-if a responsible area director cannot be determined or is not assigned.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
-<p id="section-4.1-2">Because the moderator team serves at the discretion of the IESG,
-any moderation decision can be appealed to the IESG by anyone,
-per <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>. Disagreements with a decision by the moderator team can
-be brought to their attention. If this does not lead to a resolution, a
-decision by the IESG can be appealed to the IAB as described in
-<span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.<a href="#section-4.1-2" class="pilcrow">¶</a></p>
+consistent this memo and the guidelines approved by the IESG.  In cases
+of disagreement over a moderation decision, anyone may take the matter up
+with the responsible area director for resolution, or with the IETF chair
+if a responsible area director cannot be determined or is not assigned.
+Further appeals may be made to the IESG per <span><a href="https://rfc-editor.org/rfc/rfc2026#section-6.5.2" class="relref">Section 6.5.2</a> of [<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="reinstatement">
@@ -1646,7 +1643,7 @@ decision by the IESG can be appealed to the IAB as described in
 <a href="#section-4.2" class="section-number selfRef">4.2. </a><a href="#name-reinstatement" class="section-name selfRef">Reinstatement</a>
         </h3>
 <p id="section-4.2-1">People and circumstances change.  Individuals whose participation
-rights have been suspended from a forum may request
+privileges have been indefinitely suspended from a forum may request
 reinstatement.
 Requests for reinstatement
 may be made only a year after the initial decision, and then
@@ -1658,10 +1655,11 @@ their discretion
 reinstate someone, conditionally or unconditionally.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
 <p id="section-4.2-3">To avoid
 denial-of-service attacks on our processes, decisions to not reinstate
-someone's participation rights may not be appealed.
+someone's participation privileges may not be appealed.
 Any reinstatement is a grace and not a right.<a href="#section-4.2-3" class="pilcrow">¶</a></p>
-<p id="section-4.2-4">A ban imposed prior to this process shall be reconsidered only in
-accordance with the processes in place at the time of the ban,
+<p id="section-4.2-4">A suspension of participation privileges imposed prior to this process
+shall be reconsidered only in
+accordance with the processes in place at the time of the suspension,
 even if the corresponding RFC has been formally obsoleted.<a href="#section-4.2-4" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1735,8 +1733,9 @@ policy, is not subject to the rest of this policy.<a href="#section-5.2-6" class
         </h3>
 <p id="section-5.3-1">The Internet Research Task Force (IRTF) <span>[<a href="#RFC2014" class="cite xref">RFC2014</a>]</span> is a peer
 organization separate from the IETF that is governed by its own
-set or rules and processes. Sections <a href="https://rfc-editor.org/rfc/rfc9775#section-3" class="relref">3</a>, <a href="https://rfc-editor.org/rfc/rfc9775#section-6" class="relref">6</a> and <a href="https://rfc-editor.org/rfc/rfc9775#section-7" class="relref">7</a> of <span>[<a href="#RFC9775" class="cite xref">RFC9775</a>]</span> discuss rules for participating
-in the IRTF and moderation of IRTF participation fora.<a href="#section-5.3-1" class="pilcrow">¶</a></p>
+set of rules and processes. Sections <a href="https://rfc-editor.org/rfc/rfc9775#section-3" class="relref">3</a>, <a href="https://rfc-editor.org/rfc/rfc9775#section-6" class="relref">6</a> and <a href="https://rfc-editor.org/rfc/rfc9775#section-7" class="relref">7</a> of <span>[<a href="#RFC9775" class="cite xref">RFC9775</a>]</span> discuss rules for participating
+in the IRTF and moderation of IRTF participation fora.
+The policies described in this memo do not apply to the IRTF.<a href="#section-5.3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1840,6 +1839,10 @@ basis for how the moderators interact with list/forum leadership.<a href="#secti
 <a href="#section-9.1" class="section-number selfRef">9.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
+<dt id="IESG-SPAM">[IESG-SPAM]</dt>
+        <dd>
+<span class="refAuthor">IESG</span>, <span class="refTitle">"IESG Statement on Spam Control on IETF Mailing Lists"</span>, <time datetime="2008-04-18" class="refDate">18 April 2008</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/statement-iesg-iesg-statement-on-spam-control-on-ietf-mailing-lists-20080414/">https://datatracker.ietf.org/doc/statement-iesg-iesg-statement-on-spam-control-on-ietf-mailing-lists-20080414/</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC2026">[RFC2026]</dt>
         <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"The Internet Standards Process -- Revision 3"</span>, <span class="seriesInfo">BCP 9</span>, <span class="seriesInfo">RFC 2026</span>, <span class="seriesInfo">DOI 10.17487/RFC2026</span>, <time datetime="1996-10" class="refDate">October 1996</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2026">https://www.rfc-editor.org/rfc/rfc2026</a>&gt;</span>. </dd>
@@ -1909,6 +1912,10 @@ basis for how the moderators interact with list/forum leadership.<a href="#secti
         <dd>
 <span class="refAuthor">Rescorla, E.</span> and <span class="refAuthor">B. Korver</span>, <span class="refTitle">"Guidelines for Writing RFC Text on Security Considerations"</span>, <span class="seriesInfo">BCP 72</span>, <span class="seriesInfo">RFC 3552</span>, <span class="seriesInfo">DOI 10.17487/RFC3552</span>, <time datetime="2003-07" class="refDate">July 2003</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3552">https://www.rfc-editor.org/rfc/rfc3552</a>&gt;</span>. </dd>
 <dd class="break"></dd>
+<dt id="RFC7282">[RFC7282]</dt>
+        <dd>
+<span class="refAuthor">Resnick, P.</span>, <span class="refTitle">"On Consensus and Humming in the IETF"</span>, <span class="seriesInfo">RFC 7282</span>, <span class="seriesInfo">DOI 10.17487/RFC7282</span>, <time datetime="2014-06" class="refDate">June 2014</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7282">https://www.rfc-editor.org/rfc/rfc7282</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC9775">[RFC9775]</dt>
       <dd>
 <span class="refAuthor">Perkins, C. S.</span>, <span class="refTitle">"IRTF Code of Conduct"</span>, <span class="seriesInfo">RFC 9775</span>, <span class="seriesInfo">DOI 10.17487/RFC9775</span>, <time datetime="2025-03" class="refDate">March 2025</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9775">https://www.rfc-editor.org/rfc/rfc9775</a>&gt;</span>. </dd>
@@ -1918,10 +1925,10 @@ basis for how the moderators interact with list/forum leadership.<a href="#secti
 </div>
 </section>
 </div>
-<div id="changes">
+<div id="change-history-of-this-i-d">
 <section id="appendix-A">
-      <h2 id="name-changes">
-<a href="#appendix-A" class="section-number selfRef">Appendix A. </a><a href="#name-changes" class="section-name selfRef">Changes</a>
+      <h2 id="name-change-history-of-this-i-d">
+<a href="#appendix-A" class="section-number selfRef">Appendix A. </a><a href="#name-change-history-of-this-i-d" class="section-name selfRef">Change History of this I-D</a>
       </h2>
 <aside id="appendix-A-1">
         <p id="appendix-A-1.1">RFC Editor: Please remove this appendix before publication.<a href="#appendix-A-1.1" class="pilcrow">¶</a></p>
@@ -1934,6 +1941,9 @@ basis for how the moderators interact with list/forum leadership.<a href="#secti
 <ul class="normal">
 <li class="normal" id="appendix-A.1-1.1">
             <p id="appendix-A.1-1.1.1">Many editorial suggestions received during WGLC.<a href="#appendix-A.1-1.1.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="appendix-A.1-1.2">
+            <p id="appendix-A.1-1.2.1"><a href="https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181">remove attendee mailing lists from moderator primary responsibility</a><a href="#appendix-A.1-1.2.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -2115,64 +2125,116 @@ moderation team → moderator team.</a><a href="#appendix-A.4-1.2.1" class="pilc
 </div>
 </section>
 </div>
-<div id="motive">
+<div id="changes-and-motivation">
 <section id="appendix-B">
-      <h2 id="name-problems-with-the-previous-">
-<a href="#appendix-B" class="section-number selfRef">Appendix B. </a><a href="#name-problems-with-the-previous-" class="section-name selfRef">Problems with the Previous Approach</a>
+      <h2 id="name-changes-and-motivation">
+<a href="#appendix-B" class="section-number selfRef">Appendix B. </a><a href="#name-changes-and-motivation" class="section-name selfRef">Changes and Motivation</a>
       </h2>
-<p id="appendix-B-1">The previous approach to moderation of disruptive participation
+<p id="appendix-B-1"><a href="#introduction" class="auto internal xref">Section 1</a> summarized the process changes introduced by this memo.
+The remainder of this section discusses the background that let to them.<a href="#appendix-B-1" class="pilcrow">¶</a></p>
+<div id="changes">
+<section id="appendix-B.1">
+        <h3 id="name-changes">
+<a href="#appendix-B.1" class="section-number selfRef">B.1. </a><a href="#name-changes" class="section-name selfRef">Changes</a>
+        </h3>
+<p id="appendix-B.1-1">The IETF community has defined general guidelines for
+personal interactions in the IETF <span>[<a href="#RFC7154" class="cite xref">RFC7154</a>]</span>, and the IESG has
+defined an anti-harassment policy for the IETF <span>[<a href="#AHP" class="cite xref">AHP</a>]</span> for which the IETF
+community has defined anti-harassment procedures <span>[<a href="#RFC7776" class="cite xref">RFC7776</a>]</span>,
+empowering an ombudsteam <span>[<a href="#OT" class="cite xref">OT</a>]</span> to take necessary action.<a href="#appendix-B.1-1" class="pilcrow">¶</a></p>
+<p id="appendix-B.1-2">Dealing with <em>disruptive</em> behavior, however, is not part of the role
+of the ombudsteam. <span>[<a href="#RFC2418" class="cite xref">RFC2418</a>]</span> tasks the chairs of each IETF working
+group with moderating their group's in-person meetings while
+<span>[<a href="#RFC3934" class="cite xref">RFC3934</a>]</span> provided chairs a procedure to help manage mailing
+lists. An IESG statement <span>[<a href="#MODML" class="cite xref">MODML</a>]</span> described additional guidance
+to working group chairs about how — but not when — to moderate their
+lists.<a href="#appendix-B.1-2" class="pilcrow">¶</a></p>
+<p id="appendix-B.1-3">For IETF mailing lists not associated with a working group, another
+IESG statement <span>[<a href="#DP" class="cite xref">DP</a>]</span> clarifies that the IESG tasks list administrators
+with moderation. And the IETF list for general discussions
+has, mostly for historic reasons, a team of moderators that are not
+list administrators and operate by a different set of processes
+<span>[<a href="#RFC9245" class="cite xref">RFC9245</a>]</span>.<a href="#appendix-B.1-3" class="pilcrow">¶</a></p>
+<p id="appendix-B.1-4">Note that the term "moderation" can refer both to <em>preemptive</em>
+moderation, where administrators review attempted participation before
+it occurs
+(such as reviewing messages to a mailing list), and <em>reactive</em> moderation,
+where administrators intervene after disruptive participation has occurred.
+The
+IETF historically mainly practiced reactive moderation, with a spectrum from
+gentle reminders on- and off-list, all the way to suspension of posting rights
+and other ways of participating or communicating. It is up to the moderators
+and administrators
+to decide which mix of preemptive and reactive moderation to employ as
+part of their processes.<a href="#appendix-B.1-4" class="pilcrow">¶</a></p>
+<p id="appendix-B.1-5">In addition, <span>[<a href="#RFC3683" class="cite xref">RFC3683</a>]</span> defines a process for revoking an
+individual's posting rights to IETF mailing lists following a
+community last-call of a "posting rights" action (PR-action) proposed
+by the IESG, often in response to complaints from the community.<a href="#appendix-B.1-5" class="pilcrow">¶</a></p>
+<p id="appendix-B.1-6">Experience and community input suggests that an evolution of the
+existing processes is necessary.<a href="#appendix-B.1-6" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="motive">
+<section id="appendix-B.2">
+        <h3 id="name-problems-with-the-previous-">
+<a href="#appendix-B.2" class="section-number selfRef">B.2. </a><a href="#name-problems-with-the-previous-" class="section-name selfRef">Problems with the Previous Approach</a>
+        </h3>
+<p id="appendix-B.2-1">The previous approach to moderation of disruptive participation
 through chairs, list administrators, and moderator teams, combined
 with the IESG-led process of PR-actions, has proven to be less than
-ideal:<a href="#appendix-B-1" class="pilcrow">¶</a></p>
+ideal:<a href="#appendix-B.2-1" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="appendix-B-2.1">
-          <p id="appendix-B-2.1.1">The IETF community has not been able to agree on a common definition
+<li class="normal" id="appendix-B.2-2.1">
+            <p id="appendix-B.2-2.1.1">The IETF community has not been able to agree on a common definition
 of disruptive behavior. Therefore, chairs and list administrators
 apply individually different criteria when making decisions, and
 participants have different expectations for when PR-actions are
-warranted.<a href="#appendix-B-2.1.1" class="pilcrow">¶</a></p>
+warranted.<a href="#appendix-B.2-2.1.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="appendix-B-2.2">
-          <p id="appendix-B-2.2.1">The moderation process that chairs and list administrators need to
+          <li class="normal" id="appendix-B.2-2.2">
+            <p id="appendix-B.2-2.2.1">The moderation process that chairs and list administrators need to
 follow <span>[<a href="#RFC3934" class="cite xref">RFC3934</a>]</span> is slow and cumbersome, which makes it
 ill-suited to situations that escalate quickly. It also assumes
 that the originator of disruptive behavior is a misguided
 participant who can be reasoned with and who will change their
-ways.<a href="#appendix-B-2.2.1" class="pilcrow">¶</a></p>
+ways.<a href="#appendix-B.2-2.2.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="appendix-B-2.3">
-          <p id="appendix-B-2.3.1">Chairs and list administrators may only enact moderation actions for
+          <li class="normal" id="appendix-B.2-2.3">
+            <p id="appendix-B.2-2.3.1">Chairs and list administrators may only enact moderation actions for
 their single list, which is ill-suited when a pattern of disruptive
 behavior spans multiple lists. Also, chairs and list administrators
 may not be fully aware of disruptive behavior that spans multiple
-lists, due to not being subscribed to some of them.<a href="#appendix-B-2.3.1" class="pilcrow">¶</a></p>
+lists, due to not being subscribed to some of them.<a href="#appendix-B.2-2.3.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="appendix-B-2.4">
-          <p id="appendix-B-2.4.1">PR-actions, which can address disruptive behavior across several
+          <li class="normal" id="appendix-B.2-2.4">
+            <p id="appendix-B.2-2.4.1">PR-actions, which can address disruptive behavior across several
 lists, are cumbersome and slow, and the community has not been able
 to agree on a common definition of disruptive behavior. This has
 led to a situation where PR-actions are rarely used, and when they
-are used, they are perceived as very heavy-handed.<a href="#appendix-B-2.4.1" class="pilcrow">¶</a></p>
+are used, they are perceived as very heavy-handed.<a href="#appendix-B.2-2.4.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="appendix-B-2.5">
-          <p id="appendix-B-2.5.1">For a given mailing list, participants may not feel comfortable
+          <li class="normal" id="appendix-B.2-2.5">
+            <p id="appendix-B.2-2.5.1">For a given mailing list, participants may not feel comfortable
 reporting disruptive behavior to a chair or list administrator, for
 various reasons. For mailing lists not associated with working
 groups, list administrators are not even publicly identified - they
 can only be contacted through an anonymous alias address. This
 exacerbates the problem, because participants may not be
-comfortable reporting disruptive behavior to an anonymous party.<a href="#appendix-B-2.5.1" class="pilcrow">¶</a></p>
+comfortable reporting disruptive behavior to an anonymous party.<a href="#appendix-B.2-2.5.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="appendix-B-2.6">
-          <p id="appendix-B-2.6.1">The IETF offers participation not only through in-person meetings
+          <li class="normal" id="appendix-B.2-2.6">
+            <p id="appendix-B.2-2.6.1">The IETF offers participation not only through in-person meetings
 and mailing lists, which are the two channels of participation for
 which moderation processes are currently defined. IETF business
 also happens in chat groups, remote meeting participation
 systems, virtual meetings, wikis, GitHub repositories, and more.
 How disruptive behavior is moderated in these fora is currently
-undefined.<a href="#appendix-B-2.6.1" class="pilcrow">¶</a></p>
+undefined.<a href="#appendix-B.2-2.6.1" class="pilcrow">¶</a></p>
 </li>
-      </ul>
+        </ul>
+</section>
+</div>
 </section>
 </div>
 <div id="examples">
@@ -2184,15 +2246,15 @@ undefined.<a href="#appendix-B-2.6.1" class="pilcrow">¶</a></p>
 is non-exhaustive.<a href="#appendix-C-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="appendix-C-2.1">
-          <p id="appendix-C-2.1.1">Discussion of subjects unrelated to IETF policy, meetings,
-activities, or technical concerns;<a href="#appendix-C-2.1.1" class="pilcrow">¶</a></p>
+          <p id="appendix-C-2.1.1">Discussion of subjects unrelated to a forum's charter or scope;<a href="#appendix-C-2.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-C-2.2">
           <p id="appendix-C-2.2.1">Uncivil commentary, regardless of the general subject;<a href="#appendix-C-2.2.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-C-2.3">
-          <p id="appendix-C-2.3.1">Announcements of conferences, events, or activities that are not
-sponsored or endorsed by the Internet Society or IETF;<a href="#appendix-C-2.3.1" class="pilcrow">¶</a></p>
+          <p id="appendix-C-2.3.1">Messages announcing conferences, events, or activities
+that are not sponsored or endorsed by the Internet Society or IETF,
+unless posted with prior approval of list administrators;<a href="#appendix-C-2.3.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-C-2.4">
           <p id="appendix-C-2.4.1">Repeatedly arguing counter to a WG charter that has been approved by
@@ -2209,10 +2271,6 @@ actions for many other cases.<a href="#appendix-C-3" class="pilcrow">¶</a></p>
 subjective judgement calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.<a href="#appendix-C-4" class="pilcrow">¶</a></p>
-<p id="appendix-C-5">Unsolicited bulk e-mail is considered disruptive, and thus within the moderation
-scope, but actions taken against it are not considered moderation actions
-and don't trigger a requirement for reporting the action to the originator
-or to the IESG.<a href="#appendix-C-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">
