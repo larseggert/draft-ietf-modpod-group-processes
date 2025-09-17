@@ -268,9 +268,6 @@ moderators, the IESG shall refrain from the day-to-day operation
 and management of the moderator team. The moderators may
 consult with the IESG when needed.
 
- The IESG is responsible for appointing and overseeing
-the moderator team, and approving guidance provided by that team.
-
 ## Actions That Are Out of Scope
 
 Moderator actions are only permitted for the purposes of limiting
