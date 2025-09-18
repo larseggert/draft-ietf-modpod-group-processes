@@ -93,7 +93,6 @@ Table of Contents
      5.1.  Relation to the Ombudsteam
      5.2.  Relation to the IETF LLC
      5.3.  Relation to the IRTF
-     5.4.  Other Relations
    6.  Security Considerations
    7.  IANA Considerations
    8.  Acknowledgments
@@ -144,6 +143,13 @@ Table of Contents
    *  Updates Section 6.1 of [RFC2418], because the moderator team will
       now work together with working group chairs to moderate disruptive
       behavior.
+
+   The processes described in this document are solely applicable to
+   IETF activities, and not to other related organizations, such as the
+   Internet Research Task Force (IRTF), the Internet Architecture Board
+   (IAB), the RFC Series Working Group (RSWG), the RFC Series Approval
+   Board (RSAB), or the Independent RFC Submission Stream, without their
+   explicit agreement.
 
 1.1.  Terminology Note
 
@@ -457,10 +463,6 @@ Table of Contents
    Any such action taken by the IETF LLC under this section of this
    policy, is not subject to the rest of this policy.
 
-   The IETF LLC or its functions may also administer or host
-   participation fora.  They are moderated by the IETF LLC and the
-   policies described in this memo do not apply to them.
-
 5.3.  Relation to the IRTF
 
    The Internet Research Task Force (IRTF) [RFC2014] is a peer
@@ -469,17 +471,6 @@ Table of Contents
    rules for participating in the IRTF and moderation of IRTF
    participation fora.  The policies described in this memo do not apply
    to the IRTF.
-
-5.4.  Other Relations
-
-   Other groups and activities exist within or adjacent to the broader
-   IETF, which may administer or host participation fora.  At the time
-   of writing, these include the Internet Architecture Board (IAB), the
-   RFC Series Working Group (RSWG), the RFC Series Approval Board
-   (RSAB), and the Independent RFC Submission Stream.
-
-   These fora are moderated by their respective hosting entities and the
-   policies described in this memo do not apply to them.
 
 6.  Security Considerations
 
