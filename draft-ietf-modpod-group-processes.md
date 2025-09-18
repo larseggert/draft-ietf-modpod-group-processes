@@ -335,7 +335,9 @@ consistent this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
 with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
-Further appeals may be made to the IESG per {{Section 6.5.2 of !RFC2026}}.
+If the disagreement cannot be resolved by the Area Director, that person may
+then appeal to the IESG, and subsequently to the IAB using the processes
+stated in {{Sections 6.5.1 and 6.5.4 of !RFC2026}}.
 
 ## Reinstatement
 
