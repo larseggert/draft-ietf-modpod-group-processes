@@ -439,7 +439,7 @@ periodically reported to the IESG.
 also informed.
 5. An appeals process is made available to anyone in the case of
 disagreements.
-6. If people believe that the IAB or IESG members are not performing
+6. If IETF participants believe that the IESG is not performing
 their oversight functions as described in this document, they may
 comment to the NOMCOM or the community at large.
 7. Finally, if it appears that these processes are not functioning
