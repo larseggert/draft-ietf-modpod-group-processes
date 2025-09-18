@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 17 September 2025
-Expires: 21 March 2026
+Intended status: Best Current Practice                 18 September 2025
+Expires: 22 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 March 2026.
+   This Internet-Draft will expire on 22 March 2026.
 
 Copyright Notice
 
@@ -468,8 +468,8 @@ Table of Contents
 
    There is the potential abuse of the moderation process by moderators,
    working group chairs, and potentially others that could lead to
-   censorship of legitimate participation.  This risk can be checked in
-   seven ways:
+   censorship of legitimate participation.  This potential risk is
+   mitigated in seven ways:
 
    1.  The moderator team is required to first establish processes and
        procedures that are intended to be applied uniformly across the
