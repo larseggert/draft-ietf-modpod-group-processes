@@ -428,7 +428,7 @@ working group chairs, and potentially others that could lead to
 censorship of legitimate participation. This potential risk is mitigated in
 seven ways:
 
-1. The moderator team is required to first establish processes and
+1. The moderator team must first establish processes and
 procedures that are intended to be applied uniformly across the IETF.
 2. We explicitly state that minority viewpoints are not
 in and of themselves abuse.
