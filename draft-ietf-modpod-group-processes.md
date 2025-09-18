@@ -435,8 +435,8 @@ in and of themselves disruptive.
 3. Moderation actions that restrict participation privileges must be made transparent
 to the affected person and to the moderation team, and must be
 periodically reported to the IESG.
-4. In the case of restrictions of participation privileges lasting longer than 14 days, the community is
-also informed.
+4. In the case of restrictions of participation privileges lasting longer than
+14 days, the community is also informed.
 5. An appeals process is made available to anyone in the case of
 disagreements.
 6. If IETF participants believe that the IESG is not performing
