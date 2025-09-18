@@ -413,6 +413,10 @@ board, as documented in section 4.7 of {{!RFC8711}}
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
 
+The IETF LLC or its functions may also administer or host participation fora.
+They are moderated by the IETF LLC and the policies described in
+this memo do not apply to them.
+
 ## Relation to the IRTF
 
 The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
@@ -421,6 +425,17 @@ set of rules and processes. {{Sections 3, 6 and 7 of
 ?RFC9775}} discuss rules for participating
 in the IRTF and moderation of IRTF participation fora.
 The policies described in this memo do not apply to the IRTF.
+
+## Other Relations
+
+Other groups and activities exist within or adjacent to the broader IETF,
+which may administer or host participation fora.
+At the time of writing, these include the Internet Architecture Board (IAB),
+the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
+and the Independent RFC Submission Stream.
+
+These fora are moderated by their respective hosting entities and the policies
+described in this memo do not apply to them.
 
 # Security Considerations
 
