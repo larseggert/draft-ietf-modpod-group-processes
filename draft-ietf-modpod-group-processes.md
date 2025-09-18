@@ -108,6 +108,13 @@ This memo makes the following changes to existing processes:
   now work together with working group chairs to moderate disruptive
   behavior.
 
+The processes described in this document are solely applicable to IETF
+activities, and not to other related organizations, such as
+the Internet Research Task Force (IRTF),
+the Internet Architecture Board (IAB),
+the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
+or the Independent RFC Submission Stream, without their explicit agreement.
+
 ## Terminology Note
 
 Below we use the term "administrator" to refer to the people who
