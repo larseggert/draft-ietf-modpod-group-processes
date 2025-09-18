@@ -425,9 +425,27 @@ The policies described in this memo do not apply to the IRTF.
 The usual security considerations {{?RFC3552}} do not apply to this
 document.
 
-Potential abuse of the moderation process for the suppression of
-undesired opinions is counteracted by the availability of an appeals
-process, per {{appeals}}.
+There is the potential abuse of the moderation process by moderators,
+working group chairs, and potentially others that could lead to
+censorship of legitimate participation. This potential risk is mitigated in
+seven ways:
+
+1. The moderator team must first establish processes and
+procedures that are intended to apply uniformly across the IETF.
+2. This memo explicitly states that minority viewpoints are not
+in and of themselves disruptive.
+3. Moderation actions that restrict participation privileges must be made transparent
+to the affected person and to the moderation team, and must be
+periodically reported to the IESG.
+4. In the case of restrictions of participation privileges lasting longer than
+14 days, the community is also informed.
+5. An appeals process is made available to anyone in the case of
+disagreements.
+6. If IETF participants believe that the IESG is not performing
+their oversight functions as described in this document, they may
+comment to the NOMCOM or the community at large.
+7. Finally, if it appears that these processes are not functioning
+properly they may be amended.  They are not set in stone.
 
 Moderation actions are intended to limit the likelihood
 of disruptive behavior by a few IETF participants from discouraging
@@ -462,6 +480,9 @@ These individuals contributed additional improvements:
 - Rich Salz
 - Robert Sayre
 - Brian Carpenter
+- David Schinazi
+- Stephen Farrell
+- John Klensin
 
 --- back
 
