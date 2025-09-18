@@ -265,8 +265,10 @@ all communications.  In general, they will process reports from
 participants.
 
 - **Area Directors** are expected to resolve conflicts as described here and
-in {{appeals}}. Apart from appointing and recalling
-moderators, the IESG shall refrain from the day-to-day operation
+in {{appeals}}.  The IESG will periodically evaluate the performance
+and needs of moderators, and may appoint and recall moderators as
+they deem appropriate.  Apart from that,
+the IESG shall refrain from the day-to-day operation
 and management of the moderator team. The moderators may
 consult with the IESG when needed.
 
