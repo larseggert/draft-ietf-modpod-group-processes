@@ -432,7 +432,7 @@ seven ways:
 procedures that are intended to be applied uniformly across the IETF.
 2. This memo explicitly states that minority viewpoints are not
 in and of themselves abuse.
-3. Moderation actions that restrict posting must be made transparent
+3. Moderation actions that restrict participation privileges must be made transparent
 to the affected person and to the moderation team, and must be
 periodically reported to the IESG.
 4. In the case of bans lasting longer than 14 days, the community is
