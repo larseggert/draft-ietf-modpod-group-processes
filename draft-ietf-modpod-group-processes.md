@@ -108,6 +108,13 @@ This memo makes the following changes to existing processes:
   now work together with working group chairs to moderate disruptive
   behavior.
 
+The processes described in this document are solely applicable to IETF
+activities, and not to other related organizations, such as
+the Internet Research Task Force (IRTF),
+the Internet Architecture Board (IAB),
+the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
+or the Independent RFC Submission Stream, without their explicit agreement.
+
 ## Terminology Note
 
 Below we use the term "administrator" to refer to the people who
@@ -413,10 +420,6 @@ board, as documented in section 4.7 of {{!RFC8711}}
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
 
-The IETF LLC or its functions may also administer or host participation fora.
-They are moderated by the IETF LLC and the policies described in
-this memo do not apply to them.
-
 ## Relation to the IRTF
 
 The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
@@ -425,17 +428,6 @@ set of rules and processes. {{Sections 3, 6 and 7 of
 ?RFC9775}} discuss rules for participating
 in the IRTF and moderation of IRTF participation fora.
 The policies described in this memo do not apply to the IRTF.
-
-## Other Relations
-
-Other groups and activities exist within or adjacent to the broader IETF,
-which may administer or host participation fora.
-At the time of writing, these include the Internet Architecture Board (IAB),
-the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
-and the Independent RFC Submission Stream.
-
-These fora are moderated by their respective hosting entities and the policies
-described in this memo do not apply to them.
 
 # Security Considerations
 
@@ -510,9 +502,8 @@ These individuals contributed additional improvements:
 
 ## Since draft-ietf-modpod-group-processes-10
 
-- [Remove attendee mailing lists from moderator responsibility.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181)
-- [Clarify applicability to other IETF-adjacent fora.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/235)
-  
+- [remove attendee mailing lists from moderator primary responsibility](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181)
+
 ## Since draft-ietf-modpod-group-processes-09
 
 - [Try to find another happy medium on power of moderators](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/147)
