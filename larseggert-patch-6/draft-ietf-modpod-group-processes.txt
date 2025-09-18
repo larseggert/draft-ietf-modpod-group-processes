@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 17 September 2025
-Expires: 21 March 2026
+Intended status: Best Current Practice                 18 September 2025
+Expires: 22 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 March 2026.
+   This Internet-Draft will expire on 22 March 2026.
 
 Copyright Notice
 
@@ -303,10 +303,12 @@ Table of Contents
       from participants.
 
    *  *Area Directors* are expected to resolve conflicts as described
-      here and in Section 4.1.  Apart from appointing and recalling
-      moderators, the IESG shall refrain from the day-to-day operation
-      and management of the moderator team.  The moderators may consult
-      with the IESG when needed.
+      here and in Section 4.1.  The IESG will periodically evaluate the
+      performance and needs of moderators, and may appoint and recall
+      moderators as they deem appropriate.  Apart from that, the IESG
+      shall refrain from the day-to-day operation and management of the
+      moderator team.  The moderators may consult with the IESG when
+      needed.
 
 3.1.  Actions That Are Out of Scope
 
@@ -378,8 +380,10 @@ Table of Contents
    disagreement over a moderation decision, anyone may take the matter
    up with the responsible area director for resolution, or with the
    IETF chair if a responsible area director cannot be determined or is
-   not assigned.  Further appeals may be made to the IESG per
-   Section 6.5.2 of [RFC2026].
+   not assigned.  If the disagreement cannot be resolved by the Area
+   Director, that person may then appeal to the IESG, and subsequently
+   to the IAB using the processes stated in Sections 6.5.1 and 6.5.4 of
+   [RFC2026].
 
 4.2.  Reinstatement
 
@@ -466,9 +470,33 @@ Table of Contents
    The usual security considerations [RFC3552] do not apply to this
    document.
 
-   Potential abuse of the moderation process for the suppression of
-   undesired opinions is counteracted by the availability of an appeals
-   process, per Section 4.1.
+   There is the potential abuse of the moderation process by moderators,
+   working group chairs, and potentially others that could lead to
+   censorship of legitimate participation.  This potential risk is
+   mitigated in seven ways:
+
+   1.  The moderator team must first establish processes and procedures
+       that are intended to apply uniformly across the IETF.
+
+   2.  This memo explicitly states that minority viewpoints are not in
+       and of themselves disruptive.
+
+   3.  Moderation actions that restrict participation privileges must be
+       made transparent to the affected person and to the moderation
+       team, and must be periodically reported to the IESG.
+
+   4.  In the case of restrictions of participation privileges lasting
+       longer than 14 days, the community is also informed.
+
+   5.  An appeals process is made available to anyone in the case of
+       disagreements.
+
+   6.  If IETF participants believe that the IESG is not performing
+       their oversight functions as described in this document, they may
+       comment to the NOMCOM or the community at large.
+
+   7.  Finally, if it appears that these processes are not functioning
+       properly they may be amended.  They are not set in stone.
 
    Moderation actions are intended to limit the likelihood of disruptive
    behavior by a few IETF participants from discouraging participation
@@ -512,9 +540,9 @@ Table of Contents
 
    *  John Klensin
 
-   *  Melinda Shore
-
    *  Martin Thomson
+
+   *  Melinda Shore
 
    *  Michael Richardson
 
