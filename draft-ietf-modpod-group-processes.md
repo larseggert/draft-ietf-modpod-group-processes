@@ -265,8 +265,10 @@ all communications.  In general, they will process reports from
 participants.
 
 - **Area Directors** are expected to resolve conflicts as described here and
-in {{appeals}}. Apart from appointing and recalling
-moderators, the IESG shall refrain from the day-to-day operation
+in {{appeals}}.  The IESG will periodically evaluate the performance
+and needs of moderators, and may appoint and recall moderators as
+they deem appropriate.  Apart from that,
+the IESG shall refrain from the day-to-day operation
 and management of the moderator team. The moderators may
 consult with the IESG when needed.
 
@@ -335,7 +337,9 @@ consistent this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
 with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
-Further appeals may be made to the IESG per {{Section 6.5.2 of !RFC2026}}.
+If the disagreement cannot be resolved by the Area Director, that person may
+then appeal to the IESG, and subsequently to the IAB using the processes
+stated in {{Sections 6.5.1 and 6.5.4 of !RFC2026}}.
 
 ## Reinstatement
 
@@ -423,9 +427,27 @@ The policies described in this memo do not apply to the IRTF.
 The usual security considerations {{?RFC3552}} do not apply to this
 document.
 
-Potential abuse of the moderation process for the suppression of
-undesired opinions is counteracted by the availability of an appeals
-process, per {{appeals}}.
+There is the potential abuse of the moderation process by moderators,
+working group chairs, and potentially others that could lead to
+censorship of legitimate participation. This potential risk is mitigated in
+seven ways:
+
+1. The moderator team must first establish processes and
+procedures that are intended to apply uniformly across the IETF.
+2. This memo explicitly states that minority viewpoints are not
+in and of themselves disruptive.
+3. Moderation actions that restrict participation privileges must be made transparent
+to the affected person and to the moderation team, and must be
+periodically reported to the IESG.
+4. In the case of restrictions of participation privileges lasting longer than
+14 days, the community is also informed.
+5. An appeals process is made available to anyone in the case of
+disagreements.
+6. If IETF participants believe that the IESG is not performing
+their oversight functions as described in this document, they may
+comment to the NOMCOM or the community at large.
+7. Finally, if it appears that these processes are not functioning
+properly they may be amended.  They are not set in stone.
 
 Moderation actions are intended to limit the likelihood
 of disruptive behavior by a few IETF participants from discouraging
@@ -459,8 +481,8 @@ These individuals contributed additional improvements:
 - Jay Daley
 - Joel Halpern
 - John Klensin
-- Melinda Shore
 - Martin Thomson
+- Melinda Shore
 - Michael Richardson
 - Nick Hilliard
 - Pete Resnick
