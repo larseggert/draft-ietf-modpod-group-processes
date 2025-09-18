@@ -425,7 +425,7 @@ document.
 
 There is the potential abuse of the moderation process by moderators,
 working group chairs, and potentially others that could lead to
-censorship of legitimate participation. This risk can be checked in
+censorship of legitimate participation. This potential risk is mitigated in
 seven ways:
 
 1. The moderator team is required to first establish processes and
