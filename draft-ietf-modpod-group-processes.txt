@@ -303,10 +303,12 @@ Table of Contents
       from participants.
 
    *  *Area Directors* are expected to resolve conflicts as described
-      here and in Section 4.1.  Apart from appointing and recalling
-      moderators, the IESG shall refrain from the day-to-day operation
-      and management of the moderator team.  The moderators may consult
-      with the IESG when needed.
+      here and in Section 4.1.  The IESG will periodically evaluate the
+      performance and needs of moderators, and may appoint and recall
+      moderators as they deem appropriate.  Apart from that, the IESG
+      shall refrain from the day-to-day operation and management of the
+      moderator team.  The moderators may consult with the IESG when
+      needed.
 
 3.1.  Actions That Are Out of Scope
 
