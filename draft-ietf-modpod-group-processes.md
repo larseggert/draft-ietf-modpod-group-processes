@@ -431,7 +431,7 @@ seven ways:
 1. The moderator team must first establish processes and
 procedures that are intended to be applied uniformly across the IETF.
 2. This memo explicitly states that minority viewpoints are not
-in and of themselves abuse.
+in and of themselves disruptive.
 3. Moderation actions that restrict participation privileges must be made transparent
 to the affected person and to the moderation team, and must be
 periodically reported to the IESG.
