@@ -480,18 +480,27 @@ basis for how the moderators interact with list/forum leadership.
 These individuals contributed additional improvements:
 
 - Alissa Cooper
+- Brian Carpenter
 - Chris Box
+- Colin Perkins
+- David Schinazi
 - Eric Rescorla
 - Jay Daley
 - Joel Halpern
+- John Klensin
+- Martin Thomson
 - Melinda Shore
 - Michael Richardson
+- Nick Hilliard
+- Pete Resnick
 - Rich Salz
 - Robert Sayre
-- Brian Carpenter
-- David Schinazi
+- Russ Housely
+- Sean Turner
+- Simon Josefsson
 - Stephen Farrell
-- John Klensin
+- Ted Lemon
+- Tim Bray
 
 --- back
 
@@ -502,7 +511,18 @@ These individuals contributed additional improvements:
 
 ## Since draft-ietf-modpod-group-processes-10
 
+- Many editorial suggestions received during WGLC.
 - [remove attendee mailing lists from moderator primary responsibility](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181)
+- [Correct reference to appeals process.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/149)
+  [Also this.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/230)
+- [Clarify fora that are out of scope.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/197)
+  [Incl. attendees' lists.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/181)
+  [Also this.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/235)
+- [Clarify WG chairs are default admins but can delegate.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/220)
+- [Mod team size guidance.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/231)
+- [Chair immediately notify mods and affected parties.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/229)
+- [Add all of the available mitigations to risks of censorship.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/232)
+- [Clarify AD responsibilities.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/234)
 
 ## Since draft-ietf-modpod-group-processes-09
 
