@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 18 September 2025
-Expires: 22 March 2026
+Intended status: Best Current Practice                 19 September 2025
+Expires: 23 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 March 2026.
+   This Internet-Draft will expire on 23 March 2026.
 
 Copyright Notice
 
@@ -531,7 +531,13 @@ Table of Contents
 
    *  Alissa Cooper
 
+   *  Brian Carpenter
+
    *  Chris Box
+
+   *  Colin Perkins
+
+   *  David Schinazi
 
    *  Eric Rescorla
 
@@ -539,21 +545,33 @@ Table of Contents
 
    *  Joel Halpern
 
+   *  John Klensin
+
+   *  Martin Thomson
+
    *  Melinda Shore
 
    *  Michael Richardson
+
+   *  Nick Hilliard
+
+   *  Pete Resnick
 
    *  Rich Salz
 
    *  Robert Sayre
 
-   *  Brian Carpenter
+   *  Russ Housely
 
-   *  David Schinazi
+   *  Sean Turner
+
+   *  Simon Josefsson
 
    *  Stephen Farrell
 
-   *  John Klensin
+   *  Ted Lemon
+
+   *  Tim Bray
 
 9.  References
 
@@ -643,9 +661,41 @@ Appendix A.  Change History of this I-D
 
 A.1.  Since draft-ietf-modpod-group-processes-10
 
+   *  Many editorial suggestions received during WGLC.
+
    *  remove attendee mailing lists from moderator primary
       responsibility (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/181)
+
+   *  Correct reference to appeals process.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/149) Also this. (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/230)
+
+   *  Clarify fora that are out of scope.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/197) Incl. attendees' lists. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/181) Also this.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/235)
+
+   *  Clarify WG chairs are default admins but can delegate.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/220)
+
+   *  Mod team size guidance. (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/231)
+
+   *  Chair immediately notify mods and affected parties.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/229)
+
+   *  Add all of the available mitigations to risks of censorship.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/232)
+
+   *  Clarify AD responsibilities. (https://github.com/larseggert/draft-
+      ietf-modpod-group-processes/pull/234)
 
 A.2.  Since draft-ietf-modpod-group-processes-09
 
