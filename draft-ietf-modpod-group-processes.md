@@ -333,7 +333,7 @@ immediately to those against whom those actions take effect.
 
 To address disruptive behavior in a timely manner, only
 moderation actions suspending participation privileges for longer than
-fourteen (14) days shall be reported to the forum to which such an action applies.
+fourteen (14) days must be reported to the forum to which such an action applies.
 If such an action applies to more than one forum, it should be communicated to
 the community in a manner decided by the IESG.
 
