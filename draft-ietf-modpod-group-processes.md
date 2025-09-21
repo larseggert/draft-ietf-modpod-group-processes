@@ -308,7 +308,7 @@ the moderator team's own operating procedures.
 Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
-those processes and criteria are, all previous procedures
+those processes and criteria are established, all previous procedures
 referenced in {{introduction}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
@@ -511,6 +511,10 @@ These individuals contributed additional improvements:
 
 {:aside}
 > RFC Editor: Please remove this appendix before publication.
+
+## Since draft-ietf-modpod-group-processes-11
+
+- [clarify when changes take effect](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/238/)
 
 ## Since draft-ietf-modpod-group-processes-10
 
