@@ -100,18 +100,19 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Change History of this I-D
-     A.1.  Since draft-ietf-modpod-group-processes-10
-     A.2.  Since draft-ietf-modpod-group-processes-09
-     A.3.  Since draft-ietf-modpod-group-processes-08
-     A.4.  Since draft-ietf-modpod-group-processes-07
-     A.5.  Since draft-ietf-modmod-group-processes-06
-     A.6.  Since draft-ietf-modpod-group-processes-05
-     A.7.  Since draft-ietf-modpod-group-processes-04
-     A.8.  Since draft-ietf-modpod-group-processes-03
-     A.9.  Since draft-ietf-modpod-group-processes-02
-     A.10. Since draft-ietf-modpod-group-processes-01
-     A.11. Since draft-ietf-modpod-group-processes-00
-     A.12. Since draft-ecahc-moderation-01
+     A.1.  Since draft-ietf-modpod-group-processes-11
+     A.2.  Since draft-ietf-modpod-group-processes-10
+     A.3.  Since draft-ietf-modpod-group-processes-09
+     A.4.  Since draft-ietf-modpod-group-processes-08
+     A.5.  Since draft-ietf-modpod-group-processes-07
+     A.6.  Since draft-ietf-modmod-group-processes-06
+     A.7.  Since draft-ietf-modpod-group-processes-05
+     A.8.  Since draft-ietf-modpod-group-processes-04
+     A.9.  Since draft-ietf-modpod-group-processes-03
+     A.10. Since draft-ietf-modpod-group-processes-02
+     A.11. Since draft-ietf-modpod-group-processes-01
+     A.12. Since draft-ietf-modpod-group-processes-00
+     A.13. Since draft-ecahc-moderation-01
    Appendix B.  Changes and Motivation
      B.1.  Changes
      B.2.  Problems with the Previous Approach
@@ -346,8 +347,8 @@ Table of Contents
    Those processes and criteria shall be developed with community input
    and made public, but need not be documented in the RFC series.  This
    shall be the first task for the moderator team.  Until those
-   processes and criteria are, all previous procedures referenced in
-   Section 1 shall remain in effect.
+   processes and criteria are established, all previous procedures
+   referenced in Section 1 shall remain in effect.
 
    The intent of this memo is to provide the widest possible freedom of
    action to administrators and moderators, with a few constraints.
@@ -661,7 +662,12 @@ Appendix A.  Change History of this I-D
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-10
+A.1.  Since draft-ietf-modpod-group-processes-11
+
+   *  clarify when changes take effect (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/238/)
+
+A.2.  Since draft-ietf-modpod-group-processes-10
 
    *  Many editorial suggestions received during WGLC.
 
@@ -699,13 +705,13 @@ A.1.  Since draft-ietf-modpod-group-processes-10
    *  Clarify AD responsibilities. (https://github.com/larseggert/draft-
       ietf-modpod-group-processes/pull/234)
 
-A.2.  Since draft-ietf-modpod-group-processes-09
+A.3.  Since draft-ietf-modpod-group-processes-09
 
    *  Try to find another happy medium on power of moderators
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/147)
 
-A.3.  Since draft-ietf-modpod-group-processes-08
+A.4.  Since draft-ietf-modpod-group-processes-08
 
    *  Address timeliness and exisgent circumstances
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -715,7 +721,7 @@ A.3.  Since draft-ietf-modpod-group-processes-08
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/143)
 
-A.4.  Since draft-ietf-modpod-group-processes-07
+A.5.  Since draft-ietf-modpod-group-processes-07
 
    *  Pete Resnick issues and similar (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/issues/134)
@@ -725,7 +731,7 @@ A.4.  Since draft-ietf-modpod-group-processes-07
       team → moderator team. (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/135)
 
-A.5.  Since draft-ietf-modmod-group-processes-06
+A.6.  Since draft-ietf-modmod-group-processes-06
 
    *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -735,25 +741,25 @@ A.5.  Since draft-ietf-modmod-group-processes-06
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/132)
 
-A.6.  Since draft-ietf-modpod-group-processes-05
+A.7.  Since draft-ietf-modpod-group-processes-05
 
    *  New attempt to address moderation/WG interactions
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/126)
 
-A.7.  Since draft-ietf-modpod-group-processes-04
+A.8.  Since draft-ietf-modpod-group-processes-04
 
    *  Use plain English instead of BCP 14 language
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/120)
 
-A.8.  Since draft-ietf-modpod-group-processes-03
+A.9.  Since draft-ietf-modpod-group-processes-03
 
    *  Non-normative Examples of Disruptive Behavior
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/121)
 
-A.9.  Since draft-ietf-modpod-group-processes-02
+A.10.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -771,7 +777,7 @@ A.9.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.10.  Since draft-ietf-modpod-group-processes-01
+A.11.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -783,7 +789,7 @@ A.10.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.11.  Since draft-ietf-modpod-group-processes-00
+A.12.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -804,7 +810,7 @@ A.11.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.12.  Since draft-ecahc-moderation-01
+A.13.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
