@@ -83,7 +83,7 @@ set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
 
-# Introduction
+# Introduction {#intro}
 
 This memo establishes a policy for the moderation of disruptive
 participation
@@ -114,6 +114,8 @@ the Internet Research Task Force (IRTF),
 the Internet Architecture Board (IAB),
 the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
 or the Independent RFC Submission Stream, without their explicit agreement.
+These changes take effect when the procedures described
+in {{prod}} have been approved by the IESG.
 
 ## Terminology Note
 
@@ -220,7 +222,7 @@ LLC {{?RFC8711}}.
 This policy applies to all public IETF fora, both present and
 future, including, but not limited to, mailing lists, chat groups,
 and discussions in other systems that the IETF or WGs have chosen to
-employ, such as GitHub repositories, Wikis, or issue trackers.
+employ, such as GitHub repositories, wikis, or issue trackers.
 
 Different people have different moderation responsibilities:
 
@@ -306,7 +308,8 @@ the moderator team's own operating procedures.
 Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
-that happens, the previous procedures remain in effect.
+those processes and criteria are, all previous procedures
+referenced in {{intro}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
 action to administrators and moderators, with a few constraints.
