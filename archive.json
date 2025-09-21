@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-18T00:22:45.874682+00:00",
+  "timestamp": "2025-09-21T00:26:02.689189+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -2658,15 +2658,15 @@
       "id": "I_kwDOJrr8CM7IKr1-",
       "title": "Stephen Farrell comments",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/159",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "> Hiya,\n> \n> I've only gotten to the end of section 3, but while (so far) the\n> substantive content is ready, the -10 text is IMO far from ready.\n> I'll send more input as time allows, but for now, see comments on\n> sections 1-3 below. To be clear, I do not think -10 is ready for\n> a pubreq:\n> \n> - there's too much flowery language and I do think that needs fixing\n> as it'll cause trouble later if we don't. There are multiple examples\n> below, both nits and non-nits.\n> \n> - with the (good) definition of \"administrators,\" I'm not sure\n> that \"moderators\" remains a good term for the appointees about\n> whom we're writing, more as I finish reading so no need to respond\n> to this yet\n> \n> More detail below and more to come, time permitting,\n> Cheers,\n> S.\n> \n> ## Specific non-nits:\n> \n> - s1.1: \"It is up to the moderators...\" that seems in the wrong\n> place as we've not defined moderators yet and we probably want to\n> say administrators. (This isn't a flowery language point:-)\n> \n> - s1.1: \"decide which mix of preemptive and reactive moderation to\n> employ\" on it's face would allow a company-X administrator/moderator\n> to pre-emptively moderate all emails from any new posters from\n> company-Y. I think it's also an important part of the background that\n> we don't want that, so suggest adding a sentence about fairness/open-\n> ness etc. with some suitable reference. (I don't mind much which text\n> or reference and I'm sure the editors could find something fine.)\n> \n> - 1.2: \"The cornerstone of our philosophy is first and foremost the\n> individual,\" No, it isn't. And that's not even a good sentence. (Am\n> I, as an individual, a cornerstone? Are we all? That's a lot of\n> corners, and do philosophies even have corners?:-) I'd say delete the\n> entire paragraph as it reads like a typically overblown HR statement.\n> (Apologies to whoever suggested it - sometimes one just misses the\n> target;-)\n> \n> - 1.2: \"However, when someone crosses the line into disruptive\n> behavior, some action must be taken in order to maintain decorum of\n> the community.\" Hmm. I don't think the IETF requires decorum, nor\n> have we consensus on such a proposition. My interpretation of\n> \"decorum\" is that it means a thing much stronger than behaving\n> well.\n> \n> - 1.2: \"broadest possible latitude to all people\" - I don't like\n> that - we do not want moderators to be allowed to delete someone's\n> datatracker account from the DB just for disruption for example;\n> suggest deleting \"the broadest possible\"\n> \n> - 1.3: Do we recognise that e.g. WG chairs might not in fact be\n> able to moderate github discussions (if the repo is owned by an\n> author)? I don't think this is the document to propose that all\n> WG draft github repos need to belong to a github org that's under\n> the control of IETF administrators. Suggest s/are administrators/\n> are to be considered administrators/\n> \n> - 2.1: the IESG appoints, which is fine, but are those fixed-term\n> appointments or not? I figure we need to say.\n> \n> - s3: \"They are also encouraged to report inappropriate behavior\n> directed...\" that seems like scope-creep - this is only about\n> disruptive behaviour - there's >1 instance of this and it's IMO\n> a major point.\n> \n> - s3: I had interpreted administrator as \"either WG chair or part\n> of the moderation team\" but now it seems moderation team members\n> are not considered administrators. That's fine, but noteworthy\n> as I'd assumed the opposite 'till this read-through.\n> \n> - s3: \"Moderators may take actions when administrators do not\n> respond to reports in a timely fashion.\" - I'll reiterate my\n> dislike of this, but also that I can live with the meat of the\n> current proposal. (Assuming the text ends up good, which is not\n> yet the case.)\n> \n> - s3: \"moderators are not expected to always actively monitor all\n> communications\" is way too weak and the wrong way about, I think\n> we want to say that moderators should not act unless they have a\n> good basis on which to act either based on really knowing the\n> forum, or the egregious nature of a posting\n> \n> - s3: \"cuts across\" seems too ambiguous, we do need to try define\n> this better, so people know what's what\n> \n> - s3: \"In order to scale the function, except for plenary fora as\n> described above, moderators are not expected to always actively monitor\n> all communications.  Instead, they will process reports from\n> participants.\" I don't think \"actively monitor\" is the opposite\n> from \"reports from participants\" so I'm not happy this is right\n> yet.\n> \n> - s3.1: As a WG chair, I've been told a few times (by trusted people)\n> that person-A had sent bad email to person-B, where bad is not quite\n> defined, and I, as WG chair, don't see the content. How do I know if\n> that's in or out of scope since I'm an administrator?\n> \n> - s3.1: this says \"problematic\" when the document ought only deal\n> with \"disruptive\"\n> \n> ## Nits:\n> \n> - abstract: \"grace\" - I'll take it when I see it, but I doubt\n> that \"will treat people... with... grace\" will often approximate\n> truth - I'd suggest removing that. (And IMO no organisation can\n> treat anyone with grace, only people can do that.)\n> \n> - abstract: \"guardrails\" - better to avoid AI fashion phrases\n> entirely IMO, and guardrails != guidelines which is implied by\n> the current text\n> \n> - s1: \" This memo describes the moderation of disruptive...\"\n> isn't quite right, the text sets out the team setup and does\n> not describe the actual moderation\n> \n> - s1.2: \"nor should someone be considered disruptive solely\n> because they are outside the rough consensus.\" I'd suggest\n> s/should/ought/ here just to avoid the potential BCP14 way of\n> misinterpreting that to imply there are cases where someone\n> ought be moderated only because they're not part of the rough\n> consensus.\n> \n> - 1.2: \" Apply consistent, fair, and timely moderation of communication\n> across all public IETF participation channels and participation\n> fora; without regard to one's position or previous contributions;\"\n> If I squint from a specific angle, I could interpret \"one's\" above\n> to relate to the moderator and not the poster. Both statements seem\n> ok, but I think we wanted the latter.\n> \n> - s2: \"This memo proposes a uniform approach to moderating the\n> IETF's various public fora.\" No, it doesn't. It suggests setting\n> up a team to do that.\n> \n> - s2: \" A moderator team for the IETF will develop uniform\n> guidelines\" what are uniform guidelines and what could possibly\n> be non-uniform guidelines? (Wear a t-shirt and shorts:-) I think\n> we want to say guidelines that don't vary by forum-type (WG or\n> not etc.) or medium (mail vs. issue-trackers)\n> \n> - s2.1: just checking, no strong opinion: \"In selecting members,\n> the IESG will take into account geographic coverage, expected and\n> unexpected absences, and team diversity.\" - so we do not explicitly\n> require the IESG to take into account changes in community views\n> of moderation? (That's ok.)\n> \n> - 2.2: I think s/moderators/administrators/ here would be better\n> \n> - s3: \"Administrators* are primarily responsible...\" managing disruptive\n> postings is not the primary concern of e.g. WG chairs so this\n> seems wrong\n> ",
       "createdAt": "2025-08-27T06:57:02Z",
-      "updatedAt": "2025-08-28T18:12:43Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-18T12:15:33Z",
+      "closedAt": "2025-09-18T12:15:33Z",
       "comments": [
         {
           "author": "sayrer",
@@ -2962,7 +2962,7 @@
       "id": "I_kwDOJrr8CM7Ini__",
       "title": "Fixed terms?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/185",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -2971,8 +2971,8 @@
       ],
       "body": "\n>\n> - 2.1: the IESG appoints, which is fine, but are those fixed-term\n> appointments or not? I figure we need to say. \n\nCan we leave that to the IESG?",
       "createdAt": "2025-08-29T07:34:37Z",
-      "updatedAt": "2025-08-29T21:28:21Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-18T09:03:09Z",
+      "closedAt": "2025-09-18T09:03:09Z",
       "comments": [
         {
           "author": "sftcd",
@@ -3343,15 +3343,15 @@
       "id": "I_kwDOJrr8CM7JKfRe",
       "title": "Stephen Farrell Comments Part 2 (combined)",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/208",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Two messages from Stephen.  Will subdivide issues:\n\nHiya,\n\nI continued reading from section 4 on, I'll try to not\nrepeat any issues already raised. I do have one other\nissue to raise, that I'll do in a separate email as it's\nmaybe more controversial and less related to the text of\ndraft-10.\n\nCheers,\nS.\n\nNon-nits:\n\n- section 4: \"Any attempt to circumvent or otherwise ignore a moderation\naction is a demonstration of bad faith that may warrant further\nmoderation.\" - I think this is just wrong, one cannot know for sure\nsuch action is a demonstration of bad faith - it could be ignorance,\nor cultural. I think we want to say that decision makers can factor\nwhat they perceive as such efforts into future/additional decisions\nbut we don't need to say more.\n\n- 4.2: \"Requests for reinstatement may be made only a year after the\ninitial decision, and then only annually afterwards\" - anyone can\nask, any time, I think we want to say that decision makers can choose\nto take no action for a year after a decision, rather than say that\nsuch a request can't be made. Maybe also s/year/4 months/ as I\ndon't see why a year is a good choice and 3 times a year matches\nthe IETF cadence for various things and should be long enough for\nan otherwise reasonable person to have re-discovered \"comity\":-)\n\n- 5.2: The LLC frequently delete errata spam. Do we need to say\nanything related to that? I think the answer is \"no\" but forget\nif that was discussed. If we did want to say something it might\nbe along the lines of \"the LLC may operate policies they define\nfor handling spam in fora related to the IETF that are subject\nto injection of spam (e.g. current errata processing)\" but might\nbe better to say nothing as hopefully errata processing will be\nimproved soonish.\n\nNits:\n\n- section 4: \"comity\" - not a good word choice, as noted already:-)\n\n- 4.1: The appeals text is written as if this document is what sets\nour the moderation procedures, rather than this document tasking a\nteam to develop such procedures. The text is probably ok though but\nmaybe the editors might want to look at it another time in that light.\n\n- 4.2: \"grace\": more flowery language\n\n\nAlso:\n\nHiya,\n\nI do not think this WG or this draft is imposing a censorship\nregime. However, I do think that is a risk that we ought to\naddress.\n\nI suggest we add an Appendix D that says that, e.g. along the\nlines of:\n\n\"\nAppendix D: Risks related to better IETF community moderation\n\nThere is a risk that the evolution of well-intended procedures\nestablished following this document gives rise to a regime\nwhere participants are censored, or feel that they are subject\nto an unreasonable censorship regime, or where participants\nself-censor in fear of being considered disruptive. That is a\nreal risk that the moderation team, and the IESG, need to always\nconsider as procedures for handling disruption are developed\nand as those are operated.\n\nThe goal is that participants always feel free to provide\nvaluable technical input, even if that is unwelcome, so long\nas it is provided in a manner that respects the overall goal\nof the IETF, which is to make a better Internet.\n\"\n\nI don't care how that sentiment/constraint is expressed nor\nwhere, but I do think we ought say it directly somewhere.\n\nCheers,\nS.",
       "createdAt": "2025-09-02T08:22:57Z",
-      "updatedAt": "2025-09-02T08:25:01Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-18T08:41:58Z",
+      "closedAt": "2025-09-18T08:41:58Z",
       "comments": [
         {
           "author": "elear",
@@ -3359,6 +3359,13 @@
           "body": "Note that the nits have been separately addressed in other issues.",
           "createdAt": "2025-09-02T08:25:01Z",
           "updatedAt": "2025-09-02T08:25:01Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "All addressed.",
+          "createdAt": "2025-09-18T08:41:58Z",
+          "updatedAt": "2025-09-18T08:41:58Z"
         }
       ]
     },
@@ -3439,15 +3446,15 @@
       "id": "I_kwDOJrr8CM7JKkpt",
       "title": "New text on addressing risk of malicious or inappropriate censorship",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/212",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "I do not think this WG or this draft is imposing a censorship\nregime. However, I do think that is a risk that we ought to\naddress.\n\nI suggest we add an Appendix D that says that, e.g. along the\nlines of:\n\n\"\nAppendix D: Risks related to better IETF community moderation\n\nThere is a risk that the evolution of well-intended procedures\nestablished following this document gives rise to a regime\nwhere participants are censored, or feel that they are subject\nto an unreasonable censorship regime, or where participants\nself-censor in fear of being considered disruptive. That is a\nreal risk that the moderation team, and the IESG, need to always\nconsider as procedures for handling disruption are developed\nand as those are operated.\n\nThe goal is that participants always feel free to provide\nvaluable technical input, even if that is unwelcome, so long\nas it is provided in a manner that respects the overall goal\nof the IETF, which is to make a better Internet.\n\"\n\nI don't care how that sentiment/constraint is expressed nor\nwhere, but I do think we ought say it directly somewhere.",
       "createdAt": "2025-09-02T08:27:38Z",
-      "updatedAt": "2025-09-02T20:09:45Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-18T08:41:25Z",
+      "closedAt": "2025-09-18T08:41:25Z",
       "comments": [
         {
           "author": "larseggert",
@@ -3488,16 +3495,40 @@
       "id": "I_kwDOJrr8CM7LrCol",
       "title": "IAB-, RSWG-, and Independent Stream-managed forums?",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/227",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "(Aside: did my WGLC comment about whether this applies to IAB-, RSWG-, and Independent Stream-managed forums get captured somewhere?)\r\n\r\n_Originally posted by @csperkins in https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/222#discussion_r2348295668_\r\n            ",
       "createdAt": "2025-09-15T09:20:24Z",
-      "updatedAt": "2025-09-15T09:20:24Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-18T15:19:55Z",
+      "closedAt": "2025-09-18T15:19:55Z",
       "comments": []
+    },
+    {
+      "number": 237,
+      "id": "I_kwDOJrr8CM7MzTQr",
+      "title": "Non-public mailing lists",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/237",
+      "state": "CLOSED",
+      "author": "DavidSchinazi",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I was thinking through how this document is obsoleting BCP 83 and effectively replacing the PR-action process. To be clear, I'm very supportive of that choice. However, I just thought of a potential edge case: that of non-public mailing lists - by which I mean lists where most IETF participants cannot subscribe to the list or view its archive. An example of such a list is `iesg@ietf.org`. In the previous PR-action process, the clause `maintainers of any IETF mailing list may, at their discretion, also remove posting rights to that IETF mailing list` would allow the maintainers of that list to also ban the target of the PR-action. In the new world, what happens? If someone on the moderator team happens to be on the non-public list, are they allowed to ban that person? If none of the moderators are on a non-public list, is there a process by which the maintainers of that list can ban someone?",
+      "createdAt": "2025-09-19T21:49:56Z",
+      "updatedAt": "2025-09-20T07:05:27Z",
+      "closedAt": "2025-09-20T07:05:26Z",
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Based on the [mailing list discussion](https://mailarchive.ietf.org/arch/msg/mod-discuss/PRDbRFutA51uxI0OWQdtbOCZ4jk/), I've convinced myself that the draft as-is will handle private lists sufficiently well. Feel free to close this issue.",
+          "createdAt": "2025-09-20T01:00:32Z",
+          "updatedAt": "2025-09-20T01:00:32Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -12630,10 +12661,12 @@
       "assignees": [
         "elear"
       ],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "This text is as emphatic as I could manage. I do not claim that it is emphatic enough, but I think it helps to clarify the meaning of the existing text, which was fine but IMO not sufficient.",
       "createdAt": "2025-07-23T08:26:15Z",
-      "updatedAt": "2025-08-21T08:29:03Z",
+      "updatedAt": "2025-09-19T07:33:44Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "5674e43854c7d3397ccb44ba765e2109ae3f695a",
@@ -13743,10 +13776,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Fixes #140",
       "createdAt": "2025-08-27T07:06:31Z",
-      "updatedAt": "2025-08-27T07:23:07Z",
+      "updatedAt": "2025-09-19T07:34:22Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "65e9260c4e9c8c1dcb9afe238428bda99a8dabac",
@@ -14150,26 +14185,99 @@
       "id": "PR_kwDOJrr8CM6ljPBD",
       "title": "Changelog for post-10",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/179",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Keep open until we push -11.",
       "createdAt": "2025-08-27T07:38:16Z",
-      "updatedAt": "2025-09-17T12:34:53Z",
+      "updatedAt": "2025-09-19T11:23:29Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "3dc8f5dc2e4f1c28b92cfe147bd3e1d5a843c1e7",
+      "baseRefOid": "ddbfe05bad1304ace82d7c06394658a580d745fb",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "larseggert-patch-6",
-      "headRefOid": "e1b8c555e8f516b0cadcce27a989c8a3419d7738",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "headRefOid": "082f4c5a89e8f74b55ad07c0cafe82e8704d3398",
+      "closedAt": "2025-09-19T11:23:27Z",
+      "mergedAt": "2025-09-19T11:23:27Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "526b7d7f2d5a3db20e3640a9d61de4b715e31f87"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear one thing we should do now is check which changes/PRs deserve a changelog entry.",
+          "createdAt": "2025-09-18T15:24:39Z",
+          "updatedAt": "2025-09-18T15:24:39Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "A good diff will give us a good feel.",
+          "createdAt": "2025-09-18T15:49:19Z",
+          "updatedAt": "2025-09-18T15:49:19Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "https://github.com/larseggert/draft-ietf-modpod-group-processes/compare/draft-ietf-modpod-group-processes-10...main and then go to the \"Files changed\" tab (can't link it directly it seems).",
+          "createdAt": "2025-09-18T16:01:34Z",
+          "updatedAt": "2025-09-18T16:01:34Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Do you want them per PR?",
+          "createdAt": "2025-09-18T16:13:10Z",
+          "updatedAt": "2025-09-18T16:13:10Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "As much as possible, since that's the pattern we had.",
+          "createdAt": "2025-09-18T18:00:43Z",
+          "updatedAt": "2025-09-18T18:00:43Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "It's too much for me to do that way.",
+          "createdAt": "2025-09-19T06:54:20Z",
+          "updatedAt": "2025-09-19T06:54:20Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Here is all the non-editorial PRs merged since -10 (I think): https://github.com/larseggert/draft-ietf-modpod-group-processes/pulls?q=is%3Apr%20-label%3Aeditorial%20updated%3A%3E2025-08-13%20is%3Amerged\r\n\r\nWe weren't very good with labeling as editorial; I'll go through the list and do so now, so it will shrink.",
+          "createdAt": "2025-09-19T07:33:03Z",
+          "updatedAt": "2025-09-19T07:33:03Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear I think this is good to go.",
+          "createdAt": "2025-09-19T11:16:58Z",
+          "updatedAt": "2025-09-19T11:16:58Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7BYf-x",
+          "commit": {
+            "abbreviatedOid": "082f4c5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-19T11:23:11Z",
+          "updatedAt": "2025-09-19T11:23:11Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 180,
@@ -14329,10 +14437,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Closes #195 \r\n",
       "createdAt": "2025-08-29T08:15:23Z",
-      "updatedAt": "2025-08-30T06:29:00Z",
+      "updatedAt": "2025-09-19T07:35:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7cef29a0c3118bd49999385520a5bf411bf0a565",
@@ -14686,10 +14796,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "No semantic change is intended.  However, following Housley's Law that the draft isn't finished until all words that can be removed have been removed.",
       "createdAt": "2025-09-01T08:30:49Z",
-      "updatedAt": "2025-09-01T09:53:02Z",
+      "updatedAt": "2025-09-19T07:35:31Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d8c6857dc922240037c3f806cae7ab33ba8ac8c2",
@@ -14840,10 +14952,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Closes #209\r\n\r\nAlso moves up some text about moderators being responsible to the IESG to the part where we describe the role of the moderator.",
       "createdAt": "2025-09-02T08:51:22Z",
-      "updatedAt": "2025-09-02T10:08:06Z",
+      "updatedAt": "2025-09-19T07:35:52Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ef3f4a996c220357b6ec5c9244881b83a9beb04a",
@@ -14882,10 +14996,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Closes #211 \r\n\r\nMakes consistent with existing IESG policy. Normative text.",
       "createdAt": "2025-09-02T09:47:44Z",
-      "updatedAt": "2025-09-02T10:08:16Z",
+      "updatedAt": "2025-09-19T07:36:05Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "ef3f4a996c220357b6ec5c9244881b83a9beb04a",
@@ -15062,21 +15178,21 @@
       "id": "PR_kwDOJrr8CM6md4wc",
       "title": "add appendix about censorship/self-censorship",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/216",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Closes #212 ",
       "createdAt": "2025-09-02T14:14:35Z",
-      "updatedAt": "2025-09-17T12:05:23Z",
+      "updatedAt": "2025-09-18T08:41:26Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "250a7a2eae541b89723160c0cea14feb307435a0",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "212-inappropriate-moderation",
       "headRefOid": "a7f445cfd72ace103851c6226d9a264353bd586f",
-      "closedAt": null,
+      "closedAt": "2025-09-18T08:41:26Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -15375,10 +15491,12 @@
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Fixes #210 \r\nAlternative to #215",
       "createdAt": "2025-09-04T08:36:08Z",
-      "updatedAt": "2025-09-04T09:38:51Z",
+      "updatedAt": "2025-09-19T07:36:34Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7ade5e72b905be6bc9d3768a26e2c9a339cff80c",
@@ -15933,10 +16051,12 @@
       "author": "DavidSchinazi",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Based on [the list dicussion](https://mailarchive.ietf.org/arch/msg/mod-discuss/DwGwGt0W-2FZ7pKX-WIKBjm42wY/), it sounds like the goal is for these policies to not apply to the IRTF. Let's make that crystal clear then.",
       "createdAt": "2025-09-12T21:54:24Z",
-      "updatedAt": "2025-09-15T18:53:06Z",
+      "updatedAt": "2025-09-19T07:36:22Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "9b44ea552523fd779f6b13c680d0f586b69e78a2",
@@ -16720,10 +16840,12 @@
       "author": "sayrer",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "The TLS WG likes to allow pre-approved announcements. I'm sure there are other groups that do as well (DNS OARC, things like that).\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/lDBRz4iWw077lYYNCgZjClY6OXY/\r\n\r\nThis is my attempt, feel free to change the wording. Should close #221.",
       "createdAt": "2025-09-13T16:17:08Z",
-      "updatedAt": "2025-09-15T07:51:31Z",
+      "updatedAt": "2025-09-19T07:37:13Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "7aa5bf28bc1e66bfc8f87215f1f33f0cde6ace49",
@@ -16782,10 +16904,12 @@
       "author": "sayrer",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "See the discussion here:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/t_lO3RgjlkeRztMb4NDh-kCzVRo/\r\n\r\nThis one is my fault, as I did indeed just copy/paste the old version from the IETF list policies.\r\n\r\nStephen Farrell raised the point that sometimes a group is chartered to define a charter, but I think we're still covered on that one, especially given the text on approved charters below.",
       "createdAt": "2025-09-13T16:23:51Z",
-      "updatedAt": "2025-09-15T07:45:30Z",
+      "updatedAt": "2025-09-19T07:37:30Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "e75b336a6e6753dab1955c8d590413f35b870eb9",
@@ -16844,10 +16968,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "This change consolidates some text, and adds a reference to RFC 7282.",
       "createdAt": "2025-09-16T11:57:32Z",
-      "updatedAt": "2025-09-17T11:59:07Z",
+      "updatedAt": "2025-09-19T07:37:49Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8c45bd18b4a524361acc11f27f844b66c4d3a91c",
@@ -17139,24 +17265,26 @@
       "id": "PR_kwDOJrr8CM6pAMr6",
       "title": "go back to 6.5.1 but require transparency",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/230",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-09-17T06:50:32Z",
-      "updatedAt": "2025-09-17T18:30:42Z",
+      "updatedAt": "2025-09-18T05:06:24Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "3dc8f5dc2e4f1c28b92cfe147bd3e1d5a843c1e7",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "tweak-appeals-again",
       "headRefOid": "9cb5c9d14b7acebc68ab028ba752ef4bfa46ada9",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-18T05:06:23Z",
+      "mergedAt": "2025-09-18T05:06:23Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "1e68c449e483911f510efc1a049b147153580c6e"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -17413,6 +17541,19 @@
               "updatedAt": "2025-09-17T18:00:25Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7A9UE-",
+          "commit": {
+            "abbreviatedOid": "9cb5c9d"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-18T05:06:18Z",
+          "updatedAt": "2025-09-18T05:06:18Z",
+          "comments": []
         }
       ]
     },
@@ -17463,24 +17604,26 @@
       "id": "PR_kwDOJrr8CM6pEI75",
       "title": "add all of the available mitigations to risks of censorship.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/232",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This is intended to address the points that Stephen raised in #212.\r\nCloses #212\r\nCloses #216 \r\n",
       "createdAt": "2025-09-17T12:27:18Z",
-      "updatedAt": "2025-09-17T16:34:30Z",
+      "updatedAt": "2025-09-18T08:41:26Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "3dc8f5dc2e4f1c28b92cfe147bd3e1d5a843c1e7",
+      "baseRefOid": "1e68c449e483911f510efc1a049b147153580c6e",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "sec-cons-mod-abuse",
-      "headRefOid": "24c90763a22622b3305b45b8a54704fb22ba4f40",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "093afc719186c0724e24877b1f217525eb0e0f54",
+      "closedAt": "2025-09-18T08:41:25Z",
+      "mergedAt": "2025-09-18T08:41:25Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "ab8ca08ce2d82957fef59f545525846f59de9b96"
+      },
       "comments": [],
       "reviews": [
         {
@@ -17517,9 +17660,171 @@
           "comments": [
             {
               "originalPosition": 9,
-              "body": "\"is checked\" maybe? No strong opinion.",
+              "body": "\"is checked\" maybe? No strong opinion.\r\n\r\nHere we mean sense 2:\r\n\r\nhttps://www.merriam-webster.com/dictionary/check \r\n\r\n\"2\r\na: to slow or bring to a stop : [brake](https://www.merriam-webster.com/dictionary/brake)\r\nhastily checked the impulse\r\nb : to block the progress of (someone, such as a hockey player)\"\r\n\r\n\r\nSo, it is not to examine, but to prevent. Exactly the right word if it's \"is checked\". But I don't think \"can be checked in\" is good, because that is an examination. Up to the editors.",
               "createdAt": "2025-09-17T16:34:30Z",
-              "updatedAt": "2025-09-17T16:34:30Z"
+              "updatedAt": "2025-09-18T03:07:27Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7A9Qoa",
+          "commit": {
+            "abbreviatedOid": "24c9076"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Generally OK, suggestions below.",
+          "createdAt": "2025-09-18T04:57:05Z",
+          "updatedAt": "2025-09-18T05:01:55Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "```suggestion\nSome perceive a potential risk for abuse of the moderation process by moderators,\n```",
+              "createdAt": "2025-09-18T04:57:05Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 9,
+              "body": "```suggestion\ncensorship of legitimate participation. This potential risk is mitigated in\n```",
+              "createdAt": "2025-09-18T04:58:01Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 12,
+              "body": "```suggestion\n1. The moderator team must first establish processes and\n```",
+              "createdAt": "2025-09-18T04:58:21Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 13,
+              "body": "```suggestion\nprocedures intended to apply uniformly across the IETF.\n```",
+              "createdAt": "2025-09-18T04:58:44Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\n2. This memo explicitly states that minority viewpoints are not\n```\n\nAlso, not actually a mitigation of the risks. So I might drop this list item.",
+              "createdAt": "2025-09-18T04:59:31Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\n3. Moderation actions that restrict participation privileges must be made transparent\n```",
+              "createdAt": "2025-09-18T04:59:51Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\n4. In the case of restrictions of participation privileges lasting longer than 14 days, the community is\n```",
+              "createdAt": "2025-09-18T05:00:13Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            },
+            {
+              "originalPosition": 23,
+              "body": "```suggestion\n6. If IETF participants believe that the IESG is not performing\n```\n\nWhy include the IAB? They are just an escalation in the appeals path.",
+              "createdAt": "2025-09-18T05:01:11Z",
+              "updatedAt": "2025-09-18T05:01:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7A_Xvg",
+          "commit": {
+            "abbreviatedOid": "24c9076"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-18T07:36:07Z",
+          "updatedAt": "2025-09-18T07:36:07Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "This is not how we write security considerations.  We state a threat and then a remediation.",
+              "createdAt": "2025-09-18T07:36:07Z",
+              "updatedAt": "2025-09-18T07:36:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7A_k2x",
+          "commit": {
+            "abbreviatedOid": "24c9076"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-18T07:45:50Z",
+          "updatedAt": "2025-09-18T07:45:50Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "Split the difference...\r\n```suggestion\r\nprocedures that are intended to apply uniformly across the IETF.\r\n```",
+              "createdAt": "2025-09-18T07:45:50Z",
+              "updatedAt": "2025-09-18T07:45:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7A_mZZ",
+          "commit": {
+            "abbreviatedOid": "24c9076"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-18T07:46:50Z",
+          "updatedAt": "2025-09-18T07:46:50Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "~~~suggestion\r\nin and of themselves disruptive.\r\n~~~",
+              "createdAt": "2025-09-18T07:46:50Z",
+              "updatedAt": "2025-09-18T07:46:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7A_nHg",
+          "commit": {
+            "abbreviatedOid": "24c9076"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-18T07:47:20Z",
+          "updatedAt": "2025-09-18T07:47:20Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "resolved elsewhere.",
+              "createdAt": "2025-09-18T07:47:20Z",
+              "updatedAt": "2025-09-18T07:47:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7BAdRK",
+          "commit": {
+            "abbreviatedOid": "24c9076"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-18T08:23:19Z",
+          "updatedAt": "2025-09-18T08:23:19Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Well, this isn't a normal security considerations section. But I don't feel strongly. I guess I don't see this as a realistic risk to begin with.",
+              "createdAt": "2025-09-18T08:23:19Z",
+              "updatedAt": "2025-09-18T08:23:19Z"
             }
           ]
         }
@@ -17558,6 +17863,206 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 234,
+      "id": "PR_kwDOJrr8CM6pPS3_",
+      "title": "periodic review of moderators",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/234",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #185 ",
+      "createdAt": "2025-09-18T08:50:32Z",
+      "updatedAt": "2025-09-18T09:03:10Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ab8ca08ce2d82957fef59f545525846f59de9b96",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "moderator-review",
+      "headRefOid": "4056f0c9c6842dac3892874e9970a0907c9559cd",
+      "closedAt": "2025-09-18T09:03:08Z",
+      "mergedAt": "2025-09-18T09:03:08Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "ddbfe05bad1304ace82d7c06394658a580d745fb"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7BBPg9",
+          "commit": {
+            "abbreviatedOid": "4056f0c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-18T09:03:03Z",
+          "updatedAt": "2025-09-18T09:03:03Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 235,
+      "id": "PR_kwDOJrr8CM6pTH1x",
+      "title": "fix: Other IETF-adjacent fora",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/235",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #227\r\n\r\nCC @csperkins @JayDaley",
+      "createdAt": "2025-09-18T13:49:48Z",
+      "updatedAt": "2025-09-18T15:19:56Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "ddbfe05bad1304ace82d7c06394658a580d745fb",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "larseggert-patch-2",
+      "headRefOid": "1a2f513f0beeb6f1b4a2a534f78079c6fbfec2fa",
+      "closedAt": "2025-09-18T15:19:54Z",
+      "mergedAt": "2025-09-18T15:19:54Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "15592d3855d660148d64d7eb896b0ec97d59c16d"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think we can do this with a lot less text.  How about we simply state in the intro that the policies are applicable only to the IETF and not to other organizations unless they explicitly opt in.",
+          "createdAt": "2025-09-18T13:53:26Z",
+          "updatedAt": "2025-09-18T13:53:26Z"
+        },
+        {
+          "author": "csperkins",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Problem is, people are confused about what is \"the IETF\". Being explicit is useful.",
+          "createdAt": "2025-09-18T13:56:05Z",
+          "updatedAt": "2025-09-18T13:56:05Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "\"The processes described in this document are solely applicable to IETF standards-related activities, and not to other related organizations, such as the IRTF, IAB, and RSWG, without their explicit agreement.\"\r\n",
+          "createdAt": "2025-09-18T14:00:26Z",
+          "updatedAt": "2025-09-18T14:00:26Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "> \"The processes described in this document are solely applicable to IETF standards-related activities, and not to other related organizations, such as the IRTF, IAB, and RSWG, without their explicit agreement.\"\r\n\r\nExcept that's not accurate. Non-WG lists are also in scope, and they are not standards-related.",
+          "createdAt": "2025-09-18T14:05:45Z",
+          "updatedAt": "2025-09-18T14:05:45Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Then I revert to my previous suggestion with a modification:\r\n```\r\nThese processes and policies are applicable to the IETF, and not to related organizations such as the IAB or IRTF.  ```",
+          "createdAt": "2025-09-18T14:18:05Z",
+          "updatedAt": "2025-09-18T14:18:05Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "How about instead just dropping \"standards-related\"?",
+          "createdAt": "2025-09-18T14:34:38Z",
+          "updatedAt": "2025-09-18T14:34:38Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "That would be fine by me",
+          "createdAt": "2025-09-18T14:41:08Z",
+          "updatedAt": "2025-09-18T14:41:08Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Please re-review.",
+          "createdAt": "2025-09-18T15:18:03Z",
+          "updatedAt": "2025-09-18T15:18:03Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7BJTjN",
+          "commit": {
+            "abbreviatedOid": "1a2f513"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-18T15:19:44Z",
+          "updatedAt": "2025-09-18T15:19:44Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 236,
+      "id": "PR_kwDOJrr8CM6pkIca",
+      "title": "Use 'must' instead of 'shall' for the 14 days thing",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/236",
+      "state": "MERGED",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "This makes it clear moderators can go public in less than 14 days. See: \r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/CmT0HJQCBdZuCDhBhfFKHz6lFIE/\r\n\r\n(sorry to sully the empty GitHub issues/PRs)",
+      "createdAt": "2025-09-19T18:40:43Z",
+      "updatedAt": "2025-09-20T10:29:28Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "526b7d7f2d5a3db20e3640a9d61de4b715e31f87",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "14days",
+      "headRefOid": "5bfcb08f7b0a34770bbdc043d595460e240735e1",
+      "closedAt": "2025-09-20T10:29:28Z",
+      "mergedAt": "2025-09-20T10:29:28Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "3410af689b38f87933be423dbb89f415c03fc1ed"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "In IETF parlance, the words are synonymous.",
+          "createdAt": "2025-09-19T21:14:03Z",
+          "updatedAt": "2025-09-19T21:14:03Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> In IETF parlance, the words are synonymous.\r\n\r\nYes, I know my RFC 2119 words. But it's the way it interacts with \"only\" that makes \"shall\" the wrong choice here.\r\n\r\nChoices:\r\n\r\n- Is it only 14-day bans that can be reported?\r\n\r\nor is it that \r\n\r\n- 14-day bans must be reported\r\n\r\nBy changing the word, you choose the second choice.",
+          "createdAt": "2025-09-19T21:22:39Z",
+          "updatedAt": "2025-09-19T21:26:13Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7BpTp1",
+          "commit": {
+            "abbreviatedOid": "5bfcb08"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-20T07:27:13Z",
+          "updatedAt": "2025-09-20T07:27:13Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
