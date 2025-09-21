@@ -83,7 +83,7 @@ set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
 
-# Introduction {#intro}
+# Introduction
 
 This memo establishes a policy for the moderation of disruptive
 participation
@@ -309,7 +309,7 @@ Those processes and criteria shall be developed with community input
 and made public, but need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
 those processes and criteria are, all previous procedures
-referenced in {{intro}} shall remain in effect.
+referenced in {{introduction}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
 action to administrators and moderators, with a few constraints.
