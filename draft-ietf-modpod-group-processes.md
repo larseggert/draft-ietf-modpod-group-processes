@@ -459,7 +459,7 @@ inappropriate moderation, {{prod}} allows them to update those procedures
 in consultation with the community, and with the approval of the IESG.
 7. If IETF participants believe that the IESG is not performing
 their oversight functions as described in this document, they may
-comment to the NOMCOM{{!BCP10}} or the community at large.
+comment to the NOMCOM {{!BCP10}} or the community at large.
 8. Finally, if it appears that these processes are not functioning
 properly, the policies stated in this memo may be amended.
 They are not set in stone.
