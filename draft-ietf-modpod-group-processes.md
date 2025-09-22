@@ -520,6 +520,7 @@ These individuals contributed additional improvements:
 ## Since draft-ietf-modpod-group-processes-11
 
 - [clarify when changes take effect](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/238/)
+- [Refine security considerations](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/239)
 
 ## Since draft-ietf-modpod-group-processes-10
 
