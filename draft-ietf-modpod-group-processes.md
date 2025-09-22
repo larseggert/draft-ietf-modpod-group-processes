@@ -442,8 +442,8 @@ working group chairs, and potentially others that could lead to
 censorship of legitimate participation. This potential risk is mitigated in
 seven ways:
 
-1. The moderator team must first establish processes and
-procedures that are intended to apply uniformly across the IETF.{{prod}}
+1. {{prod}} requires the moderator team to first establish processes and
+procedures that are intended to apply uniformly across the IETF.
 2. {{genphil}} explicitly states that viewpoints outside of the rough
 consensus are not in and of themselves disruptive.
 3. {{prod}} provides transparency by requiring that moderation actions
