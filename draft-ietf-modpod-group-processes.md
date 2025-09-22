@@ -302,7 +302,7 @@ Such actions require no additional reporting.
 
 Within the bounds of the policies set herein, and with the
 approval of the IESG, the moderator team shall develop
-processes and criteria relating to moderation, including
+and maintain processes and criteria relating to moderation, including
 the moderator team's own operating procedures.
 
 Those processes and criteria shall be developed with community input
@@ -440,24 +440,29 @@ document.
 There is the potential abuse of the moderation process by moderators,
 working group chairs, and potentially others that could lead to
 censorship of legitimate participation. This potential risk is mitigated in
-seven ways:
+eight ways:
 
-1. The moderator team must first establish processes and
+1. {{prod}} requires the moderator team to first establish processes and
 procedures that are intended to apply uniformly across the IETF.
-2. This memo explicitly states that minority viewpoints are not
-in and of themselves disruptive.
-3. Moderation actions that restrict participation privileges must be made transparent
-to the affected person and to the moderation team, and must be
+2. {{genphil}} explicitly states that viewpoints outside of the rough
+consensus are not in and of themselves disruptive.
+3. {{prod}} provides transparency by requiring that moderation actions
+that restrict participation privileges be immediately reported
+to the affected person and to the moderation team, and
 periodically reported to the IESG.
-4. In the case of restrictions of participation privileges lasting longer than
-14 days, the community is also informed.
-5. An appeals process is made available to anyone in the case of
+4. That same section requires that the community be informed in the case
+of participation restrictions lasting longer than 14 days.
+5. {{appeals}} lays out an appeals process in the case of
 disagreements.
-6. If IETF participants believe that the IESG is not performing
+6. If moderators find that the procedures themselves are leading to
+inappropriate moderation, {{prod}} allows them to update those procedures
+in consultation with the community, and with the approval of the IESG.
+7. If IETF participants believe that the IESG is not performing
 their oversight functions as described in this document, they may
-comment to the NOMCOM or the community at large.
-7. Finally, if it appears that these processes are not functioning
-properly they may be amended.  They are not set in stone.
+comment to the NOMCOM or the community at large.{{!BCP10}}
+8. Finally, if it appears that these processes are not functioning
+properly, the policies stated in this memo may be amended.
+They are not set in stone.
 
 Moderation actions are intended to limit the likelihood
 of disruptive behavior by a few IETF participants from discouraging
@@ -498,7 +503,7 @@ These individuals contributed additional improvements:
 - Pete Resnick
 - Rich Salz
 - Robert Sayre
-- Russ Housely
+- Russ Housley
 - Sean Turner
 - Simon Josefsson
 - Stephen Farrell
@@ -515,6 +520,7 @@ These individuals contributed additional improvements:
 ## Since draft-ietf-modpod-group-processes-11
 
 - [clarify when changes take effect](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/238/)
+- [Refine security considerations](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/239)
 
 ## Since draft-ietf-modpod-group-processes-10
 
