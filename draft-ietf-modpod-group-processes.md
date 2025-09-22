@@ -440,7 +440,7 @@ document.
 There is the potential abuse of the moderation process by moderators,
 working group chairs, and potentially others that could lead to
 censorship of legitimate participation. This potential risk is mitigated in
-seven ways:
+eight ways:
 
 1. {{prod}} requires the moderator team to first establish processes and
 procedures that are intended to apply uniformly across the IETF.
