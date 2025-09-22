@@ -485,8 +485,9 @@ Table of Contents
    censorship of legitimate participation.  This potential risk is
    mitigated in seven ways:
 
-   1.  The moderator team must first establish processes and procedures
-       that are intended to apply uniformly across the IETF.Section 4
+   1.  Section 4 requires the moderator team to first establish
+       processes and procedures that are intended to apply uniformly
+       across the IETF.
 
    2.  Section 1.2 explicitly states that viewpoints outside of the
        rough consensus are not in and of themselves disruptive.
