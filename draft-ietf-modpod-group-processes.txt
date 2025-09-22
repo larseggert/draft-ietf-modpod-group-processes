@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 21 September 2025
-Expires: 25 March 2026
+Intended status: Best Current Practice                 22 September 2025
+Expires: 26 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 March 2026.
+   This Internet-Draft will expire on 26 March 2026.
 
 Copyright Notice
 
@@ -340,9 +340,9 @@ Table of Contents
 4.  Moderation Procedures and Transparency
 
    Within the bounds of the policies set herein, and with the approval
-   of the IESG, the moderator team shall develop processes and criteria
-   relating to moderation, including the moderator team's own operating
-   procedures.
+   of the IESG, the moderator team shall develop and maintain processes
+   and criteria relating to moderation, including the moderator team's
+   own operating procedures.
 
    Those processes and criteria shall be developed with community input
    and made public, but need not be documented in the RFC series.  This
@@ -483,30 +483,38 @@ Table of Contents
    There is the potential abuse of the moderation process by moderators,
    working group chairs, and potentially others that could lead to
    censorship of legitimate participation.  This potential risk is
-   mitigated in seven ways:
+   mitigated in eight ways:
 
-   1.  The moderator team must first establish processes and procedures
-       that are intended to apply uniformly across the IETF.
+   1.  Section 4 requires the moderator team to first establish
+       processes and procedures that are intended to apply uniformly
+       across the IETF.
 
-   2.  This memo explicitly states that minority viewpoints are not in
-       and of themselves disruptive.
+   2.  Section 1.2 explicitly states that viewpoints outside of the
+       rough consensus are not in and of themselves disruptive.
 
-   3.  Moderation actions that restrict participation privileges must be
-       made transparent to the affected person and to the moderation
-       team, and must be periodically reported to the IESG.
+   3.  Section 4 provides transparency by requiring that moderation
+       actions that restrict participation privileges be immediately
+       reported to the affected person and to the moderation team, and
+       periodically reported to the IESG.
 
-   4.  In the case of restrictions of participation privileges lasting
-       longer than 14 days, the community is also informed.
+   4.  That same section requires that the community be informed in the
+       case of participation restrictions lasting longer than 14 days.
 
-   5.  An appeals process is made available to anyone in the case of
+   5.  Section 4.1 lays out an appeals process in the case of
        disagreements.
 
-   6.  If IETF participants believe that the IESG is not performing
-       their oversight functions as described in this document, they may
-       comment to the NOMCOM or the community at large.
+   6.  If moderators find that the procedures themselves are leading to
+       inappropriate moderation, Section 4 allows them to update those
+       procedures in consultation with the community, and with the
+       approval of the IESG.
 
-   7.  Finally, if it appears that these processes are not functioning
-       properly they may be amended.  They are not set in stone.
+   7.  If IETF participants believe that the IESG is not performing
+       their oversight functions as described in this document, they may
+       comment to the NOMCOM or the community at large.[BCP10]
+
+   8.  Finally, if it appears that these processes are not functioning
+       properly, the policies stated in this memo may be amended.  They
+       are not set in stone.
 
    Moderation actions are intended to limit the likelihood of disruptive
    behavior by a few IETF participants from discouraging participation
@@ -564,7 +572,7 @@ Table of Contents
 
    *  Robert Sayre
 
-   *  Russ Housely
+   *  Russ Housley
 
    *  Sean Turner
 
@@ -579,6 +587,21 @@ Table of Contents
 9.  References
 
 9.1.  Normative References
+
+   [BCP10]    Best Current Practice 10,
+              <https://www.rfc-editor.org/info/bcp10>.
+              At the time of writing, this BCP comprises the following:
+
+              Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
+              Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
+              Confirmation, and Recall Process: Operation of the IETF
+              Nominating and Recall Committees", BCP 10, RFC 8713,
+              DOI 10.17487/RFC8713, February 2020,
+              <https://www.rfc-editor.org/info/rfc8713>.
+
+              Duke, M., "Nominating Committee Eligibility", BCP 10,
+              RFC 9389, DOI 10.17487/RFC9389, April 2023,
+              <https://www.rfc-editor.org/info/rfc9389>.
 
    [IESG-SPAM]
               IESG, "IESG Statement on Spam Control on IETF Mailing
@@ -666,6 +689,9 @@ A.1.  Since draft-ietf-modpod-group-processes-11
 
    *  clarify when changes take effect (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/238/)
+
+   *  Refine security considerations (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/239)
 
 A.2.  Since draft-ietf-modpod-group-processes-10
 
