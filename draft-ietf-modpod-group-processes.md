@@ -289,6 +289,9 @@ the scope of this memo. Examples of actions that are out of scope include,
 but are not limited to, datatracker account removal, in-person meeting
 registration, content removal or redaction, moderation or policing of
 private or non-IETF communications, and redaction from IETF archives.
+While the moderator team does not moderate non-public IETF mailing
+lists, they can define processes that the administrators of such lists
+can choose to use.
 
 ## Unsolicted Bulk Messages
 
