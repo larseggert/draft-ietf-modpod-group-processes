@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-21T00:26:02.689189+00:00",
+  "timestamp": "2025-09-23T00:23:43.091219+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -15582,7 +15582,7 @@
       "labels": [],
       "body": "Take or leave as you see fit.  I'll add a bit of commentary as review comments.",
       "createdAt": "2025-09-12T03:59:22Z",
-      "updatedAt": "2025-09-17T11:30:48Z",
+      "updatedAt": "2025-09-22T07:16:39Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "8c45bd18b4a524361acc11f27f844b66c4d3a91c",
@@ -18060,6 +18060,227 @@
           "body": "",
           "createdAt": "2025-09-20T07:27:13Z",
           "updatedAt": "2025-09-20T07:27:13Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 238,
+      "id": "PR_kwDOJrr8CM6ptJV5",
+      "title": "clarify when changes take effect",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/238",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Addresses Stephen -11 comments.",
+      "createdAt": "2025-09-21T14:16:13Z",
+      "updatedAt": "2025-09-21T19:48:44Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "3410af689b38f87933be423dbb89f415c03fc1ed",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "clarify-effect",
+      "headRefOid": "b2c37939ae20679539dcf993fecf120965c5e058",
+      "closedAt": "2025-09-21T19:48:43Z",
+      "mergedAt": "2025-09-21T19:48:43Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "9526a4fd4f0ba1de55622a5db20a56d65e61fd87"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7BuDls",
+          "commit": {
+            "abbreviatedOid": "77edada"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-21T16:05:56Z",
+          "updatedAt": "2025-09-21T16:05:56Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "maybe \"are established\"? this is all fine, but it seems like we're going after very small details at this point.",
+              "createdAt": "2025-09-21T16:05:56Z",
+              "updatedAt": "2025-09-21T16:07:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7BuGSg",
+          "commit": {
+            "abbreviatedOid": "77edada"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-21T16:46:33Z",
+          "updatedAt": "2025-09-21T16:46:33Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7BuS1y",
+          "commit": {
+            "abbreviatedOid": "77edada"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-21T19:44:57Z",
+          "updatedAt": "2025-09-21T19:44:57Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "Doh!  Right you are.",
+              "createdAt": "2025-09-21T19:44:57Z",
+              "updatedAt": "2025-09-21T19:44:57Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 239,
+      "id": "PR_kwDOJrr8CM6pxOqu",
+      "title": "Refine security considerations",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/239",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on John Klensin's comments:\r\n\r\n* Add references\r\n* Add an additional mitigation\r\n* reform the last bullet to separate the procedures update from the policies in this memo\r\n\r\nAlso fix spelling of Russ' name.\r\n",
+      "createdAt": "2025-09-22T07:33:26Z",
+      "updatedAt": "2025-09-22T07:53:25Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "9526a4fd4f0ba1de55622a5db20a56d65e61fd87",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "additional-security-cons",
+      "headRefOid": "08046a47a793f4fe674597a6b785db63c2b05d2a",
+      "closedAt": "2025-09-22T07:53:24Z",
+      "mergedAt": "2025-09-22T07:53:24Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "a9c891c44f899e3e1108fb1be9bb8d73cdd93b0d"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7BxeI2",
+          "commit": {
+            "abbreviatedOid": "47be1d9"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Rewrapping makes it hard to spot the differences in the PR.\nAlso needs a changelog entry.",
+          "createdAt": "2025-09-22T07:35:00Z",
+          "updatedAt": "2025-09-22T07:36:56Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "`{{prod}}` - editing leftover?",
+              "createdAt": "2025-09-22T07:35:00Z",
+              "updatedAt": "2025-09-22T07:36:56Z"
+            },
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\neight ways:\n```\nor\n\n```suggestion\nthese ways:\n```",
+              "createdAt": "2025-09-22T07:36:05Z",
+              "updatedAt": "2025-09-22T07:36:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7BxrwX",
+          "commit": {
+            "abbreviatedOid": "151a256"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-22T07:51:45Z",
+          "updatedAt": "2025-09-22T07:51:45Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "Cleaned up.",
+              "createdAt": "2025-09-22T07:51:45Z",
+              "updatedAt": "2025-09-22T07:51:45Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 240,
+      "id": "PR_kwDOJrr8CM6pzEeu",
+      "title": "move BCP10 reference",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/240",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-09-22T10:03:48Z",
+      "updatedAt": "2025-09-22T10:10:45Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a9c891c44f899e3e1108fb1be9bb8d73cdd93b0d",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "edit-bcp10-loc",
+      "headRefOid": "f7b43e31c50f26a5ae73284ed51be73e344d7bad",
+      "closedAt": "2025-09-22T10:10:43Z",
+      "mergedAt": "2025-09-22T10:10:43Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7Bz1-6",
+          "commit": {
+            "abbreviatedOid": "33e0234"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-22T10:05:46Z",
+          "updatedAt": "2025-09-22T10:05:46Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\ncomment to the NOMCOM {{!BCP10}} or the community at large.\n```\nSpace before references.",
+              "createdAt": "2025-09-22T10:05:46Z",
+              "updatedAt": "2025-09-22T10:05:46Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Bz8fB",
+          "commit": {
+            "abbreviatedOid": "f7b43e3"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-22T10:10:34Z",
+          "updatedAt": "2025-09-22T10:10:34Z",
           "comments": []
         }
       ]
