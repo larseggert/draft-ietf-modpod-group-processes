@@ -93,7 +93,7 @@ moderator team to develop procedures and to facilitate their consistent
 application.
 
 This memo obsoletes and updates some prior IETF processes, summarized here.
-Background information is described in more detail in {{motivation}}:
+Background information is described in more detail in {{motivation}}.
 
 This memo makes the following changes to existing processes:
 
