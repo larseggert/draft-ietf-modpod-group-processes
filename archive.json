@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-23T00:23:43.091219+00:00",
+  "timestamp": "2025-09-25T00:23:37.957037+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -18284,6 +18284,240 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 241,
+      "id": "PR_kwDOJrr8CM6qIMCC",
+      "title": "Mention non-public mailing lists",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/241",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Add a small clarification that allows the moderator team to define processes similar to the deprecated PR-action. See [this mailing list thread](https://mailarchive.ietf.org/arch/msg/mod-discuss/OLun3abJEaTic_Tth8oJ682nlH0/) for more context. In particular, John Klensin [points out](https://mailarchive.ietf.org/arch/msg/mod-discuss/oRE7EJH-1CfqR-xBNi9CcrvZjF0/) that:\r\n\r\n> I'd think that would work except that the last sentence of 3.1 seems to be quite clear, declaring \"moderation or policing of private or non-IETF communications\" out of scope.  So, if we want or need to have the moderation team design a PRa2 process that can be applied to private lists, we need to relax that statement a bit.\r\n\r\nCloses #237",
+      "createdAt": "2025-09-23T18:57:31Z",
+      "updatedAt": "2025-09-24T19:18:50Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c",
+      "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
+      "headRefName": "private_lists",
+      "headRefOid": "357729e7cb2a870f9e001a05484c2405ac6fc55b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I think it's pretty obvious that non-WG lists are still IETF lists?",
+          "createdAt": "2025-09-24T02:57:11Z",
+          "updatedAt": "2025-09-24T02:57:11Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert the mechanisms most of the document refers to are really geared toward **public** IETF lists.  The examples given were groups like the IESG, and I might extend that to (if they wish to be covered) IAB programs, design teams, etc.  Again, my mailing list comment applies: this is not the highest priority. ",
+          "createdAt": "2025-09-24T07:19:06Z",
+          "updatedAt": "2025-09-24T07:19:06Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Sorry, got my wires crossed.\n\nThis kinda sounds like the mod team should develop something that might also apply to private lists, which I don't think we want to ask them?",
+          "createdAt": "2025-09-24T09:07:05Z",
+          "updatedAt": "2025-09-24T09:07:05Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7CRND-",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-23T19:12:57Z",
+          "updatedAt": "2025-09-23T19:12:57Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7CbrMd",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-24T09:34:08Z",
+          "updatedAt": "2025-09-24T09:34:09Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\nlists, the administrators of such lists can choose to adopt some of the\nprocesses that the moderator team develops.\n```\nTo make it clear the mod team is not tasked to optionally define process for non-public lists.",
+              "createdAt": "2025-09-24T09:34:09Z",
+              "updatedAt": "2025-09-24T09:34:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Cb-hO",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-24T09:57:33Z",
+          "updatedAt": "2025-09-24T09:57:34Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "Here's my issue: I don't know that the same guidance can or should apply, so you might need both.",
+              "createdAt": "2025-09-24T09:57:33Z",
+              "updatedAt": "2025-09-24T09:57:34Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Cb-1k",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-24T09:57:57Z",
+          "updatedAt": "2025-09-24T09:57:57Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "And if the moderators do develop guidance and it is approved by the IESG, which groups should ignore it?",
+              "createdAt": "2025-09-24T09:57:57Z",
+              "updatedAt": "2025-09-24T09:57:57Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Cb_r1",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-24T09:58:58Z",
+          "updatedAt": "2025-09-24T09:58:58Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "I really don't think we want the mod team to develop guidance for private lists. That is pure scope-creep. If they happen to develop something for public lists that admins of private ones can adopt, sure. But processes for private lists are not their job.",
+              "createdAt": "2025-09-24T09:58:58Z",
+              "updatedAt": "2025-09-24T09:58:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7CcENj",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-24T10:04:45Z",
+          "updatedAt": "2025-09-24T10:04:45Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "Please see and join list discussion.",
+              "createdAt": "2025-09-24T10:04:45Z",
+              "updatedAt": "2025-09-24T10:04:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Ckefj",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-24T19:18:50Z",
+          "updatedAt": "2025-09-24T19:18:50Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "This is subtle. Here are the things I think we agree on:\r\n* Moderators can't moderate private lists\r\n* Moderators shouldn't be in the business of saying \"here's how you should moderate the IESG list\"\r\n* When defining process, moderators should focus on public lists\r\n* If moderators define a process that applies to all IETF lists, administrators of private lists can choose to use that process\r\n\r\nThe one point where there's a subtle difference between my proposed sentence and Lars's is: when the moderators are defining process, are they allowed to say \"We're defining a process for all lists, but it would apply slightly differently to a private list, should those administrators choose to use it\"?\r\n\r\nMy preferred answer to that question is Yes.",
+              "createdAt": "2025-09-24T19:18:50Z",
+              "updatedAt": "2025-09-24T19:18:50Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 242,
+      "id": "PR_kwDOJrr8CM6qYloa",
+      "title": "Minor tweaks from review of -11",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/242",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Feel free to take or leave any of these very minor proposed tweaks, I'm fine with publication either way.",
+      "createdAt": "2025-09-24T23:07:39Z",
+      "updatedAt": "2025-09-24T23:07:40Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c",
+      "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
+      "headRefName": "nit",
+      "headRefOid": "a4bff7b03c9f63233fd171814aa95bb1e884dd12",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 243,
+      "id": "PR_kwDOJrr8CM6qYpjZ",
+      "title": "Rename Changes Appendix",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/243",
+      "state": "OPEN",
+      "author": "DavidSchinazi",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "PR #171 moved [Section 1.1 \"Background\"](https://www.ietf.org/archive/id/draft-ietf-modpod-group-processes-10.html#section-1.1) to [Appendix B.1 \"Changes\"](https://www.ietf.org/archive/id/draft-ietf-modpod-group-processes-11.html#appendix-B.1). I'm very supportive of the move, but the renaming and new intro of Appendix B don't make sense. B.1 discusses Background, it's not a summary of the changes made by this document. The summary is in Section 1, not Appendix B. This PR is a proposal to tweak that. Feel free to take or leave it, I'm happy with the document either way",
+      "createdAt": "2025-09-24T23:21:37Z",
+      "updatedAt": "2025-09-24T23:21:37Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c",
+      "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
+      "headRefName": "motivation",
+      "headRefOid": "6136d23b311c50409f884aaffd0ccf9c31e542bc",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
