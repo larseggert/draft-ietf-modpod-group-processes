@@ -92,8 +92,8 @@ It creates a
 moderator team to develop procedures and to facilitate their consistent
 application.
 
-This memo obsoletes and updates some prior IETF processes, summarized here
-and described in more detail in {{changes}}:
+This memo obsoletes and updates some prior IETF processes, summarized here.
+Background information is described in more detail in {{motivation}}.
 
 This memo makes the following changes to existing processes:
 
@@ -599,12 +599,12 @@ These individuals contributed additional improvements:
   [draft-ecahc-moderation-01](https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
   [Updated editors. Acknowledge authors of original pre-WG I-Ds.](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/65)
 
-# Changes and Motivation
+# Motivation {#motivation}
 
 {{introduction}} summarized the process changes introduced by this memo.
-The remainder of this section discusses the background that let to them.
+This appendix discusses the background that led to them.
 
-## Changes {#changes}
+## Background
 
 The IETF community has defined general guidelines for
 personal interactions in the IETF {{?RFC7154}}, and the IESG has
