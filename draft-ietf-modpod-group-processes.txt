@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 22 September 2025
-Expires: 26 March 2026
+Intended status: Best Current Practice                 25 September 2025
+Expires: 29 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 March 2026.
+   This Internet-Draft will expire on 29 March 2026.
 
 Copyright Notice
 
@@ -113,8 +113,8 @@ Table of Contents
      A.11. Since draft-ietf-modpod-group-processes-01
      A.12. Since draft-ietf-modpod-group-processes-00
      A.13. Since draft-ecahc-moderation-01
-   Appendix B.  Changes and Motivation
-     B.1.  Changes
+   Appendix B.  Motivation
+     B.1.  Background
      B.2.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
@@ -127,7 +127,8 @@ Table of Contents
    procedures and to facilitate their consistent application.
 
    This memo obsoletes and updates some prior IETF processes, summarized
-   here and described in more detail in Appendix B.1:
+   here.  Background information is described in more detail in
+   Appendix B.
 
    This memo makes the following changes to existing processes:
 
@@ -844,13 +845,12 @@ A.13.  Since draft-ecahc-moderation-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/65)
 
-Appendix B.  Changes and Motivation
+Appendix B.  Motivation
 
    Section 1 summarized the process changes introduced by this memo.
-   The remainder of this section discusses the background that let to
-   them.
+   This appendix discusses the background that led to them.
 
-B.1.  Changes
+B.1.  Background
 
    The IETF community has defined general guidelines for personal
    interactions in the IETF [RFC7154], and the IESG has defined an anti-
