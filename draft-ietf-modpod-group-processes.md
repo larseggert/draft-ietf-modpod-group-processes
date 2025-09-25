@@ -294,7 +294,7 @@ private or non-IETF communications, and redaction from IETF archives.
 
 Unsolicited bulk messages are considered disruptive and should be handled in a
 manner consistent with the IESG statement on IETF Spam Control on IETF
-Mailing Lists{{IESG-SPAM}}, or its successors.  Administrators
+Mailing Lists{{IESG-SPAM}}, or its successors.  Administrators and moderators
 may take similar actions in other fora (e.g., GitHub or Instant Messaging).
 Such actions require no additional reporting.
 
@@ -343,7 +343,7 @@ the community in a manner decided by the IESG.
 ## Consistency and Conflict Resolution {#appeals}
 
 Administrators and moderators shall act in a manner
-consistent this memo and the guidelines approved by the IESG.  In cases
+consistent with this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
 with the responsible area director for resolution, or with the IETF chair
 if a responsible area director cannot be determined or is not assigned.
@@ -402,7 +402,7 @@ examples of where this might be necessary are:
 - Someone making a credible threat of harm to other IETF participants.
 - Someone using IETF mailing lists and/or websites to share content
   where publishing that content on IETF lists and/or websites brings
-  serious legal risk.
+  serious legal risk to the IETF.
 - Someone making a credible threat of legal action where any form of
   interaction with them on IETF mailing lists may have serious legal
   consequences for the IETF.
