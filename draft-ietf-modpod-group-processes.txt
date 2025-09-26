@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 25 September 2025
-Expires: 29 March 2026
+Intended status: Best Current Practice                 26 September 2025
+Expires: 30 March 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 March 2026.
+   This Internet-Draft will expire on 30 March 2026.
 
 Copyright Notice
 
@@ -502,7 +502,7 @@ Table of Contents
        periodically reported to the IESG.
 
    4.  That same section requires that the community be informed in the
-       case of participation restrictions lasting longer than 14 days.
+       case of suspensions lasting longer than 14 days.
 
    5.  Section 4.1 lays out an appeals process in the case of
        disagreements.
