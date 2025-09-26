@@ -454,7 +454,7 @@ that restrict participation privileges be immediately reported
 to the affected person and to the moderation team, and
 periodically reported to the IESG.
 4. That same section requires that the community be informed in the case
-of participation restrictions lasting longer than 14 days.
+of suspensions lasting longer than 14 days.
 5. {{appeals}} lays out an appeals process in the case of
 disagreements.
 6. If moderators find that the procedures themselves are leading to
