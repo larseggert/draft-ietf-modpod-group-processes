@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-25T00:23:37.957037+00:00",
+  "timestamp": "2025-09-28T00:26:38.008783+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3513,22 +3513,38 @@
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/237",
       "state": "CLOSED",
       "author": "DavidSchinazi",
-      "authorAssociation": "CONTRIBUTOR",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "I was thinking through how this document is obsoleting BCP 83 and effectively replacing the PR-action process. To be clear, I'm very supportive of that choice. However, I just thought of a potential edge case: that of non-public mailing lists - by which I mean lists where most IETF participants cannot subscribe to the list or view its archive. An example of such a list is `iesg@ietf.org`. In the previous PR-action process, the clause `maintainers of any IETF mailing list may, at their discretion, also remove posting rights to that IETF mailing list` would allow the maintainers of that list to also ban the target of the PR-action. In the new world, what happens? If someone on the moderator team happens to be on the non-public list, are they allowed to ban that person? If none of the moderators are on a non-public list, is there a process by which the maintainers of that list can ban someone?",
       "createdAt": "2025-09-19T21:49:56Z",
-      "updatedAt": "2025-09-20T07:05:27Z",
+      "updatedAt": "2025-09-25T17:38:58Z",
       "closedAt": "2025-09-20T07:05:26Z",
       "comments": [
         {
           "author": "DavidSchinazi",
-          "authorAssociation": "CONTRIBUTOR",
+          "authorAssociation": "COLLABORATOR",
           "body": "Based on the [mailing list discussion](https://mailarchive.ietf.org/arch/msg/mod-discuss/PRDbRFutA51uxI0OWQdtbOCZ4jk/), I've convinced myself that the draft as-is will handle private lists sufficiently well. Feel free to close this issue.",
           "createdAt": "2025-09-20T01:00:32Z",
           "updatedAt": "2025-09-20T01:00:32Z"
         }
       ]
+    },
+    {
+      "number": 244,
+      "id": "I_kwDOJrr8CM7N6ppS",
+      "title": "Security Considerations alignment",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/244",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From Chris Box:\n\n> \n> Security consideration number 4 doesn't align with the wording from section 4 above. I interpret \"suspending participation privileges\" to include reject/discard/ban, but exclude \"hold for moderation\". Is it your intent that \"hold for moderation\" for longer than two weeks requires notification to the forum? (Please forgive me if this is already clear from another thread; I haven't been able to follow all the discussion.)\n> \n> If so, in the spirit of \"minimal actions necessary will be taken\", I will note that a lengthy hold for moderation that isn't notified to the list (but is notified to participant and IESG) is a lower level of intervention than one that is notified to the list. It depends whether you think that is a choice that should be available.\n> \n",
+      "createdAt": "2025-09-25T18:37:47Z",
+      "updatedAt": "2025-09-26T05:08:19Z",
+      "closedAt": "2025-09-26T05:08:19Z",
+      "comments": []
     }
   ],
   "pulls": [
@@ -18290,24 +18306,26 @@
       "id": "PR_kwDOJrr8CM6qIMCC",
       "title": "Mention non-public mailing lists",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/241",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
-      "authorAssociation": "CONTRIBUTOR",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Add a small clarification that allows the moderator team to define processes similar to the deprecated PR-action. See [this mailing list thread](https://mailarchive.ietf.org/arch/msg/mod-discuss/OLun3abJEaTic_Tth8oJ682nlH0/) for more context. In particular, John Klensin [points out](https://mailarchive.ietf.org/arch/msg/mod-discuss/oRE7EJH-1CfqR-xBNi9CcrvZjF0/) that:\r\n\r\n> I'd think that would work except that the last sentence of 3.1 seems to be quite clear, declaring \"moderation or policing of private or non-IETF communications\" out of scope.  So, if we want or need to have the moderation team design a PRa2 process that can be applied to private lists, we need to relax that statement a bit.\r\n\r\nCloses #237",
       "createdAt": "2025-09-23T18:57:31Z",
-      "updatedAt": "2025-09-24T19:18:50Z",
+      "updatedAt": "2025-09-25T17:38:57Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c",
       "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
       "headRefName": "private_lists",
-      "headRefOid": "357729e7cb2a870f9e001a05484c2405ac6fc55b",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "cf3b47f79486e98e68cc1d3e5032285aeeefe55a",
+      "closedAt": "2025-09-25T17:38:57Z",
+      "mergedAt": "2025-09-25T17:38:57Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "69abc2bffead7cf5efb46f52f7e28c99ee74c172"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -18329,6 +18347,13 @@
           "body": "Sorry, got my wires crossed.\n\nThis kinda sounds like the mod team should develop something that might also apply to private lists, which I don't think we want to ask them?",
           "createdAt": "2025-09-24T09:07:05Z",
           "updatedAt": "2025-09-24T09:07:05Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert ok to merge?",
+          "createdAt": "2025-09-25T16:52:55Z",
+          "updatedAt": "2025-09-25T16:52:55Z"
         }
       ],
       "reviews": [
@@ -18451,7 +18476,7 @@
             "abbreviatedOid": "357729e"
           },
           "author": "DavidSchinazi",
-          "authorAssociation": "CONTRIBUTOR",
+          "authorAssociation": "COLLABORATOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-09-24T19:18:50Z",
@@ -18464,6 +18489,66 @@
               "updatedAt": "2025-09-24T19:18:50Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7CqlTt",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-25T06:19:48Z",
+          "updatedAt": "2025-09-25T06:19:48Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "And mine \"no\" :-) I think private lists are inherently different. I also cannot recall an instance on a private list that was inadequately handled by existing moderators.",
+              "createdAt": "2025-09-25T06:19:48Z",
+              "updatedAt": "2025-09-25T06:19:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Cv9rr",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-25T12:12:03Z",
+          "updatedAt": "2025-09-25T12:12:03Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "@DavidSchinazi how about we leave this for the next time?",
+              "createdAt": "2025-09-25T12:12:03Z",
+              "updatedAt": "2025-09-25T12:12:04Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7C0q8M",
+          "commit": {
+            "abbreviatedOid": "357729e"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-25T16:26:29Z",
+          "updatedAt": "2025-09-25T16:26:29Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "I like Lars's suggestion better than what's currently in the draft, so let's merge that then.",
+              "createdAt": "2025-09-25T16:26:29Z",
+              "updatedAt": "2025-09-25T16:26:29Z"
+            }
+          ]
         }
       ]
     },
@@ -18472,52 +18557,153 @@
       "id": "PR_kwDOJrr8CM6qYloa",
       "title": "Minor tweaks from review of -11",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/242",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
-      "authorAssociation": "CONTRIBUTOR",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "Feel free to take or leave any of these very minor proposed tweaks, I'm fine with publication either way.",
       "createdAt": "2025-09-24T23:07:39Z",
-      "updatedAt": "2025-09-24T23:07:40Z",
+      "updatedAt": "2025-09-25T08:01:27Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c",
       "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
       "headRefName": "nit",
       "headRefOid": "a4bff7b03c9f63233fd171814aa95bb1e884dd12",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-25T08:01:27Z",
+      "mergedAt": "2025-09-25T08:01:27Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "8b534f585fcce7871b65f7846e96b7e2660edabb"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7Cqmy1",
+          "commit": {
+            "abbreviatedOid": "a4bff7b"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-25T06:21:54Z",
+          "updatedAt": "2025-09-25T06:21:54Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 243,
       "id": "PR_kwDOJrr8CM6qYpjZ",
       "title": "Rename Changes Appendix",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/243",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "DavidSchinazi",
-      "authorAssociation": "CONTRIBUTOR",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "editorial"
+      ],
       "body": "PR #171 moved [Section 1.1 \"Background\"](https://www.ietf.org/archive/id/draft-ietf-modpod-group-processes-10.html#section-1.1) to [Appendix B.1 \"Changes\"](https://www.ietf.org/archive/id/draft-ietf-modpod-group-processes-11.html#appendix-B.1). I'm very supportive of the move, but the renaming and new intro of Appendix B don't make sense. B.1 discusses Background, it's not a summary of the changes made by this document. The summary is in Section 1, not Appendix B. This PR is a proposal to tweak that. Feel free to take or leave it, I'm happy with the document either way",
       "createdAt": "2025-09-24T23:21:37Z",
-      "updatedAt": "2025-09-24T23:21:37Z",
+      "updatedAt": "2025-09-25T08:01:11Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d810abbd4ff100269f9370b0786825d9fc4f4b1c",
       "headRepository": "DavidSchinazi/draft-ietf-modpod-group-processes",
       "headRefName": "motivation",
       "headRefOid": "6136d23b311c50409f884aaffd0ccf9c31e542bc",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-25T08:01:11Z",
+      "mergedAt": "2025-09-25T08:01:11Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "24b9887df098ec703416ca97535f7e25943f4846"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7CqnQ6",
+          "commit": {
+            "abbreviatedOid": "6136d23"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-25T06:22:29Z",
+          "updatedAt": "2025-09-25T06:22:29Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 245,
+      "id": "PR_kwDOJrr8CM6qkRrt",
+      "title": "restrictions->suspensions",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/245",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "Based on Chris Box comments.\r\nCloses #244 ",
+      "createdAt": "2025-09-25T18:44:50Z",
+      "updatedAt": "2025-09-26T05:08:20Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "69abc2bffead7cf5efb46f52f7e28c99ee74c172",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "244-align-sec-cons-on-suspensions",
+      "headRefOid": "1ac3d7949e5e77b5489de6a76f40a12080c89219",
+      "closedAt": "2025-09-26T05:08:19Z",
+      "mergedAt": "2025-09-26T05:08:18Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "b26bcd6b57da61260e502b618f6ffe31cfcd4814"
+      },
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "My opinion only counts as an individual, but I believe Chris Box is correct.",
+          "createdAt": "2025-09-25T21:35:51Z",
+          "updatedAt": "2025-09-25T21:35:51Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7C2paj",
+          "commit": {
+            "abbreviatedOid": "1ac3d79"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-25T19:03:00Z",
+          "updatedAt": "2025-09-25T19:03:00Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7C6qf0",
+          "commit": {
+            "abbreviatedOid": "1ac3d79"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-26T05:08:07Z",
+          "updatedAt": "2025-09-26T05:08:07Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
