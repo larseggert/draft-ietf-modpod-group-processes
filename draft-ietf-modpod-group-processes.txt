@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 26 September 2025
-Expires: 30 March 2026
+Intended status: Best Current Practice                 29 September 2025
+Expires: 2 April 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 March 2026.
+   This Internet-Draft will expire on 2 April 2026.
 
 Copyright Notice
 
@@ -381,11 +381,11 @@ Table of Contents
    moderator team for their review, and immediately to those against
    whom those actions take effect.
 
-   To address disruptive behavior in a timely manner, only moderation
-   actions suspending participation privileges for longer than fourteen
-   (14) days must be reported to the forum to which such an action
-   applies.  If such an action applies to more than one forum, it should
-   be communicated to the community in a manner decided by the IESG.
+   Only moderation actions suspending participation privileges for
+   longer than fourteen (14) days must be reported to the forum to which
+   such an action applies.  If such an action applies to more than one
+   forum, it should be communicated to the community in a manner decided
+   by the IESG.
 
 4.1.  Consistency and Conflict Resolution
 
