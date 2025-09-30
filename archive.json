@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-28T00:26:38.008783+00:00",
+  "timestamp": "2025-09-30T00:24:10.485029+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3544,6 +3544,22 @@
       "createdAt": "2025-09-25T18:37:47Z",
       "updatedAt": "2025-09-26T05:08:19Z",
       "closedAt": "2025-09-26T05:08:19Z",
+      "comments": []
+    },
+    {
+      "number": 246,
+      "id": "I_kwDOJrr8CM7OkMfh",
+      "title": "Remove non-sequitor",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/246",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "We say in Section 4:\n\n> \nTo address disruptive behavior in a timely manner, only moderation actions suspending participation privileges for longer than fourteen (14) days must be reported to the forum to which such an action applies.\n\nI'm not sure that is there to address disruptive behavior in a timely manner.  It's there to avoid having to embarrass the individual in question in front of the group, and to create excessive churn in the WG.  So I would just remove the first phrase.",
+      "createdAt": "2025-09-29T15:44:15Z",
+      "updatedAt": "2025-09-29T19:03:08Z",
+      "closedAt": "2025-09-29T19:03:08Z",
       "comments": []
     }
   ],
@@ -18701,6 +18717,50 @@
           "body": "",
           "createdAt": "2025-09-26T05:08:07Z",
           "updatedAt": "2025-09-26T05:08:07Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 247,
+      "id": "PR_kwDOJrr8CM6rIpRY",
+      "title": "remove non-sequitor phrase.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/247",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "closes #246 ",
+      "createdAt": "2025-09-29T15:46:38Z",
+      "updatedAt": "2025-09-29T19:03:08Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "b26bcd6b57da61260e502b618f6ffe31cfcd4814",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "246-non-sequitor",
+      "headRefOid": "8fea62c0ff4c84525ae4248522bc46fbcf480fcd",
+      "closedAt": "2025-09-29T19:03:07Z",
+      "mergedAt": "2025-09-29T19:03:07Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "18ce5fd7185964f4b3ff0d95cffe862372da5865"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7DlUnM",
+          "commit": {
+            "abbreviatedOid": "8fea62c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-29T19:02:42Z",
+          "updatedAt": "2025-09-29T19:02:42Z",
           "comments": []
         }
       ]
