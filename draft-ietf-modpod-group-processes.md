@@ -459,8 +459,8 @@ disagreements.
 6. If moderators find that the procedures themselves are leading to
 inappropriate moderation, {{prod}} allows them to update those procedures
 in consultation with the community, and with the approval of the IESG.
-7. If IETF participants believe that the IESG is not performing
-their oversight functions as described in this document, they may
+7. If IETF participants believe that either the IESG or the IAB are not performing
+their respective oversight functions as described in this document, they may
 comment to the NOMCOM {{!BCP10}} or the community at large.
 8. Finally, if it appears that these processes are not functioning
 properly, the policies stated in this memo may be amended.
