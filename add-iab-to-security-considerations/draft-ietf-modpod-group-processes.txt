@@ -512,7 +512,7 @@ Table of Contents
        procedures in consultation with the community, and with the
        approval of the IESG.
 
-   7.  If IETF participants believe that either the IESG nor the IAB are
+   7.  If IETF participants believe that either the IESG or the IAB are
        not performing their respective oversight functions as described
        in this document, they may comment to the NOMCOM [BCP10] or the
        community at large.
