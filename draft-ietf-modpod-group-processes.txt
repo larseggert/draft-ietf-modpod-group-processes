@@ -564,6 +564,8 @@ Table of Contents
 
    *  John Klensin
 
+   *  John Scudder
+
    *  Martin Thomson
 
    *  Melinda Shore
@@ -589,8 +591,6 @@ Table of Contents
    *  Ted Lemon
 
    *  Tim Bray
-
-   *  John Scudder
 
 9.  References
 
