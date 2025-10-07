@@ -590,6 +590,8 @@ Table of Contents
 
    *  Tim Bray
 
+   *  John Scudder
+
 9.  References
 
 9.1.  Normative References
