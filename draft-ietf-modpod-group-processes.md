@@ -347,8 +347,8 @@ the community in a manner decided by the IESG.
 Administrators and moderators shall act in a manner
 consistent with this memo and the guidelines approved by the IESG.  In cases
 of disagreement over a moderation decision, anyone may take the matter up
-with the responsible area director for resolution, or with the IETF chair
-if a responsible area director cannot be determined or is not assigned.
+with the responsible Area Director for resolution, or with the IETF chair
+if a responsible Area Director cannot be determined or is not assigned.
 If the disagreement cannot be resolved by the Area Director, that person may
 then appeal to the IESG, and subsequently to the IAB using the processes
 stated in {{Sections 6.5.1 and 6.5.4 of !RFC2026}}.
