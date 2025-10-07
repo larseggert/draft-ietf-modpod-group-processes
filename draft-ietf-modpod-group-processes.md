@@ -511,6 +511,7 @@ These individuals contributed additional improvements:
 - Stephen Farrell
 - Ted Lemon
 - Tim Bray
+- John Scudder
 
 --- back
 
