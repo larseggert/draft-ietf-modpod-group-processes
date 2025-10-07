@@ -498,6 +498,7 @@ These individuals contributed additional improvements:
 - Jay Daley
 - Joel Halpern
 - John Klensin
+- John Scudder
 - Martin Thomson
 - Melinda Shore
 - Michael Richardson
@@ -511,7 +512,6 @@ These individuals contributed additional improvements:
 - Stephen Farrell
 - Ted Lemon
 - Tim Bray
-- John Scudder
 
 --- back
 
