@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-30T00:24:10.485029+00:00",
+  "timestamp": "2025-10-07T00:23:39.553722+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -18761,6 +18761,163 @@
           "body": "",
           "createdAt": "2025-09-29T19:02:42Z",
           "updatedAt": "2025-09-29T19:02:42Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 248,
+      "id": "PR_kwDOJrr8CM6sPsSS",
+      "title": "address martin point about adding iab to NOMCOM hit list",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/248",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-10-06T11:19:51Z",
+      "updatedAt": "2025-10-06T16:57:16Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "18ce5fd7185964f4b3ff0d95cffe862372da5865",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "add-iab-to-security-considerations",
+      "headRefOid": "115eeb7fa33a7137e6ca840df255aefd99856c66",
+      "closedAt": "2025-10-06T16:57:07Z",
+      "mergedAt": "2025-10-06T16:57:07Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "669495f88d8d2f3328be13612dee6c022ef3ec8a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7E72KA",
+          "commit": {
+            "abbreviatedOid": "eee4de3"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T11:25:48Z",
+          "updatedAt": "2025-10-06T11:25:48Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\n7. If IETF participants believe that neither the IESG nor the IAB are not performing\n```\nBut am not a native speaker.",
+              "createdAt": "2025-10-06T11:25:48Z",
+              "updatedAt": "2025-10-06T11:26:00Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7E72kV",
+          "commit": {
+            "abbreviatedOid": "eee4de3"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-06T11:26:04Z",
+          "updatedAt": "2025-10-06T11:26:04Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7E9Str",
+          "commit": {
+            "abbreviatedOid": "eee4de3"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T12:54:08Z",
+          "updatedAt": "2025-10-06T12:54:08Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "You can use either \"either\" or \"neither\" but if you use \"neither\" you would replace \"are not\" with \"are\" to avoid a double negative.",
+              "createdAt": "2025-10-06T12:54:08Z",
+              "updatedAt": "2025-10-06T12:54:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7E9S8q",
+          "commit": {
+            "abbreviatedOid": "eee4de3"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T12:54:18Z",
+          "updatedAt": "2025-10-06T12:54:18Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "(I will push an update)",
+              "createdAt": "2025-10-06T12:54:18Z",
+              "updatedAt": "2025-10-06T12:54:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7E9sPo",
+          "commit": {
+            "abbreviatedOid": "eee4de3"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T13:09:03Z",
+          "updatedAt": "2025-10-06T13:09:03Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "Hmm.  I'm not thrilled with what I just pushed.  I realized it subtetly changes the meaning from having a complaint with EITHER organization or otherwise wanting to complain about BOTH.",
+              "createdAt": "2025-10-06T13:09:03Z",
+              "updatedAt": "2025-10-06T13:09:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7E_-2A",
+          "commit": {
+            "abbreviatedOid": "b074a83"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-06T14:36:18Z",
+          "updatedAt": "2025-10-06T14:36:19Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "Now you have `either`...`nor` which is ev en more confusing :-)",
+              "createdAt": "2025-10-06T14:36:19Z",
+              "updatedAt": "2025-10-06T14:36:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7FDdb5",
+          "commit": {
+            "abbreviatedOid": "115eeb7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-06T16:56:27Z",
+          "updatedAt": "2025-10-06T16:56:27Z",
           "comments": []
         }
       ]
