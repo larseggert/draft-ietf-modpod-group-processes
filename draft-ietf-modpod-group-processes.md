@@ -286,9 +286,9 @@ consult with the IESG when needed.
 Moderator actions are only permitted for the purposes of limiting
 disruptive communications in IETF fora.  All other actions are beyond
 the scope of this memo. Examples of actions that are out of scope include,
-but are not limited to, datatracker account removal, in-person meeting
-registration, content removal or redaction, moderation or policing of
-private or non-IETF communications, and redaction from IETF archives.
+but are not limited to, datatracker account removal, restriction of in-person
+meeting registration, content removal or redaction, and moderation or
+policing of private or non-IETF communications.
 While the moderator team does not moderate non-public IETF mailing
 lists, the administrators of such lists can choose to adopt some of the
 processes that the moderator team develops.
