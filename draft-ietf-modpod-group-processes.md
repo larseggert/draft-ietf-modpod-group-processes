@@ -330,7 +330,8 @@ these or other actions.
 
 The expectation is that the minimal actions necessary will be taken.
 Those who are directed to stop disrupting a forum must do so immediately.
-Further disruptions may lead to further corrective actions.
+Further disruptions may lead to further corrective actions.  Those who
+impose actions may rescind or amend them as circumstances warrant.
 
 All moderation actions that restrict participation privileges shall be
 periodically reported to the IESG,
