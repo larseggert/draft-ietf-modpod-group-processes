@@ -261,7 +261,8 @@ manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
 moderators' judgement to determine when they must act, with the
 understanding that some situations may require fast responses.
-{{appeals}} discusses the handling of disagreements.
+{{appeals}} discusses the handling of disagreements.  In these
+circumstances, administrators may later rescind or amend moderator actions.
 
   Moderators are administrators for IETF
 plenary fora, currently including the IETF discussion and last-call
