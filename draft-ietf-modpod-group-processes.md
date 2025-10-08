@@ -236,7 +236,7 @@ accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 
-For a working group, chairs are by default the administrators.  They may
+  For a working group, chairs are by default the administrators.  They may
 delegate this responsibility, but they must always accept, acknowledge,
 and keep track of complaints of disruptive behavior.
 Forum administrators should perform moderation in a way that
