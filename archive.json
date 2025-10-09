@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-07T00:23:39.553722+00:00",
+  "timestamp": "2025-10-09T00:23:34.710382+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3561,6 +3561,65 @@
       "updatedAt": "2025-09-29T19:03:08Z",
       "closedAt": "2025-09-29T19:03:08Z",
       "comments": []
+    },
+    {
+      "number": 249,
+      "id": "I_kwDOJrr8CM7QIJ8P",
+      "title": "Nit in Section 3.1",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/249",
+      "state": "CLOSED",
+      "author": "jgscudder",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nIn Section 3.1 we have, \n\nOLD:\n\n> Examples of actions that are out of scope include, but are not limited to, datatracker account removal, in-person meeting registration, content removal or redaction, moderation or policing of private or non-IETF communications, and redaction from IETF archives.\n\nBut the action of \"in-person meeting registration\" can't possibly be what is intended. Probably we mean something like \"policing of in-person meeting registration\".\n\nAlso, \"redaction\" is listed redundantly. \n\n**Describe the solution you'd like**\nNEW:\n> Examples of actions that are out of scope include, but are not limited to, datatracker account removal, policing of in-person meeting registration, content removal or redaction, and moderation or policing of private or non-IETF communications.\n",
+      "createdAt": "2025-10-07T14:44:08Z",
+      "updatedAt": "2025-10-07T16:46:23Z",
+      "closedAt": "2025-10-07T16:46:23Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Hmm.  s/policing/restricting/?\n",
+          "createdAt": "2025-10-07T14:47:33Z",
+          "updatedAt": "2025-10-07T14:47:33Z"
+        }
+      ]
+    },
+    {
+      "number": 250,
+      "id": "I_kwDOJrr8CM7QIVgQ",
+      "title": "Nit in Section 4.1",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/250",
+      "state": "CLOSED",
+      "author": "jgscudder",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "**Proposal**\nSection 4.1 has,\n\nOLD:\n> Administrators and moderators shall act in a manner consistent this memo and the guidelines approved by the IESG. In cases of disagreement over a moderation decision, anyone may take the matter up with the responsible area director for resolution, or with the IETF chair if a responsible area director cannot be determined or is not assigned. If the disagreement cannot be resolved by the Area Director, that person may then appeal to the IESG, and subsequently to the IAB using the processes stated in Sections [6.5.1](https://rfc-editor.org/rfc/rfc2026#section-6.5.1) and [6.5.4](https://rfc-editor.org/rfc/rfc2026#section-6.5.4) of [[RFC2026](https://www.ietf.org/archive/id/draft-ietf-modpod-group-processes-11.html#RFC2026)].\n\nThere are a few trivial editorial nits here (corrected in the NEW below). The only thing I thought (marginally) worth opening an issue for was \"that person may then appeal\". \"That person\" refers to \"anyone\" I guess, but it does quite hang together right. I made it into \"the appellant,\" although maybe someone has an idea for a less stuffy way to express it. (Including rejecting this issue...)\n\n**Describe the solution you'd like**\nNEW:\n> Administrators and moderators shall act in a manner consistent with this memo and the guidelines approved by the IESG. In cases of disagreement over a moderation decision, anyone may take the matter up with the responsible Area Director for resolution, or with the IETF chair if a responsible Area Director cannot be determined or is not assigned. If the disagreement cannot be resolved by the Area Director, the appellant may then appeal to the IESG, and subsequently to the IAB using the processes stated in Sections [6.5.1](https://rfc-editor.org/rfc/rfc2026#section-6.5.1) and [6.5.4](https://rfc-editor.org/rfc/rfc2026#section-6.5.4) of [[RFC2026](https://www.ietf.org/archive/id/draft-ietf-modpod-group-processes-11.html#RFC2026)].\n\n(I made \"Area Director\" capitalized throughout. It could just as easily be lower-case throughout as far as I'm concerned, it just hurt my eyes to have it be inconsistent.)\n",
+      "createdAt": "2025-10-07T14:54:45Z",
+      "updatedAt": "2025-10-07T16:47:10Z",
+      "closedAt": "2025-10-07T16:47:10Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'm not sure about appellant, since they're not until they have appealed ;-)",
+          "createdAt": "2025-10-07T15:01:53Z",
+          "updatedAt": "2025-10-07T15:01:53Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "closed via #251 ",
+          "createdAt": "2025-10-07T16:47:10Z",
+          "updatedAt": "2025-10-07T16:47:10Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -18919,6 +18978,387 @@
           "createdAt": "2025-10-06T16:56:27Z",
           "updatedAt": "2025-10-06T16:56:27Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 251,
+      "id": "PR_kwDOJrr8CM6sg7y2",
+      "title": "(mostly) use John's replacement",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/251",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "closes #249 ",
+      "createdAt": "2025-10-07T14:56:36Z",
+      "updatedAt": "2025-10-07T16:46:24Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "669495f88d8d2f3328be13612dee6c022ef3ec8a",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "scudder-editorial",
+      "headRefOid": "36919c812fba3ac99763953e86300f1b8b4f6428",
+      "closedAt": "2025-10-07T16:46:22Z",
+      "mergedAt": "2025-10-07T16:46:22Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "9c79efdf76a522ef288adf136b174e610c9bcd3f"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closes #250 ",
+          "createdAt": "2025-10-07T15:02:27Z",
+          "updatedAt": "2025-10-07T15:02:27Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Add him to ack section?",
+          "createdAt": "2025-10-07T15:42:50Z",
+          "updatedAt": "2025-10-07T15:42:50Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7FVhCh",
+          "commit": {
+            "abbreviatedOid": "4cae82c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-07T15:42:08Z",
+          "updatedAt": "2025-10-07T15:42:08Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 252,
+      "id": "PR_kwDOJrr8CM6slMpp",
+      "title": "Nit: the names are alphabetically ordered.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/252",
+      "state": "MERGED",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "You've got these all ordered, but you added this one at the end.",
+      "createdAt": "2025-10-07T21:39:23Z",
+      "updatedAt": "2025-10-07T21:52:40Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "9c79efdf76a522ef288adf136b174e610c9bcd3f",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "name_nit",
+      "headRefOid": "b6b666b51b3aaac99f68d80da41c3ac1c22745d2",
+      "closedAt": "2025-10-07T21:52:40Z",
+      "mergedAt": "2025-10-07T21:52:40Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "11c44ab91c231808f55f62455f68c0fbf5641893"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7FadzY",
+          "commit": {
+            "abbreviatedOid": "b6b666b"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-07T21:52:34Z",
+          "updatedAt": "2025-10-07T21:52:34Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 253,
+      "id": "PR_kwDOJrr8CM6smDVl",
+      "title": "Dispute clarification.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/253",
+      "state": "CLOSED",
+      "author": "sayrer",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "So the chairs can flip a decision without a lot of ceremony.\r\n\r\nSee:\r\n\r\nhttps://mailarchive.ietf.org/arch/msg/mod-discuss/2hldmqm0B_rDSlhSO_-wVJm1jvk/",
+      "createdAt": "2025-10-08T00:05:56Z",
+      "updatedAt": "2025-10-08T07:06:44Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "11c44ab91c231808f55f62455f68c0fbf5641893",
+      "headRepository": "sayrer/draft-ietf-modpod-group-processes",
+      "headRefName": "disputes",
+      "headRefOid": "dad75c709e1e4f66973824e8f6aaa37c3c2f454c",
+      "closedAt": "2025-10-08T07:06:44Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'm going to open several separate PRs.",
+          "createdAt": "2025-10-08T07:06:44Z",
+          "updatedAt": "2025-10-08T07:06:44Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 254,
+      "id": "PR_kwDOJrr8CM6snryN",
+      "title": "missing spaces",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/254",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "Paragraph should be indented.",
+      "createdAt": "2025-10-08T05:29:24Z",
+      "updatedAt": "2025-10-08T06:50:47Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "11c44ab91c231808f55f62455f68c0fbf5641893",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "ed-correct-indent",
+      "headRefOid": "89168c7f3192563ccf51d5d6fa53718daebc933c",
+      "closedAt": "2025-10-08T06:50:46Z",
+      "mergedAt": "2025-10-08T06:50:46Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "9b8367df3c4aebab4aa8db1e063e7867a269dfd5"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7FfASc",
+          "commit": {
+            "abbreviatedOid": "89168c7"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-08T06:50:32Z",
+          "updatedAt": "2025-10-08T06:50:32Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 255,
+      "id": "PR_kwDOJrr8CM6so2Vz",
+      "title": "Make clear that moderation actions may be rescinded or amended.",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/255",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This is the first of two separate PRs to address Pete Resnick's point.  This one states simply that moderator actions can be amended or rescinded.  The next one will look at addressing the situation when an admin wants to overturn a moderator action.  That is out of scope for this PR.",
+      "createdAt": "2025-10-08T07:36:56Z",
+      "updatedAt": "2025-10-08T22:01:56Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "9b8367df3c4aebab4aa8db1e063e7867a269dfd5",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "rescinding-amending",
+      "headRefOid": "90c63e3d2aaf0ebee0d77655ba150f119b126a0a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Does this need a changelog entry or do you consider it editorial?",
+          "createdAt": "2025-10-08T09:43:31Z",
+          "updatedAt": "2025-10-08T09:43:31Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think it does need a change log, but first and foremost it needs broader review.  Please do note merge yet.",
+          "createdAt": "2025-10-08T11:08:49Z",
+          "updatedAt": "2025-10-08T11:08:49Z"
+        },
+        {
+          "author": "peteresnick",
+          "authorAssociation": "COLLABORATOR",
+          "body": "For the record, I think this makes things worse, not better. Clearly if something changes a week from now, the chair has to be able to impose a _more_ strict kind of moderation than the moderator imposed that lasted two weeks. Whatever we decide to do, let's not make this change.",
+          "createdAt": "2025-10-08T20:35:49Z",
+          "updatedAt": "2025-10-08T20:35:49Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@peteresnick  can you give a for-instance of a moderator action that would have to be strengthened by a chair?",
+          "createdAt": "2025-10-08T21:23:13Z",
+          "updatedAt": "2025-10-08T21:23:13Z"
+        },
+        {
+          "author": "peteresnick",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> @peteresnick can you give a for-instance of a moderator action that would have to be strengthened by a chair?\r\n\r\nModerator sends warning; chair puts into approve-before-post. Moderator puts into approve-before-post; chair revokes posting privileges.",
+          "createdAt": "2025-10-08T21:27:31Z",
+          "updatedAt": "2025-10-08T21:27:31Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Ok, I understand your point (I haven't been viewing a warning as a form of action).  Let me review both PRs tomorrow.",
+          "createdAt": "2025-10-08T21:39:44Z",
+          "updatedAt": "2025-10-08T21:39:44Z"
+        },
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> Ok, I understand your point (I haven't been viewing a warning as a form of action). Let me review both PRs tomorrow.\r\n\r\nSorry to be a pain. The problem is \"Those who impose actions [...]\". So that means the chairs and moderators can't alter or strengthen actions of the others. Here, Pete's example shows the chairs coming down harder than the moderators in the end.",
+          "createdAt": "2025-10-08T22:01:03Z",
+          "updatedAt": "2025-10-08T22:01:56Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7FhgFT",
+          "commit": {
+            "abbreviatedOid": "90c63e3"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-08T09:20:38Z",
+          "updatedAt": "2025-10-08T09:20:38Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Frjc0",
+          "commit": {
+            "abbreviatedOid": "90c63e3"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "I agree with Pete. This one is worse.",
+          "createdAt": "2025-10-08T21:07:47Z",
+          "updatedAt": "2025-10-08T21:07:47Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 256,
+      "id": "PR_kwDOJrr8CM6srcYe",
+      "title": "administrators rescinding or reverting",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/256",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "needs-discussion"
+      ],
+      "body": "This is the 2nd PR that addresses rescinding and reverting, permitting administrators to override moderator actions.",
+      "createdAt": "2025-10-08T11:16:49Z",
+      "updatedAt": "2025-10-08T16:27:11Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "9b8367df3c4aebab4aa8db1e063e7867a269dfd5",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "2ndguessing-moderators",
+      "headRefOid": "56d9ba1541e237fbc8bce48f9d73411f5da26d6a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I do not believe this PR is necessary or a good idea.",
+          "createdAt": "2025-10-08T11:17:56Z",
+          "updatedAt": "2025-10-08T11:17:56Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7Fj1FZ",
+          "commit": {
+            "abbreviatedOid": "56d9ba1"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-08T12:06:33Z",
+          "updatedAt": "2025-10-08T12:06:33Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I think I'd want the chairs to enter a discussion with the moderators if this happens, and not just unilaterally letting them override a moderator team decision. The case I am worried about is unresponsive chairs, moderators acting because of that, and then the chairs reverting based on \"this is OK in our WG\", which would counter the desire to have uniform standards across the org.",
+              "createdAt": "2025-10-08T12:06:33Z",
+              "updatedAt": "2025-10-08T12:06:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Fj58R",
+          "commit": {
+            "abbreviatedOid": "56d9ba1"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-08T12:11:12Z",
+          "updatedAt": "2025-10-08T12:11:13Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Please comment on list",
+              "createdAt": "2025-10-08T12:11:13Z",
+              "updatedAt": "2025-10-08T12:11:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7FoKPI",
+          "commit": {
+            "abbreviatedOid": "56d9ba1"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-08T16:27:02Z",
+          "updatedAt": "2025-10-08T16:27:11Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "This is fine with me. I don't share the concern Lars has. If there's a serious dispute, it can go to the AD.",
+              "createdAt": "2025-10-08T16:27:02Z",
+              "updatedAt": "2025-10-08T16:27:11Z"
+            }
+          ]
         }
       ]
     }
