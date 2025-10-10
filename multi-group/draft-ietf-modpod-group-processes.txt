@@ -703,6 +703,10 @@ A.1.  Since draft-ietf-modpod-group-processes-11
    *  Refine security considerations (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/239)
 
+   *  Multi group and moderator revsersal
+      (https://github.com/larseggert/draft-ietf-modpod-group-
+      processes/pull/257/files)
+
 A.2.  Since draft-ietf-modpod-group-processes-10
 
    *  Many editorial suggestions received during WGLC.
