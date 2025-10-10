@@ -237,6 +237,8 @@ the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 Administrators may amend or rescind actions, including those taken by
 the moderation team **after** they have consulted with that team.
+Disagreements between administrators and moderators should be resolved
+as discussed in {{appeals}}.
 
   For a working group, chairs are by default the administrators.  They may
 delegate this responsibility, but they must always accept, acknowledge,
