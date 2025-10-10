@@ -235,6 +235,8 @@ forum **and** the moderators.
 accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
+Administrators may amend or rescind actions, including those taken by
+the moderation team **after** they have consulted with that team.
 
   For a working group, chairs are by default the administrators.  They may
 delegate this responsibility, but they must always accept, acknowledge,
@@ -254,9 +256,9 @@ moderation, and refer interested parties to that forum.
 reports in a timely fashion.  Their first action should generally be
 to attempt to contact and advise the relevant administrators.
 They should only take
-moderation actions when administrators are not responsive.  In
-particular, moderators should generally give WG chairs
-the opportunity to
+moderation actions when administrators are not responsive, or when
+someone disrupts multiple fora at the same time.  Moderators should
+generally give WG chairs the opportunity to
 manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
 moderators' judgement to determine when they must act, with the
