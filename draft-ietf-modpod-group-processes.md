@@ -526,7 +526,7 @@ These individuals contributed additional improvements:
 
 - [clarify when changes take effect](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/238/)
 - [Refine security considerations](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/239)
-- [Multi group and moderator revsersal](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/257/files)
+- [Multi group and moderator reversal](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/257/files)
 
 ## Since draft-ietf-modpod-group-processes-10
 
