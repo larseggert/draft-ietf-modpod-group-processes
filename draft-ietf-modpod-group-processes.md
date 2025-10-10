@@ -338,7 +338,8 @@ as well as immediately to the moderator team for their review, and
 immediately to those against whom those actions take effect.
 
 Only moderation actions suspending participation privileges for longer than
-fourteen (14) days must be reported to the forum to which such an action applies.
+fourteen (14) days must be reported to the forum to which such an action applies,
+or at the request of the suspended person.
 If such an action applies to more than one forum, it should be communicated to
 the community in a manner decided by the IESG.
 
