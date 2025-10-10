@@ -237,8 +237,6 @@ the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 Administrators may amend or rescind actions, including those taken by
 the moderation team **after** they have consulted with that team.
-Disagreements between administrators and moderators should be resolved
-as discussed in {{appeals}}.
 
   For a working group, chairs are by default the administrators.  They may
 delegate this responsibility, but they must always accept, acknowledge,
@@ -350,7 +348,8 @@ the community in a manner decided by the IESG.
 
 Administrators and moderators shall act in a manner
 consistent with this memo and the guidelines approved by the IESG.  In cases
-of disagreement over a moderation decision, anyone may take the matter up
+of disagreement over a moderation decision, including amending or rescinding
+of actions, anyone may take the matter up
 with the responsible Area Director for resolution, or with the IETF chair
 if a responsible Area Director cannot be determined or is not assigned.
 If the disagreement cannot be resolved by the Area Director, that person may
