@@ -390,6 +390,9 @@ Table of Contents
    it should be communicated to the community in a manner decided by the
    IESG.
 
+   Moderators will periodically provide an aggregate report to the
+   community on actions taken under this policy.
+
 4.1.  Consistency and Conflict Resolution
 
    Administrators and moderators shall act in a manner consistent with
