@@ -345,6 +345,9 @@ or in any event, at the request of the suspended person.
 If such an action applies to more than one forum, it should be communicated to
 the community in a manner decided by the IESG.
 
+Moderators will periodically provide an aggregate report to the community on
+actions taken under this policy.
+
 ## Consistency and Conflict Resolution {#appeals}
 
 Administrators and moderators shall act in a manner
