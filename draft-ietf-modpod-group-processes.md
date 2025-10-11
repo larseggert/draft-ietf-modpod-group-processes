@@ -317,7 +317,11 @@ those processes and criteria are established, all previous procedures
 referenced in {{introduction}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
-action to administrators and moderators, with a few constraints.
+action to administrators and moderators, with the expectation that
+the minimal actions necessary will be taken.  Those who are directed
+to stop disrupting a forum must do so immediately.
+Further disruptions may lead to further corrective actions.
+
 Examples of actions that could be taken include:
 
 - Automated rate limiting mechanisms;
@@ -329,10 +333,6 @@ Examples of actions that could be taken include:
 We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.
-
-The expectation is that the minimal actions necessary will be taken.
-Those who are directed to stop disrupting a forum must do so immediately.
-Further disruptions may lead to further corrective actions.
 
 All moderation actions that restrict participation privileges shall be
 periodically reported to the IESG,
