@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                   10 October 2025
-Expires: 13 April 2026
+Intended status: Best Current Practice                   12 October 2025
+Expires: 15 April 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 April 2026.
+   This Internet-Draft will expire on 15 April 2026.
 
 Copyright Notice
 
@@ -358,7 +358,11 @@ Table of Contents
    referenced in Section 1 shall remain in effect.
 
    The intent of this memo is to provide the widest possible freedom of
-   action to administrators and moderators, with a few constraints.
+   action to administrators and moderators, with the expectation that
+   the minimal actions necessary will be taken.  Those who are directed
+   to stop disrupting a forum must do so immediately.  Further
+   disruptions may lead to further corrective actions.
+
    Examples of actions that could be taken include:
 
    *  Automated rate limiting mechanisms;
@@ -374,11 +378,6 @@ Table of Contents
    prescriptive.  Administrators and moderators are free to decide on
    these or other actions.
 
-   The expectation is that the minimal actions necessary will be taken.
-   Those who are directed to stop disrupting a forum must do so
-   immediately.  Further disruptions may lead to further corrective
-   actions.
-
    All moderation actions that restrict participation privileges shall
    be periodically reported to the IESG, as well as immediately to the
    moderator team for their review, and immediately to those against
@@ -386,9 +385,13 @@ Table of Contents
 
    Only moderation actions suspending participation privileges for
    longer than fourteen (14) days must be reported to the forum to which
-   such an action applies.  If such an action applies to more than one
-   forum, it should be communicated to the community in a manner decided
-   by the IESG.
+   such an action applies, or in any event, at the request of the
+   suspended person.  If such an action applies to more than one forum,
+   it should be communicated to the community in a manner decided by the
+   IESG.
+
+   Moderators will periodically provide an aggregate report to the
+   community on actions taken under this policy.
 
 4.1.  Consistency and Conflict Resolution
 
@@ -705,6 +708,9 @@ A.1.  Since draft-ietf-modpod-group-processes-11
 
    *  Multi group and moderator reversal (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/257/files)
+
+   *  Last(?) bits from 2nd last call (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/258)
 
 A.2.  Since draft-ietf-modpod-group-processes-10
 
