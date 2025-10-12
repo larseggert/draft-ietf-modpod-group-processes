@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-09T00:23:34.710382+00:00",
+  "timestamp": "2025-10-12T00:25:14.775206+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -19167,21 +19167,21 @@
       "id": "PR_kwDOJrr8CM6so2Vz",
       "title": "Make clear that moderation actions may be rescinded or amended.",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/255",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This is the first of two separate PRs to address Pete Resnick's point.  This one states simply that moderator actions can be amended or rescinded.  The next one will look at addressing the situation when an admin wants to overturn a moderator action.  That is out of scope for this PR.",
       "createdAt": "2025-10-08T07:36:56Z",
-      "updatedAt": "2025-10-08T22:01:56Z",
+      "updatedAt": "2025-10-10T09:54:52Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "9b8367df3c4aebab4aa8db1e063e7867a269dfd5",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "rescinding-amending",
       "headRefOid": "90c63e3d2aaf0ebee0d77655ba150f119b126a0a",
-      "closedAt": null,
+      "closedAt": "2025-10-10T09:54:52Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -19270,7 +19270,7 @@
       "id": "PR_kwDOJrr8CM6srcYe",
       "title": "administrators rescinding or reverting",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/256",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -19279,14 +19279,14 @@
       ],
       "body": "This is the 2nd PR that addresses rescinding and reverting, permitting administrators to override moderator actions.",
       "createdAt": "2025-10-08T11:16:49Z",
-      "updatedAt": "2025-10-08T16:27:11Z",
+      "updatedAt": "2025-10-10T09:54:53Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "9b8367df3c4aebab4aa8db1e063e7867a269dfd5",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "2ndguessing-moderators",
       "headRefOid": "56d9ba1541e237fbc8bce48f9d73411f5da26d6a",
-      "closedAt": null,
+      "closedAt": "2025-10-10T09:54:53Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -19359,6 +19359,110 @@
               "updatedAt": "2025-10-08T16:27:11Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "number": 257,
+      "id": "PR_kwDOJrr8CM6tDUIM",
+      "title": "Multi group and moderator reversal",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/257",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Address Pete Resnick comments.",
+      "createdAt": "2025-10-10T09:57:12Z",
+      "updatedAt": "2025-10-10T17:57:22Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "9b8367df3c4aebab4aa8db1e063e7867a269dfd5",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "multi-group",
+      "headRefOid": "39a8aa4b3b481098809f67c833d9ebb6334c0a00",
+      "closedAt": "2025-10-10T17:57:21Z",
+      "mergedAt": "2025-10-10T17:57:20Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "cf3c7985ac595c39b9f0e74fdbcdd6a84652c676"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Probably needs a changelog entry?",
+          "createdAt": "2025-10-10T10:31:51Z",
+          "updatedAt": "2025-10-10T10:31:51Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "And more review.",
+          "createdAt": "2025-10-10T11:37:24Z",
+          "updatedAt": "2025-10-10T11:37:24Z"
+        },
+        {
+          "author": "peteresnick",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Generally OK, with the exception of the last sentence of the first part; I would strike it. Not a hill I'm going to die on, but I don't think it's needed and I think it sends the wrong message.",
+          "createdAt": "2025-10-10T14:20:47Z",
+          "updatedAt": "2025-10-10T14:20:47Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7GCQk7",
+          "commit": {
+            "abbreviatedOid": "13a733b"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-10T10:31:36Z",
+          "updatedAt": "2025-10-10T10:31:36Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 258,
+      "id": "PR_kwDOJrr8CM6tORPp",
+      "title": "Last(?) bits from 2nd last call",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/258",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Address Mike Bishop / other comments\r\n\r\n1. Require periodic aggregate reporting to the community.\r\n2. While restrictions for under two weeks can remain private, at the request of the person being restricted, the information can be made public.\r\n3. Administrators can reverse moderator actions, and like all other actions, disagreements should be resolved by the AD.\r\n4. An editorial change that brings together text relating to \"widest possible latitude\" and taking least necessary action.\r\n",
+      "createdAt": "2025-10-11T07:51:56Z",
+      "updatedAt": "2025-10-11T09:33:49Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "cf3c7985ac595c39b9f0e74fdbcdd6a84652c676",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "clarify-notification",
+      "headRefOid": "816d4c59d812e53a8cf79a6b508bacc6afa4f87b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7GTN8G",
+          "commit": {
+            "abbreviatedOid": "816d4c5"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-11T09:33:49Z",
+          "updatedAt": "2025-10-11T09:33:49Z",
+          "comments": []
         }
       ]
     }
