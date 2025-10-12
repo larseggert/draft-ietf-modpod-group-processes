@@ -317,7 +317,11 @@ those processes and criteria are established, all previous procedures
 referenced in {{introduction}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
-action to administrators and moderators, with a few constraints.
+action to administrators and moderators, with the expectation that
+the minimal actions necessary will be taken.  Those who are directed
+to stop disrupting a forum must do so immediately.
+Further disruptions may lead to further corrective actions.
+
 Examples of actions that could be taken include:
 
 - Automated rate limiting mechanisms;
@@ -330,19 +334,19 @@ We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
-The expectation is that the minimal actions necessary will be taken.
-Those who are directed to stop disrupting a forum must do so immediately.
-Further disruptions may lead to further corrective actions.
-
 All moderation actions that restrict participation privileges shall be
 periodically reported to the IESG,
 as well as immediately to the moderator team for their review, and
 immediately to those against whom those actions take effect.
 
 Only moderation actions suspending participation privileges for longer than
-fourteen (14) days must be reported to the forum to which such an action applies.
+fourteen (14) days must be reported to the forum to which such an action applies,
+or in any event, at the request of the suspended person.
 If such an action applies to more than one forum, it should be communicated to
 the community in a manner decided by the IESG.
+
+Moderators will periodically provide an aggregate report to the community on
+actions taken under this policy.
 
 ## Consistency and Conflict Resolution {#appeals}
 
@@ -527,6 +531,7 @@ These individuals contributed additional improvements:
 - [clarify when changes take effect](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/238/)
 - [Refine security considerations](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/239)
 - [Multi group and moderator reversal](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/257/files)
+- [Last(?) bits from 2nd last call](https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/258)
 
 ## Since draft-ietf-modpod-group-processes-10
 
