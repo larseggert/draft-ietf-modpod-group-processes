@@ -39,14 +39,14 @@ author:
     email: lear@lear.ch
 
 normative:
+
+informative:
   IESG-SPAM:
     title: IESG Statement on Spam Control on IETF Mailing Lists
     date: 2008-04-18
     author:
        - org: IESG
     target: https://datatracker.ietf.org/doc/statement-iesg-iesg-statement-on-spam-control-on-ietf-mailing-lists-20080414/
-
-informative:
   AHP:
     title: IETF Anti-Harassment Policy
     date: 2013-11-03
@@ -288,14 +288,14 @@ consult with the IESG when needed.
 Moderator actions are only permitted for the purposes of limiting
 disruptive communications in IETF fora.  All other actions are beyond
 the scope of this memo. Examples of actions that are out of scope include,
-but are not limited to, datatracker account removal, restriction of in-person
+but are not limited to, Datatracker account removal, restriction of in-person
 meeting registration, content removal or redaction, and moderation or
 policing of private or non-IETF communications.
 While the moderator team does not moderate non-public IETF mailing
 lists, the administrators of such lists can choose to adopt some of the
 processes that the moderator team develops.
 
-## Unsolicted Bulk Messages
+## Unsolicited Bulk Messages
 
 Unsolicited bulk messages are considered disruptive and should be handled in a
 manner consistent with the IESG statement on IETF Spam Control on IETF
@@ -452,7 +452,7 @@ eight ways:
 
 1. {{prod}} requires the moderator team to first establish processes and
 procedures that are intended to apply uniformly across the IETF.
-2. {{genphil}} explicitly states that viewpoints outside of the rough
+2. {{genphil}} explicitly states that viewpoints outside the rough
 consensus are not in and of themselves disruptive.
 3. {{prod}} provides transparency by requiring that moderation actions
 that restrict participation privileges be immediately reported
@@ -467,7 +467,7 @@ inappropriate moderation, {{prod}} allows them to update those procedures
 in consultation with the community, and with the approval of the IESG.
 7. If IETF participants believe that either the IESG or the IAB are not performing
 their respective oversight functions as described in this document, they may
-comment to the NOMCOM {{!BCP10}} or the community at large.
+comment to the NomCom {{!BCP10}} or the community at large.
 8. Finally, if it appears that these processes are not functioning
 properly, the policies stated in this memo may be amended.
 They are not set in stone.
