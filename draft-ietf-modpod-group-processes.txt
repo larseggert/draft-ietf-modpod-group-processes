@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                   12 October 2025
-Expires: 15 April 2026
+Intended status: Best Current Practice                   13 October 2025
+Expires: 16 April 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 April 2026.
+   This Internet-Draft will expire on 16 April 2026.
 
 Copyright Notice
 
@@ -85,7 +85,7 @@ Table of Contents
      2.2.  Training
    3.  Scope and Responsibilities
      3.1.  Actions That Are Out of Scope
-     3.2.  Unsolicted Bulk Messages
+     3.2.  Unsolicited Bulk Messages
    4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
      4.2.  Reinstatement
@@ -327,7 +327,7 @@ Table of Contents
    Moderator actions are only permitted for the purposes of limiting
    disruptive communications in IETF fora.  All other actions are beyond
    the scope of this memo.  Examples of actions that are out of scope
-   include, but are not limited to, datatracker account removal,
+   include, but are not limited to, Datatracker account removal,
    restriction of in-person meeting registration, content removal or
    redaction, and moderation or policing of private or non-IETF
    communications.  While the moderator team does not moderate non-
@@ -335,7 +335,7 @@ Table of Contents
    choose to adopt some of the processes that the moderator team
    develops.
 
-3.2.  Unsolicted Bulk Messages
+3.2.  Unsolicited Bulk Messages
 
    Unsolicited bulk messages are considered disruptive and should be
    handled in a manner consistent with the IESG statement on IETF Spam
@@ -499,8 +499,8 @@ Table of Contents
        processes and procedures that are intended to apply uniformly
        across the IETF.
 
-   2.  Section 1.2 explicitly states that viewpoints outside of the
-       rough consensus are not in and of themselves disruptive.
+   2.  Section 1.2 explicitly states that viewpoints outside the rough
+       consensus are not in and of themselves disruptive.
 
    3.  Section 4 provides transparency by requiring that moderation
        actions that restrict participation privileges be immediately
@@ -520,7 +520,7 @@ Table of Contents
 
    7.  If IETF participants believe that either the IESG or the IAB are
        not performing their respective oversight functions as described
-       in this document, they may comment to the NOMCOM [BCP10] or the
+       in this document, they may comment to the NomCom [BCP10] or the
        community at large.
 
    8.  Finally, if it appears that these processes are not functioning
@@ -616,12 +616,6 @@ Table of Contents
               RFC 9389, DOI 10.17487/RFC9389, April 2023,
               <https://www.rfc-editor.org/info/rfc9389>.
 
-   [IESG-SPAM]
-              IESG, "IESG Statement on Spam Control on IETF Mailing
-              Lists", 18 April 2008, <https://datatracker.ietf.org/doc/
-              statement-iesg-iesg-statement-on-spam-control-on-ietf-
-              mailing-lists-20080414/>.
-
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
@@ -669,6 +663,12 @@ Table of Contents
    [DP]       IESG, "IESG Statement on Disruptive Posting", 16 February
               2006, <https://www.ietf.org/about/groups/iesg/statements/
               disruptive-posting/>.
+
+   [IESG-SPAM]
+              IESG, "IESG Statement on Spam Control on IETF Mailing
+              Lists", 18 April 2008, <https://datatracker.ietf.org/doc/
+              statement-iesg-iesg-statement-on-spam-control-on-ietf-
+              mailing-lists-20080414/>.
 
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
