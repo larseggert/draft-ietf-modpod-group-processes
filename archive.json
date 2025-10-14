@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-12T00:25:14.775206+00:00",
+  "timestamp": "2025-10-14T00:23:31.674192+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -19431,24 +19431,26 @@
       "id": "PR_kwDOJrr8CM6tORPp",
       "title": "Last(?) bits from 2nd last call",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/258",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Address Mike Bishop / other comments\r\n\r\n1. Require periodic aggregate reporting to the community.\r\n2. While restrictions for under two weeks can remain private, at the request of the person being restricted, the information can be made public.\r\n3. Administrators can reverse moderator actions, and like all other actions, disagreements should be resolved by the AD.\r\n4. An editorial change that brings together text relating to \"widest possible latitude\" and taking least necessary action.\r\n",
       "createdAt": "2025-10-11T07:51:56Z",
-      "updatedAt": "2025-10-11T09:33:49Z",
+      "updatedAt": "2025-10-12T19:05:47Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "cf3c7985ac595c39b9f0e74fdbcdd6a84652c676",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "clarify-notification",
-      "headRefOid": "816d4c59d812e53a8cf79a6b508bacc6afa4f87b",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "a1c513e53957cc754aa38de473c9117ee2970135",
+      "closedAt": "2025-10-12T19:05:45Z",
+      "mergedAt": "2025-10-12T19:05:45Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "feaa6515d80e0fada818afb20bfd9eabb3bc52a0"
+      },
       "comments": [],
       "reviews": [
         {
@@ -19462,6 +19464,130 @@
           "body": "",
           "createdAt": "2025-10-11T09:33:49Z",
           "updatedAt": "2025-10-11T09:33:49Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7GWVdE",
+          "commit": {
+            "abbreviatedOid": "816d4c5"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-12T00:55:11Z",
+          "updatedAt": "2025-10-12T00:55:12Z",
+          "comments": [
+            {
+              "originalPosition": 29,
+              "body": "\", or at the request of the suspended person\" (\"in any event\" is not needed)",
+              "createdAt": "2025-10-12T00:55:12Z",
+              "updatedAt": "2025-10-12T00:55:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7GWWNS",
+          "commit": {
+            "abbreviatedOid": "816d4c5"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-12T01:05:55Z",
+          "updatedAt": "2025-10-12T01:05:55Z",
+          "comments": [
+            {
+              "originalPosition": 29,
+              "body": "The trickiest sentence. Let's try this:\r\n\r\n\"Moderation actions that suspend participation privileges for longer than fourteen (14) days must be reported to the forum to which such an action applies. A suspension of any length must be publicly reported to the forum in question at the request of the suspended person.\"\r\n\r\nFeel free to edit. \"In any event\" is wrong, because that is \"whatever happens or may have happened.\" That can include unrelated events. That is an adversarial reading, but you're going to get those.\r\n\r\n",
+              "createdAt": "2025-10-12T01:05:55Z",
+              "updatedAt": "2025-10-12T01:49:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7GXSmr",
+          "commit": {
+            "abbreviatedOid": "816d4c5"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-12T09:03:30Z",
+          "updatedAt": "2025-10-12T09:03:30Z",
+          "comments": [
+            {
+              "originalPosition": 29,
+              "body": "I think \"in any event\" is exactly what I meant.  That is- we want to make clear that no matter what, if the suspended person requests that the forum be informed, they will be so informed.",
+              "createdAt": "2025-10-12T09:03:30Z",
+              "updatedAt": "2025-10-12T09:03:30Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7Gb2N6",
+          "commit": {
+            "abbreviatedOid": "816d4c5"
+          },
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-12T17:10:24Z",
+          "updatedAt": "2025-10-12T17:10:24Z",
+          "comments": [
+            {
+              "originalPosition": 29,
+              "body": "OK, I don't like that one, but it's not something to argue about. The RFC Editor can get to it if they share my opinion.",
+              "createdAt": "2025-10-12T17:10:24Z",
+              "updatedAt": "2025-10-12T17:10:24Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 259,
+      "id": "PR_kwDOJrr8CM6tZFUk",
+      "title": "Final fixes",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/259",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-10-13T06:54:31Z",
+      "updatedAt": "2025-10-13T08:13:44Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "feaa6515d80e0fada818afb20bfd9eabb3bc52a0",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "final-nits",
+      "headRefOid": "9572e05621e3752ee5ab70d54053bb386cbec0a1",
+      "closedAt": "2025-10-13T08:13:43Z",
+      "mergedAt": "2025-10-13T08:13:42Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "c6989636d34fd754bc75eee2912e60fc1ea82c71"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7Gggwp",
+          "commit": {
+            "abbreviatedOid": "9572e05"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-13T08:13:35Z",
+          "updatedAt": "2025-10-13T08:13:35Z",
           "comments": []
         }
       ]
