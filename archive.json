@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-14T00:23:31.674192+00:00",
+  "timestamp": "2025-10-16T00:24:55.309171+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -57,6 +57,11 @@
       "name": "github_actions",
       "description": "Pull requests that update GitHub Actions code",
       "color": "000000"
+    },
+    {
+      "name": "POST WGLC",
+      "description": "This issue is to be addressed during AD review or IETF LC",
+      "color": "1ca8c8"
     }
   ],
   "issues": [
@@ -3620,6 +3625,50 @@
           "updatedAt": "2025-10-07T16:47:10Z"
         }
       ]
+    },
+    {
+      "number": 260,
+      "id": "I_kwDOJrr8CM7RXA8W",
+      "title": "John Klensin \"Editorials\"",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/260",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "POST WGLC"
+      ],
+      "body": "> Hi.\n> \n> These are just quibbles, mostly editorial ones.  In a different WG\n> and under other circumstances, I'd probably just send most of it to\n> the editors, but, with recent discussions about transparency, it\n> seems wiser to post it to the list.  In addition, as I think was\n> pointed out a few weeks ago, it is quite likely that the final\n> version of the document will be read by those who have an interest in\n> finding flaws and ambiguities, so it is probably more important to\n> get the text just right than would be the case with, e.g., a protocol\n> spec.  \n> \n> I'm not addressing more general, strategic, and controversial issues\n> because, whether I agree or not, the direction of the WG seems clear\n> and, hence that those topics should probably wait for IETF LC and/or\n> a discussion at IETF 124.\n> \n> \n> (1) Last paragraph of the introduction to Section 1 (i.e., before\n> Section 1.1):\n> \n> Given the rest of the paragraph, the newly added last sentence should\n> probably read:\n> \n> \t\"These changes take effect for the IETF when the procedures\n> \tdescribed in Section 4 have been approved by the IESG.\"\n> \n> Or the paragraph should be restructured so that the current first\n> sentence is replaced by something like:\n> \n> \t\"The processes described in this document are solely\n> \tapplicable to IETF activities and take effect when the\n> \tprocedures described in Section 4 have been approved by the\n> \tIESG.  They do not apply to other related ...\"\n> \n> and the new sentence dropped.\n> \n> (2) The new sentence of the second bullet of Section 3 is a\n> considerable improvement.  However, it is another example of the\n> failure to distinguish between actions by the moderator team and\n> those of individual moderators.  As it is now written, the\n> relationship between Administrators and actions taken by individual\n> moderators is unclear.  Suggested improvement:\n> \n> \t\"Administrators may amend or rescind actions, including those\n> \ttaken by the moderation team or individual moderators *after*\n> \tthey have consulted with that team.\"\n> \n> In other words, if an Administrator disagrees with actions taken by\n> an individual moderator, the first step is to bring the action to the\n> attention of the team and then initiate a discussion/ consultation.\n> \n> (3) In 3.1, the new sentence might be improved by explicitly allowing\n> \"the administrators of such list\" to consult the moderation team for\n> advice, rather than just adopting \"some of the processes\".  If they\n> cannot consult (or even involve) the moderator team, it is not\n> entirely clear what such adoption would mean since they have always\n> had the ability to advise participants on their behavior or apply\n> restrictions and this document does not change that.\n> \n> (4) The first paragraph of Section 4:\n> \n> \t\"Within the bounds of the policies set herein, and with the\n> \tapproval of the IESG, the moderator team shall develop and\n> \tmaintain processes...\"\n> \n> can be read as requiring that the IESG approve the moderator team's\n> plan for developing and maintaining processes and not the resulting\n> processes themselves.  For those of us concerned about community\n> review of (and possibly even rough consensus on) the processes, not\n> clearly requiring that the IESG sign off on the processes /\n> procedures is even more problematic.   It also seems to put this\n> section in conflict with the provision of Section 1 (see (1) above)\n> which does specify a requirement for IESG approval of procedures.\n> \n> (5) Also on that subject, the document sometimes uses \"procedures\",\n> sometimes \"processes\", and sometimes \"guidelines\".  It is not clear\n> whether they are intended to be read as synonyms.    And then various\n> sentences in Section 4 read as if \"processes\" and \"criteria\" are\n> different, but the differences are not really clear. \"Policy\" may be\n> part of the confusion as well, but I didn't find places where it\n> seemed problematic. Especially at this late date, this might be\n> grounds for a sentence (probably a new, second, paragraph) in Section\n> 1.1 rather than expecting the Editors to tighten the terminology that\n> is scattered through the document.\n> \n> (6) In the third paragraph of section 4, the newly moved sentence(s), \n> \n> \t\"Those who are directed to stop disrupting a forum must do so\n> \timmediately.\"\n> \n> would probably better be\n> \n> \t\"Those who are directed to stop disrupting a forum are\n> \texpected to do so immediately.\"\n> \n> because the \"must\" is clearly not actionable except, more or less, by\n> the next sentence.  If that sentence was intended even partially as a\n> threat, it might be better to replace the two sentences by something\n> more like:\n> \n> \t\"Those who are directed to stop disrupting a forum are\n> \texpected to do so immediately. Failure to do so is likely to\n> \tlead to further corrective actions.\"\n> \n> or one could say \"will normally\" rather than \"is likely to\"\n> \n> \n> (7) The sixth paragraph of Section 4 (\"All moderation actions...\")\n> would be easier to follow if it were rearranged to be more like:\n> \n> \t\"All moderation actions that restrict participation\n> \tprivileges shall be immediately reported to those against\n> \twhom those actions take effect and to the moderator team for\n> \ttheir review.  They shall also be periodically reported to\n> \tthe IESG.\"\n> \n> (8) Since I'm quibbling, in the last sentence of 4.1, the antecedent\n> of \"that person\" is not clear.  The sentence can easily be read as\n> referring to the Area Director.  In addition, I don't know whether it\n> needs to be spelled out, but I assume that an AD can also decide that\n> the nature of a particular action or its cause would benefit from\n> drawing in the whole IESG (or even specific other ADs) rather than\n> being forced to make a decision and then hope \"that person\" will\n> appeal.\n> \n> (9) The addition of crossreferences to the bullet list in Section 6\n> is, IMO, a huge improvement.  In addition to the long-term\n> advantages, it make consistency checks easier.  Thanks.  \n> \n> (9a) I don't have a good suggestion for improving this but, in\n> Section 6, bullet (1), \"intended to apply uniformly\tacross the IETF\"\n> seems to contradict the many IETF-related fora and lists that are\n> excluded by the private communications and non-public IETF list\n> discussion in Section 3.1.  See also (11) below.\n> \n> (9b) In bullet (4), I cannot find a requirement to inform the\n> community about long suspensions in Section 4 unless more than one\n> forum is involved.   I'm not confident I know what the WG intended.\n> If it was to notify only the forum if the action is restricted to it,\n> then bullet (4) should be tweaked to say something closer to \"the\n> relevant forum, or when multiple fora are involved, the community\".\n> If the intent was to notify the community about all longer\n> suspensions, then Section 4 needs adjustment.\n> \n> (9c) Something of the same problem applies to bullet (6).  While one\n> can possibly read it into \"and maintain\" in the first sentence of\n> Section 4, I don't see either a requirement for periodic review or\n> some decision process about problems that would trigger such a\n> review.  \n> \n> (10) In Appendix B.2, \"not been able to agree on a common definition\n> of disruptive behavior\" appears in both bullet 2 and bullet 4.  I\n> don't know if it is worth fixing, but it feels cumbersome.  \n> \n> (11) Finally and at the risk of saying something substantive that I\n> don't recall being brought up in the context of this document, for\n> many years observations have been common in the IETF to the effect\n> that every WG (or at least every Area) is different.  That has\n> generally been considered a feature rather than a bug.    Bullet 1 of\n> B.2 seems to contradict that by suggesting that, as least as far as\n> what might be considered disruptive is concerned, all WGs need to\n> follow the same model and definitions.  Nothing I can find in the\n> body of the document, with the possible exception of the first bullet\n> of Section 1.2, appears to support that sort of consistency or the\n> need for it.  \"Widest possible freedom of action\" in Section 4 seems\n> to tend in the other direction.  Unless the WG's intent is really to\n> force uniformity across all areas and WG about the threshold for\n> behavior to be considered disruptive and action taken, that bullet\n> item may need tweaking (or just dropping).  Otherwise, if that is the\n> intent, maybe it should be said more explicitly in the body of the\n> text.  And the IESG should be prepared for appeals based on \"I\n> behaved in exactly the same way in WG X as in WG Y, and it was ok in\n> WG X but, in WG Y, the chair took me aside and threatened me, so the\n> WG Y chair should be fired\".  I can't imagine the IESG would welcome\n> such appeals, especially if both WGs appear to be running smoothly.\n> \n> thanks,\n>    john\n> ",
+      "createdAt": "2025-10-14T05:56:20Z",
+      "updatedAt": "2025-10-14T15:10:42Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Propose to process at next stage of review.",
+          "createdAt": "2025-10-14T05:56:39Z",
+          "updatedAt": "2025-10-14T05:56:39Z"
+        }
+      ]
+    },
+    {
+      "number": 261,
+      "id": "I_kwDOJrr8CM7ReGXY",
+      "title": "Qualify acknowledgments",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/261",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "POST WGLC"
+      ],
+      "body": "Not everyone may agree with any all aspects in this work.",
+      "createdAt": "2025-10-14T15:00:02Z",
+      "updatedAt": "2025-10-14T15:10:43Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
