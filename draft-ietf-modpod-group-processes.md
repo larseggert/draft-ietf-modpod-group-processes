@@ -431,15 +431,6 @@ board, as documented in section 4.7 of {{!RFC8711}}
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
 
-## Relation to the IRTF
-
-The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
-organization separate from the IETF that is governed by its own
-set of rules and processes. {{Sections 3, 6 and 7 of
-?RFC9775}} discuss rules for participating
-in the IRTF and moderation of IRTF participation fora.
-The policies described in this memo do not apply to the IRTF.
-
 # Security Considerations
 
 The usual security considerations {{?RFC3552}} do not apply to this
