@@ -39,7 +39,7 @@ jobs:
         token: ${{ github.token }}
 
     - name: "Save Archive"
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: archive
         path: archive.json
