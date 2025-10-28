@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-16T00:24:55.309171+00:00",
+  "timestamp": "2025-10-28T00:23:58.676851+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3667,6 +3667,46 @@
       "body": "Not everyone may agree with any all aspects in this work.",
       "createdAt": "2025-10-14T15:00:02Z",
       "updatedAt": "2025-10-14T15:10:43Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 262,
+      "id": "I_kwDOJrr8CM7UFalg",
+      "title": "Create a reference to RFC 2418 Sec 6.4",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/262",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": ">\n> -- Delegate to who?  To clarify, such a delegation is new role (i.e., \u201cWG fora moderator\u201d?)?\n>\n> -- Are there any obligation if such a delegation occurs (e.g., announcing it to the WG)?\n\nThe function is specified in RFC 2418, section 6.4 [<https://www.rfc-editor.org/rfc/rfc2418.html#section-6.4>](https://www.rfc-editor.org/rfc/rfc2418.html#section-6.4). Perhaps a reference would help?",
+      "createdAt": "2025-10-27T19:00:43Z",
+      "updatedAt": "2025-10-27T19:40:15Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "sayrer",
+          "authorAssociation": "COLLABORATOR",
+          "body": "On-list comment: RFC 2418, section 6.4 only covers meetings, so the text has to expand the possible role a little.",
+          "createdAt": "2025-10-27T19:40:15Z",
+          "updatedAt": "2025-10-27T19:40:15Z"
+        }
+      ]
+    },
+    {
+      "number": 263,
+      "id": "I_kwDOJrr8CM7UFdtf",
+      "title": "Remove Section 5.3?",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/263",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "On 27.10.2025 16:36, Roman Danyliw wrote:\n> ** Section 5.3.  Is this entire section needed?  Section 1 already says that this document doesn\u2019t apply to the IRTF.  Why say more?\n\nI think you're right.  That's probably an outgrowth of editing (we probably added the Section 1 text after this section)",
+      "createdAt": "2025-10-27T19:05:05Z",
+      "updatedAt": "2025-10-27T19:05:05Z",
       "closedAt": null,
       "comments": []
     }
