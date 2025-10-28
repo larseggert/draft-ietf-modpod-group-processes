@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                   13 October 2025
-Expires: 16 April 2026
+Intended status: Best Current Practice                   28 October 2025
+Expires: 1 May 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 April 2026.
+   This Internet-Draft will expire on 1 May 2026.
 
 Copyright Notice
 
@@ -92,7 +92,6 @@ Table of Contents
    5.  Relationship to other IETF functions
      5.1.  Relation to the Ombudsteam
      5.2.  Relation to the IETF LLC
-     5.3.  Relation to the IRTF
    6.  Security Considerations
    7.  IANA Considerations
    8.  Acknowledgments
@@ -124,7 +123,7 @@ Table of Contents
    This memo establishes a policy for the moderation of disruptive
    participation across the IETF's various public contribution channels
    and discussion fora.  It creates a moderator team to develop
-   procedures and to facilitate their consistent application.
+   processes and to facilitate their consistent application.
 
    This memo obsoletes and updates some prior IETF processes, summarized
    here.  Background information is described in more detail in
@@ -133,7 +132,7 @@ Table of Contents
    This memo makes the following changes to existing processes:
 
    *  Obsoletes [RFC3683] as the "posting rights" (PR) action it defines
-      are replaced by procedures defined herein;
+      are replaced by processes defined herein;
 
    *  Obsoletes [RFC3934] as it replaces working group moderation
       procedures;
@@ -151,7 +150,7 @@ Table of Contents
    Internet Research Task Force (IRTF), the Internet Architecture Board
    (IAB), the RFC Series Working Group (RSWG), the RFC Series Approval
    Board (RSAB), or the Independent RFC Submission Stream, without their
-   explicit agreement.  These changes take effect when the procedures
+   explicit agreement.  These changes take effect when the processes
    described in Section 4 have been approved by the IESG.
 
 1.1.  Terminology Note
@@ -275,14 +274,15 @@ Table of Contents
       approved by the IESG.  As such, they shall address reports of
       disruptive behavior in a timely fashion, apprising moderators of
       reports or actions taken.  Administrators may amend or rescind
-      actions, including those taken by the moderation team *after* they
-      have consulted with that team.
+      actions, including those taken by members of the moderation team
+      *after* they have consulted with that team.
 
       For a working group, chairs are by default the administrators.
-      They may delegate this responsibility, but they must always
-      accept, acknowledge, and keep track of complaints of disruptive
-      behavior.  Forum administrators should perform moderation in a way
-      that obviates the need for moderator team involvement.
+      They may delegate this responsibility in the same vein as
+      Section 6.4 of [RFC2418] but they must always accept, acknowledge,
+      and keep track of complaints of disruptive behavior.  Forum
+      administrators should perform moderation in a way that obviates
+      the need for moderator team involvement.
 
    *  *Moderators* are responsible for establishing processes to address
       moderation needs across all IETF fora, both present and future.
@@ -346,15 +346,15 @@ Table of Contents
 
 4.  Moderation Procedures and Transparency
 
-   Within the bounds of the policies set herein, and with the approval
-   of the IESG, the moderator team shall develop and maintain processes
-   and criteria relating to moderation, including the moderator team's
-   own operating procedures.
+   Within the bounds of the policies set herein, the moderator team
+   shall develop and maintain processes and criteria relating to
+   moderation, including the moderator team's own operating procedures.
 
-   Those processes and criteria shall be developed with community input
-   and made public, but need not be documented in the RFC series.  This
-   shall be the first task for the moderator team.  Until those
-   processes and criteria are established, all previous procedures
+   Those processes and criteria shall be developed with community input,
+   be approved by the IESG prior to going into effect, and be made
+   public.  However, they need not be documented in the RFC series.
+   This shall be the first task for the moderator team.  Until those
+   processes and criteria are established, all previous processes
    referenced in Section 1 shall remain in effect.
 
    The intent of this memo is to provide the widest possible freedom of
@@ -379,9 +379,9 @@ Table of Contents
    these or other actions.
 
    All moderation actions that restrict participation privileges shall
-   be periodically reported to the IESG, as well as immediately to the
-   moderator team for their review, and immediately to those against
-   whom those actions take effect.
+   be immediately reported to those against whom those actions take
+   effect and to the moderator team for their review.  They shall also
+   be periodically reported to the IESG.
 
    Only moderation actions suspending participation privileges for
    longer than fourteen (14) days must be reported to the forum to which
@@ -476,15 +476,6 @@ Table of Contents
    Any such action taken by the IETF LLC under this section of this
    policy, is not subject to the rest of this policy.
 
-5.3.  Relation to the IRTF
-
-   The Internet Research Task Force (IRTF) [RFC2014] is a peer
-   organization separate from the IETF that is governed by its own set
-   of rules and processes.  Sections 3, 6 and 7 of [RFC9775] discuss
-   rules for participating in the IRTF and moderation of IRTF
-   participation fora.  The policies described in this memo do not apply
-   to the IRTF.
-
 6.  Security Considerations
 
    The usual security considerations [RFC3552] do not apply to this
@@ -496,8 +487,7 @@ Table of Contents
    mitigated in eight ways:
 
    1.  Section 4 requires the moderator team to first establish
-       processes and procedures that are intended to apply uniformly
-       across the IETF.
+       processes that are intended to apply uniformly across the IETF.
 
    2.  Section 1.2 explicitly states that viewpoints outside the rough
        consensus are not in and of themselves disruptive.
@@ -513,9 +503,9 @@ Table of Contents
    5.  Section 4.1 lays out an appeals process in the case of
        disagreements.
 
-   6.  If moderators find that the procedures themselves are leading to
+   6.  If moderators find that the processes themselves are leading to
        inappropriate moderation, Section 4 allows them to update those
-       procedures in consultation with the community, and with the
+       processes in consultation with the community, and with the
        approval of the IESG.
 
    7.  If IETF participants believe that either the IESG or the IAB are
@@ -597,6 +587,9 @@ Table of Contents
 
    *  Tim Bray
 
+   N.B., acknowledgment should not be taken as endorsement by the
+   individuals named above.
+
 9.  References
 
 9.1.  Normative References
@@ -677,10 +670,6 @@ Table of Contents
 
    [OT]       "Ombudsteam", <https://www.ietf.org/contact/ombudsteam/>.
 
-   [RFC2014]  Weinrib, A. and J. Postel, "IRTF Research Group Guidelines
-              and Procedures", BCP 8, RFC 2014, DOI 10.17487/RFC2014,
-              October 1996, <https://www.rfc-editor.org/rfc/rfc2014>.
-
    [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
               Text on Security Considerations", BCP 72, RFC 3552,
               DOI 10.17487/RFC3552, July 2003,
@@ -689,10 +678,6 @@ Table of Contents
    [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF",
               RFC 7282, DOI 10.17487/RFC7282, June 2014,
               <https://www.rfc-editor.org/rfc/rfc7282>.
-
-   [RFC9775]  Perkins, C. S., "IRTF Code of Conduct", RFC 9775,
-              DOI 10.17487/RFC9775, March 2025,
-              <https://www.rfc-editor.org/rfc/rfc9775>.
 
 Appendix A.  Change History of this I-D
 
@@ -934,10 +919,9 @@ B.2.  Problems with the Previous Approach
       spans multiple lists, due to not being subscribed to some of them.
 
    *  PR-actions, which can address disruptive behavior across several
-      lists, are cumbersome and slow, and the community has not been
-      able to agree on a common definition of disruptive behavior.  This
-      has led to a situation where PR-actions are rarely used, and when
-      they are used, they are perceived as very heavy-handed.
+      lists, are cumbersome and slow, and inconsistent.  This has led to
+      a situation where PR-actions are rarely used, and when they are
+      used, they are perceived as very heavy-handed.
 
    *  For a given mailing list, participants may not feel comfortable
       reporting disruptive behavior to a chair or list administrator,
