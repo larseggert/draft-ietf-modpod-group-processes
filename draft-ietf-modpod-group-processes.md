@@ -89,7 +89,7 @@ This memo establishes a policy for the moderation of disruptive
 participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
-moderator team to develop procedures and to facilitate their consistent
+moderator team to develop processes and to facilitate their consistent
 application.
 
 This memo obsoletes and updates some prior IETF processes, summarized here.
@@ -98,7 +98,7 @@ Background information is described in more detail in {{motivation}}.
 This memo makes the following changes to existing processes:
 
 - Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
-  are replaced by procedures defined herein;
+  are replaced by processes defined herein;
 - Obsoletes {{!RFC3934}} as it replaces working group moderation
   procedures;
 - Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
@@ -114,7 +114,7 @@ the Internet Research Task Force (IRTF),
 the Internet Architecture Board (IAB),
 the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
 or the Independent RFC Submission Stream, without their explicit agreement.
-These changes take effect when the procedures described
+These changes take effect when the processes described
 in {{prod}} have been approved by the IESG.
 
 ## Terminology Note
@@ -236,10 +236,11 @@ accordance with guidance developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 Administrators may amend or rescind actions, including those taken by
-the moderation team **after** they have consulted with that team.
+members of the moderation team **after** they have consulted with that team.
 
   For a working group, chairs are by default the administrators.  They may
-delegate this responsibility, but they must always accept, acknowledge,
+delegate this responsibility in the same vein as {{Section 6.4 of RFC2418}}
+but they must always accept, acknowledge,
 and keep track of complaints of disruptive behavior.
 Forum administrators should perform moderation in a way that
 obviates the need for moderator team involvement.
@@ -305,15 +306,15 @@ Such actions require no additional reporting.
 
 # Moderation Procedures and Transparency {#prod}
 
-Within the bounds of the policies set herein, and with the
-approval of the IESG, the moderator team shall develop
+Within the bounds of the policies set herein, the moderator team shall develop
 and maintain processes and criteria relating to moderation, including
 the moderator team's own operating procedures.
 
-Those processes and criteria shall be developed with community input
-and made public, but need not be documented in the RFC series.  This
+Those processes and criteria shall be developed with community input,
+be approved by the IESG prior to going into effect,
+and be made public.  However, they need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
-those processes and criteria are established, all previous procedures
+those processes and criteria are established, all previous processes
 referenced in {{introduction}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
@@ -334,10 +335,11 @@ We stress that these are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
-All moderation actions that restrict participation privileges shall be
-periodically reported to the IESG,
-as well as immediately to the moderator team for their review, and
-immediately to those against whom those actions take effect.
+All moderation actions that restrict participation
+privileges shall be immediately reported to those against
+whom those actions take effect and to the moderator team for
+their review. They shall also be periodically reported to
+the IESG.
 
 Only moderation actions suspending participation privileges for longer than
 fourteen (14) days must be reported to the forum to which such an action applies,
@@ -431,15 +433,6 @@ board, as documented in section 4.7 of {{!RFC8711}}
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
 
-## Relation to the IRTF
-
-The Internet Research Task Force (IRTF) {{?RFC2014}} is a peer
-organization separate from the IETF that is governed by its own
-set of rules and processes. {{Sections 3, 6 and 7 of
-?RFC9775}} discuss rules for participating
-in the IRTF and moderation of IRTF participation fora.
-The policies described in this memo do not apply to the IRTF.
-
 # Security Considerations
 
 The usual security considerations {{?RFC3552}} do not apply to this
@@ -450,8 +443,8 @@ working group chairs, and potentially others that could lead to
 censorship of legitimate participation. This potential risk is mitigated in
 eight ways:
 
-1. {{prod}} requires the moderator team to first establish processes and
-procedures that are intended to apply uniformly across the IETF.
+1. {{prod}} requires the moderator team to first establish processes
+that are intended to apply uniformly across the IETF.
 2. {{genphil}} explicitly states that viewpoints outside the rough
 consensus are not in and of themselves disruptive.
 3. {{prod}} provides transparency by requiring that moderation actions
@@ -462,8 +455,8 @@ periodically reported to the IESG.
 of suspensions lasting longer than 14 days.
 5. {{appeals}} lays out an appeals process in the case of
 disagreements.
-6. If moderators find that the procedures themselves are leading to
-inappropriate moderation, {{prod}} allows them to update those procedures
+6. If moderators find that the processes themselves are leading to
+inappropriate moderation, {{prod}} allows them to update those processes
 in consultation with the community, and with the approval of the IESG.
 7. If IETF participants believe that either the IESG or the IAB are not performing
 their respective oversight functions as described in this document, they may
@@ -518,6 +511,9 @@ These individuals contributed additional improvements:
 - Stephen Farrell
 - Ted Lemon
 - Tim Bray
+
+N.B., acknowledgment should not be taken as endorsement by the
+individuals named above.
 
 --- back
 
@@ -686,8 +682,7 @@ ideal:
   lists, due to not being subscribed to some of them.
 
 - PR-actions, which can address disruptive behavior across several
-  lists, are cumbersome and slow, and the community has not been able
-  to agree on a common definition of disruptive behavior. This has
+  lists, are cumbersome and slow, and inconsistent. This has
   led to a situation where PR-actions are rarely used, and when they
   are used, they are perceived as very heavy-handed.
 
