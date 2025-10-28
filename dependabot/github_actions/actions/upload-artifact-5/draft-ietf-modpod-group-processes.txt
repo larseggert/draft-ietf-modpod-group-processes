@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                 18 September 2025
-Expires: 22 March 2026
+Intended status: Best Current Practice                   28 October 2025
+Expires: 1 May 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 March 2026.
+   This Internet-Draft will expire on 1 May 2026.
 
 Copyright Notice
 
@@ -85,7 +85,7 @@ Table of Contents
      2.2.  Training
    3.  Scope and Responsibilities
      3.1.  Actions That Are Out of Scope
-     3.2.  Unsolicted Bulk Messages
+     3.2.  Unsolicited Bulk Messages
    4.  Moderation Procedures and Transparency
      4.1.  Consistency and Conflict Resolution
      4.2.  Reinstatement
@@ -100,20 +100,21 @@ Table of Contents
      9.1.  Normative References
      9.2.  Informative References
    Appendix A.  Change History of this I-D
-     A.1.  Since draft-ietf-modpod-group-processes-10
-     A.2.  Since draft-ietf-modpod-group-processes-09
-     A.3.  Since draft-ietf-modpod-group-processes-08
-     A.4.  Since draft-ietf-modpod-group-processes-07
-     A.5.  Since draft-ietf-modmod-group-processes-06
-     A.6.  Since draft-ietf-modpod-group-processes-05
-     A.7.  Since draft-ietf-modpod-group-processes-04
-     A.8.  Since draft-ietf-modpod-group-processes-03
-     A.9.  Since draft-ietf-modpod-group-processes-02
-     A.10. Since draft-ietf-modpod-group-processes-01
-     A.11. Since draft-ietf-modpod-group-processes-00
-     A.12. Since draft-ecahc-moderation-01
-   Appendix B.  Changes and Motivation
-     B.1.  Changes
+     A.1.  Since draft-ietf-modpod-group-processes-11
+     A.2.  Since draft-ietf-modpod-group-processes-10
+     A.3.  Since draft-ietf-modpod-group-processes-09
+     A.4.  Since draft-ietf-modpod-group-processes-08
+     A.5.  Since draft-ietf-modpod-group-processes-07
+     A.6.  Since draft-ietf-modmod-group-processes-06
+     A.7.  Since draft-ietf-modpod-group-processes-05
+     A.8.  Since draft-ietf-modpod-group-processes-04
+     A.9.  Since draft-ietf-modpod-group-processes-03
+     A.10. Since draft-ietf-modpod-group-processes-02
+     A.11. Since draft-ietf-modpod-group-processes-01
+     A.12. Since draft-ietf-modpod-group-processes-00
+     A.13. Since draft-ecahc-moderation-01
+   Appendix B.  Motivation
+     B.1.  Background
      B.2.  Problems with the Previous Approach
    Appendix C.  Non-Normative Examples of Disruptive Behavior
    Authors' Addresses
@@ -126,7 +127,8 @@ Table of Contents
    procedures and to facilitate their consistent application.
 
    This memo obsoletes and updates some prior IETF processes, summarized
-   here and described in more detail in Appendix B.1:
+   here.  Background information is described in more detail in
+   Appendix B.
 
    This memo makes the following changes to existing processes:
 
@@ -143,6 +145,14 @@ Table of Contents
    *  Updates Section 6.1 of [RFC2418], because the moderator team will
       now work together with working group chairs to moderate disruptive
       behavior.
+
+   The processes described in this document are solely applicable to
+   IETF activities, and not to other related organizations, such as the
+   Internet Research Task Force (IRTF), the Internet Architecture Board
+   (IAB), the RFC Series Working Group (RSWG), the RFC Series Approval
+   Board (RSAB), or the Independent RFC Submission Stream, without their
+   explicit agreement.  These changes take effect when the procedures
+   described in Section 4 have been approved by the IESG.
 
 1.1.  Terminology Note
 
@@ -251,7 +261,7 @@ Table of Contents
    This policy applies to all public IETF fora, both present and future,
    including, but not limited to, mailing lists, chat groups, and
    discussions in other systems that the IETF or WGs have chosen to
-   employ, such as GitHub repositories, Wikis, or issue trackers.
+   employ, such as GitHub repositories, wikis, or issue trackers.
 
    Different people have different moderation responsibilities:
 
@@ -264,13 +274,15 @@ Table of Contents
       in accordance with guidance developed by the moderators and
       approved by the IESG.  As such, they shall address reports of
       disruptive behavior in a timely fashion, apprising moderators of
-      reports or actions taken.
+      reports or actions taken.  Administrators may amend or rescind
+      actions, including those taken by the moderation team *after* they
+      have consulted with that team.
 
-   For a working group, chairs are by default the administrators.  They
-   may delegate this responsibility, but they must always accept,
-   acknowledge, and keep track of complaints of disruptive behavior.
-   Forum administrators should perform moderation in a way that obviates
-   the need for moderator team involvement.
+      For a working group, chairs are by default the administrators.
+      They may delegate this responsibility, but they must always
+      accept, acknowledge, and keep track of complaints of disruptive
+      behavior.  Forum administrators should perform moderation in a way
+      that obviates the need for moderator team involvement.
 
    *  *Moderators* are responsible for establishing processes to address
       moderation needs across all IETF fora, both present and future.
@@ -284,13 +296,13 @@ Table of Contents
       reports in a timely fashion.  Their first action should generally
       be to attempt to contact and advise the relevant administrators.
       They should only take moderation actions when administrators are
-      not responsive.  In particular, moderators should generally give
-      WG chairs the opportunity to manage what may be difficult and
-      contentious debates within their groups.  Within the bounds of
-      this principle, it is left to moderators' judgement to determine
-      when they must act, with the understanding that some situations
-      may require fast responses.  Section 4.1 discusses the handling of
-      disagreements.
+      not responsive, or when someone disrupts multiple fora at the same
+      time.  Moderators should generally give WG chairs the opportunity
+      to manage what may be difficult and contentious debates within
+      their groups.  Within the bounds of this principle, it is left to
+      moderators' judgement to determine when they must act, with the
+      understanding that some situations may require fast responses.
+      Section 4.1 discusses the handling of disagreements.
 
       Moderators are administrators for IETF plenary fora, currently
       including the IETF discussion and last-call lists and any plenary
@@ -303,43 +315,54 @@ Table of Contents
       from participants.
 
    *  *Area Directors* are expected to resolve conflicts as described
-      here and in Section 4.1.  Apart from appointing and recalling
-      moderators, the IESG shall refrain from the day-to-day operation
-      and management of the moderator team.  The moderators may consult
-      with the IESG when needed.
+      here and in Section 4.1.  The IESG will periodically evaluate the
+      performance and needs of moderators, and may appoint and recall
+      moderators as they deem appropriate.  Apart from that, the IESG
+      shall refrain from the day-to-day operation and management of the
+      moderator team.  The moderators may consult with the IESG when
+      needed.
 
 3.1.  Actions That Are Out of Scope
 
    Moderator actions are only permitted for the purposes of limiting
    disruptive communications in IETF fora.  All other actions are beyond
    the scope of this memo.  Examples of actions that are out of scope
-   include, but are not limited to, datatracker account removal, in-
-   person meeting registration, content removal or redaction, moderation
-   or policing of private or non-IETF communications, and redaction from
-   IETF archives.
+   include, but are not limited to, Datatracker account removal,
+   restriction of in-person meeting registration, content removal or
+   redaction, and moderation or policing of private or non-IETF
+   communications.  While the moderator team does not moderate non-
+   public IETF mailing lists, the administrators of such lists can
+   choose to adopt some of the processes that the moderator team
+   develops.
 
-3.2.  Unsolicted Bulk Messages
+3.2.  Unsolicited Bulk Messages
 
    Unsolicited bulk messages are considered disruptive and should be
    handled in a manner consistent with the IESG statement on IETF Spam
    Control on IETF Mailing Lists[IESG-SPAM], or its successors.
-   Administrators may take similar actions in other fora (e.g., GitHub
-   or Instant Messaging).  Such actions require no additional reporting.
+   Administrators and moderators may take similar actions in other fora
+   (e.g., GitHub or Instant Messaging).  Such actions require no
+   additional reporting.
 
 4.  Moderation Procedures and Transparency
 
    Within the bounds of the policies set herein, and with the approval
-   of the IESG, the moderator team shall develop processes and criteria
-   relating to moderation, including the moderator team's own operating
-   procedures.
+   of the IESG, the moderator team shall develop and maintain processes
+   and criteria relating to moderation, including the moderator team's
+   own operating procedures.
 
    Those processes and criteria shall be developed with community input
    and made public, but need not be documented in the RFC series.  This
-   shall be the first task for the moderator team.  Until that happens,
-   the previous procedures remain in effect.
+   shall be the first task for the moderator team.  Until those
+   processes and criteria are established, all previous procedures
+   referenced in Section 1 shall remain in effect.
 
    The intent of this memo is to provide the widest possible freedom of
-   action to administrators and moderators, with a few constraints.
+   action to administrators and moderators, with the expectation that
+   the minimal actions necessary will be taken.  Those who are directed
+   to stop disrupting a forum must do so immediately.  Further
+   disruptions may lead to further corrective actions.
+
    Examples of actions that could be taken include:
 
    *  Automated rate limiting mechanisms;
@@ -355,29 +378,28 @@ Table of Contents
    prescriptive.  Administrators and moderators are free to decide on
    these or other actions.
 
-   The expectation is that the minimal actions necessary will be taken.
-   Those who are directed to stop disrupting a forum must do so
-   immediately.  Further disruptions may lead to further corrective
-   actions.
-
    All moderation actions that restrict participation privileges shall
    be periodically reported to the IESG, as well as immediately to the
    moderator team for their review, and immediately to those against
    whom those actions take effect.
 
-   To address disruptive behavior in a timely manner, only moderation
-   actions suspending participation privileges for longer than fourteen
-   (14) days shall be reported to the forum to which such an action
-   applies.  If such an action applies to more than one forum, it should
-   be communicated to the community in a manner decided by the IESG.
+   Only moderation actions suspending participation privileges for
+   longer than fourteen (14) days must be reported to the forum to which
+   such an action applies, or in any event, at the request of the
+   suspended person.  If such an action applies to more than one forum,
+   it should be communicated to the community in a manner decided by the
+   IESG.
+
+   Moderators will periodically provide an aggregate report to the
+   community on actions taken under this policy.
 
 4.1.  Consistency and Conflict Resolution
 
-   Administrators and moderators shall act in a manner consistent this
-   memo and the guidelines approved by the IESG.  In cases of
+   Administrators and moderators shall act in a manner consistent with
+   this memo and the guidelines approved by the IESG.  In cases of
    disagreement over a moderation decision, anyone may take the matter
-   up with the responsible area director for resolution, or with the
-   IETF chair if a responsible area director cannot be determined or is
+   up with the responsible Area Director for resolution, or with the
+   IETF chair if a responsible Area Director cannot be determined or is
    not assigned.  If the disagreement cannot be resolved by the Area
    Director, that person may then appeal to the IESG, and subsequently
    to the IAB using the processes stated in Sections 6.5.1 and 6.5.4 of
@@ -432,7 +454,7 @@ Table of Contents
 
    *  Someone using IETF mailing lists and/or websites to share content
       where publishing that content on IETF lists and/or websites brings
-      serious legal risk.
+      serious legal risk to the IETF.
 
    *  Someone making a credible threat of legal action where any form of
       interaction with them on IETF mailing lists may have serious legal
@@ -471,30 +493,39 @@ Table of Contents
    There is the potential abuse of the moderation process by moderators,
    working group chairs, and potentially others that could lead to
    censorship of legitimate participation.  This potential risk is
-   mitigated in seven ways:
+   mitigated in eight ways:
 
-   1.  The moderator team must first establish processes and procedures
-       that are intended to apply uniformly across the IETF.
+   1.  Section 4 requires the moderator team to first establish
+       processes and procedures that are intended to apply uniformly
+       across the IETF.
 
-   2.  This memo explicitly states that minority viewpoints are not in
-       and of themselves disruptive.
+   2.  Section 1.2 explicitly states that viewpoints outside the rough
+       consensus are not in and of themselves disruptive.
 
-   3.  Moderation actions that restrict participation privileges must be
-       made transparent to the affected person and to the moderation
-       team, and must be periodically reported to the IESG.
+   3.  Section 4 provides transparency by requiring that moderation
+       actions that restrict participation privileges be immediately
+       reported to the affected person and to the moderation team, and
+       periodically reported to the IESG.
 
-   4.  In the case of restrictions of participation privileges lasting
-       longer than 14 days, the community is also informed.
+   4.  That same section requires that the community be informed in the
+       case of suspensions lasting longer than 14 days.
 
-   5.  An appeals process is made available to anyone in the case of
+   5.  Section 4.1 lays out an appeals process in the case of
        disagreements.
 
-   6.  If IETF participants believe that the IESG is not performing
-       their oversight functions as described in this document, they may
-       comment to the NOMCOM or the community at large.
+   6.  If moderators find that the procedures themselves are leading to
+       inappropriate moderation, Section 4 allows them to update those
+       procedures in consultation with the community, and with the
+       approval of the IESG.
 
-   7.  Finally, if it appears that these processes are not functioning
-       properly they may be amended.  They are not set in stone.
+   7.  If IETF participants believe that either the IESG or the IAB are
+       not performing their respective oversight functions as described
+       in this document, they may comment to the NomCom [BCP10] or the
+       community at large.
+
+   8.  Finally, if it appears that these processes are not functioning
+       properly, the policies stated in this memo may be amended.  They
+       are not set in stone.
 
    Moderation actions are intended to limit the likelihood of disruptive
    behavior by a few IETF participants from discouraging participation
@@ -522,7 +553,13 @@ Table of Contents
 
    *  Alissa Cooper
 
+   *  Brian Carpenter
+
    *  Chris Box
+
+   *  Colin Perkins
+
+   *  David Schinazi
 
    *  Eric Rescorla
 
@@ -530,31 +567,54 @@ Table of Contents
 
    *  Joel Halpern
 
+   *  John Klensin
+
+   *  John Scudder
+
+   *  Martin Thomson
+
    *  Melinda Shore
 
    *  Michael Richardson
+
+   *  Nick Hilliard
+
+   *  Pete Resnick
 
    *  Rich Salz
 
    *  Robert Sayre
 
-   *  Brian Carpenter
+   *  Russ Housley
 
-   *  David Schinazi
+   *  Sean Turner
+
+   *  Simon Josefsson
 
    *  Stephen Farrell
 
-   *  John Klensin
+   *  Ted Lemon
+
+   *  Tim Bray
 
 9.  References
 
 9.1.  Normative References
 
-   [IESG-SPAM]
-              IESG, "IESG Statement on Spam Control on IETF Mailing
-              Lists", 18 April 2008, <https://datatracker.ietf.org/doc/
-              statement-iesg-iesg-statement-on-spam-control-on-ietf-
-              mailing-lists-20080414/>.
+   [BCP10]    Best Current Practice 10,
+              <https://www.rfc-editor.org/info/bcp10>.
+              At the time of writing, this BCP comprises the following:
+
+              Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
+              Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
+              Confirmation, and Recall Process: Operation of the IETF
+              Nominating and Recall Committees", BCP 10, RFC 8713,
+              DOI 10.17487/RFC8713, February 2020,
+              <https://www.rfc-editor.org/info/rfc8713>.
+
+              Duke, M., "Nominating Committee Eligibility", BCP 10,
+              RFC 9389, DOI 10.17487/RFC9389, April 2023,
+              <https://www.rfc-editor.org/info/rfc9389>.
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -604,6 +664,12 @@ Table of Contents
               2006, <https://www.ietf.org/about/groups/iesg/statements/
               disruptive-posting/>.
 
+   [IESG-SPAM]
+              IESG, "IESG Statement on Spam Control on IETF Mailing
+              Lists", 18 April 2008, <https://datatracker.ietf.org/doc/
+              statement-iesg-iesg-statement-on-spam-control-on-ietf-
+              mailing-lists-20080414/>.
+
    [MODML]    IESG, "IESG Guidance on the Moderation of IETF Working
               Group Mailing Lists", 29 August 2000,
               <https://www.ietf.org/about/groups/iesg/statements/
@@ -632,19 +698,65 @@ Appendix A.  Change History of this I-D
 
       |  RFC Editor: Please remove this appendix before publication.
 
-A.1.  Since draft-ietf-modpod-group-processes-10
+A.1.  Since draft-ietf-modpod-group-processes-11
+
+   *  clarify when changes take effect (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/238/)
+
+   *  Refine security considerations (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/239)
+
+   *  Multi group and moderator reversal (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/257/files)
+
+   *  Last(?) bits from 2nd last call (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/258)
+
+A.2.  Since draft-ietf-modpod-group-processes-10
+
+   *  Many editorial suggestions received during WGLC.
 
    *  remove attendee mailing lists from moderator primary
       responsibility (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/181)
 
-A.2.  Since draft-ietf-modpod-group-processes-09
+   *  Correct reference to appeals process.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/149) Also this. (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/230)
+
+   *  Clarify fora that are out of scope.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/197) Incl. attendees' lists. (https://github.com/larseggert/
+      draft-ietf-modpod-group-processes/pull/181) Also this.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/235)
+
+   *  Clarify WG chairs are default admins but can delegate.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/220)
+
+   *  Mod team size guidance. (https://github.com/larseggert/draft-ietf-
+      modpod-group-processes/pull/231)
+
+   *  Chair immediately notify mods and affected parties.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/229)
+
+   *  Add all of the available mitigations to risks of censorship.
+      (https://github.com/larseggert/draft-ietf-modpod-group-processes/
+      pull/232)
+
+   *  Clarify AD responsibilities. (https://github.com/larseggert/draft-
+      ietf-modpod-group-processes/pull/234)
+
+A.3.  Since draft-ietf-modpod-group-processes-09
 
    *  Try to find another happy medium on power of moderators
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/147)
 
-A.3.  Since draft-ietf-modpod-group-processes-08
+A.4.  Since draft-ietf-modpod-group-processes-08
 
    *  Address timeliness and exisgent circumstances
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -654,7 +766,7 @@ A.3.  Since draft-ietf-modpod-group-processes-08
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/143)
 
-A.4.  Since draft-ietf-modpod-group-processes-07
+A.5.  Since draft-ietf-modpod-group-processes-07
 
    *  Pete Resnick issues and similar (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/issues/134)
@@ -664,7 +776,7 @@ A.4.  Since draft-ietf-modpod-group-processes-07
       team → moderator team. (https://github.com/larseggert/draft-ietf-
       modpod-group-processes/pull/135)
 
-A.5.  Since draft-ietf-modmod-group-processes-06
+A.6.  Since draft-ietf-modmod-group-processes-06
 
    *  Normalize handling of moderation across all fora
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -674,25 +786,25 @@ A.5.  Since draft-ietf-modmod-group-processes-06
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/132)
 
-A.6.  Since draft-ietf-modpod-group-processes-05
+A.7.  Since draft-ietf-modpod-group-processes-05
 
    *  New attempt to address moderation/WG interactions
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/126)
 
-A.7.  Since draft-ietf-modpod-group-processes-04
+A.8.  Since draft-ietf-modpod-group-processes-04
 
    *  Use plain English instead of BCP 14 language
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/120)
 
-A.8.  Since draft-ietf-modpod-group-processes-03
+A.9.  Since draft-ietf-modpod-group-processes-03
 
    *  Non-normative Examples of Disruptive Behavior
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/121)
 
-A.9.  Since draft-ietf-modpod-group-processes-02
+A.10.  Since draft-ietf-modpod-group-processes-02
 
    *  Say which RFCs this obsoletes and updates.
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
@@ -710,7 +822,7 @@ A.9.  Since draft-ietf-modpod-group-processes-02
    *  Content removal is not moderation. (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/109)
 
-A.10.  Since draft-ietf-modpod-group-processes-01
+A.11.  Since draft-ietf-modpod-group-processes-01
 
    *  Update "Relation to the IETF LLC". (https://github.com/larseggert/
       draft-ietf-modpod-group-processes/pull/92)
@@ -722,7 +834,7 @@ A.10.  Since draft-ietf-modpod-group-processes-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/100)
 
-A.11.  Since draft-ietf-modpod-group-processes-00
+A.12.  Since draft-ietf-modpod-group-processes-00
 
    *  Spelling fix (https://github.com/larseggert/draft-ietf-modpod-
       group-processes/pull/80)
@@ -743,7 +855,7 @@ A.11.  Since draft-ietf-modpod-group-processes-00
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/87)
 
-A.12.  Since draft-ecahc-moderation-01
+A.13.  Since draft-ecahc-moderation-01
 
    *  Content taken from draft-ecahc-moderation-01
       (https://datatracker.ietf.org/doc/draft-ecahc-moderation/01/).
@@ -751,13 +863,12 @@ A.12.  Since draft-ecahc-moderation-01
       (https://github.com/larseggert/draft-ietf-modpod-group-processes/
       pull/65)
 
-Appendix B.  Changes and Motivation
+Appendix B.  Motivation
 
    Section 1 summarized the process changes introduced by this memo.
-   The remainder of this section discusses the background that let to
-   them.
+   This appendix discusses the background that led to them.
 
-B.1.  Changes
+B.1.  Background
 
    The IETF community has defined general guidelines for personal
    interactions in the IETF [RFC7154], and the IESG has defined an anti-
