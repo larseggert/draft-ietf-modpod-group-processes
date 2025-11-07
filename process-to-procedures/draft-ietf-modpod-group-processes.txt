@@ -150,7 +150,7 @@ Table of Contents
    Internet Research Task Force (IRTF), the Internet Architecture Board
    (IAB), the RFC Series Working Group (RSWG), the RFC Series Approval
    Board (RSAB), or the Independent RFC Submission Stream, without their
-   explicit agreement.  These changes take effect when the processes
+   explicit agreement.  These changes take effect when the procedures
    described in Section 4 have been approved by the IESG.
 
 1.1.  Terminology Note
