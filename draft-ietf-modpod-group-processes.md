@@ -114,7 +114,7 @@ the Internet Research Task Force (IRTF),
 the Internet Architecture Board (IAB),
 the RFC Series Working Group (RSWG), the RFC Series Approval Board (RSAB),
 or the Independent RFC Submission Stream, without their explicit agreement.
-These changes take effect when the processes described
+These changes take effect when the procedures described
 in {{prod}} have been approved by the IESG.
 
 ## Terminology Note
