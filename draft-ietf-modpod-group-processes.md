@@ -89,7 +89,7 @@ This memo establishes a policy for the moderation of disruptive
 participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
-moderator team to develop processes and to facilitate their consistent
+moderator team to develop procedures and to facilitate their consistent
 application.
 
 This memo obsoletes and updates some prior IETF processes, summarized here.
@@ -245,7 +245,7 @@ and keep track of complaints of disruptive behavior.
 Forum administrators should perform moderation in a way that
 obviates the need for moderator team involvement.
 
-- **Moderators** are responsible for establishing processes to
+- **Moderators** are responsible for establishing procedures to
 address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
 can use to address disruptive behavior.
@@ -294,7 +294,7 @@ meeting registration, content removal or redaction, and moderation or
 policing of private or non-IETF communications.
 While the moderator team does not moderate non-public IETF mailing
 lists, the administrators of such lists can choose to adopt some of the
-processes that the moderator team develops.
+procedures that the moderator team develops.
 
 ## Unsolicited Bulk Messages
 
@@ -307,14 +307,14 @@ Such actions require no additional reporting.
 # Moderation Procedures and Transparency {#prod}
 
 Within the bounds of the policies set herein, the moderator team shall develop
-and maintain processes and criteria relating to moderation, including
+and maintain procedures and criteria relating to moderation, including
 the moderator team's own operating procedures.
 
-Those processes and criteria shall be developed with community input,
+Those procedures and criteria shall be developed with community input,
 be approved by the IESG prior to going into effect,
 and be made public.  However, they need not be documented in the RFC series.  This
 shall be the first task for the moderator team.  Until
-those processes and criteria are established, all previous processes
+those procedures and criteria are established, all previous processes
 referenced in {{introduction}} shall remain in effect.
 
 The intent of this memo is to provide the widest possible freedom of
@@ -438,12 +438,12 @@ policy, is not subject to the rest of this policy.
 The usual security considerations {{?RFC3552}} do not apply to this
 document.
 
-There is the potential abuse of the moderation process by moderators,
+There is the potential abuse of the moderation procedures by moderators,
 working group chairs, and potentially others that could lead to
 censorship of legitimate participation. This potential risk is mitigated in
 eight ways:
 
-1. {{prod}} requires the moderator team to first establish processes
+1. {{prod}} requires the moderator team to first establish procedures
 that are intended to apply uniformly across the IETF.
 2. {{genphil}} explicitly states that viewpoints outside the rough
 consensus are not in and of themselves disruptive.
@@ -455,8 +455,8 @@ periodically reported to the IESG.
 of suspensions lasting longer than 14 days.
 5. {{appeals}} lays out an appeals process in the case of
 disagreements.
-6. If moderators find that the processes themselves are leading to
-inappropriate moderation, {{prod}} allows them to update those processes
+6. If moderators find that the procedures themselves are leading to
+inappropriate moderation, {{prod}} allows them to update those procedures
 in consultation with the community, and with the approval of the IESG.
 7. If IETF participants believe that either the IESG or the IAB are not performing
 their respective oversight functions as described in this document, they may
@@ -645,7 +645,7 @@ gentle reminders on- and off-list, all the way to suspension of posting rights
 and other ways of participating or communicating. It is up to the moderators
 and administrators
 to decide which mix of preemptive and reactive moderation to employ as
-part of their processes.
+part of their procedures.
 
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
