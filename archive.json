@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-30T00:25:31.007283+00:00",
+  "timestamp": "2025-11-09T00:27:29.938891+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3717,7 +3717,7 @@
       "id": "I_kwDOJrr8CM7UbS2p",
       "title": "Acknowledgement vs. Endorsement",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/267",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "sayrer",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -3726,8 +3726,8 @@
       ],
       "body": "**Proposal**\nThe latest Editors' Copy added this:\n\n```\nN.B., acknowledgment should not be taken as endorsement by the individuals named above.\n```\n\n**Describe the solution you'd like**\n\nDelete the sentence.\n\n**Additional context**\n\nI disagree with this addition. The words \"acknowledgment\" and \"endorsement\" have distinct definitions. That sentence casts doubt on my opinion. If I felt really negative about this memo, I would have my name removed (I have done it on other ones). I don't agree with everything, but that's \"rough consensus\". If someone needs that sentence there, they should remove their name.",
       "createdAt": "2025-10-29T00:54:53Z",
-      "updatedAt": "2025-10-29T17:24:02Z",
-      "closedAt": null,
+      "updatedAt": "2025-11-07T16:39:36Z",
+      "closedAt": "2025-11-07T16:38:59Z",
       "comments": [
         {
           "author": "elear",
@@ -19853,6 +19853,58 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 268,
+      "id": "PR_kwDOJrr8CM6yLtxy",
+      "title": "Processes -> procedures",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/268",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "I checked each occurrence of \"process\" as discussed in the meeting at IETF 124, and changed those instances that referred to the output of the moderator team back to \"procedure\".",
+      "createdAt": "2025-11-07T17:05:07Z",
+      "updatedAt": "2025-11-07T19:28:49Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "912c34b420f799766d39ce8592bcdc66636366ad",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "process-to-procedures",
+      "headRefOid": "eb82fcefd352d5cf1f615037f340091a4e1183cf",
+      "closedAt": "2025-11-07T19:28:48Z",
+      "mergedAt": "2025-11-07T19:28:48Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "9c883bdbac4eda466982f5099963f36454a28854"
+      },
+      "comments": [
+        {
+          "author": "peteresnick",
+          "authorAssociation": "COLLABORATOR",
+          "body": "One miss: Line 117: \"These changes take effect when the processes described...\"\r\nOtherwise I think they are all correct.",
+          "createdAt": "2025-11-07T17:30:39Z",
+          "updatedAt": "2025-11-07T17:30:39Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7Myxum",
+          "commit": {
+            "abbreviatedOid": "eb82fce"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-11-07T19:13:56Z",
+          "updatedAt": "2025-11-07T19:13:56Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
