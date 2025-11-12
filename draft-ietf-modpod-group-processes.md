@@ -108,7 +108,7 @@ This memo makes the following changes to existing processes:
   now work together with working group chairs to moderate disruptive
   behavior.
 
-The processes described in this document are solely applicable to IETF
+The processes described in this memo are solely applicable to IETF
 activities, and not to other related organizations, such as
 the Internet Research Task Force (IRTF),
 the Internet Architecture Board (IAB),
@@ -121,7 +121,7 @@ in {{prod}} have been approved by the IESG.
 
 Below we use the term "administrator" to refer to the people who
 are assigned by the IESG to manage a particular public participation
-channel or discussion forum. This document uses the term "forum"
+channel or discussion forum. This memo uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
 chat group, or discussion in a collaborative tool such as GitHub or
 GitLab. For example, working
@@ -182,7 +182,7 @@ introduction.
 ## Composition
 
 The IESG appoints and recalls moderators.
-The moderator team initially consists of no less than five individuals.
+The moderator team initially consists of no fewer than five individuals.
 The moderator team may expand or contract
 based on operational experience.
 In selecting members, the IESG will take into
@@ -436,7 +436,7 @@ policy, is not subject to the rest of this policy.
 # Security Considerations
 
 The usual security considerations {{?RFC3552}} do not apply to this
-document.
+memo.
 
 There is the potential abuse of the moderation procedures by moderators,
 working group chairs, and potentially others that could lead to
