@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                   7 November 2025
-Expires: 11 May 2026
+Intended status: Best Current Practice                  12 November 2025
+Expires: 16 May 2026
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 May 2026.
+   This Internet-Draft will expire on 16 May 2026.
 
 Copyright Notice
 
@@ -145,8 +145,8 @@ Table of Contents
       now work together with working group chairs to moderate disruptive
       behavior.
 
-   The processes described in this document are solely applicable to
-   IETF activities, and not to other related organizations, such as the
+   The processes described in this memo are solely applicable to IETF
+   activities, and not to other related organizations, such as the
    Internet Research Task Force (IRTF), the Internet Architecture Board
    (IAB), the RFC Series Working Group (RSWG), the RFC Series Approval
    Board (RSAB), or the Independent RFC Submission Stream, without their
@@ -157,7 +157,7 @@ Table of Contents
 
    Below we use the term "administrator" to refer to the people who are
    assigned by the IESG to manage a particular public participation
-   channel or discussion forum.  This document uses the term "forum" to
+   channel or discussion forum.  This memo uses the term "forum" to
    refer to any public IETF participation channel, such as a mailing
    list, chat group, or discussion in a collaborative tool such as
    GitHub or GitLab.  For example, working group chairs are
@@ -222,7 +222,7 @@ Table of Contents
 2.1.  Composition
 
    The IESG appoints and recalls moderators.  The moderator team
-   initially consists of no less than five individuals.  The moderator
+   initially consists of no fewer than five individuals.  The moderator
    team may expand or contract based on operational experience.  In
    selecting members, the IESG will take into account geographic
    coverage, expected and unexpected absences, and team diversity.
@@ -479,7 +479,7 @@ Table of Contents
 6.  Security Considerations
 
    The usual security considerations [RFC3552] do not apply to this
-   document.
+   memo.
 
    There is the potential abuse of the moderation procedures by
    moderators, working group chairs, and potentially others that could
