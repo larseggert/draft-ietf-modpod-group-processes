@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-09T00:27:29.938891+00:00",
+  "timestamp": "2025-11-13T00:25:26.755175+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -19902,6 +19902,50 @@
           "body": "",
           "createdAt": "2025-11-07T19:13:56Z",
           "updatedAt": "2025-11-07T19:13:56Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 269,
+      "id": "PR_kwDOJrr8CM6y7JOK",
+      "title": "address murray's editorial comments",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/269",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-11-12T08:13:07Z",
+      "updatedAt": "2025-11-12T08:57:53Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "9c883bdbac4eda466982f5099963f36454a28854",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "murray-editorials",
+      "headRefOid": "b97756a9ed95799d44f5ad53153b5fa828245a3f",
+      "closedAt": "2025-11-12T08:57:52Z",
+      "mergedAt": "2025-11-12T08:57:52Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "d2afb13ff3429f28b73c669de15bca6df7c09ca2"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7NxhM_",
+          "commit": {
+            "abbreviatedOid": "b97756a"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-11-12T08:57:39Z",
+          "updatedAt": "2025-11-12T08:57:39Z",
           "comments": []
         }
       ]
