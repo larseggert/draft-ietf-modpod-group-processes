@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-27T00:25:39.033404+00:00",
+  "timestamp": "2025-12-04T00:26:37.133453+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -3751,6 +3751,22 @@
           "updatedAt": "2025-10-29T17:24:02Z"
         }
       ]
+    },
+    {
+      "number": 271,
+      "id": "I_kwDOJrr8CM7bzfpL",
+      "title": "GENART: change only to no sooner than",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/issues/271",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "that improves clarity.",
+      "createdAt": "2025-12-02T22:07:57Z",
+      "updatedAt": "2025-12-02T22:07:57Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
