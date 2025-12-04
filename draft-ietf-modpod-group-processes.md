@@ -74,7 +74,8 @@ informative:
 
 The IETF community will treat people with kindness and grace, but not endless patience.
 
-This memo establishes a policy for the moderation of disruptive
+This memo obsoletes RFCs 3683 and 3934, and it updates RFCs 2418 and 9245 
+establishing a policy for the moderation of disruptive
 participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
