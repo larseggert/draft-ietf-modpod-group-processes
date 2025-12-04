@@ -74,7 +74,8 @@ informative:
 
 The IETF community will treat people with kindness and grace, but not endless patience.
 
-This memo establishes a policy for the moderation of disruptive
+This memo obsoletes RFCs 3683 and 3934, and it updates RFCs 2418 and 9245
+establishing a policy for the moderation of disruptive
 participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
@@ -250,7 +251,7 @@ address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
 can use to address disruptive behavior.
 The moderator team is responsible to the IESG.  The IESG
-may create or designate a forum to facilitate discussion about
+will create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.
 
   Moderators may take actions when administrators do not respond to
@@ -328,7 +329,7 @@ Examples of actions that could be taken include:
 - Automated rate limiting mechanisms;
 - Review and approval of submissions/messages;
 - A private or public admonishment;
-- Temporary or permanent suspension of participation privileges
+- Temporary or indefinite suspension of participation privileges
   in one or more fora.
 
 We stress that these are only examples, and not in any way
@@ -367,7 +368,7 @@ People and circumstances change.  Individuals whose participation
 privileges have been indefinitely suspended from a forum may request
 reinstatement.
 Requests for reinstatement
-may be made only a year after the initial decision, and then
+may be made no earlier than a year after the initial decision, and then
 only annually afterwards.
 
 Any such request must be
