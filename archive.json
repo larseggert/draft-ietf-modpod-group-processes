@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-04T00:26:37.133453+00:00",
+  "timestamp": "2025-12-07T00:28:58.510805+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -20007,6 +20007,56 @@
           "body": "",
           "createdAt": "2025-11-25T05:26:32Z",
           "updatedAt": "2025-11-25T05:26:32Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 272,
+      "id": "PR_kwDOJrr8CM62_Uvk",
+      "title": "post IETF-LC edits",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/272",
+      "state": "MERGED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "\"may\" to \"will\"\r\n\"only\" to \"no earlier than\"\r\n\"permanent\" to \"indefinite\"\r\n",
+      "createdAt": "2025-12-04T06:45:55Z",
+      "updatedAt": "2025-12-04T21:56:27Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "2cdd37556a96696865ad19ade8fe14a1cea11f80",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "post-ietf-lc",
+      "headRefOid": "9f8286e6ce1202ccb4f08761524a2a73c730f59c",
+      "closedAt": "2025-12-04T21:56:25Z",
+      "mergedAt": "2025-12-04T21:56:25Z",
+      "mergedBy": "elear",
+      "mergeCommit": {
+        "oid": "67d88eeb2ba2d6aa020ee8762c62ab4176259105"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closes #271 ",
+          "createdAt": "2025-12-04T21:55:09Z",
+          "updatedAt": "2025-12-04T21:55:09Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7S62px",
+          "commit": {
+            "abbreviatedOid": "e406293"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-12-04T08:09:34Z",
+          "updatedAt": "2025-12-04T08:09:34Z",
           "comments": []
         }
       ]
