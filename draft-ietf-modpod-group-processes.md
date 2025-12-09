@@ -105,7 +105,7 @@ This memo makes the following changes to existing processes:
 - Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
   {{Section 4 of !RFC9245}}, as the moderator team replaces the
   IETF discussion list moderation team.
-- Updates {}tion 6.1 of !RFC2418}}, because the moderator team will
+- Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
   work together with working group chairs to moderate disruptive
   behavior.
 
