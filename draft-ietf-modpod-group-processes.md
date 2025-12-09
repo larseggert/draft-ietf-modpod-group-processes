@@ -91,7 +91,7 @@ participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
 moderator team to develop procedures and to facilitate their consistent
-application.
+application among IETF discussion channels.
 
 This memo obsoletes and updates some prior IETF processes, summarized here.
 Background information is described in more detail in {{motivation}}.
@@ -106,7 +106,7 @@ This memo makes the following changes to existing processes:
   {{Section 4 of !RFC9245}}, as the moderator team replaces the
   IETF discussion list moderation team.
 - Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
-  now work together with working group chairs to moderate disruptive
+  work together with working group chairs to moderate disruptive
   behavior.
 
 The processes described in this memo are solely applicable to IETF
@@ -120,13 +120,13 @@ in {{prod}} have been approved by the IESG.
 
 ## Terminology Note
 
-Below we use the term "administrator" to refer to the people who
+Below the term "administrator" refers to the people who
 are assigned by the IESG to manage a particular public participation
 channel or discussion forum. This memo uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
 chat group, or discussion in a collaborative tool such as GitHub or
 GitLab. For example, working
-group chairs are administrators of all the public fora their WG
+group chairs are administrators of all the public fora that their WG
 uses, which typically includes mailing lists and chat groups, but might
 also include collaborative tools such as GitHub or GitLab. Another example
 of administrators are the "owners" of non-WG IETF mailing lists.
@@ -172,9 +172,9 @@ regardless of their role in the IETF or past technical contributions.
 
 # IETF Moderator Team
 
-This memo proposes a consistent approach to moderating the
-IETF's various public fora. A moderator team for the IETF
-will develop guidelines for moderation and will facilitate
+This memo defines a consistent approach to moderating the
+IETF's various public fora. A moderator team for the IETF will
+develop and maintain guidelines for moderation and will facilitate
 their consistent implementation and application as detailed below.
 These changes are intended to address the issues identified
 in the previous model {{motive}} and the principles described in the
@@ -378,7 +378,7 @@ their discretion
 reinstate someone, conditionally or unconditionally.
 
 To avoid
-denial-of-service attacks on our processes, decisions to not reinstate
+denial-of-service attacks on IETF processes, decisions to not reinstate
 someone's participation privileges may not be appealed.
 Any reinstatement is a grace and not a right.
 
@@ -429,7 +429,7 @@ As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
 to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
-board, as documented in section 4.7 of {{!RFC8711}}
+board, as documented in {{!Section 4.7 of RFC8711}}
 
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
