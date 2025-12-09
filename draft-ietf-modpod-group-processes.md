@@ -178,7 +178,7 @@ will develop and maintain guidelines for moderation and will facilitate
 their consistent implementation and application as detailed below.
 
 These changes are intended to address the issues identified
-in the previous model ({{motive}}) and the principles described in
+in the previous model (see {{motive}}) and the principles described in
 {{introduction}}.
 
 ## Composition
