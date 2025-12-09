@@ -173,8 +173,8 @@ regardless of their role in the IETF or past technical contributions.
 # IETF Moderator Team
 
 This memo defines a consistent approach to moderating the
-IETF's various public fora. A moderator team for the IETF will
-develop and maintain guidelines for moderation and will facilitate
+IETF's various public fora. A moderator team for the IETF
+will develop and maintain guidelines for moderation and will facilitate
 their consistent implementation and application as detailed below.
 
 These changes are intended to address the issues identified
