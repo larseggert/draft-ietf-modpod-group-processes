@@ -84,7 +84,7 @@ set of guidelines and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
 
-# Introduction {#intro}
+# Introduction
 
 This memo establishes a policy for the moderation of disruptive
 participation
@@ -178,7 +178,8 @@ develop and maintain guidelines for moderation and will facilitate
 their consistent implementation and application as detailed below.
 
 These changes are intended to address the issues identified
-in the previous model ({{motive}}) and the principles described in {{intro}}.
+in the previous model ({{motive}}) and the principles described in
+{{introduction}}.
 
 ## Composition
 
