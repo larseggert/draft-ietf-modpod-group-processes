@@ -91,7 +91,7 @@ participation
 across the IETF's various public contribution channels and discussion fora.
 It creates a
 moderator team to develop procedures and to facilitate their consistent
-application among IETF discussion channels.
+application to IETF discussion channels.
 
 This memo obsoletes and updates some prior IETF processes, summarized here.
 Background information is described in more detail in {{motivation}}.
