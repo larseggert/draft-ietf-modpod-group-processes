@@ -431,7 +431,7 @@ As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
 to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
-board, as documented in {{!Section 4.7 of RFC8711}}
+board, as documented in {{Section 4.7 of RFC8711}}
 
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
