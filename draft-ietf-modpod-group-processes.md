@@ -105,7 +105,7 @@ This memo makes the following changes to existing processes:
 - Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
   {{Section 4 of !RFC9245}}, as the moderator team replaces the
   IETF discussion list moderation team.
-- Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
+- Updates {}tion 6.1 of !RFC2418}}, because the moderator team will
   work together with working group chairs to moderate disruptive
   behavior.
 
@@ -431,7 +431,7 @@ As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
 to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
-board, as documented in {{!Section 4.7 of !RFC8711}}
+board, as documented in {{!Section 4.7 of RFC8711}}
 
 Any such action taken by the IETF LLC under this section of this
 policy, is not subject to the rest of this policy.
