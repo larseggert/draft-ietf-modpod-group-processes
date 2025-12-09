@@ -120,7 +120,7 @@ in {{prod}} have been approved by the IESG.
 
 ## Terminology Note
 
-Below the term "administrator" refers to the people who
+Below, the term "administrator" refers to the people who
 are assigned by the IESG to manage a particular public participation
 channel or discussion forum. This memo uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
