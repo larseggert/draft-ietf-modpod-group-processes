@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-07T00:28:58.510805+00:00",
+  "timestamp": "2025-12-11T00:27:03.894294+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -20058,6 +20058,213 @@
           "createdAt": "2025-12-04T08:09:34Z",
           "updatedAt": "2025-12-04T08:09:34Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 273,
+      "id": "PR_kwDOJrr8CM633Rao",
+      "title": "nits tagged in Med's IESG Review",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/273",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "",
+      "createdAt": "2025-12-09T08:50:29Z",
+      "updatedAt": "2025-12-09T15:16:07Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "67d88eeb2ba2d6aa020ee8762c62ab4176259105",
+      "headRepository": "boucadair/draft-ietf-modpod-group-processes",
+      "headRefName": "patch-1",
+      "headRefOid": "c89874cb359a5fa885a2643f68c18e87721ed2a5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This PR needs cherrypicking.",
+          "createdAt": "2025-12-09T10:17:49Z",
+          "updatedAt": "2025-12-09T10:17:49Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Yeah, there is too much here. This text saw a lot of scrutiny already to get through the WG process, and I don't want to just make gratuitous changes at this time. (I also didn't see anything the RFC Editor wouldn't fix in some way, and I'd rather let them do the job.)",
+          "createdAt": "2025-12-09T11:23:27Z",
+          "updatedAt": "2025-12-09T11:23:27Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@larseggert please check reference to RFC 8711 is normative.",
+          "createdAt": "2025-12-09T11:38:45Z",
+          "updatedAt": "2025-12-09T11:38:45Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Ok, what I've done is to capture a few key points that make a substantial difference.  The following classes of change were NOT included:\r\n\r\n- removal of semi-colons, and\r\n- working group -> WG\r\n\r\n",
+          "createdAt": "2025-12-09T11:40:58Z",
+          "updatedAt": "2025-12-09T11:40:58Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7UBXdO",
+          "commit": {
+            "abbreviatedOid": "214c138"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-12-09T12:21:19Z",
+          "updatedAt": "2025-12-09T12:25:18Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\napplication to IETF discussion channels.\n```",
+              "createdAt": "2025-12-09T12:21:19Z",
+              "updatedAt": "2025-12-09T12:25:18Z"
+            },
+            {
+              "originalPosition": 24,
+              "body": "```suggestion\n- Updates {{Section 6.1 of !RFC2418}}, because the moderator team will\n```",
+              "createdAt": "2025-12-09T12:21:54Z",
+              "updatedAt": "2025-12-09T12:25:18Z"
+            },
+            {
+              "originalPosition": 34,
+              "body": "```suggestion\nBelow, the term \"administrator\" refers to the people who\n```",
+              "createdAt": "2025-12-09T12:22:22Z",
+              "updatedAt": "2025-12-09T12:25:18Z"
+            },
+            {
+              "originalPosition": 78,
+              "body": "```suggestion\nIETF's various public fora. A moderator team for the IETF\nwill develop and maintain guidelines for moderation and will facilitate\n```",
+              "createdAt": "2025-12-09T12:23:39Z",
+              "updatedAt": "2025-12-09T12:25:18Z"
+            },
+            {
+              "originalPosition": 84,
+              "body": "```suggestion\nin the previous model (see {{motive}}) and the principles described in\n```",
+              "createdAt": "2025-12-09T12:24:15Z",
+              "updatedAt": "2025-12-09T12:25:18Z"
+            },
+            {
+              "originalPosition": 154,
+              "body": "```suggestion\nboard, as documented in {{Section 4.7 of !RFC8711}}\n```",
+              "createdAt": "2025-12-09T12:25:00Z",
+              "updatedAt": "2025-12-09T12:25:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7UDax8",
+          "commit": {
+            "abbreviatedOid": "c89874c"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-12-09T14:11:11Z",
+          "updatedAt": "2025-12-09T14:11:11Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7UEnfB",
+          "commit": {
+            "abbreviatedOid": "c89874c"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-12-09T15:11:54Z",
+          "updatedAt": "2025-12-09T15:16:07Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "One should only capitalize proper names or contractual language that is defined.  There is also no need for WG as the term is not pervasive in the document.\r\n\r\nAs discussed upthread, we should not be changing semi-colons to periods.",
+              "createdAt": "2025-12-09T15:11:54Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 59,
+              "body": "Prefer the original.  \"Allowing\" sounds like a grant.  This is a fundamental.",
+              "createdAt": "2025-12-09T15:13:03Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 64,
+              "body": "Again, leave semi-colons alone.",
+              "createdAt": "2025-12-09T15:13:35Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 88,
+              "body": "This NL is gratuitous.",
+              "createdAt": "2025-12-09T15:14:18Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 95,
+              "body": "The reference is not necessary.",
+              "createdAt": "2025-12-09T15:14:30Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 104,
+              "body": "Given the above, the anchor is not necessary.",
+              "createdAt": "2025-12-09T15:14:46Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 113,
+              "body": "Really we can leave working group as working group.",
+              "createdAt": "2025-12-09T15:14:57Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 122,
+              "body": "see above.",
+              "createdAt": "2025-12-09T15:15:03Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 137,
+              "body": "this capitalization is inconsistent.",
+              "createdAt": "2025-12-09T15:15:19Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 161,
+              "body": "Same issue as above.",
+              "createdAt": "2025-12-09T15:15:36Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 170,
+              "body": "Same as above.",
+              "createdAt": "2025-12-09T15:15:42Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            },
+            {
+              "originalPosition": 174,
+              "body": "Same as above.",
+              "createdAt": "2025-12-09T15:15:50Z",
+              "updatedAt": "2025-12-09T15:16:07Z"
+            }
+          ]
         }
       ]
     }
