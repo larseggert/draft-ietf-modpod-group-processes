@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-18T00:23:48.751027+00:00",
+  "timestamp": "2025-12-25T00:26:51.636747+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -20357,6 +20357,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 276,
+      "id": "PR_kwDOJrr8CM66Sgvk",
+      "title": "This commit addresses DISCUSSes and COMMENTs",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/276",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "It includes inter alia the following:\r\n- clarify scope (online fora)\r\n- clarify that moderators must inform administrators when they act\r\n- remove \"we\" and \"our\" where possible\r\n- fix a handful of grammar problems\r\n- s/guidance/procedures (this was mostly already done but there were a few stragglers)\r\n- attempts to change normative -> informative (may need more work)\r\n\r\nIt does NOT include one change requested by Paul:\r\n- Make clear that the procedures are normative.  This is because there is already text there that\r\n  does that.\r\n\r\nCloses #273 \r\n",
+      "createdAt": "2025-12-23T08:54:14Z",
+      "updatedAt": "2025-12-23T08:54:14Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "d2d3e7fc7860713fc7d2598e8c6e32a5bb0b0294",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "post-telechat",
+      "headRefOid": "cc507885ab881b7449e418445b0b28366f31aaf1",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
