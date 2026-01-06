@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-25T00:26:51.636747+00:00",
+  "timestamp": "2026-01-06T00:27:42.726528+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -20370,7 +20370,7 @@
       "labels": [],
       "body": "It includes inter alia the following:\r\n- clarify scope (online fora)\r\n- clarify that moderators must inform administrators when they act\r\n- remove \"we\" and \"our\" where possible\r\n- fix a handful of grammar problems\r\n- s/guidance/procedures (this was mostly already done but there were a few stragglers)\r\n- attempts to change normative -> informative (may need more work)\r\n\r\nIt does NOT include one change requested by Paul:\r\n- Make clear that the procedures are normative.  This is because there is already text there that\r\n  does that.\r\n\r\nCloses #273 \r\n",
       "createdAt": "2025-12-23T08:54:14Z",
-      "updatedAt": "2025-12-23T08:54:14Z",
+      "updatedAt": "2026-01-05T18:26:39Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d2d3e7fc7860713fc7d2598e8c6e32a5bb0b0294",
@@ -20382,7 +20382,21 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7YPo7X",
+          "commit": {
+            "abbreviatedOid": "cc50788"
+          },
+          "author": "lisad",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-01-05T18:26:39Z",
+          "updatedAt": "2026-01-05T18:26:39Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
