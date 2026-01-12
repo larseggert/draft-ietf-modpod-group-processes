@@ -628,7 +628,7 @@ lists. An IESG statement {{MODML}} described additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
 
-For IETF mailing lists not associated with a WG, another
+For IETF mailing lists not associated with a working group, another
 IESG statement {{DP}} clarifies that the IESG tasks list administrators
 with moderation. And the IETF list for general discussions
 has, mostly for historic reasons, a team of moderators that are not
