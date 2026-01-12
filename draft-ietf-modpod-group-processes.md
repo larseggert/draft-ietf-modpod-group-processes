@@ -80,7 +80,7 @@ participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
 for moderation and a moderator team.  That team will develop a
-set of guidelines and facilitate their consistent implementation with
+set of moderation procedures and facilitate their consistent implementation with
 chairs and administrators.
 --- middle
 
@@ -88,7 +88,7 @@ chairs and administrators.
 
 This memo establishes a policy for the moderation of disruptive
 participation
-across the IETF's various public contribution channels and discussion fora.
+across the IETF's various public online contribution channels and discussion fora.
 It creates a
 moderator team to develop procedures and to facilitate their consistent
 application.
@@ -98,15 +98,15 @@ Background information is described in more detail in {{motivation}}.
 
 This memo makes the following changes to existing processes:
 
-- Obsoletes {{!RFC3683}} as the "posting rights" (PR) action it defines
+- Obsoletes {{?RFC3683}} as the "posting rights" (PR) action it defines
   are replaced by processes defined herein;
-- Obsoletes {{!RFC3934}} as it replaces working group moderation
+- Obsoletes {{?RFC3934}} as it replaces working group moderation
   procedures;
-- Obsoletes {{Section 3 of !RFC9245}} and the second paragraph of
-  {{Section 4 of !RFC9245}}, as the moderator team replaces the
+- Obsoletes {{Section 3 of ?RFC9245}} and the second paragraph of
+  {{Section 4 of ?RFC9245}}, as the moderator team replaces the
   IETF discussion list moderation team.
 - Updates {{Section 6.1 of !RFC2418}}, because the moderator team will
-  now work together with working group chairs to moderate disruptive
+  work together with working group chairs to moderate disruptive
   behavior.
 
 The processes described in this memo are solely applicable to IETF
@@ -120,14 +120,14 @@ in {{prod}} have been approved by the IESG.
 
 ## Terminology Note
 
-Below we use the term "administrator" to refer to the people who
+Below, the term "administrator" refers to the people who
 are assigned by the IESG to manage a particular public participation
 channel or discussion forum. This memo uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
 chat group, or discussion in a collaborative tool such as GitHub or
 GitLab. For example, working
-group chairs are administrators of all the public fora their WG
-uses, which typically includes mailing lists and chat groups, but might
+group chairs are administrators of all the public fora that their working groups
+use, which typically includes mailing lists and chat groups, but might
 also include collaborative tools such as GitHub or GitLab. Another example
 of administrators are the "owners" of non-WG IETF mailing lists.
 
@@ -152,7 +152,7 @@ decorum of the community.
 The moderation policy goals are as follows:
 
 - Apply consistent, fair, and timely moderation of communication across all public
-  IETF participation channels and participation fora
+  online IETF participation channels and participation fora
   without regard to a participant's role in the IETF or previous technical
   contributions;
 - Appeals are available to address disagreements about moderation actions;
@@ -172,9 +172,9 @@ regardless of their role in the IETF or past technical contributions.
 
 # IETF Moderator Team
 
-This memo proposes a consistent approach to moderating the
-IETF's various public fora. A moderator team for the IETF
-will develop guidelines for moderation and will facilitate
+This memo defines a consistent approach to moderating the
+IETF's various public online fora. A moderator team for the IETF
+will develop and maintain guidelines for moderation and will facilitate
 their consistent implementation and application as detailed below.
 These changes are intended to address the issues identified
 in the previous model {{motive}} and the principles described in the
@@ -220,7 +220,7 @@ LLC {{?RFC8711}}.
 
 # Scope and Responsibilities
 
-This policy applies to all public IETF fora, both present and
+This policy applies to all public online IETF fora, both present and
 future, including, but not limited to, mailing lists, chat groups,
 and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, wikis, or issue trackers.
@@ -233,7 +233,7 @@ directed at them or someone else to an administrator of the respective
 forum **and** the moderators.
 
 - **Administrators** are primarily responsible for managing their fora in
-accordance with guidance developed by the moderators and approved by
+accordance with procedures developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 Administrators may amend or rescind actions, including those taken by
@@ -263,8 +263,9 @@ someone disrupts multiple fora at the same time.  Moderators should
 generally give WG chairs the opportunity to
 manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
-moderators' judgement to determine when they must act, with the
+moderators' judgment to determine when they must act, with the
 understanding that some situations may require fast responses.
+Moderators must notify administrators of any actions they take.
 {{appeals}} discusses the handling of disagreements.
 
   Moderators are administrators for IETF
@@ -288,10 +289,11 @@ consult with the IESG when needed.
 ## Actions That Are Out of Scope
 
 Moderator actions are only permitted for the purposes of limiting
-disruptive communications in IETF fora.  All other actions are beyond
+disruptive communications in online IETF fora.  All other actions are beyond
 the scope of this memo. Examples of actions that are out of scope include,
-but are not limited to, Datatracker account removal, restriction of in-person
-meeting registration, content removal or redaction, and moderation or
+but are not limited to, Datatracker account removal; restriction of in-person,
+virtual, or hybrid
+meeting participation; content removal or redaction; and moderation or
 policing of private or non-IETF communications.
 While the moderator team does not moderate non-public IETF mailing
 lists, the administrators of such lists can choose to adopt some of the
@@ -332,7 +334,7 @@ Examples of actions that could be taken include:
 - Temporary or indefinite suspension of participation privileges
   in one or more fora.
 
-We stress that these are only examples, and not in any way
+These are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.
 
@@ -369,7 +371,7 @@ privileges have been indefinitely suspended from a forum may request
 reinstatement.
 Requests for reinstatement
 may be made no earlier than a year after the initial decision, and then
-only annually afterwards.
+only annually afterward.
 
 Any such request must be
 directed to the entity who made the decision (e.g., moderator team,
@@ -378,7 +380,7 @@ their discretion
 reinstate someone, conditionally or unconditionally.
 
 To avoid
-denial-of-service attacks on our processes, decisions to not reinstate
+denial-of-service attacks on IETF processes, decisions to not reinstate
 someone's participation privileges may not be appealed.
 Any reinstatement is a grace and not a right.
 
@@ -429,10 +431,10 @@ As such an action would be taken by the IETF LLC in order to protect
 the IETF according to its fiduciary duty, then it cannot allow that
 to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
-board, as documented in section 4.7 of {{!RFC8711}}
+board, as documented in {{Section 4.7 of !RFC8711}}.
 
 Any such action taken by the IETF LLC under this section of this
-policy, is not subject to the rest of this policy.
+policy is not subject to the rest of this policy.
 
 # Security Considerations
 
@@ -615,15 +617,15 @@ This appendix discusses the background that led to them.
 ## Background
 
 The IETF community has defined general guidelines for
-personal interactions in the IETF {{?RFC7154}}, and the IESG has
+personal interactions in the IETF {{!RFC7154}}, and the IESG has
 defined an anti-harassment policy for the IETF {{AHP}} for which the IETF
 community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC2418}} tasks the chairs of each IETF working
+of the ombudsteam. {{!RFC2418}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings while
-{{!RFC3934}} provided chairs a procedure to help manage mailing
+{{?RFC3934}} provided chairs a procedure to help manage mailing
 lists. An IESG statement {{MODML}} described additional guidance
 to working group chairs about how — but not when — to moderate their
 lists.
@@ -726,6 +728,6 @@ These items are examples. Moderators and administrators may take moderation
 actions for many other cases.
 
 The moderator team's task consists of
-subjective judgement calls. Behaviors not listed here might require
+subjective judgment calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.
