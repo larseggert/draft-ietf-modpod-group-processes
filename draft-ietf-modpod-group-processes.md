@@ -157,7 +157,7 @@ The moderation policy goals are as follows:
   contributions;
 - Appeals are available to address disagreements about moderation actions;
 - Balance transparency against both privacy of individuals involved and further
-  disruption to the community.
+  disruption to the community;
 - Allow moderation decisions to be reconsidered; and
 - Provide the broadest possible latitude to all people doing moderation, so
   that they have the flexibility to address a broad range of individuals
