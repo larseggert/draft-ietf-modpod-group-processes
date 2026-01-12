@@ -260,7 +260,7 @@ to attempt to contact and advise the relevant administrators.
 They should only take
 moderation actions when administrators are not responsive, or when
 someone disrupts multiple fora at the same time.  Moderators should
-generally give working group chairs the opportunity to
+generally give WG chairs the opportunity to
 manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
 moderators' judgement to determine when they must act, with the
