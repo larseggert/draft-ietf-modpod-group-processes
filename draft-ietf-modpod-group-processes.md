@@ -387,7 +387,7 @@ shall be reconsidered only in
 accordance with the processes in place at the time of the suspension,
 even if the corresponding RFC has been formally obsoleted.
 
-# Relationship to other IETF Functions
+# Relationship to other IETF functions
 
 ## Relation to the Ombudsteam
 
