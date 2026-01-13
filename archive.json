@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-06T00:27:42.726528+00:00",
+  "timestamp": "2026-01-13T00:24:09.965094+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -20066,7 +20066,7 @@
       "id": "PR_kwDOJrr8CM633Rao",
       "title": "nits tagged in Med's IESG Review",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/273",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "boucadair",
       "authorAssociation": "NONE",
       "assignees": [],
@@ -20075,14 +20075,14 @@
       ],
       "body": "",
       "createdAt": "2025-12-09T08:50:29Z",
-      "updatedAt": "2025-12-09T15:16:07Z",
+      "updatedAt": "2026-01-12T18:59:56Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
-      "baseRefOid": "67d88eeb2ba2d6aa020ee8762c62ab4176259105",
+      "baseRefOid": "d2d3e7fc7860713fc7d2598e8c6e32a5bb0b0294",
       "headRepository": "boucadair/draft-ietf-modpod-group-processes",
       "headRefName": "patch-1",
-      "headRefOid": "c89874cb359a5fa885a2643f68c18e87721ed2a5",
-      "closedAt": null,
+      "headRefOid": "10e3d7760b7d38b2693747c775c4a142c2662d28",
+      "closedAt": "2026-01-12T18:59:56Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -20114,6 +20114,27 @@
           "body": "Ok, what I've done is to capture a few key points that make a substantial difference.  The following classes of change were NOT included:\r\n\r\n- removal of semi-colons, and\r\n- working group -> WG\r\n\r\n",
           "createdAt": "2025-12-09T11:40:58Z",
           "updatedAt": "2025-12-09T11:40:58Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear is this PR OBE? Otherwise, @boucadair, are you planning to address the comments?",
+          "createdAt": "2026-01-12T08:54:35Z",
+          "updatedAt": "2026-01-12T08:54:35Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "body": "> @boucadair, are you planning to address the comments?\r\n\r\nDone.",
+          "createdAt": "2026-01-12T09:30:51Z",
+          "updatedAt": "2026-01-12T09:30:51Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes, the changes we want to retain are now in the other PR, so this one is OBE.",
+          "createdAt": "2026-01-12T18:41:47Z",
+          "updatedAt": "2026-01-12T18:41:47Z"
         }
       ],
       "reviews": [
@@ -20265,6 +20286,86 @@
               "updatedAt": "2025-12-09T15:16:07Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ZjDXN",
+          "commit": {
+            "abbreviatedOid": "347c629"
+          },
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-12T09:27:41Z",
+          "updatedAt": "2026-01-12T09:27:42Z",
+          "comments": [
+            {
+              "originalPosition": 38,
+              "body": "```suggestion\r\n  disruption to the community;\r\n```",
+              "createdAt": "2026-01-12T09:27:41Z",
+              "updatedAt": "2026-01-12T09:27:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ZjEsg",
+          "commit": {
+            "abbreviatedOid": "7cfe858"
+          },
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-12T09:28:58Z",
+          "updatedAt": "2026-01-12T09:28:58Z",
+          "comments": [
+            {
+              "originalPosition": 63,
+              "body": "```suggestion\r\ngenerally give WG chairs the opportunity to\r\n```",
+              "createdAt": "2026-01-12T09:28:58Z",
+              "updatedAt": "2026-01-12T09:28:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ZjFHa",
+          "commit": {
+            "abbreviatedOid": "2e97ac8"
+          },
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-12T09:29:26Z",
+          "updatedAt": "2026-01-12T09:29:26Z",
+          "comments": [
+            {
+              "originalPosition": 72,
+              "body": "```suggestion\r\n# Relationship to other IETF functions\r\n```",
+              "createdAt": "2026-01-12T09:29:26Z",
+              "updatedAt": "2026-01-12T09:29:26Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ZjFyJ",
+          "commit": {
+            "abbreviatedOid": "2ba71d1"
+          },
+          "author": "boucadair",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-12T09:30:03Z",
+          "updatedAt": "2026-01-12T09:30:04Z",
+          "comments": [
+            {
+              "originalPosition": 90,
+              "body": "```suggestion\r\nFor IETF mailing lists not associated with a working group, another\r\n```",
+              "createdAt": "2026-01-12T09:30:03Z",
+              "updatedAt": "2026-01-12T09:30:04Z"
+            }
+          ]
         }
       ]
     },
@@ -20363,25 +20464,42 @@
       "id": "PR_kwDOJrr8CM66Sgvk",
       "title": "This commit addresses DISCUSSes and COMMENTs",
       "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/276",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "It includes inter alia the following:\r\n- clarify scope (online fora)\r\n- clarify that moderators must inform administrators when they act\r\n- remove \"we\" and \"our\" where possible\r\n- fix a handful of grammar problems\r\n- s/guidance/procedures (this was mostly already done but there were a few stragglers)\r\n- attempts to change normative -> informative (may need more work)\r\n\r\nIt does NOT include one change requested by Paul:\r\n- Make clear that the procedures are normative.  This is because there is already text there that\r\n  does that.\r\n\r\nCloses #273 \r\n",
       "createdAt": "2025-12-23T08:54:14Z",
-      "updatedAt": "2026-01-05T18:26:39Z",
+      "updatedAt": "2026-01-12T18:59:56Z",
       "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
       "baseRefName": "main",
       "baseRefOid": "d2d3e7fc7860713fc7d2598e8c6e32a5bb0b0294",
       "headRepository": "larseggert/draft-ietf-modpod-group-processes",
       "headRefName": "post-telechat",
       "headRefOid": "cc507885ab881b7449e418445b0b28366f31aaf1",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "closedAt": "2026-01-12T18:59:55Z",
+      "mergedAt": "2026-01-12T18:59:55Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "a1301e5558f56527b415937fcf0f99e33e50374a"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@elear does this need a changelog entry?",
+          "createdAt": "2026-01-12T08:53:33Z",
+          "updatedAt": "2026-01-12T08:53:33Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think it's all editorial.",
+          "createdAt": "2026-01-12T18:40:31Z",
+          "updatedAt": "2026-01-12T18:40:31Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM7YPo7X",
@@ -20394,6 +20512,19 @@
           "body": "",
           "createdAt": "2026-01-05T18:26:39Z",
           "updatedAt": "2026-01-05T18:26:39Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM7ZieB7",
+          "commit": {
+            "abbreviatedOid": "cc50788"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-01-12T08:53:13Z",
+          "updatedAt": "2026-01-12T08:53:13Z",
           "comments": []
         }
       ]
