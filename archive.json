@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-15T00:25:26.933064+00:00",
+  "timestamp": "2026-02-08T00:42:46.948471+00:00",
   "repo": "larseggert/draft-ietf-modpod-group-processes",
   "labels": [
     {
@@ -20526,6 +20526,53 @@
           "createdAt": "2026-01-12T08:53:13Z",
           "updatedAt": "2026-01-12T08:53:13Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 277,
+      "id": "PR_kwDOJrr8CM7B_u8g",
+      "title": "AD follow-up editorials",
+      "url": "https://github.com/larseggert/draft-ietf-modpod-group-processes/pull/277",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Two changes:\r\n- \"our\" removed form \"our cornerstone\"\r\n-  relevant admins need to be told if an action has been taken.\r\n",
+      "createdAt": "2026-02-06T13:20:21Z",
+      "updatedAt": "2026-02-06T13:48:29Z",
+      "baseRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "baseRefName": "main",
+      "baseRefOid": "a1301e5558f56527b415937fcf0f99e33e50374a",
+      "headRepository": "larseggert/draft-ietf-modpod-group-processes",
+      "headRefName": "ad-follow-up",
+      "headRefOid": "78611c3c682cdb634bf62d7f52b5286452ccd847",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM7gTh3I",
+          "commit": {
+            "abbreviatedOid": "78611c3"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-02-06T13:48:13Z",
+          "updatedAt": "2026-02-06T13:48:29Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\nThis policy's cornerstone is that individuals are responsible for\n```\nor\n```suggestion\nThis policy's philosophy is that individuals are responsible for\n```\nHaving both seems like a mouthful.",
+              "createdAt": "2026-02-06T13:48:13Z",
+              "updatedAt": "2026-02-06T13:48:29Z"
+            }
+          ]
         }
       ]
     }
