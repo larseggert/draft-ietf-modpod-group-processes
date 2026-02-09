@@ -133,7 +133,7 @@ of administrators are the "owners" of non-WG IETF mailing lists.
 
 ## General Philosophy {#genphil}
 
-This policy's cornerstone philosophy is that individuals are responsible for
+This policy's cornerstone is that individuals are responsible for
 furthering the goals of the IETF as an organization {{!RFC3935}}
 in a manner consistent with the policy laid out in {{!RFC7154}}.
 
