@@ -133,7 +133,7 @@ of administrators are the "owners" of non-WG IETF mailing lists.
 
 ## General Philosophy {#genphil}
 
-The cornerstone of our philosophy is that individuals are responsible for
+This policy's cornerstone is that individuals are responsible for
 furthering the goals of the IETF as an organization {{!RFC3935}}
 in a manner consistent with the policy laid out in {{!RFC7154}}.
 
@@ -340,7 +340,8 @@ these or other actions.
 
 All moderation actions that restrict participation
 privileges shall be immediately reported to those against
-whom those actions take effect and to the moderator team for
+whom those actions take effect, to relevant administrators,
+and to the moderator team for
 their review. They shall also be periodically reported to
 the IESG.
 
