@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                   12 January 2026
-Expires: 16 July 2026
+Intended status: Best Current Practice                   9 February 2026
+Expires: 13 August 2026
 
 
                        IETF Community Moderation
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 July 2026.
+   This Internet-Draft will expire on 13 August 2026.
 
 Copyright Notice
 
@@ -169,9 +169,9 @@ Table of Contents
 
 1.2.  General Philosophy
 
-   The cornerstone of our philosophy is that individuals are responsible
-   for furthering the goals of the IETF as an organization [RFC3935] in
-   a manner consistent with the policy laid out in [RFC7154].
+   This policy's cornerstone is that individuals are responsible for
+   furthering the goals of the IETF as an organization [RFC3935] in a
+   manner consistent with the policy laid out in [RFC7154].
 
    Disagreement and diverse points of view within any standards
    organization are to be expected, and are even healthy.  The IETF is
@@ -383,8 +383,8 @@ Table of Contents
 
    All moderation actions that restrict participation privileges shall
    be immediately reported to those against whom those actions take
-   effect and to the moderator team for their review.  They shall also
-   be periodically reported to the IESG.
+   effect, to relevant administrators, and to the moderator team for
+   their review.  They shall also be periodically reported to the IESG.
 
    Only moderation actions suspending participation privileges for
    longer than fourteen (14) days must be reported to the forum to which
