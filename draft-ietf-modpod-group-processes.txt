@@ -6,8 +6,8 @@ Network Working Group                                     L. Eggert, Ed.
 Internet-Draft                                                   Mozilla
 Obsoletes: 3683, 3934 (if approved)                         E. Lear, Ed.
 Updates: 2418, 9245 (if approved)                          Cisco Systems
-Intended status: Best Current Practice                   9 February 2026
-Expires: 13 August 2026
+Intended status: Best Current Practice                      3 March 2026
+Expires: 4 September 2026
 
 
                        IETF Community Moderation
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 August 2026.
+   This Internet-Draft will expire on 4 September 2026.
 
 Copyright Notice
 
@@ -667,11 +667,11 @@ Table of Contents
               <https://www.rfc-editor.org/rfc/rfc3552>.
 
    [RFC3683]  Rose, M., "A Practice for Revoking Posting Rights to IETF
-              Mailing Lists", BCP 83, RFC 3683, DOI 10.17487/RFC3683,
-              March 2004, <https://www.rfc-editor.org/rfc/rfc3683>.
+              Mailing Lists", RFC 3683, DOI 10.17487/RFC3683, March
+              2004, <https://www.rfc-editor.org/rfc/rfc3683>.
 
    [RFC3934]  Wasserman, M., "Updates to RFC 2418 Regarding the
-              Management of IETF Mailing Lists", BCP 25, RFC 3934,
+              Management of IETF Mailing Lists", RFC 3934,
               DOI 10.17487/RFC3934, October 2004,
               <https://www.rfc-editor.org/rfc/rfc3934>.
 
