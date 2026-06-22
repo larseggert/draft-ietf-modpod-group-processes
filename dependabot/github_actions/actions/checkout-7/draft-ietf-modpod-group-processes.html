@@ -9,29 +9,31 @@
 <meta content="Eliot Lear" name="author">
 <meta content="
        The IETF community will treat people with kindness and grace, but not endless patience. 
-       This memo establishes a policy for the moderation of disruptive
+       This memo obsoletes RFCs 3683 and 3934, and it updates RFCs 2418 and 9245
+establishing a policy for the moderation of disruptive
 participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
 for moderation and a moderator team.  That team will develop a
-set of guidelines and facilitate their consistent implementation with
+set of moderation procedures and facilitate their consistent implementation with
 chairs and administrators. 
     " name="description">
-<meta content="xml2rfc 3.31.0" name="generator">
+<meta content="xml2rfc 3.34.0" name="generator">
 <meta content="draft-ietf-modpod-group-processes-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.31.0
-    Python 3.12.12
-    ConfigArgParse 1.7
+  xml2rfc 3.34.0
+    Python 3.14.5
+    ConfigArgParse 1.7.5
     google-i18n-address 3.1.1
-    intervaltree 3.1.0
+    intervaltree 3.2.1
     Jinja2 3.1.6
-    lxml 5.3.1
-    platformdirs 4.5.0
+    lxml 6.1.1
+    natsort 8.4.0
+    platformdirs 4.10.0
     pycountry 24.6.1
-    PyYAML 6.0.2
-    requests 2.32.5
-    wcwidth 0.2.14
+    PyYAML 6.0.3
+    requests 2.33.1
+    wcwidth 0.8.1
 -->
 <link href="draft-ietf-modpod-group-processes.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -172,7 +174,7 @@ chairs and administrators.
   font-weight: 400;
   font-display: swap;
   src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('https://martinthomson.github.io/rfc-css/fonts/oxygenmono-regular-latin-ext.woff2') format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: 'Oxygen Mono';
@@ -180,7 +182,8 @@ chairs and administrators.
   font-weight: 400;
   font-display: swap;
   src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('https://martinthomson.github.io/rfc-css/fonts/oxygenmono-regular-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 }
 
 @font-face {
@@ -297,16 +300,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
   color: var(--title-color);
 }
-h1#title {
-  font-size: 32px;
-  line-height: 40px;
-  clear: both;
-}
-h1#title, h1#rfcnum {
-  margin: 1.5em 0 0.2em;
-}
-h1#rfcnum + h1#title {
-  margin: 0.2em 0;
+h1 {
+  &#title {
+    font-size: 32px;
+    line-height: 40px;
+    clear: both;
+    margin: 1.5em 0 0.2em;
+  }
+  &#rfcnum {
+    margin: 1.5em 0 0.2em;
+    & + h1#title {
+      margin: 0.2em 0;
+    }
+  }
 }
 
 h1, h2, h3 {
@@ -326,10 +332,10 @@ h4, h5, h6 {
 #abstract+p {
   font-size: 18px;
   line-height: 24px;
-}
-#abstract+p code, #abstract+p samp, #abstract+p tt {
-  font-size: 16px;
-  line-height: 0;
+  & code, & samp, & tt {
+    font-size: 16px;
+    line-height: 0;
+  }
 }
 
 p {
@@ -340,59 +346,59 @@ p {
 div {
   margin: 0;
 }
-.alignRight.art-text {
-  background-color: var(--highlight-color);
-  border: 1px solid var(--line-color);
-  border-radius: 3px;
-  padding: 0.5em 1em 0;
-  margin-bottom: 0.5em;
-}
-.alignRight.art-text pre {
-  padding: 0;
-  width: auto;
-}
 .alignRight {
   margin: 1em 0;
-}
-.alignRight > *:first-child {
-  border: none;
-  margin: 0;
-  float: right;
-  clear: both;
-}
-.alignRight > *:nth-child(2) {
-  clear: both;
-  display: block;
-  border: none;
+  &.art-text {
+    background-color: var(--highlight-color);
+    border: 1px solid var(--line-color);
+    border-radius: 3px;
+    padding: 0.5em 1em 0;
+    margin-bottom: 0.5em;
+    & pre {
+      padding: 0;
+      width: auto;
+    }
+  }
+  & > *:first-child {
+    border: none;
+    margin: 0;
+    float: right;
+    clear: both;
+  }
+  & > *:nth-child(2) {
+    clear: both;
+    display: block;
+    border: none;
+  }
 }
 svg {
   display: block;
-}
-/* font-family isn't space-separated, but =~ will have to do */
-svg[font-family~="monospace" i], svg [font-family~="monospace" i] {
-  font-family: var(--font-mono);
-}
-.alignCenter.art-text {
-  background-color: var(--highlight-color);
-  border: 1px solid var(--line-color);
-  border-radius: 3px;
-  padding: 0.5em 1em 0;
-  margin-bottom: 0.5em;
-}
-.alignCenter.art-text pre {
-  padding: 0;
-  width: auto;
+  /* font-family isn't space-separated, but =~ will have to do */
+  &[font-family~="monospace" i], & [font-family~="monospace" i] {
+    font-family: var(--font-mono);
+  }
 }
 .alignCenter {
   margin: 1em 0;
-}
-.alignCenter > *:first-child {
-  border: none;
-  /* this isn't optimal, but it's an existence proof.  PrinceXML doesn't
-     support flexbox yet.
-  */
-  display: table;
-  margin: 0 auto;
+  &.art-text {
+    background-color: var(--highlight-color);
+    border: 1px solid var(--line-color);
+    border-radius: 3px;
+    padding: 0.5em 1em 0;
+    margin-bottom: 0.5em;
+    & pre {
+      padding: 0;
+      width: auto;
+    }
+  }
+  & > *:first-child {
+    border: none;
+    /* this isn't optimal, but it's an existence proof.  PrinceXML doesn't
+       support flexbox yet.
+    */
+    display: table;
+    margin: 0 auto;
+  }
 }
 
 /* lists */
@@ -430,26 +436,25 @@ dl {
     --indent: 5ch;
     & > dt {
       min-width: calc(var(--indent) - 2ch);
+      float: none;
     }
-  }
-  &.olPercent > dt {
-    float: none;
   }
 
   dl > dd > & {
     margin-top: 0.5em;
     margin-bottom: 0;
   }
-}
-dl:not(.dlNewline) > dt {
-  float: left;
-  margin-right: 2ch;
-  min-width: 8ch;
-}
-dl > dd {
-  margin-bottom: .8em;
-  margin-left: var(--indent) !important; /* stupid element overrides */
-  min-height: 2ex;
+
+  &:not(.dlNewline) > dt {
+    float: left;
+    margin-right: 2ch;
+    min-width: 8ch;
+  }
+  & > dd {
+    margin-bottom: .8em;
+    margin-left: var(--indent) !important; /* stupid element overrides */
+    min-height: 2ex;
+  }
 }
 :is(dl.compact, .dlCompact) > dd {
   margin-bottom: 0;
@@ -465,20 +470,22 @@ dl > dd {
 }
 
 /* links */
-a, a[href].selfRef:hover {
+a {
   text-decoration: none;
+  &[href] {
+    color: var(--link-color);
+    &:hover { text-decoration: underline; }
+    &.selfRef {
+      color: var(--text-color);
+      &:hover {
+        text-decoration: none;
+        background-color: var(--highlight-color);
+      }
+    }
+  }
 }
-a[href] {
-  color: var(--link-color);
-}
-a[href].selfRef, .iref + a[href].internal {
+.iref + a[href].internal {
   color: var(--text-color);
-}
-a[href]:hover {
-  text-decoration: underline;
-}
-a[href].selfRef:hover {
-  background-color: var(--highlight-color);
 }
 a.xref:is(.cite, .auto), :is(#status-of-memo, #copyright) a {
   white-space: nowrap;
@@ -514,9 +521,9 @@ img {
 figure {
   margin: 0.5em 0;
   padding: 0;
-}
-figure blockquote {
-  margin: 0.8em 0.4em 0.4em;
+  & blockquote {
+    margin: 0.8em 0.4em 0.4em;
+  }
 }
 figcaption, caption {
   font-style: italic;
@@ -526,17 +533,19 @@ figcaption, caption {
 }
 @media screen {
   /* Auto-collapse boilerplate. */
-  :is(#status-of-memo, #copyright) p {
-    margin: -2px 0;
-    max-height: 0;
-    transition: max-height 2s ease, margin 0.5s ease 0.5s;
-    overflow: hidden;
-  }
-  :is(#status-of-memo, #copyright):hover p,
-  :is(#status-of-memo, #copyright) h2:target ~ p {
-    margin: 0.5em 0;
-    max-height: 500px;
-    overflow: auto;
+  :is(#status-of-memo, #copyright) {
+    & p {
+      margin: -2px 0;
+      max-height: 0;
+      transition: max-height 2s ease, margin 0.5s ease 0.5s;
+      overflow: hidden;
+    }
+    &:hover p,
+    & h2:target ~ p {
+      margin: 0.5em 0;
+      max-height: 500px;
+      overflow: auto;
+    }
   }
   pre, svg {
     display: inline-block;
@@ -572,6 +581,7 @@ aside, blockquote {
 }
 blockquote {
   margin: 1em 0;
+  border-left: 2px var(--pilcrow-strong) solid;
 }
 cite {
   display: block;
@@ -585,25 +595,17 @@ table {
   max-width: 100%;
   margin: 0 0 1em;
   border-collapse: collapse;
-}
-table.right {
-  margin-left: auto;
-}
-table.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-table.left {
-  margin-right: auto;
-}
-table .text-left {
-  text-align: left;
-}
-table .text-center {
-  text-align: center;
-}
-table .text-right {
-  text-align: right;
+  &.right { margin-left: auto; }
+  &.center { margin-left: auto; margin-right: auto; }
+  &.left { margin-right: auto; }
+  & .text-left { text-align: left; }
+  & .text-center { text-align: center; }
+  & .text-right { text-align: right; }
+  & caption {
+    margin: 0;
+    padding: 3px 0 3px 1em;
+  }
+  & p { margin: 0; }
 }
 
 thead, tbody {
@@ -623,13 +625,6 @@ th {
 :is(tr:nth-child(2n+1), thead+tbody > tr:nth-child(2n)) > td {
   background-color: var(--highlight-color);
 }
-table caption {
-  margin: 0;
-  padding: 3px 0 3px 1em;
-}
-table p {
-  margin: 0;
-}
 
 /* pilcrow */
 a.pilcrow {
@@ -640,18 +635,16 @@ a.pilcrow {
     color: var(--pilcrow-weak);
     &:hover { text-decoration: none; }
   }
-}
-@media not print {
-  :hover > a.pilcrow {
-    opacity: 1;
+  @media not print {
+    :hover > &, &:focus {
+      opacity: 1;
+    }
+    &[href]:hover {
+      color: var(--pilcrow-strong);
+      background-color: transparent;
+    }
   }
-  a.pilcrow[href]:hover {
-    color: var(--pilcrow-strong);
-    background-color: transparent;
-  }
-}
-@media print {
-  a.pilcrow {
+  @media print {
     display: none;
   }
 }
@@ -710,9 +703,9 @@ sub, sup {
   font-size: 0.9em;
   font-style: italic;
   margin-top: 2em;
-}
-.docInfo .prepared {
-  float: right;
+  & .prepared {
+    float: right;
+  }
 }
 
 /* table of contents */
@@ -802,23 +795,27 @@ hr.addr {
   max-width: calc(100% - 16px);
 }
 @media (min-width: 500px) {
-  #authors-addresses > section {
-    column-count: 2;
-    column-gap: 20px;
-  }
-  #authors-addresses > section > h2 {
-    column-span: all;
-  }
-  /* hack for break-inside: avoid-column */
-  #authors-addresses address {
-    display: inline-block;
-    break-inside: avoid-column;
+  #authors-addresses {
+    & > section {
+      column-count: 2;
+      column-gap: 20px;
+    }
+    & > section > h2 {
+      column-span: all;
+    }
+    /* hack for break-inside: avoid-column */
+    & address {
+      display: inline-block;
+      break-inside: avoid-column;
+    }
   }
 }
 
 /* Comments */
-.rfcEditorRemove p:first-of-type {
-  font-style: italic;
+.rfcEditorRemove {
+  & p:first-of-type {
+    font-style: italic;
+  }
 }
 .cref {
   background-color: rgba(249, 232, 105, 0.3);
@@ -829,19 +826,21 @@ hr.addr {
 }
 
 @media screen {
-  #toc nav {
-    font-family: var(--font-title);
-    font-weight: 360;
-    & > ul { margin-bottom: 2em; }
-    & ul {
-      margin: 0 0 0 4px;
-      & :is(p, li) {
-        margin: 2px 0;
+  #toc {
+    & nav {
+      font-family: var(--font-title);
+      font-weight: 360;
+      & > ul { margin-bottom: 2em; }
+      & ul {
+        margin: 0 0 0 4px;
+        & :is(p, li) {
+          margin: 2px 0;
+        }
       }
     }
-  }
-  #toc a.toplink {
-    float: right;
+    & a.toplink {
+      float: right;
+    }
   }
 }
 @media not screen {
@@ -862,54 +861,54 @@ hr.addr {
     margin: 0;
     border-bottom: 1px solid #ccc;
     opacity: 0.6;
-  }
-  #toc h2 {
-    margin: 0;
-    padding: 2px 0 2px 6px;
-    padding-right: 1em;
-    font-size: 18px;
-    line-height: 24px;
-    min-width: 190px;
-    text-align: right;
-    background-color: #444;
-    color: white;
-    cursor: pointer;
-    &::before { /* css hamburger */
-      float: right;
-      position: relative;
-      width: 1em;
-      height: 1px;
-      left: -164px;
-      margin: 8px 0 0 0;
-      background: white none repeat scroll 0 0;
-      box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
-      content: "";
+    & h2 {
+      margin: 0;
+      padding: 2px 0 2px 6px;
+      padding-right: 1em;
+      font-size: 18px;
+      line-height: 24px;
+      min-width: 190px;
+      text-align: right;
+      background-color: #444;
+      color: white;
+      cursor: pointer;
+      &::before { /* css hamburger */
+        float: right;
+        position: relative;
+        width: 1em;
+        height: 1px;
+        left: -164px;
+        margin: 8px 0 0 0;
+        background: white none repeat scroll 0 0;
+        box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
+        content: "";
+      }
     }
-  }
-  #toc nav {
-    display: none;
-    background-color: var(--background-color);
-    padding: 0.5em 1em 1em;
-    overflow: auto;
-    overscroll-behavior: contain;
-    height: calc(100vh - 48px);
-    border-left: 1px solid #ddd;
-  }
-  #toc.active {
-    opacity: 1;
-    & nav { display: block; }
-  }
-  /* Make the collapsed ToC header render white on gray also when it's a link */
-  #toc h2 a,
-  #toc h2 a:is(:link, :focus, :hover),
-  #toc a.toplink,
-  #toc a.toplink:hover {
-    color: white;
-    background-color: #444;
-    text-decoration: none;
-  }
-  #toc a.toplink {
-    margin: 2px 0.5em 0;
+    & nav {
+      display: none;
+      background-color: var(--background-color);
+      padding: 0.5em 1em 1em;
+      overflow: auto;
+      overscroll-behavior: contain;
+      height: calc(100vh - 48px);
+      border-left: 1px solid #ddd;
+    }
+    &.active {
+      opacity: 1;
+      & nav { display: block; }
+    }
+    /* Make the collapsed ToC header render white on gray also when it's a link */
+    & h2 a,
+    & h2 a:is(:link, :focus, :hover),
+    & a.toplink,
+    & a.toplink:hover {
+      color: white;
+      background-color: #444;
+      text-decoration: none;
+    }
+    & a.toplink {
+      margin: 2px 0.5em 0;
+    }
   }
 }
 
@@ -928,26 +927,26 @@ hr.addr {
     margin: 0;
     padding: 0;
     z-index: 1;
-  }
-  #toc h2 {
-    margin: 0;
-    padding: 0.25em 1em 1em 0;
-  }
-  #toc nav {
-    display: block;
-    height: calc(90vh - 84px);
-    bottom: 0;
-    padding: 0.5em 0 2em;
-    overflow: auto;
-    overscroll-behavior: contain;
-    scrollbar-width: thin;
+    & h2 {
+      margin: 0;
+      padding: 0.25em 1em 1em 0;
+    }
+    & nav {
+      display: block;
+      height: calc(90vh - 84px);
+      bottom: 0;
+      padding: 0.5em 0 2em;
+      overflow: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+    & a.toplink {
+      margin: 8px 0.5em 0;
+    }
   }
   img { /* future proofing */
     max-width: 100%;
     height: auto;
-  }
-  #toc a.toplink {
-    margin: 8px 0.5em 0;
   }
 }
 
@@ -963,12 +962,13 @@ hr.addr {
   #n-copyright-notice {
     border-bottom: none;
   }
-  #toc, #n-introduction {
-    page-break-before: always;
-  }
   #toc {
+    page-break-before: always;
     border-top: none;
     padding-top: 0;
+  }
+  #n-introduction {
+    page-break-before: always;
   }
   figure, pre, .vcard {
     page-break-inside: avoid;
@@ -1030,17 +1030,19 @@ hr.addr {
 }
 
 /* SVG Trick: a prefix match works because only black and white are allowed */
-svg :is([stroke="black"], [stroke^="#000"]) {
-  stroke: var(--text-color);
-}
-svg :is([stroke="white"], [stroke^="#fff"]) {
-  stroke: var(--background-color);
-}
-svg :is([fill="black"], [fill^="#000"], :not([fill])) {
-  fill: var(--text-color);
-}
-svg :is([fill="white"], [fill^="#fff"]) {
-  fill: var(--background-color);
+svg {
+  & :is([stroke="black"], [stroke^="#000"]) {
+    stroke: var(--text-color);
+  }
+  & :is([stroke="white"], [stroke^="#fff"]) {
+    stroke: var(--background-color);
+  }
+  & :is([fill="black"], [fill^="#000"], :not([fill])) {
+    fill: var(--text-color);
+  }
+  & :is([fill="white"], [fill^="#fff"]) {
+    fill: var(--background-color);
+  }
 }
 </style>
 
@@ -1050,11 +1052,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">IETF Community Moderation</td>
-<td class="right">November 2025</td>
+<td class="right">June 2026</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Eggert &amp; Lear</td>
-<td class="center">Expires 28 May 2026</td>
+<td class="center">Expires 24 December 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1073,12 +1075,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a>, <a href="https://www.rfc-editor.org/rfc/rfc9245" class="eref">9245</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2025-11-24" class="published">24 November 2025</time>
+<time datetime="2026-06-22" class="published">22 June 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-05-28">28 May 2026</time></dd>
+<dd class="expires"><time datetime="2026-12-24">24 December 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1098,12 +1100,13 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">The IETF community will treat people with kindness and grace, but not endless patience.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-<p id="section-abstract-2">This memo establishes a policy for the moderation of disruptive
+<p id="section-abstract-2">This memo obsoletes RFCs 3683 and 3934, and it updates RFCs 2418 and 9245
+establishing a policy for the moderation of disruptive
 participation
 across the IETF's various public contribution channels and discussion fora.
 It establishes guardrails
 for moderation and a moderator team.  That team will develop a
-set of guidelines and facilitate their consistent implementation with
+set of moderation procedures and facilitate their consistent implementation with
 chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
@@ -1141,7 +1144,7 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 28 May 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 24 December 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1150,7 +1153,7 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
 <a href="#name-copyright-notice" class="section-name selfRef">Copyright Notice</a>
         </h2>
 <p id="section-boilerplate.2-1">
-            Copyright (c) 2025 IETF Trust and the persons identified as the
+            Copyright (c) 2026 IETF Trust and the persons identified as the
             document authors. All rights reserved.<a href="#section-boilerplate.2-1" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.2-2">
             This document is subject to BCP 78 and the IETF Trust's Legal
@@ -1322,7 +1325,7 @@ chairs and administrators.<a href="#section-abstract-2" class="pilcrow">¶</a></
       </h2>
 <p id="section-1-1">This memo establishes a policy for the moderation of disruptive
 participation
-across the IETF's various public contribution channels and discussion fora.
+across the IETF's various public online contribution channels and discussion fora.
 It creates a
 moderator team to develop procedures and to facilitate their consistent
 application.<a href="#section-1-1" class="pilcrow">¶</a></p>
@@ -1345,7 +1348,7 @@ IETF discussion list moderation team.<a href="#section-1-4.3.1" class="pilcrow">
 </li>
         <li class="normal" id="section-1-4.4">
           <p id="section-1-4.4.1">Updates <span><a href="https://rfc-editor.org/rfc/rfc2418#section-6.1" class="relref">Section 6.1</a> of [<a href="#RFC2418" class="cite xref">RFC2418</a>]</span>, because the moderator team will
-now work together with working group chairs to moderate disruptive
+work together with working group chairs to moderate disruptive
 behavior.<a href="#section-1-4.4.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
@@ -1362,14 +1365,14 @@ in <a href="#prod" class="auto internal xref">Section 4</a> have been approved b
         <h3 id="name-terminology-note">
 <a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-terminology-note" class="section-name selfRef">Terminology Note</a>
         </h3>
-<p id="section-1.1-1">Below we use the term "administrator" to refer to the people who
+<p id="section-1.1-1">Below, the term "administrator" refers to the people who
 are assigned by the IESG to manage a particular public participation
 channel or discussion forum. This memo uses the term "forum"
 to refer to any public IETF participation channel, such as a mailing list,
 chat group, or discussion in a collaborative tool such as GitHub or
 GitLab. For example, working
-group chairs are administrators of all the public fora their WG
-uses, which typically includes mailing lists and chat groups, but might
+group chairs are administrators of all the public fora that their working groups
+use, which typically includes mailing lists and chat groups, but might
 also include collaborative tools such as GitHub or GitLab. Another example
 of administrators are the "owners" of non-WG IETF mailing lists.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
 </section>
@@ -1379,7 +1382,7 @@ of administrators are the "owners" of non-WG IETF mailing lists.<a href="#sectio
         <h3 id="name-general-philosophy">
 <a href="#section-1.2" class="section-number selfRef">1.2. </a><a href="#name-general-philosophy" class="section-name selfRef">General Philosophy</a>
         </h3>
-<p id="section-1.2-1">The cornerstone of our philosophy is that individuals are responsible for
+<p id="section-1.2-1">This policy's cornerstone is that individuals are responsible for
 furthering the goals of the IETF as an organization <span>[<a href="#RFC3935" class="cite xref">RFC3935</a>]</span>
 in a manner consistent with the policy laid out in <span>[<a href="#RFC7154" class="cite xref">RFC7154</a>]</span>.<a href="#section-1.2-1" class="pilcrow">¶</a></p>
 <p id="section-1.2-2">Disagreement and diverse points of view within any standards organization
@@ -1397,7 +1400,7 @@ decorum of the community.<a href="#section-1.2-2" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-1.2-4.1">
             <p id="section-1.2-4.1.1">Apply consistent, fair, and timely moderation of communication across all public
-IETF participation channels and participation fora
+online IETF participation channels and participation fora
 without regard to a participant's role in the IETF or previous technical
 contributions;<a href="#section-1.2-4.1.1" class="pilcrow">¶</a></p>
 </li>
@@ -1431,9 +1434,9 @@ regardless of their role in the IETF or past technical contributions.<a href="#s
       <h2 id="name-ietf-moderator-team">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-ietf-moderator-team" class="section-name selfRef">IETF Moderator Team</a>
       </h2>
-<p id="section-2-1">This memo proposes a consistent approach to moderating the
-IETF's various public fora. A moderator team for the IETF
-will develop guidelines for moderation and will facilitate
+<p id="section-2-1">This memo defines a consistent approach to moderating the
+IETF's various public online fora. A moderator team for the IETF
+will develop and maintain guidelines for moderation and will facilitate
 their consistent implementation and application as detailed below.
 These changes are intended to address the issues identified
 in the previous model <a href="#motive" class="auto internal xref">Appendix B.2</a> and the principles described in the
@@ -1493,7 +1496,7 @@ LLC <span>[<a href="#RFC8711" class="cite xref">RFC8711</a>]</span>.<a href="#se
       <h2 id="name-scope-and-responsibilities">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-scope-and-responsibilities" class="section-name selfRef">Scope and Responsibilities</a>
       </h2>
-<p id="section-3-1">This policy applies to all public IETF fora, both present and
+<p id="section-3-1">This policy applies to all public online IETF fora, both present and
 future, including, but not limited to, mailing lists, chat groups,
 and discussions in other systems that the IETF or WGs have chosen to
 employ, such as GitHub repositories, wikis, or issue trackers.<a href="#section-3-1" class="pilcrow">¶</a></p>
@@ -1507,7 +1510,7 @@ forum <strong>and</strong> the moderators.<a href="#section-3-3.1.1" class="pilc
 </li>
         <li class="normal" id="section-3-3.2">
           <p id="section-3-3.2.1"><strong>Administrators</strong> are primarily responsible for managing their fora in
-accordance with guidance developed by the moderators and approved by
+accordance with procedures developed by the moderators and approved by
 the IESG. As such, they shall address reports of disruptive behavior
 in a timely fashion, apprising moderators of reports or actions taken.
 Administrators may amend or rescind actions, including those taken by
@@ -1526,7 +1529,7 @@ address moderation needs across all IETF fora, both present and
 future.  They are a resource that the community
 can use to address disruptive behavior.
 The moderator team is responsible to the IESG.  The IESG
-may create or designate a forum to facilitate discussion about
+will create or designate a forum to facilitate discussion about
 moderation, and refer interested parties to that forum.<a href="#section-3-3.3.1" class="pilcrow">¶</a></p>
 <p id="section-3-3.3.2">
 Moderators may take actions when administrators do not respond to
@@ -1538,8 +1541,9 @@ someone disrupts multiple fora at the same time.  Moderators should
 generally give WG chairs the opportunity to
 manage what may be difficult and contentious debates within their
 groups.  Within the bounds of this principle, it is left to
-moderators' judgement to determine when they must act, with the
+moderators' judgment to determine when they must act, with the
 understanding that some situations may require fast responses.
+Moderators must notify administrators of any actions they take.
 <a href="#appeals" class="auto internal xref">Section 4.1</a> discusses the handling of disagreements.<a href="#section-3-3.3.2" class="pilcrow">¶</a></p>
 <p id="section-3-3.3.3">
 Moderators are administrators for IETF
@@ -1568,10 +1572,11 @@ consult with the IESG when needed.<a href="#section-3-3.4.1" class="pilcrow">¶<
 <a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-actions-that-are-out-of-sco" class="section-name selfRef">Actions That Are Out of Scope</a>
         </h3>
 <p id="section-3.1-1">Moderator actions are only permitted for the purposes of limiting
-disruptive communications in IETF fora.  All other actions are beyond
+disruptive communications in online IETF fora.  All other actions are beyond
 the scope of this memo. Examples of actions that are out of scope include,
-but are not limited to, Datatracker account removal, restriction of in-person
-meeting registration, content removal or redaction, and moderation or
+but are not limited to, Datatracker account removal; restriction of in-person,
+virtual, or hybrid
+meeting participation; content removal or redaction; and moderation or
 policing of private or non-IETF communications.
 While the moderator team does not moderate non-public IETF mailing
 lists, the administrators of such lists can choose to adopt some of the
@@ -1623,16 +1628,17 @@ Further disruptions may lead to further corrective actions.<a href="#section-4-3
           <p id="section-4-5.3.1">A private or public admonishment;<a href="#section-4-5.3.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-5.4">
-          <p id="section-4-5.4.1">Temporary or permanent suspension of participation privileges
+          <p id="section-4-5.4.1">Temporary or indefinite suspension of participation privileges
 in one or more fora.<a href="#section-4-5.4.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-4-6">We stress that these are only examples, and not in any way
+<p id="section-4-6">These are only examples, and not in any way
 prescriptive. Administrators and moderators are free to decide on
 these or other actions.<a href="#section-4-6" class="pilcrow">¶</a></p>
 <p id="section-4-7">All moderation actions that restrict participation
 privileges shall be immediately reported to those against
-whom those actions take effect and to the moderator team for
+whom those actions take effect, to relevant administrators,
+and to the moderator team for
 their review. They shall also be periodically reported to
 the IESG.<a href="#section-4-7" class="pilcrow">¶</a></p>
 <p id="section-4-8">Only moderation actions suspending participation privileges for longer than
@@ -1666,15 +1672,15 @@ stated in Sections <a href="https://rfc-editor.org/rfc/rfc2026#section-6.5.1" cl
 privileges have been indefinitely suspended from a forum may request
 reinstatement.
 Requests for reinstatement
-may be made only a year after the initial decision, and then
-only annually afterwards.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
+may be made no earlier than a year after the initial decision, and then
+only annually afterward.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
 <p id="section-4.2-2">Any such request must be
 directed to the entity who made the decision (e.g., moderator team,
 working group chairs, etc.) or their successors.  That party may at
 their discretion
 reinstate someone, conditionally or unconditionally.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
 <p id="section-4.2-3">To avoid
-denial-of-service attacks on our processes, decisions to not reinstate
+denial-of-service attacks on IETF processes, decisions to not reinstate
 someone's participation privileges may not be appealed.
 Any reinstatement is a grace and not a right.<a href="#section-4.2-3" class="pilcrow">¶</a></p>
 <p id="section-4.2-4">A suspension of participation privileges imposed prior to this process
@@ -1741,9 +1747,9 @@ where it receives legal advice to the contrary.<a href="#section-5.2-4" class="p
 the IETF according to its fiduciary duty, then it cannot allow that
 to be overridden by a decision of the moderator team or the IESG.
 The subject of any such action may request a review by the IETF LLC
-board, as documented in section 4.7 of <span>[<a href="#RFC8711" class="cite xref">RFC8711</a>]</span><a href="#section-5.2-5" class="pilcrow">¶</a></p>
+board, as documented in <span><a href="https://rfc-editor.org/rfc/rfc8711#section-4.7" class="relref">Section 4.7</a> of [<a href="#RFC8711" class="cite xref">RFC8711</a>]</span>.<a href="#section-5.2-5" class="pilcrow">¶</a></p>
 <p id="section-5.2-6">Any such action taken by the IETF LLC under this section of this
-policy, is not subject to the rest of this policy.<a href="#section-5.2-6" class="pilcrow">¶</a></p>
+policy is not subject to the rest of this policy.<a href="#section-5.2-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1931,14 +1937,6 @@ individuals named above.<a href="#section-8-4" class="pilcrow">¶</a></p>
         <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"IETF Working Group Guidelines and Procedures"</span>, <span class="seriesInfo">BCP 25</span>, <span class="seriesInfo">RFC 2418</span>, <span class="seriesInfo">DOI 10.17487/RFC2418</span>, <time datetime="1998-09" class="refDate">September 1998</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2418">https://www.rfc-editor.org/rfc/rfc2418</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="RFC3683">[RFC3683]</dt>
-        <dd>
-<span class="refAuthor">Rose, M.</span>, <span class="refTitle">"A Practice for Revoking Posting Rights to IETF Mailing Lists"</span>, <span class="seriesInfo">BCP 83</span>, <span class="seriesInfo">RFC 3683</span>, <span class="seriesInfo">DOI 10.17487/RFC3683</span>, <time datetime="2004-03" class="refDate">March 2004</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3683">https://www.rfc-editor.org/rfc/rfc3683</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFC3934">[RFC3934]</dt>
-        <dd>
-<span class="refAuthor">Wasserman, M.</span>, <span class="refTitle">"Updates to RFC 2418 Regarding the Management of IETF Mailing Lists"</span>, <span class="seriesInfo">BCP 25</span>, <span class="seriesInfo">RFC 3934</span>, <span class="seriesInfo">DOI 10.17487/RFC3934</span>, <time datetime="2004-10" class="refDate">October 2004</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3934">https://www.rfc-editor.org/rfc/rfc3934</a>&gt;</span>. </dd>
-<dd class="break"></dd>
 <dt id="RFC3935">[RFC3935]</dt>
         <dd>
 <span class="refAuthor">Alvestrand, H.</span>, <span class="refTitle">"A Mission Statement for the IETF"</span>, <span class="seriesInfo">BCP 95</span>, <span class="seriesInfo">RFC 3935</span>, <span class="seriesInfo">DOI 10.17487/RFC3935</span>, <time datetime="2004-10" class="refDate">October 2004</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3935">https://www.rfc-editor.org/rfc/rfc3935</a>&gt;</span>. </dd>
@@ -1952,12 +1950,8 @@ individuals named above.<a href="#section-8-4" class="pilcrow">¶</a></p>
 <span class="refAuthor">Resnick, P.</span> and <span class="refAuthor">A. Farrel</span>, <span class="refTitle">"IETF Anti-Harassment Procedures"</span>, <span class="seriesInfo">BCP 25</span>, <span class="seriesInfo">RFC 7776</span>, <span class="seriesInfo">DOI 10.17487/RFC7776</span>, <time datetime="2016-03" class="refDate">March 2016</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7776">https://www.rfc-editor.org/rfc/rfc7776</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="RFC8711">[RFC8711]</dt>
-        <dd>
-<span class="refAuthor">Haberman, B.</span>, <span class="refAuthor">Hall, J.</span>, and <span class="refAuthor">J. Livingood</span>, <span class="refTitle">"Structure of the IETF Administrative Support Activity, Version 2.0"</span>, <span class="seriesInfo">BCP 101</span>, <span class="seriesInfo">RFC 8711</span>, <span class="seriesInfo">DOI 10.17487/RFC8711</span>, <time datetime="2020-02" class="refDate">February 2020</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8711">https://www.rfc-editor.org/rfc/rfc8711</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFC9245">[RFC9245]</dt>
       <dd>
-<span class="refAuthor">Eggert, L.</span> and <span class="refAuthor">S. Harris</span>, <span class="refTitle">"IETF Discussion List Charter"</span>, <span class="seriesInfo">BCP 45</span>, <span class="seriesInfo">RFC 9245</span>, <span class="seriesInfo">DOI 10.17487/RFC9245</span>, <time datetime="2022-06" class="refDate">June 2022</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9245">https://www.rfc-editor.org/rfc/rfc9245</a>&gt;</span>. </dd>
+<span class="refAuthor">Haberman, B.</span>, <span class="refAuthor">Hall, J.</span>, and <span class="refAuthor">J. Livingood</span>, <span class="refTitle">"Structure of the IETF Administrative Support Activity, Version 2.0"</span>, <span class="seriesInfo">BCP 101</span>, <span class="seriesInfo">RFC 8711</span>, <span class="seriesInfo">DOI 10.17487/RFC8711</span>, <time datetime="2020-02" class="refDate">February 2020</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8711">https://www.rfc-editor.org/rfc/rfc8711</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
@@ -1992,9 +1986,21 @@ individuals named above.<a href="#section-8-4" class="pilcrow">¶</a></p>
         <dd>
 <span class="refAuthor">Rescorla, E.</span> and <span class="refAuthor">B. Korver</span>, <span class="refTitle">"Guidelines for Writing RFC Text on Security Considerations"</span>, <span class="seriesInfo">BCP 72</span>, <span class="seriesInfo">RFC 3552</span>, <span class="seriesInfo">DOI 10.17487/RFC3552</span>, <time datetime="2003-07" class="refDate">July 2003</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3552">https://www.rfc-editor.org/rfc/rfc3552</a>&gt;</span>. </dd>
 <dd class="break"></dd>
+<dt id="RFC3683">[RFC3683]</dt>
+        <dd>
+<span class="refAuthor">Rose, M.</span>, <span class="refTitle">"A Practice for Revoking Posting Rights to IETF Mailing Lists"</span>, <span class="seriesInfo">RFC 3683</span>, <span class="seriesInfo">DOI 10.17487/RFC3683</span>, <time datetime="2004-03" class="refDate">March 2004</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3683">https://www.rfc-editor.org/rfc/rfc3683</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC3934">[RFC3934]</dt>
+        <dd>
+<span class="refAuthor">Wasserman, M.</span>, <span class="refTitle">"Updates to RFC 2418 Regarding the Management of IETF Mailing Lists"</span>, <span class="seriesInfo">RFC 3934</span>, <span class="seriesInfo">DOI 10.17487/RFC3934</span>, <time datetime="2004-10" class="refDate">October 2004</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3934">https://www.rfc-editor.org/rfc/rfc3934</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC7282">[RFC7282]</dt>
-      <dd>
+        <dd>
 <span class="refAuthor">Resnick, P.</span>, <span class="refTitle">"On Consensus and Humming in the IETF"</span>, <span class="seriesInfo">RFC 7282</span>, <span class="seriesInfo">DOI 10.17487/RFC7282</span>, <time datetime="2014-06" class="refDate">June 2014</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7282">https://www.rfc-editor.org/rfc/rfc7282</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC9245">[RFC9245]</dt>
+      <dd>
+<span class="refAuthor">Eggert, L.</span> and <span class="refAuthor">S. Harris</span>, <span class="refTitle">"IETF Discussion List Charter"</span>, <span class="seriesInfo">BCP 45</span>, <span class="seriesInfo">RFC 9245</span>, <span class="seriesInfo">DOI 10.17487/RFC9245</span>, <time datetime="2022-06" class="refDate">June 2022</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9245">https://www.rfc-editor.org/rfc/rfc9245</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
@@ -2388,7 +2394,7 @@ data, even while remaining superficially polite.<a href="#appendix-C-2.5.1" clas
 <p id="appendix-C-3">These items are examples. Moderators and administrators may take moderation
 actions for many other cases.<a href="#appendix-C-3" class="pilcrow">¶</a></p>
 <p id="appendix-C-4">The moderator team's task consists of
-subjective judgement calls. Behaviors not listed here might require
+subjective judgment calls. Behaviors not listed here might require
 moderation, and it is not possible to write a complete list of all such
 behaviors.<a href="#appendix-C-4" class="pilcrow">¶</a></p>
 </section>
